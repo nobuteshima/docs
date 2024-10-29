@@ -41,7 +41,7 @@ Cuando pasa este parámetro, el elemento designado por el parámetro *posicionEl
 
 Dada la lista jerárquica llamada *hList,* mostrada en el entorno Aplicación:
 
-![](../assets/en/commands/pict22758.es.png)
+![](/assets/en/commands/pict22758.es.png)
 
 Después de la ejecución de este código:
 
@@ -51,7 +51,7 @@ Después de la ejecución de este código:
 
 El último elemento visible de la lista es seleccionado:
 
-![](../assets/en/commands/pict22759.es.png)
+![](/assets/en/commands/pict22759.es.png)
 
 Después de la ejecución de las siguientes líneas de código:
 
@@ -68,7 +68,7 @@ Después de la ejecución de las siguientes líneas de código:
 
 Se seleccionan los elementos segundo, tercero y quinto de la lista jerárquica 
 
-![](../assets/en/commands/pict22760.es.png)
+![](/assets/en/commands/pict22760.es.png)
 
 #### Ver también 
 

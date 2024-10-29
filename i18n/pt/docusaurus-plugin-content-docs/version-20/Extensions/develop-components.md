@@ -75,13 +75,13 @@ Todos os métodos de projeto de um projeto de matriz são, por definição, incl
 
 Por outro lado, por padrão, esses métodos de projeto não estarão visíveis e não poderão ser chamados no projeto host. No projeto de matriz, você deve designar explicitamente os métodos que deseja compartilhar com o projeto host, marcando a caixa **Compartilhado por componentes e projeto host** na caixa de diálogo de propriedades do método:
 
-![](../assets/en/Concepts/shared-methods.png)
+![](/assets/en/Concepts/shared-methods.png)
 
 Os métodos do projeto compartilhado podem ser chamados no código do projeto host (mas não podem ser modificados no Editor de código do projeto host). Esses métodos são os **pontos de entrada** do componente.
 
 Por outro lado, por motivos de segurança, por padrão, um componente não pode executar métodos de projeto pertencentes ao projeto host. Em alguns casos, talvez seja necessário permitir que um componente acesse os métodos de projeto do seu projeto host. Para isso, você deve designar explicitamente quais métodos de projeto do projeto host você deseja tornar acessíveis aos componentes (nas propriedades do método, marque a caixa **Compartilhado por componentes e projeto host** ).
 
-![](../assets/en/Concepts/pict516563.en.png)
+![](/assets/en/Concepts/pict516563.en.png)
 
 Uma vez que os métodos do projeto dos projetos host estão disponíveis para os componentes, você pode executar um método host dentro de um componente usando o comando [`EXECUTE FORMULA`](https://doc.4d.com/4dv20/help/command/en/page63.html) ou [`EXECUTE METHOD`](https://doc.4d.com/4dv20/help/command/en/page1007.html). Por exemplo:
 
@@ -109,7 +109,7 @@ Por padrão, as classes e funções de componentes não podem ser chamadas a par
 
 Para permitir que as classes e funções do seu componente sejam expostas nos projetos host, insira um valor na opção [**Espaço de nomes do componente no armazenamento de classes** na página Geral](../settings/general.md#component-namespace-in-the-class-store) das Configurações do projeto da matriz. Por padrão, a área está vazia: as classes de componentes não estão disponíveis fora do contexto do componente.
 
-![](../assets/en/settings/namespace.png)
+![](/assets/en/settings/namespace.png)
 
 > Um *namespace* garante que não surja nenhum conflito quando um projeto host usar componentes diferentes que tenham classes ou funções com nomes idênticos. Um namespace de componente deve estar em conformidade com as [regras de nomeação de propriedades](../Concepts/identifiers.md#object-properties).
 
@@ -126,7 +126,7 @@ $area:=$rect.getArea()
 
 O namespace de um componente [compilado](#protection-of-components-compilation) será adicionado entre parênteses após o nome do componente na [página Component Methods (Métodos do componente](../Concepts/components.md#using-components) ) dos projetos do host:
 
-![](../assets/en/settings/namesapece-explorer.png)
+![](/assets/en/settings/namesapece-explorer.png)
 
 :::
 
@@ -153,7 +153,7 @@ Para facilitar o uso do componente pelos desenvolvedores, você pode marcar a op
 
 Em seguida, um arquivo de sintaxe (formato JSON) é criado automaticamente durante a fase de compilação, preenchido com a sintaxe das classes, funções e [métodos expostos](#sharing-of-project-methods) do componente e colocado na pasta `\Resources\en.lproj` do projeto do componente. 4D usa o conteúdo desse arquivo de sintaxe para gerar ajuda contextual no editor de código, como autocompletar código e sintaxe de função:
 
-![](../assets/en/settings/syntax-code-completion-2.png) ![](../assets/en/settings/syntax-code-completion-1.png)
+![](/assets/en/settings/syntax-code-completion-2.png) ![](/assets/en/settings/syntax-code-completion-1.png)
 
 Se você não inserir um [namespace de componente](#declaring-the-component-namespace), os recursos para as classes e os métodos expostos não serão gerados, mesmo que a opção de arquivo de sintaxe esteja marcada.
 

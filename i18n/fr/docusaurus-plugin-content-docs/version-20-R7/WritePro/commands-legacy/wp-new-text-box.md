@@ -63,7 +63,7 @@ Vous souhaitez créer une zone de texte vide par défaut :
 
 Résultat :
 
-![](../../assets/en/WritePro/commands/pict6196750.en.png)
+![](/assets/en/WritePro/commands/pict6196750.en.png)
 
 #### Exemple 2 
 
@@ -100,7 +100,7 @@ Dans un modèle de lettre, on souhaite ajouter une zone de texte pour afficher l
 
 Résultat :
 
-![](../../assets/en/WritePro/commands/pict6196766.en.png)
+![](/assets/en/WritePro/commands/pict6196766.en.png)
 
 #### Voir aussi 
 

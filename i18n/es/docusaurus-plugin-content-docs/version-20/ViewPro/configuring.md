@@ -9,13 +9,13 @@ Las propiedades del área 4D View Pro pueden configurarse utilizando la lista de
 
 Utilizando la lista de propiedades del área, puede configurar las [propiedades objeto 4D View Pro](FormObjects/viewProArea_overview.md#supported-properties) como **Nombre del objeto**, [**Variable o expresión**](#4d-view-pro-form-object-variable), **Apariencia**, **Acción**, y **Eventos**.
 
-![](../assets/en/ViewPro/vpPropertyList.png)
+![](/assets/en/ViewPro/vpPropertyList.png)
 
 ### Selección de una interfaz usuario
 
 Puede seleccionar la interfaz a utilizar con sus áreas de formulario 4D View Pro en la **Lista de propiedades**, en **Apariencia**:
 
-![](../assets/en/ViewPro/vpUserInterface.PNG)
+![](/assets/en/ViewPro/vpUserInterface.PNG)
 
 > También puede utilizar las propiedades JSON [`userInterface`](FormObjects/properties_Appearance.md#user-interface) y [`withFormulaBar`](FormObjects/properties_Appearance.md#show-formula-bar)(sólo con la interfaz "toolbar").
 
@@ -23,7 +23,7 @@ Las interfaces permiten realizar modificaciones básicas y manipular los datos. 
 
 #### Cinta
 
-![](../assets/en/ViewPro/vpRibbon.png)
+![](/assets/en/ViewPro/vpRibbon.png)
 
 #### Toolbar (Barra de herramientas)
 
@@ -31,7 +31,7 @@ Al activar la interfaz de la barra de herramientas aparece la opción [**Mostrar
 
 Con barra de fórmula visible:
 
-![](../assets/en/ViewPro/vpToolbar.png)
+![](/assets/en/ViewPro/vpToolbar.png)
 
 #### Funcionalidades
 
@@ -126,7 +126,7 @@ La definición de un modelo de formato garantiza que el contenido de sus documen
 
 Por ejemplo, al utilizar los métodos [VP SET VALUE](method-list.md#vp-set-value) o [VP SET NUM VALUE](method-list.md#vp-set-num-value) para introducir las cifras en una factura, es posible que desee que los símbolos de moneda ($, €, ¥, etc.) se alineen independientemente del espacio requerido por el número (es decir, si el importe es de 5,00 $ o de 5.000,00 $). Podría utilizar caracteres de formato y espectificar el patrón _($* #,##0.00_) que mostraría los importes como se muestra:
 
-![](../assets/en/ViewPro/apx_vpCellFormat1.PNG)
+![](/assets/en/ViewPro/apx_vpCellFormat1.PNG)
 
 Tenga en cuenta que al crear sus propios formatos, sólo se modifica la visualización de los datos. El valor de los datos permanece sin cambios.
 
@@ -291,12 +291,12 @@ Los siguientes caracteres especiales permiten añadir o dar formato automáticam
 | N        | Conteo de páginas                 | printInfo.headerLeft:="Hay &N páginas."                                | Hay 10 páginas.                                      |
 | D        | Fecha actual (formato yyyy/mm/dd) | printInfo.headerLeft:="Es &D."                                         | Es 2015/6/19.                                        |
 | T        | Hora actual                       | printInfo.headerLeft:="Es &T."                                         | Es 16:30:36.                                         |
-| G        | Imagen                            | printInfo.headerLeftImage:=smiley<br/>printInfo.headerLeft:="&G" | ![](../assets/en/ViewPro/apx_vpPrintAttributes1.PNG) |
+| G        | Imagen                            | printInfo.headerLeftImage:=smiley<br/>printInfo.headerLeft:="&G" | ![](/assets/en/ViewPro/apx_vpPrintAttributes1.PNG) |
 | S        | Tachado                           | printInfo.headerLeft:="&SEsto es texto."                               | ~~Esto es texto.~~                                   |
 | U        | Subrayado                         | printInfo.headerLeft:="&UEsto es texto."                               | Esto es texto. (Subrayado)                           |
 | B        | Negrita                           | printInfo.headerLeft:="&BEsto es texto."                               | **Esto es texto.**                                   |
 | I        | Itálica                           | printInfo.headerLeft:="&IEsto es texto."                               | *Esto es texto.*                                     |
-| "        | Prefijo fuente                    | printInfo.headerLeft:="&\"Lucida Console\"&14This is text."          | ![](../assets/en/ViewPro/apx_vpPrintAttributes2.PNG) |
+| "        | Prefijo fuente                    | printInfo.headerLeft:="&\"Lucida Console\"&14This is text."          | ![](/assets/en/ViewPro/apx_vpPrintAttributes2.PNG) |
 | K        | Prefijo de color de texto         | printInfo.headerLeft:="&KFF0000Esto es texto."                         | Esto es texto (en rojo).                             |
 | F        | Nombre del libro                  | printInfo.headerLeft:="&F"                                             | 2019 Monthly Revenue Forecasts                       |
 | A        | Nombre de la hoja de cálculo      | printInfo.headerLeft:="&A"                                             | June 2019 revenue forecast                           |

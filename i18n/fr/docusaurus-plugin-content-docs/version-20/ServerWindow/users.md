@@ -7,13 +7,13 @@ title: Page Utilisateurs
 La page **Utilisateurs** liste les utilisateurs 4D connectés au serveur.
 
 
-![](../assets/en/Admin/server-users.png)
+![](/assets/en/Admin/server-users.png)
 
 Le bouton "Utilisateurs" indique entre parenthèses le nombre total d’utilisateurs connectés au serveur (ce nombre ne tient pas compte des éventuels filtres d’affichage appliqués à la fenêtre). La page contient également une zone de recherche dynamique et des boutons de commande. Vous pouvez modifier l’ordre des colonnes par simple glisser-déposer de la zone d’en-tête des colonnes.
 
 Vous pouvez également trier la liste sur les valeurs d’une colonne en cliquant sur son en-tête. Cliquez plusieurs fois pour définir alternativement un ordre croissant/décroissant.
 
-![](../assets/en/Admin/server-users-sort.png)
+![](/assets/en/Admin/server-users-sort.png)
 
 ## Liste des utilisateurs
 
@@ -32,7 +32,7 @@ Pour chaque utilisateur connecté à la base, la liste fournit les informations 
 
 4D Server gère spécifiquement le cas où la machine d'une application distante 4D passe en mode veille alors que la connexion au serveur est toujours active. Dans ce cas, l'application distante 4D connectée notifie automatiquement 4D Server de sa déconnexion imminente. Sur le serveur, l'utilisateur connecté prend le statut d'activité **Endormi** :
 
-![](../assets/en/Admin/server-sleeping.png)
+![](/assets/en/Admin/server-sleeping.png)
 
 Ce statut libère les ressources sur le serveur. En outre, l'application 4D distante se reconnecte automatiquement à 4D Server après la sortie du mode veille.
 
@@ -56,7 +56,7 @@ La page comporte trois boutons de commande. Ces boutons sont actifs si au moins 
 
 Ce bouton permet d’envoyer un message aux utilisateurs 4D sélectionnés dans la fenêtre. Si aucun utilisateur 4D n’est sélectionné, le bouton est désactivé. Lorsque vous cliquez sur le bouton, une boîte de dialogue apparaît, vous permettant saisir le message. La boîte de dialogue indique le nombre d’utilisateurs qui recevront le message :
 
-![](../assets/en/Admin/server-message.png)
+![](/assets/en/Admin/server-message.png)
 
 Le message sera affiché sous forme d’alerte sur les postes distants.
 

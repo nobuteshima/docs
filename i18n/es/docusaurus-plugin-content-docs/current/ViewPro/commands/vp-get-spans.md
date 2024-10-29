@@ -24,7 +24,7 @@ En *rangeObj*, pase un rango de celdas fusionadas que desee recuperar. Si *range
 
 Para centrar el texto de las celdas fusionadas en este documento:
 
-![](../../assets/en/ViewPro/cmd_vpGetSpans.PNG)
+![](/assets/en/ViewPro/cmd_vpGetSpans.PNG)
 
 ```4d
 // Buscar todas las celdas fusionadas 

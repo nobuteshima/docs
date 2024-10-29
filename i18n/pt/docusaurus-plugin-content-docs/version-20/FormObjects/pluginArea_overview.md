@@ -8,7 +8,7 @@ A plug-in area is an area on the form that is completely controlled by a plug-in
 
 Quando abrir um banco de dados, 4D cria uma lista interna de plug-ins [instalado em seu banco de dados](#installing-plug-ins). Quando tiver inserido uma área Plug-in em um formulário, pode atribuir um plug-in para a área diretamente na lista de tipos da Lista de Propriedades:
 
-![](../assets/en/FormObjects/pluginArea.png)
+![](/assets/en/FormObjects/pluginArea.png)
 
 > Some plug-ins, such as 4D Internet Commands, cannot be used in forms or external windows. When a plug-in cannot be used in a form, it does not appear in the plug-in list of the Property List.
 

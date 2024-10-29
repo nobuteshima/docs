@@ -30,7 +30,7 @@ title: VP CREATE TABLE
 
 O comando `VP CREATE TABLE` <!-- REF #_method_.VP CREATE TABLE.Summary -->cria uma tabela no intervalo especificado<!-- END REF -->. É possível criar uma tabela em um intervalo de células para facilitar o gerenciamento e a análise de um grupo de dados relacionados. Em geral, uma tabela contém dados relacionados em linhas e colunas e aproveita um [contexto de dados] (vp-set-data-context).
 
-![](../../assets/en/ViewPro/vp-create-table.png)
+![](/assets/en/ViewPro/vp-create-table.png)
 
 Em *rangeObj*, passe o intervalo de células em que a tabela será criada.
 
@@ -97,7 +97,7 @@ $options.tableColumns.push(cs. ViewPro. TableColumns.new("name"; "Email"; "dataF
 
 Aqui está o resultado:
 
-![](../../assets/en/ViewPro/vp-create-table.png)
+![](/assets/en/ViewPro/vp-create-table.png)
 
 #### Veja também
 

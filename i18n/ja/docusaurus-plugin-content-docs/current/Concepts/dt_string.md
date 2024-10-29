@@ -193,7 +193,7 @@ End if
 
 ランタイムにおいてエラーがトリガーされます:
 
-![alt-text](../assets/en/Concepts/Syntax_Error.en.png)
+![alt-text](/assets/en/Concepts/Syntax_Error.en.png)
 
 ### 例題
 
@@ -224,4 +224,4 @@ ALERT(Capitalize_text("hello, my name is jane doe and i'm running for president!
 
 以下のように表示されます:
 
-![alt-text](../assets/en/Concepts/Jane_doe.en.png)
+![alt-text](/assets/en/Concepts/Jane_doe.en.png)

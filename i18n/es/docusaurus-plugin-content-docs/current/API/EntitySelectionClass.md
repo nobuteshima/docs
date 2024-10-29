@@ -473,7 +473,7 @@ $sel2:=$sel.clean()
   //$sel2.length = 3
 ```
 
-![](../assets/en/API/clean.png)
+![](/assets/en/API/clean.png)
 
 #### Ver también
 
@@ -911,7 +911,7 @@ Si se indican varios *attributePath*, debe indicarse un *targetPath* para cada u
 
 Dada la siguiente tabla y relación:
 
-![](../assets/en/API/entityselection.PNG)
+![](/assets/en/API/entityselection.PNG)
 
 ```4d
  var $firstnames; $addresses; $mailing; $teachers : Collection
@@ -2169,7 +2169,7 @@ Si <em x-id="3">howMany</em> > longitud de la entity selection, el método devue
 
 En todos los ejemplos de esta sección se utilizará la siguiente estructura:
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 Ejemplo sin parámetros de filtro ni de opciones:
 

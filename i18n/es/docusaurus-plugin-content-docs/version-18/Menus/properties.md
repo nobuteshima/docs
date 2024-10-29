@@ -82,7 +82,7 @@ Esta opción del editor de menús permite definir un grupo para un comando de me
 
 Los grupos de comandos de menús pueden estar divididos por una línea de separación. Esta convención es útil para agrupar los comandos de menú asociados por función.
 
-![](../assets/en/Menus/separator.png)
+![](/assets/en/Menus/separator.png)
 
 Se añade una línea de separación mediante la creación de un comando de menú específico.
 
@@ -127,7 +127,7 @@ Para asignar un atajo de teclado en el editor de menús:
 
 Seleccione la opción de menú a la que desea asignar un atajo de teclado. Haga clic en el botón [...] situado a la derecha del área de entrada "Acceso directo". Aparece la siguiente ventana:
 
-![](../assets/en/Menus/Shortcut.png)
+![](/assets/en/Menus/Shortcut.png)
 
 Introduzca el carácter que desea utilizar y, a continuación (opcional), haga clic en las casillas de selección **Mayús** y/o **Alt** (**Opción**) según la combinación deseada. También puede presionar directamente las teclas que componen la combinación deseada (no presione la tecla **Ctrl/Comando**).
 
@@ -160,11 +160,11 @@ Como regla general, aplique los estilos de fuente con moderación a sus menús; 
 
 Puede asociar un icono a un elemento del menú. Aparecerá directamente en el menú, junto al elemento:
 
-![](../assets/en/Menus/iconMenu.png)
+![](/assets/en/Menus/iconMenu.png)
 
 Para definir el icono en el editor de menús, haga clic en el área "Icono del elemento" y seleccione **Abrir** para abrir una imagen del disco. Si selecciona un archivo imagen que no está almacenado en la carpeta Recursos de la base, se copiará automáticamente en esa carpeta. Una vez definido, el icono del elemento aparece en el área de vista previa:
 
-![](../assets/en/Menus/iconpreview.png)
+![](/assets/en/Menus/iconpreview.png)
 
 Para eliminar el icono del elemento, elija la opción **Sin icono** del área "Icono línea".
 

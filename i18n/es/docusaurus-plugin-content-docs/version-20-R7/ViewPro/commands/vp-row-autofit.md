@@ -23,7 +23,7 @@ En *rangeObj*, pase un objeto rango que contenga un rango de líneas cuyo tamañ
 
 Las siguientes líneas no muestran correctamente el texto:
 
-![](../../assets/en/ViewPro/cmd_vpRowAutoFit1.PNG)
+![](/assets/en/ViewPro/cmd_vpRowAutoFit1.PNG)
 
 ```4d
  VP ROW AUTOFIT(VP Row("ViewProArea";1;2))
@@ -31,7 +31,7 @@ Las siguientes líneas no muestran correctamente el texto:
 
 Resultado:
 
-![](../../assets/en/ViewPro/cmd_vpRowAutoFit2.PNG)
+![](/assets/en/ViewPro/cmd_vpRowAutoFit2.PNG)
 
 #### Ver también
 

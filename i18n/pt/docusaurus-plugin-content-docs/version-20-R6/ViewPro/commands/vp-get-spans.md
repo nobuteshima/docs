@@ -24,7 +24,7 @@ Em *rangeObj*, passe um intervalo de células fusionadas que queira recuperar. S
 
 Se quiser centrar o texto das células fusionadas neste documento:
 
-![](../../assets/en/ViewPro/cmd_vpGetSpans.PNG)
+![](/assets/en/ViewPro/cmd_vpGetSpans.PNG)
 
 ```4d
 // Search for all cell spans 

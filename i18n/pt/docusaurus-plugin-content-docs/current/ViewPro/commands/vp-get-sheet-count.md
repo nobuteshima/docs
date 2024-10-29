@@ -24,7 +24,7 @@ Em *vpAreaName*, passe o nome da área 4D View Pro.
 
 No documento seguinte:
 
-![](../../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 Obter a contagem de folhas e definir a folha atual como a última folha:
 
@@ -34,7 +34,7 @@ Obter a contagem de folhas e definir a folha atual como a última folha:
  VP SET CURRENT SHEET("ViewProArea";$count-1)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-3-select.png)
+![](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 #### Veja também
 

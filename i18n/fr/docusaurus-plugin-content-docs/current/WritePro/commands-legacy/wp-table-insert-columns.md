@@ -52,7 +52,7 @@ Vous souhaitez insérer deux colonnes après la première colonne du tableau *In
 
 Insèrera la nouvelle colonne à l'emplacement souhaité :
 
-![](../../assets/en/WritePro/commands/pict4680283.en.png)
+![](/assets/en/WritePro/commands/pict4680283.en.png)
 
 #### Voir aussi 
 

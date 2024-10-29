@@ -48,7 +48,7 @@ displayed_sidebar: docs
 
 正しい位置の行が削除されます:
 
-![](../../assets/en/WritePro/commands/pict4680306.en.png)
+![](/assets/en/WritePro/commands/pict4680306.en.png)
 
 #### 参照 
 

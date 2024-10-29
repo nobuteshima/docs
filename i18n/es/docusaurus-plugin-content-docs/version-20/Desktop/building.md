@@ -34,11 +34,11 @@ También puede descargar y utilizar [`Build4D`](https://github.com/4d-depot/Buil
 
 Para mostrar la caja de diálogo Generar la aplicación, seleccione **Diseño** > **Generar la aplicación...** en la barra de menús.
 
-![](../assets/en/Project/buildappProj.png)
+![](/assets/en/Project/buildappProj.png)
 
 La caja de diálogo del generador de aplicaciones incluye varias páginas a las que se puede acceder mediante pestañas:
 
-![](../assets/en/Project/appbuilderProj.png)
+![](/assets/en/Project/appbuilderProj.png)
 
 La generación sólo puede efectuarse una vez compilado el proyecto. Si selecciona este comando sin haber compilado previamente el proyecto, o si el código compilado no se corresponde con el código interpretado, aparece una caja de diálogo de advertencia que indica que el proyecto debe ser (re)compilado.
 
@@ -66,7 +66,7 @@ La verificación de este archivo puede ayudarle a ahorrar tiempo durante los sig
 
 ## Nombre de la aplicación y carpeta de destino
 
-![](../assets/en/Project/buidappstructureProj.png)
+![](/assets/en/Project/buidappstructureProj.png)
 
 Introduzca el nombre de la aplicación en **Nombre de la aplicación**.
 
@@ -76,7 +76,7 @@ Especifique la carpeta para la aplicación generada en la **Carpeta de destino**
 
 Esta pestaña le permite generar un archivo de estructura compilado estándar y/o un componente compilado:
 
-![](../assets/en/Project/appbuilderProj.png)
+![](/assets/en/Project/appbuilderProj.png)
 
 ### Generar una estructura compilada
 
@@ -114,7 +114,7 @@ La carpeta *MyComponent.4dbase* contiene:
 
 Esta pestaña le permite crear una versión autónoma y monopuesto de su aplicación:
 
-![](../assets/en/Project/standaloneProj.png)
+![](/assets/en/Project/standaloneProj.png)
 
 ### Crear una aplicación autónoma
 
@@ -200,7 +200,7 @@ Los elementos deben ser instalados:
 
 En esta pestaña, usted puede construir aplicaciones cliente y servidor personalizadas que son homogénicas, multiplataforma y con una opción de actualización automática.
 
-![](../assets/en/Desktop/client-server-buildapp.png)
+![](/assets/en/Desktop/client-server-buildapp.png)
 
 ### ¿Qué es una aplicación cliente/servidor?
 
@@ -262,7 +262,7 @@ Para permitir a los clientes Apple Silicon conectarse a una aplicación servidor
 
 A continuación, puede copiar esa estructura en su máquina Windows y utilizarla para construir la aplicación servidor:
 
-![](../assets/en/Desktop/allow-mac-clients.png)
+![](/assets/en/Desktop/allow-mac-clients.png)
 
 #### Ubicación de la estructura compilada
 
@@ -428,11 +428,11 @@ La personalización del nombre de la carpeta de caché del lado del cliente pued
 
 * Configuración por defecto (*para cada conexión a un servidor, una carpeta caché específica se descarga/actualiza*):
 
-![](../assets/en/Admin/cachea.png)
+![](/assets/en/Admin/cachea.png)
 
 * Utilizando la llave `ClientServerSystemFolderName` (*se utiliza una única carpeta de caché para todos los servidores*):
 
-![](../assets/en/Admin/cacheb.png)
+![](/assets/en/Admin/cacheb.png)
 
 #### Carpeta de caché del servidor
 
@@ -440,11 +440,11 @@ La personalización del nombre de la carpeta de caché del lado del servidor es 
 
 * Configuración por defecto (*las mismas aplicaciones servidor comparten la misma carpeta de caché*):
 
-![](../assets/en/Admin/cacheServera.png)
+![](/assets/en/Admin/cacheServera.png)
 
 * Utilizando la llave `ServerStructureFolderName` (*se utiliza una carpeta de caché dedicada para cada aplicación servidor*):
 
-![](../assets/en/Admin/cacheServerb.png)
+![](/assets/en/Admin/cacheServerb.png)
 
 ## Página Plugins y componentes
 
@@ -452,7 +452,7 @@ En esta pestaña, se configura cada [**plug-in**](Concepts/plug-ins.md), [**comp
 
 La página lista los elementos cargados por la aplicación 4D actual:
 
-![](../assets/en/Desktop/buildappcomps.png)
+![](/assets/en/Desktop/buildappcomps.png)
 
 * La columna **Activa** indica los elementos que se integrarán en la aplicación generada. Todos los elementos están marcados por defecto. Para excluir un plug-in, un componente o un módulo, desmarque la casilla de selección situada junto a él.
 
@@ -493,7 +493,7 @@ La página de Licencias y certificados puede utilizarse para:
 * designe el número o los números de licencia que desea integrar en su aplicación ejecutable monopuesto
 * firmar la aplicación mediante un certificado en macOS.
 
-![](../assets/en/Admin/buildappCertif.png)
+![](/assets/en/Admin/buildappCertif.png)
 
 ### Licencias
 
@@ -525,18 +525,18 @@ El generador de aplicaciones puede firmar aplicaciones 4D fusionadas bajo macOS 
 
 * Marque la opción **Firmar la aplicación** para incluir la certificación en los procesos de generación de aplicaciones para OS X. 4D comprobará la disponibilidad de los elementos necesarios para la certificación cuando se produzca la generación:
 
-![](../assets/en/Admin/buildapposxcertProj.png)
+![](/assets/en/Admin/buildapposxcertProj.png)
 
 Esta opción aparece tanto en Windows como en macOS, pero sólo se tiene en cuenta en las versiones de macOS.
 
 * **Nombre del certificado**: introduzca en esta área el nombre de su certificado desarrollador validado por Apple. El nombre del certificado suele ser el nombre del certificado en el utilitario Keychain Access (la parte en rojo en el siguiente ejemplo):
 
-![](../assets/en/Project/certificate.png)
+![](/assets/en/Project/certificate.png)
 
 Para obtener un certificado de desarrollador de Apple, Inc., puede utilizar los comandos del menú de acceso al llavero o ir aquí: [http://developer.apple.com/library/mac/#documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html](http://developer.apple.com/library/mac/#documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html).
 > Este certificado requiere la presencia del utilitario codesign de Apple, que se ofrece por defecto y suele estar ubicado en la carpeta "/usr/bin/". Si se produce un error, asegúrese de que este utilitario esté presente en su disco.
 
-* **Generar un certificado autofirmado** - ejecuta el "Asistente de Certificados" que permite generar un certificado autofirmado. Si no tiene un certificado de desarrollador Apple, debe suministrar un certificado autofirmado. Con este certificado, no se muestra ningún mensaje de alerta si la aplicación se despliega internamente. Si la aplicación se despliega externamente (es decir, a través de http o correo electrónico), al iniciarse macOS muestra un mensaje de alerta que indica que el desarrollador de la aplicación no está identificado. El usuario puede "forzar" la apertura de la aplicación. En el "Asistente de certificados", asegúrese de seleccionar las opciones apropiadas: ![](../assets/en/Admin/Cert1.png) ![](../assets/en/Admin/Cert2.png)
+* **Generar un certificado autofirmado** - ejecuta el "Asistente de Certificados" que permite generar un certificado autofirmado. Si no tiene un certificado de desarrollador Apple, debe suministrar un certificado autofirmado. Con este certificado, no se muestra ningún mensaje de alerta si la aplicación se despliega internamente. Si la aplicación se despliega externamente (es decir, a través de http o correo electrónico), al iniciarse macOS muestra un mensaje de alerta que indica que el desarrollador de la aplicación no está identificado. El usuario puede "forzar" la apertura de la aplicación. En el "Asistente de certificados", asegúrese de seleccionar las opciones apropiadas: ![](/assets/en/Admin/Cert1.png) ![](/assets/en/Admin/Cert2.png)
 
 > 4D recomienda suscribirse al Programa Apple Developer Program para tener acceso a los Certificados de Desarrollador que son necesarios para notarizar las aplicaciones (ver más abajo).
 
@@ -621,9 +621,9 @@ Por lo tanto, 4D le permite vincular la ruta del archivo de datos a la ruta de l
 
 Este modo le permite duplicar sus aplicaciones fusionadas sin romper el vínculo con el archivo de datos. Sin embargo, con esta opción, si el paquete de la aplicación se mueve en el disco, se pedirá al usuario un archivo de datos, ya que la ruta de la aplicación ya no coincidirá con el atributo "executablePath" (después de que el usuario haya seleccionado un archivo de datos, el archivo *lastDataPath.xml* se actualiza en consecuencia).
 
-*Duplicación cuando los datos están vinculados por el nombre de la aplicación:* ![](../assets/en/Project/datalinking1.png)
+*Duplicación cuando los datos están vinculados por el nombre de la aplicación:* ![](/assets/en/Project/datalinking1.png)
 
-*Duplicación cuando los datos están vinculados por la ruta de la aplicación:* ![](../assets/en/Project/datalinking2.png)
+*Duplicación cuando los datos están vinculados por la ruta de la aplicación:* ![](/assets/en/Project/datalinking2.png)
 
 Puede seleccionar el modo de vinculación de datos durante el proceso de generación de la aplicación. Puede:
 
@@ -646,7 +646,7 @@ Para definir y utilizar un archivo de datos por defecto:
 
 El siguiente gráfico ilustra esta funcionalidad:
 
-![](../assets/en/Project/DefaultData.png)
+![](/assets/en/Project/DefaultData.png)
 
 Cuando se detecta el archivo de datos por defecto en el primer lanzamiento, se abre silenciosamente en modo de sólo lectura, lo que le permite ejecutar toda operación personalizada que no modifique el archivo de datos en sí.
 
@@ -672,7 +672,7 @@ El procedimiento de conexión para las aplicaciones cliente fusionadas admite lo
 
 Todo el procedimiento se describe en el siguiente diagrama:
 
-![](../assets/en/Desktop/client-connect.png)
+![](/assets/en/Desktop/client-connect.png)
 
 ### Almacenando la última ruta del servidor
 
@@ -692,9 +692,9 @@ Este mecanismo aborda el caso en el que el servidor objetivo primario esté disp
 Puede elegir si mostrar o no la caja de diálogo estándar de selección de servidor en las aplicaciones cliente fusionadas cuando no se puede acceder al servidor. La configuración depende del valor de la [ServerSelectionAllowed](https://doc.4d.com/4Dv17R6/4D/17-R6/ServerSelectionAllowed.300-4465714.en.html) La llave XML en la máquina donde se generó la aplicación:
 
 * **Visualización de un mensaje de error sin poder acceder a la caja de diálogo de selección del servidor**. Funcionamiento por defecto. La aplicación sólo puede salir.  
-  `ServerSelectionAllowed`: **False** o se omite la llave ![](../assets/en/Project/connect1.png)
+  `ServerSelectionAllowed`: **False** o se omite la llave ![](/assets/en/Project/connect1.png)
 
-* **Visualización de un mensaje de error con acceso posible a la caja de diálogo de selección del servidor**. El usuario puede acceder a la ventana de selección del servidor haciendo clic en el botón **Seleccionar...**. `ServerSelectionAllowed`: **True** ![](../assets/en/Project/connect2.png) ![](../assets/en/Project/connect3.png)
+* **Visualización de un mensaje de error con acceso posible a la caja de diálogo de selección del servidor**. El usuario puede acceder a la ventana de selección del servidor haciendo clic en el botón **Seleccionar...**. `ServerSelectionAllowed`: **True** ![](/assets/en/Project/connect2.png) ![](/assets/en/Project/connect3.png)
 
 ## Actualización automática de aplicaciones servidor o monopuesto
 

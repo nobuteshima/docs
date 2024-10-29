@@ -12,7 +12,7 @@ User preferences specify various settings affecting your working environment, e.
 
 Você pode acessar a caixa de diálogo Preferências no menu **Editar> Preferencies...** (Windows) ou no menu da aplicação **4D** (macOS):
 
-![](../assets/en/Preferences/overviewAccess.png)
+![](/assets/en/Preferences/overviewAccess.png)
 
 Esta opção de menu está disponível mesmo quando não existe nenhum projeto aberto.
 
@@ -29,7 +29,7 @@ Les réglages effectués dans la boîte de dialogue Préférences sont enregistr
 
 Nas caixas de diálogo de parâmetros, os parâmetros cujos valores foram modificados aparecem a negrito:
 
-![](../assets/en/Preferences/overviewUser.png)
+![](/assets/en/Preferences/overviewUser.png)
 
 As preferências indicadas como personalizadas podem ter sido modificadas diretamente na caixa de diálogo, ou podem ter sido modificadas anteriormente no caso de uma base de dados convertida.
 
@@ -37,6 +37,6 @@ Um parâmetro continua a aparecer a negrito mesmo quando o seu valor é substitu
 
 Para repor os parâmetros nos seus valores predefinidos e remover o estilo a negrito que indica que foram personalizados, clique no botão **Repor os parâmetros de fábrica**:
 
-![](../assets/en/Preferences/overviewSettings.png)
+![](/assets/en/Preferences/overviewSettings.png)
 
 Este botão repõe todos os parâmetros da página atual. Fica ativo quando pelo menos um parâmetro tiver sido modificado na página atual.

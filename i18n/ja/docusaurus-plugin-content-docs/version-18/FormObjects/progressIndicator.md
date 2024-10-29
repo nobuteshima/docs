@@ -7,7 +7,7 @@ title: 進捗インジケーター
 
 進捗インジケーター (または "サーモメーター") は図形を用いて値を表示するオブジェクトです。
 
-![](../assets/en/FormObjects/progress1.png)
+![](/assets/en/FormObjects/progress1.png)
 
 ### インジケーターの使用
 
@@ -31,7 +31,7 @@ title: 進捗インジケーター
 
 ## デフォルトサーモメーター
 
-![](../assets/en/FormObjects/indicator_progressBar.png)
+![](/assets/en/FormObjects/indicator_progressBar.png)
 
 サーモメーターはデフォルトの進捗インジケーターです。
 
@@ -45,7 +45,7 @@ title: 進捗インジケーター
 
 ## バーバーショップ
 
-![](../assets/en/FormObjects/indicator.gif)
+![](/assets/en/FormObjects/indicator.gif)
 
 **バーバーショップ** はデフォルトサーモメーターの一種です。 このバリエーションを選択するには [バーバーショップ](properties_Scale.md#バーバーショップ) プロパティをチェックします。
 > JSON コードにおいては、デフォルトサーモメーターのオブジェクトから "max" プロパティを取り除くだけで、インジケーターがバーバーショップになります。

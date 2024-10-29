@@ -7,7 +7,7 @@ Un onglet crée un objet qui permet à l’utilisateur de choisir entre plusieur
 
 Le formulaire multi-pages suivant utilise un onglet :
 
-![](../assets/en/FormObjects/tabControl1.png)
+![](/assets/en/FormObjects/tabControl1.png)
 
 Pour passer d’un écran à l’autre, l’utilisateur clique simplement sur l’onglet correspondant.
 
@@ -17,7 +17,7 @@ Un onglet peut aussi être utilisé pour contrôler les données qui sont affich
 
 Chaque onglet peut afficher des intitulés ou des intitulés et des petites icônes. Si vous placez des icônes, elles apparaissent à gauche de chaque intitulé. Voici un exemple d’onglet qui utilise des icônes :
 
-![](../assets/en/FormObjects/tabControl2.png)
+![](/assets/en/FormObjects/tabControl2.png)
 
 Lorsque vous créez un onglet, 4D gère l’espacement et le placement des onglets. Vous n’avez à fournir à 4D que les intitulés sous la forme d’un tableau ou les icônes et intitulés sous la forme d’une énumération hiérarchique.
 

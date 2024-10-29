@@ -34,7 +34,7 @@ Por exemplo, quando uma resposta HTTP devolve um código de estado 404:
 
 Se definir as seguintes páginas personalizadas na sua pasta Web:
 
-![](../assets/en/WebServer/errorPage.png)
+![](/assets/en/WebServer/errorPage.png)
 
 *   as páginas "403.html" ou "404.html" serão exibidas quando as respostas HTTP 403 ou 404 forem retornadas, respectivamente,
 

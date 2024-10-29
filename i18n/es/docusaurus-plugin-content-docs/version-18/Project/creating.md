@@ -16,7 +16,7 @@ Los nuevos proyectos 4D sólo pueden ser creados desde **4D Developer** (ver [De
 Para crear un nuevo proyecto de base de datos:
 
 1. Lance una aplicación 4D Developer.
-2. Select **New > Database Project...** from the **File** menu: ![](../assets/en/Project/project-create1.png) OR Select **Database Project...** from the **New** toolbar button: ![](../assets/en/Project/projectCreate2.png) A standard **Save** dialog box appears so that you can choose the name and location of the 4D database project main folder.
+2. Select **New > Database Project...** from the **File** menu: ![](/assets/en/Project/project-create1.png) OR Select **Database Project...** from the **New** toolbar button: ![](/assets/en/Project/projectCreate2.png) A standard **Save** dialog box appears so that you can choose the name and location of the 4D database project main folder.
 1. Introduzca el nombre de su carpeta de proyecto y haga clic en **Guardar**. Este nombre se utilizará:
  - como el nombre de la carpeta principal del proyecto (llamada "MyFirstProject" en el ejemplo de la sección [Arquitectura de un Proyecto 4D](Project/architecture.md)),
  - como nombre del archivo .4DProject en el primer nivel de la carpeta "Project". Puedes elegir cualquier nombre permitido por su sistema operativo. *Atención:* si su base proyecto está destinada a funcionar en otros sistemas o a ser guardada a través de una herramienta de control de código fuente, debe tener en cuenta sus recomendaciones específicas de denominación.

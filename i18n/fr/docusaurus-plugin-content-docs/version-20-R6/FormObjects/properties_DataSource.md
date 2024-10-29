@@ -16,7 +16,7 @@ Cette propriété est prise en charge par :
 
 For example, given a choice list containing "France, Germany, Italy" that is associated with a "Countries" combo box: if the **automatic insertion** property is set and a user enters "Spain", then the value "Spain" is automatically added to the list in memory:
 
-![](../assets/en/FormObjects/comboBox_AutomaticInsertion_example.png)
+![](/assets/en/FormObjects/comboBox_AutomaticInsertion_example.png)
 
 > Si la liste déroulante a été créée à partir d'une liste définie en mode Développement, la liste d'origine n'est pas modifiée.
 
@@ -173,7 +173,7 @@ Liste des valeurs qui seront utilisées comme valeurs par défaut pour la colonn
 
 Vous devez saisir une liste de valeurs. Dans l'éditeur de formulaires, une boîte de dialogue spécifique vous permet de saisir des valeurs séparées par des retours à la ligne :
 
-![](../assets/en/FormObjects/defaultValues.png)
+![](/assets/en/FormObjects/defaultValues.png)
 
 > Vous pouvez également définir une [énumération](properties_DataSource.md#choice-list) avec la colonne de list box. Toutefois, une énumération sera utilisée comme liste de valeurs sélectionnables pour chaque ligne de colonne, alors que la liste par défaut remplit toutes les lignes de colonne.
 

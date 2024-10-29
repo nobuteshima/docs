@@ -18,12 +18,12 @@ Certains styles de boutons peuvent être [liés à un menu contextuel](FormObjec
 - If the pop-up menu is **separated**, the event is only generated when a click occurs on the portion of the button with the arrow. Note that the [standard action](https://doc.4d.com/4Dv19R7/4D/19-R7/Standard-actions.300-6013479.en.html) assigned to the button (if any) is not executed in this case.
 - Si le pop-up menu est **lié**, l'événement est généré lorsqu'un clic se produit sur n'importe quelle partie du bouton. A noter que l'événement [`On Long Click`](onLongClick.md) ne peut pas être généré avec ce type de bouton.
 
-![](../assets/en/Events/clickevents.png)
+![](/assets/en/Events/clickevents.png)
 
 ### List box
 
 Cet événement est généré dans des colonnes de [list box de type tableau objets](FormObjects/listbox_overview.md#object-arrays-in-columns-4d-view-pro), lorsque l'utilisateur clique sur un bouton de sélection de widget (attribut "AlternateButton").
 
-![](../assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
 
 Voir la [description de l'attribut "alternateButton"](FormObjects/listbox_overview.md#alternatebutton).

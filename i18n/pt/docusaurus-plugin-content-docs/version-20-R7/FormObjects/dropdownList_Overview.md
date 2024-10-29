@@ -7,7 +7,7 @@ Listas drop-down são objetos que permitem que os usuários selecionem de uma li
 
 Em macOS, listas drop down são também chamadas de "menu pop up" Ambos os nomes referem aos mesmos objetos. Ambos os nomes referem aos mesmos objetos. Como no exemplo abaixo, a aparência desses objetos podem diferenciar levemente de acordo com a plataforma:
 
-![](../assets/en/FormObjects/popupDropdown_appearance.png)
+![](/assets/en/FormObjects/popupDropdown_appearance.png)
 
 ## Tipos de listas pendentes
 
@@ -55,11 +55,11 @@ Form.myDrop.currentValue:="Select a fruit"
 
 A lista suspensa é exibida com a string de placeholder:
 
-![](../assets/en/FormObjects/fruits2.png)
+![](/assets/en/FormObjects/fruits2.png)
 
 Depois de o utilizador selecionar um valor:
 
-![](../assets/en/FormObjects/fruits3.png)
+![](/assets/en/FormObjects/fruits3.png)
 
 ```4d
 Form.myDrop.values // ["apples","nuts","pears","oranges","carrots"]
@@ -132,7 +132,7 @@ Para associar uma lista suspensa a um campo ou variável, digite o nome do campo
 
 Quando o formulário for executado, 4D automaticamente gerencia o menu pop up ou com box durante a entrada ou a visualização: quando um usuário escolher um valor, é salvo no campo; esse valor de campo é mostrado no menu pop up quando o formulário for exibido:
 
-![](../assets/en/FormObjects/popupDropdown_choiceList.png)
+![](/assets/en/FormObjects/popupDropdown_choiceList.png)
 
 #### Valor do item selecionado ou Referência do item selecionado
 
@@ -142,7 +142,7 @@ Quando você tiver associado uma lista suspensa a uma lista de opções e a um c
 
 A hierarchical drop-down list has a sublist associated with each item in the list. Eis um exemplo de uma lista pendente hierárquica:
 
-![](../assets/en/FormObjects/popupDropdown_hierar.png)
+![](/assets/en/FormObjects/popupDropdown_hierar.png)
 
 > Nos formulários, as listas pendentes hierárquicas estão limitadas a dois níveis.
 

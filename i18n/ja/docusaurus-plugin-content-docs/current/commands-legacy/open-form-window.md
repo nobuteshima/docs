@@ -133,7 +133,7 @@ Movable form dialog box 、Plain form window およびPalette form window タイ
 
 結果は以下のようになります:
 
-![](../assets/en/commands/pict3687439.en.png)
+![](/assets/en/commands/pict3687439.en.png)
 
 #### 参照 
 

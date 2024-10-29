@@ -24,13 +24,13 @@ Para simplificar o exemplo, vamos usar uma aplicação 4D e um navegador que sã
 - Firstname (Alpha)
 - Salary (Longint)
 
-![](../assets/en/REST/getstarted1.png)
+![](/assets/en/REST/getstarted1.png)
 
 > A opção "Expor um recurso REST" está marcada por definição para a tabela e cada campo; não mude essa configuração.
 
 3. Crie formulários depois crie alguns funcionários:
 
-![](../assets/en/REST/getstarted2.png)
+![](/assets/en/REST/getstarted2.png)
 
 4. Display the **Web/REST resource** page of the Settings dialog box and [check the Expose as REST server](configuration.md#starting-the-rest-server) option.
 

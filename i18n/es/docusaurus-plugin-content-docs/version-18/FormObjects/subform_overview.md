@@ -42,7 +42,7 @@ El subformulario en página utiliza el formulario de entrada indicado por la pro
 
 La [variable](properties_Object.md#variable-or-expression) vinculada a un subformulario página le permite vincular los contextos del formulario padre y del subformulario para dar el toque final de las interfaces sofisticadas. Por ejemplo, imagine un subformulario que represente un reloj dinámico, insertado en un formulario padre que contenga una variable introducible de tipo hora:
 
-![](../assets/en/FormObjects/subforms1.png)
+![](/assets/en/FormObjects/subforms1.png)
 
 Ambos objetos (variable de tiempo y contenedor de subformulario) *tienen el mismo nombre de variable*. En este caso, al abrir el formulario padre, 4D sincroniza ambos valores automáticamente. Si el valor de la variable se define en varias ubicaciones, 4D utiliza el valor que se cargó en último lugar. It applies the following loading order: 1-Object methods of subform 2-Form method of subform 3-Object methods of parent form 4-Form method of parent form
 
@@ -54,7 +54,7 @@ Caso 1: se modifica el valor de la variable del formulario padre y esta modifica
 
 En este caso, debe utilizar el evento formulario On Bound Variable Change. Este evento debe ser seleccionado en las propiedades del subformulario; se genera en el método formulario del subformulario.
 
-![](../assets/en/FormObjects/subforms2.png)
+![](/assets/en/FormObjects/subforms2.png)
 
 Se genera el evento formulario `On Bound Variable Change`:
 
@@ -71,7 +71,7 @@ En este caso, desde el subformulario, debe asignar el valor del objeto a la vari
 
 Al asignar el valor a la variable se genera el evento formulario `On Data Change` en el método del objeto del contenedor del subformulario padre, que permite realizar todo tipo de acción. El evento debe estar seleccionado en las propiedades del contenedor del subformulario.
 
-![](../assets/en/FormObjects/subforms3.png)
+![](/assets/en/FormObjects/subforms3.png)
 
 > Si mueve "manualmente" las manecillas del reloj, esto también genera el evento de formulario `On Data Change` en el método del objeto de la variable *clockValue* en el subformulario.
 
@@ -83,7 +83,7 @@ El objeto puede crearse automáticamente o ser la variable del contenedor padre,
 
 Por ejemplo, en su subformulario, las etiquetas de los campos se almacenan en el objeto vinculado para poder mostrar diferentes lenguajes:
 
-![](../assets/en/FormObjects/subforms4.png)
+![](/assets/en/FormObjects/subforms4.png)
 
 Puede modificar las etiquetas desde el subformulario asignando valores al objeto *InvoiceAddress*:
 
@@ -100,7 +100,7 @@ Puede modificar las etiquetas desde el subformulario asignando valores al objeto
  InvoiceAddress. Label:=$lang
 ```
 
-![](../assets/en/FormObjects/subforms5.png)
+![](/assets/en/FormObjects/subforms5.png)
 
 ### Programación entre formularios avanzada
 
@@ -138,7 +138,7 @@ El comando `EXECUTE METHOD IN SUBFORM` permite que un formulario o uno de sus ob
 
 Este mecanismo se ilustra en el siguiente diagrama:
 
-![](../assets/en/FormObjects/subforms6.png)
+![](/assets/en/FormObjects/subforms6.png)
 
 Para más información, consulte la descripción del comando `EXECUTE METHOD IN SUBFORM`.
 

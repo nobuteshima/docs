@@ -26,7 +26,7 @@ title: VP Get current sheet
 
 3番目のシートが選択されている場合:
 
-![third-sheet](../../assets/en/ViewPro/vp-sheet-3-select.png)
+![third-sheet](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 コマンドは 2 を返します:
 

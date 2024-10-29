@@ -15,11 +15,11 @@ Les formats d'image les plus courants sont pris en charge par les deux plates-fo
 
 Une icône spécifique est affichée pour les images stockées dans un format non disponible sur le poste. L'extension du format manquant est inscrite en bas de l'icône :
 
-![](../assets/en/FormEditor/picNoFormat.png)
+![](/assets/en/FormEditor/picNoFormat.png)
 
 L'icône est automatiquement utilisée partout où l'image doit être affichée :
 
-![](../assets/en/FormEditor/picNoFormat2.png)
+![](/assets/en/FormEditor/picNoFormat2.png)
 
 Cette icône indique que l'image ne peut être ni affichée ni manipulée localement -- mais elle peut être stockée sans altération pour être affichée sur une autre machine. C'est le cas, par exemple, pour les images PDF sous Windows ou les images au format PICT.
 

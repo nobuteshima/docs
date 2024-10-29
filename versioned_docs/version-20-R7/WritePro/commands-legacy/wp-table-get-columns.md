@@ -59,7 +59,7 @@ You want to modify the attributes of the last two columns of a table:
   
 Result:
 
-![](../../assets/en/WritePro/commands/pict3307213.en.png)
+![](/assets/en/WritePro/commands/pict3307213.en.png)
 
 #### Example 2 
 

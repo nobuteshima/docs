@@ -52,7 +52,7 @@ displayed_sidebar: docs
 
 正しい位置にカラムが新しく追加されます:
 
-![](../../assets/en/WritePro/commands/pict4680283.en.png)
+![](/assets/en/WritePro/commands/pict4680283.en.png)
 
 #### 参照 
 

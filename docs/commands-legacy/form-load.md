@@ -121,7 +121,7 @@ The following example returns the number of objects on a JSON form:
 
 the result shown is:
 
-![](../assets/en/commands/pict3688480.en.png)
+![](/assets/en/commands/pict3688480.en.png)
 
 #### Example 5 
 

@@ -16,7 +16,7 @@ Your documentation files are written in Markdown syntax (.md files) using any ed
 
 Documentation is displayed in the preview area (right-side panel) of the Explorer:
 
-![](../assets/en/Project/explorer_Doc.png)
+![](/assets/en/Project/explorer_Doc.png)
 
 También se puede exponer parcialmente como [consejos del editor de código](#viewing-documentation-in-the-code-editor).
 
@@ -71,7 +71,7 @@ Para visualizar a documentação na janela do Explorer:
 2. Selecione o elemento documentado na lista do Explorador.
 3. Haga clic en el botón **Documentation** situado debajo del área de vista previa.
 
-![](../assets/en/Project/comments-explo2.png)
+![](/assets/en/Project/comments-explo2.png)
 
 - Si no se ha encontrado ningún archivo de documentación para el elemento seleccionado, se muestra un botón **Crear** (ver más abajo).
 
@@ -86,7 +86,7 @@ Se não houver um arquivo de documentação para o elemento selecionado, você p
 - haga clic en el botón **Crear** en el panel `Documentation` o,
 - elija la opción **Modificar la documentación...** en el menú contextual o el menú de opciones del Explorador.
 
-![](../assets/en/Project/comments-explo3.png)
+![](/assets/en/Project/comments-explo3.png)
 
 4D automatically creates an appropriately named .md file with a basic template at the relevant location and opens it with your default Markdown editor.
 
@@ -96,7 +96,7 @@ Si ya existe un archivo de documentación para el elemento seleccionado, puede a
 
 The 4D code editor displays a part of a method's documentation in its help tip.
 
-![](../assets/en/Project/codeEditor_Comments.png)
+![](/assets/en/Project/codeEditor_Comments.png)
 
 Si existe un archivo llamado `\<MethodName>.md` en la carpeta `\<package>/documentation`, el editor de código muestra (por prioridad):
 
@@ -119,7 +119,7 @@ Sin embargo, puede utilizar todas las [etiquetas Markdown soportadas](#supported
 
 New documentation files are created with the following default contents:
 
-![](../assets/en/Project/comments-explo4.png)
+![](/assets/en/Project/comments-explo4.png)
 
 | Linha                                | Descrição                                                                                                                                                                  |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -226,8 +226,8 @@ $logo:=GetLogo(5)
 
 - Explorer view:
 
-![](../assets/en/Project/explorer_Doc.png)
+![](/assets/en/Project/explorer_Doc.png)
 
 - Code editor view:
 
-![](../assets/en/Project/comments-explo5.png)
+![](/assets/en/Project/comments-explo5.png)

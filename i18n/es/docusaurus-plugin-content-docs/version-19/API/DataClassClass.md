@@ -78,7 +78,7 @@ $compCity:=ds.Company["city"] //devuelve el atributo city en la clase de datos C
 
 Considerando la siguiente estructura de la base:
 
-![](../assets/en/API/dataclassAttribute.png)
+![](/assets/en/API/dataclassAttribute.png)
 
 ```4d
 var $firstnameAtt;$employerAtt;$employeesAtt : Object
@@ -102,7 +102,7 @@ var $firstnameAtt;$employerAtt;$employeesAtt : Object
 
 Considerando las propiedades de tabla siguientes:
 
-![](../assets/en/API/dataclassAttribute2.png)
+![](/assets/en/API/dataclassAttribute2.png)
 
 ```4d
  var $sequenceNumberAtt : Object

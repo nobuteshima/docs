@@ -24,7 +24,7 @@ Les sessions Web sont utilisées par :
 La gestion de session peut être activée et désactivée sur votre serveur Web 4D. Il y a différentes façons d'activer la gestion de session :
 
 - Utiliser l'option **Sessions évolutives** dans la page "Web/Options (I)" des Propriétés (réglage permanent) :
-  ![alt-text](../assets/en/WebServer/settingsSession.png)
+  ![alt-text](/assets/en/WebServer/settingsSession.png)
 
 Cette option est sélectionnée par défaut dans les nouveaux projets. Elle peut cependant être désactivée en sélectionnant l'option **Pas de sessions**, auquel cas les fonctionnalités de session web sont désactivées (aucun objet `Session` n'est disponible).
 
@@ -63,7 +63,7 @@ La création d'une session web pour une requête REST peut nécessiter qu'une li
 
 L'objet `Session` de la session en cours peut ensuite être manipulé via la commande [`Session`](API/SessionClass.md#session) dans le code de n'importe quel process web.
 
-![alt-text](../assets/en/WebServer/schemaSession.png)
+![alt-text](/assets/en/WebServer/schemaSession.png)
 
 :::info
 
@@ -124,7 +124,7 @@ Les privilèges sont implémentés au cœur de l'architecture ORDA, fournissant 
 
 Dans une application CRM, chaque commercial gère son propre portefeuille de clients. Le datastore contient au moins deux dataclass liées : Customers et SalesPersons (un commercial a plusieurs clients).
 
-![alt-text](../assets/en/WebServer/exampleSession.png)
+![alt-text](/assets/en/WebServer/exampleSession.png)
 
 Nous voulons qu'un(e) commercial(e) s'authentifie, ouvre une session sur le serveur web et que les 3 meilleurs clients soient chargés dans la session.
 
@@ -151,7 +151,7 @@ http://localhost:8044/authenticate.shtml
 </html>
 ```
 
-![alt-text](../assets/en/WebServer/authenticate.png)
+![alt-text](/assets/en/WebServer/authenticate.png)
 
 3. La méthode de projet d'authentification recherche la personne *userID* et valide le mot de passe par rapport à la valeur hachée déjà stockée dans la table *SalesPersons* :
 

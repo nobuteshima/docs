@@ -15,11 +15,11 @@ Los formatos de imagen más comunes son soportados en ambas plataformas: .jpeg, 
 
 Se muestra un icono específico para las imágenes guardadas en un formato que no está disponible en la máquina. La extensión del formato que falta se muestra en la parte inferior del icono:
 
-![](../assets/en/FormEditor/picNoFormat.png)
+![](/assets/en/FormEditor/picNoFormat.png)
 
 El icono se utiliza automáticamente en todos los lugares en los que se pretende visualizar la imagen:
 
-![](../assets/en/FormEditor/picNoFormat2.png)
+![](/assets/en/FormEditor/picNoFormat2.png)
 
 Este icono indica que la imagen no puede ser visualizada o manipulada localmente, pero puede ser guardada sin alteraciones para que pueda ser visualizada en otras máquinas. Este es el caso, por ejemplo, para las imágenes PDF en Windows, o las imágenes en formato PICT.
 

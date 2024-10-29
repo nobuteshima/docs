@@ -47,7 +47,7 @@ En el parámetro opcional *sheet*, puede designar una hoja específica donde se 
 
 Desea definir un objeto rango para las siguientes celdas (de la hoja actual):
 
-![](../../assets/en/ViewPro/vp-cells.png)
+![](/assets/en/ViewPro/vp-cells.png)
 
 El código es el siguiente:
 

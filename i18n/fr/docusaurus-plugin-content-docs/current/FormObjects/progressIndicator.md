@@ -5,7 +5,7 @@ title: Indicateurs de progression
 
 Un indicateur de progression (également appelé "thermomètre") est conçu pour afficher ou définir graphiquement des valeurs numériques ou date/heure.
 
-![](../assets/en/FormObjects/progress1.png)
+![](/assets/en/FormObjects/progress1.png)
 
 ## Utiliser des indicateurs
 
@@ -29,7 +29,7 @@ La méthode affecte la valeur de l'indicateur au champ Salaire. Lorsque l’util
 
 ## Le thermomètre par défaut
 
-![](../assets/en/FormObjects/indicator_progressBar.png)
+![](/assets/en/FormObjects/indicator_progressBar.png)
 
 Le thermomètre est l'indicateur de progression standard.
 
@@ -43,7 +43,7 @@ Plusieurs options graphiques sont disponibles : valeurs minimales/maximales, gra
 
 ## Barber shop
 
-![](../assets/en/FormObjects/indicator.gif)
+![](/assets/en/FormObjects/indicator.gif)
 
 **Le barber shop** est une variante du thermomètre par défaut. Pour active cette variante, vous devez définir la propriété du [Barber shop](properties_Scale.md#barber-shop).
 

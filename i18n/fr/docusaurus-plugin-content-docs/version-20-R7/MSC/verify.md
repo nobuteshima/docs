@@ -32,7 +32,7 @@ Lorsque vous cliquez sur le bouton **Voir le compte rendu**, 4D affiche le fichi
 
 Le bouton **Liste des tables** provoque l’affichage d’une page détaillée permettant de visualiser et de sélectionner les enregistrements et les index à vérifier :
 
-![](../assets/en/MSC/MSC_Verify.png)
+![](/assets/en/MSC/MSC_Verify.png)
 
 La désignation des éléments à vérifier permet notamment de gagner du temps lors de la vérification.
 
@@ -42,11 +42,11 @@ Pour chaque ligne de table, la colonne “Action” résume les opérations à e
 
 La colonne "Etat" affiche le statut de la vérification de chaque élément à l’aide de symboles :
 
-| ![](../assets/en/MSC/MSC_OK.png)  | Vérification effectuée, pas de problème      |
+| ![](/assets/en/MSC/MSC_OK.png)  | Vérification effectuée, pas de problème      |
 | --------------------------------- | -------------------------------------------- |
-| ![](../assets/en/MSC/MSC_KO2.png) | Vérification effectuée, problèmes rencontrés |
-| ![](../assets/en/MSC/MSC_KO3.png) | Vérification partielle effectuée             |
-| ![](../assets/en/MSC/MSC_KO.png)  | Vérification non effectuée                   |
+| ![](/assets/en/MSC/MSC_KO2.png) | Vérification effectuée, problèmes rencontrés |
+| ![](/assets/en/MSC/MSC_KO3.png) | Vérification partielle effectuée             |
+| ![](/assets/en/MSC/MSC_KO.png)  | Vérification non effectuée                   |
 
 Cliquez sur le bouton **Vérifier** pour lancer la vérification ou sur le bouton **Standard** pour retourner à la page standard.
 

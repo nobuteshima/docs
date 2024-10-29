@@ -88,7 +88,7 @@ displayed_sidebar: docs
 ```  
     
     
-![](../../assets/en/WritePro/commands/pict5562056.en.png)
+![](/assets/en/WritePro/commands/pict5562056.en.png)
 2. 最初のセクションに対してカラム数を2に設定します:  
     
 ```4d  
@@ -97,7 +97,7 @@ displayed_sidebar: docs
 ```  
     
     
-![](../../assets/en/WritePro/commands/pict5562058.en.png)
+![](/assets/en/WritePro/commands/pict5562058.en.png)
 
 #### 参照 
 

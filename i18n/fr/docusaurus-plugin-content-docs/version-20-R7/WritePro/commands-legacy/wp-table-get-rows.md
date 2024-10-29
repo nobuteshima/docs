@@ -67,7 +67,7 @@ Vous souhaitez fixer une couleur d'arrière-plan spécifique pour les deux premi
  WP SET ATTRIBUTES($rows2;wk border width;4)
 ```
 
-![](../../assets/en/WritePro/commands/pict3307142.en.png)
+![](/assets/en/WritePro/commands/pict3307142.en.png)
 
 #### Exemple 2 
 

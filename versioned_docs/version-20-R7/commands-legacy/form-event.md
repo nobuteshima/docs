@@ -54,7 +54,7 @@ You want to handle the On Clicked event on a button:
 
 If you set the column object name with a real attribute name of a dataclass like this:
 
-![](../assets/en/commands/pict4843820.en.png)
+![](/assets/en/commands/pict4843820.en.png)
 
 You can sort the column using the On Header Click event:
 
@@ -72,7 +72,7 @@ You can sort the column using the On Header Click event:
 
 You want to handle the On Display Details on a list box object with a method set in the *Meta info expression* property:
 
-![](../assets/en/commands/pict4843812.en.png)
+![](/assets/en/commands/pict4843812.en.png)
 
 The *setColor* method:
 
@@ -92,7 +92,7 @@ The *setColor* method:
 
 The resulting list box when rows are selected:
 
-![](../assets/en/commands/pict4843808.en.png)
+![](/assets/en/commands/pict4843808.en.png)
 
 #### See also 
 

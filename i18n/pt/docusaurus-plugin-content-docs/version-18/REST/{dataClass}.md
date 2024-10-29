@@ -227,7 +227,7 @@ Para ser chamado em uma petição REST, um método deve:
     - **Current record** -for methods applied to the current record (entity) using the `\{dataClass\}(key)/{method}` syntax.
     - **Seleção atual** -para os métodos aplicados à seleção atual
 
-![alt-text](../assets/en/REST/MethodProp.png)
+![alt-text](/assets/en/REST/MethodProp.png)
 
 ### Passar parâmetros a um Método
 

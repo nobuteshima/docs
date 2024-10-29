@@ -43,7 +43,7 @@ If the attribute to be reset was not defined in the element passed as a paramete
 
 You want to remove several attributes from the following selection:
 
-![](../../assets/en/WritePro/commands/pict2643861.en.png)
+![](/assets/en/WritePro/commands/pict2643861.en.png)
 
 You can execute:
 
@@ -58,7 +58,7 @@ You can execute:
 
 The resulting document is:
 
-![](../../assets/en/WritePro/commands/pict2643863.en.png)
+![](/assets/en/WritePro/commands/pict2643863.en.png)
 
 #### Exemple 2
 

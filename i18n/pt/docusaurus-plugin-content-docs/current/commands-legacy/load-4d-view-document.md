@@ -46,7 +46,7 @@ Se quiser carregar e converter um documento 4D View armazenado no disco:
 
 Por exemplo, se converter o documento abaixo:
 
-![](../assets/en/commands/pict3631552.en.png)
+![](/assets/en/commands/pict3631552.en.png)
 
 Obterá o resultado abaixo (objeto stringified):
 

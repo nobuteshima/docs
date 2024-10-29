@@ -5,7 +5,7 @@ title: Página Monitor
 
 La página **Monitor** muestra información dinámica relativa al uso de la base de datos, así como información sobre el sistema y la aplicación 4D Server.
 
-![](../assets/en/Admin/server-admin.png)
+![](/assets/en/Admin/server-admin.png)
 
 > En Windows, parte de la información del sistema que se muestra en esta página se recupera a través de las herramientas del "Analizador de rendimiento" de Windows. Sólo se puede acceder a estas herramientas cuando el usuario que abrió la sesión donde se lanzó 4D Server tiene la autorización de administración necesaria.
 
@@ -13,7 +13,7 @@ La página **Monitor** muestra información dinámica relativa al uso de la base
 
 El área gráfica permite ver la evolución en tiempo real de varios parámetros: el uso de la CPU, el tráfico de red y el estado de la memoria. Se selecciona el parámetro que se va a mostrar a través de un menú que se encuentra en el centro de la ventana:
 
-![](../assets/en/Admin/server-graphic.png)
+![](/assets/en/Admin/server-graphic.png)
 
 - **Uso de la CPU**: uso global de la CPU de la máquina, para todas las aplicaciones en conjunto. La parte específica de 4D Server en esta tasa de uso se ofreced en el área de información "Procesadores".
 - **Red**: número de bytes recibidos por segundo por la máquina (servidor o cliente). El número de bytes enviados se suministra en el área de información "Red".
@@ -33,7 +33,7 @@ El área "Visión general" ofrece diferente información sobre el sistema, la ap
 - **Conexiones máximas**: número de conexiones simultáneas permitidas por tipo de servidor
 - **Licencia**: descripción de la licencia. Cuando la licencia producto o una de sus expansiones adjuntas vence en menos de 10 días, por ejemplo en el caso de una licencia de suscripción, 4D Server intenta renovar automáticamente la licencia desde la cuenta del usuario 4D. En este caso, si la renovación automática ha fallado por alguna razón (error de conexión, estado de la cuenta inválido, contrato no prolongado...), se muestra un icono de advertencia junto a la licencia para alertar al administrador del servidor. Se puede mostrar información adicional sobre el estado de la renovación de la licencia en un consejo cuando se pasa el ratón por sobre el área:
 
-![](../assets/en/Admin/server-licence-failed.png)
+![](/assets/en/Admin/server-licence-failed.png)
 
 Generalmente, tendrá que verificar el [**Administrador de licencias**](Admin/licenses.md).
 

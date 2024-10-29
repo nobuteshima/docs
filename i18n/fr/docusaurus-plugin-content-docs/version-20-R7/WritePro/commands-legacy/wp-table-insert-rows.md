@@ -56,7 +56,7 @@ Vous souhaitez insérer deux lignes à la fin du tableau *Invoice* :
 
 Cela insèrera les deux nouvelles lignes à l'emplacement souhaité :
 
-![](../../assets/en/WritePro/commands/pict4680266.en.png) 
+![](/assets/en/WritePro/commands/pict4680266.en.png) 
 
 #### Voir aussi 
 

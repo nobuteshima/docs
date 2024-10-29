@@ -24,7 +24,7 @@ In the optional *sheet* parameter, you can designate a specific spreadsheet wher
 
 #### Example
 
-![](../../assets/en/ViewPro/cmd_vpGetSelection.PNG)
+![](/assets/en/ViewPro/cmd_vpGetSelection.PNG)
 
 The following code will retrieve the coordinates of all the cells in the current selection:
 

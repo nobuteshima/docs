@@ -52,7 +52,7 @@ Se quiser agregar uma imagem com a configuração pré-determinada utilizando um
 
 O resultado é:
 
-![](../../assets/en/WritePro/commands/pict3617325.en.png)
+![](/assets/en/WritePro/commands/pict3617325.en.png)
 
 #### Exemplo 2 
 
@@ -69,7 +69,7 @@ Se quiser agregar uma imagem redimensionada, centrada e ancorada ao cabeçalho:
 
 O resultado é:
 
-![](../../assets/en/WritePro/commands/pict3617351.en.png)
+![](/assets/en/WritePro/commands/pict3617351.en.png)
 
 #### Exemplo 3 
 
@@ -83,7 +83,7 @@ Se quiser usar uma expressão de campo para adicionar uma imagem ancorada a um d
  WP SET ATTRIBUTES($obImage;wk image formula;Formula([Flowers]Image))
 ```
 
-![](../../assets/en/WritePro/commands/pict3841719.en.png)
+![](/assets/en/WritePro/commands/pict3841719.en.png)
 
 #### Ver também 
 

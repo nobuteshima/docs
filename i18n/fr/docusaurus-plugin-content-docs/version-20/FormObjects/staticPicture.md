@@ -6,7 +6,7 @@ title: Image statique
 
 Les images statiques sont des [objets statiques](formObjects_overview.md#active-and-static-objects) pouvant être utilisées à des fins diverses dans les formulaires 4D, notamment comme décor, arrière-plan ou interface utilisateur :
 
-![](../assets/en/FormObjects/StaticPict.png)
+![](/assets/en/FormObjects/StaticPict.png)
 
 
 Les images statiques sont stockées à l’extérieur des formulaires et insérées par référence. Dans l'éditeur de formules, les objets image statique sont créées par copier-coller ou par glisser-déposer.

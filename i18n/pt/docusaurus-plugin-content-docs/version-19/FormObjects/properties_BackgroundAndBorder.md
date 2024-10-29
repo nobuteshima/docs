@@ -99,11 +99,11 @@ Descreve o tipo de linha pontilhada como uma sequência de pontos pretos e branc
 
 Controla a exibição de linhas em branco extras adicionadas na parte inferior de um objeto de caixa de listagem. Por defeito, 4D adiciona essas linhas extra para preencher a área vazia:
 
-![](../assets/en/FormObjects/property_hideExtraBlankRows1.png)
+![](/assets/en/FormObjects/property_hideExtraBlankRows1.png)
 
 Pode remover estas linhas vazias selecionando esta opção. A parte inferior do objeto do list box é deixada em branco:
 
-![](../assets/en/FormObjects/property_hideExtraBlankRows2.png)
+![](/assets/en/FormObjects/property_hideExtraBlankRows2.png)
 
 #### Gramática JSON
 
@@ -172,7 +172,7 @@ Por exemplo, dada uma caixa de listagem em que as linhas têm uma cor alternada 
  <>_BgndColors{$i}:=-255 // valor por padrão
 ```
 
-![](../assets/en/FormObjects/listbox_styles1.png)
+![](/assets/en/FormObjects/listbox_styles1.png)
 
 De seguida, deve colorir as células com valores negativos a laranja-escuro. Para fazer isso, você define uma matriz de cores de fundo para cada coluna, por exemplo, `<>_BgndColor_1`, `<>_BgndColor_2` e `<>_BgndColor_3`. Os valores dessas arrays têm prioridade sobre os valores definidos nas propriedades da caixa de listagem, bem como sobre os valores do array geral de cores de fundo:
 
@@ -183,7 +183,7 @@ De seguida, deve colorir as células com valores negativos a laranja-escuro. Par
  <>_BgndColorsCol_1{16}:=0x00FF8000
 ```
 
-![](../assets/en/FormObjects/listbox_styles2.png)
+![](/assets/en/FormObjects/listbox_styles2.png)
 
 Você pode obter o mesmo resultado usando os comandos [`LISTBOX SET UMA ARTA`](https://doc.4d.com/4dv20/help/command/en/page1268.html) e [`LISTBOX SET UMA UM COLOR`](https://doc.4d.com/4dv20/help/command/en/page1270.html). Eles têm a vantagem de permitir que você não precise predefinir matrizes de estilo/cor para as colunas: em vez disso, elas são criadas dinamicamente pelos comandos.
 

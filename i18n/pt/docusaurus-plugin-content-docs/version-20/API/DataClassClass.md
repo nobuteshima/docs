@@ -85,7 +85,7 @@ $compCity:=ds. Company["city"] //returns the city attribute in the Company datac
 
 Considerando a seguinte estrutura do banco de dados:
 
-![](../assets/en/API/dataclassAttribute.png)
+![](/assets/en/API/dataclassAttribute.png)
 
 ```4d
 var $firstnameAtt;$employerAtt;$employeesAtt : Object
@@ -109,7 +109,7 @@ var $firstnameAtt;$employerAtt;$employeesAtt : Object
 
 Considerando as propriedades de tabela abaixo:
 
-![](../assets/en/API/dataclassAttribute2.png)
+![](/assets/en/API/dataclassAttribute2.png)
 
 ```4d
  var $sequenceNumberAtt : Object
@@ -1124,7 +1124,7 @@ ds. People.query("places.locations[a].kind= :1 and places.locations[a].city= :2"
 
 O ORDA oferece uma sintaxe especial para facilitar as consultas em relações muitos-para-muitos. Neste contexto, pode ser necessário procurar valores diferentes com um operador `AND` mas no mesmo atributo. Por exemplo, veja a seguinte estrutura:
 
-![alt-text](../assets/en/API/manytomany.png)
+![alt-text](/assets/en/API/manytomany.png)
 
 Imagine que você queira pesquisar todos os filmes em que *ambos* o ator A e o ator B tenham um papel. Se você escrever uma consulta simples usando um operador `AND` , ela não funcionará:
 

@@ -9,13 +9,13 @@ The 4D View Pro area properties can be configured using the Property list. Sprea
 
 Using the area's property list, you can set [4D View Pro object properties](FormObjects/viewProArea_overview.md#supported-properties) such as **Object Name**, [**Variable or Expression**](#4d-view-pro-form-object-variable), **Appearance**, **Action**, and **Events**.
 
-![](../assets/en/ViewPro/vpPropertyList.png)
+![](/assets/en/ViewPro/vpPropertyList.png)
 
 ### Selecting a user interface
 
 You can select the interface to use with your 4D View Pro form areas in the **Property List**, under **Appearance**:  
 
-![](../assets/en/ViewPro/vpUserInterface.PNG)
+![](/assets/en/ViewPro/vpUserInterface.PNG)
 
 > You can also use the [`userInterface`](FormObjects/properties_Appearance.md#user-interface) and [`withFormulaBar`](FormObjects/properties_Appearance.md#show-formula-bar)(only with the "toolbar" interface) JSON properties.  
 
@@ -23,7 +23,7 @@ Interfaces allow for basic modifications and data manipulation. User-defined mod
 
 #### Ribbon
 
-![](../assets/en/ViewPro/vpRibbon.png)
+![](/assets/en/ViewPro/vpRibbon.png)
 
 #### Toolbar
 
@@ -31,7 +31,7 @@ Enabling the Toolbar interface displays the [**Show Formula Bar**](FormObjects/p
 
 With visible formula bar:
 
-![](../assets/en/ViewPro/vpToolbar.png)
+![](/assets/en/ViewPro/vpToolbar.png)
 
 #### Features
 
@@ -128,7 +128,7 @@ Defining a format pattern ensures that the content of your 4D View Pro documents
 
 For example, when using the [VP SET VALUE](method-list.md#vp-set-value) or [VP SET NUM VALUE](method-list.md#vp-set-num-value) methods to enter amounts in an invoice, you may want the currency symbols ($, €, ¥, etc.) to be aligned regardless of the space required by the number (i.e., whether the amount is $5.00 or $5,000.00). You could use formatting characters and spectify the pattern _($* #,##0.00_) which would display amounts as shown:
 
-![](../assets/en/ViewPro/apx_vpCellFormat1.PNG)
+![](/assets/en/ViewPro/apx_vpCellFormat1.PNG)
 
 Note that when creating your own format patterns, only the display of the data is modified. The value of the data remains unchanged.
 
@@ -294,12 +294,12 @@ The following special characters allow the automatic addition or formatting of i
 |N |Page count| printInfo.headerLeft:="There are &N pages."| There are 10 pages. |
 |D |Current date (yyyy/mm/dd format)| printInfo.headerLeft:="It is &D."| It is 2015/6/19. |
 |T |Current time| printInfo.headerLeft:="It is &T."| It is 16:30:36.|
-|G |Image| printInfo.headerLeftImage:=smiley<br/>printInfo.headerLeft:="&G" |![](../assets/en/ViewPro/apx_vpPrintAttributes1.PNG) |
+|G |Image| printInfo.headerLeftImage:=smiley<br/>printInfo.headerLeft:="&G" |![](/assets/en/ViewPro/apx_vpPrintAttributes1.PNG) |
 |S |Strikethrough| printInfo.headerLeft:="&SThis is text." |~~This is text.~~|
 |U |Underline |printInfo.headerLeft:="&UThis is text."| This is text. (Underlined)|
 |B| Bold| printInfo.headerLeft:="&BThis is text." |**This is text.**|
 |I |Italic| printInfo.headerLeft:="&IThis is text." |*This is text.*|
-|" |Font prefix| printInfo.headerLeft:="&\"Lucida Console\"&14This is text." |![](../assets/en/ViewPro/apx_vpPrintAttributes2.PNG)|
+|" |Font prefix| printInfo.headerLeft:="&\"Lucida Console\"&14This is text." |![](/assets/en/ViewPro/apx_vpPrintAttributes2.PNG)|
 |K| Text Color prefix| printInfo.headerLeft:="&KFF0000This is text."| This is text (in red).
 |F| Workbook name| printInfo.headerLeft:="&F"| 2019 Monthly Revenue Forecasts|
 |A| Spreadsheet name| printInfo.headerLeft:="&A"| June 2019 revenue forecast |

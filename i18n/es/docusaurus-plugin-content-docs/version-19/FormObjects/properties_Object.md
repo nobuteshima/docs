@@ -202,7 +202,7 @@ La colección o la selección de entidades debe estar disponible para el formula
 
 Especifique el tipo de list box.
 
-![](../assets/en/FormObjects/listbox_dataSource.png)
+![](/assets/en/FormObjects/listbox_dataSource.png)
 
 - **Arrays**(por defecto): utiliza elementos de array como líneas del list box.
 - **Selección actual**: utiliza expresiones, campos o métodos cuyos valores se evaluarán para cada registro de la selección actual de una tabla.
@@ -259,7 +259,7 @@ Permite insertar una etiqueta en un objeto. Se puede especificar la fuente y el 
 
 Puede forzar un retorno de carro en la etiqueta utilizando el caracter \ (barra invertida).
 
-![](../assets/en/FormObjects/property_title.png)
+![](/assets/en/FormObjects/property_title.png)
 
 Para insertar un \ en la etiqueta, ingrese "&#92;&#92;".
 

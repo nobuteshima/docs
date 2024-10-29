@@ -35,7 +35,7 @@ displayed_sidebar: docs
 
 この4D Write Proエリアにて、以下のように単語を選択した場合を考えます:
 
-![](../../assets/en/WritePro/commands/pict2643639.en.png)
+![](/assets/en/WritePro/commands/pict2643639.en.png)
 
 以下のコードを実行した場合:
 
@@ -54,7 +54,7 @@ displayed_sidebar: docs
 
 以下の様な結果が得られます:
 
-![](../../assets/en/WritePro/commands/pict2643642.en.png)
+![](/assets/en/WritePro/commands/pict2643642.en.png)
 
 #### 例題 2 
 
@@ -69,7 +69,7 @@ displayed_sidebar: docs
 
 ドキュメント全体が選択されていた場合、結果は以下のようになります:
 
-![](../../assets/en/WritePro/commands/pict2821715.en.png)
+![](/assets/en/WritePro/commands/pict2821715.en.png)
 
 #### 例題 3 
 
@@ -86,7 +86,7 @@ displayed_sidebar: docs
 
 結果は以下のようになります:
 
-![](../../assets/en/WritePro/commands/pict3514231.en.png)
+![](/assets/en/WritePro/commands/pict3514231.en.png)
 
 背景画像を、印刷可能エリア全体に対して設定したい場合を考えます:
 
@@ -103,7 +103,7 @@ displayed_sidebar: docs
 
 結果は以下のようになります:
 
-![](../../assets/en/WritePro/commands/pict3514233.en.png)
+![](/assets/en/WritePro/commands/pict3514233.en.png)
 
 **注**: paper box の値はドキュメントあるいはセクションに対してのみ適用可能です。
 
@@ -146,7 +146,7 @@ displayed_sidebar: docs
 
 結果は以下のようになります:
 
-![](../../assets/en/WritePro/commands/pict3634557.en.png)
+![](/assets/en/WritePro/commands/pict3634557.en.png)
 
 #### 参照 
 

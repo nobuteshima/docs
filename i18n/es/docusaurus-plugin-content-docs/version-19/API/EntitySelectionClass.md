@@ -738,7 +738,7 @@ Si se dan varios *attributePath*, debe darse un *targetPath* para cada uno. Sól
 
 Dada la siguiente tabla y relación:
 
-![](../assets/en/API/entityselection.PNG)
+![](/assets/en/API/entityselection.PNG)
 
 ```4d
  var $firstnames; $addresses; $mailing; $teachers : Collection
@@ -1833,7 +1833,7 @@ Si *howMany* > longitud de la entity selection, el método devuelve (length - *b
 
 En todos los ejemplos de esta sección se utilizará la siguiente estructura:
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 Ejemplo sin parámetros de filtro ni de opciones:
 

@@ -26,7 +26,7 @@ En *vpAreaName*, pase el nombre del área 4D View Pro.
 
 Cuando se selecciona la tercera hoja:
 
-![third-sheet](../../assets/en/ViewPro/vp-sheet-3-select.png)
+![third-sheet](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 El comando devuelve 2:
 

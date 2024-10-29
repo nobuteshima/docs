@@ -32,7 +32,7 @@ Note that the status of the request sent by this command is **302: Moved Tempora
 
 You can use this command to execute custom requests in 4D by using static pages. Imagine that you have placed the following elements in a static HTML page:
 
-![](../assets/en/commands/pict38648.en.png)
+![](/assets/en/commands/pict38648.en.png)
 
 **Note:** The POST action “/4dcgi/rech” has been associated to the text area and to the **OK** and **Cancel** buttons.
 

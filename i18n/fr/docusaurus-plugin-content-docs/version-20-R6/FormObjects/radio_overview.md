@@ -7,7 +7,7 @@ Les boutons radio sont des objets qui permettent à l’utilisateur de sélectio
 
 Un bouton radio apparaît sous la forme d’un texte suivi d’un cercle. Cependant, les boutons radio peuvent avoir [différentes apparences](#button-styles).
 
-![](../assets/en/FormObjects/radio1.png)
+![](/assets/en/FormObjects/radio1.png)
 
 Un bouton radio est sélectionné :
 
@@ -20,7 +20,7 @@ Les boutons radio sont utilisés sous forme d’ensembles coordonnés : un seul 
 
 Les boutons radio sont contrôlés par des méthodes. Comme pour tous les boutons, la variable associée au bouton radio est initialisée à 0 (zéro) lorsque le formulaire est ouvert pour la première fois. Une méthode associée à un bouton radio est exécutée lorsqu’il est sélectionné. L’exemple suivant représente des boutons radio utilisés dans une base de données d’enregistrements audio et se rapporte à la vitesse d’enregistrement :
 
-![](../assets/en/FormObjects/radio2.png)
+![](/assets/en/FormObjects/radio2.png)
 
 Sélectionner un bouton radio d’un groupe met ce bouton à 1 et les autres boutons du groupe à 0. Un seul bouton radio du groupe peut être sélectionné à la fois.
 
@@ -38,7 +38,7 @@ La valeur contenue dans un objet bouton radio n’est pas sauvegardée automatiq
 
 Le style de bouton radio Classique est un bouton système standard (c'est-à-dire une bulle avec un libellé) qui exécute le code lorsqu'un utilisateur clique dessus.
 
-![](../assets/en/FormObjects/radio_regular.png)
+![](/assets/en/FormObjects/radio_regular.png)
 
 En plus de lancer l'exécution du code, le style de bouton radio Classique change la couleur de la bulle lors du survol.
 
@@ -46,7 +46,7 @@ En plus de lancer l'exécution du code, le style de bouton radio Classique chang
 
 Le style de bouton radio A plat est un bouton système standard (c'est-à-dire une bulle avec un libellé) qui exécute le code lorsqu'un utilisateur clique dessus.
 
-![](../assets/en/FormObjects/radio_flat.png)
+![](/assets/en/FormObjects/radio_flat.png)
 
 Par défaut, le style A plat a une apparence minimaliste. Le style graphique du bouton A plat est particulièrement utile pour les formulaires à imprimer.
 
@@ -58,7 +58,7 @@ Par défaut, le style bouton Barre d'outils a un fond transparent avec un libell
 
 - *Sous Windows* - le contour du bouton apparaît.
 
-![](../assets/en/FormObjects/radio_toolbar.png)
+![](/assets/en/FormObjects/radio_toolbar.png)
 
 - *Sous macOS* - le contour du bouton n’apparaît jamais.
 
@@ -68,7 +68,7 @@ Le style de bouton radio Bevel est similaire au comportement du style [barre d'o
 
 - *Sous Windows* - le contour du bouton apparaît.
 
-![](../assets/en/FormObjects/radio_bevel.png)
+![](/assets/en/FormObjects/radio_bevel.png)
 
 - *Sous macOS* - le contour du bouton n’apparaît jamais.
 
@@ -79,7 +79,7 @@ Le style du bouton Bevel arrondi est presque identique au style [Bevel](#bevel),
 - *Sous Windows* - ce bouton est identique au style [Bevel](#bevel).
 
 - *Sous macOS* - les coins du bouton sont arrondis.
-  ![](../assets/en/FormObjects/roundedBevel.png)
+  ![](/assets/en/FormObjects/roundedBevel.png)
 
 ### OS X Gradient
 
@@ -99,7 +99,7 @@ Par défaut, le style OS X Textured apparaît comme :
 
 - *Sous macOS* - un bouton système standard affichant un changement de couleur du gris clair au gris foncé. Sa hauteur est prédéfinie : il n'est pas possible de l'agrandir ou de la réduire.
 
-![](../assets/en/FormObjects/OSXTextured.png)
+![](/assets/en/FormObjects/OSXTextured.png)
 
 ### Office XP
 
@@ -109,7 +109,7 @@ Les couleurs (surbrillance et arrière-plan) d'un bouton au style Office XP sont
 
 - *Sous Windows* - son arrière-plan n'apparaît que lorsque la souris le survole.
 
-![](../assets/en/FormObjects/radio_xp.png)
+![](/assets/en/FormObjects/radio_xp.png)
 
 - *Sous macOS* - son arrière-plan est toujours affiché.
 
@@ -117,7 +117,7 @@ Les couleurs (surbrillance et arrière-plan) d'un bouton au style Office XP sont
 
 Ce style de bouton peut être utilisé pour ajouter une icône standard contracter/déployer. Ces boutons sont utilisés nativement dans les listes hiérarchiques. Sous Windows, le bouton ressemble à un [+] ou un [-]; sous macOS, cela ressemble à un triangle pointant vers la droite ou vers le bas.
 
-![](../assets/en/FormObjects/checkbox_collapse.png)
+![](/assets/en/FormObjects/checkbox_collapse.png)
 
 :::info
 
@@ -129,7 +129,7 @@ Le style contracter/déployer est nommé "disclosure" dans la [grammaire JSON du
 
 Le style de bouton radio disclosure affiche le bouton radio comme un bouton disclosure standard, généralement utilisé pour afficher/masquer des informations supplémentaires. Le symbole du bouton pointe vers le bas avec la valeur 0 et vers le haut avec la valeur 1.
 
-![](../assets/en/FormObjects/checkbox_disclosure.png)
+![](/assets/en/FormObjects/checkbox_disclosure.png)
 
 :::info
 

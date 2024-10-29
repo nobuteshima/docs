@@ -46,7 +46,7 @@ VP SET TABLE THEME("ViewProArea"; "myTable"; $param)
 
 Vous souhaitez obtenir ce rendu de colonne alterné :
 
-![](../../assets/en/ViewPro/col-bandering.png)
+![](/assets/en/ViewPro/col-bandering.png)
 
 ```4d
 var $param : cs.ViewPro.TableTheme

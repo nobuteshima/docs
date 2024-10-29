@@ -50,7 +50,7 @@ Si no pasa un parámetro *alcanceRango*, de forma predeterminada, los contenidos
 
 Desea agregar texto a este documento:
 
-![](../../assets/en/WritePro/commands/pict3772543.en.png)
+![](/assets/en/WritePro/commands/pict3772543.en.png)
 
 *objRango* es un documento 4D Write Pro:
 

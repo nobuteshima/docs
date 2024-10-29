@@ -5,7 +5,7 @@ title: Stepper
 
 Un stepper permet à l'utilisateur de faire défiler des valeurs numériques, des durées (heures) ou des dates par des étapes pré-définies en cliquant sur les boutons de direction.
 
-![](../assets/en/FormObjects/indicator_numericStepper.png)
+![](/assets/en/FormObjects/indicator_numericStepper.png)
 
 ## Utilisation du stepper
 

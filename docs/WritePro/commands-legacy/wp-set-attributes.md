@@ -35,7 +35,7 @@ You can pass as many *attribName* / *attribValue* pairs as you want.
 
 In this 4D Write Pro area, you selected a word:  
   
-![](../../assets/en/WritePro/commands/pict2643639.en.png)  
+![](/assets/en/WritePro/commands/pict2643639.en.png)  
 
 If you execute the following code:  
 
@@ -55,7 +55,7 @@ If you execute the following code:
   
 You get the following result:  
   
-![](../../assets/en/WritePro/commands/pict2643642.en.png)
+![](/assets/en/WritePro/commands/pict2643642.en.png)
 
 #### Example 2 
 
@@ -71,7 +71,7 @@ This example illustrates the use of wk inside and wk outside constants:
   
 Assuming all of the contents were selected, the result is:  
   
-![](../../assets/en/WritePro/commands/pict2821715.en.png)
+![](/assets/en/WritePro/commands/pict2821715.en.png)
 
 #### Example 3 
 
@@ -88,7 +88,7 @@ You want to set a background image for the document:
 
 The result is:
 
-![](../../assets/en/WritePro/commands/pict3514231.en.png)
+![](/assets/en/WritePro/commands/pict3514231.en.png)
 
 You want to set a background image that covers the whole printable area:
 
@@ -105,7 +105,7 @@ You want to set a background image that covers the whole printable area:
 
 The result is:
 
-![](../../assets/en/WritePro/commands/pict3514233.en.png)
+![](/assets/en/WritePro/commands/pict3514233.en.png)
 
 **Note**: The paper box value is only applicable to documents and sections.
 
@@ -135,7 +135,7 @@ You want to set tabs at varying intervals and designate a character as the leadi
 
 The result is:
 
-![](../../assets/en/WritePro/commands/pict4251559.en.png)
+![](/assets/en/WritePro/commands/pict4251559.en.png)
 
 #### See also 
 

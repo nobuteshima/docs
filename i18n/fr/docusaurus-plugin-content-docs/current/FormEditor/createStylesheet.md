@@ -19,9 +19,9 @@ La Boîte à Outils comporte une page **Style** qui est un raccourci pour créer
 
 1. Ouvrez la page **Styles** en choisissant **Boîte à outils > Feuilles de style** dans le menu Développement ou en cliquant sur l'icône **Boîte outils** dans la barre d'outils de 4D.
 
-![](../assets/en/FormEditor/stylesheets.png)
+![](/assets/en/FormEditor/stylesheets.png)
 
-2. Sélectionnez le type de feuille de style à créer et cliquez sur le bouton **Créer** ou **Modifier** : ![](../assets/en/FormEditor/createButton.png)
+2. Sélectionnez le type de feuille de style à créer et cliquez sur le bouton **Créer** ou **Modifier** : ![](/assets/en/FormEditor/createButton.png)
 
 3. La feuille de style s'ouvrira dans votre éditeur de texte par défaut.
 

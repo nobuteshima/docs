@@ -77,7 +77,7 @@ Para cada petición, se registran los siguientes campos:
 
 Flujo de solicitudes:
 
-![](../assets/en/Admin/logRequestFlow.PNG)
+![](/assets/en/Admin/logRequestFlow.PNG)
 
 ## 4DRequestsLog_ProcessInfo.txt
 

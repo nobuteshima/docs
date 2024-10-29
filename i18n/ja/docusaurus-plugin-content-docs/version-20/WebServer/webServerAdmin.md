@@ -16,10 +16,10 @@ title: 管理
 4D Webサーバーは複数の方法で起動できます:
 
 *   ボタン/メニューコマンドの使用。
-    *   4D: **実行 ＞ Webサーバー開始** メニュー<br/>![](../assets/en/WebServer/start1.png)
-    *   4D Server: HTTPサーバーページの **HTTPサーバー開始** ボタン<br/>![](../assets/en/WebServer/start2.png)
+    *   4D: **実行 ＞ Webサーバー開始** メニュー<br/>![](/assets/en/WebServer/start1.png)
+    *   4D Server: HTTPサーバーページの **HTTPサーバー開始** ボタン<br/>![](/assets/en/WebServer/start2.png)
 
-*   4Dアプリケーション開始時に Webサーバーを自動起動。 これには、ストラクチャー設定の **Web/設定**ページを表示し、**開始時にWebサーバーを起動** オプションを有効にします:<br/>![](../assets/en/WebServer/config.png)
+*   4Dアプリケーション開始時に Webサーバーを自動起動。 これには、ストラクチャー設定の **Web/設定**ページを表示し、**開始時にWebサーバーを起動** オプションを有効にします:<br/>![](/assets/en/WebServer/config.png)
 
 *   [`webServer.start()`](API/WebServerClass.md#start) 関数または `WEB START SERVER` コマンドを呼び出してプログラムで開始。
 
@@ -41,12 +41,12 @@ title: 管理
 
 **Webサーバーテスト** メニューコマンドを使用してビルトインの Webサーバーが正しく実行されているか確認できます (4Dのみ)。 このメニューは Webサーバーが実行されているときに **実行** メニューからアクセスできます:
 
-![](../assets/en/WebServer/test1.png)
+![](/assets/en/WebServer/test1.png)
 
 
 このコマンドを選択すると、4Dアプリケーションが公開している Webサイトのホームページが、デフォルト Webブラウザーに表示されます:
 
-![](../assets/en/WebServer/defaultHomePage.png)
+![](/assets/en/WebServer/defaultHomePage.png)
 
 
 このコマンドで Webサーバーの動作や、ホームページの表示などを検証できます。 ページは、Webブラウザーが実行されているマシンの IPアドレスを指定する標準のショートカットである、*ローカルホスト* の URL を使用して呼び出されます。 コマンドはストラクチャー設定で指定された [TCP 公開ポート](webServerConfig.md#http-ポート) 番号を考慮に入れます。
@@ -233,7 +233,7 @@ Web のログファイル用のバックアップが起動すると、ログフ�
 
 logweb.txt の自動バックアップパラメーターは、ストラクチャー設定の **Web/ログ (バックアップ)** ページで設定します:
 
-![](../assets/en/WebServer/backup.png)
+![](/assets/en/WebServer/backup.png)
 
 最初に、頻度 (日、週などの単位) またはファイルサイズの上限に対応するラジオボタンをクリックして選択します。 必要に応じて、バックアップする正確な時間を指定します。
 

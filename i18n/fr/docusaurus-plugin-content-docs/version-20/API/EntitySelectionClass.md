@@ -986,7 +986,7 @@ Si plusieurs *attributePath* sont renseignés, un *targetPath* doit être fourni
 
 Considérons les tables et relations suivantes :
 
-![](../assets/en/API/entityselection.PNG)
+![](/assets/en/API/entityselection.PNG)
 
 ```4d
  var $firstnames; $addresses; $mailing; $teachers : Collection
@@ -2288,7 +2288,7 @@ Une collection vide est retournée si :
 
 La structure suivante sera utilisée pour les exemples de cette section :
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 
 Exemple sans paramètres de filtre ni d'options :

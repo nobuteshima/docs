@@ -28,7 +28,7 @@ Dans *rangeObj*, passez un objet contenant une plage de colonnes à supprimer. S
 
 Pour supprimer les colonnes sélectionnées par l'utilisateur (colonnes B, C et D de l'image ci-dessous) :
 
-![](../../assets/en/ViewPro/cmd_vpDeleteColumns.PNG)
+![](/assets/en/ViewPro/cmd_vpDeleteColumns.PNG)
 
 saisissez le code suivant :
 

@@ -24,7 +24,7 @@ title: VP Get spans
 
 ドキュメント内の結合セルにおいて、テキストを中央揃えに変更します:
 
-![](../../assets/en/ViewPro/cmd_vpGetSpans.PNG)
+![](/assets/en/ViewPro/cmd_vpGetSpans.PNG)
 
 ```4d
 // すべてのセル結合を検索します

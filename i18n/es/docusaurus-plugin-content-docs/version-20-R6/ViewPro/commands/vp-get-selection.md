@@ -25,7 +25,7 @@ En el parámetro opcional *sheet*, puede designar una hoja específica donde se 
 
 #### Ejemplo
 
-![](../../assets/en/ViewPro/cmd_vpGetSelection.PNG)
+![](/assets/en/ViewPro/cmd_vpGetSelection.PNG)
 
 El siguiente código recuperará las coordenadas de todas las celdas de la selección actual:
 

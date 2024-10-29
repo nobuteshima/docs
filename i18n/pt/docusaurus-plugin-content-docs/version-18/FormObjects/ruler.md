@@ -7,7 +7,7 @@ title: Regra
 
 A régua é um objeto de interface padrão utilizado para definir ou obter valores utilizando um cursor movido ao longo das suas graduações.
 
-![](../assets/en/FormObjects/indicator_ruler.png)
+![](/assets/en/FormObjects/indicator_ruler.png)
 
 [A variável ou expressão associada](properties_Object.md#expression-type) ao objeto pode ser atribuída a uma área gravável (campo ou variável) para armazenar ou modificar o valor atual do objeto.
 

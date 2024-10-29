@@ -129,9 +129,9 @@ When the **Focusable** property is enabled for an object, the object can have th
 
 > An [input object](input_overview.md) is always focusable if it has the [Enterable](#enterable) property.
 
-- ![](../assets/en/FormObjects/property_focusable1.png)<br/>A caixa de verificação mostra o foco quando selecionada
+- ![](/assets/en/FormObjects/property_focusable1.png)<br/>A caixa de verificação mostra o foco quando selecionada
 
-- ![](../assets/en/FormObjects/property_focusable2.png)<br/>A caixa de verificação está selecionada mas não pode mostrar o foco|
+- ![](/assets/en/FormObjects/property_focusable2.png)<br/>A caixa de verificação está selecionada mas não pode mostrar o foco|
 
 When the **Focusable** property is selected for a non-enterable object, the user can select, copy or even drag-and-drop the contents of the area.
 
@@ -175,13 +175,13 @@ This property is available for [inputs objects](input_overview.md) containing ex
 
 - In single-line inputs, words located at the end of lines are truncated and there are no line returns.
 - Em entradas de várias linhas, 4D realiza retornos automáticos de linha:  
-  ![](../assets/en/FormObjects/multilineAuto.png)
+  ![](/assets/en/FormObjects/multilineAuto.png)
 
 #### Não
 
 - In single-line inputs, words located at the end of lines are truncated and there are no line returns.
 - Nunca há retornos de linha: o texto é sempre exibido em uma única linha. If the Alpha or Text field or variable contains carriage returns, the text located after the first carriage return is removed as soon as the area is modified:  
-  ![](../assets/en/FormObjects/multilineNo.png)
+  ![](/assets/en/FormObjects/multilineNo.png)
 
 #### Sim
 
@@ -205,7 +205,7 @@ When this value is selected, the property is managed by the [Wordwrap](propertie
 
 Placeholder text appears as watermark text in a field, supplying a help tip, indication or example for the data to be entered. This text disappears as soon as the user enters a character in the area:
 
-![](../assets/en/FormObjects/property_placeholder.png)
+![](/assets/en/FormObjects/property_placeholder.png)
 
 O texto do marcador de posição é apresentado novamente se o conteúdo do campo for apagado.
 
@@ -259,7 +259,7 @@ This property allows setting special meaning keys (keyboard shortcuts) for [butt
 
 You can configure this option by clicking the [...] button in the Shortcuts property in the Property List.
 
-![](../assets/en/FormObjects/property_shortcut.png)
+![](/assets/en/FormObjects/property_shortcut.png)
 > Também é possível atribuir um atalho a um comando de menu personalizado. Se houver um conflito entre dois atalhos, o objeto ativo terá prioridade. Para obter mais informações sobre como associar atalhos a menus, consulte [Definição das propriedades dos menus](https://doc.4d.com/4Dv17R5/4D/17-R5/Setting-menu-properties.300-4163525.en.html).
 
 To view a list of all the shortcuts used in the 4D Design environment, see the [Shortcuts Page](https://doc.4d.com/4Dv17R5/4D/17-R5/Shortcuts-Page.300-4163701.en.html) in the Preferences dialog box.

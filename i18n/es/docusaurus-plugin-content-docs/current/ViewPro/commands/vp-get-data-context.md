@@ -35,7 +35,7 @@ La función devuelve un objeto o una colección dependiendo del tipo de contexto
 
 Para obtener el contexto de datos asociado a las siguientes celdas:
 
-![](../../assets/en/ViewPro/vp-set-data-context-bind.png)
+![](/assets/en/ViewPro/vp-set-data-context-bind.png)
 
 ```4d
 var $dataContext : Object

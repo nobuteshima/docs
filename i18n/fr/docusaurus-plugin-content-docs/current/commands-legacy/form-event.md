@@ -54,7 +54,7 @@ Vous souhaitez gérer l'événement Sur clic dans un bouton :
 
 Si vous définissez le nom de l'objet colonne avec un nom d'attribut d'une dataclass comme suit:
 
-![](../assets/en/commands/pict4843820.en.png)
+![](/assets/en/commands/pict4843820.en.png)
 
 Vous pouvez trier la colonne à l'aide de l'événement Sur clic entête :
 
@@ -72,7 +72,7 @@ End case
 
 Vous souhaitez gérer l'événement Sur affichage corps sur un objet List box à l'aide d'une méthode définie dans la propriété *Meta info expression* :
 
-![](../assets/en/commands/pict4843812.en.png)
+![](/assets/en/commands/pict4843812.en.png)
 
 La méthode *setColor* :
 
@@ -92,7 +92,7 @@ La méthode *setColor* :
 
 La list box résultante s'affichera comme suit lorsque les lignes sont sélectionées :
 
-![](../assets/en/commands/pict4843808.en.png)
+![](/assets/en/commands/pict4843808.en.png)
 
 #### Voir aussi 
 

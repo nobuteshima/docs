@@ -17,8 +17,8 @@ Lorsque vous travaillez sur un projet dans 4D Developer, vous pouvez utiliser le
 
 4D Developer comprend un gestionnaire d’accès aux fichiers permettant de contrôler les accès simultanés :
 
-- if an open file which is read-only at the OS level, a locked icon is displayed in the editor: ![](../assets/en/Project/lockicon.png)
-- if an open file is edited concurrently from different locations, 4D displays an alert dialog box when trying to save the changes:![](../assets/en/Project/projectReload.png)
+- if an open file which is read-only at the OS level, a locked icon is displayed in the editor: ![](/assets/en/Project/lockicon.png)
+- if an open file is edited concurrently from different locations, 4D displays an alert dialog box when trying to save the changes:![](/assets/en/Project/projectReload.png)
   - **Oui** : ignore les modifications de l'éditeur et recharge
   - **Non** : enregistre les modifications et écrase l'autre version
   - **Annuler** : ne pas enregistrer

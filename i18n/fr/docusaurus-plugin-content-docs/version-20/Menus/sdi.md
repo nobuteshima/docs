@@ -46,7 +46,7 @@ En mode SDI, la barre de menu du process s'affiche automatiquement dans chaque f
 
 Les menus sont ajoutés au-dessus des fenêtres sans modifier la taille de leur contenu :
 
-![](../assets/en/Menus/sdi1.png)
+![](/assets/en/Menus/sdi1.png)
 
 Les fenêtres peuvent donc être utilisées dans les modes MDI ou SDI sans avoir à recalculer la position des objets.
 

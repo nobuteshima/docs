@@ -28,7 +28,7 @@ title: VP SET CURRENT SHEET
 
 ドキュメントの最初のシートがカレントシートになっています:
 
-![first-sheet-selected](../../assets/en/ViewPro/vp-sheet-3-select.png)
+![first-sheet-selected](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 カレントシートを第3シートに設定します:
 
@@ -36,7 +36,7 @@ title: VP SET CURRENT SHEET
 VP SET CURRENT SHEET("ViewProArea";2)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-3-select.png)
+![](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 #### 参照
 

@@ -20,11 +20,11 @@ Puede configurar el servidor web `WebAdmin` para que se lance al inicio de la ap
 
 - Si utiliza una aplicación 4D con interfaz, seleccione la opción de menú **Archivo > Administración web > Propiedades...**.
 
-![alt-text](../assets/en/Admin/waMenu1.png)
+![alt-text](/assets/en/Admin/waMenu1.png)
 
 Seleccione la opción **Inicio automático de la administración del servidor web** en la caja de diálogo de configuración:
 
-![alt-text](../assets/en/Admin/waSettings.png)
+![alt-text](/assets/en/Admin/waSettings.png)
 
 - Tanto si utiliza la aplicación 4D con o sin interfaz, puede habilitar el modo de inicio automático utilizando el siguiente argumento *Interfaz de línea de comandos*:
 
@@ -40,7 +40,7 @@ Si utiliza una aplicación 4D con interfaz, puede iniciar o detener el servidor 
 
 Seleccione la opción de menú **Archivo > Administración web > Iniciar el servidor**.
 
-![alt-text](../assets/en/Admin/waMenu2.png)
+![alt-text](/assets/en/Admin/waMenu2.png)
 
 El elemento de menú se convierte en **Detener el servidor** cuando se lanza el servidor; seleccione **Detener el servidor** para detener el servidor web `WebAdmin`.
 
@@ -56,11 +56,11 @@ Puede configurar el componente `WebAdmin` en la [caja de diálogo Configuración
 
 Para abrir la caja de diálogo de configuración de administración web, seleccione **Archivo > Administración Web > Configuración...**.
 
-![alt-text](../assets/en/Admin/waMenu1.png)
+![alt-text](/assets/en/Admin/waMenu1.png)
 
 Se muestra la siguiente caja de diálogo:
 
-![alt-text](../assets/en/Admin/waSettings2.png)
+![alt-text](/assets/en/Admin/waSettings2.png)
 
 #### Inicio automático de la administración del servidor web
 
@@ -105,7 +105,7 @@ Estado o formato del archivo de registro de peticiones HTTP (HTTPDebugLog_*nn*.t
 
 La configuración de una llave de acceso es obligatoria para desbloquear el acceso al servidor web `WebAdmin` a través de una URL (el acceso a través de un comando del menú 4D no requiere una llave de acceso). Cuando no se define ninguna llave de acceso, no se permite que ningún cliente web se conecte a través de una URL a una interfaz de administración web como la página [Explorador de datos](dataExplorer.md). Se devuelve una página de error en caso de solicitud de conexión:
 
-![alt-text](../assets/en/Admin/accessKey.png)
+![alt-text](/assets/en/Admin/accessKey.png)
 
 Una llave de acceso es similar a una contraseña pero no está asociada a un inicio de sesión.
 

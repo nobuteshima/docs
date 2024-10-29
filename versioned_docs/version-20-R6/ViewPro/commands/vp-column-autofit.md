@@ -22,7 +22,7 @@ In *rangeObj*, pass a range object containing a range of the columns whose size 
 
 The following columns are all the same size and don't display some of the text:
 
-![](../../assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
 
 Selecting the columns and running this code:
 
@@ -32,7 +32,7 @@ Selecting the columns and running this code:
 
 ... resizes the columns to fit the size of the contents:
 
-![](../../assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
 
 #### See also
 

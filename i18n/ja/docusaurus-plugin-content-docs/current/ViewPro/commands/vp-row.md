@@ -35,7 +35,7 @@ __
 
 以下に表示されている (カレントスプレッドシートの) 行に対するレンジオブジェクトを定義します:
 
-![](../../assets/en/ViewPro/cmd_vpRow.PNG)
+![](/assets/en/ViewPro/cmd_vpRow.PNG)
 
 以下のように書くことができます:
 

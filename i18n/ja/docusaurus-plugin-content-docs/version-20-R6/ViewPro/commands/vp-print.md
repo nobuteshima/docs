@@ -41,7 +41,7 @@ title: VP PRINT
 
 ... 印刷ダイアログウィンドウを開きます:
 
-![](../../assets/en/ViewPro/cmd_vpPrint.PNG)
+![](/assets/en/ViewPro/cmd_vpPrint.PNG)
 
 #### 参照
 

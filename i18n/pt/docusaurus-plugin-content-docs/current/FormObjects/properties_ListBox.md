@@ -112,11 +112,11 @@ Estas propriedades interagem da seguinte forma:
 
 - Se definir colunas bloqueadas, mas não estáticas, pode ainda alterar a sua posição livremente na área bloqueada. No entanto, uma coluna bloqueada não pode ser movida para fora dessa área bloqueada.
 
-![](../assets/en/FormObjects/property_lockedStaticColumns1.png)
+![](/assets/en/FormObjects/property_lockedStaticColumns1.png)
 
 - If you set all of the columns in the locked area as static, you cannot move these columns within the locked area.
 
-![](../assets/en/FormObjects/property_lockedStaticColumns2.png)
+![](/assets/en/FormObjects/property_lockedStaticColumns2.png)
 
 - You can set a combination of locked and static columns according to your needs. For example, if you set three locked columns and one static column, the user can swap the two right-most columns within the locked area (since only the first column is static).
 
@@ -190,7 +190,7 @@ To change the status for a row, you just need to set the appropriate constant(s)
  aLControlArr{10}:=lk row is not selectable
 ```
 
-![](../assets/en/FormObjects/listbox_styles5.png)
+![](/assets/en/FormObjects/listbox_styles5.png)
 
 É possível definir várias propriedades de interface de uma só vez:
 
@@ -198,7 +198,7 @@ To change the status for a row, you just need to set the appropriate constant(s)
  aLControlArr{8}:=lk row is not selectable + lk row is disabled
 ```
 
-![](../assets/en/FormObjects/listbox_styles6.png)
+![](/assets/en/FormObjects/listbox_styles6.png)
 
 Note that setting properties for an element overrides any other values for this element (if not reset). Por exemplo:
 

@@ -33,7 +33,7 @@ Podem ser utilizadas duas localizações principais para o percurso da imagem es
 
 O formato **Scaled to fit** faz com que o 4D redimensione a imagem para se ajustar às dimensões da área.
 
-![](../assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
+![](/assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
 
 ### Replicado
 
@@ -41,7 +41,7 @@ O formato **Scaled to fit** faz com que o 4D redimensione a imagem para se ajust
 
 Quando a área que conter uma imagem com o formato **Replicated** for ampliada, a imagem não é deformada, mas é replicada tantas vezes quantas as necessárias para preencher totalmente a área.
 
-![](../assets/en/FormObjects/property_pictureFormat_Replicated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Replicated.png)
 
 Se o campo for reduzido para um tamanho inferior ao da imagem original, a imagem é truncada (não centrada).
 
@@ -54,7 +54,7 @@ O formato **Center** faz com que o 4D centralize a imagem na área e corte qualq
 O formato **Truncado (não centrado)** faz com que 4D coloque o canto superior esquerdo da imagem no canto superior esquerdo da área e recorte qualquer parte que não caiba na área. 4D corta da direita e de baixo para cima.
 > Quando o formato da imagem for **Truncado (não centrado)**, é possível adicionar barras de deslocamento à área de entrada.
 
-![](../assets/en/FormObjects/property_pictureFormat_Truncated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Truncated.png)
 
 #### Gramática JSON
 

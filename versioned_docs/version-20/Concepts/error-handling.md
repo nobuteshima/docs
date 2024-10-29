@@ -76,7 +76,7 @@ You can define a single error-catching method for the whole application or diffe
 
 When an error occurs, only one method is called, as described in the following diagram:
 
-![error management](../assets/en/Concepts/error-schema.png)
+![error management](/assets/en/Concepts/error-schema.png)
 
 
 ### Handling errors within the method

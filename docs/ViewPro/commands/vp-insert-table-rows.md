@@ -63,7 +63,7 @@ VP SET DATA CONTEXT("ViewProArea"; $context)
 VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; 3; 3); "PeopleTable"; "col")
 ```
 
-![](../../assets/en/ViewPro/table-base.png)
+![](/assets/en/ViewPro/table-base.png)
 
 You want to insert two rows and two columns in the table, you can write:
 
@@ -72,7 +72,7 @@ VP INSERT TABLE ROWS("ViewProArea"; "PeopleTable"; 1; 2)
 VP INSERT TABLE COLUMNS("ViewProArea"; "PeopleTable"; 1; 2)
 ```
 
-![](../../assets/en/ViewPro/table-insert.png)
+![](/assets/en/ViewPro/table-insert.png)
 
 
 

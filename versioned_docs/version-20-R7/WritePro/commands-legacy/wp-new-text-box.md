@@ -58,7 +58,7 @@ You want to create a default, empty text box:
 
 Result:
 
-![](../../assets/en/WritePro/commands/pict6196750.en.png)
+![](/assets/en/WritePro/commands/pict6196750.en.png)
 
 #### Example 2 
 
@@ -91,7 +91,7 @@ In a template of a letter, you want to add a text box to display the address of 
 
 Result:
 
-![](../../assets/en/WritePro/commands/pict6196766.en.png)
+![](/assets/en/WritePro/commands/pict6196766.en.png)
 
 #### See also 
 

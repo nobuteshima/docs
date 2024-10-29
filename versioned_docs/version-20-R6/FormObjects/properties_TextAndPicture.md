@@ -46,8 +46,8 @@ This parameter is useful, for example, when the background picture contains bord
 
 |With / Without | Example |
 |---|---|
-|Without margin|![](../assets/en/FormObjects/property_horizontalMargin1.png)|
-|With 13-pixel margin|![](../assets/en/FormObjects/property_horizontalMargin2.png)|
+|Without margin|![](/assets/en/FormObjects/property_horizontalMargin1.png)|
+|With 13-pixel margin|![](/assets/en/FormObjects/property_horizontalMargin2.png)|
 
 >This property works in conjunction with the [Vertical Margin](#vertical-margin) property.
 
@@ -118,7 +118,7 @@ The picture can contain from 2 to 6 states.
 
 Each state is represented by a different picture. In the source picture, the states must be stacked vertically:
 
-![](../assets/en/FormObjects/six-states.png)
+![](/assets/en/FormObjects/six-states.png)
 
 
 
@@ -162,11 +162,11 @@ Here are the results using the various options for this property:
 
 |Option|Description|Example|
 |---|---|---|
-|**Left**|The text is placed to the left of the icon. The contents of the button are aligned to the right.|![](../assets/en/FormObjects/property_titlePosition_left.en.png)|
-|**Top**|The text is placed above the icon. The contents of the button are centered.| ![](../assets/en/FormObjects/property_titlePosition_top.png)   |
-|**Right**|The text is placed to the right of the icon. The contents of the button are aligned to the left.|![](../assets/en/FormObjects/property_titlePosition_right.png) |
-|**Bottom**|The text is placed below the icon. The contents of the button are centered.|![](../assets/en/FormObjects/property_titlePosition_bottom.png) |
-|**Centered**|The text of the icon is centered vertically and horizontally in the button. This parameter is useful, for example, for text included in an icon.|![](../assets/en/FormObjects/property_titlePosition_centered.png) |
+|**Left**|The text is placed to the left of the icon. The contents of the button are aligned to the right.|![](/assets/en/FormObjects/property_titlePosition_left.en.png)|
+|**Top**|The text is placed above the icon. The contents of the button are centered.| ![](/assets/en/FormObjects/property_titlePosition_top.png)   |
+|**Right**|The text is placed to the right of the icon. The contents of the button are aligned to the left.|![](/assets/en/FormObjects/property_titlePosition_right.png) |
+|**Bottom**|The text is placed below the icon. The contents of the button are centered.|![](/assets/en/FormObjects/property_titlePosition_bottom.png) |
+|**Centered**|The text of the icon is centered vertically and horizontally in the button. This parameter is useful, for example, for text included in an icon.|![](/assets/en/FormObjects/property_titlePosition_centered.png) |
 
 #### JSON Grammar
 
@@ -188,7 +188,7 @@ This property has no effect when the button contains only a title (no associated
 
 By default, when a button contains a title and a picture, the elements are joined. The following graphic shows the effect of the `imageHugsTitle` property (true when property is enabled) with different button alignments:
 
-![](../assets/en/FormObjects/hugs.png)
+![](/assets/en/FormObjects/hugs.png)
 
 
 #### JSON Grammar
@@ -227,7 +227,7 @@ This parameter is useful, for example, when the background picture contains bord
 
 This property allows displaying a symbol that appears as a triangle in the button to indicate the presence of an attached pop-up menu:
 
-![](../assets/en/FormObjects/property_popup.png)
+![](/assets/en/FormObjects/property_popup.png)
 
 The appearance and location of this symbol depends on the button style and the current platform.
 
@@ -237,7 +237,7 @@ To attach a pop-up menu symbol to a button, there are two display options availa
 
 |Linked|Separated|
 |:---:|:---:|
-|![](../assets/en/FormObjects/property_popup_linked.png) |![](../assets/en/FormObjects/property_popup_separated.png)|
+|![](/assets/en/FormObjects/property_popup_linked.png) |![](/assets/en/FormObjects/property_popup_separated.png)|
 
 >The actual availability of a "separated" mode depends on the style of the button and the platform.
 

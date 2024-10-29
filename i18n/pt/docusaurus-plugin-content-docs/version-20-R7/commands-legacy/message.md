@@ -47,7 +47,7 @@ O exemplo a seguir processa uma seleção de registros e chama MESSAGE para info
 
 A janela a seguir aparece e desaparece cada vez que se chama MESSAGE:
 
-![](../assets/en/commands/pict25453.en.png)
+![](/assets/en/commands/pict25453.en.png)
 
 #### Exemplo 2 
 
@@ -65,7 +65,7 @@ Com o objetivo de evitar a janela "piscante", pode mostrar as mensagens em uma j
 
 O resultado é o seguinte (em Windows):
 
-![](../assets/en/commands/pict25454.en.png)
+![](/assets/en/commands/pict25454.en.png)
 
 #### Exemplo 3 
 
@@ -83,7 +83,7 @@ Adicionar um retorno de carro melhora a presentação:
 
 Este é o resultado (em Windows):
 
-![](../assets/en/commands/pict25455.en.png)
+![](/assets/en/commands/pict25455.en.png)
 
 #### Exemplo 4 
 
@@ -107,7 +107,7 @@ Utilizando [GOTO XY](goto-xy.md "GOTO XY") e escrevendo algumas linhas adicionai
 
 O resultado é o seguinte (em Windows):
 
-![](../assets/en/commands/pict25456.en.png)
+![](/assets/en/commands/pict25456.en.png)
 
 #### Ver também 
 

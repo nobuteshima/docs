@@ -7,7 +7,7 @@ title: Case à cocher
 
 Une case à cocher est un type de bouton utilisée pour saisir ou afficher une donnée binaire (vrai-faux). Elle peut être soit sélectionnée soit désélectionnée, mais un troisième état peut également être défini (voir ci-dessous).
 
-![](../assets/en/FormObjects/checkbox.png)
+![](/assets/en/FormObjects/checkbox.png)
 
 L’effet d’une case à cocher est contrôlé par une méthode. Comme tous les boutons, une case à cocher est initialisée à la valeur zéro lorsque le formulaire est ouvert pour la première fois. La méthode associée à une case à cocher est exécutée lorsqu’elle est cochée.
 
@@ -26,7 +26,7 @@ Une partie ou la totalité des cases à cocher contenues dans un formulaires peu
 
 Les objets de type case à cocher de style [Classique](checkbox_overview.md#regular) et [A plat](checkbox_overview.md#flat) acceptent un troisième état. Ce troisième état représente un statut intermédiaire, généralement utilisé pour l’affichage. Il permet par exemple d’indiquer qu’une propriété est présente parmi une sélection d’objets mais pas dans chaque objet de la sélection.
 
-![](../assets/en/FormObjects/checkbox_3states.png)
+![](/assets/en/FormObjects/checkbox_3states.png)
 
 Pour qu’une case à cocher prenne en charge ce troisième état, vous devez lui attribuer la propriété [Trois états](properties_Display.md#three-states) dans la Liste des propriétés, thème “Affichage” .
 
@@ -86,7 +86,7 @@ Les styles de bouton des cases à cocher contrôlent l'apparence générale d'un
 
 Le style Classique de case à cocher correspond à un système de case à cocher standard (*i.e.*, un rectangle avec un titre descriptif) :
 
-![](../assets/en/FormObjects/checkbox_regular.png)
+![](/assets/en/FormObjects/checkbox_regular.png)
 
 #### Exemple JSON
 
@@ -108,7 +108,7 @@ Le style Classique de case à cocher correspond à un système de case à cocher
 
 Le style A plat a un design minimaliste. Le graphisme du style A plat est particulièrement utile pour les formulaires à imprimer.
 
-![](../assets/en/FormObjects/checkbox_flat.png)
+![](/assets/en/FormObjects/checkbox_flat.png)
 
 #### Exemple JSON
 
@@ -133,7 +133,7 @@ Le style Barre outils possède un fond transparent et un titre. Il est général
 
 Exemples avec les états coché / non coché / surligné :
 
-![](../assets/en/FormObjects/checkbox_toolbar.png)
+![](/assets/en/FormObjects/checkbox_toolbar.png)
 
 #### Exemple JSON
 
@@ -159,7 +159,7 @@ Le style Bevel possède un fond gris clair et un titre. Il est généralement as
 
 Exemples avec les états coché / non coché / surligné :
 
-![](../assets/en/FormObjects/checkbox_bevel.png)
+![](/assets/en/FormObjects/checkbox_bevel.png)
 
 #### Exemple JSON
 
@@ -185,7 +185,7 @@ Le style Bevel arrondi possède un fond gris clair et un titre. Il est général
 
 Exemple sous macOS :
 
-  ![](../assets/en/FormObjects/checkbox_roundedbevel_mac.png)
+  ![](/assets/en/FormObjects/checkbox_roundedbevel_mac.png)
 
 > Sous Windows, le style Bevel arrondi est identique au style [Bevel](#bevel).
 
@@ -211,7 +211,7 @@ Le style de case à cocher OS X Gradient est presque identique au style [Bevel](
 
 Le style Gradient OS X a un arrière-plan gris clair et un titre et s'affiche sous la forme d'un bouton système bicolore sur macOS. Il est généralement associé à une [image à 4 états](properties_TextAndPicture.md#number-of-states).
 
-  ![](../assets/en/FormObjects/checkbox_osxgradient_mac.png)
+  ![](/assets/en/FormObjects/checkbox_osxgradient_mac.png)
 
 > Sous Windows, ce style est identique au style [Bevel](#bevel).
 
@@ -239,11 +239,11 @@ Par défaut, le style OS X Textured apparaît comme :
 
 - *Windows* - un bouton système standard avec un fond bleu clair et un libellé au centre.
 
-  ![](../assets/en/FormObjects/checkbox_osxtextured.png)
+  ![](/assets/en/FormObjects/checkbox_osxtextured.png)
 
 - *Sous macOS* - un bouton système standard affichant un changement de couleur du gris clair au gris foncé. Sa hauteur est prédéfinie : il n'est pas possible de l'agrandir ou de la réduire.
 
-  ![](../assets/en/FormObjects/checkbox_osxtextured_mac.png)
+  ![](/assets/en/FormObjects/checkbox_osxtextured_mac.png)
 
 #### Exemple JSON
 
@@ -267,11 +267,11 @@ Les couleurs (surbrillance et arrière-plan) d'un bouton au style Office XP sont
 
 - *Sous Windows* - son arrière-plan n'apparaît que lorsque la souris le survole. Exemples avec les états coché / non coché / surligné :
 
-  ![](../assets/en/FormObjects/checkbox_officexp.png)
+  ![](/assets/en/FormObjects/checkbox_officexp.png)
 
 - *Sous macOS* - son arrière-plan est toujours affiché. Exemples avec les états cochés / non cochés :
 
-  ![](../assets/en/FormObjects/checkbox_officexp_mac.png)
+  ![](/assets/en/FormObjects/checkbox_officexp_mac.png)
 
 #### Exemple JSON
 
@@ -296,11 +296,11 @@ Ce style de case à cocher peut être utilisé pour ajouter une icône standard 
 
 - *Sous Windows* - le bouton est semblable à [+] ou à [-]
 
-  ![](../assets/en/FormObjects/checkbox_collapse.png)
+  ![](/assets/en/FormObjects/checkbox_collapse.png)
 
 - *Sous macOS* - il ressemble à un triangle pointant sur vers la droite ou vers le bas.
 
-  ![](../assets/en/FormObjects/checkbox_collapse_mac.png)
+  ![](/assets/en/FormObjects/checkbox_collapse_mac.png)
 
 #### Exemple JSON
 
@@ -322,11 +322,11 @@ Sous macOS et Windows, une case à cocher avec le style "Disclosure" apparaît c
 
 - *Windows*
 
- ![](../assets/en/FormObjects/checkbox_disclosure.png)
+ ![](/assets/en/FormObjects/checkbox_disclosure.png)
 
 - *macOS*
 
- ![](../assets/en/FormObjects/checkbox_disclosure_mac.png)
+ ![](/assets/en/FormObjects/checkbox_disclosure_mac.png)
 
 #### Exemple JSON
 

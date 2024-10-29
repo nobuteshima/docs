@@ -20,9 +20,9 @@ A caixa de ferramentas de 4D oferece uma página **Hojas de estilo** como opçã
 
 1. Abra a página **Estilos** escolhendo a **Caixa de ferramentas > Styles** do menu Design ou clique no ícone **Caixa de ferramentas** da barra de ferramentas do editor de formulários.
 
- ![](../assets/en/FormEditor/stylesheets.png)
+ ![](/assets/en/FormEditor/stylesheets.png)
 
-2. Selecione o tipo de folha de estilo que deseja criar E cliquer no botão **Criar** ou **Editar**: ![](../assets/en/FormEditor/createButton.png)
+2. Selecione o tipo de folha de estilo que deseja criar E cliquer no botão **Criar** ou **Editar**: ![](/assets/en/FormEditor/createButton.png)
 
 3. A folha de estilo se abrirá em seu editor de texto predeterminado.
 

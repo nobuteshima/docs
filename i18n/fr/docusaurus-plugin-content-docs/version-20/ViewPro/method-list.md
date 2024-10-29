@@ -124,7 +124,7 @@ Dans *rangeObj*, passez un objet plage de plusieurs cellules à ajouter à la s�
 
 Les cellules sélectionnées sont les suivantes :
 
-![](../assets/en/ViewPro/cmd_vpAddSelection1.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection1.PNG)
 
 Le code suivant ajoutera des cellules à votre sélection :
 
@@ -135,7 +135,7 @@ VP ADD SELECTION($currentSelection)
 
 Résultat:
 
-![](../assets/en/ViewPro/cmd_vpAddSelection2.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection2.PNG)
 
 #### Voir également
 
@@ -171,7 +171,7 @@ Dans *name*, vous pouvez passer un nom pour la nouvelle feuille. Le nouveau nom 
 
 Le document comporte actuellement 3 feuilles :
 
-![vp-document-with-3-sheets](../assets/en/ViewPro/vp-sheet-3.png)
+![vp-document-with-3-sheets](/assets/en/ViewPro/vp-sheet-3.png)
 
 Pour insérer une feuille à la troisième position (index 2) et la nommer "March" :
 
@@ -179,7 +179,7 @@ Pour insérer une feuille à la troisième position (index 2) et la nommer "Marc
 VP ADD SHEET("ViewProArea";2;"March")
 ```
 
-![vp-add-sheet](../assets/en/ViewPro/vp-add-sheet.png)
+![vp-add-sheet](/assets/en/ViewPro/vp-add-sheet.png)
 
 #### Voir également
 
@@ -211,7 +211,7 @@ Dans *rangeObj*, passez une plage de cellules. Les cellules de la plage sont joi
 
 Pour fusionner les cellules First quarter et Second quarter avec les deux cellules côte à côte, et de fusionner la cellule South area avec les deux lignes en-dessous :
 
-![initial-document](../assets/en/ViewPro/vp-add-span.png)
+![initial-document](/assets/en/ViewPro/vp-add-span.png)
 
 ```4d
  //  Plage First quarter
@@ -226,7 +226,7 @@ Pour fusionner les cellules First quarter et Second quarter avec les deux cellul
  VP ADD SPAN(VP Combine ranges($q1;$q2;$south))
 ```
 
-![vp-add-span-result](../assets/en/ViewPro/vp-add-span-2.png)
+![vp-add-span-result](/assets/en/ViewPro/vp-add-span-2.png)
 
 #### Voir également
 
@@ -380,7 +380,7 @@ Dans le paramètre optionnel *sheet*, vous pouvez désigner l'indice de la feuil
 
 Vous souhaitez définir une plage pour la cellule de la feuille courante (sur la feuille courante) :
 
-![vp-cell](../assets/en/ViewPro/cmd_vpCell.png)
+![vp-cell](/assets/en/ViewPro/cmd_vpCell.png)
 
 Le code est le suivant :
 
@@ -438,7 +438,7 @@ Dans le paramètre optionnel *sheet*, vous pouvez désigner une feuille spécifi
 
 Vous souhaitez définir un objet plage pour les cellules suivantes (de la feuille courante) :
 
-![](../assets/en/ViewPro/vp-cells.png)
+![](/assets/en/ViewPro/vp-cells.png)
 
 Le code est le suivant :
 
@@ -483,7 +483,7 @@ Dans le paramètre optionnel *sheet*, vous pouvez désigner une feuille spécifi
 
 Vous souhaitez définir une plage pour la colonne ci-dessous (dans la feuille courante) :
 
-![](../assets/en/ViewPro/cmd_vpColumn.PNG)
+![](/assets/en/ViewPro/cmd_vpColumn.PNG)
 
 Le code est le suivant :
 
@@ -518,7 +518,7 @@ Dans *rangeObj*, passez un objet plage contenant une plage de colonnes dont la t
 
 Les colonnes suivantes sont toutes de la même taille et n'affichent pas certaines parties du texte :
 
-![](../assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
 
 La sélection des colonnes et l'exécution du code suivant :
 
@@ -528,7 +528,7 @@ La sélection des colonnes et l'exécution du code suivant :
 
 redimensionne les colonnes pour correspondre à la taille du contenu :
 
-![](../assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
 
 #### Voir également
 
@@ -760,7 +760,7 @@ VP PASTE FROM OBJECT($targetRange; $dataObject; vk clipboard options all)
 
 La commande `VP CREATE TABLE` <!-- REF #_method_.VP CREATE TABLE.Summary -->crée une table dans la plage spécifiée<!-- END REF -->. Vous pouvez créer une table dans une plage de cellules pour faciliter la gestion et l'analyse d'un groupe de données connexes. Un tableau contient généralement des données liées dans des lignes et des colonnes, et tire parti d'un [contexte de données](#vp-set-data-context).
 
-![](../assets/en/ViewPro/vp-create-table.png)
+![](/assets/en/ViewPro/vp-create-table.png)
 
 Dans *rangeObj*, passez la plage de cellules dans laquelle la table sera créée.
 
@@ -831,7 +831,7 @@ VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; $options.tableColumns.length; 1); 
 
 Voici le résultat :
 
-![](../assets/en/ViewPro/vp-create-table.png)
+![](/assets/en/ViewPro/vp-create-table.png)
 
 #### Voir également
 
@@ -867,7 +867,7 @@ Dans *rangeObj*, passez un objet contenant les colonnes à supprimer. Si la plag
 
 Pour supprimer les colonnes sélectionnées par l'utilisateur (colonnes B, C et D de l'image ci-dessous) :
 
-![](../assets/en/ViewPro/cmd_vpDeleteColumns.PNG)
+![](/assets/en/ViewPro/cmd_vpDeleteColumns.PNG)
 
 saisissez le code suivant :
 
@@ -906,7 +906,7 @@ Dans *rangeObj*, passez un objet contenant les lignes à supprimer. Si la plage 
 
 Pour supprimer les lignes sélectionnées par l'utilisateur (lignes 1, 2 et 3 de l'image ci-dessous) :
 
-![](../assets/en/ViewPro/cmd_vpDeleteRows.PNG)
+![](/assets/en/ViewPro/cmd_vpDeleteRows.PNG)
 
 saisissez le code suivant :
 
@@ -1058,7 +1058,7 @@ Méthode ***AfterExport*** :
 
 Vous souhaitez exporter la feuille courante dans un fichier `.txt` avec des valeurs séparées par des "|" :
 
-![example-export-csv](../assets/en/ViewPro/vp-export-document-csv.png)
+![example-export-csv](/assets/en/ViewPro/vp-export-document-csv.png)
 
 ```4d
 var $params : Object
@@ -1071,7 +1071,7 @@ VP EXPORT DOCUMENT("ViewProArea";"c:\\tmp\\data.txt";New object("format";vk csv 
 
 Voici le résultat :
 
-![example-export-csv](../assets/en/ViewPro/vp-export-document-csv-result.png)
+![example-export-csv](/assets/en/ViewPro/vp-export-document-csv-result.png)
 
 #### Voir également
 
@@ -1374,7 +1374,7 @@ Dans le paramètre optionnel *sheet*, vous pouvez désigner une feuille spécifi
 
 #### Exemple
 
-![](../assets/en/ViewPro/cmd_vpGetActiveCell.PNG)
+![](/assets/en/ViewPro/cmd_vpGetActiveCell.PNG)
 
 Le code suivant récupèrera les coordonnées de la cellule active :
 
@@ -1473,7 +1473,7 @@ Dans *rangeObj*, passez une plage contenant le style à récupérer.
 
 Pour obtenir les détails concernant le style de la cellule sélectionnée (B2) :
 
-![](../assets/en/ViewPro/cmd_vpGetCellStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpGetCellStyle.PNG)
 
 Le code suivant :
 
@@ -1539,7 +1539,7 @@ $attr:=VP Get column attributes($range)
 
 ... retournera une collection d'attributs de la plage donnée :
 
-![](../assets/en/ViewPro/cmd_vpGetColumnAttributes.PNG)
+![](/assets/en/ViewPro/cmd_vpGetColumnAttributes.PNG)
 
 #### Voir également
 
@@ -1607,7 +1607,7 @@ Passez le nom de la zone 4D View Pro dans *vpAreaName*.
 
 Lorsque la troisième feuille est sélectionnée :
 
-![third-sheet](../assets/en/ViewPro/vp-sheet-3-select.png)
+![third-sheet](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 La commande retourne 2 :
 
@@ -1654,7 +1654,7 @@ The function returns an object or a collection depending on the type of data con
 
 To get the data context bound to the following cells:
 
-![](../assets/en/ViewPro/vp-set-data-context-bind.png)
+![](/assets/en/ViewPro/vp-set-data-context-bind.png)
 
 ```4d
 var $dataContext : Object
@@ -1693,7 +1693,7 @@ Vous pouvez définir où compter les colonnes à l'aide du paramètre optionnel 
 
 Pour lire les détails du style par défaut de ce document :
 
-![](../assets/en/ViewPro/cmd_vpGetDefaultStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpGetDefaultStyle.PNG)
 
 Le code suivant :
 
@@ -1833,7 +1833,7 @@ La collection retournée est bidemensionnelle :
 
 Vous souhaitez récupérer les formules des colonnes Sum et Average de ce document :
 
-![](../assets/en/ViewPro/cmd_vpGetFormulas.PNG)
+![](/assets/en/ViewPro/cmd_vpGetFormulas.PNG)
 
 Vous pouvez utiliser ce code :
 
@@ -1894,7 +1894,7 @@ $panesObj:=VP Get frozen panes("ViewProArea")
 
 L'objet retourné contient, par exemple :
 
-![](../assets/en/ViewPro/cmd_vpGetFrozenpanes.PNG)
+![](/assets/en/ViewPro/cmd_vpGetFrozenpanes.PNG)
 
 #### Voir également
 
@@ -2067,7 +2067,7 @@ $range:=VP Column("ViewProArea";1;2)
 $attr:=VP Get row attributes($range)
 ```
 
-![](../assets/en/ViewPro/cmd_vpGetRowAttributes.PNG)
+![](/assets/en/ViewPro/cmd_vpGetRowAttributes.PNG)
 
 #### Voir également
 
@@ -2134,7 +2134,7 @@ Dans le paramètre optionnel *sheet*, vous pouvez désigner une feuille spécifi
 
 #### Exemple
 
-![](../assets/en/ViewPro/cmd_vpGetSelection.PNG)
+![](/assets/en/ViewPro/cmd_vpGetSelection.PNG)
 
 Le code suivant récupèrera les coordonnées de la cellule active :
 
@@ -2179,7 +2179,7 @@ Passez le nom de la zone 4D View Pro dans *vpAreaName*.
 
 Dans le document suivant :
 
-![](../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 Pour obtenir le nombre de feuilles et définir la feuille courante comme étant la dernière feuille :
 
@@ -2188,7 +2188,7 @@ Pour obtenir le nombre de feuilles et définir la feuille courante comme étant 
   //définir la feuille courante comme étant la dernière feuille (l'indexation commence à 0) VP SET CURRENT SHEET("ViewProArea";$count-1)
 ```
 
-![](../assets/en/ViewPro/vp-sheet-3-select.png)
+![](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 #### Voir également
 
@@ -2222,7 +2222,7 @@ In *index*, pass the index of the sheet to remove. If the passed *index* does no
 
 Dans le document suivant :
 
-![](../assets/en/ViewPro/vp-sheet-index-name.png)
+![](/assets/en/ViewPro/vp-sheet-index-name.png)
 
 Lire l'index de la feuille appelée "Total premier trimester" :
 
@@ -2379,7 +2379,7 @@ Dans *rangeObj*, passez une plage de cellules fusionnées que vous souhaitez ré
 
 Pour centrer le texte des cellules fusionnées dans ce document :
 
-![](../assets/en/ViewPro/cmd_vpGetSpans.PNG)
+![](/assets/en/ViewPro/cmd_vpGetSpans.PNG)
 
 ```4d
 // Search for all cell spans
@@ -2938,7 +2938,7 @@ Les dates ou les heures sont considérées comme un datetime et sont complétée
 
 Vous souhaitez lire les valeurs allant de C4 à G6 :
 
-![](../assets/en/ViewPro/cmd_vpGetValues.PNG)
+![](/assets/en/ViewPro/cmd_vpGetValues.PNG)
 
 ```4d
 $result:=VP Get values(VP Cells("ViewProArea";2;3;5;3))
@@ -3077,7 +3077,7 @@ End if
 
 Vous souhaitez importer un fichier `.txt` qui utilise une virgule (",") comme délimiteur :
 
-![example-import-csv](../assets/en/ViewPro/vp-import-document-csv.png)
+![example-import-csv](/assets/en/ViewPro/vp-import-document-csv.png)
 
 ```4d
 $params:=New object
@@ -3085,7 +3085,7 @@ $params.range:=VP Cells("ViewProArea";0;0;2;5)
 VP IMPORT DOCUMENT("ViewProArea";"c:\\import\\my-file.txt";New object("csvOptions";$params))
 ```
 
-Here's the result: ![example-import-csv](../assets/en/ViewPro/vp-import-document-csv-result.png)
+Here's the result: ![example-import-csv](/assets/en/ViewPro/vp-import-document-csv-result.png)
 
 #### Voir également
 
@@ -3160,7 +3160,7 @@ VP INSERT COLUMNS(VP Column("ViewProArea";1;3))
 
 Le résultat est le suivant :
 
-![](../assets/en/ViewPro/cmd_vpInsertColumns.PNG)
+![](/assets/en/ViewPro/cmd_vpInsertColumns.PNG)
 
 #### Voir également
 
@@ -3197,7 +3197,7 @@ VP INSERT ROWS(VP Row("ViewProArea";0;3))
 
 Le résultat est le suivant :
 
-![](../assets/en/ViewPro/cmd_vpInsertRows.PNG)
+![](/assets/en/ViewPro/cmd_vpInsertRows.PNG)
 
 #### Voir également
 
@@ -3318,7 +3318,7 @@ VP SET DATA CONTEXT("ViewProArea"; $context)
 VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; 3; 3); "PeopleTable"; "col")
 ```
 
-![](../assets/en/ViewPro/table-base.png)
+![](/assets/en/ViewPro/table-base.png)
 
 You want to insert two rows and two columns in the table, you can write:
 
@@ -3327,7 +3327,7 @@ VP INSERT TABLE ROWS("ViewProArea"; "PeopleTable"; 1; 2)
 VP INSERT TABLE COLUMNS("ViewProArea"; "PeopleTable"; 1; 2)
 ```
 
-![](../assets/en/ViewPro/table-insert.png)
+![](/assets/en/ViewPro/table-insert.png)
 
 
 
@@ -3633,7 +3633,7 @@ Le code suivant :
 
 Ouvrira une fenêtre de dialogue d'impression :
 
-![](../assets/en/ViewPro/cmd_vpPrint.PNG)
+![](/assets/en/ViewPro/cmd_vpPrint.PNG)
 
 #### Voir également
 
@@ -3750,7 +3750,7 @@ In *sheet*, pass the index of the sheet to be set as current sheet. If the index
 
 Le document comporte actuellement 3 feuilles :
 
-![](../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 Supprimer la troisième feuille :
 
@@ -3758,7 +3758,7 @@ Supprimer la troisième feuille :
 VP REMOVE SHEET("ViewProArea";2)
 ```
 
-![](../assets/en/ViewPro/vp-sheet-2.png)
+![](/assets/en/ViewPro/vp-sheet-2.png)
 
 ### VP REMOVE SPAN
 
@@ -3781,7 +3781,7 @@ Dans *rangeObj*, passez un objet plage de la fusion. Les cellules fusionnées de
 
 Pour retirer toutes les fusions de cellules de ce document :
 
-![](../assets/en/ViewPro/cmd_vpRemoveSpan1.PNG)
+![](/assets/en/ViewPro/cmd_vpRemoveSpan1.PNG)
 
 ```4d
  //identifier toutes les cellules fusionnées 
@@ -3793,7 +3793,7 @@ Pour retirer toutes les fusions de cellules de ce document :
 
 Résultat:
 
-![](../assets/en/ViewPro/cmd_vpRemoveSpan2.PNG)
+![](/assets/en/ViewPro/cmd_vpRemoveSpan2.PNG)
 
 #### Voir également
 
@@ -4084,7 +4084,7 @@ VP SET DATA CONTEXT("ViewProArea"; $context)
 VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; 3; 3); "PeopleTable"; "col")
 ```
 
-![](../assets/en/ViewPro/table-base.png)
+![](/assets/en/ViewPro/table-base.png)
 
 
 You want to add one column before and after the table as well as two empty rows. Vous pouvez écrire :
@@ -4093,7 +4093,7 @@ You want to add one column before and after the table as well as two empty rows.
 VP RESIZE TABLE(VP Cells("ViewProArea"; 0; 1; 4; 6); "PeopleTable")
 ```
 
-![](../assets/en/ViewPro/table-resize.png)
+![](/assets/en/ViewPro/table-resize.png)
 
 
 #### Voir également
@@ -4166,7 +4166,7 @@ Dans le paramètre optionnel *sheet*, vous pouvez désigner une feuille spécifi
 
 |
 
-![](../assets/en/ViewPro/cmd_vpRow.PNG)
+![](/assets/en/ViewPro/cmd_vpRow.PNG)
 
 Vous pouvez écrire :
 
@@ -4201,7 +4201,7 @@ Dans *rangeObj*, passez un objet plage contenant une plage de lignes dont la tai
 
 Les lignes suivantes n'affichent pas correctement le texte :
 
-![](../assets/en/ViewPro/cmd_vpRowAutoFit1.PNG)
+![](/assets/en/ViewPro/cmd_vpRowAutoFit1.PNG)
 
 ```4d
  VP ROW AUTOFIT(VP Row("ViewProArea";1;2))
@@ -4209,7 +4209,7 @@ Les lignes suivantes n'affichent pas correctement le texte :
 
 Résultat:
 
-![](../assets/en/ViewPro/cmd_vpRowAutoFit2.PNG)
+![](/assets/en/ViewPro/cmd_vpRowAutoFit2.PNG)
 
 #### Voir également
 
@@ -4376,7 +4376,7 @@ $activeCell:=VP Cell("myVPArea";3;4)
 VP SET ACTIVE CELL($activeCell)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetActiveCell.PNG)
+![](/assets/en/ViewPro/cmd_vpSetActiveCell.PNG)
 
 #### Voir également
 
@@ -4446,7 +4446,7 @@ C_OBJECT($allowed)
 
 Une fois ce code exécuté, les fonctions définies peuvent être utilisées dans des formules 4D View Pro :
 
-![](../assets/en/ViewPro/cmd_vpSetAllowedMethods.PNG)
+![](/assets/en/ViewPro/cmd_vpSetAllowedMethods.PNG)
 
 > Dans les formules de 4D View Pro, les noms des fonctions sont automatiquement affichés en majuscules.
 
@@ -4506,7 +4506,7 @@ VP SET BINDING PATH(VP Cell("ViewProArea"; 0; 0); "firstName")
 VP SET BINDING PATH(VP Cell("ViewProArea"; 1; 0); "lastName")
 ```
 
-![](../assets/en/ViewPro/vp-set-data-context-bind.png)
+![](/assets/en/ViewPro/vp-set-data-context-bind.png)
 
 #### Voir également
 
@@ -4599,7 +4599,7 @@ $option:=New object("outline";True)
 VP SET BORDER(VP Cells("ViewProArea";1;1;3;3);$border;$option)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSETBORDER1.PNG)
+![](/assets/en/ViewPro/cmd_vpSETBORDER1.PNG)
 
 #### Exemple 2
 
@@ -4618,7 +4618,7 @@ Ce code illustre, en termes de définition des bordures, la différence entre la
  VP SET CELL STYLE(VP Cells("ViewProArea";4;4;3;3);$cellStyle)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSETBORDER2.PNG)
+![](/assets/en/ViewPro/cmd_vpSETBORDER2.PNG)
 
 #### Voir également
 
@@ -4671,7 +4671,7 @@ $style.backgroundImage:=Null //supprimer un attribut spécifique
 VP SET CELL STYLE(VP Cell("ViewProArea";1;1);$style)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetCellStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpSetCellStyle.PNG)
 
 #### Voir également
 
@@ -4721,7 +4721,7 @@ VP SET COLUMN ATTRIBUTES($column;$properties)
 ```
 
 
-![](../assets/en/ViewPro/cmd_vpSetColumnAttributes.PNG)
+![](/assets/en/ViewPro/cmd_vpSetColumnAttributes.PNG)
 
 #### Voir également
 
@@ -4763,7 +4763,7 @@ Le code suivant définit cinq colonnes dans la zone 4D View Pro :
 VP SET COLUMN COUNT("ViewProArea";5)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetColumnCount.PNG)
+![](/assets/en/ViewPro/cmd_vpSetColumnCount.PNG)
 
 #### Voir également
 
@@ -4798,7 +4798,7 @@ Dans *sheet*, passez le numéro de la page cible. If no index is specified or if
 
 The document's current sheet is the first sheet:
 
-![first-sheet-selected](../assets/en/ViewPro/vp-sheet-3-select.png)
+![first-sheet-selected](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 Set the current sheet to the third sheet:
 
@@ -4806,7 +4806,7 @@ Set the current sheet to the third sheet:
 VP SET CURRENT SHEET("ViewProArea";2)
 ```
 
-![](../assets/en/ViewPro/vp-sheet-3-select.png)
+![](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 #### Voir également
 
@@ -4964,7 +4964,7 @@ VP SET BINDING PATH(VP Cell("ViewProArea"; 1; 0); "lastName")
 
 ```
 
-![](../assets/en/ViewPro/vp-set-data-context-bind.png)
+![](/assets/en/ViewPro/vp-set-data-context-bind.png)
 
 #### Exemple 2
 
@@ -4984,7 +4984,7 @@ $options:=New object("autoGenerateColumns"; True)
 VP SET DATA CONTEXT("ViewProArea"; $data; $options)
 ```
 
-![](../assets/en/ViewPro/vp-set-data-context-2.png)
+![](/assets/en/ViewPro/vp-set-data-context-2.png)
 
 #### Exemple 3
 
@@ -5005,7 +5005,7 @@ $options:=New object("autoGenerateColumns"; True)
 VP SET DATA CONTEXT("ViewProArea"; $data; $options)
 ```
 
-![](../assets/en/ViewPro/vp-set-data-context-3.png)
+![](/assets/en/ViewPro/vp-set-data-context-3.png)
 
 #### Example 4 - Date and time syntax
 
@@ -5031,7 +5031,7 @@ VP SET DATA CONTEXT("ViewProArea"; $data; $options)
 
 Voici le résultat une fois les colonnes générées :
 
-![](../assets/en/ViewPro/vp-set-data-context-date-time.png)
+![](/assets/en/ViewPro/vp-set-data-context-date-time.png)
 
 #### Voir également
 
@@ -5167,7 +5167,7 @@ $style.backColor:="#E6E6FA" //couleur light purple
 VP SET DEFAULT STYLE("myDoc";$style)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetDefaultStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpSetDefaultStyle.PNG)
 
 #### Voir également
 
@@ -5307,7 +5307,7 @@ VP SET FORMULAS(VP Cell("ViewProArea";6;3);$formulas) // Associer les formules e
 $0:=$1*3.33
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetFormulas.PNG)
+![](/assets/en/ViewPro/cmd_vpSetFormulas.PNG)
 
 #### Exemple 2
 
@@ -5377,7 +5377,7 @@ $panes.rowCount:=1
 VP SET FROZEN PANES("ViewProArea";$panes)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetFrozenPanes.PNG)
+![](/assets/en/ViewPro/cmd_vpSetFrozenPanes.PNG)
 
 #### Voir également
 
@@ -5491,7 +5491,7 @@ VP EXPORT DOCUMENT("ViewProArea";"Sales2018.pdf";New object("formula";Formula(AL
 
 Le PDF :
 
-![](../assets/en/ViewPro/cmd_vpSetPrintInfo.PNG)
+![](/assets/en/ViewPro/cmd_vpSetPrintInfo.PNG)
 
 #### Voir également
 
@@ -5540,7 +5540,7 @@ $properties:=New object("height";75;"header";"June")
 VP SET ROW ATTRIBUTES($row;$properties)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetRowAttributes.PNG)
+![](/assets/en/ViewPro/cmd_vpSetRowAttributes.PNG)
 
 #### Voir également
 
@@ -5582,7 +5582,7 @@ Le code suivant définit cinq lignes dans la zone 4D View Pro :
 VP SET ROW COUNT("ViewProArea";5)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetRowCount.PNG)
+![](/assets/en/ViewPro/cmd_vpSetRowCount.PNG)
 
 #### Voir également
 
@@ -5615,7 +5615,7 @@ $currentSelection:=VP Combine ranges(VP Cells("myVPArea";3;2;1;6);VP Cells("myVP
 VP SET SELECTION($currentSelection)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetSelection.PNG)
+![](/assets/en/ViewPro/cmd_vpSetSelection.PNG)
 
 #### Voir également
 
@@ -5646,7 +5646,7 @@ Dans `number`, indiquez un nombre correspondant au nombre de feuilles que le doc
 
 Le document comporte actuellement une feuille :
 
-![](../assets/en/ViewPro/vp-sheet-1.png)
+![](/assets/en/ViewPro/vp-sheet-1.png)
 
 Pour régler le nombre de feuilles sur 3 :
 
@@ -5654,7 +5654,7 @@ Pour régler le nombre de feuilles sur 3 :
 VP SET SHEET COUNT("ViewProArea";3)
 ```
 
-![](../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 #### Voir également
 
@@ -5706,7 +5706,7 @@ Le nom de la troisième feuille est "Total premier trimestre" :
 VP SET SHEET NAME("ViewProArea";"Total first quarter";2)
 ```
 
-![](../assets/en/ViewPro/vp-sheet-index-name.png)
+![](/assets/en/ViewPro/vp-sheet-index-name.png)
 
 ### VP SET SHEET OPTIONS
 
@@ -5801,7 +5801,7 @@ VP SET SHEET OPTIONS("ViewProArea";$options;2)
 
 Résultat:
 
-![](../assets/en/ViewPro/cmd_vpSetSheetOptions1.PNG)
+![](/assets/en/ViewPro/cmd_vpSetSheetOptions1.PNG)
 
 #### Exemple 4
 
@@ -5823,7 +5823,7 @@ VP SET SHEET OPTIONS("ViewProArea";$options)
 
 Résultat:
 
-![](../assets/en/ViewPro/cmd_vpSetSheetOptions2.PNG)
+![](/assets/en/ViewPro/cmd_vpSetSheetOptions2.PNG)
 
 #### Voir également
 
@@ -5868,11 +5868,11 @@ VP SET SHOW PRINT LINES("ViewProArea";True;1)
 
 ```
 
-![set-show-print-lines](../assets/en/ViewPro/vp-set-show-print-lines.png)
+![set-show-print-lines](/assets/en/ViewPro/vp-set-show-print-lines.png)
 
 Avec un saut de page :
 
-![set-show-print-lines-with-page-break](../assets/en/ViewPro/vp-set-show-print-lines-page-break.png)
+![set-show-print-lines-with-page-break](/assets/en/ViewPro/vp-set-show-print-lines-page-break.png)
 
 #### Voir également
 
@@ -5949,7 +5949,7 @@ $options.tableColumns.push(New object("name"; "Salary"; "dataField"; "salary"))
 VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; 2; 3); "PeopleTable"; "col"; $options)
 ```
 
-![](../assets/en/ViewPro/table-inserta.png)
+![](/assets/en/ViewPro/table-inserta.png)
 
 Vous souhaitez ensuite insérer une colonne contenant des données provenant du contexte de données et masquer certains boutons de filtrage :
 
@@ -5974,7 +5974,7 @@ VP SET TABLE COLUMN ATTRIBUTES("ViewProArea" ; "PeopleTable" ; 0 ; \
 
 ```
 
-![](../assets/en/ViewPro/table-insertb.png)
+![](/assets/en/ViewPro/table-insertb.png)
 
 
 #### Voir également
@@ -6031,7 +6031,7 @@ VP SET TABLE THEME("ViewProArea"; "myTable"; $param)
 
 Vous souhaitez obtenir ce rendu de colonne alterné :
 
-![](../assets/en/ViewPro/col-bandering.png)
+![](/assets/en/ViewPro/col-bandering.png)
 
 ```4d
 var $param : cs.ViewPro.TableTheme
@@ -6269,7 +6269,7 @@ $param:=New collection
  VP SET VALUES(VP Cell("ViewProArea";2;1);$param)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetValues.PNG)
+![](/assets/en/ViewPro/cmd_vpSetValues.PNG)
 
 #### Voir également
 
@@ -6426,7 +6426,7 @@ $displayCell:=VP Cell("myVPArea";50;50)
 
 Résultat:
 
-![](../assets/en/ViewPro/cmd_vpShowCell1.PNG)
+![](/assets/en/ViewPro/cmd_vpShowCell1.PNG)
 
 Le même code ainsi que les sélecteurs verticaux et horizontaux ont été modifiés pour afficher la même cellule en haut à droite de la zone 4D View Pro :
 
@@ -6438,7 +6438,7 @@ $displayCell:=VP Cell("myVPArea";50;50)
 
 Résultat:
 
-![](../assets/en/ViewPro/cmd_vpShowCell2.PNG)
+![](/assets/en/ViewPro/cmd_vpShowCell2.PNG)
 
 #### Voir également
 
@@ -6470,7 +6470,7 @@ Passez le nom de la zone 4D View Pro dans *vpAreaName*. Si vous passez un nom in
 
 Vous avez ajouté deux boutons au formulaire afin que l'utilisateur puisse suspendre/reprendre les calculs :
 
-![](../assets/en/ViewPro/cmd_vpStopCalculations.PNG)
+![](/assets/en/ViewPro/cmd_vpStopCalculations.PNG)
 
 Le code du bouton Suspend Computing :
 

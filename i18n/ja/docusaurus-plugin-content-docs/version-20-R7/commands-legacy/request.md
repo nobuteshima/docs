@@ -43,7 +43,7 @@ displayed_sidebar: docs
 
 以下のようなリクエストダイアログボックスを(Windows 環境下において)表示します:
 
-![](../assets/en/commands/pict4225119.en.png)
+![](/assets/en/commands/pict4225119.en.png)
 
 #### 例題 2 
 
@@ -60,7 +60,7 @@ displayed_sidebar: docs
 
 以下のようなリウエストダイアログボックスを(Windows 環境下において)表示します:
 
-![](../assets/en/commands/pict4225137.en.png)
+![](/assets/en/commands/pict4225137.en.png)
 
 
 #### 例題 3 
@@ -73,7 +73,7 @@ displayed_sidebar: docs
 
 以下のようなリクエストダイアログボックスを(Windows 環境下において)表示します:
 
-![](../assets/en/commands/pict4225146.en.png)
+![](/assets/en/commands/pict4225146.en.png)
 
 
 #### 参照 

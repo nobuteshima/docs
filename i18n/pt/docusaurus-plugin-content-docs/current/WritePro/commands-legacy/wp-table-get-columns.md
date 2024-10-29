@@ -58,7 +58,7 @@ Se quiser modificar alguns atributos das duas últimas colunas de uma tabela:
 
 Resultado:
 
-![](../../assets/en/WritePro/commands/pict3307213.en.png)
+![](/assets/en/WritePro/commands/pict3307213.en.png)
 
 #### Exemplo 2 
 

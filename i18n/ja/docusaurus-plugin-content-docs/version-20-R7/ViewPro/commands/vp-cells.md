@@ -47,7 +47,7 @@ title: VP Cells
 
 (カレントシートにおいて) 以下のセルのレンジオブジェクトを定義します:
 
-![](../../assets/en/ViewPro/vp-cells.png)
+![](/assets/en/ViewPro/vp-cells.png)
 
 以下のようにコードを書くことができます:
 

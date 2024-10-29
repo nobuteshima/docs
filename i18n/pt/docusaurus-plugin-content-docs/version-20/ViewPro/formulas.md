@@ -19,11 +19,11 @@ Ao escrever uma fórmula, pode utilizar diferentes atalhos:
 
 - clique numa célula para introduzir a sua referência na fórmula:
 
-![](../assets/en/ViewPro/formulas.PNG)
+![](/assets/en/ViewPro/formulas.PNG)
 
 - digite a primeira letra de uma função para entrar. Um menu pop-up que lista as funções e referências disponíveis é exibido, permitindo que você selecione os elementos desejados:
 
-![](../assets/en/ViewPro/formula2.png)
+![](/assets/en/ViewPro/formula2.png)
 
 Você também pode criar fórmulas nomeadas que podem ser chamadas por seu nome. To do so, enter these formulas using the [VP ADD FORMULA NAME](method-list.md#vp-add-formula-name) command.
 
@@ -126,7 +126,7 @@ A tabela seguinte mostra o efeito das diferentes notações:
 
 Spreadsheet functions are preset formulas used to calculate cell values. When you type the first letter of the function to enter, a pop-up menu listing the available functions and references appears, allowing you to select the desired elements:
 
-![](../assets/en/ViewPro/vpFormula2.PNG)
+![](/assets/en/ViewPro/vpFormula2.PNG)
 
 Consulte a [**lista ampliada de funções de SpreadJS**](https://www.grapecity.com/spreadjs/docs/v14/online/FormulaFunctions.html) para obter detalhes e exemplos.
 
@@ -202,11 +202,11 @@ We want to print "Hello World" in a 4D View Pro area cell using a 4D project met
 
 3.  Editar o conteúdo de uma célula numa área 4D View Pro e digitar:
 
-    ![](../assets/en/ViewPro/vpProjMeth1.PNG)
+    ![](/assets/en/ViewPro/vpProjMeth1.PNG)
 
     "myMethod" é então chamado por 4D e a célula aparece:
 
-    ![](../assets/en/ViewPro/vpProjMeth2.PNG)
+    ![](/assets/en/ViewPro/vpProjMeth2.PNG)
 
 
 
@@ -269,7 +269,7 @@ $o.BIRTH_INFORMATION.parameters.push(New object("name";"Time of birth";"type";Is
 $o.BIRTH_INFORMATION.summary:="Returns a formatted string from given information" VP SET CUSTOM FUNCTIONS("ViewProArea"; $o)
 ```
 
-![](../assets/en/ViewPro/params.png)
+![](/assets/en/ViewPro/params.png)
 
 
 ## Compatibidade
@@ -314,7 +314,7 @@ We want to print the name of a person in a 4D View Pro area cell using a 4D virt
 
 1.  Criar uma tabela "Employee" com um campo "L_Name":
 
-![](../assets/en/ViewPro/vpFieldMeth1.PNG)
+![](/assets/en/ViewPro/vpFieldMeth1.PNG)
 
 
 2.  Execute o seguinte código para inicializar uma estrutura virtual:
@@ -335,17 +335,17 @@ We want to print the name of a person in a 4D View Pro area cell using a 4D virt
 
 3.  Edite o conteúdo de uma célula na área do 4D View Pro e digite "=e":
 
-![](../assets/en/ViewPro/vpFieldMeth2.PNG)
+![](/assets/en/ViewPro/vpFieldMeth2.PNG)
 
 
 4.  Selecionar EMP_NAME (utilizar a tecla Tab) e introduzir o fecho.
 
-![](../assets/en/ViewPro/vpFieldMeth3.PNG)
+![](/assets/en/ViewPro/vpFieldMeth3.PNG)
 
 
 5.  Validar o campo para apresentar o nome do empregado atual:
 
-![](../assets/en/ViewPro/vpFieldMeth4.PNG)
+![](/assets/en/ViewPro/vpFieldMeth4.PNG)
 > A tabela \[Employee] tem de ter um registo atual.
 
 

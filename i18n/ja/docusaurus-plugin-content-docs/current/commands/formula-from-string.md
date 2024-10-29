@@ -55,11 +55,11 @@ This command is similar to [`Formula`](formula.md), except that it handles a tex
  End if
 ```
 
-![](../assets/en/API/formulaDialog.png)
+![](/assets/en/API/formulaDialog.png)
 
 そのフォーミュラを実行します:
 
-![](../assets/en/API/formulaAlert.png)
+![](/assets/en/API/formulaAlert.png)
 
 #### 参照
 

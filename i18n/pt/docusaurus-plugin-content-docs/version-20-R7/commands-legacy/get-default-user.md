@@ -20,7 +20,7 @@ displayed_sidebar: docs
 
 <!--REF #_command_.Get default user.Summary-->O comando Get default user retorna o número de referência único do usuário designado como “Usuário por padrão” na caixa de diálogo de Preferências do banco:
 
-![](../assets/en/commands/pict36789.en.png)  
+![](/assets/en/commands/pict36789.en.png)  
   
   
 Se nenhum usuário por padrão estiver definido, o comando retorna 0.<!-- END REF-->

@@ -31,7 +31,7 @@ Vous pouvez modifier cette barre de menus comme vous le souhaitez ou créer des 
 
 ### A l'aide de l'éditeur de menus
 
-1. Sélectionnez la ligne de menu que vous souhaitez créer et cliquez sur le bouton d'ajout ![](../assets/en/Menus/PlussNew.png) sous la zone de liste des barres de menu. OR Choose **Create a new menu bar** or **Create a new menu** from the context menu of the list or the options menu below the list. Si vous avez créé une barre de menu, une nouvelle barre de menus apparaît dans la liste, contenant les menus par défaut (Fichier et Edition).
+1. Sélectionnez la ligne de menu que vous souhaitez créer et cliquez sur le bouton d'ajout ![](/assets/en/Menus/PlussNew.png) sous la zone de liste des barres de menu. OR Choose **Create a new menu bar** or **Create a new menu** from the context menu of the list or the options menu below the list. Si vous avez créé une barre de menu, une nouvelle barre de menus apparaît dans la liste, contenant les menus par défaut (Fichier et Edition).
 2. (Facultatif) Effectuez un double-clic sur le nom du menu/de la barre de menus afin de le rendre éditable et saisissez un nom personnalisé. OR Enter the custom name in the "Title" area. Les noms des barres de menu doivent être uniques. Ils peuvent comporter jusqu’à 31 caractères. You can enter the name as "hard coded" or enter a reference (see [information about the Title property](properties.md#title)).
 
 ### A l'aide du langage 4D
@@ -48,7 +48,7 @@ Pour chacun des menus, vous devez ajouter les commandes qui apparaissent lorsque
 Pour ajouter une ligne de menu :
 
 1. Dans la liste des menus source, sélectionnez le menu auquel vous souhaitez ajouter une commande. Si le menu contient déjà des commandes, elles seront affichées dans la liste centrale. Si vous souhaitez insérer la nouvelle commande, sélectionnez celle que vous souhaitez voir apparaître ci-dessus. Il est toujours possible de réorganiser le menu ultérieurement par glisser-déposer.
-2. Choisissez **Add an item to menu “MenuName”** dans le menu d'options de l'éditeur ou depuis le menu contextuel (clic droit dans la liste centrale). OR Click on the add ![](../assets/en/Menus/PlussNew.png) button located below the central list. 4D ajoute une nouvelle ligne avec le nom par défaut “Ligne X”, où X représente le nombre de lignes déjà créées.
+2. Choisissez **Add an item to menu “MenuName”** dans le menu d'options de l'éditeur ou depuis le menu contextuel (clic droit dans la liste centrale). OR Click on the add ![](/assets/en/Menus/PlussNew.png) button located below the central list. 4D ajoute une nouvelle ligne avec le nom par défaut “Ligne X”, où X représente le nombre de lignes déjà créées.
 3. Double-cliquez sur le nom de la commande pour passer en mode édition et saisissez un nom personnalisé. OR Enter the custom name in the "Title" area. Il peut comporter jusqu’à 31 caractères. Vous pouvez saisir le nom comme "en dur" ou saisir une référence (voir ci-dessous).
 
 
@@ -64,7 +64,7 @@ Vous pouvez supprimer une barre de menus, un menu ou une ligne de menu à tout m
 
 Pour supprimer une barre de menus, un menu ou une ligne de menu, vous disposez de deux possibilités :
 
-- Sélectionner l’élément à supprimer et de cliquer sur le bouton de suppression ![](../assets/en/Menus/MinussNew.png) situé sous la liste.
+- Sélectionner l’élément à supprimer et de cliquer sur le bouton de suppression ![](/assets/en/Menus/MinussNew.png) situé sous la liste.
 - ou, utiliser la commande **Supprimer ...** dans le menu contextuel ou le menu d’options de l’éditeur.
 
 > Il est impossible de supprimer Menu Bar #1.
@@ -90,9 +90,9 @@ A l'exécution, si un menu rattaché est modifié par programmation, toute autre
 
 Un menu peut être attaché à une barre de menus ou à un autre menu.
 
-- To attach a menu to a menu bar: right-click on the menu bar and select **Attach a menu to the menu bar "bar name" >**, then choose the menu to be attached to the menu bar: ![](../assets/en/Menus/attach.png) You can also select a menu bar then click on the options button found below the list.
+- To attach a menu to a menu bar: right-click on the menu bar and select **Attach a menu to the menu bar "bar name" >**, then choose the menu to be attached to the menu bar: ![](/assets/en/Menus/attach.png) You can also select a menu bar then click on the options button found below the list.
 - To attach a menu to another menu: select the menu in the left-hand area, then right-click on the menu item and select **Attach a sub-menu to the item "item name">**, then choose the menu you want to use as sub-menu:  
-  ![](../assets/en/Menus/attach2.png) You can also select a menu item then click on the options button found below the list. Le menu que vous êtes en train de rattacher deviendra un sous-menu. Le titre de la ligne est maintenu (le nom initial du sous-menu est ignoré), mais il peut être modifié.
+  ![](/assets/en/Menus/attach2.png) You can also select a menu item then click on the options button found below the list. Le menu que vous êtes en train de rattacher deviendra un sous-menu. Le titre de la ligne est maintenu (le nom initial du sous-menu est ignoré), mais il peut être modifié.
 
 #### Détacher des menus
 

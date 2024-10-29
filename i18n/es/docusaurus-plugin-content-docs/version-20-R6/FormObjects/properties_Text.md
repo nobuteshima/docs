@@ -100,7 +100,7 @@ Hay tres temas de fuentes disponibles:
 - **normal**: estilo automático, aplicado por defecto a todo nuevo objeto creado en el editor de formularios.
 - Los temas de fuentes **principales** y **suplementarios** solo son soportados por las [áreas de texto](text.md) y las [áreas de entrada](input_overview.md). Estos temas están pensados principalmente para diseñar cajas de diálogo. Se refieren a los estilos de fuente utilizados, respectivamente, para el texto principal y la información adicional en las ventanas de su interfaz. A continuación se muestran las cajas de diálogo típicas (macOS y Windows) que utilizan estos temas de fuentes:
 
-![](../assets/en/FormObjects/FontThemes.png)
+![](/assets/en/FormObjects/FontThemes.png)
 
 > Los temas de fuentes gestionan la fuente, así como su tamaño y color. Puede aplicar propiedades de estilo personalizadas (Negrita, Cursiva o Subrayado) sin alterar su funcionamiento.
 
@@ -394,10 +394,10 @@ Modifica la orientación (rotación) de un área de texto. Las áreas de texto p
 
 | Valor de orientación               | Result                                         |
 | ---------------------------------- | ---------------------------------------------- |
-| 0 (por defecto) | ![](../assets/en/FormObjects/orientation1.png) |
-| 90                                 | ![](../assets/en/FormObjects/orientation2.png) |
-| 180                                | ![](../assets/en/FormObjects/orientation3.png) |
-| 270                                | ![](../assets/en/FormObjects/orientation4.png) |
+| 0 (por defecto) | ![](/assets/en/FormObjects/orientation1.png) |
+| 90                                 | ![](/assets/en/FormObjects/orientation2.png) |
+| 180                                | ![](/assets/en/FormObjects/orientation3.png) |
+| 270                                | ![](/assets/en/FormObjects/orientation4.png) |
 
 Además de [áreas de texto estáticas](text.md), los objetos de texto de las [áreas de entrada](input_overview.md) pueden girar cuando no son[editables](properties_Entry.md#enterable). Cuando se aplica una propiedad de rotación a un objeto de entrada, se elimina la propiedad editable (si la hay). Este objeto se excluye entonces del orden de entrada.
 
@@ -460,7 +460,7 @@ Cuando esta propiedad está activada, el área almacenará las etiquetas de esti
 
 Por ejemplo, este es un texto que incluye una modificación de estilo:
 
-![](../assets/en/FormObjects/tagStyle1.png)
+![](/assets/en/FormObjects/tagStyle1.png)
 
 Cuando la propiedad está desactivada, el área sólo almacena la modificación. Por lo tanto, los contenidos almacenados son:
 

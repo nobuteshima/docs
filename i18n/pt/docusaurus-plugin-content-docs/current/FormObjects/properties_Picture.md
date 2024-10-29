@@ -33,7 +33,7 @@ As seguintes localizações podem ser utilizadas para imagens estáticas:
 
 O formato **Scaled to fit** faz com que o 4D redimensione a imagem para se ajustar às dimensões da área.
 
-![](../assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
+![](/assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
 
 ### Replicado
 
@@ -41,7 +41,7 @@ O formato **Scaled to fit** faz com que o 4D redimensione a imagem para se ajust
 
 Cuando se amplía el área que contiene una imagen con el formato **Replicada**, la imagen no se deforma sino que se replica tantas veces como sea necesario para llenar el área por completo.
 
-![](../assets/en/FormObjects/property_pictureFormat_Replicated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Replicated.png)
 
 Se o campo for reduzido para um tamanho inferior ao da imagem original, a imagem é truncada (não centrada).
 
@@ -55,7 +55,7 @@ O formato **Truncado (não centrado)** faz com que 4D coloque o canto superior e
 
 > Quando o formato da imagem for **Truncado (não centrado)**, é possível adicionar barras de deslocamento à área de entrada.
 
-![](../assets/en/FormObjects/property_pictureFormat_Truncated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Truncated.png)
 
 #### Gramática JSON
 

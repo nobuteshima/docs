@@ -30,7 +30,7 @@ Tanto los parámetros *numColumna* y *nuevaPosicion* deben ser números válidos
 
 Usted diseñó el siguiente informe:
 
-![](../assets/en/commands/pict2569470.en.png)
+![](/assets/en/commands/pict2569470.en.png)
 
 Si ejecuta:
 
@@ -40,4 +40,4 @@ Si ejecuta:
 
 El resultado es:
 
-![](../assets/en/commands/pict2569472.en.png)
+![](/assets/en/commands/pict2569472.en.png)

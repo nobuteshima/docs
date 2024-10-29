@@ -67,15 +67,15 @@ Segue-se uma representação dos operadores lógicos com base em dois conjuntos 
 
 **AND**
 
-![](../assets/en/REST/and.png)
+![](/assets/en/REST/and.png)
 
 **OU**
 
-![](../assets/en/REST/or.png)
+![](/assets/en/REST/or.png)
 
 **EXCEPT**
 
-![](../assets/en/REST/except.png)
+![](/assets/en/REST/except.png)
 
 
 A sintaxe é a seguinte:

@@ -60,7 +60,7 @@ Project folder Project Sources Classes Polygon.4dm
 Pour supprimer une classe existante, vous pouvez :
 
 - sur votre disque, supprimer le fichier de classe .4dm du dossier "Classes",
-- dans l'explorateur 4D, sélectionner la classe et cliquez sur ![](../assets/en/Users/MinussNew.png) ou choisissez **Déplacer dans la corbeille** dans le menu contextuel.
+- dans l'explorateur 4D, sélectionner la classe et cliquez sur ![](/assets/en/Users/MinussNew.png) ou choisissez **Déplacer dans la corbeille** dans le menu contextuel.
 
 ### Utilisation de l'interface 4D
 
@@ -78,9 +78,9 @@ Dans la **page Méthodes** de l'Explorateur, les classes sont regroupées dans l
 
 Pour créer une nouvelle classe, vous pouvez :
 
-- sélectionner la catégorie **Classes** et cliquez sur le bouton ![](../assets/en/Users/PlussNew.png) .
+- sélectionner la catégorie **Classes** et cliquez sur le bouton ![](/assets/en/Users/PlussNew.png) .
 - sélectionner **Nouvelle classe...** dans le menu d'actions en bas de la fenêtre de l'Explorateur ou dans le menu contextuel du groupe Classes.
-  ![](../assets/en/Concepts/newClass.png)
+  ![](/assets/en/Concepts/newClass.png)
 - sélectionnez **Nouveau> Classe...** dans le menu contextuel de la page d'accueil de l'Explorateur.
 
 #### Prise en charge du code de classe

@@ -23,7 +23,7 @@ title: VP REMOVE SPAN
 
 ドキュメントのセル結合をすべて解除します:
 
-![](../../assets/en/ViewPro/cmd_vpRemoveSpan1.PNG)
+![](/assets/en/ViewPro/cmd_vpRemoveSpan1.PNG)
 
 ```4d
  // すべてのセル結合を探します
@@ -36,7 +36,7 @@ title: VP REMOVE SPAN
 
 結果:
 
-![](../../assets/en/ViewPro/cmd_vpRemoveSpan2.PNG)
+![](/assets/en/ViewPro/cmd_vpRemoveSpan2.PNG)
 
 #### 参照
 

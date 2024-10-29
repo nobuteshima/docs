@@ -165,7 +165,7 @@ See example for [getting a list built upon an entity selection](#using-an-entity
 
 このデータベースは、localhost (ポート8111) 上でリモートデータストアーとして公開されています。
 
-![alt-text](../assets/en/REST/ordastructure.png)
+![alt-text](/assets/en/REST/ordastructure.png)
 
 ### データストアークラス関数を使用する
 

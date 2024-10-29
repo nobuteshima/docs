@@ -83,7 +83,7 @@ Esta opção de menu editor permite definir um grupo para um comando de menu de 
 
 Grupos de comandos de menu num menu podem ser divididos por uma linha separadora. Esta convenção é útil para agrupar comandos de menu associados por função.
 
-![](../assets/en/Menus/separator.png)
+![](/assets/en/Menus/separator.png)
 
 Adiciona-se uma linha separadora através da criação de um comando de menu específico.
 
@@ -129,7 +129,7 @@ Atribuir um atalho de teclado no editor de menus:
 
 Seleccione o item do menu ao qual pretende atribuir um atalho de teclado. Clique no botão [...] à direita da área de entrada "Atalho". Aparece a seguinte janela:
 
-![](../assets/en/Menus/Shortcut.png)
+![](/assets/en/Menus/Shortcut.png)
 
 Introduzir o carácter a utilizar depois (opcional) clicar na caixa de verificação **Shift** e/ou **Alt** (**Opção**) de acordo com a combinação desejada. Também pode pressionar directamente as teclas que compõem a combinação desejada (não pressionar a tecla **Ctrl/Command**).
 
@@ -165,11 +165,11 @@ Como regra geral, aplique estilos de fonte moderadamente aos seus menus - demasi
 
 Pode associar um ícone a um item do menu. Será exibido directamente no menu, ao lado do item:
 
-![](../assets/en/Menus/iconMenu.png)
+![](/assets/en/Menus/iconMenu.png)
 
 Para definir o ícone no editor de Menu, clicar na área "Ícone de item" e seleccionar **Abrir** para abrir uma imagem do disco. Se selecionar um arquivo de imagem que não esteja já armazenado na pasta de recursos do banco de dados, é copiado automaticamente nessa pasta. Uma vez definido, o ícone do item aparece na área de pré-visualização:
 
-![](../assets/en/Menus/iconpreview.png)
+![](/assets/en/Menus/iconpreview.png)
 
 Para remover o ícone do item, escolher a opção **No Icon** da área "Item Icon".
 

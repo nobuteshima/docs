@@ -46,7 +46,7 @@ Si ejecuta el siguiente código:
 
 Esto es ilustrado por el siguiente gráfico:
 
-![](../assets/en/ORDA/entityRef1.png)
+![](/assets/en/ORDA/entityRef1.png)
 
 Ahora, si se ejecuta:
 
@@ -63,7 +63,7 @@ Ahora, si se ejecuta:
 
 Esto es ilustrado por el siguiente gráfico:
 
-![](../assets/en/ORDA/entityRef2.png)
+![](/assets/en/ORDA/entityRef2.png)
 
 Sin embargo, hay que tener en cuenta que las entidades se refieren al mismo registro. En todos los casos, si se llama al método `entity.save( )`, el registro se actualizará (excepto en caso de conflicto, ver [Entity locking](#entity-locking)).
 
@@ -122,7 +122,7 @@ $entity.save() //guardar los cambios
 
 El acceso a un atributo relacionado depende del tipo de atributo. Por ejemplo, con la siguiente estructura:
 
-![](../assets/en/ORDA/entityAttributes.png)
+![](/assets/en/ORDA/entityAttributes.png)
 
 Puede acceder a los datos a través del objeto(s) relacionado(s):
 
@@ -133,7 +133,7 @@ Puede acceder a los datos a través del objeto(s) relacionado(s):
 
 Observe que tanto _theClient_ como _companyProjects_ en el ejemplo anterior son atributos de relación primaria y representan una relación directa entre las dos dataclasses. Sin embargo, los atributos de relación también pueden crearse a partir de rutas vía las relaciones de varios niveles, incluidas las referencias circulares. Por ejemplo, consideremos la siguiente estructura:
 
-![](../assets/en/ORDA/entityAttributes2.png)
+![](/assets/en/ORDA/entityAttributes2.png)
 
 Cada empleado puede ser gerente y puede tener un gerente. Para obtener el gerente del gerente de un empleado, puede simplemente escribir:
 
@@ -196,7 +196,7 @@ En la arquitectura ORDA, los atributos de relación contienen directamente los d
 
 Veamos la siguiente estructura (simplificada):
 
-![](../assets/en/ORDA/entityAttributes3.png)
+![](/assets/en/ORDA/entityAttributes3.png)
 
 En este ejemplo, una entidad de la dataclass "Employee" contiene un objeto de tipo Entity en el atributo "employer" (o un valor nulo). Una entidad de la dataclass "Company" contiene un objeto de tipo EntitySelection en el atributo "staff" (o un valor nulo).
 
@@ -418,7 +418,7 @@ Este código devuelve en _$localEmails_ una colección de direcciones de correo 
 
 Además de la variedad de formas en que puede consultar, también puede utilizar los atributos de relación como propiedades de selecciones de entidades para devolver nuevas selecciones de entidades. Por ejemplo, consideremos la siguiente estructura:
 
-![](../assets/en/ORDA/entitySelectionRelationAttributes.png)
+![](/assets/en/ORDA/entitySelectionRelationAttributes.png)
 
 ```4d
 var $myParts : cs.PartSelection
@@ -559,11 +559,11 @@ Este mecanismo automático se basa en el concepto de "bloqueo optimista", especi
 
 El siguiente diagrama ilustra el bloqueo optimista:
 
-1. Dos procesos cargan la misma entidad.<br/><br/>![](../assets/en/ORDA/optimisticLock1.png)
+1. Dos procesos cargan la misma entidad.<br/><br/>![](/assets/en/ORDA/optimisticLock1.png)
 
-2. El primer proceso modifica la entidad y valida el cambio. Se llama al método `entity.save( )`. El motor 4D compara automáticamente el valor del marcador interno de la entidad modificada con el de la entidad almacenada en los datos. Dado que coinciden, la entidad se guarda y su valor de marcador se incrementa.<br/><br/>![](../assets/en/ORDA/optimisticLock2.png)
+2. El primer proceso modifica la entidad y valida el cambio. Se llama al método `entity.save( )`. El motor 4D compara automáticamente el valor del marcador interno de la entidad modificada con el de la entidad almacenada en los datos. Dado que coinciden, la entidad se guarda y su valor de marcador se incrementa.<br/><br/>![](/assets/en/ORDA/optimisticLock2.png)
 
-3. El segundo proceso también modifica la entidad cargada y valida sus cambios. Se llama al método `entity.save( )`. Dado que el valor del sello de la entidad modificada no coincide con el de la entidad almacenada en los datos, no se realiza el guardado y se devuelve un error.<br/><br/>![](../assets/en/ORDA/optimisticLock3.png)
+3. El segundo proceso también modifica la entidad cargada y valida sus cambios. Se llama al método `entity.save( )`. Dado que el valor del sello de la entidad modificada no coincide con el de la entidad almacenada en los datos, no se realiza el guardado y se devuelve un error.<br/><br/>![](/assets/en/ORDA/optimisticLock3.png)
 
 Esto también puede ilustrarse con el siguiente código:
 
@@ -604,9 +604,9 @@ El uso de comandos clásicos y ORDA para bloquear registros se basa en los sigui
 
 Estos principios se muestran en el siguiente diagrama:
 
-![](../assets/en/ORDA/concurrent1.png)
+![](/assets/en/ORDA/concurrent1.png)
 
 Los **bloqueos de transacciones** también se aplican tanto a los comandos clásicos como a los comandos ORDA. En una aplicación multiproceso o multiusuario, un bloqueo definido en una transacción en un registro por un comando clásico tendrá como resultado impedir que cualquier otro proceso bloquee las entidades relacionadas con este registro (o a la inversa), hasta que la transacción sea validada o cancelada.
 
-- Ejemplo con un bloqueo definido por un comando clásico:<br/><br/>![](../assets/en/ORDA/concurrent2.png)
-- Ejemplo con un bloqueo definido por una función ORDA:<br/><br/>![](../assets/en/ORDA/concurrent3.png)
+- Ejemplo con un bloqueo definido por un comando clásico:<br/><br/>![](/assets/en/ORDA/concurrent2.png)
+- Ejemplo con un bloqueo definido por una función ORDA:<br/><br/>![](/assets/en/ORDA/concurrent3.png)

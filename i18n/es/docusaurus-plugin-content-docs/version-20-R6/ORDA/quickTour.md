@@ -11,7 +11,7 @@ El datastore ORDA se basa automáticamente en una estructura de base de datos 4D
 
 Este ejemplo utilizará la siguiente estructura de base de datos 4D simple:
 
-![](../assets/en/ORDA/struc.png)
+![](/assets/en/ORDA/struc.png)
 
 Para saber qué se expone como datastore, cree un nuevo método proyecto, escriba la siguiente línea:
 
@@ -23,7 +23,7 @@ Ejecute el método -- simplemente llama la ventana del depurador.
 En el área de Expresión, haga doble clic para insertar una expresión e introduzca `ds`. Devuelve el objeto del datastore.
 Despliegue el objeto, puede ver que las tablas y los campos son expuestos automáticamente por ORDA como propiedades del objeto `ds`:
 
-![](../assets/en/ORDA/debug1.png)
+![](/assets/en/ORDA/debug1.png)
 
 Esto significa por ejemplo que, siempre que necesite hacer referencia al campo city de la tabla [Company], en ORDA sólo tendrá que escribir:
 
@@ -37,7 +37,7 @@ ds.Company.city // devuelve el nombre de la ciudad
 
 También habrá notado la propiedad extra `hires` en la dataclass ds.Company. No corresponde a un campo. `hires` es en realidad el nombre de la relación *Uno a muchos* entre Company y Employee:
 
-![](../assets/en/ORDA/struc2s.png)
+![](/assets/en/ORDA/struc2s.png)
 *Name of the relation as defined in the Inspector*
 
 Es decir, siempre que necesite acceder a la lista de empleados que trabajan en una empresa, en ORDA sólo tiene que escribir:

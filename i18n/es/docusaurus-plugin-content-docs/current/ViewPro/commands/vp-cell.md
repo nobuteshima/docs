@@ -39,7 +39,7 @@ En el parámetro opcional *sheet*, puede designar el índice de la hoja en donde
 
 Desea definir un objeto rango para la celda mostrada abajo (en la hoja actual):
 
-![vp-cell](../../assets/en/ViewPro/cmd_vpCell.png)
+![vp-cell](/assets/en/ViewPro/cmd_vpCell.png)
 
 El código es el siguiente:
 

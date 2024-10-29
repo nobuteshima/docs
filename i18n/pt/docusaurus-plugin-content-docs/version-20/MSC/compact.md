@@ -19,7 +19,7 @@ A compactação de ficheiros responde a dois tipos de necessidades:
 
 Para iniciar diretamente a compactação do arquivo de dados, clique no botão de compactação na janela MSC.
 
-![](../assets/en/MSC/MSC_compact.png)
+![](/assets/en/MSC/MSC_compact.png)
 > Já que a compactação envolve a duplicação do arquivo original, o botão é desativado quando não existir espaço suficiente disponível no disco que contém o arquivo.
 
 Esta operação compacta o arquivo principal, bem como quaisquer arquivos de índice. 4D copia os arquivos originais e os coloca em uma pasta chamada **Replaced Files (Compacting)**, que é criada ao lado do arquivo original. Se tiver efetuado várias operações de compactação, é criada uma nova pasta de cada vez. Será denominado "arquivos substituídos (compactação)_1", "arquivos substituídos (compactação)_2", e assim por diante. Pode modificar a pasta onde os arquivos originais são guardados utilizando o modo avançado.

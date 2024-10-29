@@ -26,7 +26,7 @@ En *rangeObj*, pase un rango de celdas. Las celdas del rango se unen para crear 
 
 Para fusionar las celdas First quarter y Second quarter a través de las dos celdas al lado, y de fusionar la celda del área South a través de las dos líneas debajo de ella:
 
-![initial-document](../../assets/en/ViewPro/vp-add-span.png)
+![initial-document](/assets/en/ViewPro/vp-add-span.png)
 
 ```4d
  // Rango First quarter
@@ -41,7 +41,7 @@ Para fusionar las celdas First quarter y Second quarter a través de las dos cel
  VP ADD SPAN(VP Combine ranges($q1;$q2;$south))
 ```
 
-![vp-add-span-result](../../assets/en/ViewPro/vp-add-span-2.png)
+![vp-add-span-result](/assets/en/ViewPro/vp-add-span-2.png)
 
 #### Ver también
 

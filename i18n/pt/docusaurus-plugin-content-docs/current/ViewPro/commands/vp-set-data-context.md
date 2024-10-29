@@ -70,7 +70,7 @@ VP SET BINDING PATH(VP Cell("ViewProArea"; 1; 0); "lastName")
 
 ```
 
-![](../../assets/en/ViewPro/vp-set-data-context-bind.png)
+![](/assets/en/ViewPro/vp-set-data-context-bind.png)
 
 #### Exemplo 2
 
@@ -87,7 +87,7 @@ $data.push(New object("firstname"; "Mary"; "lastname"; "Poppins"))
 $options:=New object("autoGenerateColumns"; True) VP SET DATA CONTEXT("ViewProArea"; $data; $options)
 ```
 
-![](../../assets/en/ViewPro/vp-set-data-context-2.png)
+![](/assets/en/ViewPro/vp-set-data-context-2.png)
 
 #### Exemplo 3
 
@@ -106,7 +106,7 @@ $data.push(New collection(6; 7; 8; 9))  // Fourth row has 4 values
 $options:=New object("autoGenerateColumns"; True) VP SET DATA CONTEXT("ViewProArea"; $data; $options)
 ```
 
-![](../../assets/en/ViewPro/vp-set-data-context-3.png)
+![](/assets/en/ViewPro/vp-set-data-context-3.png)
 
 #### Exemplo 4 - Sintaxe de data e hora
 
@@ -130,7 +130,7 @@ $options:=New object("autoGenerateColumns"; True) VP SET DATA CONTEXT("ViewProAr
 
 Eis o resultado após as colunas serem geradas:
 
-![](../../assets/en/ViewPro/vp-set-data-context-date-time.png)
+![](/assets/en/ViewPro/vp-set-data-context-date-time.png)
 
 #### Veja também
 

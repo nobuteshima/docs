@@ -53,13 +53,13 @@ Para mais informação, consulte a seção *Subformulários em modo página*.
 
 Em um formulário exibindo o registro de uma pessoa, um botão "Check children" abre um diálogo para verificar/modificar os nomes e idades dos filhos:
 
-![](../assets/en/commands/pict3542015.en.png)
+![](/assets/en/commands/pict3542015.en.png)
 
 **Nota:** O campo objeto "Children" é representado apenas para mostrar sua estrutura para esse exemplo.
 
 No formulário de verificação, se tiver atribuido algumas propriedades de objeto a variáveis [Form](form.md):
 
-![](../assets/en/commands/pict3541682.en.png)
+![](/assets/en/commands/pict3541682.en.png)
 
 Abaixo o código para o botão "Check children":
 
@@ -93,7 +93,7 @@ Abaixo o código para o botão "Check children":
 
 O formulário exibe informação para cada campo:
 
-![](../assets/en/commands/pict3515152.en.png)
+![](/assets/en/commands/pict3515152.en.png)
 
 Se os valores forem editados e o botão OK button for clicaod, o campo é atualizado (o registro pai deve ser salvo depois). 
 

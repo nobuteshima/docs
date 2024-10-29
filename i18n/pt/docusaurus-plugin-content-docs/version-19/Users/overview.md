@@ -15,7 +15,7 @@ Os grupos podem então receber privilégios de acesso a partes ou funcionalidade
 
 O exemplo abaixo mostra direitos de acesso ao explorador de Execução e ao Design sendo atribuidos ao grupo "Devs":
 
-![](../assets/en/Users/Access1.png)
+![](/assets/en/Users/Access1.png)
 
 ## Ativar o controlo de acesso
 
@@ -42,7 +42,7 @@ In project applications (.4DProject or .4dz files), 4D users and groups can be c
 
 Os editores dos usuários e grupos estão localizados na caixa de ferramentas de 4D. These editors can be used to create both users and groups, assign passwords to users, place users in groups, etc.
 
-![](../assets/en/Users/editor.png)
+![](/assets/en/Users/editor.png)
 
 > O editor de usuários e grupos pode ser exibido em execução com ajuda do comando [EDIT ACCESS](https://doc.4d.com/4Dv18/4D/18/EDIT-ACCESS.301-4504687.en.html). Toda a configuração de usuários e grupos pode também ser editada durante a execução da aplicação utilizando comandos de linguagem 4D do tema [Usuários e grupos](https://doc.4d.com/4Dv18R3/4D/18-R3/Users-and-Groups.201-4900438.en.html).
 

@@ -328,7 +328,7 @@ Provided that you have stored a picture file named "envelope\_open.png" in the R
  OBJECT SET FORMAT(*;"Header1";vIcon+";"+vPos)
 ```
 
-![](../assets/en/commands/pict2878245.en.png)
+![](/assets/en/commands/pict2878245.en.png)
 
 #### Example 7 
 

@@ -9,7 +9,7 @@ Las listas desplegables son objetos que permiten al usuario seleccionar de una l
 
 En macOS, las listas desplegables también se denominan a veces "menú emergente". Ambos nombres se refieren a los mismos objetos. Como muestra el siguiente ejemplo, el aspecto de estos objetos puede variar ligeramente según la plataforma:
 
-![](../assets/en/FormObjects/popupDropdown_appearance.png)
+![](/assets/en/FormObjects/popupDropdown_appearance.png)
 
 ## Utilizar un array
 
@@ -74,7 +74,7 @@ Para asociar un menú emergente/lista desplegable o un combo box con un campo o 
 
 Cuando se ejecuta el formulario, 4D gestiona automáticamente el menú emergente o el combo box durante la entrada o visualización: cuando un usuario elige un valor, éste se guarda en el campo; este valor del campo se muestra en el menú emergente cuando se visualiza el formulario:
 
-![](../assets/en/FormObjects/popupDropdown_choiceList.png)
+![](/assets/en/FormObjects/popupDropdown_choiceList.png)
 > No es posible combinar este principio con el uso de un array para inicializar el objeto. Si introduce un nombre de campo en el área Nombre de la variable, debe utilizar una lista de selección.
 
 ### Guardar como

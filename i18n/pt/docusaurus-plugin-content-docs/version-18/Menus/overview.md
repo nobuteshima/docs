@@ -5,7 +5,7 @@ title: Visão Geral
 
 You can create menu bars and menus for your 4D databases and custom applications. Because pull-down menus are a standard feature of any desktop application, their addition will make your databases easier to use and will make them feel familiar to users.
 
-![](../assets/en/Menus/menubar.png)
+![](/assets/en/Menus/menubar.png)
 
 A **menu bar** is a group of menus that can be displayed on a screen together. Each **menu** on a menu bar can have numerous menu commands in it, including some that call cascading submenus (or hierarchical submenus). When the user chooses a menu or submenu command, it calls a project method or a standard action that performs an operation.
 
@@ -28,7 +28,7 @@ Para criar menus e barras de menu, pode utilizar qualquer um deles:
 
 The Menu editor is accessed using the **Menus** button of the Toolbox.
 
-![](../assets/en/Menus/editor1.png)
+![](/assets/en/Menus/editor1.png)
 
 Menus and menu bars are displayed as two items of the same hierarchical list, on the left side of the dialog box. Cada menu pode ser anexado a uma barra de menus ou a outro menu. No segundo caso, o menu torna-se um sub-menu.
 

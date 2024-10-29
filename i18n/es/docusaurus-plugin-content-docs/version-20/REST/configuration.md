@@ -17,7 +17,7 @@ Para comenzar a utilizar las funcionalidades REST, es necesario iniciar y config
 
 Por razones de seguridad, por defecto, 4D no responde a las peticiones REST. Si desea iniciar el servidor REST, debe marcar la opción **Exponer como servidor REST** en la página **Web** > **Web Features** de la configuración de la estructura para que se procesen las peticiones REST.
 
-![alt-text](../assets/en/REST/Settings.png)
+![alt-text](/assets/en/REST/Settings.png)
 
 > Los servicios REST utilizan el servidor HTTP 4D, por lo que debe asegurarse de que el servidor web 4D está iniciado.
 
@@ -74,7 +74,7 @@ Para eliminar la exposición REST de una tabla:
 
 1. Visualice el inspector de tablas en el editor de estructuras y seleccione la tabla que desea modificar.
 
-2. Uncheck the **Expose as REST resource** option: ![alt-text](../assets/en/REST/table.png) Do this for each table whose exposure needs to be modified.
+2. Uncheck the **Expose as REST resource** option: ![alt-text](/assets/en/REST/table.png) Do this for each table whose exposure needs to be modified.
 
 
 ### Exponer los campos
@@ -87,6 +87,6 @@ Para eliminar la exposición REST de un campo:
 
 1. Visualice el inspector de campo en el editor de estructuras y seleccione el campo a modificar.
 
-2. Desmarque la opción **Exponer como recurso REST** para el campo. ![alt-text](../assets/en/REST/field.png) Repeat this for each field whose exposure needs to be modified.
+2. Desmarque la opción **Exponer como recurso REST** para el campo. ![alt-text](/assets/en/REST/field.png) Repeat this for each field whose exposure needs to be modified.
 
 > Para que un campo sea accesible a través de REST, la tabla padre también debe serlo. Si la tabla padre no está expuesta, ninguno de sus campos lo estará, independientemente de su estado.

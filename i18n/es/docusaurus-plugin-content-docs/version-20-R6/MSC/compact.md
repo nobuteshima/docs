@@ -22,7 +22,7 @@ La compactación de archivos responde a dos tipos de necesidades:
 
 Para iniciar directamente la compactación del archivo de datos, haga clic en el botón de compactación de la ventana del CSM.
 
-![](../assets/en/MSC/MSC_compact.png)
+![](/assets/en/MSC/MSC_compact.png)
 
 > Como la compactación implica la duplicación del archivo original, el botón se desactiva cuando no hay espacio suficiente en el disco que contiene el archivo.
 

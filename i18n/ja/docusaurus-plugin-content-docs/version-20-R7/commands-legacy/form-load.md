@@ -121,7 +121,7 @@ displayed_sidebar: docs
 
 結果は以下のように表示されます:
 
-![](../assets/en/commands/pict3688480.en.png)
+![](/assets/en/commands/pict3688480.en.png)
 
 #### 例題 5 
 

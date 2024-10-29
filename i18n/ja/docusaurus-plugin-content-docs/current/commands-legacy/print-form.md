@@ -159,7 +159,7 @@ displayed_sidebar: docs
 
 このフォームはダイアログとして使用され、変更されたあと印刷されます:
 
-![](../assets/en/commands/pict6264975.en.png)
+![](/assets/en/commands/pict6264975.en.png)
 
 フォームメソッド:
 

@@ -5,7 +5,7 @@ title: Glosario
 
 ## Visión general de los principales conceptos
 
-![](../assets/en/ORDA/mainConcepts.png)
+![](/assets/en/ORDA/mainConcepts.png)
 
 ## Atributo
 

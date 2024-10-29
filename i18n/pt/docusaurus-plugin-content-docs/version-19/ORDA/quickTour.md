@@ -11,7 +11,7 @@ The ORDA datastore is automatically based upon a 4D database structure, provided
 
 Este exemplo utilizará a seguinte estrutura de banco de dados 4D simple:
 
-![](../assets/en/ORDA/struc.png)
+![](/assets/en/ORDA/struc.png)
 
 To know what is exposed as the datastore, create a new project method, write the following line:
 
@@ -21,7 +21,7 @@ TRACE
 
 Executar o método: ele chama simplesmente a janela do depurador. In the Expression area, double-click to insert an expression and enter `ds`. Devolve o objeto do datastore. Deploy the object, you can see that tables and fields are automatically exposed by ORDA as properties of the `ds` object:
 
-![](../assets/en/ORDA/debug1.png)
+![](/assets/en/ORDA/debug1.png)
 
 It means for example that, whenever you need to refer to the city field of the [Company] table, in ORDA you just need to write:
 
@@ -35,7 +35,7 @@ ds. Company.city //returns the name of the city
 
 You have also noticed the extra `hires` property in the ds. Company dataclass. Não corresponde a um campo. `hires` is actually the name of the *One to many* relation between Company and Employee:
 
-![](../assets/en/ORDA/struc2s.png) *Nome da relação conforme definido no Inspetor*
+![](/assets/en/ORDA/struc2s.png) *Nome da relação conforme definido no Inspetor*
 
 It means that, whenever you need to access the list of employees working for a company, in ORDA you just need to write:
 
@@ -72,7 +72,7 @@ $status:=$entity.save()
 
 O editor de usuários está na Barra de Ferramentas de 4D.
 
-![](../assets/en/Users/editor.png)
+![](/assets/en/Users/editor.png)
 
 ### Adicionar e modificar usuários
 
@@ -84,7 +84,7 @@ Para adicionar um usuário da Barra de Ferramentas:
 
 A lista de usuários exibe todos os usuários, incluindo o[Designer and the Administrator](#designer-and-administrator).
 
-2. Clique no botão ![](../assets/en/Users/PlussNew.png) que está abaixo da lista de usuários. OR Right-click in the list of users and choose **Add** or **Duplicate** in the context menu.
+2. Clique no botão ![](/assets/en/Users/PlussNew.png) que está abaixo da lista de usuários. OR Right-click in the list of users and choose **Add** or **Duplicate** in the context menu.
 
 > O comando **Duplicate** pode ser usado para criar rapidamente vários usuários com as mesmas características.
 
@@ -102,7 +102,7 @@ A adesão do usuário aos diferentes grupos também pode ser estabelecida por gr
 
 ### Apagar um usuário
 
-Para apagar um usuário, selecione-o e clique no botão apagar ou use o comando **Delete** no menu contextual. ![](../assets/en/Users/MinussNew.png)
+Para apagar um usuário, selecione-o e clique no botão apagar ou use o comando **Delete** no menu contextual. ![](/assets/en/Users/MinussNew.png)
 
 Usuários deletados não aparecem mais no editor de Usuários. Note que as IDs de usuários deletados são retribuídas quando novas contas de usuário forem criadas.
 
@@ -126,7 +126,7 @@ Para criar um gurpo:
 
 1. Selecione **Tool Box > Grupos** no menu **Design** ou clique no botão **Tool Box** da barra 4D e depois no botão **Grupos**. 4D exibe a janela de editor de grupos. A lista de grupos apresenta todos os grupos do banco de dados.
 
-2. Click on the ![](../assets/en/Users/PlussNew.png) button located below the list of groups.  
+2. Click on the ![](/assets/en/Users/PlussNew.png) button located below the list of groups.  
    OR  
    Right-click in the list of groups and choose the **Add** or **Duplicate** command in the context menu.
 
@@ -142,7 +142,7 @@ Pode colocar qualquer usuário ou grupo dentro de um grupo, e pode também coloc
 
 Para colocar um usuário ou grupo em um grupo, precisa marcar a opção "Membro" para cada usuário ou grupo na área de atribuição de membros:
 
-![](../assets/en/Users/groups.png)
+![](/assets/en/Users/groups.png)
 
 Se marcar o nome de usuário, esse usuário é adicionado ao grupo. Se marcar o nome de um grupo, todos os usuários do grupo serão adicionados ao novo grupo. The affiliated user or group will then have the same access privileges as those assigned to the new group.
 
@@ -160,7 +160,7 @@ You can also restrict the use of the 4D Client Web server and SOAP server via th
 
 The “Plug-in” area on the Groups page of the tool box lists all the plug-ins loaded by the 4D application. To give a group access to a plug-in, you simply need to check the corresponding option.
 
-![](../assets/en/Users/plugins.png)
+![](/assets/en/Users/plugins.png)
 
 The **4D Client Web Server** and **4D Client SOAP Server** items lets you control the possibility of Web and SOAP (Web Services) publication for each 4D in remote mode. Essas licenças são consideradas como licenças de plug-in por 4D Server. Therefore, in the same way as for plug-ins, you can restrict the right to use these licenses to a specific group of users.
 
@@ -172,11 +172,11 @@ In this example, a user is assigned to one of three groups depending on their le
 
 The groups are then nested so that privileges are correctly distributed to the users of each group.
 
-- The General Management group contains only “high-level” users. ![](../assets/en/Users/schema1.png)
+- The General Management group contains only “high-level” users. ![](/assets/en/Users/schema1.png)
 
-- The Finances group contains data maintenance users as well as General Management users, thus the users in General Management have the privileges of the Finances group as well. ![](../assets/en/Users/schema2.png)
+- The Finances group contains data maintenance users as well as General Management users, thus the users in General Management have the privileges of the Finances group as well. ![](/assets/en/Users/schema2.png)
 
-- The Accounting group contains data entry users as well as Finances group users, so the users who belong to the Finances group and the General Management group enjoy the privileges of the Accounting group as well. ![](../assets/en/Users/schema3.png)
+- The Accounting group contains data entry users as well as Finances group users, so the users who belong to the Finances group and the General Management group enjoy the privileges of the Accounting group as well. ![](/assets/en/Users/schema3.png)
 
 You can decide which access privileges to assign to each group based on the level of responsibility of the users it includes.
 

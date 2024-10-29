@@ -25,7 +25,7 @@ displayed_sidebar: docs
 
 Este comando por lo general se llama junto con [Open form window](open-form-window.md) para mostrar formularios sofisticados, como se muestra en el siguiente ejemplo:
 
-![](../assets/en/commands/pict3541609.en.png)
+![](/assets/en/commands/pict3541609.en.png)
 
 Utilice **DIALOG** en lugar de [ALERT](alert.md), [CONFIRM](confirm.md) o [Request](request.md) cuando la información qie sea presentada o reunida sea más compleja de lo que estos comandos pueden manejar. 
 
@@ -77,7 +77,7 @@ El siguiente ejemplo puede usarse para crear una paleta de herramientas
 
 En un formulario, usted asignó algunas propiedades de objeto [Form](form.md) a variables:
 
-![](../assets/en/commands/pict3515147.en.png)
+![](/assets/en/commands/pict3515147.en.png)
 
 Luego, puede ejecutarlas desde cualquier lugar de la aplicación:
 
@@ -90,7 +90,7 @@ Luego, puede ejecutarlas desde cualquier lugar de la aplicación:
 
 El formulario muestra los valores que ha pasado:
 
-![](../assets/en/commands/pict3515152.en.png)
+![](/assets/en/commands/pict3515152.en.png)
 
 **Nota:** este ejemplo requiere que la notación de objeto esté habilitada en la base de datos (ver *Página Compatibilidad*).
 
@@ -106,7 +106,7 @@ El siguiente ejemplo usa la ruta a un formulario .json para mostrar los registro
 
 que devuelve:
 
-![](../assets/en/commands/pict3687439.en.png)
+![](/assets/en/commands/pict3687439.en.png)
 
 #### Ejemplo 4 
 
@@ -124,7 +124,7 @@ El siguiente ejemplo utiliza un archivo .json como un objeto y modifica algunas 
 
 El formulario modificado se devuelve con el título, el logotipo y el borde modificados:
 
-![](../assets/en/commands/pict3688356.en.png)
+![](/assets/en/commands/pict3688356.en.png)
 
 #### Variables y conjuntos del sistema 
 

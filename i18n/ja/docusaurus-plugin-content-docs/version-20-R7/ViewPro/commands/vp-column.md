@@ -33,7 +33,7 @@ title: VP Column
 
 以下に表示されている (カレントスプレッドシートの) カラムに対するレンジオブジェクトを定義します:
 
-![](../../assets/en/ViewPro/cmd_vpColumn.PNG)
+![](/assets/en/ViewPro/cmd_vpColumn.PNG)
 
 以下のようにコードを書くことができます:
 

@@ -17,7 +17,7 @@ Vos fichiers de documentation sont écrits dans la syntaxe Markdown (fichiers .m
 
 La documentation s'affiche dans la zone d'aperçu (panneau de droite) de l'Explorateur :
 
-![](../assets/en/Project/explorer_Doc.png)
+![](/assets/en/Project/explorer_Doc.png)
 
 Il peut également être partiellement exposé en tant que [conseils de l'éditeur de code](#viewing-documentation-in-the-code-editor).
 
@@ -71,7 +71,7 @@ Pour afficher la documentation dans la fenêtre de l'Explorateur :
 2. Sélectionnez l'élément documenté dans la liste de l'Explorateur.
 3. Cliquez sur le bouton **Documentation** situé sous la zone d'aperçu.
 
-![](../assets/en/Project/comments-explo2.png)
+![](/assets/en/Project/comments-explo2.png)
 
 - Si aucun fichier de documentation n'a été trouvé pour l'élément sélectionné, un bouton **Créer** s'affiche (voir ci-dessous).
 
@@ -86,7 +86,7 @@ S'il n'y a pas de fichier de documentation pour l'élément sélectionné, vous 
 - cliquez sur le bouton **Créer** dans le volet `Documentation` ou,
 - choisissez l'option **Modifier la documentation...** dans le menu contextuel ou le menu d'options de l'Explorateur.
 
-![](../assets/en/Project/comments-explo3.png)
+![](/assets/en/Project/comments-explo3.png)
 
 4D crée automatiquement un fichier .md nommé correctement avec un modèle de base à l'emplacement approprié et l'ouvre avec votre éditeur Markdown par défaut.
 
@@ -96,7 +96,7 @@ Si un fichier de documentation existe déjà pour l'élément sélectionné, vou
 
 L'éditeur de code 4D affiche une partie de la documentation d'une méthode dans son info-bulle.
 
-![](../assets/en/Project/codeEditor_Comments.png)
+![](/assets/en/Project/codeEditor_Comments.png)
 
 If a file named `\&#060;MethodName&#062;.md` exists in `\&#060;package&#062;/documentation` folder, the code editor displays (by priority):
 
@@ -115,7 +115,7 @@ Cependant, vous pouvez utiliser toutes les [balises Markdown prises en charge](#
 
 De nouveaux fichiers de documentation sont créés avec les contenus par défaut suivants :
 
-![](../assets/en/Project/comments-explo4.png)
+![](/assets/en/Project/comments-explo4.png)
 
 | Ligne                                                  | Description                                                                                                                                                                                            |
 | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -210,6 +210,6 @@ C_LONGINT($size)
 $logo:=GetLogo(5)
 ```
 
-- Explorer view: ![](../assets/en/Project/explorer_Doc.png)
+- Explorer view: ![](/assets/en/Project/explorer_Doc.png)
 
-- Code editor view: ![](../assets/en/Project/comments-explo5.png)
+- Code editor view: ![](/assets/en/Project/comments-explo5.png)

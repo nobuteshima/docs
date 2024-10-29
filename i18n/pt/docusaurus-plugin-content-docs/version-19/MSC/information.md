@@ -13,7 +13,7 @@ This page indicates the name, version and location of the application as well as
 A parte central da janela indica o nome e local do projeto de bancos de dados e arquivos de dados assim como o arquivo de histórico (se houver). A parte inferior da janela indica o nome do titular da licença 4D, o tipo de licença e o nome de usuário do banco de dados quando ativar as senhas (ou o Designer se não for o caso).
 
 - **Display and selection of pathnames**: On the **Program** tab, pathnames are displayed in pop-up menus containing the folder sequence as found on the disk:  
-  ![](../assets/en/MSC/MSC_popup.png) If you select a menu item (disk or folder), it is displayed in a new system window. The **Copy the path** command copies the complete pathname as text to the clipboard, using the separators of the current platform.
+  ![](/assets/en/MSC/MSC_popup.png) If you select a menu item (disk or folder), it is displayed in a new system window. The **Copy the path** command copies the complete pathname as text to the clipboard, using the separators of the current platform.
 
 - **"Licenses" Folder** The **"Licenses" Folder** button displays the contents of the active Licenses folder in a new system window. All the license files installed in your 4D environment are grouped together in this folder, on your hard disk. When they are opened with a Web browser, these files display information concerning the licenses they contain and their characteristics. The location of the "Licenses" folder can vary depending on the version of your operating system. Para obter mais informações sobre a localização desta pasta, consulte o comando `Get 4D folder`. ***Note:** You can also access this folder from the “Update License” dialog box (available in the Help menu).*
 
@@ -21,7 +21,7 @@ A parte central da janela indica o nome e local do projeto de bancos de dados e 
 
 Esta página fornece uma visão geral das tabelas da sua base de dados:
 
-![](../assets/en/MSC/MSC_Tables.png)
+![](/assets/en/MSC/MSC_Tables.png)
 > As informações desta página estão disponíveis nos modos standard e de manutenção.
 
 The page lists all the tables of the database (including invisible tables) as well as their characteristics:
@@ -42,9 +42,9 @@ The **Data** page provides information about the available and used storage spac
 
 As informações são fornecidas sob a forma de gráficos:
 
-![](../assets/en/MSC/MSC_Data.png)
+![](/assets/en/MSC/MSC_Data.png)
 > This page does not take into account any data that may be stored outside of the data file (see "External storage").
 
-Arquivos que são muito fragmentados reduzem o desempenho do disco e, assim, do banco de dados. If the occupation rate is too low, 4D will indicate this by a warning icon (which is displayed on the Information button and on the tab of the corresponding file type) and specify that compacting is necessary:![](../assets/en/MSC/MSC_infowarn.png)
+Arquivos que são muito fragmentados reduzem o desempenho do disco e, assim, do banco de dados. If the occupation rate is too low, 4D will indicate this by a warning icon (which is displayed on the Information button and on the tab of the corresponding file type) and specify that compacting is necessary:![](/assets/en/MSC/MSC_infowarn.png)
 
-A warning icon is also displayed on the button of the [Compact](compact.md) page: ![](../assets/en/MSC/MSC_compactwarn.png)
+A warning icon is also displayed on the button of the [Compact](compact.md) page: ![](/assets/en/MSC/MSC_compactwarn.png)

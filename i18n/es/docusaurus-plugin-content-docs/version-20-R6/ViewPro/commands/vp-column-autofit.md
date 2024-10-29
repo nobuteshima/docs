@@ -23,7 +23,7 @@ En *rangeObj*, pase un objeto de rango que contenga un rango de columnas cuyo ta
 
 Las siguientes columnas tienen el mismo tamaño y no muestran parte del texto:
 
-![](../../assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
 
 La selección de las columnas y la ejecución de este código:
 
@@ -33,7 +33,7 @@ La selección de las columnas y la ejecución de este código:
 
 ... redimensiona las columnas para ajustarse al tamaño de los contenidos:
 
-![](../../assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
 
 #### Ver también
 

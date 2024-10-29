@@ -130,9 +130,9 @@ When the **Focusable** property is enabled for an object, the object can have th
 
 > An [input object](input_overview.md) is always focusable if it has the [Enterable](#enterable) property.
 
-- ![](../assets/en/FormObjects/property_focusable1.png)<br/>Check box shows focus when selected
+- ![](/assets/en/FormObjects/property_focusable1.png)<br/>Check box shows focus when selected
 
-- ![](../assets/en/FormObjects/property_focusable2.png)<br/>Check box is selected but cannot show focus|
+- ![](/assets/en/FormObjects/property_focusable2.png)<br/>Check box is selected but cannot show focus|
 
 When the **Focusable** property is selected for a non-enterable object, the user can select, copy or even drag-and-drop the contents of the area.
 
@@ -176,13 +176,13 @@ Cette propriété est disponible pour les [objets de zone de saisie](input_overv
 
 - Dans les zones mono-lignes, les mots situés en fin de ligne sont tronqués et il n’y a pas de retours à la ligne.
 - In multiline inputs, 4D carries out automatic line returns:\
-  ![](../assets/en/FormObjects/multilineAuto.png)
+  ![](/assets/en/FormObjects/multilineAuto.png)
 
 #### Non
 
 - Dans les zones mono-lignes, les mots situés en fin de ligne sont tronqués et il n’y a pas de retours à la ligne.
 - Il n’y a aucun retour à la ligne : le texte est toujours affiché sur une seule ligne. If the Alpha or Text field or variable contains carriage returns, the text located after the first carriage return is removed as soon as the area is modified:\
-  ![](../assets/en/FormObjects/multilineNo.png)
+  ![](/assets/en/FormObjects/multilineNo.png)
 
 #### Oui
 
@@ -206,7 +206,7 @@ Lorsque cette valeur est sélectionnée, la propriété est gérée par l'option
 
 Placeholder text appears as watermark text in a field, supplying a help tip, indication or example for the data to be entered. This text disappears as soon as the user enters a character in the area:
 
-![](../assets/en/FormObjects/property_placeholder.png)
+![](/assets/en/FormObjects/property_placeholder.png)
 
 The placeholder text is displayed again if the contents of the field is erased.
 
@@ -261,7 +261,7 @@ This property allows setting special meaning keys (keyboard shortcuts) for [butt
 
 You can configure this option by clicking the [...] button in the Shortcuts property in the Property List.
 
-![](../assets/en/FormObjects/property_shortcut.png)
+![](/assets/en/FormObjects/property_shortcut.png)
 
 > You can also assign a shortcut to a custom menu command. If there is a conflict between two shortcuts, the active object has priority. For more information about associating shortcuts with menus, refer to [Setting menu properties](https://doc.4d.com/4Dv17R5/4D/17-R5/Setting-menu-properties.300-4163525.en.html).
 

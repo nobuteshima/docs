@@ -19,11 +19,11 @@ title: フォーミュラとファンクション
 
 - フォーミュラにセル参照を入力する代わりに、参照するセルをクリックします:
 
-![](../assets/en/ViewPro/formulas.PNG)
+![](/assets/en/ViewPro/formulas.PNG)
 
 - 入力したい関数の頭文字を入力します。 すると、利用可能な関数と参照の一覧がポップアップメニューに表示され、必要な要素を選択することができます:
 
-![](../assets/en/ViewPro/formula2.png)
+![](/assets/en/ViewPro/formula2.png)
 
 また、命名フォーミュラを作成すると、その名前で呼び出すことが可能です。 この場合、[VP ADD FORMULA NAME](method-list.md#vp-add-formula-name) コマンドを使用して命名フォーミュラを入力します。
 
@@ -126,7 +126,7 @@ title: フォーミュラとファンクション
 
 スプレッドシートのファンクションとは、セルの値を計算する規定のフォーミュラのことで、関数とも呼ばれます。 入力したい関数の頭文字を入力すると、利用可能な関数と参照の一覧がポップアップメニューに表示され、必要な要素を選択することができます:
 
-![](../assets/en/ViewPro/vpFormula2.PNG)
+![](/assets/en/ViewPro/vpFormula2.PNG)
 
 詳細や例題については [**SpreadJS's extented list of functions**](https://www.grapecity.com/spreadjs/docs/v14/online/FormulaFunctions.html) (英文) を参照ください。
 
@@ -202,11 +202,11 @@ $o.DRIVERS_LICENCE.parameters.push(New object("name"; "ID"; "type"; Is longint))
 
 3.  4D View Pro エリアのセルに次を入力します:
 
-    ![](../assets/en/ViewPro/vpProjMeth1.PNG)
+    ![](/assets/en/ViewPro/vpProjMeth1.PNG)
 
     すると、4D によって "myMethod "が呼び出され、セルの表示は次のようになります:
 
-    ![](../assets/en/ViewPro/vpProjMeth2.PNG)
+    ![](/assets/en/ViewPro/vpProjMeth2.PNG)
 
 
 
@@ -271,7 +271,7 @@ $o.BIRTH_INFORMATION.summary:="渡された情報に基づきフォーマット�
 VP SET CUSTOM FUNCTIONS("ViewProArea"; $o)
 ```
 
-![](../assets/en/ViewPro/params.png)
+![](/assets/en/ViewPro/params.png)
 
 
 ## 互換性
@@ -316,7 +316,7 @@ TABLENAME_FIELDNAME()
 
 1.  "Employee" テーブルと "L_Name" フィールドを作成します:
 
-![](../assets/en/ViewPro/vpFieldMeth1.PNG)
+![](/assets/en/ViewPro/vpFieldMeth1.PNG)
 
 
 2.  次のコードを実行して、仮想ストラクチャーを初期化します:
@@ -337,17 +337,17 @@ TABLENAME_FIELDNAME()
 
 3.  4D View Pro エリアのセルに "=e" と入力します":
 
-![](../assets/en/ViewPro/vpFieldMeth2.PNG)
+![](/assets/en/ViewPro/vpFieldMeth2.PNG)
 
 
 4.  (Tabキーを使用して) EMP_NAME を選択し、閉じる ")" を入力します。
 
-![](../assets/en/ViewPro/vpFieldMeth3.PNG)
+![](/assets/en/ViewPro/vpFieldMeth3.PNG)
 
 
 5.  セルを確定すると、カレントの従業員の名前が表示されます:
 
-![](../assets/en/ViewPro/vpFieldMeth4.PNG)
+![](/assets/en/ViewPro/vpFieldMeth4.PNG)
 > \[Employee] テーブルはカレントレコードを持っている必要があります。
 
 

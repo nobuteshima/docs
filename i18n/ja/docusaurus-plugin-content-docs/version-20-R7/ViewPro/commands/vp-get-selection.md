@@ -25,7 +25,7 @@ title: VP Get selection
 
 #### 例題
 
-![](../../assets/en/ViewPro/cmd_vpGetSelection.PNG)
+![](/assets/en/ViewPro/cmd_vpGetSelection.PNG)
 
 以下のコードを実行すると、現在選択されているセルの座標がすべて取得できます:
 

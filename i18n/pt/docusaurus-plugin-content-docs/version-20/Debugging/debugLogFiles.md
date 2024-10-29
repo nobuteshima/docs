@@ -76,7 +76,7 @@ Para cada petição, os campos abaixo estão logados:
 
 Fluxo de petição:
 
-![](../assets/en/Admin/logRequestFlow.PNG)
+![](/assets/en/Admin/logRequestFlow.PNG)
 
 ## 4DRequestsLog_ProcessInfo.txt
 

@@ -5,7 +5,7 @@ title: Page Moniteur
 
 La Page **Moniteur** affiche des informations dynamiques relatives à l’exploitation de la base de données ainsi que des informations sur le système et l’application 4D Server.
 
-![](../assets/en/Admin/server-admin.png)
+![](/assets/en/Admin/server-admin.png)
 
 > Sous Windows, certaines informations système affichées sur cette page sont récupérées via les outils "Analyseur de performance" de Windows. Ces outils sont accessibles uniquement si l'utilisateur ayant ouvert la session sur laquelle 4D Server a été lancé dispose des autorisations d'administration nécessaires.
 
@@ -13,7 +13,7 @@ La Page **Moniteur** affiche des informations dynamiques relatives à l’exploi
 
 La zone graphique permet de visualiser l’évolution en temps réel de plusieurs paramètres : le taux d’utilisation des processeurs, le trafic réseau et l'état de la mémoire. Vous sélectionnez le paramètre à afficher via le menu situé au centre la fenêtre :
 
-![](../assets/en/Admin/server-graphic.png)
+![](/assets/en/Admin/server-graphic.png)
 
 - **Utilisation processeurs** : Taux d’utilisation globale du ou des processeur(s) de la machine, toutes applications confondues. La part spécifique de 4D Server dans ce taux d’utilisation est fournie dans la zone d’informations "Processeurs".
 - **Réseau** : Nombre d’octets reçus par seconde par la machine (serveur ou client). Le nombre d’octets envoyés est fourni dans la zone d’informations "Réseau".
@@ -32,7 +32,7 @@ La zone "Vue d’ensemble" fournit diverses informations relatives au système, 
 - **Connexions maximum** : Nombre de connexions simultanées autorisées par type de serveur
 - **Licence** : Description de la licence. Lorsque la licence produit ou l'une de ses expansions expire dans moins de 10 jours, dans le cas d'un abonnement, 4D Server tente de renouveler automatiquement la licence depuis le compte de l'utilisateur 4D. Dans ce cas, si le renouvellement automatique échoue pour une raison quelconque (erreur de connexion, statut du compte invalide, contrat non prolongé...), une icône d'avertissement est affichée à côté de la licence afin d'alerter l'administrateur du serveur. Des informations supplémentaires relatives au statut du renouvellement de la licence peuvent être affichées dans une info-bulle lorsque vous survolez la zone avec la souris :
 
-![](../assets/en/Admin/server-licence-failed.png)
+![](/assets/en/Admin/server-licence-failed.png)
 
 Usually, you will need to check the [**Licences Manager**](Admin/licenses.md).
 

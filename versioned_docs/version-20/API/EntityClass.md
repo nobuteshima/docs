@@ -1335,7 +1335,7 @@ If you use another attribute than the primary key as the One attribute in a rela
 
 The following structure will be used throughout all examples of this section:
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 Without filter parameter:
 

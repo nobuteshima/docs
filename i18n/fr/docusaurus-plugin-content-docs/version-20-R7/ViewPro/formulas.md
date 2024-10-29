@@ -19,11 +19,11 @@ Lorsque vous écrivez une formule, vous pouvez utiliser différents raccourcis :
 
 - cliquez sur une cellule pour entrer sa référence dans la formule :
 
-![](../assets/en/ViewPro/formulas.PNG)
+![](/assets/en/ViewPro/formulas.PNG)
 
 - tapez la première lettre d'une fonction à saisir. Un menu contextuel listant les fonctions et références disponibles apparaît, pour vous permettre de sélectionner les éléments souhaités :
 
-![](../assets/en/ViewPro/formula2.png)
+![](/assets/en/ViewPro/formula2.png)
 
 Vous pouvez également créer des formules nommées qui peuvent être appelées via leur nom. Pour ce faire, saisissez ces formules à l'aide de la commande [VP ADD FORMULA NAME](commands/vp-add-formula-name.md).
 
@@ -117,7 +117,7 @@ Le tableau suivant montre l'effet des différentes notations :
 
 Les fonctions de tableur sont des formules prédéfinies utilisées pour calculer les valeurs des cellules. Lorsque vous tapez la première lettre de la fonction à saisir, un menu contextuel répertoriant les fonctions et références disponibles apparaît, vous permettant de sélectionner les éléments souhaités :
 
-![](../assets/en/ViewPro/vpFormula2.PNG)
+![](/assets/en/ViewPro/vpFormula2.PNG)
 
 Voir [**la liste étendue des fonctions de SpreadJS**](https://developer.mescius.com/spreadjs/docs/formulareference/FormulaFunctions) pour plus de détails et d'exemples.
 
@@ -191,11 +191,11 @@ Nous souhaitons imprimer "Hello World" dans une cellule de la zone 4D View Pro e
 
 3. Modifiez le contenu d'une cellule dans une zone 4D View Pro et saisissez :
 
-   ![](../assets/en/ViewPro/vpProjMeth1.PNG)
+   ![](/assets/en/ViewPro/vpProjMeth1.PNG)
 
    "myMethod" est alors appelé par 4D et la cellule s'affiche :
 
-   ![](../assets/en/ViewPro/vpProjMeth2.PNG)
+   ![](/assets/en/ViewPro/vpProjMeth2.PNG)
 
 ### Paramètres
 
@@ -274,7 +274,7 @@ $o.BIRTH_INFORMATION.summary:="Returns a formatted string from given information
 VP SET CUSTOM FUNCTIONS("ViewProArea"; $o)
 ```
 
-![](../assets/en/ViewPro/params.png)
+![](/assets/en/ViewPro/params.png)
 
 ## Compatibilité
 
@@ -317,7 +317,7 @@ Nous souhaitons imprimer le nom d'une personne dans une cellule de la zone 4D Vi
 
 1. Créez une table "Employee" avec un champ "L_Name" :
 
-![](../assets/en/ViewPro/vpFieldMeth1.PNG)
+![](/assets/en/ViewPro/vpFieldMeth1.PNG)
 
 2. Exécuter le code suivant pour initialiser une structure virtuelle :
 
@@ -337,15 +337,15 @@ Nous souhaitons imprimer le nom d'une personne dans une cellule de la zone 4D Vi
 
 3. Modifiez le contenu d'une cellule de la zone 4D View Pro et saisir "=e" :
 
-![](../assets/en/ViewPro/vpFieldMeth2.PNG)
+![](/assets/en/ViewPro/vpFieldMeth2.PNG)
 
 4. Sélectionnez EMP_NAME (utilisez la touche Tab) et saisissez la fermeture ).
 
-![](../assets/en/ViewPro/vpFieldMeth3.PNG)
+![](/assets/en/ViewPro/vpFieldMeth3.PNG)
 
 5. Validez le champ pour afficher le nom de l'employé courant :
 
-![](../assets/en/ViewPro/vpFieldMeth4.PNG)
+![](/assets/en/ViewPro/vpFieldMeth4.PNG)
 
 > La table \[Employee] doit avoir un enregistrement en cours.
 

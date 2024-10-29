@@ -5,7 +5,7 @@ title: Zone de groupe
 
 Une zone de groupe est un objet statique qui vous permet de rassembler visuellement plusieurs objets de formulaire :
 
-![](../assets/en/FormObjects/groupBox.png)
+![](/assets/en/FormObjects/groupBox.png)
 
 > The name of a group box is static text; you can use a “localizable” reference as with any 4D label (see [Using references in static text](https://doc.4d.com/4Dv17R5/4D/17-R5/Using-references-in-static-text.300-4163725.en.html) and _XLIFF Architecture_ section in 4D Design Reference.
 

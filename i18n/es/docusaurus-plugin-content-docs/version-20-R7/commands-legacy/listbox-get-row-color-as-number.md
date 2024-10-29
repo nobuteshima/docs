@@ -45,7 +45,7 @@ En el parámetro *tipoColor*, puede pasar o la constante lk background color o l
 
 Dado el siguiente list box:
 
-![](../assets/en/commands/pict1205393.fr.png)
+![](/assets/en/commands/pict1205393.fr.png)
 
 ```4d
  vColor:=LISTBOX Get row color(*;"Col5";3)

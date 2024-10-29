@@ -123,7 +123,7 @@ L'exemple suivant retourne le nombre d'objets contenu dans un formulaire dynamiq
 
 Résultat :
 
-![](../assets/en/commands/pict3688480.fr.png)
+![](/assets/en/commands/pict3688480.fr.png)
 
 #### Exemple 5 
 

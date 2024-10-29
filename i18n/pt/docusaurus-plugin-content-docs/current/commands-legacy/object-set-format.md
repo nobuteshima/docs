@@ -335,7 +335,7 @@ Se você armazenou um arquivo de imagen chamado "envelope\_open.png" na pasta Re
  OBJECT SET FORMAT(*;"Header1";vIcon+";"+vPos)
 ```
 
-![](../assets/en/commands/pict2878245.en.png)
+![](/assets/en/commands/pict2878245.en.png)
 
 #### Exemplo 7 
 

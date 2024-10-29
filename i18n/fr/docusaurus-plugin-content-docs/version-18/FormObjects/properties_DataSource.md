@@ -14,7 +14,7 @@ Lorsque cette option est sélectionnée, si un utilisateur saisit une valeur int
 
 Par exemple, pour une liste de choix contenant "France, Allemagne, Italie" associée à une combo box "Pays" : si la propriété d'**insertion automatique** est définie et qu'un utilisateur saisit "Espagne", la valeur "Espagne" est alors automatiquement ajoutée à la liste en mémoire :
 
-![](../assets/en/FormObjects/comboBox_AutomaticInsertion_example.png)
+![](/assets/en/FormObjects/comboBox_AutomaticInsertion_example.png)
 
 Naturellement, la valeur saisie ne doit pas appartenir à la liste des [valeurs exclues](properties_RangeOfValues.md#excluded-list) associée à l'objet, si elle a été définie.
 > Si la liste a été créée à partir d'une liste définie en mode Développement, la liste d'origine n'est pas modifiée.
@@ -126,7 +126,7 @@ Liste des valeurs qui seront utilisées comme valeurs par défaut pour la colonn
 
 Vous devez saisir une liste de valeurs. Dans l'éditeur de formulaires, une boîte de dialogue spécifique vous permet de saisir des valeurs séparées par des retours à la ligne :
 
-![](../assets/en/FormObjects/defaultValues.png)
+![](/assets/en/FormObjects/defaultValues.png)
 
 > Vous pouvez également définir une [énumération](properties_DataSource.md#choice-list) avec la colonne de list box. Toutefois, une énumération sera utilisée comme liste de valeurs sélectionnables pour chaque ligne de colonne, alors que la liste par défaut remplit toutes les lignes de colonne.
 

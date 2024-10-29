@@ -33,7 +33,7 @@ title: ピクチャー
 
 **スケーリング** を選択すると、ピクチャーはフィールドエリアの大きさに合うようにリサイズされます。
 
-![](../assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
+![](/assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
 
 ### 繰り返し
 
@@ -41,7 +41,7 @@ title: ピクチャー
 
 **繰り返し** フォーマットを持つピクチャーが含まれるエリアが拡大されると、ピクチャーは変形されず、エリア全体を埋めるのに必要なだけピクチャーが繰り返されます。
 
-![](../assets/en/FormObjects/property_pictureFormat_Replicated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Replicated.png)
 
 フィールドがオリジナルのピクチャーよりも小さいサイズにされた場合、ピクチャーはトランケート (中央合わせなし) されます。
 
@@ -54,7 +54,7 @@ title: ピクチャー
 **トランケート (中央合わせしない)** フォーマットを選択すると、4D はピクチャーの左上角をフィールドの左上角に合わせて配置し、フィールドエリアに収まらない部分はエリアからはみ出します。 ピクチャーは右と下にはみ出します。
 > ピクチャーフォーマットが **トランケート (中央合わせしない)** の場合、入力エリアにスクロールバーを追加できます。
 
-![](../assets/en/FormObjects/property_pictureFormat_Truncated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Truncated.png)
 
 #### JSON 文法
 

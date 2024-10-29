@@ -6,7 +6,7 @@ sidebar_label: Page Sauvegarde
 
 La page Sauvegarde du CSM permet de visualiser les paramètres de sauvegarde de la base et de lancer une sauvegarde manuelle :
 
-![](../assets/en/MSC/msc_Backup.png)
+![](/assets/en/MSC/msc_Backup.png)
 
 Cette page est constituée des zones suivantes :
 

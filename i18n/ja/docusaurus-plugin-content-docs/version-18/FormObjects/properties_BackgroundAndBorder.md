@@ -99,11 +99,11 @@ title: 背景色と境界線
 
 リストボックスオブジェクト下部に追加される余分な空白行の表示を管理します。 デフォルトで、4D は空のエリアを埋めるためにこのような行を追加します:
 
-![](../assets/en/FormObjects/property_hideExtraBlankRows1.png)
+![](/assets/en/FormObjects/property_hideExtraBlankRows1.png)
 
 このオプションをチェックすると、これらの空白行を除去することができます。 リストボックスオブジェクトの下部は空のままになります:
 
-![](../assets/en/FormObjects/property_hideExtraBlankRows2.png)
+![](/assets/en/FormObjects/property_hideExtraBlankRows2.png)
 
 #### JSON 文法
 
@@ -172,7 +172,7 @@ title: 背景色と境界線
  <>_BgndColors{$i}:=-255 // デフォルト値
 ```
 
-![](../assets/en/FormObjects/listbox_styles1.png)
+![](/assets/en/FormObjects/listbox_styles1.png)
 
 次に、負の値を持つセルの色を濃いオレンジで示したい場合、 各列にも行背景色配列を設定します (例: `<>_BgndColor_1`, `<>_BgndColor_2` と `<>_BgndColor_3`)。 これらの配列の値は、リストボックスプロパティに設定されているものや、全体用の行背景色配列よりも優先されます。
 
@@ -183,7 +183,7 @@ title: 背景色と境界線
  <>_BgndColorsCol_1{16}:=0x00FF8000
 ```
 
-![](../assets/en/FormObjects/listbox_styles2.png)
+![](/assets/en/FormObjects/listbox_styles2.png)
 
 `LISTBOX SET ROW FONT STYLE` や `LISTBOX SET ROW COLOR` コマンドを使っても同じような効果が得られます。 コマンドを使う利点は、スタイル/カラー配列をあらかじめ列に設定する必要がないことです。この場合、これらはコマンドによって動的に作成されます。
 

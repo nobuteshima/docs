@@ -79,7 +79,7 @@ $0:=ds.Employee.query("firstname = :1 and lastname = :2";$firstname;$lastname).f
 
 The method properties are configured accordingly on the 4D project side:
 
-![alt-text](../assets/en/REST/methodProp_ex.png)
+![alt-text](/assets/en/REST/methodProp_ex.png)
 
 Em seguida, você pode enviar a solicitação REST POST seguinte, por exemplo, usando o comando 4D `HTTP Request`:
 

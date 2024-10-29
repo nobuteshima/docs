@@ -93,7 +93,7 @@ VP SET SHEET OPTIONS("ViewProArea";$options;2)
 
 結果:
 
-![](../../assets/en/ViewPro/cmd_vpSetSheetOptions1.PNG)
+![](/assets/en/ViewPro/cmd_vpSetSheetOptions1.PNG)
 
 #### 例題 4
 
@@ -115,7 +115,7 @@ VP SET SHEET OPTIONS("ViewProArea";$options)
 
 結果:
 
-![](../../assets/en/ViewPro/cmd_vpSetSheetOptions2.PNG)
+![](/assets/en/ViewPro/cmd_vpSetSheetOptions2.PNG)
 
 #### 参照
 

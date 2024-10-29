@@ -41,7 +41,7 @@ title: サブフォーム
 
 サブフォームにバインドされた [変数](properties_Object.md#変数あるいは式) を使用して 2つのコンテキスト (親フォームとサブフォーム) をリンクし、洗練されたインターフェースを作成することができます。 たとえば、動的な時計を提供するサブフォームを置くとします。このサブフォームが置かれる親フォームには入力可の時間型変数が置かれています:
 
-![](../assets/en/FormObjects/subforms1.png)
+![](/assets/en/FormObjects/subforms1.png)
 
 両オブジェクト (時間変数とサブフォームコンテナー) には *同じ変数名* が割り当てられています。 この場合、親フォームを開いたとき、4Dは自動で両方の値を同期化します。 変数の値が複数の場所で設定されている場合、4Dは最後にロードされた値を使用します。 以下のロード順が適用されます:<br /> 1 - サブフォームのオブジェクトメソッド<br /> 2 - サブフォームのフォームメソッド<br /> 3 - 親フォームのオブジェクトメソッド<br /> 4 - 親フォームのフォームメソッド
 
@@ -53,7 +53,7 @@ title: サブフォーム
 
 この場合には、`On bound variable change` フォームイベントを使用します。 このイベントは、サブフォームプロパティ内で選択されていなければなりません。このイベントはサブフォームのフォームメソッドで生成されます。
 
-![](../assets/en/FormObjects/subforms2.png)
+![](/assets/en/FormObjects/subforms2.png)
 
 `On Bound Variable Change` フォームイベントは以下のときに生成されます:
 
@@ -70,7 +70,7 @@ title: サブフォーム
 
 変数に値を割り当てると、親サブフォームコンテナーのオブジェクトメソッドで `On Data Change` フォームイベントが生成され、メソッドによるアクションを実行できます。 このイベントは、サブフォームコンテナーのプロパティリストで選択されていなければなりません。
 
-![](../assets/en/FormObjects/subforms3.png)
+![](/assets/en/FormObjects/subforms3.png)
 
 > 時計の針を手動で動かすと、サブフォーム中の *clockValue* 変数のオブジェクトメソッドで `On Data Change` フォームイベントが生成されます。
 
@@ -82,7 +82,7 @@ title: サブフォーム
 
 たとえば、サブフォームにおいて異なる言語での表示を可能にするために、バインドされたオブジェクトにフィールドラベルが保存されている場合を考えます:
 
-![](../assets/en/FormObjects/subforms4.png)
+![](/assets/en/FormObjects/subforms4.png)
 
 *InvoiceAddress* オブジェクトに値を割り当てることで、サブフォームのラベルを変更することができます:
 
@@ -99,7 +99,7 @@ title: サブフォーム
  InvoiceAddress.Label:=$lang
 ```
 
-![](../assets/en/FormObjects/subforms5.png)
+![](/assets/en/FormObjects/subforms5.png)
 
 ### 高度なフォーム間通信プログラム
 
@@ -137,7 +137,7 @@ title: サブフォーム
 
 このメカニズムを図示すると以下のようになります:
 
-![](../assets/en/FormObjects/subforms6.png)
+![](/assets/en/FormObjects/subforms6.png)
 
 詳細は `EXECUTE METHOD IN SUBFORM` コマンドの説明を参照してください。
 

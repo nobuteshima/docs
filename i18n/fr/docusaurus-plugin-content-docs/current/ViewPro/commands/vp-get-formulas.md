@@ -29,7 +29,7 @@ La collection retournée est bidemensionnelle :
 
 Vous souhaitez récupérer les formules des colonnes Sum et Average de ce document :
 
-![](../../assets/en/ViewPro/cmd_vpGetFormulas.PNG)
+![](/assets/en/ViewPro/cmd_vpGetFormulas.PNG)
 
 Vous pouvez utiliser ce code :
 

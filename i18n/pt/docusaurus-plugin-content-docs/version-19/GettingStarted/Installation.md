@@ -23,11 +23,11 @@ Os produtos 4D são instalados desde o website de 4D:
 
 Quando tiver completado a instalação, pode iniciar 4D e entrar. Para fazer isso, clique duas vezes no ícone do produto 4D.
 
-![](../assets/en/getStart/logo4d.png)
+![](/assets/en/getStart/logo4d.png)
 
 Aparece então o Assistente de Boas-vindas:
 
-![](../assets/en/getStart/welcome2.png)
+![](/assets/en/getStart/welcome2.png)
 
 - Se quiser descobrir e explorar 4D, clique no link **free trial** . Digite seu ID (email ou conta 4D) e sua senha.
 

@@ -165,7 +165,7 @@ See example for [getting a list built upon an entity selection](#using-an-entity
 
 Esta base de datos se expone como un almacén de datos remoto en localhost (puerto 8111):
 
-![alt-text](../assets/en/REST/ordastructure.png)
+![alt-text](/assets/en/REST/ordastructure.png)
 
 ### Utilizar una función de clase de datastore
 

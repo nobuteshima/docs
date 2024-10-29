@@ -59,7 +59,7 @@ Quiere definir las partes blancas de una imagen como transparentes. Para ello, p
 
 Obtiene el siguiente resultado:
 
-![](../assets/en/commands/pict1359750.en.png)
+![](/assets/en/commands/pict1359750.en.png)
 
 #### Ejemplo 2 
 
@@ -69,7 +69,7 @@ Este es un ejemplo de corte de una imagen (la imagen se muestra en el formulario
  TRANSFORM PICTURE($vpEngranaje;Crop;50;50;100;100)
 ```
 
-![](../assets/en/commands/pict28288.es.png)
+![](/assets/en/commands/pict28288.es.png)
 
 #### Ver también 
 

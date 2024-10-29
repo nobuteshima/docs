@@ -103,11 +103,11 @@ Describe el tipo de línea punteada como una secuencia de puntos blancos y negro
 
 Controla la visualización de las líneas vacías adicionales añadidas en la parte inferior de un objeto list box. Por defecto, 4D añade esas líneas adicionales para llenar el área vacía:
 
-![](../assets/en/FormObjects/property_hideExtraBlankRows1.png)
+![](/assets/en/FormObjects/property_hideExtraBlankRows1.png)
 
 Puede eliminar estas líneas vacías seleccionando esta opción. La parte inferior del objeto del list box se deja vacía:
 
-![](../assets/en/FormObjects/property_hideExtraBlankRows2.png)
+![](/assets/en/FormObjects/property_hideExtraBlankRows2.png)
 
 #### Gramática JSON
 
@@ -177,7 +177,7 @@ Por ejemplo, dado un list box en el que las líneas tienen un color gris/gris cl
  <>_BgndColors{$i}:=-255 // valor por defecto
 ```
 
-![](../assets/en/FormObjects/listbox_styles1.png)
+![](/assets/en/FormObjects/listbox_styles1.png)
 
 A continuación, quiere colorear las celdas con valores negativos en naranja oscuro. Para ello, se define un array de colores de fondo para cada columna, por ejemplo `<>_BgndColor_1`, `<>_BgndColor_2` y `<>_BgndColor_3`. Los valores de estos arrays tienen prioridad sobre los definidos en las propiedades del list box, así como los del array de color de fondo general:
 
@@ -188,7 +188,7 @@ A continuación, quiere colorear las celdas con valores negativos en naranja osc
  <>_BgndColorsCol_1{16}:=0x00FF8000
 ```
 
-![](../assets/en/FormObjects/listbox_styles2.png)
+![](/assets/en/FormObjects/listbox_styles2.png)
 
 Puede obtener el mismo resultado utilizando los comandos [`LISTBOX SET ROW FONT STYLE`](https://doc.4d.com/4dv20/help/command/en/page1268.html) y [`LISTBOX SET ROW COLOR`](https://doc.4d.com/4dv20/help/command/en/page1270.html). Tienen la ventaja de permitirle omitir el tener que predefinir arrays de estilo/color para las columnas: en su lugar son creadas dinámicamente por los comandos.
 

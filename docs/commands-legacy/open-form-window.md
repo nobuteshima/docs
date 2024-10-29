@@ -127,7 +127,7 @@ The following example uses the path to a .json form to display the records in an
 
 which displays:
 
-![](../assets/en/commands/pict3687439.en.png)
+![](/assets/en/commands/pict3687439.en.png)
 
 #### See also 
 

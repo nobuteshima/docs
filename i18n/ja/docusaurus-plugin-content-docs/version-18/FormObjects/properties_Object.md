@@ -176,7 +176,7 @@ css ファイルにてクラスセレクターとして使用される、(複数
 
 リストボックスの種類を指定します。
 
-![](../assets/en/FormObjects/listbox_dataSource.png)
+![](/assets/en/FormObjects/listbox_dataSource.png)
 
 - **配列** (デフォルト): リストボックスの各行に 配列要素を割り当てます。
 - **カレントセレクション**: 指定したテーブルのカレントセレクションの各レコードごとに式、フィールド、メソッドが評価されます。
@@ -233,7 +233,7 @@ css ファイルにてクラスセレクターとして使用される、(複数
 
 \文字 (バックスラッシュまたは円マーク) を使用すると、ラベル内で強制的に改行することができます。
 
-![](../assets/en/FormObjects/property_title.png)
+![](/assets/en/FormObjects/property_title.png)
 
 ラベルに \ を表示したい場合は &#92;&#92; と入力します。
 

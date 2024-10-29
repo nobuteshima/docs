@@ -29,8 +29,8 @@ L'Administrateur ne peut pas :
 
 Par défaut, le Super_Utilisateur et l'Administrateur se trouvent dans toutes les bases. Dans la [boîte de dialogue de gestion des utilisateurs](#users-and-groups-editor), les icônes du Super_Utilisateur et de l’Administrateur ont des icônes respectivement rouge et verte :
 
-- Icône du Super_Utilisateur : ![](../assets/en/Users/iconDesigner.png)
-- Icône de l'Administrateur : ![](../assets/en/Users/iconAdmin.png)
+- Icône du Super_Utilisateur : ![](/assets/en/Users/iconDesigner.png)
+- Icône de l'Administrateur : ![](/assets/en/Users/iconAdmin.png)
 
 Vous pouvez renommer les utilisateurs Super_Utilisateur et Administrateur. Dans le langage, Super_Utilisateur porte toujours l'identifiant 1 et l'Administrateur l'identifiant 2.
 
@@ -40,7 +40,7 @@ Le Super_Utilisateur et l’Administrateur peuvent créer chacun 16 000 groupes 
 
 L'éditeur des utilisateurs se trouve dans la boîte à outils de 4D.
 
-![](../assets/en/Users/editor.png)
+![](/assets/en/Users/editor.png)
 
 ### Ajouter et modifier des utilisateurs
 
@@ -52,7 +52,7 @@ Pour ajouter un utilisateur depuis la boite à outils :
 
 La liste des utilisateurs affiche tous les utilisateurs, y compris [le Super_Utilisateur et l'l’Administrateur](#designer-and-administrator).
 
-2. Cliquez sur le bouton d’ajout ![](../assets/en/Users/PlussNew.png) situé au-dessous de la Liste des utilisateurs. OU Cliquez avec le bouton droit de la souris dans la Liste des utilisateurs et choisissez la commande **Ajouter** ou **Dupliquer** dans le menu contextuel.
+2. Cliquez sur le bouton d’ajout ![](/assets/en/Users/PlussNew.png) situé au-dessous de la Liste des utilisateurs. OU Cliquez avec le bouton droit de la souris dans la Liste des utilisateurs et choisissez la commande **Ajouter** ou **Dupliquer** dans le menu contextuel.
 
 > La commande **Dupliquer** permet de créer rapidement plusieurs utilisateurs ayant des caractéristiques communes.
 
@@ -70,7 +70,7 @@ L’appartenance des utilisateurs aux groupes peut également être définie par
 
 ### Supprimer un utilisateur
 
-Pour supprimer un utilisateur, sélectionnez-le puis cliquez sur le bouton de suppression ou utilisez la commande **Supprimer** du menu contextuel. ![](../assets/en/Users/MinussNew.png)
+Pour supprimer un utilisateur, sélectionnez-le puis cliquez sur le bouton de suppression ou utilisez la commande **Supprimer** du menu contextuel. ![](/assets/en/Users/MinussNew.png)
 
 Les utilisateurs supprimés n'apparaissent plus dans la liste de l'éditeur d'utilisateurs. A noter que les numéros des utilisateurs supprimés peuvent être réattribués lors de la création de nouveaux comptes.
 
@@ -94,7 +94,7 @@ Pour créer un groupe :
 
 1. Sélectionnez **Boîte à outils > Groupes** dans le menu **Développement** ou cliquez sur le bouton **Boîte outils** de la barre d’outils de 4D puis cliquez sur le bouton **Groupes**. 4D affiche la fenêtre d’édition des groupes. La liste des groupes affiche tous les groupes de la base.
 
-2. Cliquez sur le bouton ![](../assets/en/Users/PlussNew.png) situé en-dessous de la liste des groupes.  
+2. Cliquez sur le bouton ![](/assets/en/Users/PlussNew.png) situé en-dessous de la liste des groupes.  
    OU  
    Faites un clic droit sur la liste de groupes et sélectionnez la commande **Ajouter** ou **Dupliquer** dans le menu contextuel.
 
@@ -110,7 +110,7 @@ Vous pouvez placer tout utilisateur ou tout groupe dans un groupe et vous pouvez
 
 Pour placer un utilisateur ou un groupe dans un groupe, il suffit de sélectionner le groupe dans la liste puis de cocher l’option "Membre" pour chaque utilisateur ou groupe dans la zone d’attribution des membres :
 
-![](../assets/en/Users/groups.png)
+![](/assets/en/Users/groups.png)
 
 Si vous cochez le nom d’un utilisateur, l’utilisateur est ajouté au groupe. Si vous cochez un nom de groupe, tous les utilisateurs du groupe sont ajoutés au nouveau groupe. L’utilisateur ou le groupe affilié dispose alors des privilèges d’accès affectés au nouveau groupe.
 
@@ -128,7 +128,7 @@ Vous pouvez également contrôler l’utilisation du serveur Web et du serveur S
 
 La zone “Plug-ins” de la page Groupes de la boîte à outils liste tous les plug-ins chargés par l’application 4D. Pour affecter un groupe à un plug-in, il suffit de cocher l’option correspondante.
 
-![](../assets/en/Users/plugins.png)
+![](/assets/en/Users/plugins.png)
 
 Les lignes **4D Client Web Server** et **4D Client SOAP Server** permettent contrôler la possibilité de publication Web et SOAP (Web Services) de chaque 4D en mode distant. En effet, ces licences sont considérées par 4D Server comme des licences de plug-ins. Ainsi, comme pour un plug-in, vous pouvez restreindre le droit d’utiliser ces licences à un groupe d’utilisateurs spécifique.
 
@@ -140,11 +140,11 @@ Dans cet exemple, un utilisateur appartient à l’un des trois groupes définis
 
 Les groupes sont hiérarchisés afin que les privilèges soient correctement affectés aux utilisateurs de chacun des groupes.
 
-- Le groupe Direction générale ne contient que les utilisateurs de “haut niveau”. ![](../assets/en/Users/schema1.png)
+- Le groupe Direction générale ne contient que les utilisateurs de “haut niveau”. ![](/assets/en/Users/schema1.png)
 
-- Le groupe Dir. finance contient des utilisateurs de la maintenance des données ainsi que ceux de la direction générale. Les utilisateurs de la direction générale disposent donc également des privilèges du groupe Finances. ![](../assets/en/Users/schema2.png)
+- Le groupe Dir. finance contient des utilisateurs de la maintenance des données ainsi que ceux de la direction générale. Les utilisateurs de la direction générale disposent donc également des privilèges du groupe Finances. ![](/assets/en/Users/schema2.png)
 
-- Le groupe Comptabilité contient des opérateurs de saisie mais aussi les utilisateurs des groupes Dir. finance et donc Direction générale. ![](../assets/en/Users/schema3.png)
+- Le groupe Comptabilité contient des opérateurs de saisie mais aussi les utilisateurs des groupes Dir. finance et donc Direction générale. ![](/assets/en/Users/schema3.png)
 
 Vous pouvez ensuite décider des privilèges affectés à chaque groupe suivant le niveau de responsabilité des utilisateurs qu’il contient.
 

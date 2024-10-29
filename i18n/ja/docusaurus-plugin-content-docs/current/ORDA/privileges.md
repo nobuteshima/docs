@@ -15,7 +15,7 @@ Webユーザーまたは RESTユーザーがログインすると、そのセッ
 
 権限外のアクションをユーザーが実行しようとすると、権限エラーが生成されるか、あるいは読み取り権限がない属性の場合にはそのデータは送信されません。
 
-![schema](../assets/en/ORDA/privileges-schema.png)
+![schema](/assets/en/ORDA/privileges-schema.png)
 
 ### 参照
 

@@ -25,19 +25,19 @@ To implement the Table Wizard in your application, the developers are able to cr
 
 The user opens the Table Wizard dialog from the "Insert table"  menu item in 4D Write Pro interface toolbar and sidebar.
 
-![](../assets/en/WritePro/tablewizard-interface2.png)
+![](/assets/en/WritePro/tablewizard-interface2.png)
 
 From this interface, the user can select a template or a table from the first drop-down list and a theme from the second.
 
 ##### In Columns:
 
-![](../assets/en/WritePro/columns2.PNG) 
+![](/assets/en/WritePro/columns2.PNG) 
 
 Depending on the user's selection of a template or a table, the user can view the list of fields stored in the template (Blob and object types are automatically excluded). They can then select columns to display in the table by checking the box in front of the field name and order them by moving and dragging the fields list.
 
 ##### In Rows:
 
-![](../assets/en/WritePro/rows1.PNG)
+![](/assets/en/WritePro/rows1.PNG)
 
 In the Table Wizard, the user can also define the number of header rows and extra rows (0 to 5 each), set [break rows](https://doc.4d.com/4Dv20/4D/20/Handling-tables.200-6229469.en.html#6233076) (summary rows) above or below the data row, and choose to show/hide [carry-over rows](https://doc.4d.com/4Dv20/4D/20/Handling-tables.200-6229469.en.html#6236686).
 
@@ -45,7 +45,7 @@ In addition, the user has the possibility to choose the table's behavior when it
 
 ##### In Display:
 
-![](../assets/en/WritePro/display2.PNG)
+![](/assets/en/WritePro/display2.PNG)
 
 The user adjusts the zoom level according to their preference by selecting the desired option from a drop-down list, uses radio buttons to display formulas or data for clear presentation, and chooses to display a horizontal ruler using a checkbox.
 

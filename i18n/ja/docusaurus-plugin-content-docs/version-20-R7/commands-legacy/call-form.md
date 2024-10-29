@@ -85,7 +85,7 @@ displayed_sidebar: docs
 
 ランタイムでは次のような結果になります:
 
-![](../assets/en/commands/pict2896824.en.png)
+![](/assets/en/commands/pict2896824.en.png)
 
 **CALL FORM** コマンドを繰り返し実行することで、メッセージを追加していくことができます:
 
@@ -94,7 +94,7 @@ displayed_sidebar: docs
  CALL FORM(formRef2;"doAddMessage";Current process name;"Hello 2 Form 2")
 ```
 
-![](../assets/en/commands/pict2896833.en.png)
+![](/assets/en/commands/pict2896833.en.png)
 
 #### 参照 
 

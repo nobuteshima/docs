@@ -103,7 +103,7 @@ Ver ejemplo para [recibir una selección de entidades](#receiving-an-entity-sele
 
 Esta base de datos se expone como un almacén de datos remoto en localhost (puerto 8111):
 
-![alt-text](../assets/en/REST/ordastructure.png)
+![alt-text](/assets/en/REST/ordastructure.png)
 
 ### Utilizar una función de clase de datastore
 

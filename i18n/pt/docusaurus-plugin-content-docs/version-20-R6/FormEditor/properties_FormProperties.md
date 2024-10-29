@@ -72,10 +72,10 @@ O tipo de formulário, *ou seja*, seu destino, define as características que es
 Cada tabela de um banco de dados tem geralmente pelo menos duas formas de tabela. Uma para listar os registos no ecrã e a outra para visualizar um registo de cada vez (utilizada para a introdução de dados e modificações):
 
 - Formulário de saída - o *formulário de saída* ou *formulário de lista* exibe uma lista de registros, com uma única linha por registro. Os resultados das consultas são apresentados num formulário de saída e os usuários podem fazer duplo clique numa linha para visualizar o formulário de entrada para esse registo.
-  ![](../assets/en/FormObjects/formOutput.png)
+  ![](/assets/en/FormObjects/formOutput.png)
 
 - Formulário de entrada - utilizado para entrada de dados. Exibe um único registro por tela e, normalmente, tem botões para salvar e cancelar modificações no registro e para navegar de registro em registro (\*primeiro registro, último registro, registro anterior, próximo registro).
-  ![](../assets/en/FormObjects/formInput.png)
+  ![](/assets/en/FormObjects/formInput.png)
 
 Os tipos suportados dependem da categoria do formulário:
 

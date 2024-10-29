@@ -7,7 +7,7 @@ A tab control creates an object that lets the user choose among a set of virtual
 
 O seguinte formulário de várias páginas utiliza um objeto de controlo de pestanas:
 
-![](../assets/en/FormObjects/tabControl1.png)
+![](/assets/en/FormObjects/tabControl1.png)
 
 Para passar de uma tela para outra, o usuário simplesmente clica na guia correspondente.
 
@@ -17,7 +17,7 @@ Outra utilização do controlo de separadores consiste em controlar os dados apr
 
 Cada pestana pode apresentar etiquetas ou etiquetas e um pequeno ícone. Se incluir ícones, estes aparecem à esquerda de cada etiqueta. Aqui está um exemplo de um controlo de pestanas que utiliza ícones:
 
-![](../assets/en/FormObjects/tabControl2.png)
+![](/assets/en/FormObjects/tabControl2.png)
 
 When you create a tab control, 4D manages the spacing and placement of the tabs. You only need to supply the labels in the form of an array, or the icons and labels in the form of a hierarchical list.
 

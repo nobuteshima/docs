@@ -108,7 +108,7 @@ End if
 
 Vous souhaitez importer un fichier `.txt` qui utilise une virgule (",") comme délimiteur:
 
-![example-import-csv](../../assets/en/ViewPro/vp-import-document-csv.png)
+![example-import-csv](/assets/en/ViewPro/vp-import-document-csv.png)
 
 ```4d
 $params:=New object
@@ -117,7 +117,7 @@ VP IMPORT DOCUMENT("ViewProArea";"c:\\import\\my-file.txt";New object("csvOption
 ```
 
 Voici le résultat :
-![example-import-csv](../../assets/en/ViewPro/vp-import-document-csv-result.png)
+![example-import-csv](/assets/en/ViewPro/vp-import-document-csv-result.png)
 
 #### Voir également
 

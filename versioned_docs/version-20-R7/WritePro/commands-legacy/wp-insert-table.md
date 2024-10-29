@@ -64,7 +64,7 @@ In a blank document, you want to add a new table with 3 columns and 2 rows:
 
 Result:
 
-![](../../assets/en/WritePro/commands/pict3306926.en.png)
+![](/assets/en/WritePro/commands/pict3306926.en.png)
 
 #### See also 
 

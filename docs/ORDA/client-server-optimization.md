@@ -42,7 +42,7 @@ The optimization context is based upon the following implementations:
 
 * You can build optimization contexts manually using the [`dataStore.setRemoteContextInfo()`](../API/DataStoreClass.md#setremotecontextinfo) function (see [Preconfiguring contexts](#preconfiguring-contexts)).
 
-![](../assets/en/ORDA/cs-optimization-process.png)
+![](/assets/en/ORDA/cs-optimization-process.png)
 
 
 :::note Compatibility Note

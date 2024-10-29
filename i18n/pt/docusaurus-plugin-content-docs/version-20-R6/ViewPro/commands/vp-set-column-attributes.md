@@ -43,7 +43,7 @@ $properties:=New object("width";100;"header";"Hello World")
 VP SET COLUMN ATTRIBUTES($column;$properties)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSetColumnAttributes.PNG)
+![](/assets/en/ViewPro/cmd_vpSetColumnAttributes.PNG)
 
 #### Veja também
 

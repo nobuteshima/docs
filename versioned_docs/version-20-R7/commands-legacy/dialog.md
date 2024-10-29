@@ -27,7 +27,7 @@ This command is designed to work with customized and advanced user interfaces ba
 
 This command is typically called along with the [Open form window](open-form-window.md) to display sophisticated forms, as shown in the following example: 
 
-![](../assets/en/commands/pict3541609.en.png)
+![](/assets/en/commands/pict3541609.en.png)
 
 The **DIALOG** command can also be used instead of [ALERT](alert.md), [CONFIRM](confirm.md) or [Request](request.md) when the information to be presented or gathered is more complex than those commands can manage.
 
@@ -80,13 +80,13 @@ The following example can be used to create a tool palette:
 
 In a form displaying the record of a person, a "Check children" button opens a dialog to verify/modify the names and ages of their children:
 
-![](../assets/en/commands/pict3542015.en.png)
+![](/assets/en/commands/pict3542015.en.png)
 
 **Note:** The "Children" object field is represented only to show its structure for this example.
 
 In the verification form, you have assigned some [Form](form.md) object properties to variables:
 
-![](../assets/en/commands/pict3541682.en.png)
+![](/assets/en/commands/pict3541682.en.png)
 
 Here is the code for the "Check children" button:
 
@@ -120,7 +120,7 @@ Here is the code for the "Check children" button:
 
 The form displays information for each child:
 
-![](../assets/en/commands/pict3515152.en.png)
+![](/assets/en/commands/pict3515152.en.png)
 
 If values are edited and the OK button is clicked, the field is updated (the parent record must be saved afterwards). 
 
@@ -136,7 +136,7 @@ The following example uses the path to a .json form to display the records in an
 
 which displays:
 
-![](../assets/en/commands/pict3687439.en.png)
+![](/assets/en/commands/pict3687439.en.png)
 
 #### Example 4 
 
@@ -154,7 +154,7 @@ The following example uses a .json file as an object and modifies a few properti
 
 The altered form is displayed with the title, logo and border modified:
 
-![](../assets/en/commands/pict3688356.en.png)
+![](/assets/en/commands/pict3688356.en.png)
 
 #### System variables and sets 
 

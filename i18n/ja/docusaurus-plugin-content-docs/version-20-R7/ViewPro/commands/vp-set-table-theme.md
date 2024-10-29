@@ -46,7 +46,7 @@ VP SET TABLE THEME("ViewProArea"; "myTable"; $param)
 
 交互の列表示を設定します:
 
-![](../../assets/en/ViewPro/col-bandering.png)
+![](/assets/en/ViewPro/col-bandering.png)
 
 ```4d
 var $param : cs.ViewPro.TableTheme

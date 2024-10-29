@@ -23,7 +23,7 @@ In *rangeObj*, pass a range object containing a range of the rows whose size wil
 
 Les lignes suivantes n'affichent pas correctement le texte :
 
-![](../../assets/en/ViewPro/cmd_vpRowAutoFit1.PNG)
+![](/assets/en/ViewPro/cmd_vpRowAutoFit1.PNG)
 
 ```4d
  VP ROW AUTOFIT(VP Row("ViewProArea";1;2))
@@ -31,7 +31,7 @@ Les lignes suivantes n'affichent pas correctement le texte :
 
 Résultat:
 
-![](../../assets/en/ViewPro/cmd_vpRowAutoFit2.PNG)
+![](/assets/en/ViewPro/cmd_vpRowAutoFit2.PNG)
 
 #### Voir également
 

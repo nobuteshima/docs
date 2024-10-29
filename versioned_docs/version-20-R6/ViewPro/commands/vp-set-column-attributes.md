@@ -43,7 +43,7 @@ VP SET COLUMN ATTRIBUTES($column;$properties)
 ```
 
 
-![](../../assets/en/ViewPro/cmd_vpSetColumnAttributes.PNG)
+![](/assets/en/ViewPro/cmd_vpSetColumnAttributes.PNG)
 
 #### See also
 

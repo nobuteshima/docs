@@ -17,7 +17,7 @@ Sus archivos de documentación se escriben en la sintaxis Markdown (archivos .md
 
 La documentación se muestra en el área de vista previa (panel lateral derecho) del Explorador:
 
-![](../assets/en/Project/explorer_Doc.png)
+![](/assets/en/Project/explorer_Doc.png)
 
 También se puede exponer parcialmente como [consejos del editor de código](#viewing-documentation-in-the-code-editor).
 
@@ -71,7 +71,7 @@ Para ver la documentación en la ventana del Explorador:
 2. Seleccione el elemento documentado en la lista del Explorador.
 3. Haga clic en el botón **Documentation** situado debajo del área de vista previa.
 
-![](../assets/en/Project/comments-explo2.png)
+![](/assets/en/Project/comments-explo2.png)
 
 - Si no se ha encontrado ningún archivo de documentación para el elemento seleccionado, se muestra un botón **Crear** (ver más abajo).
 
@@ -86,7 +86,7 @@ Si no existe un archivo de documentación para el elemento seleccionado, puede:
 - haga clic en el botón **Crear** en el panel `Documentation` o,
 - elija la opción **Modificar la documentación...** en el menú contextual o el menú de opciones del Explorador.
 
-![](../assets/en/Project/comments-explo3.png)
+![](/assets/en/Project/comments-explo3.png)
 
 4D crea automáticamente un archivo .md con el nombre adecuado y una plantilla básica en la ubicación correspondiente y lo abre con su editor Markdown predeterminado.
 
@@ -96,7 +96,7 @@ Si ya existe un archivo de documentación para el elemento seleccionado, puede a
 
 El editor de código 4D muestra una parte de la documentación de un método en su consejo de ayuda.
 
-![](../assets/en/Project/codeEditor_Comments.png)
+![](/assets/en/Project/codeEditor_Comments.png)
 
 Si existe un archivo llamado `\&#060;MethodName&#062;.md` en la carpeta `\&#060;package&#062;/documentation`, el editor de código muestra (por prioridad):
 
@@ -115,7 +115,7 @@ Sin embargo, puede utilizar todas las [etiquetas Markdown soportadas](#supported
 
 Los nuevos archivos de documentación se crean con el siguiente contenido por defecto:
 
-![](../assets/en/Project/comments-explo4.png)
+![](/assets/en/Project/comments-explo4.png)
 
 | Línea                                               | Descripción                                                                                                                                                                                 |
 | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -216,6 +216,6 @@ C_LONGINT($size)
 $logo:=GetLogo(5)
 ```
 
-- Explorer view: ![](../assets/en/Project/explorer_Doc.png)
+- Explorer view: ![](/assets/en/Project/explorer_Doc.png)
 
-- Code editor view: ![](../assets/en/Project/comments-explo5.png)
+- Code editor view: ![](/assets/en/Project/comments-explo5.png)

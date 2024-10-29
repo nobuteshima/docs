@@ -42,7 +42,7 @@ O subformulário de página usa o formulário de entrada indicado pela proprieda
 
 The [variable](properties_Object.md#variable-or-expression) bound to a page subform lets you link the parent form and subform contexts to put the finishing touches on sophisticated interfaces. For example, imagine a subform representing a dynamic clock, inserted into a parent form containing an enterable variable of the Time type:
 
-![](../assets/en/FormObjects/subforms1.png)
+![](/assets/en/FormObjects/subforms1.png)
 
 Both objects (time variable and subform container) *have the same variable name*. In this case, when you open the parent form, 4D synchronizes both values automatically. Se o valor da variável é definido em vários locais, 4D usa o valor que foi carregado por último. It applies the following loading order: 1-Object methods of subform 2-Form method of subform 3-Object methods of parent form 4-Form method of parent form
 
@@ -54,7 +54,7 @@ Case 1: The value of the parent form variable is modified and this modification 
 
 Nesse caso, você deve usar o evento formulário On Bound Variable Change. This event must be selected in the subform properties; it is generated in the form method of the subform.
 
-![](../assets/en/FormObjects/subforms2.png)
+![](/assets/en/FormObjects/subforms2.png)
 
 O evento de formulário `On Bound Variable Change` é gerado:
 
@@ -71,7 +71,7 @@ In this case, from the subform, you must assign the object value to the variable
 
 Assigning the value to the variable generates the `On Data Change` form event in the object method of the parent subform container, which lets you perform any type of action. O evento deve ser selecionado nas propriedades do contêiner do subformulário.
 
-![](../assets/en/FormObjects/subforms3.png)
+![](/assets/en/FormObjects/subforms3.png)
 
 > If you "manually" move the hands of the clock, this also generates the `On Data Change` form event in the object method of the *clockValue* variable in the subform.
 
@@ -83,7 +83,7 @@ The object can be created automatically or be the parent container variable, if 
 
 For example, in your subform, field labels are stored in the bound object so that you can display different languages:
 
-![](../assets/en/FormObjects/subforms4.png)
+![](/assets/en/FormObjects/subforms4.png)
 
 You can modify the labels from the subform by assigning values to the *InvoiceAddress* object:
 
@@ -100,7 +100,7 @@ You can modify the labels from the subform by assigning values to the *InvoiceAd
  InvoiceAddress.Label:=$lang
 ```
 
-![](../assets/en/FormObjects/subforms5.png)
+![](/assets/en/FormObjects/subforms5.png)
 
 ### Programação entre formulários avançada
 
@@ -138,7 +138,7 @@ O comando `EXECUTE METHOD IN SUBFORM` permite que um formulário ou um de seus o
 
 Este mecanismo é ilustrado no diagrama seguinte:
 
-![](../assets/en/FormObjects/subforms6.png)
+![](/assets/en/FormObjects/subforms6.png)
 
 Para mais informações, consultar a descrição do comando `EXECUTE METHOD IN SUBFORM`.
 

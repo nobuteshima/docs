@@ -5,7 +5,7 @@ title: Entrada
 
 Las entradas le permiten añadir expresiones editables o no editables como [campos](Concepts/identifiers.md#fields) y [variables](Concepts/variables.md) de base de datos a sus formularios. Las entradas pueden manejar datos basados en caracteres (texto, fechas, números...) o imágenes:
 
-![](../assets/en/FormObjects/input.png)
+![](/assets/en/FormObjects/input.png)
 
 Las entradas pueden contener [expresiones asignables o no asignables](Concepts/quick-tour.md#assignable-vs-non-assignable-expressions).
 

@@ -13,9 +13,9 @@ The compilation is handled from your 4D application and is entirely automatic.
 
 1. Abra la ventana de compilación seleccionando el comando **Compilador...** en el menú **Diseño** o el botón **Compilador** de la barra de herramientas.
 
-   ![](../assets/en/Project/compilerWin1.png)
+   ![](/assets/en/Project/compilerWin1.png)
 
-   ![](../assets/en/Project/comp1.png)
+   ![](/assets/en/Project/comp1.png)
 
 > También puede lanzar directamente la compilación seleccionando el elemento de menú **Iniciar compilación** en el menú **Diseño**.
 
@@ -23,13 +23,13 @@ The compilation is handled from your 4D application and is entirely automatic.
 
 If no errors are detected, the actual compilation begins and the "Compilation successful" message is displayed at the bottom of the window when the compilation is completed:
 
-![](../assets/en/Project/success.png)
+![](/assets/en/Project/success.png)
 
 Puede inmediatamente [ejecutar su aplicación en modo compilado](#run-compiled) y ver lo rápido que es.
 
 If errors are detected, the process is stopped and the "Compilation failed" message is displayed. The information area of the window displays the method names and line numbers concerned in a hierarchical list:
 
-![](../assets/en/Project/compilerWin2.png)
+![](/assets/en/Project/compilerWin2.png)
 
 Double-click on each error detected to open the method or class concerned directly in the 4D method editor. The line containing the error is highlighted and the type of error is displayed in the syntax area of the window.
 
@@ -73,11 +73,11 @@ El botón **Borrar el código compilado** borra el código compilado del proyect
 
 Você pode alternar a exibição de [warnings](#warnings) na janela do Compilador clicando no botão **Mostrar/Esconder Warnings**:
 
-![](../assets/en/Project/compilerWin4.png)
+![](/assets/en/Project/compilerWin4.png)
 
 When this option is checked, the warnings (if any) are displayed in the window, after the other error types. Estas aparecem em itálico:
 
-![](../assets/en/Project/compilerWin5.png)
+![](/assets/en/Project/compilerWin5.png)
 
 Um duplo clique num aviso abre o método correspondente.
 
@@ -85,7 +85,7 @@ Um duplo clique num aviso abre o método correspondente.
 
 The "Compiler" tab of the Settings dialog box lets you set parameters related to project compilation. Puede abrir directamente esta página desde la [ventana del compilador](#compiler-window) haciendo clic en el botón **Parámetros del compilador**:
 
-![](../assets/en/Project/compilerWin6.png)
+![](/assets/en/Project/compilerWin6.png)
 
 ### Opções de compilação
 
@@ -158,7 +158,7 @@ Depending on circumstances and the programming style used, warnings may be more 
 
 ### Warnings tab
 
-![](../assets/en/Project/warnings-tab.png)
+![](/assets/en/Project/warnings-tab.png)
 
 This tab allows you to define which warnings should be displayed globally. From the list of all possible warnings with their types, their code and their localized label, ordered by warning code.
 

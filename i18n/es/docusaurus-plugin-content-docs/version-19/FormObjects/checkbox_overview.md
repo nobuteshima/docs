@@ -5,7 +5,7 @@ title: Casilla a seleccionar
 
 Una casilla de selección es un tipo de botón utilizado para introducir o mostrar datos binarios (verdadero-falso). Fundamentalmente, está marcado o desmarcado, pero se puede definir un [tercer estado](#three-states-check-box).
 
-![](../assets/en/FormObjects/checkbox.png)
+![](/assets/en/FormObjects/checkbox.png)
 
 Las casillas de selección se controlan por métodos o [acciones estándar](#using-a-standard-action). El método asociado a ella se ejecuta cuando se selecciona la casilla de selección. Como todos los botones, la variable de la casilla de selección se pone en 0 cuando se abre el formulario por primera vez.
 
@@ -24,7 +24,7 @@ Una parte o todas las casillas de selección de un formulario pueden estar marca
 
 Los objetos casilla de selección con el [estilo de botón](checkbox_overview.md#regular) [Normal](checkbox_overview.md#flat) y [Plano](properties_TextAndPicture.md#button-style) aceptan un tercer estado. Este tercer estado es un estado intermedio, que generalmente se utiliza para fines de visualización. Por ejemplo, permite indicar que una propiedad está presente en una selección de objetos, pero no en cada objeto de la selección.
 
-![](../assets/en/FormObjects/checkbox_3states.png)
+![](/assets/en/FormObjects/checkbox_3states.png)
 
 Para activar este tercer estado, debe seleccionar la propiedad [Tres estados](properties_Display.md#three-states).
 
@@ -84,7 +84,7 @@ Con la excepción de las [propiedades-disponibles](#supported-properties), mucho
 
 El estilo Clásico de botón casilla de selección corresponde a un sistema de casilla de selección estándar (*es decir, *, un rectángulo con un título descriptivo):
 
-![](../assets/en/FormObjects/checkbox_regular.png)
+![](/assets/en/FormObjects/checkbox_regular.png)
 
 #### Ejemplo JSON
 
@@ -106,7 +106,7 @@ El estilo Clásico de botón casilla de selección corresponde a un sistema de c
 
 El estilo plano del botón casilla de selección tiene una apariencia minimalista. La naturaleza gráfica del estilo Flat es especialmente útil para los formularios que se van a imprimir.
 
-![](../assets/en/FormObjects/checkbox_flat.png)
+![](/assets/en/FormObjects/checkbox_flat.png)
 
 #### Ejemplo JSON
 
@@ -131,7 +131,7 @@ El estilo del botón Barra de herramientas tiene un fondo transparente con un t�
 
 Ejemplo con estados seleccionado / no seleccionado / subrayado:
 
-![](../assets/en/FormObjects/checkbox_toolbar.png)
+![](/assets/en/FormObjects/checkbox_toolbar.png)
 
 #### Ejemplo JSON
 
@@ -157,7 +157,7 @@ El estilo de botón Bevel redondeado tiene un fondo gris claro con un título. S
 
 Ejemplo con estados seleccionado / no seleccionado / subrayado:
 
-![](../assets/en/FormObjects/checkbox_bevel.png)
+![](/assets/en/FormObjects/checkbox_bevel.png)
 
 #### Ejemplo JSON
 
@@ -183,7 +183,7 @@ El botón Bevel tiene un fondo gris claro con un título. Suele estar asociado a
 
 Ejemplo en macOS:
 
-  ![](../assets/en/FormObjects/checkbox_roundedbevel_mac.png)
+  ![](/assets/en/FormObjects/checkbox_roundedbevel_mac.png)
 
 > En Windows, el estilo de botón Bevel redondeado es idéntico al estilo de botón [Bevel](#bevel).
 
@@ -209,7 +209,7 @@ El estilo del botón casilla de selección OS X Gradient es casi idéntico al es
 
 El estilo del botón Gradient OS X tiene un fondo gris claro con un título y se puede mostrar como un botón de sistema de dos tonos en macOS. Suele estar asociado a una [imagen de 4 estados](properties_TextAndPicture.md#number-of-states).
 
-  ![](../assets/en/FormObjects/checkbox_osxgradient_mac.png)
+  ![](/assets/en/FormObjects/checkbox_osxgradient_mac.png)
 
 > En Windows, este estilo de botón casilla de selección es idéntico al estilo de botón [Bevel](#bevel).
 
@@ -237,11 +237,11 @@ Por defecto, el estilo del botón OS X Textured aparece como:
 
 - *Windows* - un botón sistema estándar con un fondo azul claro con un título en el centro.
 
-  ![](../assets/en/FormObjects/checkbox_osxtextured.png)
+  ![](/assets/en/FormObjects/checkbox_osxtextured.png)
 
 - *macOS* - un botón de sistema estándar. Su altura está predefinida: no es posible ampliarla o reducirla.
 
-  ![](../assets/en/FormObjects/checkbox_osxtextured_mac.png)
+  ![](/assets/en/FormObjects/checkbox_osxtextured_mac.png)
 
 #### Ejemplo JSON
 
@@ -265,11 +265,11 @@ Los colores (resaltado y fondo) de una casilla de selección con el estilo de bo
 
 - *Windows* - su fondo sólo aparece cuando el ratón pasa por encima. Ejemplo con estados seleccionado / no seleccionado / subrayado:
 
-  ![](../assets/en/FormObjects/checkbox_officexp.png)
+  ![](/assets/en/FormObjects/checkbox_officexp.png)
 
 - *macOS* - su fondo se muestra siempre. Ejemplo con estados seleccionado / no seleccionado:
 
-  ![](../assets/en/FormObjects/checkbox_officexp_mac.png)
+  ![](/assets/en/FormObjects/checkbox_officexp_mac.png)
 
 #### Ejemplo JSON
 
@@ -294,11 +294,11 @@ Este estilo de botón de casilla de selección se puede utilizar para añadir un
 
 - *Windows* - el icono se ve como un [+] o un [-]
 
-  ![](../assets/en/FormObjects/checkbox_collapse.png)
+  ![](/assets/en/FormObjects/checkbox_collapse.png)
 
 - *macOS* - se ve como un triángulo que apunta hacia la derecha o hacia abajo.
 
-  ![](../assets/en/FormObjects/checkbox_collapse_mac.png)
+  ![](/assets/en/FormObjects/checkbox_collapse_mac.png)
 
 #### Ejemplo JSON
 
@@ -320,11 +320,11 @@ En macOS y Windows, una casilla de selección con el estilo de botón "Divulgaci
 
 - *Windows*
 
- ![](../assets/en/FormObjects/checkbox_disclosure.png)
+ ![](/assets/en/FormObjects/checkbox_disclosure.png)
 
 - *macOS*
 
- ![](../assets/en/FormObjects/checkbox_disclosure_mac.png)
+ ![](/assets/en/FormObjects/checkbox_disclosure_mac.png)
 
 #### Ejemplo JSON
 

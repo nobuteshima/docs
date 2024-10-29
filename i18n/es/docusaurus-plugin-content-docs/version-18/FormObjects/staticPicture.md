@@ -7,7 +7,7 @@ title: Imagen estática
 
 Las imágenes estáticas son [objetos estáticos](formObjects_overview.md#active-and-static-objects) que pueden ser utilizados para varios propósitos en los formularios 4D, incluyendo la decoración, el fondo o la interfaz de usuario:
 
-![](../assets/en/FormObjects/StaticPict.png)
+![](/assets/en/FormObjects/StaticPict.png)
 
 Las imágenes estáticas se almacenan fuera de los formularios y se insertan por referencia. En el editor de formularios, los objetos imagen estáticos se crean mediante operaciones de copiar/pegar o arrastrar y soltar.
 

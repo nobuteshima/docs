@@ -36,7 +36,7 @@ displayed_sidebar: docs
 
 このコードは(Windows において)以下のようなアラートボックスを表示します:
 
-![](../assets/en/commands/pict4224938.en.png)
+![](/assets/en/commands/pict4224938.en.png)
 
 #### 例題 2 
 
@@ -48,7 +48,7 @@ displayed_sidebar: docs
 
 以下のようなアラートダイアログボックスを(Windows環境において)表示します:
 
-![](../assets/en/commands/pict4224959.en.png)
+![](/assets/en/commands/pict4224959.en.png)
 
 #### 例題 3 
 
@@ -60,7 +60,7 @@ displayed_sidebar: docs
 
 以下のようなアラートダイアログボックスが(Windows 環境において)表示されます:
 
-![](../assets/en/commands/pict4224968.en.png)
+![](/assets/en/commands/pict4224968.en.png)
 
 #### 参照 
 

@@ -26,7 +26,7 @@ El servidor web 4D crea automáticamente una página `index.html` por defecto en
 
 Se muestra la página de inicio por defecto:
 
-![](../assets/en/WebServer/defaultHomePage.png)
+![](/assets/en/WebServer/defaultHomePage.png)
 
 ### Mostrar Hello World
 
@@ -53,7 +53,7 @@ http://localhost/hello
 
 El servidor web gestiona la solicitud y la devuelve:
 
-![](../assets/en/WebServer/hello.png)
+![](/assets/en/WebServer/hello.png)
 
 ## Obtener datos de la base de datos
 
@@ -61,8 +61,8 @@ Ahora veremos lo sencillo que es obtener datos de la base. En primer lugar, crea
 
 Cree una base de datos básica con, por ejemplo, una sola tabla que contenga algunos registros:
 
-![](../assets/en/WebServer/hello2.png)
-![](../assets/en/WebServer/hello3.png)
+![](/assets/en/WebServer/hello2.png)
+![](/assets/en/WebServer/hello3.png)
 
 ### Mostrar datos en una página
 
@@ -90,7 +90,7 @@ http://localhost/friends.shtml
 
 Las páginas `.shtml` son procesadas automáticamente por el servidor web. Se devuelve la página llena de datos:
 
-![](../assets/en/WebServer/hello3bis.png)
+![](/assets/en/WebServer/hello3bis.png)
 
 ### Petición REST
 
@@ -98,7 +98,7 @@ Si no sólo queremos *visualizar* datos, sino *utilizarlos*, podemos utilizar OR
 
 1. Utilizaremos el servidor REST para acceder a los datos: vaya a la caja de diálogo **Parámetros**, seleccione **Web** > **Funcionalidades Web** y marque la opción **Exponer como servidor REST**.
 
-![](../assets/en/WebServer/hello5.png)
+![](/assets/en/WebServer/hello5.png)
 
 2. En su navegador, introduzca la siguiente URL:
 
@@ -193,7 +193,7 @@ La forma más sencilla y segura de registrar un usuario en el servidor web de 4D
 
 1. Cree una tabla con algunos campos, por ejemplo:
 
-![](../assets/en/WebServer/helloUsers.png)
+![](/assets/en/WebServer/helloUsers.png)
 
 2. Escriba y ejecute el siguiente código para crear un usuario:
 
@@ -255,7 +255,7 @@ End if
 
 3. Despliegue las propiedades del método haciendo clic en el botón **[i]** del editor de código, marque la opción `etiquetas 4D y URLs (4DACTION...)` y haga clic en **Aceptar**.
 
-![](../assets/en/WebServer/hello0.png)
+![](/assets/en/WebServer/hello0.png)
 
 4. En su navegador, introduzca la siguiente URL:
 
@@ -267,10 +267,10 @@ http://localhost/4DACTION/login/?userID=john@4d.com&password=123
 
 Entonces se registrará para la sesión:
 
-![](../assets/en/WebServer/login1.png)
+![](/assets/en/WebServer/login1.png)
 
 Las credenciales incorrectas serían rechazadas:
 
-![](../assets/en/WebServer/login2.png)
+![](/assets/en/WebServer/login2.png)
 
 Una vez que un usuario se registra, puede manejar la sesión asociada utilizando el método `WEB Get Current Session ID`. Ver la página [Sesiones de usuario](sessions.md).

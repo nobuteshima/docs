@@ -29,7 +29,7 @@ title: VP DELETE COLUMNS
 
 ユーザーが選択したカラムを削除します (以下の画像の B、C、D のカラムを削除します):
 
-![](../../assets/en/ViewPro/cmd_vpDeleteColumns.PNG)
+![](/assets/en/ViewPro/cmd_vpDeleteColumns.PNG)
 
 以下のコードを実行します:
 

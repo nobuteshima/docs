@@ -20,9 +20,9 @@ title: スタイルシート
 
 1. デザインメニューから **ツールボックス > スタイルシート** を選択するか、ツールバーの **ツールボックス** アイコンをクリックして **スタイル** ページを開きます。
 
- ![](../assets/en/FormEditor/stylesheets.png)
+ ![](/assets/en/FormEditor/stylesheets.png)
 
-2. 作成するスタイルシートを選択し、**作成** ボタン (または **編集** ボタン) をクリックします: ![](../assets/en/FormEditor/createButton.png)
+2. 作成するスタイルシートを選択し、**作成** ボタン (または **編集** ボタン) をクリックします: ![](/assets/en/FormEditor/createButton.png)
 
 3. 既定のテキストエディターでスタイルシートが開かれます。
 

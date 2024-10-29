@@ -39,7 +39,7 @@ Les dates ou les heures sont considérées comme un datetime et sont complétée
 
 Vous souhaitez lire les valeurs allant de C4 à G6 :
 
-![](../../assets/en/ViewPro/cmd_vpGetValues.PNG)
+![](/assets/en/ViewPro/cmd_vpGetValues.PNG)
 
 ```4d
 $result:=VP Get values(VP Cells("ViewProArea";2;3;5;3))

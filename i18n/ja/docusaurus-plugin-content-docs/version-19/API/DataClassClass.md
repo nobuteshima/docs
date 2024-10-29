@@ -78,7 +78,7 @@ $compCity:=ds.Company["city"] // Companyデータクラスの city属性を返�
 
 以下のストラクチャーを前提とします:
 
-![](../assets/en/API/dataclassAttribute.png)
+![](/assets/en/API/dataclassAttribute.png)
 
 ```4d
 var $firstnameAtt;$employerAtt;$employeesAtt : Object
@@ -102,7 +102,7 @@ var $firstnameAtt;$employerAtt;$employeesAtt : Object
 
 以下のテーブルプロパティを前提とします:
 
-![](../assets/en/API/dataclassAttribute2.png)
+![](/assets/en/API/dataclassAttribute2.png)
 
 ```4d
  var $sequenceNumberAtt : Object

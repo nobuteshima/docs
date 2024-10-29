@@ -55,7 +55,7 @@ Concatenação horizontal
  rectângulo+círculo //Coloca o círculo à direita do retângulo
 ```
 
-![](../assets/en/Concepts/concatHor.en.png) ![](../assets/en/Concepts/concatHor2.en.png)
+![](/assets/en/Concepts/concatHor.en.png) ![](/assets/en/Concepts/concatHor2.en.png)
 
 Concatenação vertical
 
@@ -64,7 +64,7 @@ Concatenação vertical
  retângulo/círculo //Coloca o círculo abaixo do retângulo
 ```
 
-![](../assets/en/Concepts/concatVer.en.png) ![](../assets/en/Concepts/concatVer2.en.png)
+![](/assets/en/Concepts/concatVer.en.png) ![](/assets/en/Concepts/concatVer2.en.png)
 
 Sobreposição exclusiva
 
@@ -72,7 +72,7 @@ Sobreposição exclusiva
 Pict3:=Pict1 & Pict2 // Superimpõe Pict2 no topo da Pict1
 ```
 
-![](../assets/en/Concepts/superimpoExc.fr.png)
+![](/assets/en/Concepts/superimpoExc.fr.png)
 
 Sobreposição inclusiva
 
@@ -80,7 +80,7 @@ Sobreposição inclusiva
 Pict3:=Pict1|Pict2 // Recupera a máscara resultante da sobreposição de duas imagens do mesmo tamanho
 ```
 
-![](../assets/en/Concepts/superimpoInc.fr.png)
+![](/assets/en/Concepts/superimpoInc.fr.png)
 
 Movimento horizontal
 
@@ -89,7 +89,7 @@ retângulo+50 //Mova o retângulo 50 pixels para a direita
 retângulo-50 //Mova o retângulo 50 pixels para a esquerda
 ```
 
-![](../assets/en/Concepts/hormove.en.png)
+![](/assets/en/Concepts/hormove.en.png)
 
 Movimento vertical
 
@@ -98,7 +98,7 @@ retângulo/50 //Mova o retângulo para baixo em 50 pixels
 retângulo/-20 //Mova o retângulo para cima em 20 pixels
 ```
 
-![](../assets/en/Concepts/vertmove.en.png)![](../assets/en/Concepts/vertmove2.en.png)
+![](/assets/en/Concepts/vertmove.en.png)![](/assets/en/Concepts/vertmove2.en.png)
 
 Redimensionar
 
@@ -107,7 +107,7 @@ retângulo*1,5 ///O retângulo fica 50% maior
 retângulo*0,5 ///O retângulo fica 50% menor
 ```
 
-![](../assets/en/Concepts/resize.en.png)![](../assets/en/Concepts/resisze2.en.png)
+![](/assets/en/Concepts/resize.en.png)![](/assets/en/Concepts/resisze2.en.png)
 
 Escala horizontal
 
@@ -116,7 +116,7 @@ círculo*+3 ///O círculo se torna 3 vezes maior
 círculo*+0.25 ///A largura do círculo se torna um quarto da que era
 ```
 
-![](../assets/en/Concepts/Horscaling.en.png)![](../assets/en/Concepts/Horscaling2.en.png)
+![](/assets/en/Concepts/Horscaling.en.png)![](/assets/en/Concepts/Horscaling2.en.png)
 
 Escala vertical
 
@@ -125,4 +125,4 @@ círculo*|2 //O círculo torna-se duas vezes mais alto
 círculo*|0.25 //A altura do círculo torna-se um quarto do que era
 ```
 
-![](../assets/en/Concepts/vertscaling.en.png)![](../assets/en/Concepts/veticalscaling2.en.png)
+![](/assets/en/Concepts/vertscaling.en.png)![](/assets/en/Concepts/veticalscaling2.en.png)

@@ -23,7 +23,7 @@ El `localID` es local a la máquina que se conecta al datastore remoto, lo que s
 
 Estes princípios são ilustrados nos gráficos seguintes:
 
-![](../assets/en/ORDA/sessions.png)
+![](/assets/en/ORDA/sessions.png)
 
 ### Visionamento de sessões
 
@@ -35,7 +35,7 @@ Os processos que gerenciam sessões para acesso ao armazenamento de dados são m
 
 No exemplo a seguir, dois processos estão sendo executados na mesma sessão:
 
-![](../assets/en/ORDA/sessionAdmin.png)
+![](/assets/en/ORDA/sessionAdmin.png)
 
 ## Fechamento das sessões
 

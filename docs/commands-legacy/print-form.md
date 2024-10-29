@@ -161,7 +161,7 @@ Refer to the example of the [SET PRINT MARKER](set-print-marker.md) command.
 
 This form is used as dialog, then printed with modifications:
 
-![](../assets/en/commands/pict6264975.en.png)
+![](/assets/en/commands/pict6264975.en.png)
 
 The form method:
 

@@ -147,7 +147,7 @@ Webサーバーのデフォルトホームページを指定します。 この�
 
 Webサーバーの初回起動時には、4D はデフォルトで "index.html" という名前のホームページを作成し、HTMLルートフォルダーに置きます。 この設定を変更しない場合、Webサーバーに接続するブラウザーには以下のようなページが表示されます:
 
-![](../assets/en/WebServer/defaultHomePage.png)
+![](/assets/en/WebServer/defaultHomePage.png)
 
 デフォルトホームページを変更するには、パスを "デフォルトホームページ" エリアに入力します。
 

@@ -47,7 +47,7 @@ $panesObj:=VP Get frozen panes("ViewProArea")
 
 O objeto devolvido contém, por exemplo:
 
-![](../../assets/en/ViewPro/cmd_vpGetFrozenpanes.PNG)
+![](/assets/en/ViewPro/cmd_vpGetFrozenpanes.PNG)
 
 #### Veja também
 

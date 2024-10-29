@@ -74,7 +74,7 @@ SET DATABASE PARAMETER(Client Log Recording;1)
 
 リクエストフロー:
 
-![](../assets/en/Admin/logRequestFlow.PNG)
+![](/assets/en/Admin/logRequestFlow.PNG)
 
 ## 4DRequestsLog_ProcessInfo.txt
 

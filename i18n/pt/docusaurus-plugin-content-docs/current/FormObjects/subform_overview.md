@@ -50,7 +50,7 @@ Por padrão, 4D cria uma variável ou expressão de [tipo de objeto](properties_
 
 A vinculação da mesma variável ou expressão ao contêiner do subformulário e a outros objetos do formulário pai permite vincular os contextos do formulário pai e do subformulário para dar os toques finais em interfaces sofisticadas. Imagine um subformulário que contém um relógio que exibe uma hora estática, inserido em um formulário pai que contém uma[ área de entrada](input_overview.md):
 
-![](../assets/en/FormObjects/subforms1.png)
+![](/assets/en/FormObjects/subforms1.png)
 
 No formulário pai, ambos os objetos (área de entrada e contêiner de subformulário) **possuem o mesmo valor que _Variável ou Expressão_**. Pode ser uma variável (ex: `parisTime`), ou uma expressão (ex: `Form.parisTime`).
 
@@ -84,7 +84,7 @@ End if
 
 Actualiza el valor de `Form.clockValue` en el subformulario:
 
-![](../assets/en/FormObjects/update-subform.png)
+![](/assets/en/FormObjects/update-subform.png)
 
 Se genera el evento formulario [On Bound Variable Change](../Events/onBoundVariableChange.md):
 
@@ -113,7 +113,7 @@ If (Form event code=On Data Change) //whatever the way the value is changed
 End if
 ```
 
-![](../assets/en/FormObjects/update-main-form.png)
+![](/assets/en/FormObjects/update-main-form.png)
 
 Cada vez que cambia el valor de `Form.clockValue` en el subformulario, también se actualiza `parisTime` o `Form.parisTime` en el contenedor del subformulario.
 
@@ -127,11 +127,11 @@ Cuando se asocia al contenedor del subformulario, este objeto es devuelto por el
 
 Por ejemplo, en un subformulario, las entradas están vinculadas a las propiedades del objeto `Form` (del formulario del subformulario):
 
-![](../assets/en/FormObjects/subnew1.png)
+![](/assets/en/FormObjects/subnew1.png)
 
 No formulário pai, o subformulário é apresentado duas vezes. Cada contenedor de subformulario está asociado a una expresión que es una propiedad del objeto `Form` (del formulario padre):
 
-![](../assets/en/FormObjects/subnew2.png)
+![](/assets/en/FormObjects/subnew2.png)
 
 El botón sólo crea las propiedades `mother` y `father` en el objeto `Form` del padre:
 
@@ -143,12 +143,12 @@ Form.father:=New object("lastname"; "Golf"; "firstname"; "Félix")
 
 Quando você executa o formulário e clica no botão, você vê que todos os valores são exibidos corretamente:
 
-![](../assets/en/FormObjects/subnew3.png)
+![](/assets/en/FormObjects/subnew3.png)
 
 Se você modificar um valor tanto no formulário principal quanto no subformulário, ele será automaticamente atualizado no outro formulário porque o mesmo objeto é utilizado:
 
-![](../assets/en/FormObjects/subnew4.png)
-![](../assets/en/FormObjects/subnew5.png)
+![](/assets/en/FormObjects/subnew4.png)
+![](/assets/en/FormObjects/subnew5.png)
 
 ### Utilização de ponteiros (compatibilidade)
 
@@ -189,7 +189,7 @@ El comando `EXECUTE METHOD IN SUBFORM` permite que un formulario o uno de sus ob
 
 Este mecanismo é ilustrado no diagrama seguinte:
 
-![](../assets/en/FormObjects/subforms6.png)
+![](/assets/en/FormObjects/subforms6.png)
 
 Para más información, consulte la descripción del comando `EXECUTE METHOD IN SUBFORM`.
 

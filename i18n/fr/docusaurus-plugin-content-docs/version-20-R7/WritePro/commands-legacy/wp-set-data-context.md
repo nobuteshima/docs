@@ -65,7 +65,7 @@ Insérez un objet dans le contexte d'un document 4D Write Pro et affichez ses in
 
 Le résultat est le suivant :
 
-![](../../assets/en/WritePro/commands/pict5867255.en.png)
+![](/assets/en/WritePro/commands/pict5867255.en.png)
 
 #### Exemple 2 
 
@@ -73,7 +73,7 @@ Lorsque vous travaillez sur un modèle de document, vous pouvez y associer un co
 
 Lorsque le modèle est chargé et que le contexte de données est défini, un modèle de lettre peut avoir cet aperçu :
 
-![](../../assets/en/WritePro/commands/pict5867835.en.png)
+![](/assets/en/WritePro/commands/pict5867835.en.png)
 
 L'exemple suivant fait une boucle à travers une *entity selection* et crée un aperçu avant impression pour chaque *entity* :
 

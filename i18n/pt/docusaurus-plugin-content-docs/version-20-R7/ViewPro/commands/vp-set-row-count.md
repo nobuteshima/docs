@@ -35,7 +35,7 @@ O código seguinte define cinco linhas na área 4D View Pro:
 VP SET ROW COUNT("ViewProArea";5)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSetRowCount.PNG)
+![](/assets/en/ViewPro/cmd_vpSetRowCount.PNG)
 
 #### Veja também
 

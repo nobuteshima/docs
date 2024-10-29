@@ -8,7 +8,7 @@ La page Analyse d'activités du CSM permet de visualiser le contenu du fichier d
 
 > Il est également possible de revenir en arrière parmi les opérations effectuées sur les données de la base. Pour plus d'informations, reportez-vous à la [page Retour arrière](rollback.md).
 
-![](../assets/en/MSC/MSC_analysis.png)
+![](/assets/en/MSC/MSC_analysis.png)
 
 Chaque opération élémentaire enregistrée dans le fichier d’historique apparaît sous forme d’une ligne. Les colonnes fournissent diverses informations concernant l’opération. Vous pouvez réorganiser les colonnes comme vous le souhaitez en cliquant sur leur en-tête.
 

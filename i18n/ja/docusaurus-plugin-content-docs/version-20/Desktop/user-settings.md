@@ -20,13 +20,13 @@ title: ユーザー設定
 
 以下の設定の場合を考えてみましょう。とあるアプリケーションが複製され、それぞれで異なる設定 (ポートID) を使用します。 このユーザー設定がデータファイルとリンクしていた場合、ポートID を手動で変えることななくアプリケーションをアップデートすることができます:
 
-![](../assets/en/settings/user-settings-config.png)
+![](/assets/en/settings/user-settings-config.png)
 
 ## ユーザー設定の有効化
 
 ユーザー設定を有効にするには、**設定** ＞ **セキュリティ** ＞ **外部ファイルのユーザー設定を有効にする** オプションを選択します:
 
-![](../assets/en/settings/user-settings-enable.png)
+![](/assets/en/settings/user-settings-enable.png)
 
 このオプションをチェックすると、設定が 3つのダイアログに分けられます:
 
@@ -36,7 +36,7 @@ title: ユーザー設定
 
 これらのダイアログボックスは、**デザイン ＞ 設定** メニュー、あるいはツールバーの **設定** ボタンからアクセスできます:
 
-![](../assets/en/settings/user-settings-dialog.png)
+![](/assets/en/settings/user-settings-dialog.png)
 
 これらのダイアログボックスは、[OPEN SETTINGS WINDOW](https://doc.4d.com/4dv19R/help/command/ja/page903.html) コマンドに適切な *settingsType* セレクターを渡して使用することでもアクセスできます。
 
@@ -46,7 +46,7 @@ title: ユーザー設定
 
 **ユーザー設定** と **データファイル用のユーザー設定** ダイアログボックスには、すべてのデータファイルまたは 1つのデータファイルに対して定義できる関連プロパティが含まれています:
 
-![](../assets/en/settings/user-settings-2.png)
+![](/assets/en/settings/user-settings-2.png)
 
 **ユーザー設定** および **データファイル用のユーザー設定** ダイアログボックスに含まれる設定ページのリストと、標準設定との主な違いを以下の表にまとめます:
 

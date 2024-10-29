@@ -7,7 +7,7 @@ sidebar_label: Página Análisis de actividades
 La página Análisis de actividades permite ver el contenido del archivo de registro actual. Esta función es útil para analizar el uso de una base de datos o detectar la(s) operación(es) que ha(n) causado errores o mal funcionamiento. En el caso de una base de datos en modo cliente-servidor, permite verificar las operaciones realizadas por cada máquina cliente.
 > También es posible revertir las operaciones realizadas sobre los datos de la base. Para más información, consulte [Página de retroceso](rollback.md).
 
-![](../assets/en/MSC/MSC_analysis.png)
+![](/assets/en/MSC/MSC_analysis.png)
 
 Cada operación registrada en el archivo de registro aparece como una línea. Las columnas ofrecen información variada sobre la operación. Puede reorganizar las columnas como desee haciendo clic en sus encabezados.
 

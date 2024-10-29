@@ -80,7 +80,7 @@ Dado que los componentes pueden instalarse de distintas formas, se aplica un ord
 
 **Prioridad más baja**
 
-![priority](../assets/en/Project/load-sequence.png)
+![priority](/assets/en/Project/load-sequence.png)
 
 Cuando un componente no puede cargarse debido a otra instancia del mismo componente situada en un nivel de prioridad superior, recibe el [estado] *Overloaded* (#estado de dependencia). El componente cargado tiene el [estado](#dependency-status) *Overloading*.
 
@@ -285,20 +285,20 @@ En un proyecto abierto, puede obtener información sobre las dependencias y su e
 Para mostrar el panel Dependencias:
 
 - con 4D, seleccione el ítem de menú **Diseño/Dependencias del Proyecto** (entorno de desarrollo),<br/>
-  ![dependency-menu](../assets/en/Project/dependency-menu.png)
+  ![dependency-menu](/assets/en/Project/dependency-menu.png)
 
 - con 4D Server, seleccione el ítem de menú **Ventana/Dependencias del Proyecto**.<br/>
-  ![dependency-menu-server](../assets/en/Project/dependency-menu-server.png)
+  ![dependency-menu-server](/assets/en/Project/dependency-menu-server.png)
 
 A continuación se muestra el panel Dependencias. Las dependencias se ordenan por nombre en orden alfabético:
 
-![dependency](../assets/en/Project/dependency.png)
+![dependency](/assets/en/Project/dependency.png)
 
 ### Origen de dependencia
 
 El panel Dependencias enumera todas las dependencias del proyecto, sea cual sea su origen, es decir, de dónde procedan. El origen de la dependencia lo suministra la etiqueta bajo su nombre:
 
-![dependency-origin](../assets/en/Project/dependency-origin.png)
+![dependency-origin](/assets/en/Project/dependency-origin.png)
 
 Las siguientes opciones de origen son posibles:
 
@@ -311,7 +311,7 @@ Las siguientes opciones de origen son posibles:
 
 **Clic derecho** en una línea de dependencia y selecciona **Mostrar en el disco** para revelar la ubicación de una dependencia:
 
-![dependency-show](../assets/en/Project/dependency-show.png)
+![dependency-show](/assets/en/Project/dependency-show.png)
 
 :::note
 
@@ -324,13 +324,13 @@ El icono del componente y el logotipo de ubicación ofrecen información adicion
 - El logotipo del componente indica si es suministrado por 4D o por un desarrollador externo.
 - Los componentes locales se pueden diferenciar de los componentes GitHub por un pequeño icono.
 
-![dependency-origin](../assets/en/Project/dependency-github.png)
+![dependency-origin](/assets/en/Project/dependency-github.png)
 
 ### Filtrado de dependencias
 
 Por defecto, se listan todas las dependencias identificadas por el gestor de dependencias, sea cual sea su [estado](#dependency-status). Puede filtrar las dependencias mostradas según su estado seleccionando la pestaña correspondiente en la parte superior del panel Dependencias:
 
-![dependency-tabs](../assets/en/Project/dependency-tabs.png)
+![dependency-tabs](/assets/en/Project/dependency-tabs.png)
 
 - **Activo**: dependencias que están cargadas y pueden ser utilizadas en el proyecto. Incluye dependencias *overloading*, las cuales son realmente cargadas. Las dependencias *Overloaded* se enumeran en el panel **Conflicts** junto con todas las dependencias en conflicto.
 - **Inactivo**: dependencias que no están cargadas en el proyecto y no están disponibles. Hay muchas razones posibles para este estado: archivos que faltan, incompatibilidad de versiones...
@@ -340,7 +340,7 @@ Por defecto, se listan todas las dependencias identificadas por el gestor de dep
 
 Las dependencias que requieren la atención del desarrollador se indican mediante una **etiqueta de estado** a la derecha de la línea y un color de fondo específico:
 
-![dependency-status](../assets/en/Project/dependency-conflict2.png)
+![dependency-status](/assets/en/Project/dependency-conflict2.png)
 
 Las siguientes etiquetas de estado están disponibles:
 
@@ -352,4 +352,4 @@ Las siguientes etiquetas de estado están disponibles:
 
 Al pasar el ratón por encima de la línea de dependencia, se muestra un mensaje que ofrece información adicional sobre el estado:
 
-![dependency-tips](../assets/en/Project/dependency-tip1.png)
+![dependency-tips](/assets/en/Project/dependency-tip1.png)

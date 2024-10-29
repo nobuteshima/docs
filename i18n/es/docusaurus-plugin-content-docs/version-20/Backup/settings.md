@@ -19,7 +19,7 @@ Si esta aplicación no se inició en el momento teórico de la copia de segurida
 
 Los parámetros de copia de seguridad periódicos se definen en la página **Backup/Periodicidad** de las Propiedades:
 
-![](../assets/en/Backup/backup02.png)
+![](/assets/en/Backup/backup02.png)
 
 Las opciones que se encuentran en esta pestaña le permiten establecer y configurar las copias de seguridad periódicas automáticas de la aplicación. Puede elegir una configuración rápida estándar o puede personalizarla completamente. Aparecen varias opciones en función de la elección realizada en el menú **Copia de seguridad automática**:
 
@@ -41,7 +41,7 @@ Las opciones que se encuentran en esta pestaña le permiten establecer y configu
 
 La página Copia de seguridad/Configuración de las Propiedades permite designar los archivos de copia de seguridad y su ubicación, así como la del archivo de historial. Estos parámetros son específicos de cada aplicación abierta por 4D o 4D Server.
 
-![](../assets/en/Backup/backup03.png)
+![](/assets/en/Backup/backup03.png)
 
 > **4D Server:** estos parámetros sólo se pueden configurar desde la máquina 4D Server.
 
@@ -80,7 +80,7 @@ Por defecto, todo proyecto creado con 4D utiliza un archivo de historial (opció
 
 La modificación de las opciones de copia de seguridad y restauración es opcional. Sus valores por defecto corresponden a un uso estándar de la función.
 
-![](../assets/en/Backup/backup04.png)
+![](/assets/en/Backup/backup04.png)
 
 ### Parámetros generales
 

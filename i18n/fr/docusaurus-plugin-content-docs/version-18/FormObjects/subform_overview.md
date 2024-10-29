@@ -42,7 +42,7 @@ Le sous-formulaire en page utilise le formulaire entrée désigné par la propri
 
 La [variable](properties_Object.md#variable-or-expression) liée au sous-formulaire permet de relier les deux contextes (formulaire et sous-formulaire) pour mettre au point des interfaces sophistiquées. Imaginons par exemple un sous-formulaire représentant une pendule dynamique, inséré dans un formulaire parent contenant une variable saisissable de type heure :
 
-![](../assets/en/FormObjects/subforms1.png)
+![](/assets/en/FormObjects/subforms1.png)
 
 Les deux objets (variable heure et conteneur du sous-formulaire) *ont le même nom de variable*. Dans ce cas, à l’ouverture du formulaire parent, les deux valeurs sont automatiquement synchronisées par 4D. Si la valeur de la variable est définie à plusieurs emplacements, la valeur utilisée sera celle qui aura été chargée en dernier lieu. It applies the following loading order: 1-Object methods of subform 2-Form method of subform 3-Object methods of parent form 4-Form method of parent form
 
@@ -54,7 +54,7 @@ Scénario 1 : La valeur de la variable du formulaire parent est modifiée et cet
 
 Dans ce cas, vous devez utiliser l'événement formulaire Sur modif variable liée. Cet événement doit être coché dans les propriétés du sous-formulaire, il sera généré dans la méthode formulaire du sous-formulaire.
 
-![](../assets/en/FormObjects/subforms2.png)
+![](/assets/en/FormObjects/subforms2.png)
 
 L’événement formulaire `Sur modif variable liée` est généré :
 
@@ -71,7 +71,7 @@ Dans ce cas, vous devez affecter la valeur de l’objet à la variable du conten
 
 Cette affectation génère l’événement formulaire `Sur données modifiées` dans la méthode de l’objet conteneur du sous-formulaire parent, ce qui vous permet d’effectuer tout type d’action. L’événement doit être coché dans les propriétés du conteneur de sous-formulaire.
 
-![](../assets/en/FormObjects/subforms3.png)
+![](/assets/en/FormObjects/subforms3.png)
 
 > Si vous déplacez "manuellement" les aiguilles, cela génère également l’événement formulaire `Sur données modifiées` de l'événement formulaire dans la méthode objet de la variable *clockValue* du sous-formulaire.
 
@@ -83,7 +83,7 @@ L'objet peut être créé automatiquement ou être la variable du conteneur pare
 
 Par exemple, dans votre sous-formulaire, les libellés des champs sont stockés dans l'objet associé afin de vous permettre d'afficher différentes langues :
 
-![](../assets/en/FormObjects/subforms4.png)
+![](/assets/en/FormObjects/subforms4.png)
 
 Vous pouvez modifier les libellés depuis le sous-formulaire en affectant des valeurs à l'objet *InvoiceAddress* :
 
@@ -100,7 +100,7 @@ Vous pouvez modifier les libellés depuis le sous-formulaire en affectant des va
  InvoiceAddress.Label:=$lang
 ```
 
-![](../assets/en/FormObjects/subforms5.png)
+![](/assets/en/FormObjects/subforms5.png)
 
 ### Programmation inter-formulaires avancée
 
@@ -138,7 +138,7 @@ La commande `EXECUTE METHOD IN SUBFORM` permet à un formulaire ou à l’un de 
 
 Ce mécanisme est illustré dans le schéma suivant :
 
-![](../assets/en/FormObjects/subforms6.png)
+![](/assets/en/FormObjects/subforms6.png)
 
 Pour plus d'informations, reportez-vous à la description de la commande `EXECUTE METHOD IN SUBFORM`.
 

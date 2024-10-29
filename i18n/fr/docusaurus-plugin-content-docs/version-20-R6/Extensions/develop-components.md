@@ -68,13 +68,13 @@ Toutes les méthodes projet d’un projet utilisé comme matrice sont par défin
 
 En revanche, par défaut ces méthodes projet ne seront ni visibles ni appelables par le projet hôte. Dans le projet matrice, vous devez désigner explicitement les méthodes que vous souhaitez partager avec le projet hôte et ses composants en cochant la case **Partagée entre composants et projet hôte** dans la boîte de dialogue des propriétés de la méthode :
 
-![](../assets/en/Concepts/shared-methods.png)
+![](/assets/en/Concepts/shared-methods.png)
 
 Les méthodes projet partagée peuvent être appelées dans le code du projet hôte (mais elles ne peuvent pas être modifiées dans l'éditeur de code du projet hôte). Ces méthodes constituent les **points d’entrée** du composant.
 
 A l’inverse, pour des raisons de sécurité, par défaut un composant ne peut pas exécuter de méthode projet appartenant au projet hôte. Dans certains cas, vous pourrez avoir besoin d’autoriser un composant à accéder à des méthodes projet de votre projet hôte. Pour ce faire, vous devez explicitement désigner les méthodes projet du projet hôte que vous souhaitez rendre accessibles aux composants (dans les propriétés de la méthode, cochez la case **Partagée entre composants et projet hôte**).
 
-![](../assets/en/Concepts/pict516563.en.png)
+![](/assets/en/Concepts/pict516563.en.png)
 
 Une fois que les méthodes projet des projets hôtes sont disponibles pour les composants, vous pouvez exécuter une méthode du projet hôte à partir d'un composant en utilisant la commande [`EXECUTE FORMULA`](https://doc.4d.com/4dv20/help/command/en/page63.html) ou la commande [`EXECUTE METHOD`](https://doc.4d.com/4dv20/help/command/en/page1007.html). Par exemple :
 
@@ -100,7 +100,7 @@ Par défaut, les classes de composants ne peuvent pas être appelées à partir 
 
 Pour permettre aux classes de votre composant d'être exposées dans les projets hôtes et leurs composants chargés, saisissez une valeur dans l'option [**namespace du composant dans le class store** de la page Général](../settings/general.md#component-namespace-in-the-class-store) des paramètres du projet matrice. Par défaut, l'espace est vide : les classes du composant ne sont pas disponibles en dehors du contexte du composant.
 
-![](../assets/en/settings/namespace.png)
+![](/assets/en/settings/namespace.png)
 
 :::note
 
@@ -121,7 +121,7 @@ $area:=$rect.getArea()
 
 Le namespace d'un composant [compilé](#protection-of-components-compilation) est ajouté entre parenthèses après le nom du composant dans la [page Méthodes composant](../Concepts/components.md#utiliserlescomposants) des projets hôtes :
 
-![](../assets/en/settings/namesapece-explorer.png)
+![](/assets/en/settings/namesapece-explorer.png)
 
 :::
 
@@ -147,8 +147,8 @@ Pour rendre votre composant plus facile à utiliser pour les développeurs, vous
 
 Un fichier de syntaxe (format JSON) est alors automatiquement créé lors de la phase de compilation, rempli avec la syntaxe des classes, fonctions et [méthodes exposées](#sharing-of-project-methods) de votre composant, et placé dans le dossier `\Resources\en.lproj` du projet du composant. 4D utilise le contenu de ce fichier syntaxique pour générer une aide contextuelle dans l'éditeur de code, telle que la complétion de code et la syntaxe des fonctions :
 
-![](../assets/en/settings/syntax-code-completion-2.png)
-![](../assets/en/settings/syntax-code-completion-1.png)
+![](/assets/en/settings/syntax-code-completion-2.png)
+![](/assets/en/settings/syntax-code-completion-1.png)
 
 Si vous ne saisissez pas de [namespace](#declaring-the-component-namespace), les ressources des classes et des méthodes 'exposed' ne sont pas générées, même si l'option de fichier de syntaxe est cochée.
 

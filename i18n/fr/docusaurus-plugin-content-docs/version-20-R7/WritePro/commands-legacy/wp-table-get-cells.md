@@ -65,7 +65,7 @@ Vous voulez modifier les attributs d'une plage de cellules :
 
 Résultat : 
 
-![](../../assets/en/WritePro/commands/pict3307320.en.png)
+![](/assets/en/WritePro/commands/pict3307320.en.png)
 
 #### Exemple 2 
 

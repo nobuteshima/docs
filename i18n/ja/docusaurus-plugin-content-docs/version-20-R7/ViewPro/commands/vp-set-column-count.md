@@ -35,7 +35,7 @@ title: VP SET COLUMN COUNT
 VP SET COLUMN COUNT("ViewProArea";5)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSetColumnCount.PNG)
+![](/assets/en/ViewPro/cmd_vpSetColumnCount.PNG)
 
 #### 参照
 

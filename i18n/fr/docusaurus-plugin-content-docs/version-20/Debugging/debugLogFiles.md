@@ -76,7 +76,7 @@ Pour chaque requête, les champs suivants sont enregistrés :
 
 Acheminement de la requête :
 
-![](../assets/en/Admin/logRequestFlow.PNG)
+![](/assets/en/Admin/logRequestFlow.PNG)
 
 ## 4DRequestsLog_ProcessInfo.txt
 

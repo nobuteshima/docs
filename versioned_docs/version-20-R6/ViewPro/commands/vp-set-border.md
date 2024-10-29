@@ -51,7 +51,7 @@ $option:=New object("outline";True)
 VP SET BORDER(VP Cells("ViewProArea";1;1;3;3);$border;$option)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSETBORDER1.PNG)
+![](/assets/en/ViewPro/cmd_vpSETBORDER1.PNG)
 
 #### Example 2
 
@@ -70,7 +70,7 @@ $cellStyle.borderRight:=New object("color";"blue";"style";vk line style thick)
 VP SET CELL STYLE(VP Cells("ViewProArea";4;4;3;3);$cellStyle)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSETBORDER2.PNG)
+![](/assets/en/ViewPro/cmd_vpSETBORDER2.PNG)
 
 #### See also
 

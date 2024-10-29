@@ -161,7 +161,7 @@ Webエリアを自動で管理するために、4つの特別な自動アクシ�
 
 - **編集メニューコマンド**: Webエリアにフォーカスがあるとき、**編集** メニューコマンドを使用してコピーやペースト、すべてを選択などのアクションを選択に応じて実行できます。
 - **コンテキストメニュー**: Webエリアで、システム標準の [コンテキストメニュー](properties_Entry.md#コンテキストメニュー) を使用できます。 コンテキストメニューの表示は、`WA SET PREFERENCE` コマンドを使用することで管理可能です。
-- **ドラッグ＆ドロップ**: 4D のオブジェクトプロパティに基づき、ユーザーは Webエリア内で、または Webエリアと 4Dフォームオブジェクト間で、テキストやピクチャー、ドキュメントをドラッグ＆ドロップできます。 セキュリティ上の理由から、ファイルまたは URL のドラッグ＆ドロップによって Webエリアのコンテンツを変更することは、デフォルトで禁止されています。 この場合、カーソルは "禁止" アイコン ![](../assets/en/FormObjects/forbidden.png) を表示します。 "ドロップ" アイコンを表示し、[`On Window Opening Denied`](Events/onWindowOpeningDenied.md) イベントを発生させるには、`WA SET PREFERENCE(*; "warea";WA enable URL drop;True)` 文を使います。 このイベントでは、[`WA OPEN URL`](https://doc.4d.com/4dv19/help/command/ja/page1020.html)コマンドを呼び出したり、ユーザードロップに対する [URL変数](properties_WebArea.md#url) を設定することができます。
+- **ドラッグ＆ドロップ**: 4D のオブジェクトプロパティに基づき、ユーザーは Webエリア内で、または Webエリアと 4Dフォームオブジェクト間で、テキストやピクチャー、ドキュメントをドラッグ＆ドロップできます。 セキュリティ上の理由から、ファイルまたは URL のドラッグ＆ドロップによって Webエリアのコンテンツを変更することは、デフォルトで禁止されています。 この場合、カーソルは "禁止" アイコン ![](/assets/en/FormObjects/forbidden.png) を表示します。 "ドロップ" アイコンを表示し、[`On Window Opening Denied`](Events/onWindowOpeningDenied.md) イベントを発生させるには、`WA SET PREFERENCE(*; "warea";WA enable URL drop;True)` 文を使います。 このイベントでは、[`WA OPEN URL`](https://doc.4d.com/4dv19/help/command/ja/page1020.html)コマンドを呼び出したり、ユーザードロップに対する [URL変数](properties_WebArea.md#url) を設定することができます。
 
 > 上記のドラッグ＆ドロップ機能は、[macOS のシステムレンダリングエンジン](properties_WebArea.md#埋め込みwebレンダリングエンジンを使用) を使用している Webエリアではサポートされません。
 

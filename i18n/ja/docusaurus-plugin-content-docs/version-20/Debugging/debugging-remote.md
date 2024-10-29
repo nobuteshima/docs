@@ -9,7 +9,7 @@ title: リモートマシンからのデバッグ
 
 リモートマシン上で起動された [デバッガー](debugger.md) には、サーバーコードのデバッグ中であることを示すサーバーアイコンと青い背景色のデバッグアイコンが表示されるほか、呼び出し連鎖と式のペインの背景が薄っすらと青く色づきます:
 
-![デバッガーウィンドウ-リモート](../assets/en/Debugging/debuggerWindowRemote.png)
+![デバッガーウィンドウ-リモート](/assets/en/Debugging/debuggerWindowRemote.png)
 
 この機能は、4D Server がヘッドレスモード ([コマンドラインインターフェース](../Admin/cli.md) 参照) で実行中、あるいはサーバーマシンへのアクセスが難しい場合などに特に有用です。
 
@@ -83,9 +83,9 @@ title: リモートマシンからのデバッグ
 
 別マシンにて有効化済のデバッガーを有効化しようとした場合、その有効化リクエストは拒否され、以下のようなダイアログが表示されます:
 
-![デバッガー有効化ダイアログ](../assets/en/Debugging/attach-debugger-dialog.png)
+![デバッガー有効化ダイアログ](/assets/en/Debugging/attach-debugger-dialog.png)
 
-![デバッガー有効化ダイアログ2](../assets/en/Debugging/attach-debugger-dialog-2.png)
+![デバッガー有効化ダイアログ2](/assets/en/Debugging/attach-debugger-dialog-2.png)
 
 このような場合に、デバッガーを有効化するには、以下のどちらかの条件が必要です:
 

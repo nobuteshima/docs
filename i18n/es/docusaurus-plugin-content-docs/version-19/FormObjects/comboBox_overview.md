@@ -5,7 +5,7 @@ title: Combo Box
 
 Un combo box es similar a una [lista desplegable](dropdownList_Overview.md#overview), excepto que acepta texto introducido desde el teclado y tiene opciones adicionales.
 
-![](../assets/en/FormObjects/combo_box.png)
+![](/assets/en/FormObjects/combo_box.png)
 
 Fundamentalmente, debe considerar un combo box como un área editable que utiliza su objeto, array o una lista de selección como el conjunto de valores por defecto.
 

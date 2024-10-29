@@ -324,7 +324,7 @@ On Getting Focus や On losing Focus オブジェクトイベントプロパテ�
 \- ポップアップメニューが分離されている場合、このイベントはボタン中で矢印のあるエリアがクリックされた場合のみ生成されます。  
 \- ポップアップメニューがリンクされている場合、このイベントはボタン上どこをクリックしても生成されます。このタイプのボタンではOn Long Clickイベントが生成されないことに注意してください。  
     
-![](../assets/en/commands/pict2074286.en.png)
+![](/assets/en/commands/pict2074286.en.png)
 
 以下の3D ボタン、3D ラジオボタン、および3D チェックボックスは“ポップアップメニューあり”プロパティをサポートします: なし, ツールバーボタン, べベル, 角の丸いべベルおよびOffice XPタイプ
 
@@ -835,7 +835,7 @@ On Before Keystroke と On After Keystroke イベントを処理する方法は[
 
 結果として、赤い長方形はリストボックスのスクロールに沿って移動します:
 
-![](../assets/en/commands/pict1900395.en.png)
+![](/assets/en/commands/pict1900395.en.png)
 
 #### 参照 
 

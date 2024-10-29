@@ -29,7 +29,7 @@ title: VP DELETE ROWS
 
 ユーザーが選択した行を削除します (以下の画像の 1、2、3行目を削除します):
 
-![](../../assets/en/ViewPro/cmd_vpDeleteRows.PNG)
+![](/assets/en/ViewPro/cmd_vpDeleteRows.PNG)
 
 以下のコードを実行します:
 

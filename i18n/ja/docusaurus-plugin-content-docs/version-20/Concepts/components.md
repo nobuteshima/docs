@@ -22,7 +22,7 @@ title: コンポーネント
 
 インストールされたコンポーネントにメソッドやクラス、関数が含まれている場合、それらはエクスプローラーのメソッドページの **コンポーネントメソッド** テーマに表示されます。
 
-![alt-text](../assets/en/Concepts/components-explorer.png)
+![alt-text](/assets/en/Concepts/components-explorer.png)
 
 :::note
 
@@ -32,4 +32,4 @@ title: コンポーネント
 
 コンポーネントの [プロジェクトメソッド](methods.md) または [クラス](classes.md) を選択し、エクスプローラーの **ドキュメント** ボタンをクリックすると、そのメソッドに関する情報が得られます ([あれば](Project/documentation.md))。
 
-![alt-text](../assets/en/Project/compDoc.png)
+![alt-text](/assets/en/Project/compDoc.png)

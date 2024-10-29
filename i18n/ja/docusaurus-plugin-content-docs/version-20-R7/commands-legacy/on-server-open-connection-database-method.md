@@ -81,7 +81,7 @@ displayed_sidebar: docs
 
 次の例は**On Server Open Connectionデータベースメソッド**と**On Server Close Connection データベースメソッド**を使用して、データベースへの接続ログを管理する方法を示しています。**\[Server Log\]**テーブル (下図) は接続処理の記録を取るために使用されています: 
 
-![](../assets/en/commands/pict69173.ja.png)
+![](/assets/en/commands/pict69173.ja.png)
 
 このテーブルに格納される情報は、次の**On Server Open Connectionデータベースメソッド**と**On Server Close Connection データベースメソッド**によって管理されます:
 
@@ -121,7 +121,7 @@ displayed_sidebar: docs
   
 下図は\[Server Log\]に登録されたレコードで、いくつかのリモート接続を示しています:
 
-![](../assets/en/commands/pict69174.ja.png)
+![](/assets/en/commands/pict69174.ja.png)
 
 #### 例題 2 
 

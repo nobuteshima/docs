@@ -35,15 +35,15 @@ macOS Sierra 以降、Mac のアプリケーションは、複数のウィンド
 
 これらのエディターのウィンドウはすべて、タブ形式にすることができます:
 
-![](../assets/en/Preferences/general2.png)
+![](/assets/en/Preferences/general2.png)
 
 **ウィンドウ** メニューのコマンドによって、タブを管理することができます:
 
-![](../assets/en/Preferences/general3.png)
+![](/assets/en/Preferences/general3.png)
 
 4D の環境設定ダイアログボックス内では、**ウィンドウタブ** オプションでこの機能を管理することができます:
 
-![](../assets/en/Preferences/general4.png)
+![](/assets/en/Preferences/general4.png)
 
 次の値が提供されています:
 
@@ -76,7 +76,7 @@ macOS Sierra 以降、Mac のアプリケーションは、複数のウィンド
 - **データベース...**
 - **ストラクチャー定義を使用したデータベース...**
 
-![](../assets/en/Preferences/general5.png)
+![](/assets/en/Preferences/general5.png)
 
 この項目を使用するとバイナリーデータベースを作成することができるようになります([新しいデータベースを作成する](https://doc.4d.com/4Dv19/4D/19/Creating-a-new-database.300-5416694.ja.html) の章を参照)。 これらの項目はデフォルトでは表示されません。今後 4D は、新規の開発にはプロジェクトベースのアーキテクチャーを使用することを推奨するからです。
 

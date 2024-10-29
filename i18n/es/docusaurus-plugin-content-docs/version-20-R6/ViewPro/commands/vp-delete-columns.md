@@ -28,7 +28,7 @@ En *rangeObj*, pase un objeto que contenga un rango de columnas a eliminar. Si e
 
 Para eliminar las columnas seleccionadas por el usuario (en la imagen de abajo las columnas B, C y D):
 
-![](../../assets/en/ViewPro/cmd_vpDeleteColumns.PNG)
+![](/assets/en/ViewPro/cmd_vpDeleteColumns.PNG)
 
 utilice el siguiente código:
 

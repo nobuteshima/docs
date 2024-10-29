@@ -18,7 +18,7 @@ Un rectángulo estático es un objeto decorativo para los formularios. Los rect�
 
 El diseño de los rectángulos se controla a través de muchas propiedades (color, grosor de línea, patrón, etc.). En concreto, se puede definir la [redondez](properties_CoordinatesAndSizing.md#corner-radius) de sus esquinas.
 
-![](../assets/en/FormObjects/shapes_rectangle2.png)
+![](/assets/en/FormObjects/shapes_rectangle2.png)
 
 #### Ejemplo JSON:
 
@@ -64,7 +64,7 @@ La propiedad JSON `startPoint` define a partir de qué coordenada dibujar la lí
         "strokeDashArray": "6 2" //punteado
         }
 ```
-Result: ![](../assets/en/FormObjects/shape_line1.png)
+Result: ![](/assets/en/FormObjects/shape_line1.png)
 
 
 ```
@@ -78,7 +78,7 @@ Result: ![](../assets/en/FormObjects/shape_line1.png)
         "strokeDashArray": "6 2" //dashed
         }
 ```
-Result: ![](../assets/en/FormObjects/shape_line2.png)
+Result: ![](/assets/en/FormObjects/shape_line2.png)
 
 
 
@@ -89,7 +89,7 @@ Result: ![](../assets/en/FormObjects/shape_line2.png)
 
 Un óvalo estático es un objeto decorativo para los formularios. Los objetos ovalados pueden utilizarse para dibujar formas circulares (cuando las propiedades [ancho](properties_CoordinatesAndSizing.md#width) y [alto](properties_CoordinatesAndSizing.md#height) son iguales).
 
-![](../assets/en/FormObjects/shape_oval.png)
+![](/assets/en/FormObjects/shape_oval.png)
 
 #### Ejemplo JSON:
 

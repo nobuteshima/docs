@@ -74,9 +74,9 @@ El tipo de formulario, *es decir,* su destino, define las características que t
 
 Cada tabla de una base de datos suele tener al menos dos formas de tabla. Uno para listar los registros en pantalla y el otro para mostrar un registro a la vez (utilizado para la entrada de datos y las modificaciones):
 
-- Formulario de salida: el *formulario de salida* o *formulario lista* muestra una lista de registros, con una sola línea por registro. Los resultados de las consultas se muestran en un formulario de salida y los usuarios pueden hacer doble clic en una línea para mostrar el formulario de entrada de ese registro. ![](../assets/en/FormObjects/formOutput.png)
+- Formulario de salida: el *formulario de salida* o *formulario lista* muestra una lista de registros, con una sola línea por registro. Los resultados de las consultas se muestran en un formulario de salida y los usuarios pueden hacer doble clic en una línea para mostrar el formulario de entrada de ese registro. ![](/assets/en/FormObjects/formOutput.png)
 
-- Formulario de entrada - utilizado para la entrada de datos. Muestra un único registro por pantalla y suele tener botones para guardar y cancelar las modificaciones del registro y para navegar de registro en registro (*es decir, *, Primer registro, Último registro, Registro anterior, Registro siguiente). ![](../assets/en/FormObjects/formInput.png)
+- Formulario de entrada - utilizado para la entrada de datos. Muestra un único registro por pantalla y suele tener botones para guardar y cancelar las modificaciones del registro y para navegar de registro en registro (*es decir, *, Primer registro, Último registro, Registro anterior, Registro siguiente). ![](/assets/en/FormObjects/formInput.png)
 
 
 Los tipos soportados dependen de la categoría de formulario:

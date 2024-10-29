@@ -29,7 +29,7 @@ Em *name*, passe o nome da planilha cujo índice será retornado. If no sheet na
 
 No documento seguinte:
 
-![](../../assets/en/ViewPro/vp-sheet-index-name.png)
+![](/assets/en/ViewPro/vp-sheet-index-name.png)
 
 Obter o índice da folha denominada "Total first quarter":
 

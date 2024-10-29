@@ -25,7 +25,7 @@ En el parámetro opcional *sheet*, puede designar una hoja específica donde se 
 
 #### Ejemplo
 
-![](../../assets/en/ViewPro/cmd_vpGetActiveCell.PNG)
+![](/assets/en/ViewPro/cmd_vpGetActiveCell.PNG)
 
 El siguiente código recuperará las coordenadas de la celda activa:
 

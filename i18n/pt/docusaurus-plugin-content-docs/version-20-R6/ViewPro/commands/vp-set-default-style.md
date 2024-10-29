@@ -38,7 +38,7 @@ $style.backColor:="#E6E6FA" //cor roxa clara
 VP SET DEFAULT STYLE("myDoc";$style)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSetDefaultStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpSetDefaultStyle.PNG)
 
 #### Veja também
 

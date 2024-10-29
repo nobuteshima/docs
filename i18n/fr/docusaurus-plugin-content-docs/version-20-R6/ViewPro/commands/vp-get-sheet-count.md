@@ -24,7 +24,7 @@ Dans *vpAreaName*, passez le nom de la zone 4D View Pro.
 
 Dans le document suivant :
 
-![](../../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 Pour obtenir le nombre de feuilles et définir la feuille courante comme étant la dernière feuille :
 
@@ -34,7 +34,7 @@ Pour obtenir le nombre de feuilles et définir la feuille courante comme étant 
  VP SET CURRENT SHEET("ViewProArea";$count-1)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-3-select.png)
+![](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 #### Voir également
 

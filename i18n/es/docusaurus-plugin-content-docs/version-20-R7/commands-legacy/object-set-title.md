@@ -65,7 +65,7 @@ Usted quiere insertar los títulos en dos líneas:
  OBJECT SET TITLE(*;"button1";"Click here \\to print")
 ```
 
-![](../assets/en/commands/pict1242273.en.png)
+![](/assets/en/commands/pict1242273.en.png)
 
 #### Ver también 
 

@@ -5,7 +5,7 @@ title: Página Monitor
 
 La página **Monitor** muestra información dinámica relativa al uso de la base de datos, así como información sobre el sistema y la aplicación 4D Server.
 
-![](../assets/en/Admin/server-admin.png)
+![](/assets/en/Admin/server-admin.png)
 
 > On Windows, some of the system information displayed on this page are retrieved via the Windows "Performance Analyzer" tools. These tools can only be accessed when the user that opened the session where 4D Server was launched has the necessary administration authorization.
 
@@ -13,7 +13,7 @@ La página **Monitor** muestra información dinámica relativa al uso de la base
 
 The graphic area lets you see the evolution in real time of several parameters: the CPU usage, network traffic and memory. You select the parameter to be displayed via a menu found in the center of the window:
 
-![](../assets/en/Admin/server-graphic.png)
+![](/assets/en/Admin/server-graphic.png)
 
 - **Uso de la CPU**: uso global de la CPU de la máquina, para todas las aplicaciones en conjunto. The specific part of 4D Server in this usage rate is provided in the "Processors" information area.
 - **Red**: número de bytes recibidos por segundo por la máquina (servidor o cliente). The number of bytes sent is provided in the "Network" information area.
@@ -32,7 +32,7 @@ The "Overview" area provides various information concerning the system, applicat
 - **Conexiones máximas**: número de conexiones simultáneas permitidas por tipo de servidor
 - **Licencia**: descripción de la licencia. When the product license or one of its attached expansions expires in less than 10 days, e.g. in case of a subscription-license, 4D Server tries to automatically renew the license from the 4D user account. In this case, if the automatic renewal failed for some reason (connection error, invalid account status, non-prolongated contract...), a warning icon is displayed next to the license to alert the server administrator. Additional information about the license renewal status can be displayed in a tip when you hover the mouse over the area:
 
-![](../assets/en/Admin/server-licence-failed.png)
+![](/assets/en/Admin/server-licence-failed.png)
 
 Geralmente, você precisará verificar o [**Gerenciador de licenças**](Admin/licenses.md).
 

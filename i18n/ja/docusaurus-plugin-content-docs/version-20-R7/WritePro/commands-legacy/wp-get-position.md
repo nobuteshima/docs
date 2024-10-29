@@ -144,14 +144,14 @@ displayed_sidebar: docs
  $paraCoordinates:=WP Get position($paragraph) // 緑の破線
 ```
 
-![](../../assets/en/WritePro/commands/pict4096405.en.png)
+![](/assets/en/WritePro/commands/pict4096405.en.png)
 
 *赤の破線:* *$textCoordinates オブジェクトの値* 
 *緑の破線: $* *paraCoordinates オブジェクトの値* 
 
 **注:** 複数のカラムを表示していた場合、*rangeHeight* プロパティ(太線)は、*bounds.bottom*\-*bounds.top* プロパティ(破線)より大きくなる可能性があります:
 
-![](../../assets/en/WritePro/commands/pict4096411.en.png)
+![](/assets/en/WritePro/commands/pict4096411.en.png)
 
 #### 参照 
 

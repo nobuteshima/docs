@@ -13,7 +13,7 @@ O ambiente de desenvolvimento 4D fornece várias ferramentas de depuração para
 
 Os erros de digitação são detectados pelo editor de código. São exibidos em vermelho e são fornecidas informações adicionais na parte inferior da janela. Aqui está um erro de dactilografia:
 
-![break-point](../assets/en/Debugging/typing-error.png)
+![break-point](/assets/en/Debugging/typing-error.png)
 
 
 Esses erros de digitação geralmente causam erros de sintaxe (na imagem acima, o nome da tabela é desconhecido). Obtém a descrição do erro quando validar a linha de código. Quando isso ocorrer, corrija o erro de digitação e digite Enter para validar a correção.
@@ -22,7 +22,7 @@ Esses erros de digitação geralmente causam erros de sintaxe (na imagem acima, 
 
 Alguns erros só podem ser detectados quando o método for executado. A janela [Syntax Error Window](#syntax-error-window) aparece quando ocorre um erro durante a execução do código. Por exemplo:
 
-![syntax-error](../assets/en/Debugging/syntax-error.png)
+![syntax-error](/assets/en/Debugging/syntax-error.png)
 
 Expanda a área **Details** para apresentar o último erro e o seu número.
 
@@ -48,7 +48,7 @@ Por vezes, a parte do código que apresenta o erro pode ser diferente do código
 
 No modo Aplicação, pode obter erros que não se vêem no modo interpretado. Aqui está um exemplo:
 
-![runtime-error](../assets/en/Debugging/runtimeError.png)
+![runtime-error](/assets/en/Debugging/runtimeError.png)
 
 Para encontrar rapidamente a origem do problema, reabrir a versão interpretada do ficheiro da estrutura, abrir o método e ir para a linha correspondente.
 
@@ -59,7 +59,7 @@ A janela erro de sintaxe aparece automaticamente quando a execução de um méto
 - um erro impede a continuação da execução do código
 - o método produz uma afirmação falsa (ver o comando `ASSERT`)
 
-![syntax-error](../assets/en/Debugging/syntax-error.png)
+![syntax-error](/assets/en/Debugging/syntax-error.png)
 
 A área de texto superior apresenta uma mensagem que descreve o erro. A área de texto inferior mostra a linha que estava a ser executada quando ocorreu o erro; a área onde ocorreu o erro é realçada. A secção Detalhes expandidos contém a "pilha" de erros relacionados com o processo.
 

@@ -42,7 +42,7 @@ En revanche, par défaut ces méthodes projet ne seront ni visibles ni appelable
 
 **Note :** A l’inverse, pour des raisons de sécurité, par défaut un composant ne peut pas exécuter de méthode projet appartenant à la base hôte. Dans certains cas, vous pourrez avoir besoin d’autoriser un composant à accéder à des méthodes projet de votre base hôte. Pour cela, vous devez explicitement désigner les méthodes projet de la base hôte que vous souhaitez rendre accessibles aux composants.
 
-![](../assets/en/Concepts/pict516563.en.png)
+![](/assets/en/Concepts/pict516563.en.png)
 
 ## Passage de variables
 

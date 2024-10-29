@@ -35,7 +35,7 @@ In the optional *sheet* parameter, you can designate a specific spreadsheet wher
 
 You want to define a range object for the row shown below (on the current spreadsheet):
 
-![](../../assets/en/ViewPro/cmd_vpRow.PNG)
+![](/assets/en/ViewPro/cmd_vpRow.PNG)
 
 You can write:
 

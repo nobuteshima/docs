@@ -33,7 +33,7 @@ En el parámetro opcional *sheet*, puede designar una hoja específica donde se 
 
 Desea definir un objeto rango para la columna mostrada abajo (en la hoja actual):
 
-![](../../assets/en/ViewPro/cmd_vpColumn.PNG)
+![](/assets/en/ViewPro/cmd_vpColumn.PNG)
 
 El código es el siguiente:
 

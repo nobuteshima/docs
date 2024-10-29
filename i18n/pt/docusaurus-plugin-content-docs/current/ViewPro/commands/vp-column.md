@@ -33,7 +33,7 @@ No parâmetro opcional *sheet*, pode designar uma folha específica onde o inter
 
 Se quiser definir um objeto de intervalo para a coluna mostrada abaixo (na planilha atual):
 
-![](../../assets/en/ViewPro/cmd_vpColumn.PNG)
+![](/assets/en/ViewPro/cmd_vpColumn.PNG)
 
 O código seria:
 

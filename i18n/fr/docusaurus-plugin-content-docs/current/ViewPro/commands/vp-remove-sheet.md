@@ -28,7 +28,7 @@ In *index*, pass the index of the sheet to remove. If the passed *index* does no
 
 Le document comporte actuellement 3 feuilles :
 
-![](../../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 Supprimer la troisième feuille :
 
@@ -36,7 +36,7 @@ Supprimer la troisième feuille :
 VP REMOVE SHEET("ViewProArea";2)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-2.png)
+![](/assets/en/ViewPro/vp-sheet-2.png)
 
 #### Voir également
 

@@ -122,7 +122,7 @@ $2->:=$vtNewValue
 
 以下のフォームを見てみましょう:
 
-![](../assets/en/commands/pict21523.en.png)
+![](/assets/en/commands/pict21523.en.png)
 
 このフォームには以下のオブジェクトが置かれています: *vsLookup*入力エリア、*vsMessage*入力不可エリア、*asLookup*スクロールエリア。*vsLookup*に文字を入力する間、オブジェクトメソッドが\[US Zip Codes\]テーブルの検索を実行し、年の最初の文字を入力すると、USの都市が検索されます。
 
@@ -162,7 +162,7 @@ $2->:=$vtNewValue
 
 フォームを実行:
 
-![](../assets/en/commands/pict21524.en.png)
+![](/assets/en/commands/pict21524.en.png)
 
 4Dのプロセス間通信を使用することで、レコードを編集するプロセスと通信するフローティングウィンドウに同様の機能を実装することができます。
 

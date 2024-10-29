@@ -9,7 +9,7 @@ Lorsqu'une base de données 4D est exécutée sur 4D Server en mode interprété
 
 Sur une machine distante, la [fenêtre du débogueur](debugger.md) affiche une icône de serveur spécifique et une couleur de fond bleue pour indiquer que vous déboguez du code serveur :
 
-![debugger-window-remote](../assets/en/Debugging/debuggerWindowRemote.png)
+![debugger-window-remote](/assets/en/Debugging/debuggerWindowRemote.png)
 
 Cette fonctionnalité est particulièrement utile lorsque 4D Server fonctionne en mode headless (voir [Interface en ligne de commande](../Admin/cli.md)), ou lorsque l'accès à la machine serveur n'est pas facile.
 
@@ -82,9 +82,9 @@ Si le débogueur est déjà attaché à un client 4D distant ou à 4D Server, au
 
 Si une machine tente d'attacher le débogueur alors qu'il est déjà attaché, l'attachement est rejeté et une boîte de dialogue apparaît :
 
-![attach-debugger-dialog](../assets/en/Debugging/attach-debugger-dialog.png)
+![attach-debugger-dialog](/assets/en/Debugging/attach-debugger-dialog.png)
 
-![attach-debugger-dialog-2](../assets/en/Debugging/attach-debugger-dialog-2.png)
+![attach-debugger-dialog-2](/assets/en/Debugging/attach-debugger-dialog-2.png)
 
 L'attachement du débogueur dans ce cas nécessite que :
 

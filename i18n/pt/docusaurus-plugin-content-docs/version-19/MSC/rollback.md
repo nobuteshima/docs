@@ -8,7 +8,7 @@ A página Rollback é utilizada para acessar à função de rollback entre as op
 
 Esta função só está disponível quando o banco de dados funcionar com um arquivo de histórico de dados.
 
-![](../assets/en/MSC/MSC_rollback1.png)
+![](/assets/en/MSC/MSC_rollback1.png)
 
 > Se a base de dados estiver criptografada e não tiver sido fornecida uma chave de dados válida correspondente ao arquivo de histórico aberto, os valores encriptados não são apresentados na coluna **Values** e é apresentada uma caixa de diálogo a pedir a frase-chave ou a chave de criptografia se clicar no botão **Rollback** .
 
@@ -16,7 +16,7 @@ O conteúdo e o funcionamento da lista de operações são os mesmos que para a 
 
 Para executar uma reversão entre as operações, selecionar a linha após a qual todas as operações devem ser canceladas. A operação da linha seleccionada será a última a ser mantida. Se, por exemplo, desejar anular uma eliminação, seleccione a operação situada imediatamente antes da mesma. A operação de eliminação, assim como todas as operações subsequentes, serão anuladas.
 
-![](../assets/en/MSC/MSC_rollback2.png)
+![](/assets/en/MSC/MSC_rollback2.png)
 
 Em seguida, clique no botão **Rollback** . 4D pede-lhe para confirmar a operação. Se clicar em **OK**, os dados são restaurados para o estado exato em que se encontravam no momento da ação selecionada.
 

@@ -28,7 +28,7 @@ Para más información sobre estas acciones, consulte la página [Análisis de a
 
 La siguiente ilustración resume el funcionamiento del archivo de historial:
 
-![](../assets/en/Backup/backup05.png)
+![](/assets/en/Backup/backup05.png)
 
 El archivo de historial actual se guarda automáticamente con el archivo de datos actual. Este mecanismo tiene dos ventajas distintas:
 
@@ -68,7 +68,7 @@ Si desea dejar de registrar las operaciones en el archivo de historial actual, s
 
 4D muestra entonces un mensaje de alerta para recordarle que esta acción le impide aprovechar la seguridad que ofrece el archivo de historial:
 
-![](../assets/en/Backup/backup06.png)
+![](/assets/en/Backup/backup06.png)
 
 Si hace clic en el botón **Parar**, el archivo de historial actual se cierra inmediatamente (la caja de dialogo de las Propiedades no necesita ser validada después).
 

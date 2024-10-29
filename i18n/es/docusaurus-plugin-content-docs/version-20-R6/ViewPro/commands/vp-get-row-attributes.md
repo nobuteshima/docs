@@ -34,7 +34,7 @@ $range:=VP Column("ViewProArea";1;2)
 $attr:=VP Get row attributes($range)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpGetRowAttributes.PNG)
+![](/assets/en/ViewPro/cmd_vpGetRowAttributes.PNG)
 
 #### Ver también
 

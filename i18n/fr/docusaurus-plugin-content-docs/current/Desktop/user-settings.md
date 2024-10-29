@@ -20,13 +20,13 @@ Avec cette option, vous pouvez facilement déployer et mettre à jour plusieurs 
 
 Prenons par exemple la configuration suivante, où une application est dupliquée et où chaque copie utilise un paramètre d'ID de port différent. Si ce paramètre utilisateur est lié au fichier de données, vous pourrez mettre à jour l'application sans avoir à modifier manuellement l'ID du port :
 
-![](../assets/en/settings/user-settings-config.png)
+![](/assets/en/settings/user-settings-config.png)
 
 ## Activer les propriétés utilisateur
 
 Pour activer les paramètres utilisateur, vous devez cocher l'option **Paramètres** > **Sécurité** > **Autoriser les propriétés utilisateur** :
 
-![](../assets/en/settings/user-settings-enable.png)
+![](/assets/en/settings/user-settings-enable.png)
 
 Lorsque vous cochez cette option, les paramètres sont séparés en trois boîtes de dialogue :
 
@@ -36,7 +36,7 @@ Lorsque vous cochez cette option, les paramètres sont séparés en trois boîte
 
 Vous pouvez accéder à ces boîtes de dialogue en utilisant le menu **Développement > Propriétés...** ou le bouton **Propriétés** dans la barre d'outils :
 
-![](../assets/en/settings/user-settings-dialog.png)
+![](/assets/en/settings/user-settings-dialog.png)
 
 Vous pouvez également accéder à ces boîtes de dialogue à l'aide de la commande [OPEN SETTINGS WINDOW](https://doc.4d.com/4dv19R/help/command/en/page903.html) avec le sélecteur _settingsType_ approprié.
 
@@ -46,7 +46,7 @@ La boîte de dialogue Propriétés de structure est identique à la boîte de di
 
 Les boîtes de dialogue **Propriétés utilisateur** et **Propriétés utilisateur pour le fichier de données** contiennent une sélection de propriétés pertinentes qui peuvent être définies pour tous les fichiers de données ou pour un seul fichier de données :
 
-![](../assets/en/settings/user-settings-2.png)
+![](/assets/en/settings/user-settings-2.png)
 
 Le tableau suivant répertorie les pages de paramètres des boîtes de dialogue **Propriétés utilisateur** et **Propriétés utilisateur pour le fichier de données** et décrit leurs principales différences par rapport aux paramètres standard :
 

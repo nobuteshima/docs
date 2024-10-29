@@ -57,7 +57,7 @@ Se quiser personalizar o menu **Ajuda** de sua aplicação:
  SET ABOUT("About this application";"m_about") //para substituir 'About 4D' en Windows
 ```
 
-![](../assets/en/commands/pict6260534.en.png)
+![](/assets/en/commands/pict6260534.en.png)
 
 #### Ver também 
 

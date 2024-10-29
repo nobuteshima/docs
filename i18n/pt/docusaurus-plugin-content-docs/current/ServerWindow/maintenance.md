@@ -5,7 +5,7 @@ title: Página Manutenção
 
 La página **Mantenimiento** de la ventana de administración de 4D Server ofrece información relativa al funcionamiento actual de la aplicación. Ele também fornece acesso às funções básicas de manutenção:
 
-![](../assets/en/Admin/server-maintenance.png)
+![](/assets/en/Admin/server-maintenance.png)
 
 ## Última verificação/compactação
 
@@ -23,7 +23,7 @@ Tras la verificación, se genera un archivo de informe en formato XML en el serv
 
 Thus button can be used to launch a data compacting operation directly. This operation requires stopping the server: when you click on this button, the 4D Server shutdown dialog box appears so that you can choose how to interrupt the operation:
 
-![](../assets/en/Admin/server-shut.png)
+![](/assets/en/Admin/server-shut.png)
 
 After the actual interruption of the application service, 4D Server carries out a standard compacting operation on the database data. Si desea disponer de opciones adicionales, deberá utilizar el [Centro de seguridad y de mantenimiento (CSM)](MSC/overview.md).
 

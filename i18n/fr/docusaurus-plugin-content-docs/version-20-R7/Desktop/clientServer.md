@@ -9,7 +9,7 @@ Les applications 4D Desktop peuvent être utilisées dans une configuration Clie
 
 - Les **projets distants** sont des fichiers [.4DProject](Project/architecture.md) ouverts par 4D Server et accessibles avec 4D en mode distant. Le serveur envoie une version .4dz du projet ([format compressé](building.md#build-compiled-structure)) au 4D distant, donc les fichiers de structure sont en lecture seule. Cette configuration est généralement utilisée pour les tests d'application.
 
-![](../assets/en/getStart/localremote.png)
+![](/assets/en/getStart/localremote.png)
 
 > La connexion à un projet distant à partir de **la même machine que 4D Server** permet de modifier les fichiers du projet. Cette [fonctionnalité spécifique](#using-4d-and-4d-server-on-the-same-machine) permet de développer une application client/serveur dans le même contexte que le contexte de déploiement.
 
@@ -36,13 +36,13 @@ La boîte de dialogue de connexion à 4D Server apparaît. Cette boîte de dialo
 
 Si 4D Server est connecté au même sous-réseau que le 4D distant, sélectionnez **Disponible**. 4D Server inclut un système de diffusion intégré qui, par défaut, publie le nom des projets 4D Server disponibles sur le réseau. La liste est triée par ordre d'apparition et est mise à jour dynamiquement.
 
-![](../assets/en/getStart/serverConnect.png)
+![](/assets/en/getStart/serverConnect.png)
 
 Pour vous connecter à un serveur de la liste, double-cliquez sur son nom ou sélectionnez-le et cliquez sur le bouton **OK**.
 
 Si le projet publié n'est pas affiché dans la liste **Disponible**, sélectionnez **Personnalisé**. La page Personnalisé vous permet de vous connecter à un serveur publié sur le réseau en utilisant son adresse réseau et en lui attribuant un nom personnalisé.
 
-![](../assets/en/Desktop/serverConnect2.png)
+![](/assets/en/Desktop/serverConnect2.png)
 
 - **Nom du projet** : définit le nom local du projet 4D Server. Ce nom sera utilisé dans la page **Récent** pour faire référence au projet.
 - **Adresse réseau** : L'adresse IP de la machine sur laquelle le 4D Server a été lancé.

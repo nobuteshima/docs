@@ -227,7 +227,7 @@ RESTリクエストによってメソッドを呼び出せるようにするに�
     - **カレントレコード** - `\{dataClass\}(key)/\{method\}` シンタックスを使って、カレントレコード (エンティティ) に対して適用されるメソッドの場合
     - **カレントセレクション** - カレントセレクションに対して適応されるメソッドの場合
 
-![alt-text](../assets/en/REST/MethodProp.png)
+![alt-text](/assets/en/REST/MethodProp.png)
 
 ### メソッドへの引数の渡し方
 

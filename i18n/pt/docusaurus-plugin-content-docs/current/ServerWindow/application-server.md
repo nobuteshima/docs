@@ -5,7 +5,7 @@ title: Página Servidor de aplicações
 
 A página Application Server agrupa informações sobre a aplicação desktop publicada pelo 4D Server e pode ser usada para gerenciar essa publicação.
 
-![](../assets/en/Admin/server-admin-application-page.png)
+![](/assets/en/Admin/server-admin-application-page.png)
 
 A parte superior da página fornece informação sobre o estado atual do servidor de aplicação 4D Server.
 
@@ -28,7 +28,7 @@ Si presiona el botón **Rechazar nuevas conexiones**:
 - O título do botão muda para "Aceitar novas ligações."
 - Nenhum novo cliente pode então ligar-se. Os clientes que tentarem ligar-se receberão a seguinte mensagem:
 
-![](../assets/en/Admin/server-error.png)
+![](/assets/en/Admin/server-error.png)
 
 - O nome do projeto já não aparece na caixa de diálogo da ligação remota.
 - Os clientes de ambiente de trabalho que já estão ligados não são desligados e podem continuar a trabalhar normalmente.

@@ -78,7 +78,7 @@ $compCity:=ds. Company["city"] //returns the city attribute in the Company datac
 
 Considerando a seguinte estrutura do banco de dados:
 
-![](../assets/en/API/dataclassAttribute.png)
+![](/assets/en/API/dataclassAttribute.png)
 
 ```4d
 var $firstnameAtt;$employerAtt;$employeesAtt : Object
@@ -102,7 +102,7 @@ var $firstnameAtt;$employerAtt;$employeesAtt : Object
 
 Considerando as propriedades de tabela abaixo:
 
-![](../assets/en/API/dataclassAttribute2.png)
+![](/assets/en/API/dataclassAttribute2.png)
 
 ```4d
  var $sequenceNumberAtt : Object

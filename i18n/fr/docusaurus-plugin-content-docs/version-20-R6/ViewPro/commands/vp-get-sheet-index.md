@@ -29,7 +29,7 @@ Dans *name*, passez le nom de la feuille dont l'index sera retourné. Si aucune 
 
 Dans le document suivant :
 
-![](../../assets/en/ViewPro/vp-sheet-index-name.png)
+![](/assets/en/ViewPro/vp-sheet-index-name.png)
 
 Lire l'index de la feuille appelée "Total premier trimester" :
 

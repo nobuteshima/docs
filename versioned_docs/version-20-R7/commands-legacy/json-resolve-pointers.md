@@ -35,7 +35,7 @@ Optionally, you can pass in *options* an object containing specific properties t
 | **Property** | **Value type** | **Description**                                                                                                                                       |
 | ------------ | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | rootFolder   | String         | Absolute path (using standard 4D syntax) to the folder to be used to resolve relative pointers in *object*. Default is the database Resources folder. |
-| merge        | Boolean        | Merge objects with pointer objects (true) instead of replacing them (false). Default is false ![](../assets/en/commands/pict3516702.en.png)           |
+| merge        | Boolean        | Merge objects with pointer objects (true) instead of replacing them (false). Default is false ![](/assets/en/commands/pict3516702.en.png)           |
 
 After the command is executed: 
 

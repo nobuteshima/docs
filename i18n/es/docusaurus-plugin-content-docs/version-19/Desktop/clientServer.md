@@ -10,7 +10,7 @@ Las aplicaciones 4D Desktop pueden utilizarse en una configuración Cliente/Serv
 
 - Los **proyectos remotos** son archivos [.4DProject](Project/architecture.md) abiertos por 4D Server y a los que se accede con 4D en modo remoto. El servidor envía una versión .4dz del proyecto ([formato comprimido](building.md#build-compiled-structure)) al 4D remoto, por lo que los archivos de estructura son de sólo lectura. Esta configuración se suele utilizar para probar la aplicación.
 
-![](../assets/en/getStart/localremote.png)
+![](/assets/en/getStart/localremote.png)
 
 > La conexión a un proyecto remoto desde **la misma máquina que 4D Server** permite modificar los archivos del proyecto. Esta [funcionalidad específica](#using-4d-and-4d-server-on-the-same-machine) permite desarrollar una aplicación cliente/servidor en el mismo contexto del despliegue.
 
@@ -35,7 +35,7 @@ Aparece el diálogo de conexión de 4D Server. Este diálogo tiene tres pestaña
 
 Si 4D Server está conectado a la misma red que el 4D remoto, seleccione **Disponible**. 4D Server incluye un sistema de difusión TCP/IP integrado que, por defecto, publica el nombre de los proyectos 4D Server disponibles en la red. La lista se ordena por orden de aparición y se actualiza dinámicamente.
 
-![](../assets/en/getStart/serverConnect.png)
+![](/assets/en/getStart/serverConnect.png)
 
 Para conectarse a un servidor de la lista, haga doble clic en su nombre o selecciónelo y presione el botón **Aceptar**.
 
@@ -43,7 +43,7 @@ Para conectarse a un servidor de la lista, haga doble clic en su nombre o selecc
 
 Si el proyecto publicado no aparece en la lista **Disponible**, seleccione **Personalizado**. La página Personalizada le permite conectarse a un servidor publicado en la red utilizando su dirección de red y asignándole un nombre personalizado.
 
-![](../assets/en/getStart/serverConnect2.png)
+![](/assets/en/getStart/serverConnect2.png)
 
 - **Nombre del proyecto**: define el nombre local del proyecto 4D Server. Este nombre se utilizará en la página **Reciente** cuando se haga referencia al proyecto.
 - **Dirección red**: la dirección IP de la máquina donde se lanzó el 4D Server. Si dos servidores se ejecutan simultáneamente en la misma máquina, la dirección IP debe ir seguida de dos puntos y del número de puerto, por ejemplo: `192.168.92.104:19814`. Por defecto, el puerto de publicación de un 4D Server es el 19813. Este número puede modificarse en los parámetros del proyecto.

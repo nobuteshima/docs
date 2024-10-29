@@ -47,7 +47,7 @@ VP SET TABLE THEME("ViewProArea"; "myTable"; $param)
 
 You want to have this alternate column rendering:
 
-![](../../assets/en/ViewPro/col-bandering.png)
+![](/assets/en/ViewPro/col-bandering.png)
 
 ```4d
 var $param : cs.ViewPro.TableTheme

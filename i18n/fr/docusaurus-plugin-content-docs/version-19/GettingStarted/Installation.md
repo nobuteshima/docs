@@ -23,11 +23,11 @@ Les produits 4D sont installés à partir du site web de 4D :
 
 Une fois l'installation terminée, vous pouvez lancer 4D et vous connecter. Pour ce faire, double-cliquez sur l'icône du produit 4D.
 
-![](../assets/en/getStart/logo4d.png)
+![](/assets/en/getStart/logo4d.png)
 
 Apparaît ensuite l'assistant de bienvenue :
 
-![](../assets/en/getStart/welcome2.png)
+![](/assets/en/getStart/welcome2.png)
 
 - Si vous souhaitez découvrir et explorer 4D, cliquez sur le lien **essai gratuit**. Il vous sera demandé de vous connecter ou de créer un compte 4D.
 

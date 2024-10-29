@@ -13,7 +13,7 @@ Cuando llama a un datastore utilizando el comando [`ds`](API/DataStoreClass.md#d
 - Los campos corresponden a los atributos de almacenamiento.
 - Las relaciones se mapean a los atributos de relación: los nombres de relación, definidos en el editor de estructura, se utilizan como nombres de atributo de relación.
 
-![](../assets/en/ORDA/datastoreMapping.png)
+![](/assets/en/ORDA/datastoreMapping.png)
 
 ### Reglas generales
 
@@ -37,7 +37,7 @@ Cuando se accede a un datastore remoto a través del comando `Abrir datastore` o
 
 Esta opción debe seleccionarse al nivel de la estructura 4D para cada tabla y cada campo que desee exponer como dataclass y atributo en el datastore:
 
-![](../assets/en/ORDA/ExposeDataclass.png)
+![](/assets/en/ORDA/ExposeDataclass.png)
 
 ### Actualización del modelo de datos
 
@@ -96,7 +96,7 @@ Todas las dataclasses de un proyecto 4D están disponibles como propiedad del da
 
 Por ejemplo, considere la siguiente tabla en la estructura 4D:
 
-![](../assets/en/ORDA/companyTable.png)
+![](/assets/en/ORDA/companyTable.png)
 
 La tabla `Company` está disponible automáticamente como dataclass en el datastore `ds`. Puede escribir:
 
@@ -148,7 +148,7 @@ Los atributos de la Dataclass son de varios tipos: almacenamiento, relatedEntity
 
 Por ejemplo, considere la siguiente estructura de base de datos parcial y las propiedades relacionales:
 
-![](../assets/en/ORDA/relationProperties.png)
+![](/assets/en/ORDA/relationProperties.png)
 
 Todos los atributos de almacenamiento estarán disponibles automáticamente:
 
@@ -164,7 +164,7 @@ Además, los siguientes atributos relacionales también estarán disponibles aut
 
 Todos los atributos de la dataclass se exponen como propiedades de la dataclass:
 
-![](../assets/en/ORDA/dataclassProperties.png)
+![](/assets/en/ORDA/dataclassProperties.png)
 
 Tenga en cuenta que estos objetos describen los atributos, pero no dan acceso a los datos. La lectura o escritura de los datos se realiza a través de los [objetos entidad](entities.md#using-entity-attributes).
 

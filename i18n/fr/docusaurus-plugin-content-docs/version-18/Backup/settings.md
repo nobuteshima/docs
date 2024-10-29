@@ -19,7 +19,7 @@ Si l’application n’était pas lancée au moment théorique de la sauvegarde,
 
 Les paramètres des sauvegardes périodiques sont définis dans la Page **Sauvegarde/Périodicité** des Propriétés de la base :
 
-![](../assets/en/Backup/backup02.png)
+![](/assets/en/Backup/backup02.png)
 
 Les options regroupées dans cet onglet permettent de définir et de paramétrer des sauvegardes périodiques automatiques de la base. Vous pouvez choisir un paramétrage standard rapide ou personnaliser entièrement la périodicité. Diverses options apparaissent en fonction de la valeur définie dans le menu **Sauvegarde automatique** :
 
@@ -40,7 +40,7 @@ Les options regroupées dans cet onglet permettent de définir et de paramétrer
 
 La Page Sauvegarde/Configuration des Propriétés de la base permet de désigner les fichiers à sauvegarder, l’emplacement des fichiers de sauvegarde et le fichier d’historique. Ces paramètres sont spécifiques à chaque base de données ouverte par l’application 4D.
 
-![](../assets/en/Backup/backup03.png)
+![](/assets/en/Backup/backup03.png)
 
 > **4D Server** : Ces paramètres peuvent être définis depuis le poste 4D Server uniquement.
 
@@ -76,7 +76,7 @@ Par défaut, toute base créée avec 4D utilise un fichier d’historique (optio
 
 La modification des options de sauvegarde et de restauration est facultative. Leurs valeurs par défaut correspondent à une utilisation standard de la fonction.
 
-![](../assets/en/Backup/backup04.png)
+![](/assets/en/Backup/backup04.png)
 
 ### Paramètres généraux
 

@@ -19,7 +19,7 @@ Au niveau de l'architecture réseau, le protocole de sécurité s'insère entre 
 
 Configuration du réseau avec TLS :
 
-![](../assets/en/WebServer/tls1.png)
+![](/assets/en/WebServer/tls1.png)
 
 Le protocole TLS a pour but d'authentifier l'émetteur et le récepteur et de garantir la confidentialité et l'intégrité des informations échangées :
 
@@ -123,7 +123,7 @@ La mise en place d’un serveur fonctionnant en TLS nécessite un certificat num
 
 > Les navigateurs Web autorisent uniquement les certificats émis par une autorité de certification référencée dans leurs propriétés.
 
-![](../assets/en/WebServer/tls2.png)
+![](/assets/en/WebServer/tls2.png)
 
 Le choix de l’autorité de certification dépend de plusieurs facteurs. Plus l’autorité est “connue”, plus le nombre de navigateurs acceptant les certificats qu’elle délivre sera important, mais plus le prix à payer sera élevé.
 

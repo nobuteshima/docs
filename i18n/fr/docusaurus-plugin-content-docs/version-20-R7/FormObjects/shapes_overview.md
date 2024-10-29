@@ -17,7 +17,7 @@ Un rectangle statique est un objet décoratif contenu dans les formulaires. Les 
 
 Les rectangles sont créés à l'aide de plusieurs propriétés (couleur, épaisseur de ligne, motif, etc.). L'[arrondi](properties_CoordinatesAndSizing.md#corner-radius), en particulier, des coins du rectangle peuvent être définis.
 
-![](../assets/en/FormObjects/shapes_rectangle2.png)
+![](/assets/en/FormObjects/shapes_rectangle2.png)
 
 #### Exemple JSON :
 
@@ -63,7 +63,7 @@ La propriété JSON `startPoint` définit à partir de quelle coordonnée la lig
 ```
 
 Result:
-![](../assets/en/FormObjects/shape_line1.png)
+![](/assets/en/FormObjects/shape_line1.png)
 
 ```
 	"myLine": {
@@ -78,7 +78,7 @@ Result:
 ```
 
 Result:
-![](../assets/en/FormObjects/shape_line2.png)
+![](/assets/en/FormObjects/shape_line2.png)
 
 #### Propriétés prises en charge
 
@@ -88,7 +88,7 @@ Result:
 
 Un ovale statique est un objet décoratif contenu dans les formulaires. Les objets de forme ovale peuvent être utilisés pour dessiner des formes circulaires (lorsque les propriétés [largeur](properties_CoordinatesAndSizing.md#width) et [hauteur](properties_CoordinatesAndSizing.md#height) sont identiques).
 
-![](../assets/en/FormObjects/shape_oval.png)
+![](/assets/en/FormObjects/shape_oval.png)
 
 #### Exemple JSON :
 

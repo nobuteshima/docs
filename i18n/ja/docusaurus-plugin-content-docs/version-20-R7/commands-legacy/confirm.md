@@ -43,7 +43,7 @@ OKボタンは[デフォルトボタン](https://developer.4d.com/docs/ja/FormOb
 
 以下のような確認ダイアログボックスを表示します(Windows環境):
 
-![](../assets/en/commands/pict4225029.en.png)
+![](/assets/en/commands/pict4225029.en.png)
 
 #### 例題 2 
 
@@ -55,7 +55,7 @@ OKボタンは[デフォルトボタン](https://developer.4d.com/docs/ja/FormOb
 
 Windowsにおいて以下のような確認ダイアログボックスを表示します:
 
-![](../assets/en/commands/pict4225038.en.png)
+![](/assets/en/commands/pict4225038.en.png)
 
 #### 例題 3 
 
@@ -71,7 +71,7 @@ Windowsにおいて以下のような確認ダイアログボックスを表示�
 
 以下のようなフランス語の確認ダイアログを(Windows 環境下において)表示することができます:
 
-![](../assets/en/commands/pict4225048.en.png)
+![](/assets/en/commands/pict4225048.en.png)
 
 **注:** xliff を使用したデータベースのローカライズについての詳細な情報については、*付録 B: XLIFFアーキテクチャー* の章を参照してください。
 
@@ -86,7 +86,7 @@ Windowsにおいて以下のような確認ダイアログボックスを表示�
 
 以下のような確認ダイアログボックスを表示します(Windows環境):  
   
-![](../assets/en/commands/pict4225058.en.png)
+![](/assets/en/commands/pict4225058.en.png)
 
 #### 参照 
 

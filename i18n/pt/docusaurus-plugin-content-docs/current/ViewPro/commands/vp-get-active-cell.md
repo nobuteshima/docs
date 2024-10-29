@@ -25,7 +25,7 @@ No parâmetro opcional *sheet*, pode designar uma folha específica onde o inter
 
 #### Exemplo
 
-![](../../assets/en/ViewPro/cmd_vpGetActiveCell.PNG)
+![](/assets/en/ViewPro/cmd_vpGetActiveCell.PNG)
 
 O código seguinte irá obter as coordenadas da célula ativa:
 

@@ -46,4 +46,4 @@ Establezca el nombre de la tercera hoja como "Total first quarter":
 VP SET SHEET NAME("ViewProArea";"Total first quarter";2)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-index-name.png)
+![](/assets/en/ViewPro/vp-sheet-index-name.png)

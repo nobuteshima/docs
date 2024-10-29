@@ -5,7 +5,7 @@ title: Editor de método
 
 4D tem um poderoso editor de código embutido que oferece um amplo conjunto de funcionalidades para edição de código altamente produtiva, como preenchimento inteligente de código, navegação de código, depuração, busca, e mais.
 
-![](../assets/en/code-editor/code-editor-overview.png)
+![](/assets/en/code-editor/code-editor-overview.png)
 
 O editor de código funciona de forma semelhante a um editor de texto. Escrever um método ou uma classe é geralmente uma combinação de digitar texto, selecionar componentes e arrastar itens do Explorador ou de outras janelas. Você também pode usar várias funções de preenchimento automático para criar métodos mais rapidamente.
 
@@ -21,14 +21,14 @@ Cada janela do Editor de Código possui uma barra de ferramentas que fornece ace
 
 | Elemento                                     | Ícone                                                                             | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | -------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Execução do método**                       | ![execute-method](../assets/en/code-editor/execute-method.png)                    | Ao trabalhar com métodos, cada janela do Code Editor tem um botão que pode ser usado para executar o método atual. Usando o menu associado a este botão, você pode escolher o tipo de execução:<ul><li>**Executar novo processo**: Cria um processo e executa o método no modo padrão neste processo.</li><li>**Executar e depurar novo processo**: Cria um novo processo e exibe o método na janela do Depurador para execução passo a passo neste processo.</li><li>**Executar no processo do Aplicativo**: Executa o método no modo padrão no contexto do processo do Aplicativo (ou seja, a janela de exibição do registro).</li><li>**Executar e depurar no processo do Aplicativo**: Exibe o método na janela do Depurador para execução passo a passo no contexto do processo do Aplicativo (ou seja, a janela de exibição do registro).</li></ul>Para obter mais informações sobre a execução de métodos, consulte [Chamando Métodos do Projeto](../Concepts/methods.md#calling-project-methods). |
-| **Procurar no método**                       | ![search-icon](../assets/en/code-editor/search.png)                               | Exibe a área de [\*Pesquisa](#find-and-replace).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Macros**                                   | ![macros-button](../assets/en/code-editor/macros.png)                             | Insere uma macro na seleção. Clique na seta pendente para visualizar uma lista de macros disponíveis. Para obter mais informações sobre como criar e instanciar macros, consulte [Macros](#macros).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Expandir tudo / Recolher tudo**            | ![expand-collapse-button](../assets/en/code-editor/expand-collapse-all.png)       | Estes botões permitem expandir ou recolher todas as estruturas de fluxo de controle do código.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Informações sobre o método**               | ![method-information-icon](../assets/en/code-editor/method-information.png)       | Exibe a caixa de diálogo de [Propriedades do Método](../Concepts/methods.md#project-method-properties) (apenas métodos de projeto).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Últimos valores da área de transferência** | ![last-clipboard-values-icon](../assets/en/code-editor/last-clipboard-values.png) | Exibe os últimos valores armazenados na área de transferência.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Pranchetas**                               | ![clipboard icons](../assets/en/code-editor/clipboards.png)                       | Nove pranchetas disponíveis no editor de código. Você pode [usar estes clipboards](./write-class-method.md#multiple-copy-paste-and-numbering-of-clipboards) clicando neles diretamente ou usando atalhos de teclado. Você pode usar uma [opção de Preferências](Preferences/methods.md#options-1) para ocultá-las.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **Menu de navegação suspenso**               | ![code-navigation-icons](../assets/en/code-editor/tags.png)                       | Permite navegar dentro de métodos e classes com conteúdo marcado automaticamente ou marcadores declarados manualmente. Ver abaixo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Execução do método**                       | ![execute-method](/assets/en/code-editor/execute-method.png)                    | Ao trabalhar com métodos, cada janela do Code Editor tem um botão que pode ser usado para executar o método atual. Usando o menu associado a este botão, você pode escolher o tipo de execução:<ul><li>**Executar novo processo**: Cria um processo e executa o método no modo padrão neste processo.</li><li>**Executar e depurar novo processo**: Cria um novo processo e exibe o método na janela do Depurador para execução passo a passo neste processo.</li><li>**Executar no processo do Aplicativo**: Executa o método no modo padrão no contexto do processo do Aplicativo (ou seja, a janela de exibição do registro).</li><li>**Executar e depurar no processo do Aplicativo**: Exibe o método na janela do Depurador para execução passo a passo no contexto do processo do Aplicativo (ou seja, a janela de exibição do registro).</li></ul>Para obter mais informações sobre a execução de métodos, consulte [Chamando Métodos do Projeto](../Concepts/methods.md#calling-project-methods). |
+| **Procurar no método**                       | ![search-icon](/assets/en/code-editor/search.png)                               | Exibe a área de [\*Pesquisa](#find-and-replace).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Macros**                                   | ![macros-button](/assets/en/code-editor/macros.png)                             | Insere uma macro na seleção. Clique na seta pendente para visualizar uma lista de macros disponíveis. Para obter mais informações sobre como criar e instanciar macros, consulte [Macros](#macros).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Expandir tudo / Recolher tudo**            | ![expand-collapse-button](/assets/en/code-editor/expand-collapse-all.png)       | Estes botões permitem expandir ou recolher todas as estruturas de fluxo de controle do código.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Informações sobre o método**               | ![method-information-icon](/assets/en/code-editor/method-information.png)       | Exibe a caixa de diálogo de [Propriedades do Método](../Concepts/methods.md#project-method-properties) (apenas métodos de projeto).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Últimos valores da área de transferência** | ![last-clipboard-values-icon](/assets/en/code-editor/last-clipboard-values.png) | Exibe os últimos valores armazenados na área de transferência.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Pranchetas**                               | ![clipboard icons](/assets/en/code-editor/clipboards.png)                       | Nove pranchetas disponíveis no editor de código. Você pode [usar estes clipboards](./write-class-method.md#multiple-copy-paste-and-numbering-of-clipboards) clicando neles diretamente ou usando atalhos de teclado. Você pode usar uma [opção de Preferências](Preferences/methods.md#options-1) para ocultá-las.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Menu de navegação suspenso**               | ![code-navigation-icons](/assets/en/code-editor/tags.png)                       | Permite navegar dentro de métodos e classes com conteúdo marcado automaticamente ou marcadores declarados manualmente. Ver abaixo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 ### Área de edição
 
@@ -48,7 +48,7 @@ Cada janela do Editor de Código possui uma barra de ferramentas que fornece ace
 
 Barras coloridas mostram instantaneamente onde as linhas de código foram modificadas desde que o método foi aberto:
 
-![](../assets/en/code-editor/change-bars.png)
+![](/assets/en/code-editor/change-bars.png)
 
 As barras de alteração mudam de cor para indicar se as modificações foram salvas ou não:
 
@@ -59,14 +59,14 @@ As barras de alteração mudam de cor para indicar se as modificações foram sa
 
 A área de lista permite exibir uma ou mais listas de elementos necessários para escrever métodos e classes (comandos, constantes, formulários, etc.). Você pode escolher o número e o conteúdo das listas exibidas na janela.
 
-Por padrão, o editor de código apresenta quatro listas. Você pode ocultar ou mostrar todas as listas clicando no ícone no canto inferior direito da janela. ![](../assets/en/code-editor/show-hide-list.png)
+Por padrão, o editor de código apresenta quatro listas. Você pode ocultar ou mostrar todas as listas clicando no ícone no canto inferior direito da janela. ![](/assets/en/code-editor/show-hide-list.png)
 
 Você pode aumentar ou reduzir a largura relativa de cada área da lista arrastando uma de suas divisões. Também é possível ajustar o tamanho da área de lista em relação à área de edição arrastando a linha divisória entre elas.
 
 - Ao clicar duas vezes em um item em uma lista, ele será inserido na área de edição, na posição do cursor.
 - Para **modificar o conteúdo** de uma lista, clique na área do título da lista em questão: um menu pop-up será exibido, permitindo que você escolha o tipo de item a ser exibido.
 
-![](../assets/en/code-editor/list-area.png)
+![](/assets/en/code-editor/list-area.png)
 
 - Para adicionar ou remover uma lista, clique na área do título de uma das listas e escolha o comando correspondente no menu suspenso.
   O comando **Remover esta lista** está desativado quando você clica na última lista. Se você deseja ocultar todas as listas, você deve clicar no botão **mostrar ou ocultar listas** no canto inferior direito da janela ou ocultá-las por padrão nas **Preferências**.
@@ -131,21 +131,21 @@ Este tipo de busca é útil quando usada em conjunto com o [compilador](../Proje
 
 A barra de status localizada na parte inferior direita do editor da janela exibe a posição do cursor em todos os momentos:
 
-![](../assets/en/code-editor/status-bar.png)
+![](/assets/en/code-editor/status-bar.png)
 
 - **Ln**: Número da linha
 - **C**: número de coluna, ou seja, o nível na hierarquia das estruturas de programação. O primeiro nível é 0. O número da coluna é útil para debugar, pois essa informação pode ser fornecida pelo interpretador em caso de erro no código.
 - **Ch**: Localização do caractere na linha.
-- ![](../assets/en/code-editor/show-hide-list.png): Ocultar/exibir listas.
+- ![](/assets/en/code-editor/show-hide-list.png): Ocultar/exibir listas.
 
 Quando você define o cursor em um comando, função ou parâmetros, a barra de status exibe a sintaxe do comando. Se você escrever ou selecionar um parâmetro, a área mostra o parâmetro atual em **bold**:
-![](../assets/en/code-editor/status-bar-bold.png)
+![](/assets/en/code-editor/status-bar-bold.png)
 
 ### Menu de navegação suspenso
 
 O menu suspenso de navegação ajuda você a organizar seu código e navegar com mais facilidade dentro de suas classes e métodos:
 
-![dropdown-list](../assets/en/code-editor/dropdown-list.png)
+![dropdown-list](/assets/en/code-editor/dropdown-list.png)
 
 Algumas tags são adicionadas automaticamente, e você pode complementar a lista suspensa usando [marcadores](#manual-tagging).
 
@@ -163,10 +163,10 @@ Os seguintes itens são adicionados automaticamente:
 
 | Ícone                                                                       | Elemento                                                          |
 | --------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| ![no-tag-icon](../assets/en/code-editor/no-tag.png)                         | Sem etiqueta                                                      |
-| ![constructor-icon](../assets/en/code-editor/constructor.png)               | Class constructor ou declaração de método                         |
-| ![computed-attribute-icon](../assets/en/code-editor/computed-attribute.png) | Atributo calculado (get, set, orderBy e query) |
-| ![function-icon](../assets/en/code-editor/function.png)                     | Nome da função de classe                                          |
+| ![no-tag-icon](/assets/en/code-editor/no-tag.png)                         | Sem etiqueta                                                      |
+| ![constructor-icon](/assets/en/code-editor/constructor.png)               | Class constructor ou declaração de método                         |
+| ![computed-attribute-icon](/assets/en/code-editor/computed-attribute.png) | Atributo calculado (get, set, orderBy e query) |
+| ![function-icon](/assets/en/code-editor/function.png)                     | Nome da função de classe                                          |
 
 #### Marcação manual
 
@@ -174,9 +174,9 @@ Ao adicionar marcadores no seu código, pode adicionar as seguintes etiquetas ao
 
 | Ícone                                                   | Elemento                        |
 | ------------------------------------------------------- | ------------------------------- |
-| ![mark-tag-icon](../assets/en/code-editor/mark-tag.png) | MARK: etiqueta  |
-| ![todo-tag-icon](../assets/en/code-editor/todo-tag.png) | TODO: etiqueta  |
-| ![fixme-icon](../assets/en/code-editor/fixme-tag.png)   | FIXME: etiqueta |
+| ![mark-tag-icon](/assets/en/code-editor/mark-tag.png) | MARK: etiqueta  |
+| ![todo-tag-icon](/assets/en/code-editor/todo-tag.png) | TODO: etiqueta  |
+| ![fixme-icon](/assets/en/code-editor/fixme-tag.png)   | FIXME: etiqueta |
 
 Declara-os acrescentando comentários como:
 
@@ -188,11 +188,11 @@ As declarações não diferenciam maiúsculas de minúsculas; escrever `fixme:` 
 
 A adição de um hífen após a tag `MARK:` desenha uma linha de separação no editor de código e no menu suspenso. Por isso, estou a escrever isto:
 
-![mark-hyphen-image](../assets/en/code-editor/mark-hyphen-editor.png)
+![mark-hyphen-image](/assets/en/code-editor/mark-hyphen-editor.png)
 
 Os resultados são os seguintes:
 
-![mark-hyphen-image](../assets/en/code-editor/dropdown-organize.png)
+![mark-hyphen-image](/assets/en/code-editor/dropdown-organize.png)
 
 Todos os marcadores localizados dentro de funções são recuados na lista suspensa, exceto as tags `MARK:` localizadas no final das funções e não seguidas de instruções. Estes aparecerão no primeiro nível.
 
@@ -325,13 +325,13 @@ Além da operação padrão de copiar e colar, o 4D oferece duas funções adici
 
 - O programa armazena em memória as últimas 10 ações de "copiar" ou "recortar" que foram executadas no Editor de Código durante a sessão atual. Cada um dos diferentes conteúdos salvos desta forma pode ser reutilizado a qualquer momento. Para isso, use o comando **Clipboard History** do menu de contexto do Editor de código ou o botão "Last Clipboard values" da barra de ferramentas:
 
-  ![](../assets/en/code-editor/last-clipboard-values-2.png)
+  ![](/assets/en/code-editor/last-clipboard-values-2.png)
 
   São apresentadas as primeiras palavras dos itens copiados ou cortados. Selecione um item para inseri-lo no local atual do cursor.
 
 - Nove áreas de transferência numeradas adicionais estão disponíveis e podem ser empregadas diretamente usando os botões da barra de ferramentas do Editor de Código ou [usando atalhos de teclado](#atalhos):
 
-![](../assets/en/code-editor/clipboards-2.png)
+![](/assets/en/code-editor/clipboards-2.png)
 
 ### Linhas em movimento
 
@@ -343,26 +343,26 @@ O editor de código fornece funções de preenchimento automático. 4D exibe aut
 
 No exemplo abaixo, digitar a string "cop" faz com que seja exibido um triângulo azul indicando que há várias sugestões disponíveis:
 
-![](../assets/en/code-editor/autocomplete-1.png)
+![](/assets/en/code-editor/autocomplete-1.png)
 
 Quando os caracteres inseridos correspondem a uma única possibilidade, esse valor sugerido aparece em cinza (e é inserido se você pressionar a tecla **Tab**):
-![](../assets/en/code-editor/autocomplete-2.png) ---> ![](../assets/en/code-editor/autocomplete-3.png)
+![](/assets/en/code-editor/autocomplete-2.png) ---> ![](/assets/en/code-editor/autocomplete-3.png)
 
 > Se você marcou as opções \*\*Inserir () e fechar } ) ] " na página **Métodos** das **Preferências**, o 4D também adicionará automaticamente **()** depois de um comando 4D, palavra-chave ou método de projeto que requer um ou mais argumentos obrigatórios (depois de aceitar uma sugestão ou conclusão):
-> ![](../assets/en/code-editor/insert-and-closing-1.png) -> ![](../assets/en/code-editor/insert-and-closing-2.png)
+> ![](/assets/en/code-editor/insert-and-closing-1.png) -> ![](/assets/en/code-editor/insert-and-closing-2.png)
 
 O autocompletamento também funciona com estruturas de código (por exemplo, If...End if, For each...End for each): quando você insere a primeira parte da estrutura, o Code Editor sugere automaticamente a parte final:
-![](../assets/en/code-editor/autocomplete-code-structures.png)
+![](/assets/en/code-editor/autocomplete-code-structures.png)
 
 Se houver várias sugestões disponíveis, 4D as exibe em uma lista pop-up quando você pressiona a tecla **Tab**:
 
-![](../assets/en/code-editor/autocomplete-popup.png)
+![](/assets/en/code-editor/autocomplete-popup.png)
 
 A lista está por ordem alfabética. Escolha o valor clicando duas vezes nele ou role a lista usando as teclas de seta do teclado e, em seguida, pressione **Enter**, **Carriage Return** ou **Tab** para inserir o valor selecionado.
 
 Por padrão, você também pode inserir um valor sugerido pressionando uma das seguintes teclas delimitadoras `( ; : = < [ {` após selecionar um valor: o valor inserido é seguido pelo delimitador, pronto para a entrada de dados.
 
-![](../assets/en/code-editor/autocomplete-delimiter.png)  +  **(** key --> ![](../assets/en/code-editor/autocomplete-delimiter-2.png)
+![](/assets/en/code-editor/autocomplete-delimiter.png)  +  **(** key --> ![](/assets/en/code-editor/autocomplete-delimiter-2.png)
 
 > Você pode desativar o uso de delimitadores para inserir valores sugeridos em **Preferences** > **Methods** > **Options**.
 
@@ -392,13 +392,13 @@ O 4D exibe automaticamente sugestões sensíveis a maiúsculas e minúsculas de 
 - digite um ponto "." depois de um objeto ou
 - utilizar a tecla Tab após um ponteiro objeto desreferenciado "->".
 
-![](../assets/en/code-editor/autocomplete-object-attributes.png)
+![](/assets/en/code-editor/autocomplete-object-attributes.png)
 
 > A propriedade `length` é sempre incluída para uso com coleções.
 
 Uma vez criados, os nomes das propriedades são armazenados em uma lista global interna e ficam disponíveis sempre que um método/classe/função é aberto, fechado ou muda de foco.
 
-![](../assets/en/code-editor/autocomplete-object-attributes-2.png)
+![](/assets/en/code-editor/autocomplete-object-attributes-2.png)
 
 A lista de sugestões é atualizada dinamicamente enquanto você edita o código. Ao alternar entre janelas, os nomes de propriedades novos/editados são sempre adicionados à lista global. A lista também é atualizada quando você visualiza um método, uma classe ou uma função no Explorer.
 
@@ -412,7 +412,7 @@ O editor de código possui poderosas funcionalidades de **buscar e substituir** 
 
 Uma área de busca e substituição pode ser exibida na barra de ferramentas de qualquer janela de método:
 
-![find-dialog](../assets/en/code-editor/search-area.png)
+![find-dialog](/assets/en/code-editor/search-area.png)
 
 Para exibir essa área, clique no ícone **Encontrar no método** da [barra de ferramentas](#barra de ferramentas) ou selecione uma função de localização ou substituição por meio de um [**atalho**](#atalhos) ou de um comando do submenu **Editar > Localizar**. Você pode fechar essa área a qualquer momento clicando no botão **x** no lado direito da barra de ferramentas.
 
@@ -432,12 +432,12 @@ A área de entrada **find** permite que você insira a string a ser pesquisada. 
 
 Depois que uma cadeia é inserida ou selecionada, todas as ocorrências encontradas na janela aberta são destacadas e o lado direito da área exibe o número total de ocorrências encontradas. Também indica a posição atual do cursor entre todos os resultados.
 
-Pressione a tecla **Enter** para selecionar a ocorrência mais próxima ao cursor. Você também pode clicar nos botões **Próximo / Anterior** ![find-next-previous](../assets/en/code-editor/find-next.png) para selecionar todas as ocorrências sequencialmente no início ou no fim do método atual, a partir da localização inicial do cursor, ou usar os comandos **Procurar Próximo** e **Procurar Anterior** do [menu **Editar**](#shortcuts).
+Pressione a tecla **Enter** para selecionar a ocorrência mais próxima ao cursor. Você também pode clicar nos botões **Próximo / Anterior** ![find-next-previous](/assets/en/code-editor/find-next.png) para selecionar todas as ocorrências sequencialmente no início ou no fim do método atual, a partir da localização inicial do cursor, ou usar os comandos **Procurar Próximo** e **Procurar Anterior** do [menu **Editar**](#shortcuts).
 
 #### Opções
 
-- **Sensível a maiúsculas e minúsculas** ![case-sensitive](../assets/en/code-editor/case-sensitive.png): Leva em consideração as maiúsculas e minúsculas dos caracteres conforme eles foram inseridos na área de localização. Essa opção também considera os caracteres diacríticos. Por exemplo, uma busca por "MyVar" não encontrará "myVar"; uma busca por "dej" não encontrará "déjà".
-- **Palavra Inteira** ![full-word](../assets/en/code-editor/full-word.png): Limita a pesquisa a ocorrências exatas da palavra que está sendo procurada. Quando esta opção for marcada, por exemplo, uma busca por "cliente" não irá encontrar nem "clientes" nem "meucliente." Por padrão, essa opção não está marcada; portanto, uma pesquisa por "var" encontrará "Myvar", "variation" etc.
+- **Sensível a maiúsculas e minúsculas** ![case-sensitive](/assets/en/code-editor/case-sensitive.png): Leva em consideração as maiúsculas e minúsculas dos caracteres conforme eles foram inseridos na área de localização. Essa opção também considera os caracteres diacríticos. Por exemplo, uma busca por "MyVar" não encontrará "myVar"; uma busca por "dej" não encontrará "déjà".
+- **Palavra Inteira** ![full-word](/assets/en/code-editor/full-word.png): Limita a pesquisa a ocorrências exatas da palavra que está sendo procurada. Quando esta opção for marcada, por exemplo, uma busca por "cliente" não irá encontrar nem "clientes" nem "meucliente." Por padrão, essa opção não está marcada; portanto, uma pesquisa por "var" encontrará "Myvar", "variation" etc.
 
 ### Substituir
 
@@ -475,12 +475,12 @@ O Code Live Checker é ativado em três níveis:
 
 Dois tipos de símbolos são exibidos:
 
-- **[warnings](../Project/compiler.md#warnings)** ![warning](../assets/en/code-editor/incorrect-expression-icon.png): Warnings are intended to draw your attention to statements that might lead to execution errors. Não impedem a compilação.
-- **errors**![error](../assets/en/code-editor/error-icon.png): erros são anomalias que impedem que o código seja executado corretamente. Eles devem ser corrigidos, caso contrário o projeto não será compilado.
+- **[warnings](../Project/compiler.md#warnings)** ![warning](/assets/en/code-editor/incorrect-expression-icon.png): Warnings are intended to draw your attention to statements that might lead to execution errors. Não impedem a compilação.
+- **errors**![error](/assets/en/code-editor/error-icon.png): erros são anomalias que impedem que o código seja executado corretamente. Eles devem ser corrigidos, caso contrário o projeto não será compilado.
 
 Quando você passa o mouse sobre o símbolo, uma dica de ajuda exibe a causa do erro:
 
-![](../assets/en/code-editor/incorrect-expression-message.png)
+![](/assets/en/code-editor/incorrect-expression-message.png)
 
 O Verificador de código ao vivo é ativado enquanto você insere o código. Quando uma linha de um método, classe ou função for marcada como tendo sintaxe inadequada, verifique e corrija a entrada. Se a linha estiver correta, 4D removerá o símbolo de erro. Quando salvar ou fechar a janela, todo o método é validado.
 
@@ -497,7 +497,7 @@ O Verificador ao Vivo do Código verifica por:
 
 Quando você digita um caractere de fechamento, 4D indica a correspondência enquadrando os caracteres de início/fim com retângulos cinza por padrão:
 
-![](../assets/en/code-editor/matching-enclosing-characters.png)
+![](/assets/en/code-editor/matching-enclosing-characters.png)
 
 Você pode modificar a forma como o 4D indica os caracteres correspondentes ou desativar esse recurso em [**Preferences**](../Preferences/methods.md#options-1).
 
@@ -518,19 +518,19 @@ A [barra de status](#status-bar) também fornece informações contextuais.
 - **Erros**: Quando você passa o mouse sobre o símbolo que indica um erro à esquerda da área de edição, uma dica de ajuda exibe a causa do erro (consulte [Syntax errors](#syntax-errors)).
 
 - **Documentação do comando 4D**: Quando você passa o mouse sobre um comando ou função 4D, uma dica de ajuda fornece sua sintaxe juntamente com uma breve descrição de como funciona.
-  ![](../assets/en/code-editor/status-bar-description.png)
+  ![](/assets/en/code-editor/status-bar-description.png)
 
 - **Tipo de variável e descrição**: Quando você passa o mouse sobre uma variável, uma dica de ajuda mostra seu tipo (se tiver sido explicitamente definido no método) e o comentário associado, se houver.
-  ![](../assets/en/code-editor/variable-type.png)
+  ![](/assets/en/code-editor/variable-type.png)
 
 - **Métodos ou funções do projeto**: Quando você passa o mouse sobre um método de projeto ou função de classe, uma dica de ajuda é exibida:
 
   - ou os comentários especificados no Explorador.
   - ou as primeiras linhas da função do método ou da classe, se ela incluir comentários (linhas que começam com // ou /_..._/ bloco de comentários). É prática comum inserir documentação para o método, assim como seus parâmetros, na forma de comentários no início do método. Você pode obter essa informação diretamente na gorjeta de ajuda, apenas certifique-se de remover primeiro quaisquer comentários encontrados no Explorer.
     Comentários no início de um método:
-    ![](../assets/en/code-editor/comments-method.png)
+    ![](/assets/en/code-editor/comments-method.png)
     Dica de ajuda em outro método:
-    ![](../assets/en/code-editor/help-tip.png)
+    ![](/assets/en/code-editor/help-tip.png)
 
 - Você também pode criar um arquivo de documentação **dedicado** chamado `<MethodName>.md` na pasta `<package>/documentation`. Veja [Visualizar a documentação no editor de código](../Project/documentation.md#viewing-documentation-in-the-code-editor)
 
@@ -542,7 +542,7 @@ Há dois tipos de comentários: `//comment` (comentário de linha única) e `/*c
 
 Os comentários podem ser criados digitando caracteres `/`. Ou o comando **Comment/Uncomment**, encontrado no menu **Method** e também no menu de contexto do Code Editor, é usado para marcar um grupo de linhas de código selecionadas como comentários de linha única ou, ao contrário, para remover os caracteres de comentário de linha única de uma seleção. Para usar esse comando, selecione o código que será marcado como comentado e em seguida selecione o comando **Comment/Uncomment**:
 
-![](../assets/en/code-editor/comment-uncomment-1.png) --> ![](../assets/en/code-editor/comment-uncomment-2.png)
+![](/assets/en/code-editor/comment-uncomment-1.png) --> ![](/assets/en/code-editor/comment-uncomment-2.png)
 
 Quando a seleção contém apenas código ativo, o comando **Comentário** é aplicado. Or, the <strong x-id="1">Comment/Uncomment</strong> command, found in the <strong x-id="1">Method</strong> menu as well as in the Code Editor context menu is used to mark a group of selected lines of code as single line comments, or, on the contrary, to remove the single line comment characters from a selection. Quando a seleção contém apenas linhas comentadas, o comando **Uncomment** é aplicado.
 
@@ -553,10 +553,10 @@ Quando a seleção contém apenas código ativo, o comando **Comentário** é ap
 O código 4D localizado dentro de loops e condições agora pode ser recolhido ou expandido, para facilitar a leitura dos métodos:
 
 - Código expandido:
-  ![](../assets/en/code-editor/expanded-code.png)
+  ![](/assets/en/code-editor/expanded-code.png)
 
 - Código recolhido:
-  ![](../assets/en/code-editor/collapsed-code.png)
+  ![](/assets/en/code-editor/collapsed-code.png)
 
 Se você posicionar o mouse sobre o botão de expansão [...], uma dica de ajuda aparece, exibindo as primeiras linhas do código oculto.
 
@@ -606,7 +606,7 @@ Esses comandos são encontrados no menu **Méto** e no menu de contexto do edito
 
 4D permite que você associe marcadores a certas linhas em seus métodos. Você pode navegar rapidamente dentro do código passando de um favorito para outro usando comandos específicos.
 
-![](../assets/en/code-editor/bookm.png)
+![](/assets/en/code-editor/bookm.png)
 
 Um favorito se move junto com sua linha original se linhas adicionais forem inseridas no método. Os marcadores são guardados com os métodos.
 
@@ -670,7 +670,7 @@ O comando **Search References...** encontrado no menu **Method** ou no menu de c
 
 O item atual é aquele selecionado ou aquele em que o cursor está localizado. Pode ser um nome de campo, nome de variável, comando, cadeia de caracteres e assim por diante. Por exemplo, a ação a seguir procura todas as ocorrências da variável _vlNbCmd_ no banco de dados:
 
-![find-dialog](../assets/en/code-editor/search-references.png)
+![find-dialog](/assets/en/code-editor/search-references.png)
 
 Este comando apresenta os seus resultados numa nova janela.
 

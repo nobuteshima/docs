@@ -26,7 +26,7 @@ title: VP ADD SPAN
 
 "First quarter" セルと "Second quarter" セルを、それぞれ右 2つのセルと結合し、"South area" セルは下 2つのセルと結合します:
 
-![initial-document](../../assets/en/ViewPro/vp-add-span.png)
+![initial-document](/assets/en/ViewPro/vp-add-span.png)
 
 ```4d
  // "First quarter" レンジ
@@ -41,7 +41,7 @@ title: VP ADD SPAN
  VP ADD SPAN(VP Combine ranges($q1;$q2;$south))
 ```
 
-![vp-add-span-result](../../assets/en/ViewPro/vp-add-span-2.png)
+![vp-add-span-result](/assets/en/ViewPro/vp-add-span-2.png)
 
 #### 参照
 

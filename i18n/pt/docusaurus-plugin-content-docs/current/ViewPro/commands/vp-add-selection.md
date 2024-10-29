@@ -25,7 +25,7 @@ Em *rangeObj*, passe um objeto intervalo de células a adicionar à seleção at
 
 Tem células atualmente seleccionadas:
 
-![](../../assets/en/ViewPro/cmd_vpAddSelection1.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection1.PNG)
 
 O código seguinte adicionará células à sua seleção:
 
@@ -36,7 +36,7 @@ VP ADD SELECTION($currentSelection)
 
 Resultados:
 
-![](../../assets/en/ViewPro/cmd_vpAddSelection2.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection2.PNG)
 
 #### Veja também
 

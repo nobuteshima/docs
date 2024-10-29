@@ -25,7 +25,7 @@ displayed_sidebar: docs
 
 Este comando geralmente se chama junto com [Open form window](open-form-window.md) para mostrar formulários sofisticados, como é mostrado no exemplo abaixo:
 
-![](../assets/en/commands/pict3541609.en.png)
+![](/assets/en/commands/pict3541609.en.png)
 
 Utilize DIALOG ao invés de [ALERT](alert.md), [CONFIRM](confirm.md) ou [Request](request.md) quando a informação que deve ser apresentada ou reunida é mais complexa do que esses comandos podem manejar. 
 
@@ -81,13 +81,13 @@ O exemplo a seguir pode ser usado para criar uma palheta de ferramentas
 
 Em um formulário exibindo o registro de uma pessoa, um botão "Check children" abre um diálogo para verificar/modificar os nomes e idades dos filhos:
 
-![](../assets/en/commands/pict3542015.en.png)
+![](/assets/en/commands/pict3542015.en.png)
 
 **Nota:** O campo objeto "Children" é representado apenas para mostrar sua estrutura para esse exemplo.
 
 No formulário de verificação, se tiver atribuido algumas propriedades de objeto a variáveis [Form](form.md):
 
-![](../assets/en/commands/pict3541682.en.png)
+![](/assets/en/commands/pict3541682.en.png)
 
 Abaixo o código para o botão "Check children":
 
@@ -121,7 +121,7 @@ Abaixo o código para o botão "Check children":
 
 O formulário exibe informação para cada campo:
 
-![](../assets/en/commands/pict3515152.en.png)
+![](/assets/en/commands/pict3515152.en.png)
 
 Se os valores forem editados e o botão OK button for clicaod, o campo é atualizado (o registro pai deve ser salvo depois). 
 
@@ -137,7 +137,7 @@ O exemplo abaixo usa a rota a um formulário json para exibir os registros em um
 
 o que retorna:
 
-![](../assets/en/commands/pict3687439.en.png)
+![](/assets/en/commands/pict3687439.en.png)
 
 #### Exemplo 4 
 
@@ -155,7 +155,7 @@ O exemplo abaixo utiliza um aquivo .json como um objeto e modifica algumas propr
 
 O formulário modificado é devolvido com o título, o logotipo e a borda modificados:
 
-![](../assets/en/commands/pict3688356.en.png)
+![](/assets/en/commands/pict3688356.en.png)
 
 #### Variáveis e conjuntos do sistema 
 

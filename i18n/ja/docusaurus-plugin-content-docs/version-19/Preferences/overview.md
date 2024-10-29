@@ -12,7 +12,7 @@ title: 概要
 
 環境設定ダイアログボックスにアクセスするには **編集** (Windows) または **4D** アプリケーションメニュー (macOS) から **環境設定...** を選択します:
 
-![](../assets/en/Preferences/overviewAccess.png)
+![](/assets/en/Preferences/overviewAccess.png)
 
 このメニューコマンドは、プロジェクトが開かれていない場合でも利用できます。
 
@@ -29,7 +29,7 @@ title: 概要
 
 設定ダイアログボックスでは、変更された設定内容は太字で表示されます:
 
-![](../assets/en/Preferences/overviewUser.png)
+![](/assets/en/Preferences/overviewUser.png)
 
 環境設定においては、ダイアログボックスで直接変更されたか、変換されたデータベースの場合以前のバージョンで変更された設定が、カスタマイズ箇所として扱われます。
 
@@ -37,6 +37,6 @@ title: 概要
 
 パラメーターをデフォルト値に戻し、カスタマイズされたことを示す太字スタイルを取り除くためには、**初期設定にリセット** ボタンをクリックします:
 
-![](../assets/en/Preferences/overviewSettings.png)
+![](/assets/en/Preferences/overviewSettings.png)
 
 このボタンをクリックすると、現在表示されているページの全パラメーターがリセットされます。 現在のページで最低でも一つのパラメーターが変更されると、このボタンはアクティブになります。

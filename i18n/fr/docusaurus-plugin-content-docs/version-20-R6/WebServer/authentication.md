@@ -9,7 +9,7 @@ L'authentification est nécessaire lorsque vous souhaitez fournir des droits d'a
 
 Le serveur web 4D propose trois modes d'authentification que vous pouvez sélectionner sur la page **Web**/**Options (I)** de la fenêtre des Propriétés :
 
-![](../assets/en/WebServer/authentication.png)
+![](/assets/en/WebServer/authentication.png)
 
 > Il est recommandé d'utiliser une authentification **personnalisée**.
 
@@ -17,7 +17,7 @@ Le serveur web 4D propose trois modes d'authentification que vous pouvez sélect
 
 Le schéma suivant résume le système d'accès au serveur web 4D :
 
-![](../assets/en/WebServer/serverAccess.png)
+![](/assets/en/WebServer/serverAccess.png)
 
 > Les requêtes qui commencent par `rest/` sont gérées directement par le [serveur REST](REST/configuration.md).
 

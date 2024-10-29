@@ -29,7 +29,7 @@ title: VP Get sheet index
 
 以下のドキュメントにおいて:
 
-![](../../assets/en/ViewPro/vp-sheet-index-name.png)
+![](/assets/en/ViewPro/vp-sheet-index-name.png)
 
 "Total first quarter" という名前のシートのインデックスを取得します:
 

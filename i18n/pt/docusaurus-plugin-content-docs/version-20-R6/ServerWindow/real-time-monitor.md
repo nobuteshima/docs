@@ -5,7 +5,7 @@ title: Página do monitor em tempo real
 
 The Real Time Monitor page monitors the progress of "long" operations performed by the application in real time. These operations are, for example, sequential queries, execution of formulas, etc.
 
-![](../assets/en/Admin/server-admin-monitor-page.png)
+![](/assets/en/Admin/server-admin-monitor-page.png)
 
 > This page is available in the administration window of the server machine and also from a remote 4D machine. In the case of a remote machine, this page displays data from operations performed on the server machine.
 
@@ -41,17 +41,17 @@ Para acceder al modo avanzado de una operación, presione **Mayús** y seleccion
 
 Eis um exemplo de informações apresentadas no modo padrão:
 
-![](../assets/en/Admin/server-admin-monitor-adv1.png)
+![](/assets/en/Admin/server-admin-monitor-adv1.png)
 
 En el modo avanzado (**Mayús+Clic** en la operación), se muestra información adicional:
 
-![](../assets/en/Admin/server-admin-monitor-adv2.png)
+![](/assets/en/Admin/server-admin-monitor-adv2.png)
 
 ## Botão instantânea
 
 El botón **Instantánea** permite copiar en el portapapeles todas las operaciones que se muestran en el panel RTM, así como sus detalles relacionados (información de procesos y suboperaciones):
 
-![](../assets/en/Admin/server-admin-monitor-snapshot.png)
+![](/assets/en/Admin/server-admin-monitor-snapshot.png)
 
 ## Mostrar operações durante pelo menos 5 segundos
 

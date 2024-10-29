@@ -112,11 +112,11 @@ Estas propiedades interactúan de la siguiente manera:
 
 - Si define columnas bloqueadas pero no estáticas, puede seguir cambiando su posición libremente dentro del área bloqueada. Sin embargo, una columna bloqueada no puede moverse fuera de esta área bloqueada.
 
-![](../assets/en/FormObjects/property_lockedStaticColumns1.png)
+![](/assets/en/FormObjects/property_lockedStaticColumns1.png)
 
 - Si define todas las columnas del área bloqueada como estáticas, no podrá mover estas columnas dentro del área bloqueada.
 
-![](../assets/en/FormObjects/property_lockedStaticColumns2.png)
+![](/assets/en/FormObjects/property_lockedStaticColumns2.png)
 
 - Puede definir una combinación de columnas bloqueadas y estáticas según sus necesidades. Por ejemplo, si define tres columnas bloqueadas y una columna estática, el usuario puede intercambiar las dos columnas situadas más a la derecha dentro del área bloqueada (ya que sólo la primera columna es estática).
 
@@ -190,7 +190,7 @@ Para cambiar el estado de una línea, basta con definir la(s) constante(s) adecu
  aLControlArr{10}:=lk row is not selectable
 ```
 
-![](../assets/en/FormObjects/listbox_styles5.png)
+![](/assets/en/FormObjects/listbox_styles5.png)
 
 Puede definir varias propiedades de la interfaz a la vez:
 
@@ -198,7 +198,7 @@ Puede definir varias propiedades de la interfaz a la vez:
  aLControlArr{8}:=lk row is not selectable + lk row is disabled
 ```
 
-![](../assets/en/FormObjects/listbox_styles6.png)
+![](/assets/en/FormObjects/listbox_styles6.png)
 
 Tenga en cuenta que la configuración de las propiedades de un elemento anula cualquier otro valor de este elemento (si no se restablece). Por ejemplo:
 

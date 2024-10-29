@@ -279,11 +279,11 @@ Formulaオブジェクトは、オブジェクトプロパティに格納する�
  End if
 ```
 
-![](../assets/en/API/formulaDialog.png)
+![](/assets/en/API/formulaDialog.png)
 
 そのフォーミュラを実行します:
 
-![](../assets/en/API/formulaAlert.png)
+![](/assets/en/API/formulaAlert.png)
 
 <!-- REF FunctionClass.apply().Desc -->
 

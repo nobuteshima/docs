@@ -50,7 +50,7 @@ Si vous ne passez pas un paramètre miseAJourPlage, le contenu inséré sera inc
 
 Vous souhaitez ajouter du texte à ce document :
 
-![](../../assets/en/WritePro/commands/pict3772543.en.png)
+![](/assets/en/WritePro/commands/pict3772543.en.png)
 
 objCible est un document 4D Write Pro :
 

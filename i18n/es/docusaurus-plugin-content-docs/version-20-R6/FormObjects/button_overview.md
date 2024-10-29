@@ -5,7 +5,7 @@ title: Botón
 
 Un botón es un objeto activo al que se le puede asignar una acción (*por ejemplo*, una tarea de base de datos o una función de interfaz) para que la realice cuando un usuario haga clic en él.
 
-![](../assets/en/FormObjects/button_regular.png)
+![](/assets/en/FormObjects/button_regular.png)
 
 Los botones pueden cumplir diversas funciones, según su estilo y la acción que se les asigne. Por ejemplo, los botones pueden guiar al usuario a través de un cuestionario o formulario para que lo llene, o para que tome decisiones. Dependiendo de sus propiedades, un botón puede estar diseñado para ser presionado una sola vez y ejecutar un comando, mientras que otros pueden requerir que el usuario haga clic más de una vez para recibir el resultado deseado.
 
@@ -34,7 +34,7 @@ Con la excepción de las [propiedades-disponibles](#supported-properties), mucho
 
 El estilo de botón Clásico es un botón sistema estándar (*es decir,*, un rectángulo con una etiqueta descriptiva) que ejecuta el código cuando el usuario hace clic en él.
 
-![](../assets/en/FormObjects/button_regular.png)
+![](/assets/en/FormObjects/button_regular.png)
 
 Por defecto, el estilo Clásico tiene un fondo gris claro con una etiqueta en el centro. Cuando el cursor pasa por encima del estilo de botón Clásico, el borde y el color de fondo cambian para demostrar que tiene el foco. Además de iniciar la ejecución del código, el estilo del botón Clásico imita un botón mecánico cambiando rápidamente el color de fondo al ser presionado.
 
@@ -61,7 +61,7 @@ Sólo los estilos Clásico y Plano ofrecen la propiedad [Botón por defecto](pro
 
 El estilo de botón Plano es un botón sistema estándar (\*es decir, \*, un rectángulo con una etiqueta descriptiva) que ejecuta código cuando un usuario hace clic en él.
 
-![](../assets/en/FormObjects/button_flat.png)
+![](/assets/en/FormObjects/button_flat.png)
 
 Por defecto, el estilo Plano tiene un fondo blanco con una etiqueta en el centro, esquinas redondeadas y una apariencia minimalista. El estilo gráfico del botón Flat es especialmente útil para los formularios a imprimir.
 
@@ -92,7 +92,7 @@ Por defecto, el estilo Barra de herramientas tiene un fondo transparente con una
 
 - *Windows* - el botón se resalta cuando utiliza la propiedad "Con menú emergente", se muestra un triángulo a la derecha y en el centro del botón.
 
-![](../assets/en/FormObjects/button_toolbar.png)
+![](/assets/en/FormObjects/button_toolbar.png)
 
 - *macOS* - el resalte del botón nunca aparece. Cuando utiliza la propiedad "Con menú emergente", aparece un triángulo a la derecha y en la parte inferior del botón.
 
@@ -120,7 +120,7 @@ Por defecto, el estilo Bevel tiene un fondo gris claro con una etiqueta en el ce
 
 - *Windows* - el botón está resaltado. Cuando utiliza la propiedad "Con menú emergente", aparece un triángulo a la derecha y en el centro del botón.
 
-![](../assets/en/FormObjects/button_bevel.png)
+![](/assets/en/FormObjects/button_bevel.png)
 
 - *macOS* - el resalte del botón nunca aparece. Cuando utiliza la propiedad "Con menú emergente", aparece un triángulo a la derecha y en la parte inferior del botón.
 
@@ -148,7 +148,7 @@ Por defecto, el estilo Bevel Redondeado tiene un fondo gris claro con una etique
 
 - *Windows* - el botón es idéntico al estilo Bevel. Cuando utiliza la propiedad "Con menú emergente", aparece un triángulo a la derecha y en el centro del botón.
 
-![](../assets/en/FormObjects/button_roundedbevel.png)
+![](/assets/en/FormObjects/button_roundedbevel.png)
 
 - *macOS* - las esquinas del botón están redondeadas. Cuando utiliza la propiedad "Con menú emergente", aparece un triángulo a la derecha y en la parte inferior del botón.
 
@@ -176,7 +176,7 @@ Por defecto, el estilo OS X Gradient tiene un fondo gris claro con una etiqueta 
 
 - *Windows* - el botón es idéntico al estilo Bevel. Cuando utiliza la propiedad "Con menú emergente", aparece un triángulo a la derecha del botón.
 
-![](../assets/en/FormObjects/button_osxgradient.png)
+![](/assets/en/FormObjects/button_osxgradient.png)
 
 - *macOS* - el botón se muestra como un botón de dos tonos. Cuando utiliza la propiedad "Con menú emergente", aparece un triángulo a la derecha y en la parte inferior del botón.
 
@@ -204,7 +204,7 @@ Por defecto, el estilo OS X Textured aparece como:
 
 - *Windows* - un botón sistema estándar con un fondo gris claro con una etiqueta en el centro. Tiene la particularidad de ser transparente en Vista.
 
-![](../assets/en/FormObjects/button_osxtextured.png)
+![](/assets/en/FormObjects/button_osxtextured.png)
 
 - *macOS* - - un botón sistema estándar que muestra un cambio de color de gris claro a gris oscuro. Su altura está predefinida: no es posible ampliarla o reducirla.
 
@@ -232,7 +232,7 @@ Los colores (resaltado y fondo) de un botón con el estilo Office XP se basan en
 
 - *Windows* - su fondo sólo aparece cuando el ratón pasa por encima.
 
-![](../assets/en/FormObjects/button_officexp.png)
+![](/assets/en/FormObjects/button_officexp.png)
 
 - *macOS* - su fondo se muestra siempre.
 
@@ -256,7 +256,7 @@ Los colores (resaltado y fondo) de un botón con el estilo Office XP se basan en
 
 El estilo del botón Ayuda puede utilizarse para mostrar un botón de ayuda estándar del sistema. Por defecto, el estilo Ayuda se muestra como un signo de interrogación dentro de un círculo.
 
-![](../assets/en/FormObjects/button_help.png)
+![](/assets/en/FormObjects/button_help.png)
 
 #### Ejemplo JSON:
 
@@ -279,7 +279,7 @@ El estilo del botón Ayuda puede utilizarse para mostrar un botón de ayuda est�
 
 El estilo de botón Círculo aparece como un botón sistema circular. Este estilo de botón está diseñado para macOS.
 
-![](../assets/en/FormObjects/button_circleM.png)
+![](/assets/en/FormObjects/button_circleM.png)
 
 En Windows, es idéntico al estilo "Ninguno" (no se tiene en cuenta el círculo del fondo).
 
@@ -302,7 +302,7 @@ En Windows, es idéntico al estilo "Ninguno" (no se tiene en cuenta el círculo 
 
 El estilo de botón Personalizado acepta una imagen de fondo personalizada y permite gestionar parámetros adicionales como el margen y el desplazamiento del icono.
 
-![](../assets/en/FormObjects/button_custom.png)
+![](/assets/en/FormObjects/button_custom.png)
 
 #### Ejemplo JSON:
 

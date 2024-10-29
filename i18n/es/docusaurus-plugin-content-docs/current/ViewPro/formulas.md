@@ -19,11 +19,11 @@ Al escribir una fórmula, puede utilizar diferentes atajos:
 
 - haga clic en una celda para introducir su referencia en la fórmula:
 
-![](../assets/en/ViewPro/formulas.PNG)
+![](/assets/en/ViewPro/formulas.PNG)
 
 - escriba la primera letra de una función a ingresar. Aparece un menú contextual en el que se listan las funciones y referencias disponibles, permitiéndole seleccionar los elementos deseados:
 
-![](../assets/en/ViewPro/formula2.png)
+![](/assets/en/ViewPro/formula2.png)
 
 También puede crear fórmulas con nombre que pueden ser llamadas a través de su nombre. Para hacerlo, ingresa estas fórmulas utilizando el comando [VP ADD FORMULA NAME](commands/vp-add-formula-name.md).
 
@@ -117,7 +117,7 @@ La siguiente tabla muestra el efecto de las diferentes notaciones:
 
 Las funciones de hoja de cálculo son fórmulas predefinidas utilizadas para calcular los valores de las celdas. Al teclear la primera letra de la función a introducir, aparece un menú emergente con las funciones y referencias disponibles, que permite seleccionar los elementos deseados:
 
-![](../assets/en/ViewPro/vpFormula2.PNG)
+![](/assets/en/ViewPro/vpFormula2.PNG)
 
 Ver [**Lista extendida de funciones SpreadJS**](https://developer.mescius.com/spreadjs/docs/formulareference/FormulaFunctions) para más detalles y ejemplos.
 
@@ -191,11 +191,11 @@ Queremos imprimir "Hola Mundo" en una celda del área 4D View Pro utilizando un 
 
 3. Edite el contenido de una celda en un área 4D View Pro y escriba:
 
-   ![](../assets/en/ViewPro/vpProjMeth1.PNG)
+   ![](/assets/en/ViewPro/vpProjMeth1.PNG)
 
    "myMethod" es entonces llamado por 4D y la la celda se muestra:
 
-   ![](../assets/en/ViewPro/vpProjMeth2.PNG)
+   ![](/assets/en/ViewPro/vpProjMeth2.PNG)
 
 ### Parámetros
 
@@ -274,7 +274,7 @@ $o.BIRTH_INFORMATION.summary:="Returns a formatted string from given information
 VP SET CUSTOM FUNCTIONS("ViewProArea"; $o)
 ```
 
-![](../assets/en/ViewPro/params.png)
+![](/assets/en/ViewPro/params.png)
 
 ## Compatibilidad
 
@@ -317,7 +317,7 @@ Queremos imprimir el nombre de una persona en una celda del área 4D View Pro ut
 
 1. Crear una tabla "Employee" con un campo "L_Name":
 
-![](../assets/en/ViewPro/vpFieldMeth1.PNG)
+![](/assets/en/ViewPro/vpFieldMeth1.PNG)
 
 2. Ejecuta el siguiente código para inicializar una estructura virtual:
 
@@ -337,15 +337,15 @@ Queremos imprimir el nombre de una persona en una celda del área 4D View Pro ut
 
 3. Edite el contenido de una celda en el área 4D View Pro e introduzca "=e":
 
-![](../assets/en/ViewPro/vpFieldMeth2.PNG)
+![](/assets/en/ViewPro/vpFieldMeth2.PNG)
 
 4. Seleccione EMP_NAME (utilice la tecla Tab) e introduzca el cierre).
 
-![](../assets/en/ViewPro/vpFieldMeth3.PNG)
+![](/assets/en/ViewPro/vpFieldMeth3.PNG)
 
 5. Valide el campo para mostrar el nombre del empleado actual:
 
-![](../assets/en/ViewPro/vpFieldMeth4.PNG)
+![](/assets/en/ViewPro/vpFieldMeth4.PNG)
 
 > La tabla \[Employee] debe tener un registro actual.
 

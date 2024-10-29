@@ -54,7 +54,7 @@ displayed_sidebar: docs
 
 カラムオブジェクト名に、実際のデータクラスの属性名を以下のように設定した場合:
 
-![](../assets/en/commands/pict4843820.en.png)
+![](/assets/en/commands/pict4843820.en.png)
 
 On Header Click イベントを使用してカラムをソートすることができます:
 
@@ -72,7 +72,7 @@ On Header Click イベントを使用してカラムをソートすることが�
 
 リストボックスオブジェクトのOn Display Details イベントが発生したときに、*メタ情報式* プロパティに設定したメソッドを実行したい場合を考えます:
 
-![](../assets/en/commands/pict4843812.en.png)
+![](/assets/en/commands/pict4843812.en.png)
 
 *setColor* メソッドの中身です:
 
@@ -92,7 +92,7 @@ On Header Click イベントを使用してカラムをソートすることが�
 
 その結果、行が選択された際のリストボックスは以下のようになります:
 
-![](../assets/en/commands/pict4843808.en.png)
+![](/assets/en/commands/pict4843808.en.png)
 
 #### 参照 
 

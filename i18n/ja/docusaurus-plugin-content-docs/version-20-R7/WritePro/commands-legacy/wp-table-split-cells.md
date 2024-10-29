@@ -58,7 +58,7 @@ If startColumn 引数と ColumnCount 引数の和、または *startRow* 引数�
 
 実行した結果:
 
-![](../../assets/en/WritePro/commands/pict6398103.en.png)
+![](/assets/en/WritePro/commands/pict6398103.en.png)
 
 結合していたセルにあったデータは結合解除後は全て最初(左上)のセルへと格納され、それ以外の解除されたセルは空のままになります。
 

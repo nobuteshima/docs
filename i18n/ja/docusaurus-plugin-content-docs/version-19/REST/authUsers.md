@@ -31,7 +31,7 @@ RESTリクエストは [Webユーザーセッション](WebServer/sessions.md) �
 
 htmlログインページ:
 
-![alt-text](../assets/en/REST/login.png)
+![alt-text](/assets/en/REST/login.png)
 
 ```html
 <html><body bgcolor="#ffffff">

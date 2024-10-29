@@ -14,8 +14,8 @@ Estão disponíveis dois modos de arrastamento:
 - **Personalizado**: nesse modo, qualquer operação de arrastar executada no objeto aciona o evento de formulário `On Begin Drag` no contexto do objeto. Em seguida, a ação de arrastamento é gerida através de um método.\
   In custom mode, basically the whole drag-and-drop operation is handled by the programmer. This mode lets you implement any interface based upon drag-on-drop, including interfaces that do not necessarily transport data, but can perform any action like opening files or triggering a calculation. Esse modo é baseado em uma combinação de propriedades, eventos e comandos específicos do tema `Pasteboard`.
 - **Automático**: nesse modo, 4D **cópia** o texto ou as imagens diretamente do objeto formulário. It can then be used in the same 4D area, between two 4D areas, or between 4D and another application. Por exemplo, o arrastar (e soltar) automático permite que você copie um valor entre dois campos sem usar programação:\
-  ![](../assets/en/FormObjects/property_automaticDragDrop.png)\
-  ![](../assets/en/FormObjects/property_automaticDragDrop2.png)
+  ![](/assets/en/FormObjects/property_automaticDragDrop.png)\
+  ![](/assets/en/FormObjects/property_automaticDragDrop2.png)
   Nesse modo, o evento de formulário `On Begin Drag` NÃO é gerado. Si quiere "forzar" el uso del arrastre personalizado mientras está activado el arrastre automático, mantenga presionada la tecla **Alt** (Windows) o **Opción** (macOS) durante la acción. Esta opção não está disponível para as imagens.
 
 Para más información, consulte [Arrastrar y soltar](https://doc.4d.com/4Dv18/4D/18/Drag-and-Drop.300-4505037.en.html) en el manual _Lenguaje 4D_.

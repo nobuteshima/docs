@@ -125,7 +125,7 @@ Coordenada superior do objecto no formulário.
 
 Defines the corner roundness (in pixels) of the object. By default, the radius value for rectangles is 0 pixels. You can change this property to draw rounded rectangles with custom shapes:
 
-![](../assets/en/FormObjects/shape_rectangle.png)
+![](/assets/en/FormObjects/shape_rectangle.png)
 
 Minimum value is 0, in this case a standard non-rounded rectangle is drawn. Maximum value depends on the rectangle size (it cannot exceed half the size of the shortest rectangle side) and is calculated dynamically.
 
@@ -136,7 +136,7 @@ With [text areas](text.md) and [inputs](input_overview.md):
 - the corner radius property is only available with "none", "solid", or "dotted" [border line styles](properties_BackgroundAndBorder.md#border-line-style),
 - the corner roundness is drawn outside the area of the object (the object appears larger in the form but its [width](properties_CoordinatesAndSizing.md#width) and [height](properties_CoordinatesAndSizing.md#height) are not extended).
 
-![](../assets/en/FormObjects/radius-text.png)
+![](/assets/en/FormObjects/radius-text.png)
 
 :::
 
@@ -281,7 +281,7 @@ Assuming that the unit of the rows is "lines," then the fifth row of the list bo
 
 Define um preenchimento horizontal para as células. O valor é definido em pixeis (padrão = 0).
 
-![](../assets/en/FormObjects/padding.png)
+![](/assets/en/FormObjects/padding.png)
 
 #### Gramática JSON
 

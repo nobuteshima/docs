@@ -42,7 +42,7 @@ In *startRange* and *endRange*, pass values corresponding to the position of the
 
 You want to select a range of 12 characters starting from the beginning of the 4D Write Pro field. The field is displayed in a form object:
 
-![](../../assets/en/WritePro/commands/pict2644268.en.png)
+![](/assets/en/WritePro/commands/pict2644268.en.png)
 
 If you execute:
 
@@ -53,7 +53,7 @@ If you execute:
 
 ...the result is:
 
-![](../../assets/en/WritePro/commands/pict2644270.en.png)
+![](/assets/en/WritePro/commands/pict2644270.en.png)
 
 #### Example 2 
 

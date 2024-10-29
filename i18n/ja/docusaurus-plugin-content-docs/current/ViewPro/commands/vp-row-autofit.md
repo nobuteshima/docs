@@ -23,7 +23,7 @@ title: VP ROW AUTOFIT
 
 以下の行では、テキストを正しく表示できていません:
 
-![](../../assets/en/ViewPro/cmd_vpRowAutoFit1.PNG)
+![](/assets/en/ViewPro/cmd_vpRowAutoFit1.PNG)
 
 ```4d
  VP ROW AUTOFIT(VP Row("ViewProArea";1;2))
@@ -31,7 +31,7 @@ title: VP ROW AUTOFIT
 
 結果:
 
-![](../../assets/en/ViewPro/cmd_vpRowAutoFit2.PNG)
+![](/assets/en/ViewPro/cmd_vpRowAutoFit2.PNG)
 
 #### 参照
 

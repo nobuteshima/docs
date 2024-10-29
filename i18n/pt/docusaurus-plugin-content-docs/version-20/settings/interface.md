@@ -10,7 +10,7 @@ A página Interface é usada para definir várias opções relacionadas à inter
 
 Esta área permite-lhe definir várias opções relativas ao ecrã.
 
-![](../assets/en/settings/interface-page.png)
+![](/assets/en/settings/interface-page.png)
 
 ### Fonte a ser usada com o comando MESSAGE
 
@@ -37,7 +37,7 @@ You can set the [frequency for cache flushing](database.md#memory-page) in **Set
 
 -   **Use SDI mode on Windows**: When this option checked, 4D enables automatically the [SDI mode (Single-Document Interface)](../Menus/sdi.md) in your application when executed in a [supported context](../Menus/sdi.md#sdi-mode-availability). When you select this option, on Windows the **Run** menu of the 4D menu bar allows you to select the mode in which you want to test the application:
 
-    ![](../assets/en/settings/sdi-mdi.png)
+    ![](/assets/en/settings/sdi-mdi.png)
 
 :::note
 
@@ -55,8 +55,8 @@ This menu lets you select the color scheme to use at the main application level.
 
 Os seguintes esquemas estão disponíveis:
 
--   **Light**: the application will use the Default Light Theme ![](../assets/en/settings/light-appearance.png)
--   **Dark**: the application will use the Default Dark Theme ![](../assets/en/settings/dark-appearance.png)
+-   **Light**: the application will use the Default Light Theme ![](/assets/en/settings/light-appearance.png)
+-   **Dark**: the application will use the Default Dark Theme ![](/assets/en/settings/dark-appearance.png)
 -   **Inherited** (default): the application will inherit from the higher priority level (i.e., OS user preferences)
 
 > Os temas predefinidos podem ser tratados com CSS. For more information, please refer to the [Media Queries](../FormEditor/createStylesheet.md#media-queries) section.
@@ -78,7 +78,7 @@ Os atalhos predefinidos são os seguintes:
 
 To change the shortcut of an operation, click the corresponding **Edit** button. Aparece a seguinte caixa de diálogo:
 
-![](../assets/en/settings/shortcut.png)
+![](/assets/en/settings/shortcut.png)
 
 To change the shortcut, type the new key combination on your keyboard and click **OK**. If you prefer not to have a shortcut for an operation, click **Clear**.
 

@@ -7,7 +7,7 @@ title: List Box
 
 Les list box sont des objets actifs complexes permettant d’afficher et de saisir des données sous forme de tableaux. Ils peuvent être liés au contenu de la base de données, comme les sélections d'entités ("entity selections") et les sélections d'enregistrement, ou à tout contenu linguistique tel que les collections et les tableaux. Ils incluent des fonctionnalités avancées concernant la saisie de données, le tri des colonnes, la gestion des événements, l'apparence personnalisée, le déplacement des colonnes, etc.
 
-![](../assets/en/FormObjects/listbox.png)
+![](/assets/en/FormObjects/listbox.png)
 
 Une list box contient une ou plusieurs colonnes dont le contenu est automatiquement synchronisé. Le nombre de colonnes est en principe illimité (il dépend des ressources de la machine).
 
@@ -15,7 +15,7 @@ Une list box contient une ou plusieurs colonnes dont le contenu est automatiquem
 
 En exécution, les list box permettent d’afficher et de saisir des données sous forme de listes. Pour passer une cellule en mode édition ([si la saisie est autorisée pour la colonne associée](#managing-entry)), il suffit de cliquer deux fois sur la valeur qu’elle contient :
 
-![](../assets/en/FormObjects/listbox_edit.png)
+![](/assets/en/FormObjects/listbox_edit.png)
 
 Les utilisateurs peuvent saisir et afficher du texte sur plusieurs lignes au sein d’une cellule de list box. Pour ajouter un retour à la ligne, appuyez sur les touches **Ctrl+Retour chariot** sous Windows, ou appuyez sur les touches **Option+Retour chariot** sous macOS.
 
@@ -34,7 +34,7 @@ Une list box est composée de quatre parties distinctes :
 * les en-têtes des colonnes, et
 * les pieds des colonnes.
 
-![](../assets/en/FormObjects/listbox_parts.png)
+![](/assets/en/FormObjects/listbox_parts.png)
 
 Chaque partie dispose de son propre nom d’objet et de propriétés spécifiques. Par exemple, le nombre de colonnes ou la couleur alternée de chaque ligne sont définies dans les propriétés de l’objet list box, la largeur de chaque colonne est définie dans les propriétés des colonnes et la police de l’en-tête est définie dans les propriétés des en-têtes.
 
@@ -187,7 +187,7 @@ Les propriétés prises en charge dépendent du type de list box.
 
 Une list box est composée d'un ou plusieurs objets colonnes qui ont des propriétés spécifiques. Vous pouvez sélectionner une colonne de list box dans l’éditeur de formulaires en cliquant dessus lorsque l’objet List box est sélectionné :
 
-![](../assets/en/FormObjects/listbox_column.png)
+![](/assets/en/FormObjects/listbox_column.png)
 
 Vous pouvez définir pour chaque colonne de List box des propriétés standard (texte, couleur de fond...) : dans ce cas, ces propriétés sont prioritaires par rapport aux propriétés de l'objet List box.
 > Vous pouvez définir le [Type d'expression](properties_Object.md#expression-type) pour les colonnes de list box de type tableau (Alpha, Texte, Numérique, Date, Heure, Image, Booléen ou Objet). L'utilisation de tableaux d'objets nécessite une licence 4D View Pro (voir [Utilisation de tableaux d'objets en colonnes (4D View Pro)](#using-object-arrays-in-columns-4d-view-pro)).
@@ -202,13 +202,13 @@ Vous pouvez définir pour chaque colonne de List box des propriétés standard (
 
 Lorsque les en-têtes sont affichés, vous pouvez sélectionner un en-tête dans l'éditeur de formulaires en cliquant dessus lorsque l'objet List box est sélectionné :
 
-![](../assets/en/FormObjects/listbox_header.png)
+![](/assets/en/FormObjects/listbox_header.png)
 
 Vous pouvez définir, pour chaque en-tête de colonne de List box, des propriétés standard de texte : dans ce cas, ces propriétés sont prioritaires par rapport à celles de la colonne ou de la list box.
 
 Vous pouvez également accéder à des propriétés spécifiques aux en-têtes. En particulier, une icône peut être affichée dans l’en-tête à côté ou à la place du libellé de la colonne, notamment dans le cadre des [tris personnalisés](#gestion-des-tris).
 
-![](../assets/en/FormObjects/lbHeaderIcon.png)
+![](/assets/en/FormObjects/lbHeaderIcon.png)
 
 Au moment de l'exécution, les événements qui se produisent dans un en-tête sont générés dans la [méthode objet de la colonne de list box](#object-methods).
 
@@ -225,7 +225,7 @@ Les List box peuvent contenir des zones de "pied de page" non saisissables, affi
 
 Lorsque les pieds sont affichés, vous pouvez sélectionner un pied de list box dans l’éditeur de formulaires en cliquant dessus lorsque l’objet List box est sélectionné :
 
-![](../assets/en/FormObjects/listbox_footers.png)
+![](/assets/en/FormObjects/listbox_footers.png)
 
 Vous pouvez définir, pour chaque pied de colonne de List box, des propriétés standard de texte : dans ce cas, ces propriétés sont prioritaires par rapport à celles de la colonne ou de la list box. Vous pouvez également accéder à des propriétés spécifiques pour les pieds de page. En particulier, vous pouvez insérer un [calcul personnalisé ou automatique](properties_Object.md#variable-calculation).
 
@@ -246,7 +246,7 @@ Pour qu’une cellule de list box soit saisissable, il est nécessaire que les c
 
 Imaginons par exemple une list box contenant deux tableaux, de type date et texte. Le tableau date n’est pas saisissable mais le tableau texte est saisissable si la date n’est pas déjà passée.
 
-![](../assets/en/FormObjects/listbox_entry.png)
+![](/assets/en/FormObjects/listbox_entry.png)
 
 Voici la méthode de la colonne *tText * :
 
@@ -356,7 +356,7 @@ Notez que les tableaux de list box utilisés pour définir l'apparence des ligne
 
 Vous avez choisi de cacher le surlignage système et souhaitez représenter les sélections dans la list box à l'aide d'une couleur de fond verte, comme dans cet exemple :
 
-![](../assets/en/FormObjects/listbox_styles7.png)
+![](/assets/en/FormObjects/listbox_styles7.png)
 
 Avec une list box de type tableau, vous devez mettre à jour le [Tableau couleurs de fond](properties_BackgroundAndBorder.md#row-background-color-array) par programmation. Dans le formulaire JSON, vous avez défini le Tableau couleurs de fond suivant pour la list box :
 
@@ -417,13 +417,13 @@ The developer can set up custom sorts using the `LISTBOX SORT COLUMNS` command a
 La valeur de la variable [variable associée à l’en-tête d’une colonne](properties_Object.md#variable-or-expression) permet de gérer une information supplémentaire : le tri courant de la colonne (lecture) et l’affichage de la flèche de tri.
 
 * If the variable is set to 0, the column is not sorted and the sort arrow is not displayed;  
-  ![](../assets/en/FormObjects/sorticon0.png)
+  ![](/assets/en/FormObjects/sorticon0.png)
 
 * If the variable is set to 1, the column is sorted in ascending order and the sort arrow is displayed;  
-  ![](../assets/en/FormObjects/sorticon1.png)
+  ![](/assets/en/FormObjects/sorticon1.png)
 
 * If the variable is set to 2, the column is sorted in descending order and the sort arrow is displayed.  
-  ![](../assets/en/FormObjects/sorticon2.png)
+  ![](/assets/en/FormObjects/sorticon2.png)
 
 You can set the value of the variable (for example, Header2:=2) in order to “force” the sort arrow display. Le tri de la colonne lui-même n'est pas modifié dans ce cas ; c'est au développeur de s'en charger.
 
@@ -459,7 +459,7 @@ Pour chaque attribut (style, couleur et couleur de fond), un **héritage** est m
 * pour les attributs des lignes : valeurs d’attributs des colonnes
 * pour les attributs des colonnes : valeurs d’attributs de la list box
 
-Ainsi, si vous souhaitez qu’un objet hérite de la valeur d’attribut du niveau supérieur, il vous suffit de passer `lk inherited` (valeur par défaut) à la commande de définition ou directement dans l’élément de tableau de style/couleur correspondant. Soit une list box contenant un style de caractère standard et des couleurs alternées : ![](../assets/en/FormObjects/listbox_styles3.png)
+Ainsi, si vous souhaitez qu’un objet hérite de la valeur d’attribut du niveau supérieur, il vous suffit de passer `lk inherited` (valeur par défaut) à la commande de définition ou directement dans l’élément de tableau de style/couleur correspondant. Soit une list box contenant un style de caractère standard et des couleurs alternées : ![](/assets/en/FormObjects/listbox_styles3.png)
 
 Vous effectuez les modifications suivantes :
 
@@ -468,7 +468,7 @@ Vous effectuez les modifications suivantes :
 * deux élements de la colonne 5 sont passés en gras via la propriété [Tableau de styles](properties_Text.md#row-style-array) de l’objet colonne 5,
 * les éléments 2 de la colonne 1 et 2 sont passés en fond bleu via la propriété [Tableau couleurs de fond](properties_BackgroundAndBorder.md#row-background-color-array) des objets colonne 1 et 2 :
 
-![](../assets/en/FormObjects/listbox_styles3.png)
+![](/assets/en/FormObjects/listbox_styles3.png)
 
 Pour restaurer l’apparence initiale de la list box, il suffit de :
 
@@ -532,7 +532,7 @@ La première variable correspond toujours au nom de variable de la première col
 
 La dernière variable n’est jamais hiérarchique même si plusieurs valeurs identiques existent à ce niveau. Par exemple, en reprenant la configuration illustrée ci-dessus, imaginons que tab1 contienne les valeurs A A A B B B, tab2 les valeurs 1 1 1 2 2 2 et tab3 les valeurs X X Y Y Y Z. Dans ce cas, A, B, 1 et 2 pourront apparaître sous forme contractée, mais pas X et Y :
 
-![](../assets/en/FormObjects/property_hierarchicalListBox.png)
+![](/assets/en/FormObjects/property_hierarchicalListBox.png)
 
 Ce principe n’est pas appliqué lorsqu’une seule variable est définie dans la hiérarchie : dans ce cas, les valeurs identiques pourront être groupées.
 > Si vous définissez une hiérarchie basée sur les premières colonnes d’une list box existante, vous devez ensuite supprimer ou masquer ces colonnes (à l’exception de la première) sinon elles apparaîtront en double dans la list box. Si vous définissez la hiérarchie via le pop up menu de l’éditeur (cf. ci-dessous), les colonnes superflues sont automatiquement supprimées de la list box.
@@ -541,7 +541,7 @@ Ce principe n’est pas appliqué lorsqu’une seule variable est définie dans 
 
 Lorsque vous sélectionnez au moins une colonne en plus de la première dans un objet list box (de type tableau) dans l’éditeur de formulaires, la commande **Créer hiérarchie** est disponible dans le menu contextuel :
 
-![](../assets/en/FormObjects/listbox_hierarchy1.png)
+![](/assets/en/FormObjects/listbox_hierarchy1.png)
 
 Cette commande est un raccourci pour définir une hiérarchie. Lorsque vous la choisissez, les actions suivantes sont effectuées :
 
@@ -551,7 +551,7 @@ Cette commande est un raccourci pour définir une hiérarchie. Lorsque vous la c
 
 Exemple : soit une list box dont les premières colonnes contiennent Pays, Région, Ville et Population. Lorsque Pays, Région et Ville sont sélectionnées (cf. illustration ci-dessus), si vous choisissez **Créer hiérarchie** dans le menu contextuel, une hiérarchie à trois niveaux est créée dans la première colonne, les colonnes 2 et 3 sont supprimées et la colonne Population la deuxième :
 
-![](../assets/en/FormObjects/listbox_hierarchy2.png)
+![](/assets/en/FormObjects/listbox_hierarchy2.png)
 
 ##### Annuler une hiérarchie
 
@@ -566,11 +566,11 @@ A la première ouverture d’un formulaire contenant une list box hiérarchique,
 
 Une ligne de rupture et un "noeud" hiérarchique sont automatiquement ajoutés dans la list box lorsque des valeurs sont répétées dans les tableaux. Par exemple, imaginons une list box contenant quatre tableaux définissant des villes, chaque ville étant caractérisée par un pays, une région, un nom et un nombre d’habitants :
 
-![](../assets/en/FormObjects/hierarch1.png)
+![](/assets/en/FormObjects/hierarch1.png)
 
 Si cette list box est affichée sous forme hiérarchique (les trois premiers tableaux étant inclus dans la hiérarchie), vous obtenez :
 
-![](../assets/en/FormObjects/hierarch2.png)
+![](/assets/en/FormObjects/hierarch2.png)
 
 Les tableaux ne sont pas triés avant la construction de la hiérarchie. Si par exemple un tableau contient les données AAABBAACC, la hiérarchie obtenue sera :
 
@@ -591,11 +591,11 @@ Dans une list box en mode hiérarchique, un tri standard (effectué suite à un 
 
 Soit par exemple la list box suivante, dans laquelle aucun tri spécifique n’est défini :
 
-![](../assets/en/FormObjects/hierarch3.png)
+![](/assets/en/FormObjects/hierarch3.png)
 
 Si vous cliquez sur l’en-tête "Population" afin de trier les populations par ordre croissant (ou alternativement décroissant), les données apparaissent ainsi :
 
-![](../assets/en/FormObjects/hierarch4.png)
+![](/assets/en/FormObjects/hierarch4.png)
 
 Comme pour toutes les list box, vous pouvez [désactiver le mécanisme de tri standard](properties_Action.md#sortable) en désélectionnant la propriété "Triable" pour la list box et gérer le tri par programmation.
 
@@ -605,11 +605,11 @@ Une list box hiérarchique affiche un nombre variable de lignes à l’écran en
 
 Examinons par exemple les tableaux suivants :
 
-![](../assets/en/FormObjects/hierarch5.png)
+![](/assets/en/FormObjects/hierarch5.png)
 
 Si ces tableaux sont représentés hiérarchiquement, la ligne "Quimper" ne sera pas affichée sur la deuxième ligne mais sur la quatrième, à cause des deux lignes de rupture ajoutées :
 
-![](../assets/en/FormObjects/hierarch6.png)
+![](/assets/en/FormObjects/hierarch6.png)
 
 Quelle que soit la manière dont les données sont affichées dans la list box (hiérarchique ou non-hiérarchique), si vous souhaitez passer la ligne contenant "Quimper" en gras, vous devrez utiliser l’instruction `TabStyle{2} = bold`. Seule la position de la ligne dans les tableaux est prise en compte.
 
@@ -627,15 +627,15 @@ Par exemple, si vous voulez sélectionner la ligne contenant Rennes, vous devez 
  ->MyListbox{3}:=True
 ```
 
-Représentation non hiérarchique : ![](../assets/en/FormObjects/hierarch7.png) Représentation hiérarchique : ![](../assets/en/FormObjects/hierarch8.png)
+Représentation non hiérarchique : ![](/assets/en/FormObjects/hierarch7.png) Représentation hiérarchique : ![](/assets/en/FormObjects/hierarch8.png)
 
 > Si une ou plusieurs lignes sont masquées du fait que leurs parents ont été contractés, elles ne sont plus sélectionnées. Seules les lignes visibles (directement ou suite à un défilement) sont sélectionnables. Autrement dit, les lignes ne peuvent pas être à la fois sélectionnées et cachées.
 
 Tout comme pour les sélections, la commande `LISTBOX GET CELL POSITION` retournera les mêmes valeurs pour une list box hiérarchique et une list box non hiérarchique. Cela signifie que dans les deux exemples ci-dessous, `LISTBOX GET CELL POSITION` retournera la même position : (3;2).
 
-*Représentation non hiérarchique :* ![](../assets/en/FormObjects/hierarch9.png)
+*Représentation non hiérarchique :* ![](/assets/en/FormObjects/hierarch9.png)
 
-*Représentation hiérarchique :* ![](../assets/en/FormObjects/hierarch10.png)
+*Représentation hiérarchique :* ![](/assets/en/FormObjects/hierarch10.png)
 
 Lorsque toutes les lignes d’une sous-hiérarchie sont masquées, la ligne de rupture est automatiquement masquée. Dans l’exemple ci-dessus, si les lignes 1 à 3 sont masquées, la ligne de rupture "Bretagne" n’apparaîtra pas.
 
@@ -643,7 +643,7 @@ Lorsque toutes les lignes d’une sous-hiérarchie sont masquées, la ligne de r
 
 Si l’utilisateur sélectionne une ligne de rupture, `LISTBOX GET CELL POSITION` retourne la première occurrence de la ligne dans le tableau correspondant. Dans le cas suivant :
 
-![](../assets/en/FormObjects/hierarch11.png)
+![](/assets/en/FormObjects/hierarch11.png)
 
 ... `LISTBOX GET CELL POSITION` retourne (2;4). Pour sélectionner une ligne de rupture par programmation, vous devez utiliser la commande `LISTBOX SELECT BREAK`.
 
@@ -651,9 +651,9 @@ Les lignes de rupture ne sont pas prises en compte dans les tableaux internes pe
 
 Soit par exemple la list box suivante (les noms des tableaux associés sont précisés entre parenthèses) :
 
-*Représentation non hiérarchique :* ![](../assets/en/FormObjects/hierarch12.png)
+*Représentation non hiérarchique :* ![](/assets/en/FormObjects/hierarch12.png)
 
-*Représentation hiérarchique :* ![](../assets/en/FormObjects/hierarch13.png)
+*Représentation hiérarchique :* ![](/assets/en/FormObjects/hierarch13.png)
 
 En mode hiérarchique, les niveaux de rupture ne sont pas pris en compte par les tableaux de modification de style nommés `tStyle` et `tCouleurs`. Pour modifier la couleur ou le style des niveaux de rupture, vous devez exécuter les instructions suivantes :
 
@@ -665,7 +665,7 @@ En mode hiérarchique, les niveaux de rupture ne sont pas pris en compte par les
 
 Résultat:
 
-![](../assets/en/FormObjects/hierarch14.png)
+![](/assets/en/FormObjects/hierarch14.png)
 
 #### Gestion optimisée du déployer/contracter
 
@@ -677,9 +677,9 @@ L'emploi des événements formulaire `On Expand` et `On Collapse` permet de s’
 
 Dans ce cas, le remplissage et le vidage des tableaux doivent être effectués par le code. Les principes à mettre en oeuvre sont :
 
-* A l’affichage de la listbox, seul le premier tableau doit être rempli. Vous devez toutefois créer un second tableau avec des valeurs vides afin que la list box affiche les boutons déployer/contracter : ![](../assets/en/FormObjects/hierarch15.png)
+* A l’affichage de la listbox, seul le premier tableau doit être rempli. Vous devez toutefois créer un second tableau avec des valeurs vides afin que la list box affiche les boutons déployer/contracter : ![](/assets/en/FormObjects/hierarch15.png)
 
-* Lorsque l’utilisateur clique sur un bouton de déploiement, vous pouvez traiter l’événement `On Expand`. La commande `LISTBOX GET CELL POSITION` retourne la cellule concernée et vous permet de construire la hiérarchie adéquate : vous alimentez le premier tableau avec des valeurs répétées et le second avec les valeurs issues de la commande `SELECTION TO ARRAY`, et vous insérez dans la list box autant de lignes que nécessaire à l’aide de la commande `LISTBOX INSERT ROWS`. ![](../assets/en/FormObjects/hierarch16.png)
+* Lorsque l’utilisateur clique sur un bouton de déploiement, vous pouvez traiter l’événement `On Expand`. La commande `LISTBOX GET CELL POSITION` retourne la cellule concernée et vous permet de construire la hiérarchie adéquate : vous alimentez le premier tableau avec des valeurs répétées et le second avec les valeurs issues de la commande `SELECTION TO ARRAY`, et vous insérez dans la list box autant de lignes que nécessaire à l’aide de la commande `LISTBOX INSERT ROWS`. ![](/assets/en/FormObjects/hierarch16.png)
 
 * Lorsque l’utilisateur clique sur un bouton de contraction, vous pouvez traiter l’événement `On Collapse`. La commande `LISTBOX GET CELL POSITION` retourne la cellule concernée : vous supprimez de la list box autant de lignes que nécessaire à l’aide de la commande `LISTBOX DELETE ROWS`.
 
@@ -689,14 +689,14 @@ Les colonnes de list box peuvent être associées à des tableaux d'objets. Comm
 
 La list box suivante a été définie à l'aide d'un tableau d'objets :
 
-![](../assets/en/FormObjects/listbox_column_objectArray.png)
+![](/assets/en/FormObjects/listbox_column_objectArray.png)
 > **Note sur les licences** : La possibilité d'utiliser des tableaux d'objets dans des list box est une première étape vers le prochain outil "4D View Pro" qui remplacera progressivement le plug-in 4D View. L'utilisation de cette fonctionnalité nécessite une licence 4D View valide. Pour plus d'informations, veuillez consulter le site Web de 4D.
 
 ### Configurer une colonne tableau d'objets
 
 Pour affecter un tableau d'objets à une colonne de list box (list box de type tableau uniquement), il vous suffit de fournir le nom du tableau d'objets soit dans la Liste des propriétés (champ "Nom de variable"), soit à la commande [LISTBOX INSERT COLUMN](https://doc.4d.com/4Dv17R6/4D/17-R6/LISTBOX-INSERT-COLUMN.301-4311153.en.html), comme pour toute colonne associée à un tableau. Dans la Liste des propriétés, vous pouvez sélectionner Objet comme "Type de variable" pour la colonne :
 
-![](../assets/en/FormObjects/listbox_column_objectArray_config.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_config.png)
 
 Les propriétés standard liées aux coordonnées, taille et style sont disponibles pour les colonnes de type objet. Elles peuvent être gérées à l'aide de la Liste des propriétés, ou en programmant les attributs de style, visibilité, couleur de police et de fond de chaque ligne de colonne objet de la list box. Ce type de colonne peut également être masqué.
 
@@ -712,7 +712,7 @@ ARRAY OBJECT(obColumn;0) //tableau de la colonne
  APPEND TO ARRAY(obColumn;$ob)  
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld.png)
 > Il n'est pas possible de choisir un format d'affichage et/ou un filtre de saisie pour les colonnes objet. Ces paramètres sont automatiquement définis en fonction du type de valeur.
 
 #### valueType et affichage des données
@@ -803,7 +803,7 @@ La valeur des cellules est stockée dans l'attribut "value". Cet attribut est ut
  APPEND TO ARRAY(obColumn;$ob3)
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_value.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_value.png)
 > La valeur Null est acceptée, elle définit une cellule vide.
 
 #### min et max
@@ -821,7 +821,7 @@ Ces attributs peuvent être utilisés pour contrôler la plage de valeurs d'entr
  OB SET($ob3;"max";3000)
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_minMax.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_minMax.png)
 
 #### behavior
 
@@ -841,7 +841,7 @@ L'attribut behavior propose des variations de la représentation standard des va
  OB SET($ob4;"behavior";"threeStates")
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_behavior.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_behavior.png)
 
 #### requiredList et choiceList
 
@@ -867,7 +867,7 @@ Exemples :
  OB SET ARRAY($ob;"requiredList";$RequiredList)
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_openClosed.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_openClosed.png)
 
 * Vous voulez accepter toute valeur entière, mais afficher une combo box contenant les valeurs les plus communes :
 
@@ -884,7 +884,7 @@ Exemples :
  OB SET ARRAY($ob;"choiceList";$ChoiceList)
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_commonValues.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_commonValues.png)
 
 #### requiredListName et requiredListReference
 
@@ -898,7 +898,7 @@ Exemples :
 
 * Vous voulez afficher une liste déroulante basée sur une énumération nommée "colors" définie dans la Boîte à outils (contenant les valeurs "bleu", "jaune" et "vert"), la stocker en tant que valeur et afficher "bleu" par défaut :
 
-![](../assets/en/FormObjects/listbox_column_objectArray_colors.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_colors.png)
 
 ```4d
  C_OBJECT($ob)
@@ -908,7 +908,7 @@ Exemples :
  OB SET($ob;"requiredListName";"colors")
 ```
 
-![](../assets/en/FormObjects/listbox-col-color-results.png)
+![](/assets/en/FormObjects/listbox-col-color-results.png)
 
 * Vous voulez afficher une liste déroulante basée sur une liste créée par programmation, et la stocker en tant que référence :
 
@@ -925,7 +925,7 @@ Exemples :
  OB SET($ob;"requiredListReference";<>List)
 ```
 
- ![](../assets/en/FormObjects/listbox_column_objectArray_cities.png)
+ ![](/assets/en/FormObjects/listbox_column_objectArray_cities.png)
 
 #### choiceListName et choiceListReference
 
@@ -939,7 +939,7 @@ Voici un exemple :
 
 Vous voulez afficher une combo box basée sur une énumération nommée "colors" définie dans la Boîte à outils (contenant les valeurs "bleu", "jaune" et "vert") et afficher "vert" par défaut :
 
-![](../assets/en/FormObjects/listbox_column_objectArray_colors.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_colors.png)
 
 ````4d
  C_OBJECT($ob)
@@ -948,7 +948,7 @@ Vous voulez afficher une combo box basée sur une énumération nommée "colors"
  OB SET($ob;"choiceListName";"colors")
 ````
 
-![](../assets/en/FormObjects/listbox-col-color-results.png)
+![](/assets/en/FormObjects/listbox-col-color-results.png)
 
 #### unitsList, unitsListName, unitsListReference et unitReference
 
@@ -979,7 +979,7 @@ OB SET($ob;"unitReference";1) //"cm"
 OB SET ARRAY($ob;"unitsList";$_units)
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_unitList.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_unitList.png)
 
 #### alternateButton
 
@@ -997,7 +997,7 @@ OB SET($ob;"alternateButton";True)
 OB SET($ob;"value";$entry)
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
 
 #### valueType color
 
@@ -1011,7 +1011,7 @@ L'attribut "valueType" de valeur "color" vous permet d'afficher soit une couleur
  OB SET($ob4;"value";0x00FF0000)
  ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_colorValue.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_colorValue.png)
 
 * Si la valeur est un texte, le texte est simplement affiché (par exemple : "value";"Automatic").
 
@@ -1029,7 +1029,7 @@ OB SET($ob;"valueType";"event")
 OB SET($ob;"label";"Edit...")
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_eventValueType.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_eventValueType.png)
 
 ### Gestion des événements
 

@@ -28,7 +28,7 @@ Em *rangeObj*, passe um intervalo que contenha o estilo a ser recuperado.
 
 Para obter os detalhes sobre o estilo na célula selecionada (B2):
 
-![](../../assets/en/ViewPro/cmd_vpGetCellStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpGetCellStyle.PNG)
 
 Este código:
 

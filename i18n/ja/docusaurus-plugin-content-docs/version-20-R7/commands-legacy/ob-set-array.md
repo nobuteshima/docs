@@ -100,7 +100,7 @@ displayed_sidebar: docs
 
 オブジェクトはデバッガ内では以下の様に表示されます:
 
-![](../assets/en/commands/pict1211436.en.png)
+![](/assets/en/commands/pict1211436.en.png)
 
 #### 例題 5 
 
@@ -114,7 +114,7 @@ displayed_sidebar: docs
  OB SET ARRAY([People]Children;"Girls";$arrGirls)
 ```
 
-![](../assets/en/commands/pict1899097.en.png)
+![](/assets/en/commands/pict1899097.en.png)
 
 #### 例題 6 
 

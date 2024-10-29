@@ -58,7 +58,7 @@ L'exemple suivant consiste à désigner une plage de cellules (qui contient des 
 
 Résultat :
 
-![](../../assets/en/WritePro/commands/pict6398103.en.png)
+![](/assets/en/WritePro/commands/pict6398103.en.png)
 
 Les données de la cellule déjà fusionnée sont toutes conservées dans la première cellule ( première en haut à gauche) après le fractionnement, les autres cellules résultant du fractionnement restent vides.
 

@@ -33,15 +33,15 @@ Você pode se beneficiar desse recurso nos seguintes ambientes (somente com vers
 
 Todas as janelas destes editores podem ser colocadas no formulário de tabulação:
 
-![](../assets/en/Preferences/general2.png)
+![](/assets/en/Preferences/general2.png)
 
 Um conjunto de comandos no menu **Janela** permite gerenciar as abas:
 
-![](../assets/en/Preferences/general3.png)
+![](/assets/en/Preferences/general3.png)
 
 Na caixa de diálogo Preferências do 4D, a opção **Janela guia** permite controlar esse recurso:
 
-![](../assets/en/Preferences/general4.png)
+![](/assets/en/Preferences/general4.png)
 
 Estão disponíveis três opções:
 
@@ -76,7 +76,7 @@ Se você marcar essa opção, dois itens serão adicionados ao menu **File > New
 *   **Base de dados...**
 *   **Base de dados a partir da definição da estrutura...**
 
-![](../assets/en/Preferences/general5.png)
+![](/assets/en/Preferences/general5.png)
 
 Esses itens permitem a criação de bancos de dados binários (consulte a seção [Creating a new database](https://doc.4d.com/4Dv18R6/4D/18-R6/Creating-a-new-database.300-5217610.en.html)). Eles não são mais propostos por padrão porque 4D recomenda o uso de arquitetura baseada em projeto para novos desenvolvimentos.
 

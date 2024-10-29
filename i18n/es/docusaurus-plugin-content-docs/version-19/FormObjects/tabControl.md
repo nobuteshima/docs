@@ -7,7 +7,7 @@ Un control de pestañas crea un objeto que permite al usuario elegir entre un co
 
 El siguiente formulario multipágina utiliza un objeto de control de pestañas:
 
-![](../assets/en/FormObjects/tabControl1.png)
+![](/assets/en/FormObjects/tabControl1.png)
 
 Para navegar de una pantalla a otra, el usuario sólo tiene que hacer clic en la pestaña deseada.
 
@@ -17,7 +17,7 @@ Otro uso del control de pestañas es para controlar los datos que se muestran en
 
 Cada pestaña puede mostrar etiquetas o rótulos y un pequeño icono. Si incluye iconos, éstos aparecen a la izquierda de cada etiqueta. Este es un ejemplo de un control de pestañas que utiliza iconos:
 
-![](../assets/en/FormObjects/tabControl2.png)
+![](/assets/en/FormObjects/tabControl2.png)
 
 Cuando se crea un control de pestañas, 4D gestiona el espaciado y la colocación de las mismas. Sólo tiene que suministrar las etiquetas en forma de array, o los iconos y etiquetas en forma de lista jerárquica.
 

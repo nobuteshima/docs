@@ -33,11 +33,11 @@ title: アプリケーションビルド
 
 このウィンドウを開くには 4D の **デザイン**メニューから **アプリケーションビルド...** を選択します。
 
-![](../assets/en/Project/buildappProj.png)
+![](/assets/en/Project/buildappProj.png)
 
 アプリケーションビルドウィンドウには複数のページがあり、タブを使用してページを移動できます:
 
-![](../assets/en/Project/appbuilderProj.png)
+![](/assets/en/Project/appbuilderProj.png)
 
 ビルドをおこなう前にプロジェクトはコンパイルされていなければなりません。 まだコンパイルされていないプロジェクトでこのメニューコマンドを選択する、あるいはコンパイル後にコードが変更されていると、プロジェクトを (再) コンパイルしなければならない旨の警告ダイアログが表示されます。
 
@@ -65,7 +65,7 @@ title: アプリケーションビルド
 
 ## アプリケーション名と保存先フォルダー
 
-![](../assets/en/Project/buidappstructureProj.png)
+![](/assets/en/Project/buidappstructureProj.png)
 
 **アプリケーション名** には生成するアプリケーションの名前を入力します。
 
@@ -75,7 +75,7 @@ title: アプリケーションビルド
 
 このページでは、標準のコンパイル済みストラクチャーファイルやコンパイル済みコンポーネントをビルドできます。
 
-![](../assets/en/Project/appbuilderProj.png)
+![](/assets/en/Project/appbuilderProj.png)
 
 ### コンパイル済みストラクチャーをビルド
 
@@ -114,7 +114,7 @@ _MyComponent.4dbase_フォルダーは、[コンパイルされたコンポー�
 
 このタブでは、スタンドアロンのシングルユーザー版アプリケーションをビルドします:
 
-![](../assets/en/Project/standaloneProj.png)
+![](/assets/en/Project/standaloneProj.png)
 
 ### スタンドアロンアプリケーションをビルド
 
@@ -202,7 +202,7 @@ Windows においては、.exe 拡張子のついた実行ファイルが作成�
 
 このページでは、クライアントの自動更新もサポートできるクロスプラットフォームなクライアント/サーバーアプリケーションをビルドするための設定をおこないます。
 
-![](../assets/en/Desktop/client-server-buildapp.png)
+![](/assets/en/Desktop/client-server-buildapp.png)
 
 ### クライアント/サーバーアプリケーションとは
 
@@ -265,7 +265,7 @@ Windows でビルドされたサーバーアプリケーションに Apple Silic
 
 その後、そのストラクチャーを Windowsマシンにコピーし、それを使ってサーバーアプリケーションをビルドすることができます:
 
-![](../assets/en/Desktop/allow-mac-clients.png)
+![](/assets/en/Desktop/allow-mac-clients.png)
 
 #### コンパイル済みストラクチャーの場所
 
@@ -432,11 +432,11 @@ Windows用サーバーアプリケーションのビルドに使用される App
 
 - デフォルトの設定 (_サーバーへの接続ごとに専用のキャッシュフォルダーがダウンロード/更新されます_):
 
-![](../assets/en/Admin/cachea.png)
+![](/assets/en/Admin/cachea.png)
 
 - `ClientServerSystemFolderName` キーの使用 (_すべてのサーバーに対して同じキャッシュフォルダーが使用されます_):
 
-![](../assets/en/Admin/cacheb.png)
+![](/assets/en/Admin/cacheb.png)
 
 #### サーバーキャッシュフォルダー
 
@@ -444,11 +444,11 @@ Windows用サーバーアプリケーションのビルドに使用される App
 
 - デフォルトの設定 (_同じサーバーアプリケーションは同じキャッシュフォルダーを共有します_):
 
-![](../assets/en/Admin/cacheServera.png)
+![](/assets/en/Admin/cacheServera.png)
 
 - `ServerStructureFolderName` キーの使用 (_各サーバーアプリケーションに専用のキャッシュフォルダーが使用されます_):
 
-![](../assets/en/Admin/cacheServerb.png)
+![](/assets/en/Admin/cacheServerb.png)
 
 ## プラグイン＆コンポーネントページ
 
@@ -456,7 +456,7 @@ Windows用サーバーアプリケーションのビルドに使用される App
 
 このページには、現在の 4Dアプリケーションにロードされている要素がリストされます:
 
-![](../assets/en/Desktop/buildappcomps.png)
+![](/assets/en/Desktop/buildappcomps.png)
 
 - **アクティブ** 列 - ビルドするアプリケーションパッケージに項目を統合するかどうかを指定します。 デフォルトですべての項目が選択されています。 プラグインやコンポーネント、モジュールを除外するには、チェックボックスの選択を外します。
 
@@ -497,7 +497,7 @@ Windows用サーバーアプリケーションのビルドに使用される App
 - シングルユーザーのスタンドアロンアプリケーションに統合するライセンス番号を指定します。
 - macOS 環境下では、証明書を使用してアプリケーションに署名をすることができます。
 
-![](../assets/en/Admin/buildappCertif.png)
+![](/assets/en/Admin/buildappCertif.png)
 
 ### ライセンスリスト
 
@@ -530,21 +530,21 @@ Windows用サーバーアプリケーションのビルドに使用される App
 
 - **アプリケーションに署名** オプションにチェックをすると、macOS のアプリケーションビルド処理に認証が含まれます。4D はビルドの際に、認証に必要な要素の有無をチェックします:
 
-![](../assets/en/Admin/buildapposxcertProj.png)
+![](/assets/en/Admin/buildapposxcertProj.png)
 
 このオプションは Windows と macOS 両方の環境で表示されますが、macOS の場合においてのみ有効です。
 
 - **認証名** - Apple によって有効化されたデベロッパー認証名を入力してください。 この認証名は通常、キーチェーンアクセスユーティリティ内の証明書の名前と一緒です (下図の赤枠):
 
-![](../assets/en/Project/certificate.png)
+![](/assets/en/Project/certificate.png)
 
 Apple からデベロッパー認証を取得するためには、キーチェーンアクセスのメニューのコマンドを使用するか、次のリンクへ移動してください: [http://developer.apple.com/library/mac/#documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html](http://developer.apple.com/library/mac/#documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html)。
 
 > この証明書の取得には Apple の codesign ユーティリティが必要になります。このユーティリティはデフォルトで提供されており、通常 “/usr/bin/” フォルダーにあります。 エラーが起きた際には、このユーティリティがディスク上にあるかどうかを確認してください。
 
 - **自己署名証明書の生成** - 自己署名証明書を生成するための "証明書アシスタント" を実行します。 Apple 社のデベロッパー認証を持たない場合には、自己署名証明書を提供する必要があります。 この証明書を使うと、アプリケーションを内部的に運用する場合に警告が表示されません。 アプリケーションを外部で運用する場合 (http やメールを介した場合) には、アプリケーションの開発者が不明であるという警告が macOS での起動時に表示されます。 その場合でもユーザーはアプリケーションを "強制的" に起動することができます。 "証明書アシスタント" では、オプションを適切に選択します:
-  ![](../assets/en/Admin/Cert1.png)
-  ![](../assets/en/Admin/Cert2.png)
+  ![](/assets/en/Admin/Cert1.png)
+  ![](/assets/en/Admin/Cert2.png)
 
 > Apple Developer Program に加入し、アプリケーションの公証 (後述参照) に必要なデベロッパー認証を取得することが推奨されます。
 
@@ -631,10 +631,10 @@ userPrefs:=Get 4D folder(Active 4D Folder)
 このモードを使えば、組み込みアプリがいくつあっても、それぞれが専用のデータファイルを使えます。 ただし、デメリットもあります: アプリケーションパッケージを移動させてしまうとアプリケーションパスが変わってしまうため、データファイルを見つけられなくなります。 この場合、ユーザーは開くデータファイルを指定するダイアログを提示され、正しいファイルを選択しなくてはなりません。 一度選択されれば、_lastDataPath.xml_ ファイルが更新され、新しい "executablePath" 属性のエントリーが保存されます。
 
 _データがアプリケーション名でリンクされている場合の複製:_
-![](../assets/en/Project/datalinking1.png)
+![](/assets/en/Project/datalinking1.png)
 
 _データがアプリケーションパスでリンクされている場合の複製:_
-![](../assets/en/Project/datalinking2.png)
+![](/assets/en/Project/datalinking2.png)
 
 このデータリンクモードはアプリケーションビルドの際に選択することができます。 これには、次の二つの方法があります:
 
@@ -657,7 +657,7 @@ _データがアプリケーションパスでリンクされている場合の�
 
 この機能を図示すると次のようになります:
 
-![](../assets/en/Project/DefaultData.png)
+![](/assets/en/Project/DefaultData.png)
 
 デフォルトのデータファイルが初回起動時に検知された場合、データファイルは自動的に読み取り専用モードで開かれ、データファイルの変更を伴わないカスタムオペレーションを実行できるようになります。
 
@@ -683,7 +683,7 @@ _データがアプリケーションパスでリンクされている場合の�
 
 この手順を図示すると以下のようになります:
 
-![](../assets/en/Desktop/client-connect.png)
+![](/assets/en/Desktop/client-connect.png)
 
 ### 最後に使用したサーバーパスを保存する
 
@@ -704,12 +704,12 @@ userPrefs:=Get 4D folder(Active 4D Folder)
 
 - **エラーメッセージを表示し、サーバー選択ダイアログボックスを表示させない**。 デフォルトの挙動です。 アプリケーションは終了する以外の選択肢がありません。\
   `ServerSelectionAllowed`: **False** 値、またはキーを省略
-  ![](../assets/en/Project/connect1.png)
+  ![](/assets/en/Project/connect1.png)
 
 - **エラーメッセージを表示し、サーバー選択ダイアログボックスへのアクセスを可能にする**。 ユーザーは **選択...** ボタンをクリックすることによって、サーバー選択ウィンドウにアクセスできます。
   `ServerSelectionAllowed`: **True**
-  ![](../assets/en/Project/connect2.png)
-  ![](../assets/en/Project/connect3.png)
+  ![](/assets/en/Project/connect2.png)
+  ![](/assets/en/Project/connect3.png)
 
 ## サーバーまたはシングルユーザーアプリケーションの自動更新
 

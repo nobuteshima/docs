@@ -13,7 +13,7 @@ When you call a datastore using the [`ds`](commands/ds.md) or the [`Open datasto
 - Os campos são mapeados para atributos de armazenamento.
 - Relations are mapped to relation attributes - relation names, defined in the Structure editor, are used as relation attribute names.
 
-![](../assets/en/ORDA/datastoreMapping.png)
+![](/assets/en/ORDA/datastoreMapping.png)
 
 ### Regras gerais
 
@@ -37,7 +37,7 @@ Cuando se accede a un datastore remoto a través del comando `Abrir datastore` o
 
 This option must be selected at the 4D structure level for each table and each field that you want to be exposed as dataclass and attribute in the datastore:
 
-![](../assets/en/ORDA/ExposeDataclass.png)
+![](/assets/en/ORDA/ExposeDataclass.png)
 
 ### Actualização do modelo de dados
 
@@ -96,7 +96,7 @@ Todas las dataclasses de un proyecto 4D están disponibles como propiedad del da
 
 Por exemplo, considere a seguinte tabela na estrutura 4D:
 
-![](../assets/en/ORDA/companyTable.png)
+![](/assets/en/ORDA/companyTable.png)
 
 La tabla `Company` está disponible automáticamente como dataclass en el datastore `ds`. Você pode escrever:
 
@@ -148,7 +148,7 @@ Atributos da Dataclass vêm em vários tipos: armazenamento, relatedEntity e rel
 
 For example, consider the following partial database structure and the relation properties:
 
-![](../assets/en/ORDA/relationProperties.png)
+![](/assets/en/ORDA/relationProperties.png)
 
 Todos os atributos de armazenamento estarão automaticamente disponíveis:
 
@@ -164,7 +164,7 @@ In addition, the following relation attributes will also be automatically availa
 
 Todos os atributos da dataclass são expostos como propriedades da dataclass:
 
-![](../assets/en/ORDA/dataclassProperties.png)
+![](/assets/en/ORDA/dataclassProperties.png)
 
 Keep in mind that these objects describe attributes, but do not give access to data. La lectura o escritura de los datos se realiza a través de los [objetos entidad](entities.md#using-entity-attributes).
 

@@ -5,7 +5,7 @@ title: Bouton
 
 Un bouton est un objet actif auquel une action peut être assignée (*ex :* une tâche de base de données ou une fonction d'interface) pour qu'elle soit réalisée lorsque l'utilisateur clique dessus.
 
-![](../assets/en/FormObjects/button_regular.png)
+![](/assets/en/FormObjects/button_regular.png)
 
 Les boutons peuvent répondre à divers besoins qui dépendent du style et de l'action qui leur est affecté(e). Par exemple, les boutons peuvent amener l'utilisateur à faire des choix ou à compléter un questionnaire ou formulaire. En fonction de leurs propriétés, les bouton peuvent être destinés à être cliqués une fois seulement et à exécuter une commande, ou à être cliqués plusieurs fois pour obtenir le résultat escompté.
 
@@ -33,7 +33,7 @@ Les styles de bouton contrôlent l'apparence générale d'un bouton ainsi que se
 
 Le style de bouton Classique est un bouton système standard (c'est-à-dire un rectangle avec un libellé descriptif) qui exécute le code lorsqu'un utilisateur clique dessus.
 
-![](../assets/en/FormObjects/button_regular.png)
+![](/assets/en/FormObjects/button_regular.png)
 
 Par défaut, le style Classique a un fond gris clair avec un libellé au centre. Lorsque le curseur survole le style de bouton Classique, la bordure et la l'arrière-plan changent de couleur. En plus de lancer l'exécution de code, le style de bouton Classique imite un bouton mécanique en changeant rapidement la couleur d'arrière-plan lorsque vous cliquez dessus.
 
@@ -59,7 +59,7 @@ Seuls les styles Classique et A plat proposent la propriété [Bouton par défau
 
 Le style de bouton A plat est un bouton système standard (c'est-à-dire un rectangle avec un libellé descriptif) qui exécute le code lorsqu'un utilisateur clique dessus.
 
-![](../assets/en/FormObjects/button_flat.png)
+![](/assets/en/FormObjects/button_flat.png)
 
 Par défaut, le style A plat a un arrière-plan avec un libellé au centre, des bords arrondis et un design minimaliste. Le style graphique du bouton A plat est particulièrement utile pour les formulaires à imprimer.
 
@@ -90,7 +90,7 @@ Par défaut, le style bouton Barre d'outils a un fond transparent avec un libell
 
 - *Sous Windows* - le contour du bouton apparaît lorsqu’il dispose de la propriété “Avec pop-up menu”, et un triangle est affiché à droite et au centre du bouton.
 
-![](../assets/en/FormObjects/button_toolbar.png)
+![](/assets/en/FormObjects/button_toolbar.png)
 
 - *Sous macOS* - le contour du bouton n’apparaît jamais. Lorsqu’il dispose de la propriété “Avec pop up menu”, un triangle est affiché à droite et en bas du bouton.
 
@@ -118,7 +118,7 @@ Par défaut, le style Bevel a un fond gris clair avec un libellé au centre. En 
 
 - *Sous Windows* - le contour du bouton apparaît. Lorsqu’il dispose de la propriété “Avec pop up menu”, un triangle est affiché à droite et au centre du bouton.
 
-![](../assets/en/FormObjects/button_bevel.png)
+![](/assets/en/FormObjects/button_bevel.png)
 
 - *Sous macOS* - le contour du bouton n’apparaît jamais. Lorsqu’il dispose de la propriété “Avec pop up menu”, un triangle est affiché à droite et en bas du bouton.
 
@@ -146,7 +146,7 @@ Par défaut, le style Bevel arrondi a un fond gris clair avec un libellé au cen
 
 - *Sous Windows* - le bouton est identique au style Bevel. Lorsqu’il dispose de la propriété “Avec pop up menu”, un triangle est affiché à droite et au centre du bouton.
 
-  ![](../assets/en/FormObjects/button_roundedbevel.png)
+  ![](/assets/en/FormObjects/button_roundedbevel.png)
 
 - *Sous macOS* - les coins du bouton sont arrondis. Lorsqu’il dispose de la propriété “Avec pop up menu”, un triangle est affiché à droite et en bas du bouton.
 
@@ -174,7 +174,7 @@ Par défaut, le style OS Gradient a un fond gris clair avec un libellé au centr
 
 - *Sous Windows* - le bouton est identique au style Bevel. Lorsqu’il dispose de la propriété “Avec pop up menu”, un triangle est affiché à droite et au centre du bouton.
 
-![](../assets/en/FormObjects/button_osxgradient.png)
+![](/assets/en/FormObjects/button_osxgradient.png)
 
 - *Sous macOs* - le bouton s'affiche comme un bouton à deux tons. Lorsqu’il dispose de la propriété “Avec pop up menu”, un triangle est affiché à droite et en bas du bouton.
 
@@ -202,7 +202,7 @@ Par défaut, le style OS X Textured apparaît comme :
 
 - *Sous Windows* - un bouton système standard avec un fond gris clair et un libellé au centre. Il a la particularité d'être transparent dans Vista.
 
- ![](../assets/en/FormObjects/button_osxtextured.png)
+ ![](/assets/en/FormObjects/button_osxtextured.png)
 
 - *Sous macOS* - un bouton système standard affichant un changement de couleur du gris clair au gris foncé. Sa hauteur est prédéfinie : il n'est pas possible de l'agrandir ou de la réduire.
 
@@ -230,7 +230,7 @@ Les couleurs (surbrillance et arrière-plan) d'un bouton au style Office XP sont
 
 - *Sous Windows* - son arrière-plan n'apparaît que lorsque la souris le survole.
 
-![](../assets/en/FormObjects/button_officexp.png)
+![](/assets/en/FormObjects/button_officexp.png)
 
 - *Sous macOS* - son arrière-plan est toujours affiché.
 
@@ -254,7 +254,7 @@ Les couleurs (surbrillance et arrière-plan) d'un bouton au style Office XP sont
 
 Le style du bouton Aide peut être utilisé pour afficher un bouton d'aide système standard. Par défaut, le style Aide s'affiche sous la forme d'un point d'interrogation dans un cercle.
 
-![](../assets/en/FormObjects/button_help.png)
+![](/assets/en/FormObjects/button_help.png)
 
 #### Exemple JSON
 
@@ -277,7 +277,7 @@ Le style du bouton Aide peut être utilisé pour afficher un bouton d'aide syst�
 
 Le style de bouton Rond apparaît comme un bouton système circulaire. Ce style de bouton est conçu pour macOS.
 
-![](../assets/en/FormObjects/button_circleM.png)
+![](/assets/en/FormObjects/button_circleM.png)
 
 Sous Windows, il est identique au style «Aucun» (le cercle en arrière-plan n'est pas pris en compte).
 
@@ -300,7 +300,7 @@ Sous Windows, il est identique au style «Aucun» (le cercle en arrière-plan n'
 
 Le style de bouton Personnalisé accepte une image d'arrière-plan personnalisée et permet de gérer des paramètres supplémentaires tels que la marge et le décalage d'icône.
 
-![](../assets/en/FormObjects/button_custom.png)
+![](/assets/en/FormObjects/button_custom.png)
 
 #### Exemple JSON
 

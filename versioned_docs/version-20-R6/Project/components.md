@@ -85,7 +85,7 @@ Since components can be installed in different ways, a priority order is applied
 
 **Lowest priority**
 
-![priority](../assets/en/Project/load-sequence.png)
+![priority](/assets/en/Project/load-sequence.png)
 
 
 When a component cannot be loaded because of another instance of the same component located at a higher priority level, it is given the *Overloaded* [status](#dependency-status). The loaded component has the *Overloading* [status](#dependency-status).
@@ -305,21 +305,21 @@ In an opened project, you can get information about dependencies and their curre
 To display the Dependencies panel:
 
 - with 4D, select the **Design/Project Dependencies** menu item (Development environment),<br/>
-![dependency-menu](../assets/en/Project/dependency-menu.png)
+![dependency-menu](/assets/en/Project/dependency-menu.png)
 
 - with 4D Server, select the **Window/Project Dependencies** menu item.<br/>
-![dependency-menu-server](../assets/en/Project/dependency-menu-server.png)
+![dependency-menu-server](/assets/en/Project/dependency-menu-server.png)
 
 The Dependency panel is then displayed. Dependencies are sorted by name in alphabetical order:
 
-![dependency](../assets/en/Project/dependency.png)
+![dependency](/assets/en/Project/dependency.png)
 
 
 ### Dependency Origin
 
 The Dependencies panel lists all project dependencies, whatever their origin, i.e. wherever they come from. The dependency origin is provided by the tag under its name:
 
-![dependency-origin](../assets/en/Project/dependency-origin.png)
+![dependency-origin](/assets/en/Project/dependency-origin.png)
 
 The following origins are possible:
 
@@ -333,7 +333,7 @@ The following origins are possible:
 
 **Right-click** in a dependency line and select **Show on disk** to reveal the location of a dependency:
 
-![dependency-show](../assets/en/Project/dependency-show.png)
+![dependency-show](/assets/en/Project/dependency-show.png)
 
 :::note
 
@@ -346,7 +346,7 @@ Component icon and location logo provide additional information:
 - The component logo indicates if it is provided by 4D or a third-party developer.
 - Local components can be differentiated from GitHub components by a small icon.
 
-![dependency-origin](../assets/en/Project/dependency-github.png)
+![dependency-origin](/assets/en/Project/dependency-github.png)
 
 
 
@@ -354,7 +354,7 @@ Component icon and location logo provide additional information:
 
 By default, all dependencies identified by the Dependency manager are listed, whatever their [status](#dependency-status). You can filter the displayed dependencies according to their status by selecting the appropriate tab at the top of the Dependencies panel:
 
-![dependency-tabs](../assets/en/Project/dependency-tabs.png)
+![dependency-tabs](/assets/en/Project/dependency-tabs.png)
 
 - **Active**: Dependencies that are loaded and can be used in the project. It includes *overloading* dependencies, which are actually loaded. *Overloaded* dependencies are listed in the **Conflicts** panel, along with all conflicting dependencies.
 - **Inactive**: Dependencies that are not loaded in the project and are not available. There are many possible reasons for this status: missing files, version incompatibility...
@@ -364,7 +364,7 @@ By default, all dependencies identified by the Dependency manager are listed, wh
 
 Dependencies requiring the developer's attention are indicated by a **status label** at the right side of the line and a specific background color:
 
-![dependency-status](../assets/en/Project/dependency-conflict2.png)
+![dependency-status](/assets/en/Project/dependency-conflict2.png)
 
 The following status labels are available:
 - **Overloaded**: The dependency is not loaded because it is overloaded by another dependency with the same name at a higher [priority level](#priority).  
@@ -375,4 +375,4 @@ The following status labels are available:
 
 A tooltip is displayed when you hover over the dependency line, provding additional information about the status:
 
-![dependency-tips](../assets/en/Project/dependency-tip1.png)
+![dependency-tips](/assets/en/Project/dependency-tip1.png)

@@ -8,7 +8,7 @@ La page Retour arrière du CSM permet d’accéder à la fonction de retour en a
 
 Pour que cette fonction soit accessible, il est impératif que la base travaille avec un fichier d’historique.
 
-![](../assets/en/MSC/MSC_rollback1.png)
+![](/assets/en/MSC/MSC_rollback1.png)
 
 > Si la base de données est chiffrée et si aucune clé de données valide correspondant au fichier d'historique ouvert n'a été fournie, les valeurs chiffrées ne s'affichent pas dans la colonne **Valeurs** et un dialogue s'affiche, demandant la saisie d'une phrase secrète ou de la clé de données, si vous cliquez sur le bouton **Revenir en arrière**.
 
@@ -16,7 +16,7 @@ Le contenu et le fonctionnement de la liste des opérations sont identiques à c
 
 Pour effectuer un retour en arrière parmi les opérations, vous devez sélectionner la ligne située après laquelle toutes les opérations doivent être annulées. L’opération de la ligne sélectionnée sera la dernière conservée. Si par exemple vous souhaitez annuler une suppression, sélectionnez l’opération située juste avant la suppression. L'opération de suppression et les opérations suivantes seront annulées.
 
-![](../assets/en/MSC/MSC_rollback2.png)
+![](/assets/en/MSC/MSC_rollback2.png)
 
 Cliquez ensuite sur le bouton **Revenir en arrière**. 4D vous demande de confirmer l’opération. Si vous cliquez sur **OK**, les données sont alors restituées dans l’état exact où elles se trouvaient au moment de l’action sélectionnée.
 

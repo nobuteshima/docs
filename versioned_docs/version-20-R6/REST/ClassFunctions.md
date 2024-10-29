@@ -125,7 +125,7 @@ See example for [receiving an entity selection](#receiving-an-entity-selection-a
 
 This database is exposed as a remote datastore on localhost (port 8111):
 
-![alt-text](../assets/en/REST/ordastructure.png)
+![alt-text](/assets/en/REST/ordastructure.png)
 
 ### Using a datastore class function
 

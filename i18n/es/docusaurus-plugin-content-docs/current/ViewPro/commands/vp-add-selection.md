@@ -25,7 +25,7 @@ En *rangeObj*, pase un objeto rango de varias celdas para añadir a la selecció
 
 Actualmente tienes celdas seleccionadas:
 
-![](../../assets/en/ViewPro/cmd_vpAddSelection1.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection1.PNG)
 
 El siguiente código añadirá celdas a su selección:
 
@@ -36,7 +36,7 @@ VP ADD SELECTION($currentSelection)
 
 Resultado:
 
-![](../../assets/en/ViewPro/cmd_vpAddSelection2.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection2.PNG)
 
 #### Ver también
 

@@ -31,7 +31,7 @@ VP INSERT COLUMNS(VP Column("ViewProArea";1;3))
 
 El resultado es:
 
-![](../../assets/en/ViewPro/cmd_vpInsertColumns.PNG)
+![](/assets/en/ViewPro/cmd_vpInsertColumns.PNG)
 
 #### Ver también
 

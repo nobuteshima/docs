@@ -35,7 +35,7 @@ Vous pouvez passer autant de paires *nomAttribut* / *valeurAttribut* que vous vo
 
 Dans cette zone 4D Write Pro, vous sélectionnez un mot :
 
-![](../../assets/en/WritePro/commands/pict2643639.en.png)
+![](/assets/en/WritePro/commands/pict2643639.en.png)
 
 Si vous exécutez le code suivant :
 
@@ -54,7 +54,7 @@ Si vous exécutez le code suivant :
 
 Vous obtenez le résultat suivant :
 
-![](../../assets/en/WritePro/commands/pict2643642.en.png)
+![](/assets/en/WritePro/commands/pict2643642.en.png)
 
 #### Exemple 2 
 
@@ -69,7 +69,7 @@ Cet exemple illustre le rôle des constantes wk inside et wk outside :
 
 En supposant que tout le contenu était sélectionné, le résultat est :
 
-![](../../assets/en/WritePro/commands/pict2821715.en.png)
+![](/assets/en/WritePro/commands/pict2821715.en.png)
 
 #### Exemple 3 
 
@@ -86,7 +86,7 @@ Vous souhaitez définir une image de fond pour le document :
 
 Le résultat est le suivant :
 
-![](../../assets/en/WritePro/commands/pict3514231.en.png)
+![](/assets/en/WritePro/commands/pict3514231.en.png)
 
 Vous souhaitez définir une image de fond qui recouvre la totalité de la zone d'impression :
 
@@ -103,7 +103,7 @@ Vous souhaitez définir une image de fond qui recouvre la totalité de la zone d
 
 Le résultat est le suivant :
 
-![](../../assets/en/WritePro/commands/pict3514233.en.png)
+![](/assets/en/WritePro/commands/pict3514233.en.png)
 
 **Note** : La valeur wk paper box peut être appliquée uniquement aux documents ou aux sections.
 
@@ -133,7 +133,7 @@ Vous souhaitez définir des tabulations à intervalles variés et définir un ca
 
 Le résultat est du type :
 
-![](../../assets/en/WritePro/commands/pict4251559.en.png)
+![](/assets/en/WritePro/commands/pict4251559.en.png)
 
 #### Voir aussi 
 

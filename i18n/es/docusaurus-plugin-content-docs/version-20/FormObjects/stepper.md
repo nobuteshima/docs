@@ -5,7 +5,7 @@ title: Stepper
 
 Un stepper permite al usuario desplazarse por valores numéricos, duraciones (tiempos) o fechas por pasos predefinidos haciendo clic en los botones de flecha.
 
-![](../assets/en/FormObjects/indicator_numericStepper.png)
+![](/assets/en/FormObjects/indicator_numericStepper.png)
 
 ## Uso del stepper
 

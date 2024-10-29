@@ -46,7 +46,7 @@ displayed_sidebar: docs
 
 以下に与えられたリストボックスについて考えます。
 
-![](../assets/en/commands/pict1205393.fr.png)
+![](/assets/en/commands/pict1205393.fr.png)
 
 ```4d
  vColor:=LISTBOX Get row color(*;"Col5";3)

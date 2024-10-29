@@ -7,7 +7,7 @@ title: ラジオボタン
 
 ラジオボタンは通常、小さな目玉状の円とテキストを表示します。 しかし、ラジオボタンに [それ以外の外観](#ボタンスタイル) を設定することもできます。
 
-![](../assets/en/FormObjects/radio1.png)
+![](/assets/en/FormObjects/radio1.png)
 
 ラジオボタンを選択するには二つの方法があります:
 
@@ -20,7 +20,7 @@ title: ラジオボタン
 
 ラジオボタンの結果はメソッドを用いて管理します。 あらゆるボタンと同様に、フォームが初めて開かれる時ラジオボタンは 0 に初期化されています。 ラジオボタンが選択されると、ラジオボタンに割り当てられたメソッドが実行されます。 次の例では、ビデオ収集データベースでラジオボタンを使用し、レコーディングの速さ (SP、LP、EP) を入力します:
 
-![](../assets/en/FormObjects/radio2.png)
+![](/assets/en/FormObjects/radio2.png)
 
 グループのなかから 1つのラジオボタンを選択すると、そのボタンには 1 が代入され、グループ内の他のすべてのボタンには 0 が代入されます。 一度に1つのラジオボタンしか選択できません。
 > ラジオボタンには [ブール型の式](properties_Object.md#変数あるいは式) を設定することができます。 この場合、グループ内で選択されたラジオボタンの変数には true が代入され、残りのラジオボタンの変数には false が代入されます。
@@ -37,7 +37,7 @@ title: ラジオボタン
 
 通常スタイルのラジオボタンは、標準的なシステムボタンで (小さな目玉状の円とテキストを表示したもの)、ユーザークリックに応じてコードを実行します。
 
-![](../assets/en/FormObjects/radio_regular.png)
+![](/assets/en/FormObjects/radio_regular.png)
 
 通常スタイルのラジオボタンにマウスオーバーすると、"目玉" の色が変化します。
 
@@ -45,7 +45,7 @@ title: ラジオボタン
 
 フラットスタイルのラジオボタンは、標準的なシステムボタンで (小さな目玉状の円とテキストを表示したもの)、ユーザークリックに応じてコードを実行します。
 
-![](../assets/en/FormObjects/radio_flat.png)
+![](/assets/en/FormObjects/radio_flat.png)
 
 フラットスタイルでは、装飾が最小限に抑えられています。 フラットボタンのグラフィック的な装飾は最小限であるため、印刷されるフォームでの使用に適しています。
 
@@ -57,7 +57,7 @@ title: ラジオボタン
 
 - *Windows* - ボタンがハイライト表示されます。
 
-![](../assets/en/FormObjects/radio_toolbar.png)
+![](/assets/en/FormObjects/radio_toolbar.png)
 
 - *macOS* - ボタンはハイライト表示されません。
 
@@ -67,7 +67,7 @@ title: ラジオボタン
 
 - *Windows* - ボタンがハイライト表示されます。
 
-  ![](../assets/en/FormObjects/radio_bevel.png)
+  ![](/assets/en/FormObjects/radio_bevel.png)
 
 - *macOS* - ボタンはハイライト表示されません。
 
@@ -77,7 +77,7 @@ title: ラジオボタン
 
 - Windows 上では、このスタイルは [ベベル](#ベベル) スタイルと同じです。
 
-- *macOS* - 角が丸くなっています。 ![](../assets/en/FormObjects/roundedBevel.png)
+- *macOS* - 角が丸くなっています。 ![](/assets/en/FormObjects/roundedBevel.png)
 
 ### OS Xグラデーション
 
@@ -97,7 +97,7 @@ OS Xテクスチャースタイルは [ツールバー](#ツールバー) スタ
 
 - *macOS* - 灰色のグラデーションを表示する標準のシステムボタンです。 高さは定義済みで、変更できません。
 
-  ![](../assets/en/FormObjects/OSXTextured.png)
+  ![](/assets/en/FormObjects/OSXTextured.png)
 
 ### Office XP
 
@@ -107,7 +107,7 @@ Office XPボタンの反転表示と背景のカラーはシステムカラー�
 
 - *Windows* - マウスオーバー時にのみ背景が表示されます。
 
-  ![](../assets/en/FormObjects/radio_xp.png)
+  ![](/assets/en/FormObjects/radio_xp.png)
 
 - *macOS* - 背景は常に表示されます。
 
@@ -115,13 +115,13 @@ Office XPボタンの反転表示と背景のカラーはシステムカラー�
 
 このスタイルは標準の折りたたみ/展開アイコンを表示するのに使用します。 これらは階層リストで使用されます。 Windows では [+] または [-] のように表示されます。macOS では、右や下を指す三角として表示されます。
 
-![](../assets/en/FormObjects/checkbox_collapse.png)
+![](/assets/en/FormObjects/checkbox_collapse.png)
 
 ### 開示ボタン
 
 開示ボタンスタイルが適用されると、詳細情報の表示/非表示にするのに使われる標準的な開示ボタンとして描画されます。 値が 0 のときにはボタンの矢印が下向き、値が 1 のときは上向きになります。
 
-![](../assets/en/FormObjects/checkbox_disclosure.png)
+![](/assets/en/FormObjects/checkbox_disclosure.png)
 
 ### カスタム
 

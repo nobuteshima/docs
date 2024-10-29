@@ -42,7 +42,7 @@ Por otro lado, por defecto estos métodos proyecto no serán visibles, ni podrá
 
 **Nota:** por el contrario, por razones de seguridad, por defecto un componente no puede ejecutar métodos proyecto que pertenezcan a la base local. En algunos casos, puede ser necesario permitir que un componente acceda a los métodos proyecto de su base local. Para ello, debe designar explícitamente los métodos proyecto de la base local que desea hacer accesibles a los componentes.
 
-![](../assets/en/Concepts/pict516563.en.png)
+![](/assets/en/Concepts/pict516563.en.png)
 
 ## Paso de variables
 

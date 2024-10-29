@@ -14,10 +14,10 @@ Un proyecto 4D puede iniciar y monitorizar un servidor web para la aplicación p
 El servidor web principal de 4D puede iniciarse de diferentes maneras:
 
 - Utilizando un botón o comando de menú.
-  - 4D: **Ejecutar\>Iniciar el servidor Web** menú<br/>![](../assets/en/WebServer/start1.png)
-  - 4D Server: botón **Iniciar servidor HTTP** de la página Servidor HTTP<br/>![](../assets/en/WebServer/start2.png)
+  - 4D: **Ejecutar\>Iniciar el servidor Web** menú<br/>![](/assets/en/WebServer/start1.png)
+  - 4D Server: botón **Iniciar servidor HTTP** de la página Servidor HTTP<br/>![](/assets/en/WebServer/start2.png)
 
-- Se inicia automáticamente cada vez que se abre la aplicación 4D. Para ello, despliegue la página **Web\/Configuración** de la Configuración y active la casilla **Lanzar servidor web al iniciar**:<br/>![](../assets/en/WebServer/config.png)
+- Se inicia automáticamente cada vez que se abre la aplicación 4D. Para ello, despliegue la página **Web\/Configuración** de la Configuración y active la casilla **Lanzar servidor web al iniciar**:<br/>![](/assets/en/WebServer/config.png)
 
 - Programáticamente, llamando a la función [`webServer.start()`](API/WebServerClass.md#start) o al comando `WEB START SERVER`.
 
@@ -39,11 +39,11 @@ El servidor web de cualquier componente puede detenerse llamando a la función `
 
 El comando **Test Web Server** puede utilizarse para asegurarse de que el servidor web integrado funciona correctamente (sólo en 4D). Este comando es accesible en el menú **Ejecutar** cuando se lanza el servidor web:
 
-![](../assets/en/WebServer/test1.png)
+![](/assets/en/WebServer/test1.png)
 
 Al seleccionar este comando, la página de inicio del sitio web publicado por la aplicación 4D se muestra en una ventana de su navegador web predeterminado:
 
-![](../assets/en/WebServer/defaultHomePage.png)
+![](/assets/en/WebServer/defaultHomePage.png)
 
 Este comando permite verificar que el servidor web, la visualización de la página de inicio, etc. funcionan correctamente. La página se llama utilizando la URL *localhost*, que es el atajo estándar que designa la dirección IP de la máquina en la que se ejecuta el navegador web. El comando tiene en cuenta el número de [puerto de publicación TCP](#http-port) especificado en los parámetros.
 
@@ -219,7 +219,7 @@ El fichero archivado se renombra según el siguiente ejemplo "DYYY_MM_DD_Thh_mm_
 
 Los parámetros de copia de seguridad automáticadel logweb.txt se definen en la página **Web/Log (copia de seguridad)** de los parámetros:
 
-![](../assets/en/WebServer/backup.png)
+![](/assets/en/WebServer/backup.png)
 
 Primero debe elegir la frecuencia (días, semanas, etc.) o el criterio de límite de tamaño de archivo haciendo clic en el botón de opción correspondiente. A continuación, debe especificar el momento preciso de la copia de seguridad si es necesario.
 

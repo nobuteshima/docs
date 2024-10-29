@@ -124,7 +124,7 @@ VP ADD RANGE NAME($range;"Total1")
 
 以下のようにセルが選択されている場合:
 
-![](../assets/en/ViewPro/cmd_vpAddSelection1.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection1.PNG)
 
 以下のコードを実行すると、指定したセルを選択範囲に追加します:
 
@@ -135,7 +135,7 @@ VP ADD SELECTION($currentSelection)
 
 結果:
 
-![](../assets/en/ViewPro/cmd_vpAddSelection2.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection2.PNG)
 
 #### 参照
 
@@ -171,7 +171,7 @@ VP ADD SELECTION($currentSelection)
 
 ドキュメントには現在 3つのシートがあります:
 
-![vp-document-with-3-sheets](../assets/en/ViewPro/vp-sheet-3.png)
+![vp-document-with-3-sheets](/assets/en/ViewPro/vp-sheet-3.png)
 
 新しいシートを 3つ目の位置 (インデックスは 2) に挿入し、名前を "March" にします:
 
@@ -179,7 +179,7 @@ VP ADD SELECTION($currentSelection)
 VP ADD SHEET("ViewProArea";2;"March")
 ```
 
-![vp-add-sheet](../assets/en/ViewPro/vp-add-sheet.png)
+![vp-add-sheet](/assets/en/ViewPro/vp-add-sheet.png)
 
 #### 参照
 
@@ -211,7 +211,7 @@ VP ADD SHEET("ViewProArea";2;"March")
 
 "First quarter" セルと "Second quarter" セルを、それぞれ右 2つのセルと結合し、"South area" セルは下 2つのセルと結合します:
 
-![initial-document](../assets/en/ViewPro/vp-add-span.png)
+![initial-document](/assets/en/ViewPro/vp-add-span.png)
 
 ```4d
  // "First quarter" レンジ
@@ -226,7 +226,7 @@ VP ADD SHEET("ViewProArea";2;"March")
  VP ADD SPAN(VP Combine ranges($q1;$q2;$south))
 ```
 
-![vp-add-span-result](../assets/en/ViewPro/vp-add-span-2.png)
+![vp-add-span-result](/assets/en/ViewPro/vp-add-span-2.png)
 
 #### 参照
 
@@ -380,7 +380,7 @@ $all:=VP All("ViewProArea") // カレントシートの全セル
 
 以下に表示されている (カレントスプレッドシートの) セルに対するレンジオブジェクトを定義します:
 
-![vp-cell](../assets/en/ViewPro/cmd_vpCell.png)
+![vp-cell](/assets/en/ViewPro/cmd_vpCell.png)
 
 以下のようにコードを書くことができます:
 
@@ -438,7 +438,7 @@ $cell:=VP Cell("ViewProArea";2;4) // C5
 
 (カレントシートにおいて) 以下のセルのレンジオブジェクトを定義します:
 
-![](../assets/en/ViewPro/vp-cells.png)
+![](/assets/en/ViewPro/vp-cells.png)
 
 以下のようにコードを書くことができます:
 
@@ -483,7 +483,7 @@ $cells:=VP Cells("ViewProArea";2;4;2;3) // C5 から D7
 
 以下に表示されている (カレントスプレッドシートの) カラムに対するレンジオブジェクトを定義します:
 
-![](../assets/en/ViewPro/cmd_vpColumn.PNG)
+![](/assets/en/ViewPro/cmd_vpColumn.PNG)
 
 以下のようにコードを書くことができます:
 
@@ -518,7 +518,7 @@ $cells:=VP Cells("ViewProArea";2;4;2;3) // C5 から D7
 
 以下のカラムはすべて同じサイズで、一部のテキストが表示しきれていません:
 
-![](../assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
 
 カラムを選択して、以下のコードを実行すると:
 
@@ -528,7 +528,7 @@ $cells:=VP Cells("ViewProArea";2;4;2;3) // C5 から D7
 
 コンテンツに合うようにカラムがリサイズされます:
 
-![](../assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
 
 #### 参照
 
@@ -760,7 +760,7 @@ VP PASTE FROM OBJECT($targetRange; $dataObject; vk clipboard options all)
 
 `VP CREATE TABLE` コマンドは、 <!-- REF #_method_.VP CREATE TABLE.Summary -->指定のレンジ内に表組みを作成します<!-- END REF -->. 表組みを作成することで、関連するデータの管理や分析をより簡単におこなえます。 表組みは通常、関連するデータを行と列に含み、 [データコンテキスト](#vp-set-data-context) を利用します。
 
-![](../assets/en/ViewPro/vp-create-table.png)
+![](/assets/en/ViewPro/vp-create-table.png)
 
 *rangeObj* 引数には、表の作成場所としたいセルのレンジを渡します。
 
@@ -831,7 +831,7 @@ VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; $options.tableColumns.length; 1); 
 
 このようになります:
 
-![](../assets/en/ViewPro/vp-create-table.png)
+![](/assets/en/ViewPro/vp-create-table.png)
 
 #### 参照
 
@@ -867,7 +867,7 @@ VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; $options.tableColumns.length; 1); 
 
 ユーザーが選択したカラムを削除します (以下の画像の B、C、D のカラムを削除します):
 
-![](../assets/en/ViewPro/cmd_vpDeleteColumns.PNG)
+![](/assets/en/ViewPro/cmd_vpDeleteColumns.PNG)
 
 以下のコードを実行します:
 
@@ -906,7 +906,7 @@ VP DELETE COLUMNS(VP Get selection("ViewProArea"))
 
 ユーザーが選択した行を削除します (以下の画像の 1、2、3行目を削除します):
 
-![](../assets/en/ViewPro/cmd_vpDeleteRows.PNG)
+![](/assets/en/ViewPro/cmd_vpDeleteRows.PNG)
 
 以下のコードを実行します:
 
@@ -1058,7 +1058,7 @@ VP EXPORT DOCUMENT("VPArea";"report.pdf";$params)
 
 カレントシートを、縦棒 (|) 区切りの `.txt` ファイルに書き出します:
 
-![example-export-csv](../assets/en/ViewPro/vp-export-document-csv.png)
+![example-export-csv](/assets/en/ViewPro/vp-export-document-csv.png)
 
 ```4d
 var $params : Object
@@ -1071,7 +1071,7 @@ VP EXPORT DOCUMENT("ViewProArea";"c:\\tmp\\data.txt";New object("format";vk csv 
 
 このようになります:
 
-![example-export-csv](../assets/en/ViewPro/vp-export-document-csv-result.png)
+![example-export-csv](/assets/en/ViewPro/vp-export-document-csv-result.png)
 
 #### 参照
 
@@ -1374,7 +1374,7 @@ size:16pt
 
 #### 例題
 
-![](../assets/en/ViewPro/cmd_vpGetActiveCell.PNG)
+![](/assets/en/ViewPro/cmd_vpGetActiveCell.PNG)
 
 以下のコードを実行するとアクティブセルの座標が取得できます:
 
@@ -1473,7 +1473,7 @@ $myAttribute:=VP Get binding path(VP Cell("ViewProArea"; 1; 0)) // "lastName"
 
 選択されたセル (B2) のスタイルの詳細を取得します:
 
-![](../assets/en/ViewPro/cmd_vpGetCellStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpGetCellStyle.PNG)
 
 以下のコードを実行すると:
 
@@ -1539,7 +1539,7 @@ $attr:=VP Get column attributes($range)
 
 渡したレンジ内の属性のコレクションを返します:
 
-![](../assets/en/ViewPro/cmd_vpGetColumnAttributes.PNG)
+![](/assets/en/ViewPro/cmd_vpGetColumnAttributes.PNG)
 
 #### 参照
 
@@ -1607,7 +1607,7 @@ $colCount:=VP Get column count("ViewProarea")
 
 3番目のシートが選択されている場合:
 
-![third-sheet](../assets/en/ViewPro/vp-sheet-3-select.png)
+![third-sheet](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 コマンドは 2 を返します:
 
@@ -1654,7 +1654,7 @@ $index:=VP Get current sheet("ViewProArea")
 
 次のセルにバインドされたデータコンテキストを取得します:
 
-![](../assets/en/ViewPro/vp-set-data-context-bind.png)
+![](/assets/en/ViewPro/vp-set-data-context-bind.png)
 
 ```4d
 var $dataContext : Object
@@ -1693,7 +1693,7 @@ $dataContext:=VP Get data context("ViewProArea") // {firstName:Freehafer,lastNam
 
 このドキュメントのデフォルトスタイルを取得したい場合:
 
-![](../assets/en/ViewPro/cmd_vpGetDefaultStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpGetDefaultStyle.PNG)
 
 以下のコードを実行すると:
 
@@ -1833,7 +1833,7 @@ $formula:=VP Get formula by name("ViewProArea";"Total")
 
 このドキュメントの総計行と平均行のフォーミュラを取得します:
 
-![](../assets/en/ViewPro/cmd_vpGetFormulas.PNG)
+![](/assets/en/ViewPro/cmd_vpGetFormulas.PNG)
 
 以下のコードを使用することができます:
 
@@ -1894,7 +1894,7 @@ $panesObj:=VP Get frozen panes("ViewProArea")
 
 戻り値のオブジェクトには、以下のようなものが格納されています:
 
-![](../assets/en/ViewPro/cmd_vpGetFrozenpanes.PNG)
+![](/assets/en/ViewPro/cmd_vpGetFrozenpanes.PNG)
 
 #### 参照
 
@@ -2067,7 +2067,7 @@ $range:=VP Column("ViewProArea";1;2)
 $attr:=VP Get row attributes($range)
 ```
 
-![](../assets/en/ViewPro/cmd_vpGetRowAttributes.PNG)
+![](/assets/en/ViewPro/cmd_vpGetRowAttributes.PNG)
 
 #### 参照
 
@@ -2134,7 +2134,7 @@ $rowCount:=VP Get row count("ViewProarea")
 
 #### 例題
 
-![](../assets/en/ViewPro/cmd_vpGetSelection.PNG)
+![](/assets/en/ViewPro/cmd_vpGetSelection.PNG)
 
 以下のコードを実行すると、現在選択されているセルの座標がすべて取得できます:
 
@@ -2179,7 +2179,7 @@ $currentSelection:=VP Get selection("myVPArea")
 
 以下のドキュメントにおいて:
 
-![](../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 シート数を取得し、最後のシートをカレントシートに設定します:
 
@@ -2189,7 +2189,7 @@ $currentSelection:=VP Get selection("myVPArea")
  VP SET CURRENT SHEET("ViewProArea";$count-1)
 ```
 
-![](../assets/en/ViewPro/vp-sheet-3-select.png)
+![](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 #### 参照
 
@@ -2223,7 +2223,7 @@ $currentSelection:=VP Get selection("myVPArea")
 
 以下のドキュメントにおいて:
 
-![](../assets/en/ViewPro/vp-sheet-index-name.png)
+![](/assets/en/ViewPro/vp-sheet-index-name.png)
 
 "Total first quarter" という名前のシートのインデックスを取得します:
 
@@ -2380,7 +2380,7 @@ End if
 
 ドキュメント内の結合セルにおいて、テキストを中央揃えに変更します:
 
-![](../assets/en/ViewPro/cmd_vpGetSpans.PNG)
+![](/assets/en/ViewPro/cmd_vpGetSpans.PNG)
 
 ```4d
 // すべてのセル結合を検索します
@@ -2940,7 +2940,7 @@ End if
 
 C4 から G6 までの値を取得します:
 
-![](../assets/en/ViewPro/cmd_vpGetValues.PNG)
+![](/assets/en/ViewPro/cmd_vpGetValues.PNG)
 
 ```4d
 $result:=VP Get values(VP Cells("ViewProArea";2;3;5;3))
@@ -3079,7 +3079,7 @@ End if
 
 カンマ (",") を区切り文字として使用している `.txt` ファイルを読み込みます:
 
-![example-import-csv](../assets/en/ViewPro/vp-import-document-csv.png)
+![example-import-csv](/assets/en/ViewPro/vp-import-document-csv.png)
 
 ```4d
 $params:=New object
@@ -3087,7 +3087,7 @@ $params.range:=VP Cells("ViewProArea";0;0;2;5)
 VP IMPORT DOCUMENT("ViewProArea";"c:\\import\\my-file.txt";New object("csvOptions";$params))
 ```
 
-このようになります: ![example-import-csv](../assets/en/ViewPro/vp-import-document-csv-result.png)
+このようになります: ![example-import-csv](/assets/en/ViewPro/vp-import-document-csv-result.png)
 
 #### 参照
 
@@ -3162,7 +3162,7 @@ VP INSERT COLUMNS(VP Column("ViewProArea";1;3))
 
 このようになります:
 
-![](../assets/en/ViewPro/cmd_vpInsertColumns.PNG)
+![](/assets/en/ViewPro/cmd_vpInsertColumns.PNG)
 
 #### 参照
 
@@ -3199,7 +3199,7 @@ VP INSERT ROWS(VP Row("ViewProArea";0;3))
 
 このようになります:
 
-![](../assets/en/ViewPro/cmd_vpInsertRows.PNG)
+![](/assets/en/ViewPro/cmd_vpInsertRows.PNG)
 
 #### 参照
 
@@ -3320,7 +3320,7 @@ VP SET DATA CONTEXT("ViewProArea"; $context)
 VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; 3; 3); "PeopleTable"; "col")
 ```
 
-![](../assets/en/ViewPro/table-base.png)
+![](/assets/en/ViewPro/table-base.png)
 
 表組みに 2行と 2列を挿入したい場合、次のように書きます:
 
@@ -3329,7 +3329,7 @@ VP INSERT TABLE ROWS("ViewProArea"; "PeopleTable"; 1; 2)
 VP INSERT TABLE COLUMNS("ViewProArea"; "PeopleTable"; 1; 2)
 ```
 
-![](../assets/en/ViewPro/table-insert.png)
+![](/assets/en/ViewPro/table-insert.png)
 
 
 
@@ -3635,7 +3635,7 @@ dataObject に存在しない要素を *options* で指定した場合 (例: フ
 
 印刷ダイアログウィンドウを開きます:
 
-![](../assets/en/ViewPro/cmd_vpPrint.PNG)
+![](/assets/en/ViewPro/cmd_vpPrint.PNG)
 
 #### 参照
 
@@ -3752,7 +3752,7 @@ $formula:=VP Get formula by name("ViewProArea";"Total1")
 
 ドキュメントには現在 3つのシートがあります:
 
-![](../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 3つ目のシートを削除します:
 
@@ -3760,7 +3760,7 @@ $formula:=VP Get formula by name("ViewProArea";"Total1")
 VP REMOVE SHEET("ViewProArea";2)
 ```
 
-![](../assets/en/ViewPro/vp-sheet-2.png)
+![](/assets/en/ViewPro/vp-sheet-2.png)
 
 ### VP REMOVE SPAN
 
@@ -3783,7 +3783,7 @@ VP REMOVE SHEET("ViewProArea";2)
 
 ドキュメントのセル結合をすべて解除します:
 
-![](../assets/en/ViewPro/cmd_vpRemoveSpan1.PNG)
+![](/assets/en/ViewPro/cmd_vpRemoveSpan1.PNG)
 
 ```4d
  // すべてのセル結合を探します
@@ -3796,7 +3796,7 @@ VP REMOVE SHEET("ViewProArea";2)
 
 結果:
 
-![](../assets/en/ViewPro/cmd_vpRemoveSpan2.PNG)
+![](/assets/en/ViewPro/cmd_vpRemoveSpan2.PNG)
 
 #### 参照
 
@@ -4087,7 +4087,7 @@ VP SET DATA CONTEXT("ViewProArea"; $context)
 VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; 3; 3); "PeopleTable"; "col")
 ```
 
-![](../assets/en/ViewPro/table-base.png)
+![](/assets/en/ViewPro/table-base.png)
 
 
 表組みの前後に 1列ずつと、空行を 2行を追加します。 以下のように書くことができます:
@@ -4096,7 +4096,7 @@ VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; 3; 3); "PeopleTable"; "col")
 VP RESIZE TABLE(VP Cells("ViewProArea"; 0; 1; 4; 6); "PeopleTable")
 ```
 
-![](../assets/en/ViewPro/table-resize.png)
+![](/assets/en/ViewPro/table-resize.png)
 
 
 #### 参照
@@ -4169,7 +4169,7 @@ VP RESIZE TABLE(VP Cells("ViewProArea"; 0; 1; 4; 6); "PeopleTable")
 
 以下に表示されている (カレントスプレッドシートの) 行に対するレンジオブジェクトを定義します:
 
-![](../assets/en/ViewPro/cmd_vpRow.PNG)
+![](/assets/en/ViewPro/cmd_vpRow.PNG)
 
 以下のように書くことができます:
 
@@ -4204,7 +4204,7 @@ $row:=VP Row("ViewProArea";9) // 10行目
 
 以下の行では、テキストを正しく表示できていません:
 
-![](../assets/en/ViewPro/cmd_vpRowAutoFit1.PNG)
+![](/assets/en/ViewPro/cmd_vpRowAutoFit1.PNG)
 
 ```4d
  VP ROW AUTOFIT(VP Row("ViewProArea";1;2))
@@ -4212,7 +4212,7 @@ $row:=VP Row("ViewProArea";9) // 10行目
 
 結果:
 
-![](../assets/en/ViewPro/cmd_vpRowAutoFit2.PNG)
+![](/assets/en/ViewPro/cmd_vpRowAutoFit2.PNG)
 
 #### 参照
 
@@ -4379,7 +4379,7 @@ $activeCell:=VP Cell("myVPArea";3;4)
 VP SET ACTIVE CELL($activeCell)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetActiveCell.PNG)
+![](/assets/en/ViewPro/cmd_vpSetActiveCell.PNG)
 
 #### 参照
 
@@ -4449,7 +4449,7 @@ VP SET ALLOWED METHODS($allowed)
 
 このコードが実行されたあと、定義されたファンクションは 4D View Pro フォーミュラで使用することができるようになります:
 
-![](../assets/en/ViewPro/cmd_vpSetAllowedMethods.PNG)
+![](/assets/en/ViewPro/cmd_vpSetAllowedMethods.PNG)
 
 > インデックスは 0 起点です。
 
@@ -4509,7 +4509,7 @@ VP SET BINDING PATH(VP Cell("ViewProArea"; 0; 0); "firstName")
 VP SET BINDING PATH(VP Cell("ViewProArea"; 1; 0); "lastName")
 ```
 
-![](../assets/en/ViewPro/vp-set-data-context-bind.png)
+![](/assets/en/ViewPro/vp-set-data-context-bind.png)
 
 #### 参照
 
@@ -4602,7 +4602,7 @@ $option:=New object("outline";True)
 VP SET BORDER(VP Cells("ViewProArea";1;1;3;3);$border;$option)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSETBORDER1.PNG)
+![](/assets/en/ViewPro/cmd_vpSETBORDER1.PNG)
 
 #### 例題 2
 
@@ -4621,7 +4621,7 @@ $cellStyle.borderRight:=New object("color";"blue";"style";vk line style thick)
 VP SET CELL STYLE(VP Cells("ViewProArea";4;4;3;3);$cellStyle)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSETBORDER2.PNG)
+![](/assets/en/ViewPro/cmd_vpSETBORDER2.PNG)
 
 #### 参照
 
@@ -4674,7 +4674,7 @@ $style.backgroundImage:=Null // 特定の属性を削除します
 VP SET CELL STYLE(VP Cell("ViewProArea";1;1);$style)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetCellStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpSetCellStyle.PNG)
 
 #### 参照
 
@@ -4724,7 +4724,7 @@ VP SET COLUMN ATTRIBUTES($column;$properties)
 ```
 
 
-![](../assets/en/ViewPro/cmd_vpSetColumnAttributes.PNG)
+![](/assets/en/ViewPro/cmd_vpSetColumnAttributes.PNG)
 
 #### 参照
 
@@ -4766,7 +4766,7 @@ VP SET COLUMN ATTRIBUTES($column;$properties)
 VP SET COLUMN COUNT("ViewProArea";5)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetColumnCount.PNG)
+![](/assets/en/ViewPro/cmd_vpSetColumnCount.PNG)
 
 #### 参照
 
@@ -4801,7 +4801,7 @@ VP SET COLUMN COUNT("ViewProArea";5)
 
 ドキュメントの最初のシートがカレントシートになっています:
 
-![first-sheet-selected](../assets/en/ViewPro/vp-sheet-3-select.png)
+![first-sheet-selected](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 カレントシートを第3シートに設定します:
 
@@ -4809,7 +4809,7 @@ VP SET COLUMN COUNT("ViewProArea";5)
 VP SET CURRENT SHEET("ViewProArea";2)
 ```
 
-![](../assets/en/ViewPro/vp-sheet-3-select.png)
+![](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 #### 参照
 
@@ -4967,7 +4967,7 @@ VP SET BINDING PATH(VP Cell("ViewProArea"; 1; 0); "lastName")
 
 ```
 
-![](../assets/en/ViewPro/vp-set-data-context-bind.png)
+![](/assets/en/ViewPro/vp-set-data-context-bind.png)
 
 #### 例題 2
 
@@ -4987,7 +4987,7 @@ $options:=New object("autoGenerateColumns"; True)
 VP SET DATA CONTEXT("ViewProArea"; $data; $options)
 ```
 
-![](../assets/en/ViewPro/vp-set-data-context-2.png)
+![](/assets/en/ViewPro/vp-set-data-context-2.png)
 
 #### 例題 3
 
@@ -5008,7 +5008,7 @@ $options:=New object("autoGenerateColumns"; True)
 VP SET DATA CONTEXT("ViewProArea"; $data; $options)
 ```
 
-![](../assets/en/ViewPro/vp-set-data-context-3.png)
+![](/assets/en/ViewPro/vp-set-data-context-3.png)
 
 #### 例題 4 - 日付と時間のシンタックス
 
@@ -5034,7 +5034,7 @@ VP SET DATA CONTEXT("ViewProArea"; $data; $options)
 
 カラムが生成された後の結果です:
 
-![](../assets/en/ViewPro/vp-set-data-context-date-time.png)
+![](/assets/en/ViewPro/vp-set-data-context-date-time.png)
 
 #### 参照
 
@@ -5170,7 +5170,7 @@ $style.backColor:="#E6E6FA" // 薄い紫色
 VP SET DEFAULT STYLE("myDoc";$style)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetDefaultStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpSetDefaultStyle.PNG)
 
 #### 参照
 
@@ -5310,7 +5310,7 @@ VP SET FORMULAS(VP Cell("ViewProArea";6;3);$formulas) // フォーミュラを�
 $0:=$1*3.33
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetFormulas.PNG)
+![](/assets/en/ViewPro/cmd_vpSetFormulas.PNG)
 
 #### 例題 2
 
@@ -5380,7 +5380,7 @@ $panes.rowCount:=1
 VP SET FROZEN PANES("ViewProArea";$panes)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetFrozenPanes.PNG)
+![](/assets/en/ViewPro/cmd_vpSetFrozenPanes.PNG)
 
 #### 参照
 
@@ -5494,7 +5494,7 @@ VP EXPORT DOCUMENT("ViewProArea";"Sales2018.pdf";New object("formula";Formula(AL
 
 出力されたPDF:
 
-![](../assets/en/ViewPro/cmd_vpSetPrintInfo.PNG)
+![](/assets/en/ViewPro/cmd_vpSetPrintInfo.PNG)
 
 #### 参照
 
@@ -5543,7 +5543,7 @@ $properties:=New object("height";75;"header";"June")
 VP SET ROW ATTRIBUTES($row;$properties)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetRowAttributes.PNG)
+![](/assets/en/ViewPro/cmd_vpSetRowAttributes.PNG)
 
 #### 参照
 
@@ -5585,7 +5585,7 @@ VP SET ROW ATTRIBUTES($row;$properties)
 VP SET ROW COUNT("ViewProArea";5)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetRowCount.PNG)
+![](/assets/en/ViewPro/cmd_vpSetRowCount.PNG)
 
 #### 参照
 
@@ -5618,7 +5618,7 @@ $currentSelection:=VP Combine ranges(VP Cells("myVPArea";3;2;1;6);VP Cells("myVP
 VP SET SELECTION($currentSelection)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetSelection.PNG)
+![](/assets/en/ViewPro/cmd_vpSetSelection.PNG)
 
 #### 参照
 
@@ -5649,7 +5649,7 @@ VP SET SELECTION($currentSelection)
 
 ドキュメントには現在シートが 1つあります:
 
-![](../assets/en/ViewPro/vp-sheet-1.png)
+![](/assets/en/ViewPro/vp-sheet-1.png)
 
 シート数を 3つに設定します:
 
@@ -5657,7 +5657,7 @@ VP SET SELECTION($currentSelection)
 VP SET SHEET COUNT("ViewProArea";3)
 ```
 
-![](../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 #### 参照
 
@@ -5709,7 +5709,7 @@ VP SET SHEET COUNT("ViewProArea";3)
 VP SET SHEET NAME("ViewProArea";"Total first quarter";2)
 ```
 
-![](../assets/en/ViewPro/vp-sheet-index-name.png)
+![](/assets/en/ViewPro/vp-sheet-index-name.png)
 
 ### VP SET SHEET OPTIONS
 
@@ -5804,7 +5804,7 @@ VP SET SHEET OPTIONS("ViewProArea";$options;2)
 
 結果:
 
-![](../assets/en/ViewPro/cmd_vpSetSheetOptions1.PNG)
+![](/assets/en/ViewPro/cmd_vpSetSheetOptions1.PNG)
 
 #### 例題 4
 
@@ -5826,7 +5826,7 @@ VP SET SHEET OPTIONS("ViewProArea";$options)
 
 結果:
 
-![](../assets/en/ViewPro/cmd_vpSetSheetOptions2.PNG)
+![](/assets/en/ViewPro/cmd_vpSetSheetOptions2.PNG)
 
 #### 参照
 
@@ -5871,11 +5871,11 @@ VP SET SHOW PRINT LINES("ViewProArea";True;1)
 
 ```
 
-![set-show-print-lines](../assets/en/ViewPro/vp-set-show-print-lines.png)
+![set-show-print-lines](/assets/en/ViewPro/vp-set-show-print-lines.png)
 
 改ページがある場合:
 
-![set-show-print-lines-with-page-break](../assets/en/ViewPro/vp-set-show-print-lines-page-break.png)
+![set-show-print-lines-with-page-break](/assets/en/ViewPro/vp-set-show-print-lines-page-break.png)
 
 #### 参照
 
@@ -5952,7 +5952,7 @@ $options.tableColumns.push(New object("name"; "Salary"; "dataField"; "salary"))
 VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; 2; 3); "PeopleTable"; "col"; $options)
 ```
 
-![](../assets/en/ViewPro/table-inserta.png)
+![](/assets/en/ViewPro/table-inserta.png)
 
 その後、データコンテキストからデータを取得する列を挿入し、フィルターボタンをいくつか非表示にします:
 
@@ -5977,7 +5977,7 @@ VP SET TABLE COLUMN ATTRIBUTES("ViewProArea"; "PeopleTable"; 0; \
 
 ```
 
-![](../assets/en/ViewPro/table-insertb.png)
+![](/assets/en/ViewPro/table-insertb.png)
 
 
 #### 参照
@@ -6034,7 +6034,7 @@ VP SET TABLE THEME("ViewProArea"; "myTable"; $param)
 
 交互の列表示を設定します:
 
-![](../assets/en/ViewPro/col-bandering.png)
+![](/assets/en/ViewPro/col-bandering.png)
 
 ```4d
 var $param : cs.ViewPro.TableTheme
@@ -6260,7 +6260,7 @@ $param.push(New collection(Null;New object("value";Current date;"time";42))) // 
 VP SET VALUES(VP Cell("ViewProArea";2;1);$param)
 ```
 
-![](../assets/en/ViewPro/cmd_vpSetValues.PNG)
+![](/assets/en/ViewPro/cmd_vpSetValues.PNG)
 
 #### 参照
 
@@ -6417,7 +6417,7 @@ VP SHOW CELL($displayCell;vk position center;vk position center)
 
 結果:
 
-![](../assets/en/ViewPro/cmd_vpShowCell1.PNG)
+![](/assets/en/ViewPro/cmd_vpShowCell1.PNG)
 
 先ほどのコードの縦および横方向のセレクターを変更して、AY51 セルを 4D View Pro エリアの右上に表示します:
 
@@ -6429,7 +6429,7 @@ VP SHOW CELL($displayCell;vk position top;vk position right)
 
 結果:
 
-![](../assets/en/ViewPro/cmd_vpShowCell2.PNG)
+![](/assets/en/ViewPro/cmd_vpShowCell2.PNG)
 
 #### 参照
 
@@ -6461,7 +6461,7 @@ VP SHOW CELL($displayCell;vk position top;vk position right)
 
 ユーザーが計算を停止/再開できるように、フォーム上に 2つボタンを追加します:
 
-![](../assets/en/ViewPro/cmd_vpStopCalculations.PNG)
+![](/assets/en/ViewPro/cmd_vpStopCalculations.PNG)
 
 計算停止ボタンのコード:
 

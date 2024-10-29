@@ -6,7 +6,7 @@ title: Acerca de los formularios 4D
 
 Los formularios ofrecen la interfaz a través de la cual se introduce, modifica e imprime la información en una aplicación de escritorio. Los usuarios interactúan con los datos de una base de datos mediante formularios e imprimen informes utilizando formularios. Los formularios pueden utilizarse para crear cajas de diálogo personalizadas, paletas o toda ventana personalizada.
 
-![](../assets/en/FormObjects/form1.png)
+![](/assets/en/FormObjects/form1.png)
 
 Los formularios también pueden contener otros formularios a través de las siguientes funcionalidades:
 

@@ -5,7 +5,7 @@ title: Combo Box
 
 Uma caixa de combinação é semelhante a uma [lista suspensa] (dropdownList_Overview.md#overview), exceto pelo fato de que ela aceita texto digitado pelo teclado e tem opções adicionais.
 
-![](../assets/en/FormObjects/combo_box.png)
+![](/assets/en/FormObjects/combo_box.png)
 
 Em outros aspectos, você deve tratar uma combo box como uma área editável que usa seu array ou uma lista de escolha como um conjunto de valores padrão.
 

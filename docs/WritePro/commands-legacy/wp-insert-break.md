@@ -81,7 +81,7 @@ You want to insert a continuous section break to have a single column section an
 ```  
     
     
-![](../../assets/en/WritePro/commands/pict5562056.en.png)
+![](/assets/en/WritePro/commands/pict5562056.en.png)
 2. Set the column count to 2 for the first section:  
     
 ```4d  
@@ -90,7 +90,7 @@ You want to insert a continuous section break to have a single column section an
 ```  
     
     
-![](../../assets/en/WritePro/commands/pict5562058.en.png)
+![](/assets/en/WritePro/commands/pict5562058.en.png)
 
 #### See also 
 

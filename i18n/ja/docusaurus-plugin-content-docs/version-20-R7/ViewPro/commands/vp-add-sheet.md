@@ -31,7 +31,7 @@ title: VP ADD SHEET
 
 ドキュメントには現在 3つのシートがあります:
 
-![vp-document-with-3-sheets](../../assets/en/ViewPro/vp-sheet-3.png)
+![vp-document-with-3-sheets](/assets/en/ViewPro/vp-sheet-3.png)
 
 新しいシートを 3つ目の位置 (インデックスは 2) に挿入し、名前を "March" にします:
 
@@ -39,7 +39,7 @@ title: VP ADD SHEET
 VP ADD SHEET("ViewProArea";2;"March")
 ```
 
-![vp-add-sheet](../../assets/en/ViewPro/vp-add-sheet.png)
+![vp-add-sheet](/assets/en/ViewPro/vp-add-sheet.png)
 
 #### 参照
 

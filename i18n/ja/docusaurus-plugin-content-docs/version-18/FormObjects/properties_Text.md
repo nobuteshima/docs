@@ -94,7 +94,7 @@ title: テキスト
 - **normal**: フォームエディター内で作成された新規オブジェクトにデフォルトで適用される自動スタイルです。
 - **main** および **additional** フォントテーマは [テキストエリア](text.md) と [入力](input_overview.md) オブジェクトでのみサポートされています。 これらのテーマは、おもにダイアログボックスのデザインを目的に提供されています。 インターフェースウィンドウにおいて main フォントテーマは本文用、additional テーマは詳細情報を追記するためのものです。 下に macOS および Windows にてこれらのフォントテーマを使ったダイアログボックスの例を示します:
 
-![](../assets/en/FormObjects/FontThemes.png)
+![](/assets/en/FormObjects/FontThemes.png)
 
 > フォントテーマはフォントだけでなく、サイズやカラーも定めます。 フォントテーマが定めるプロパティを一つでも編集してしまうと、動的に機能しなくなります。 ただし、一部のカスタムスタイルプロパティ (太字、イタリック、下線) は動作に影響なく適用することができます。
 
@@ -367,10 +367,10 @@ End case
 
 | 回転角度      | 戻り値                                            |
 | --------- | ---------------------------------------------- |
-| 0 (デフォルト) | ![](../assets/en/FormObjects/orientation1.png) |
-| 90        | ![](../assets/en/FormObjects/orientation2.png) |
-| 180       | ![](../assets/en/FormObjects/orientation3.png) |
-| 270       | ![](../assets/en/FormObjects/orientation4.png) |
+| 0 (デフォルト) | ![](/assets/en/FormObjects/orientation1.png) |
+| 90        | ![](/assets/en/FormObjects/orientation2.png) |
+| 180       | ![](/assets/en/FormObjects/orientation3.png) |
+| 270       | ![](/assets/en/FormObjects/orientation4.png) |
 
 [スタティックなテキストエリア](text.md) のほかに、[入力不可](properties_Entry.md#入力可) に設定された [入力オブジェクト](input_overview.md) も回転させることが出来ます。 入力オブジェクトの方向プロパティにて 0°以外のオプションを選んだ場合、 入力可プロパティは (選択されていた場合) 自動的に解除されます。 その際、このオブジェクトは入力順から自動的に除外されます。
 
@@ -432,7 +432,7 @@ End case
 
 たとえば、以下のようにスタイルが変更されたテキストがあります:
 
-![](../assets/en/FormObjects/tagStyle1.png)
+![](/assets/en/FormObjects/tagStyle1.png)
 
 このプロパティが無効な場合、エリアは更新されたスタイルのみを格納します。 つまり、格納される内容は以下のようになります:
 

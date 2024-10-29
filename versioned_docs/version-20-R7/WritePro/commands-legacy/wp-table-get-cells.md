@@ -66,7 +66,7 @@ You want to modifiy the attributes of a range of cells:
   
 Result: 
 
-![](../../assets/en/WritePro/commands/pict3307320.en.png)
+![](/assets/en/WritePro/commands/pict3307320.en.png)
 
 #### Example 2 
 

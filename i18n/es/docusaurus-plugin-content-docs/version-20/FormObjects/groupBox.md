@@ -5,7 +5,7 @@ title: Área de grupo
 
 Un área de grupo es un objeto estático que permite ensamblar visualmente varios objetos de formulario:
 
-![](../assets/en/FormObjects/groupBox.png)
+![](/assets/en/FormObjects/groupBox.png)
 > El nombre de un área de grupo es un texto estático; puede utilizar una referencia "localizable" como con cualquier etiqueta de 4D (ver [Utilizar las referencias en los textos estáticos](https://doc.4d.com/4Dv17R5/4D/17-R5/Using-references-in-static-text.300-4163725.en.html) y la sección *Arquitectura XLIFF* en el manual Diseño de 4D.
 
 

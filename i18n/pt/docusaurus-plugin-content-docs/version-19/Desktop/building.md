@@ -25,11 +25,11 @@ A cria de um pacote de projetos pode ser efetuada utilizando:
 
 Para exibir o diálogo Build Application , selecione **Design** > **Build Application...** na barra de menu.
 
-![](../assets/en/Project/buildappProj.png)
+![](/assets/en/Project/buildappProj.png)
 
 A caixa de diálogo Criar aplicação inclui várias páginas que podem ser acedidas através de separadores:
 
-![](../assets/en/Project/appbuilderProj.png)
+![](/assets/en/Project/appbuilderProj.png)
 
 A geração do banco de dados só pode ser realizado quando o banco de dados for compilado. Se selecionar esse comando sem ter previamente compilado o banco de dados, ou no caso do código compilado não for correspondente ao código interpretado, aparece uma caixa de diálogo de advertência que indica que o banco de dados deve ser (re)compilado.
 
@@ -57,7 +57,7 @@ A verificação desse arquivo pode ajudá-lo a economizar tempo durante as etapa
 
 ## Nome da aplicação e pasta de destino
 
-![](../assets/en/Project/buidappstructureProj.png)
+![](/assets/en/Project/buidappstructureProj.png)
 
 Digite o nome do aplicativo em **Application Name**.
 
@@ -67,7 +67,7 @@ Especifique a pasta para o aplicativo criado em **Destination Folder (Pasta de d
 
 Essa guia permite que você crie um arquivo de estrutura compilado padrão ou um componente compilado:
 
-![](../assets/en/Project/appbuilderProj.png)
+![](/assets/en/Project/appbuilderProj.png)
 
 ### Construir a estrutura compilada
 
@@ -102,7 +102,7 @@ A pasta *MyComponent.4dbase* contém:
 
 Essa guia permite que você crie uma versão autônoma e de usuário único do seu aplicativo:
 
-![](../assets/en/Project/standaloneProj.png)
+![](/assets/en/Project/standaloneProj.png)
 
 ### Criar uma aplicação autónoma
 
@@ -188,7 +188,7 @@ Os elementos devem ser instalados:
 
 Nessa guia, você pode criar aplicativos cliente-servidor personalizados que sejam homogêneos, multiplataforma e com uma opção de atualização automática.
 
-![](../assets/en/Project/buildappCSProj.png)
+![](/assets/en/Project/buildappCSProj.png)
 
 ### O que é uma aplicação Cliente/Servidor?
 
@@ -381,11 +381,11 @@ Personalizar o nome da pasta de cache do lado do cliente pode ser útil quando s
 
 * Configuração padrão (*para cada conexão para um servidor, uma pasta cache é baixada ou atualizada*):
 
-![](../assets/en/Admin/cachea.png)
+![](/assets/en/Admin/cachea.png)
 
 * Usando a chave `ClientServerFolderName` (*uma única pasta de cache é usada para todos os servidores*):
 
-![](../assets/en/Admin/cacheb.png)
+![](/assets/en/Admin/cacheb.png)
 
 #### Pasta de cache do servidor
 
@@ -393,11 +393,11 @@ Personalizar o nome da pasta de cache no lado do servidor é útil quando você 
 
 * Configuração padrão (*mesmo servidor aplicativos compartilham a mesma pasta de cache*:
 
-![](../assets/en/Admin/cacheServera.png)
+![](/assets/en/Admin/cacheServera.png)
 
 * Usar a chave `ServerStructureFolderName` (*uma pasta cache é usada para cada aplicação de servidor*):
 
-![](../assets/en/Admin/cacheServerb.png)
+![](/assets/en/Admin/cacheServerb.png)
 
 ## Página Plugins e componentes
 
@@ -405,7 +405,7 @@ On this tab, you set each [plug-in](Concepts/plug-ins.md) and each [component](C
 
 A página lista os elementos carregados pela aplicação 4D atual:
 
-![](../assets/en/Project/buildapppluginsProj.png)
+![](/assets/en/Project/buildapppluginsProj.png)
 
 * Coluna **Active** - Indica que os itens serão integrados no pacote de aplicação compilado. Todos os itens são marcados por padrão. Para excluir um plug-in ou um componente, desmarque a caixa de seleção ao lado dele.
 
@@ -427,7 +427,7 @@ A página Licences & Certificate pode ser utilizada para:
 * designar o(s) número(s) da licença que você deseja integrar em seu aplicativo de stand-alone de usuário único
 * assinar a aplicação através de um certificado no macOS.
 
-![](../assets/en/Admin/buildappCertif.png)
+![](/assets/en/Admin/buildappCertif.png)
 
 ### Licenças
 
@@ -459,18 +459,18 @@ The application builder can sign merged 4D applications under macOS (single-user
 
 * Verifique a opção do Sinal **** para incluir certificação no procedimento de construtor de aplicativos para OS X. 4D irá verificar a disponibilidade de elementos necessários para a certificação quando a compilação ocorrer:
 
-![](../assets/en/Admin/buildapposxcertProj.png)
+![](/assets/en/Admin/buildapposxcertProj.png)
 
 Esta opção é exibida tanto no Windows quanto no macOS, mas apenas é tida em conta para as versões do macOS.
 
 * **Nome do certificado** - Digite o nome do seu certificado de desenvolvedor validado pela Apple nesta área de entrada. O nome do certificado geralmente é o nome do certificado no utilitário Acesso Keychain (parte em vermelho no exemplo a seguir):
 
-![](../assets/en/Project/certificate.png)
+![](/assets/en/Project/certificate.png)
 
 Para obter um certificado de desenvolvedor da Apple, Inc., você pode usar os comandos do menu Acesso de Chaves ou vá aqui: [http://developer.apple.com/library/mac/#documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html](http://developer.apple.com/library/mac/#documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html).
 > Este certificado requer a presença da utilidade do co design da Apple, que é fornecida por padrão e geralmente localizada na pasta "/usr/bin/". Se ocorrer um erro, verifique se este utilitário está presente em seu disco.
 
-* **Gerar certificado auto-assinado** - executa o "Assistente de Certificado" que permite gerar um certificado auto-assinado. Se você não tiver um certificado de desenvolvedor da Apple, você precisará fornecer um certificado auto-assinado. Com este certificado, nenhuma mensagem de alerta é exibida se a aplicação for implementada internamente. Se a aplicação é implantada externamente (por exemplo, através de http ou e-mail), na inicialização do macOS exibe uma mensagem de alerta de que o desenvolvedor da aplicação é não identificado. O usuário pode "forçar" a abertura da aplicação. No "Certificado de Assistente", certifique-se de selecionar as opções apropriadas: ![](../assets/en/Admin/Cert1.png) ![](../assets/en/Admin/Cert2.png)
+* **Gerar certificado auto-assinado** - executa o "Assistente de Certificado" que permite gerar um certificado auto-assinado. Se você não tiver um certificado de desenvolvedor da Apple, você precisará fornecer um certificado auto-assinado. Com este certificado, nenhuma mensagem de alerta é exibida se a aplicação for implementada internamente. Se a aplicação é implantada externamente (por exemplo, através de http ou e-mail), na inicialização do macOS exibe uma mensagem de alerta de que o desenvolvedor da aplicação é não identificado. O usuário pode "forçar" a abertura da aplicação. No "Certificado de Assistente", certifique-se de selecionar as opções apropriadas: ![](/assets/en/Admin/Cert1.png) ![](/assets/en/Admin/Cert2.png)
 
 > 4D recomenda assinar o Programa de Desenvolvimento da Apple para obter acesso a Certificados de Desenvolvedor que são necessários para notarizar aplicativos (veja abaixo).
 
@@ -553,9 +553,9 @@ Por conseguinte, a 4D permite ligar o caminho do arquivo de dados ao caminho da 
 
 Este modo permite a você duplicar seus aplicativos mesclados sem quebrar o link para o arquivo de dados. No entanto, com esta opção, se o pacote do aplicativo for movido no disco, o usuário será solicitado por um arquivo de dados, já que o caminho do aplicativo não corresponderá mais ao atributo "executablePath" (depois que um usuário tenha selecionado um arquivo de dados, o *lastDataPath. ml* arquivo é atualizado adequadamente).
 
-*Duplicação quando os dados são vinculados pelo nome da aplicação:* ![](../assets/en/Project/datalinking1.png)
+*Duplicação quando os dados são vinculados pelo nome da aplicação:* ![](/assets/en/Project/datalinking1.png)
 
-*Duplicação quando os dados estiverem ligados por caminho da aplicação:* ![](../assets/en/Project/datalinking2.png)
+*Duplicação quando os dados estiverem ligados por caminho da aplicação:* ![](/assets/en/Project/datalinking2.png)
 
 Você pode selecionar o modo de ligação de dados durante o processo de construção do aplicativo. Você também pode:
 
@@ -578,7 +578,7 @@ Para definir e utilizar um ficheiro de dados padrão:
 
 O gráfico seguinte ilustra esta funcionalidade:
 
-![](../assets/en/Project/DefaultData.png)
+![](/assets/en/Project/DefaultData.png)
 
 Quando o arquivo de dados padrão é detectado na primeira inicialização, ele é silenciosamente aberto em modo somente leitura Assim, permite que você execute operações personalizadas que não modifiquem o arquivo de dados em si.
 
@@ -617,6 +617,6 @@ Este mecanismo aborda o caso de o servidor principal alvo estar temporariamente 
 Você pode escolher se deseja ou não exibir a caixa de diálogo de seleção padrão do servidor em aplicações cliente mescladas quando o servidor não pode ser alcançado. A configuração depende do valor da chave XML [ServerSelectionAllowed](https://doc.4d.com/4Dv17R6/4D/17-R6/ServerSelectionAllowed.300-4465714.en.html) no computador em que a aplicação foi criada:
 
 * **exibir uma mensagem de erro sem acesso possível à caixa de diálogo de seleção do servidor**. Operação padrão. O aplicativo só pode sair.  
-  `ServerSelectionAllowed`: **False** ou key omitida ![](../assets/en/Project/connect1.png)
+  `ServerSelectionAllowed`: **False** ou key omitida ![](/assets/en/Project/connect1.png)
 
-* **exibir uma mensagem de erro com acesso à caixa de diálogo de seleção do servidor possível**. O usuário pode acessar a janela de seleção do servidor clicando no botão **Select...**. `ServerSelectionAllowed`: **True** ![](../assets/en/Project/connect2.png) ![](../assets/en/Project/connect3.png)
+* **exibir uma mensagem de erro com acesso à caixa de diálogo de seleção do servidor possível**. O usuário pode acessar a janela de seleção do servidor clicando no botão **Select...**. `ServerSelectionAllowed`: **True** ![](/assets/en/Project/connect2.png) ![](/assets/en/Project/connect3.png)

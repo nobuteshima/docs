@@ -65,7 +65,7 @@ VP SET ALLOWED METHODS($allowed)
 
 After this code is executed, the defined functions can be used in 4D View Pro formulas:
 
-![](../../assets/en/ViewPro/cmd_vpSetAllowedMethods.PNG)
+![](/assets/en/ViewPro/cmd_vpSetAllowedMethods.PNG)
 
 > In 4D View Pro formulas, function names are automatically displayed in uppercase.
 

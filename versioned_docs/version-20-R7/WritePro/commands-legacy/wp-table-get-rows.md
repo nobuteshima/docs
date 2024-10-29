@@ -68,7 +68,7 @@ You want to set a specific background color for the first two rows of a table, a
 ```
 
   
-![](../../assets/en/WritePro/commands/pict3307142.en.png)
+![](/assets/en/WritePro/commands/pict3307142.en.png)
 
 #### Example 2 
 

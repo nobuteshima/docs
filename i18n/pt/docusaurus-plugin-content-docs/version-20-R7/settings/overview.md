@@ -5,7 +5,7 @@ title: Settings
 
 Os parâmetros configuram o funcionamento do projeto atual. Esses parâmetros podem diferir para cada projeto. They include the listening ports, backup configurations, security options, Web parameters, etc.
 
-![](../assets/en/settings/main.png)
+![](/assets/en/settings/main.png)
 
 > 4D ofrece otro conjunto de parámetros, llamados **Preferencias**, que se aplican a la aplicación 4D IDE. Para más información, consulte [Preferencias](../Preferences/general.md).
 
@@ -35,7 +35,7 @@ In both cases, the settings can be opened in 'Read-only', but cannot be used unt
 
 En las cajas de diálogo de las Propiedades, los parámetros cuyos valores se han modificado aparecen **en negrita**:
 
-![](../assets/en/settings/customize-settings.png)
+![](/assets/en/settings/customize-settings.png)
 
 Parameters indicated as customized may have been modified directly in the dialog box, or may have been modified previously in the case of a converted project.
 

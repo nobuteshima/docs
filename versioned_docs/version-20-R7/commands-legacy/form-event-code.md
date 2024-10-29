@@ -315,7 +315,7 @@ This event is generally used to display pop-up menus in case of long button clic
 \- If the pop-up menu is “separated,” the event is only generated when a click occurs on the portion of the button with the arrow.  
 \- If the pop-up menu is “linked,” the event is generated when a click occurs on any part of the button. Please note that the On Long Click event cannot be generated with this type of button.  
     
-![](../assets/en/commands/pict2074286.en.png)
+![](/assets/en/commands/pict2074286.en.png)
 
 The following 3D button, 3D radio button and 3D check box styles accept the “With pop-up menu” property: None, Toolbar button, Bevel, Rounded bevel and Office XP.
 
@@ -829,7 +829,7 @@ You want to draw a red rectangle around the selected cell of a list box, and you
 
 As a result, the red rectangle follows the scrolling of the list box:
 
-![](../assets/en/commands/pict1900395.en.png)
+![](/assets/en/commands/pict1900395.en.png)
 
 #### See also 
 

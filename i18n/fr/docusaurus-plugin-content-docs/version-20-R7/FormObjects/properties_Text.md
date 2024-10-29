@@ -100,7 +100,7 @@ Trois thèmes de polices sont disponibles :
 - **normal** : style automatique, appliqué par défaut à tout nouvel objet créé dans l'éditeur de formulaires.
 - Les thèmes de polices **principaux** et **supplémentaires** ne sont pris en charge uniquement par les [zones de texte](text.md) et les [zones de saisie](input_overview.md). Ces thèmes sont principalement destinés à la conception de boîtes de dialogue. Ils font référence aux styles de police utilisés respectivement pour le texte principal et les informations supplémentaires dans vos fenêtres d'interface. Voici les boîtes de dialogue typiques (macOS et Windows) utilisant ces thèmes de polices :
 
-![](../assets/en/FormObjects/FontThemes.png)
+![](/assets/en/FormObjects/FontThemes.png)
 
 > Les thèmes de polices gèrent la police ainsi que sa taille et sa couleur. Vous pouvez appliquer des propriétés de style personnalisées (Gras, Italique ou Souligné) sans modifier son fonctionnement.
 
@@ -394,10 +394,10 @@ Modifie l'orientation (rotation) d'une zone de texte. Les zones de texte peuvent
 
 | Valeur d'orientation              | Résultat                                       |
 | --------------------------------- | ---------------------------------------------- |
-| 0 (par défaut) | ![](../assets/en/FormObjects/orientation1.png) |
-| 90                                | ![](../assets/en/FormObjects/orientation2.png) |
-| 180                               | ![](../assets/en/FormObjects/orientation3.png) |
-| 270                               | ![](../assets/en/FormObjects/orientation4.png) |
+| 0 (par défaut) | ![](/assets/en/FormObjects/orientation1.png) |
+| 90                                | ![](/assets/en/FormObjects/orientation2.png) |
+| 180                               | ![](/assets/en/FormObjects/orientation3.png) |
+| 270                               | ![](/assets/en/FormObjects/orientation4.png) |
 
 En plus des [zones de texte statiques](text.md), les objets de texte des [zones de saisie](input_overview.md) peuvent être pivotés lorsqu'ils ne sont pas [saisissables](properties_Entry.md#enterable). Lorsqu'une propriété de rotation est appliquée à un objet de saisie, la propriété saisissable est supprimée (le cas échéant). Cet objet est alors exclu de l'ordre de saisie.
 
@@ -460,7 +460,7 @@ Lorsque cette propriété est activée, la zone stockera les balises de style av
 
 Par exemple, voici un texte qui inclut une modification de style :
 
-![](../assets/en/FormObjects/tagStyle1.png)
+![](/assets/en/FormObjects/tagStyle1.png)
 
 Lorsque la propriété est désactivée, la zone ne stocke que la modification qui a été apportée. Les contenus stockés sont donc :
 

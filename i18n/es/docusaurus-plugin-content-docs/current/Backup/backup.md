@@ -16,7 +16,7 @@ Una copia de seguridad puede iniciarse de tres maneras:
 
 1. Seleccione el elemento **Copia de seguridad...** en el menú **Archivo** de 4D.
    La ventana de copia de seguridad aparece:
-   ![](../assets/en/Backup/backup01. ng)
+   ![](/assets/en/Backup/backup01. ng)
    Puede ver la ubicación de la carpeta de copia de seguridad usando el menú emergente junto al área de "destino de copia de seguridad". Esta ubicación se define en la página **Copia de seguridad/configuración** de las Propiedades de la base.
 
 - También puede abrir el [Centro de mantenimiento y seguridad](MSC/overview.md) de 4D y mostrar la [página de copias de seguridad](MSC/backup.md).
@@ -39,7 +39,7 @@ Puede utilizar los métodos base `On Backup Startup` and `On Backup Shutdown` pa
 
 Una vez iniciada la copia de seguridad, 4D muestra una caja de diálogo con un termómetro que indica el progreso de la copia de seguridad:
 
-![](../assets/en/Backup/backupProgress.png)
+![](/assets/en/Backup/backupProgress.png)
 
 Este termómetro también se muestra en la página [Backup del CSM](MSC/backup.md) si ha utilizado esta caja de diálogo.
 

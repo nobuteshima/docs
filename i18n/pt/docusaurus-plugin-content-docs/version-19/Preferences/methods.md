@@ -9,7 +9,7 @@ This page contains parameters defining the Method editor interface and it defaul
 
 This page allows selecting, creating, or configuring Method editor themes. Um tema define a fonte, o tamanho da fonte, as cores e os estilos dos itens apresentados no editor de código.
 
-![](../assets/en/Preferences/themes.png)
+![](/assets/en/Preferences/themes.png)
 
 ### Lista de temas
 
@@ -55,7 +55,7 @@ Pode definir estilos de letra e cores diferentes (cor da letra ou cor de fundo) 
 
 These options configure the various colors used in the Method editor and debugger interfaces.
 
-![](../assets/en/Preferences/categories.png)
+![](/assets/en/Preferences/categories.png)
 
 |                                                | Descrição                                                                                                                                                          |
 | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -75,7 +75,7 @@ These options configure the various colors used in the Method editor and debugge
 
 Esta página configura as opções de visualização do editor de métodos.
 
-![](../assets/en/Preferences/options.png)
+![](/assets/en/Preferences/options.png)
 
 ### Opções
 
@@ -94,7 +94,7 @@ Altera o valor de indentação do código 4D no editor de métodos. A largura de
 
 O código 4D é automaticamente indentado para revelar a sua estrutura:
 
-![](../assets/en/Preferences/optionsIndent.png)
+![](/assets/en/Preferences/optionsIndent.png)
 
 A modificação deste valor predefinido pode ser útil se os seus métodos contiverem algoritmos complexos com muitos níveis de incorporação. Pode ser utilizada uma indentação mais estreita para limitar a deslocação horizontal.
 
@@ -110,7 +110,7 @@ Lets you choose whether or not to show the lists of objects (Commands, Tables an
 
 Quando marcada, todo o código pertencente a um bloco lógico (If/End if, por exemplo) é realçado quando o rato é colocado sobre o nó expandido:
 
-![](../assets/en/Preferences/optionsLogicalBlocks.png)
+![](/assets/en/Preferences/optionsLogicalBlocks.png)
 
 A cor de destaque pode ser definida na página [Tema](#theme-definition).
 
@@ -118,13 +118,13 @@ A cor de destaque pode ser definida na página [Tema](#theme-definition).
 
 Oculta permanentemente as linhas verticais dos blocos. As linhas de bloco são concebidas para ligar visualmente os nós. Por padrão, são sempre apresentados (exceto quando os ícones de recolher/expandir estão ocultos, ver abaixo).
 
-![](../assets/en/Preferences/optionsBlockLines.png)
+![](/assets/en/Preferences/optionsBlockLines.png)
 
 #### Ocultar ícones recolher/expandir
 
 Permite-lhe ocultar todos os ícones de expansão/recolhimento por padrão ao apresentar o código. Quando a opção está selecionada, os ícones dos nós (bem como as linhas de bloco locais, ver acima) são apresentados temporariamente quando o rato é colocado sobre um nó:
 
-![](../assets/en/Preferences/optionsHideIcons.png)
+![](/assets/en/Preferences/optionsHideIcons.png)
 
 #### Inserir () e fechar } ) ] "
 
@@ -134,8 +134,8 @@ Permite a inserção automática de () e de chaves de fecho durante a escrita de
 
 * **}, ), ], ou "**: carácter adicionado quando se escreve respetivamente uma abertura {, (, ], ou ". Esta função permite inserir pares de símbolos correspondentes no ponto de inserção ou à volta de um texto selecionado. Por exemplo, se realçar uma cadeia de caracteres e escrever um único ", toda a cadeia de caracteres selecionada será colocada entre "":
 
-![](../assets/en/Preferences/optionsClosing.png)  
-![](../assets/en/Preferences/optionsClosing2.png)
+![](/assets/en/Preferences/optionsClosing.png)  
+![](/assets/en/Preferences/optionsClosing2.png)
 
 #### Correspondência \[]\(){}
 
@@ -143,7 +143,7 @@ Define a sinalização gráfica das chaves correspondentes no código. Esta sina
 
 * **Nenhum**: sem sinalização
 * **Retângulo** (padrão): parêntesis rodeados por uma linha preta  
-  ![](../assets/en/Preferences/optionsRectangle.png)
+  ![](/assets/en/Preferences/optionsRectangle.png)
 * **Cor de fundo**: as chavetas são realçadas (a cor é definida na página [Tema](#theme-definition)).
 * **Negrito**: as chavetas são apresentadas a negrito.
 
@@ -151,7 +151,7 @@ Define a sinalização gráfica das chaves correspondentes no código. Esta sina
 
 Permite destacar todas as ocorrências da mesma variável ou campo numa janela de método aberta.
 
-![](../assets/en/Preferences/optionsVariables.png)
+![](/assets/en/Preferences/optionsVariables.png)
 
 * **Não**(padrão): sem destaque
 * **No cursor**: todas as ocorrências são realçadas quando se clica no texto
@@ -163,7 +163,7 @@ A cor de destaque pode ser definida na página [Tema](#theme-definition).
 
 Destaca a linha que está atualmente em execução no depurador, para além do indicador de seta amarela normal.
 
-![](../assets/en/Preferences/optionsLine.png)
+![](/assets/en/Preferences/optionsLine.png)
 
 Se anular a seleção desta opção, só é mostrada a seta amarela.
 
@@ -173,5 +173,5 @@ This area lets you configure autocomplete mechanisms in the Method editor to ada
 
 |                               | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Abertura automática da janela | Acciona a apresentação automática da janela de sugestões para: <ul><li>Constantes</li><li>Variáveis (locais e interprocessos) e atributos de objetos</li><li>Tabelas</li><li>Protótipos (ou seja, as funções de classe)</li></ul>Por exemplo, quando a opção "Variáveis (locais ou interprocessos) e atributos de objeto" está selecionada, aparece uma lista de sugestões quando escreve o carácter $:![](../assets/en/Preferences/suggestionsAutoOpen.png) Pode desativar este funcionamento para certos elementos da língua, desmarcando a opção correspondente. |
+| Abertura automática da janela | Acciona a apresentação automática da janela de sugestões para: <ul><li>Constantes</li><li>Variáveis (locais e interprocessos) e atributos de objetos</li><li>Tabelas</li><li>Protótipos (ou seja, as funções de classe)</li></ul>Por exemplo, quando a opção "Variáveis (locais ou interprocessos) e atributos de objeto" está selecionada, aparece uma lista de sugestões quando escreve o carácter $:![](/assets/en/Preferences/suggestionsAutoOpen.png) Pode desativar este funcionamento para certos elementos da língua, desmarcando a opção correspondente. |
 | Validação de uma sugestão     | Sets the entry context that allows the Method editor to validate automatically the current suggestion displayed in the autocomplete window.<ul><li>**Tabulação e delimitadores**<br/>Quando esta opção está selecionada, pode validar a seleção atual com a tecla Tab ou qualquer delimitador relevante para o contexto. Por exemplo, se introduzir "ALE" e depois "(", 4D escreve automaticamente "ALERT(" no editor. Eis a lista de delimitadores tidos em conta:<br/> ( ; : = < [ {</li><li>**Somente tabulação**<br/>Quando esta opção está selecionada, só pode utilizar a tecla Tab para inserir a sugestão atual. Isto pode ser utilizado mais particularmente para facilitar a introdução de caracteres delimitadores em nomes de elementos, tais como ${1}.**Note**: pode também fazer duplo clique na janela ou premir a tecla Retorno de carro para validar uma sugestão.</li></ul>                                                                                                                                                                                                                                                      |

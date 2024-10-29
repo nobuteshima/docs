@@ -26,7 +26,7 @@ $currentSelection:=VP Combine ranges(VP Cells("myVPArea";3;2;1;6);VP Cells("myVP
 VP SET SELECTION($currentSelection)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSetSelection.PNG)
+![](/assets/en/ViewPro/cmd_vpSetSelection.PNG)
 
 #### 参照
 

@@ -16,7 +16,7 @@ Esta propriedade é suportada por:
 
 Por exemplo, dada uma lista de opções contendo "França, Alemanha, Itália" que está associada a um combo box "Countries": se a propriedade **inserção automática** estiver definida e um usuário digitar "Espanha", o valor "Espanha" será automaticamente adicionado à lista na memória:
 
-![](../assets/en/FormObjects/comboBox_AutomaticInsertion_example.png)
+![](/assets/en/FormObjects/comboBox_AutomaticInsertion_example.png)
 
 > If the list was created from a list defined in Design mode, the original list is not modified.
 
@@ -173,7 +173,7 @@ List of values that will be used as default values for the list box column (arra
 
 É necessário introduzir uma lista de valores. In the Form editor, a specific dialog box allows you to enter values separated by carriage returns:
 
-![](../assets/en/FormObjects/defaultValues.png)
+![](/assets/en/FormObjects/defaultValues.png)
 
 > También puede definir una [lista de selección](properties_DataSource.md#choice-list) con la columna list box. However, a choice list will be used as list of selectable values for each column row, whereas the default list fill all column rows.
 

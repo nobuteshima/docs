@@ -15,7 +15,7 @@ Cada solicitação de usuário enviada dentro da sessão é avaliada em relaçã
 
 Se um usuário tentar executar uma ação e não tiver os direitos de acesso adequados, um erro de privilégio é gerado ou, no caso de falta de permissão de leitura nos atributos, eles não são enviados.
 
-![schema](../assets/en/ORDA/privileges-schema.png)
+![schema](/assets/en/ORDA/privileges-schema.png)
 
 ### Veja também
 

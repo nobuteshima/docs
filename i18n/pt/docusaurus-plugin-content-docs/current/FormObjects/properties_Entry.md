@@ -130,9 +130,9 @@ Cuando la propiedad **Enfocable** está activada para un objeto, el objeto puede
 
 > Un [objeto de entrada](input_overview.md) es siempre enfocable si tiene la propiedad [Editable](#enterable).
 
-- ![](../assets/en/FormObjects/property_focusable1.png)<br/>Check box shows focus when selected
+- ![](/assets/en/FormObjects/property_focusable1.png)<br/>Check box shows focus when selected
 
-- ![](../assets/en/FormObjects/property_focusable2.png)<br/>Check box is selected but cannot show focus|
+- ![](/assets/en/FormObjects/property_focusable2.png)<br/>Check box is selected but cannot show focus|
 
 Cuando se selecciona la propiedad **Enfocable** para un objeto no editable, el usuario puede seleccionar, copiar o incluso arrastrar y soltar el contenido del área.
 
@@ -176,13 +176,13 @@ Esta propiedad está disponible para [objetos de entrada](input_overview.md) que
 
 - In single-line inputs, words located at the end of lines are truncated and there are no line returns.
 - In multiline inputs, 4D carries out automatic line returns:\
-  ![](../assets/en/FormObjects/multilineAuto.png)
+  ![](/assets/en/FormObjects/multilineAuto.png)
 
 #### Não
 
 - In single-line inputs, words located at the end of lines are truncated and there are no line returns.
 - Nunca há retornos de linha: o texto é sempre exibido em uma única linha. If the Alpha or Text field or variable contains carriage returns, the text located after the first carriage return is removed as soon as the area is modified:\
-  ![](../assets/en/FormObjects/multilineNo.png)
+  ![](/assets/en/FormObjects/multilineNo.png)
 
 #### Sim
 
@@ -206,7 +206,7 @@ Cuando se selecciona este valor, la propiedad es gestionada por la opción [Reto
 
 Placeholder text appears as watermark text in a field, supplying a help tip, indication or example for the data to be entered. This text disappears as soon as the user enters a character in the area:
 
-![](../assets/en/FormObjects/property_placeholder.png)
+![](/assets/en/FormObjects/property_placeholder.png)
 
 O texto do marcador de posição é apresentado novamente se o conteúdo do campo for apagado.
 
@@ -261,7 +261,7 @@ Esta propriedade permite a configuração de chaves especiais (atalhos de teclad
 
 You can configure this option by clicking the [...] button in the Shortcuts property in the Property List.
 
-![](../assets/en/FormObjects/property_shortcut.png)
+![](/assets/en/FormObjects/property_shortcut.png)
 
 > Também é possível atribuir um atalho a um comando de menu personalizado. Se houver um conflito entre dois atalhos, o objeto ativo terá prioridade. Para más información sobre cómo asociar accesos directos a los menús, consulte [Configuración de las propiedades de los menús](https://doc.4d.com/4Dv17R5/4D/17-R5/Setting-menu-properties.300-4163525.en.html).
 

@@ -37,7 +37,7 @@ When a form is opened in the editor, interface elements are displayed or hidden 
 
 You can display or hide elements at any moment in the Form editor’s current window by selecting **Display** from the **Form** menu or the Form editor's context menu:
 
-![](../assets/en/FormEditor/showHideElements.png)
+![](/assets/en/FormEditor/showHideElements.png)
 
 ### Regras
 
@@ -49,28 +49,28 @@ Select **Ruler definition...** from the **Form** menu to change measurement unit
 
 The toolbar of the Form editor offers a set of tools to manipulate and modify the form. Cada janela tem a sua própria barra de ferramentas.
 
-![](../assets/en/FormEditor/toolbar.png)
+![](/assets/en/FormEditor/toolbar.png)
 
 A barra de ferramentas contém os seguintes elementos:
 
 | Ícone                                            | Nome                                                      | Descrição                                                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------------------------------ | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../assets/en/FormEditor/execute.png)         | Executar o formulário                                     | Utilizado para testar a execução do formulário. When you click on this button, 4D opens a new window and displays the form in its context (list of records for a list form and current record page for a detail form). O formulário é executado no processo principal.                                                                                                          |
-| ![](../assets/en/FormEditor/selection.png)       | [Ferramenta de selecção](#selecting-objects)              | Permite selecionar, mover e redimensionar os objetos do formulário.<p>Allows selecting, moving and resizing form objects.<strong x-id="1">Note</strong>: When an object of the Text or Group Box type is selected, pressing the <strong x-id="1">Enter</strong> key lets you switch to editing mode.</p>                                                                                                                                                                                                                                                                                    |
-| ![](../assets/en/FormEditor/zOrder.png)          | [Ordem de entrada](#selecting-objects)                    | Switches to “Entry order” mode, where it is possible to view and change the current entry order of the form. Note that shields allow viewing the current entry order, while still working in the form.                                                                                                                                                                          |
-| ![](../assets/en/FormEditor/moving.png)          | [Deslocamento](#moving-objects)                           | Switches to “Move” mode, where it is possible to reach any part of the form quickly by using drag and drop in the window. O cursor assume a forma de uma mão. Este modo de navegação é particularmente útil ao ampliar o formulário.                                                                                                                                            |
-| ![](../assets/en/FormEditor/zoom.png)            | [Zoom](#zoom)                                             | Permite modificar a percentagem de visualização do formulário (100% por padrão). You can switch to “Zoom” mode by clicking on the magnifying glass or by clicking directly on the desired bar. Esta função é descrita em pormenor na secção anterior.                                                                                                                           |
-| ![](../assets/en/FormEditor/alignment.png)       | [Alinhamento](#aligning-objects)                          | This button is linked to a menu that allows changing the level of objects in the form. It is enabled (or not) depending on the objects selected.<br/>Disabled if one selected object position is locked by a CSS property                                                                                                                                                 |
-| ![](../assets/en/FormEditor/distribution.png)    | [Distribuição](#distributing-objects)                     | Este botão está ligado a um menu que permite agrupar e desagrupar seleções de objetos no formulário. It is enabled (or not) depending on the objects selected.<br/>Disabled if one selected object position is locked by a CSS property                                                                                                                                   |
-| ![](../assets/en/FormEditor/level.png)           | [Nível](#layering-objects)                                | This button is linked to a menu that allows aligning objects in the form. É ativada (ou não) em função dos objetos selecionados.                                                                                                                                                                                                                                                |
-| ![](../assets/en/FormEditor/group.png)           | [Grupo/Ungrupo](#grouping-objects)                        | Este botão está ligado a um menu que permite agrupar e desagrupar seleções de objetos no formulário. É ativada (ou não) em função dos objetos selecionados.                                                                                                                                                                                                                     |
-| ![](../assets/en/FormEditor/displyAndPage.png)   | [Visualização e gestão de páginas](forms.html#form-pages) | Esta área permite passar de uma página de formulário para outra e adicionar páginas. Para navegar entre páginas de formulários, clique nos botões de seta, ou clique na área central e escolha a página a exibir a partir do menu que aparece. Se clicar no botão da seta para a direita enquanto é exibida a última página do formulário, 4D permite-lhe adicionar uma página. |
-| ![](../assets/en/FormEditor/cssPreviewicon.png)  | [Pré-visualização CSS](#css-preview)                      | Este botão é utilizado para seleccionar o Modo CSS a utilizar.                                                                                                                                                                                                                                                                                                                  |
-| ![](../assets/en/FormEditor/views.png)           | [Gestão da vistas](#views)                                | Este botão apresenta ou oculta a paleta de vistas. Esta função é detalhada em Utilização de vistas de objeto.                                                                                                                                                                                                                                                                   |
-| ![](../assets/en/FormEditor/shields2.png)        | [Mostrando escudos](#shields)                             | Each click on this button causes the successive display of each type of form shield. The button is also linked to a menu that allows directly selecting the type of shield to display.                                                                                                                                                                                          |
-| ![](../assets/en/FormEditor/library.png)         | [Librería de objetos preconfigurada](objectLibrary.html)  | This button displays the preconfigured object library that provides numerous objects with certain properties that have been predefined.                                                                                                                                                                                                                                         |
-| ![](../assets/en/FormEditor/listBoxBuilder1.png) | [Criação de list box](#list-box-builder)                  | Este botão cria list boxes entity selection.                                                                                                                                                                                                                                                                                                                                    |
-| ![](../assets/en/FormEditor/insertFields.png)    | [Inserir campos](#insert-fields)                          | This button inserts all fields (except object and blob type fields) of the form table in the form, along with their labels and with respect to interface standards.                                                                                                                                                                                                             |
+| ![](/assets/en/FormEditor/execute.png)         | Executar o formulário                                     | Utilizado para testar a execução do formulário. When you click on this button, 4D opens a new window and displays the form in its context (list of records for a list form and current record page for a detail form). O formulário é executado no processo principal.                                                                                                          |
+| ![](/assets/en/FormEditor/selection.png)       | [Ferramenta de selecção](#selecting-objects)              | Permite selecionar, mover e redimensionar os objetos do formulário.<p>Allows selecting, moving and resizing form objects.<strong x-id="1">Note</strong>: When an object of the Text or Group Box type is selected, pressing the <strong x-id="1">Enter</strong> key lets you switch to editing mode.</p>                                                                                                                                                                                                                                                                                    |
+| ![](/assets/en/FormEditor/zOrder.png)          | [Ordem de entrada](#selecting-objects)                    | Switches to “Entry order” mode, where it is possible to view and change the current entry order of the form. Note that shields allow viewing the current entry order, while still working in the form.                                                                                                                                                                          |
+| ![](/assets/en/FormEditor/moving.png)          | [Deslocamento](#moving-objects)                           | Switches to “Move” mode, where it is possible to reach any part of the form quickly by using drag and drop in the window. O cursor assume a forma de uma mão. Este modo de navegação é particularmente útil ao ampliar o formulário.                                                                                                                                            |
+| ![](/assets/en/FormEditor/zoom.png)            | [Zoom](#zoom)                                             | Permite modificar a percentagem de visualização do formulário (100% por padrão). You can switch to “Zoom” mode by clicking on the magnifying glass or by clicking directly on the desired bar. Esta função é descrita em pormenor na secção anterior.                                                                                                                           |
+| ![](/assets/en/FormEditor/alignment.png)       | [Alinhamento](#aligning-objects)                          | This button is linked to a menu that allows changing the level of objects in the form. It is enabled (or not) depending on the objects selected.<br/>Disabled if one selected object position is locked by a CSS property                                                                                                                                                 |
+| ![](/assets/en/FormEditor/distribution.png)    | [Distribuição](#distributing-objects)                     | Este botão está ligado a um menu que permite agrupar e desagrupar seleções de objetos no formulário. It is enabled (or not) depending on the objects selected.<br/>Disabled if one selected object position is locked by a CSS property                                                                                                                                   |
+| ![](/assets/en/FormEditor/level.png)           | [Nível](#layering-objects)                                | This button is linked to a menu that allows aligning objects in the form. É ativada (ou não) em função dos objetos selecionados.                                                                                                                                                                                                                                                |
+| ![](/assets/en/FormEditor/group.png)           | [Grupo/Ungrupo](#grouping-objects)                        | Este botão está ligado a um menu que permite agrupar e desagrupar seleções de objetos no formulário. É ativada (ou não) em função dos objetos selecionados.                                                                                                                                                                                                                     |
+| ![](/assets/en/FormEditor/displyAndPage.png)   | [Visualização e gestão de páginas](forms.html#form-pages) | Esta área permite passar de uma página de formulário para outra e adicionar páginas. Para navegar entre páginas de formulários, clique nos botões de seta, ou clique na área central e escolha a página a exibir a partir do menu que aparece. Se clicar no botão da seta para a direita enquanto é exibida a última página do formulário, 4D permite-lhe adicionar uma página. |
+| ![](/assets/en/FormEditor/cssPreviewicon.png)  | [Pré-visualização CSS](#css-preview)                      | Este botão é utilizado para seleccionar o Modo CSS a utilizar.                                                                                                                                                                                                                                                                                                                  |
+| ![](/assets/en/FormEditor/views.png)           | [Gestão da vistas](#views)                                | Este botão apresenta ou oculta a paleta de vistas. Esta função é detalhada em Utilização de vistas de objeto.                                                                                                                                                                                                                                                                   |
+| ![](/assets/en/FormEditor/shields2.png)        | [Mostrando escudos](#shields)                             | Each click on this button causes the successive display of each type of form shield. The button is also linked to a menu that allows directly selecting the type of shield to display.                                                                                                                                                                                          |
+| ![](/assets/en/FormEditor/library.png)         | [Librería de objetos preconfigurada](objectLibrary.html)  | This button displays the preconfigured object library that provides numerous objects with certain properties that have been predefined.                                                                                                                                                                                                                                         |
+| ![](/assets/en/FormEditor/listBoxBuilder1.png) | [Criação de list box](#list-box-builder)                  | Este botão cria list boxes entity selection.                                                                                                                                                                                                                                                                                                                                    |
+| ![](/assets/en/FormEditor/insertFields.png)    | [Inserir campos](#insert-fields)                          | This button inserts all fields (except object and blob type fields) of the form table in the form, along with their labels and with respect to interface standards.                                                                                                                                                                                                             |
 
 
 ### Barra de objetos
@@ -79,23 +79,23 @@ The object bar contains all the active and inactive objects that can be used in 
 
 | Botão                                      | Agrupar                                                                                                                                                                                                                                                   | Chave |
 | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:-----:|
-| ![](../assets/en/FormEditor/text.png)      | [Text](FormObjects/text.md) / [Group Box](FormObjects/groupBox.md)                                                                                                                                                                                        |   T   |
-| ![](../assets/en/FormEditor/input.png)     | [Entrada](FormObjects/input_overview.md)                                                                                                                                                                                                                  |   F   |
-| ![](../assets/en/FormEditor/listbox.png)   | [Lista hierárquica](FormObjects/list_overview.md) / [List Box](FormObjects/listbox_overview.md)                                                                                                                                                           |   L   |
-| ![](../assets/en/FormEditor/combo.png)     | [Combo Box](FormObjects/comboBox_overview.md) / [Drop-down List](FormObjects/dropdownList_Overview.md) / [Picture Pop-up Menu](FormObjects/picturePopupMenu_overview.md)                                                                                  |   P   |
-| ![](../assets/en/FormEditor/button.png)    | [Button](FormObjects/button_overview.md) / [Picture Button](FormObjects/pictureButton_overview.md) / [Button Grid](FormObjects/buttonGrid_overview.md)                                                                                                    |   B   |
-| ![](../assets/en/FormEditor/radio.png)     | [Botão rádio](FormObjects/radio_overview.md)                                                                                                                                                                                                              |   R   |
-| ![](../assets/en/FormEditor/checkbox.png)  | [Caixa de selecção](FormObjects/checkbox_overview.md)                                                                                                                                                                                                     |   C   |
-| ![](../assets/en/FormEditor/indicator.png) | [Progress Indicator](FormObjects/progressIndicator.md) / [Ruler](FormObjects/ruler.md) / [Stepper](FormObjects/stepper.md) / [Spinner](FormObjects/spinner.md)                                                                                            |   I   |
-| ![](../assets/en/FormEditor/rectangle.png) | [Rectangle](FormObjects/shapes_overview.md#rectangle) / [Line](FormObjects/shapes_overview.md#line) / [Oval](FormObjects/shapes_overview.md#oval)                                                                                                         |   S   |
-| ![](../assets/en/FormEditor/splitter.png)  | [Splitter](FormObjects/splitters.md) / [Tab Control](FormObjects/tabControl.md)                                                                                                                                                                           |   D   |
-| ![](../assets/en/FormEditor/plugin.png)    | [Plug-in Area](FormObjects/pluginArea_overview.md) / [Subform](FormObjects/subform_overview.md) / [Web Area](FormObjects/webArea_overview.md) / [4D Write Pro](FormObjects/writeProArea_overview.md) / [4D View Pro](FormObjects/viewProArea_overview.md) |   X   |
+| ![](/assets/en/FormEditor/text.png)      | [Text](FormObjects/text.md) / [Group Box](FormObjects/groupBox.md)                                                                                                                                                                                        |   T   |
+| ![](/assets/en/FormEditor/input.png)     | [Entrada](FormObjects/input_overview.md)                                                                                                                                                                                                                  |   F   |
+| ![](/assets/en/FormEditor/listbox.png)   | [Lista hierárquica](FormObjects/list_overview.md) / [List Box](FormObjects/listbox_overview.md)                                                                                                                                                           |   L   |
+| ![](/assets/en/FormEditor/combo.png)     | [Combo Box](FormObjects/comboBox_overview.md) / [Drop-down List](FormObjects/dropdownList_Overview.md) / [Picture Pop-up Menu](FormObjects/picturePopupMenu_overview.md)                                                                                  |   P   |
+| ![](/assets/en/FormEditor/button.png)    | [Button](FormObjects/button_overview.md) / [Picture Button](FormObjects/pictureButton_overview.md) / [Button Grid](FormObjects/buttonGrid_overview.md)                                                                                                    |   B   |
+| ![](/assets/en/FormEditor/radio.png)     | [Botão rádio](FormObjects/radio_overview.md)                                                                                                                                                                                                              |   R   |
+| ![](/assets/en/FormEditor/checkbox.png)  | [Caixa de selecção](FormObjects/checkbox_overview.md)                                                                                                                                                                                                     |   C   |
+| ![](/assets/en/FormEditor/indicator.png) | [Progress Indicator](FormObjects/progressIndicator.md) / [Ruler](FormObjects/ruler.md) / [Stepper](FormObjects/stepper.md) / [Spinner](FormObjects/spinner.md)                                                                                            |   I   |
+| ![](/assets/en/FormEditor/rectangle.png) | [Rectangle](FormObjects/shapes_overview.md#rectangle) / [Line](FormObjects/shapes_overview.md#line) / [Oval](FormObjects/shapes_overview.md#oval)                                                                                                         |   S   |
+| ![](/assets/en/FormEditor/splitter.png)  | [Splitter](FormObjects/splitters.md) / [Tab Control](FormObjects/tabControl.md)                                                                                                                                                                           |   D   |
+| ![](/assets/en/FormEditor/plugin.png)    | [Plug-in Area](FormObjects/pluginArea_overview.md) / [Subform](FormObjects/subform_overview.md) / [Web Area](FormObjects/webArea_overview.md) / [4D Write Pro](FormObjects/writeProArea_overview.md) / [4D View Pro](FormObjects/viewProArea_overview.md) |   X   |
 
 To draw an object type, select the corresponding button and then trace the object in the form. Após criar um objeto, você pode modificar seu tipo utilizando a Lista de Propriedades. Hold down the **Shift** key as you draw to constrain the object to a regular shape. Lines are constrained to horizontal, 45°, or vertical, rectangles are constrained to squares, and ovals are constrained to circles.
 
 The current variant of the theme is the object that will be inserted in the form. Ao clicar no lado direito de um botão, você acessa o menu de variantes:
 
-![](../assets/en/FormEditor/objectBar.png)
+![](/assets/en/FormEditor/objectBar.png)
 
 You can click twice on the button so that it remains selected even after you have traced an object in the form (continual selection). This function makes creating several successive objects of the same type easier. Para cancelar uma seleção contínua, clique noutro objeto ou ferramenta.
 
@@ -146,11 +146,11 @@ Before you can perform any operation on an object (such as changing a line width
 
 Para seleccionar um objecto utilizando a barra de ferramentas:
 
-1. Clique na ferramenta Seta na barra de ferramentas.<p>![](../assets/en/FormEditor/selection.png)</p>
+1. Clique na ferramenta Seta na barra de ferramentas.<p>![](/assets/en/FormEditor/selection.png)</p>
 
-<p>Click the Arrow tool  in the toolbar.<img src="../assets/en/FormEditor/selection.png" alt="" /> When you move the pointer into the form area, it becomes a standard arrow-shaped pointer.</p>.
+<p>Click the Arrow tool  in the toolbar.<img src="/assets/en/FormEditor/selection.png" alt="" /> When you move the pointer into the form area, it becomes a standard arrow-shaped pointer.</p>.
 
-2. Clique no objecto que deseja selecionar. As pegas de redimensionamento identificam o objeto selecionado.<p>../assets/en/FormEditor/selectResize.png</p>
+2. Clique no objecto que deseja selecionar. As pegas de redimensionamento identificam o objeto selecionado.<p>/assets/en/FormEditor/selectResize.png</p>
 
 Para selecionar um objecto utilizando a Lista de Propriedades:
 
@@ -169,7 +169,7 @@ Pode querer realizar a mesma operação em mais de um objecto de forma - por exe
 
 A figura abaixo mostra um marque sendo desenhado para selecionar dois objetos:
 
-![](../assets/en/FormEditor/selectMultiple.png)
+![](/assets/en/FormEditor/selectMultiple.png)
 
 To deselect an object that is part of a set of selected objects, hold down the **Shift** key and click the object. Os outros objetos permanecem selecionados. To deselect all the selected objects, click outside the boundaries of all the objects.
 
@@ -185,13 +185,13 @@ Para duplicar um ou mais objectos:
 2. Escolher **Duplicar** a partir do menu **Editar**. 4D cria uma cópia de cada objecto selecionado e coloca a cópia em frente e ligeiramente para o lado do original.
 3. Deslocar a cópia para a localização pretendida. If you choose the Duplicate menu item again, 4D creates another copy of each object and moves it the exact same distance and direction from the first copy. If you need to distribute copies of the object along a line, you should use the following procedure. Duplicate the original object, move the copy to another location in the form, and then duplicate the copy. The second copy is automatically placed in the same relation to the first copy as the first copy was in relation to the original object. As cópias subsequentes também são colocadas na mesma relação com seus originais. A figura abaixo mostra como funciona esse posicionamento relativo das cópias:
 
-![](../assets/en/FormEditor/duplicateObjects.png)
+![](/assets/en/FormEditor/duplicateObjects.png)
 
 #### Duplicar muitos
 
 A caixa de diálogo "Duplicar muitos" aparece quando se seleciona um ou mais objetos e se escolhe o comando **Duplicar Muitos...** a partir do menu **Objeto**.
 
-![](../assets/en/FormEditor/duplcateMany.png)
+![](/assets/en/FormEditor/duplcateMany.png)
 
 - Na área superior, introduza o número de colunas e linhas (linhas) de objectos que pretende obter. Por exemplo, se quiser três colunas e duas linhas de objectos, introduza 3 na área de Coluna(s) e 2 na área de Linha(s). Se quiser três novas cópias horizontais de um objecto, introduza 4 na área de Coluna(s) e deixe o valor por defeito, 1, na área de Linha(s).
 
@@ -235,8 +235,8 @@ O agrupamento só afeta os objetos no editor de formulários. Quando o formulár
 Para agrupar objectos:
 
 1. Selecione o objecto agrupado que pretende desagrupar.
-2. Selecione **Grupo** no menu Objeto. OR Click the Group button  in the toolbar of the Form editor:<p>![](../assets/en/FormEditor/group.png)</p>
-Choose **Group** from the Object menu.OR Click the Group button  in the toolbar of the Form editor:![](../assets/en/FormEditor/group.png) 4D marks the boundary of the newly grouped objects with handles. No handles mark the boundary of any of the individual objects within the group. Now, when you modify the grouped object, you change all the objects that make up the group.
+2. Selecione **Grupo** no menu Objeto. OR Click the Group button  in the toolbar of the Form editor:<p>![](/assets/en/FormEditor/group.png)</p>
+Choose **Group** from the Object menu.OR Click the Group button  in the toolbar of the Form editor:![](/assets/en/FormEditor/group.png) 4D marks the boundary of the newly grouped objects with handles. No handles mark the boundary of any of the individual objects within the group. Now, when you modify the grouped object, you change all the objects that make up the group.
 
 Para desagrupar objetos:
 
@@ -254,17 +254,17 @@ Pode-se alinhar objectos uns com os outros ou utilizar uma grelha invisível no 
 
 As ferramentas de alinhamento na barra de ferramentas e no submenu Alinhar do menu Objecto permitem alinhar rapidamente os objectos seleccionados.
 
-![](../assets/en/FormEditor/alignmentMenu.png)
+![](/assets/en/FormEditor/alignmentMenu.png)
 
 When 4D aligns objects, it leaves one selected object in place and aligns the remaining objects to that one. Este objecto é a "âncora." Utiliza o objecto que se encontra mais afastado na direção do alinhamento como âncora e alinha os outros objetos com esse objecto. Por exemplo, se quiser realizar um alinhamento correcto num conjunto de objectos, o objecto mais à direita será utilizado como âncora. The figure below shows objects with no alignment, "aligned left", "aligned horizontally by centers", and "aligned right":
 
-![](../assets/en/FormEditor/alignmentTools.png)
+![](/assets/en/FormEditor/alignmentTools.png)
 
 #### Usando o assistente de alinhamento
 
 The Alignment Assistant allows you to perform any type of alignment and/or distribution of objects.
 
-![](../assets/en/FormEditor/alignmentAssistant.png)
+![](/assets/en/FormEditor/alignmentAssistant.png)
 
 To display this dialog box, select the objects you want to align then choose the **Alignment** command from the **Align** submenu in the **Object** menu or from the context menu of the editor.
 
@@ -286,11 +286,11 @@ Isso funciona da seguinte maneira: quando se move um objeto no formulário, 4D i
 
 Quando isso acontece, 4D coloca o objeto no local e mostra uma linha vermelha indicando o alinhamento perceptível considerado:
 
-![](../assets/en/FormEditor/magneticGrid1.png)
+![](/assets/en/FormEditor/magneticGrid1.png)
 
 No que diz respeito à distribuição dos objetos, 4D propõe uma distância baseada em normas de interface. Tal como no caso do alinhamento magnético, as linhas vermelhas indicam as diferenças visíveis quando estas são atingidas.
 
-![](../assets/en/FormEditor/magneticGrid2.png)
+![](/assets/en/FormEditor/magneticGrid2.png)
 
 Esta operação aplica-se a todos os tipos de objetos dos formulários. A grelha magnética pode ser ativada ou desactivada em qualquer altura utilizando o comando **Ativar a grade magnética** no menu **Formulário** ou no menu contextual do editor. It is also possible to set the activation of this feature by default on the **Preferences** > **Forms** page (**Activate auto alignment by default** option). You can manually activate or deactivate the magnetic grid when an object is selected by pressing the **Ctrl** (Windows) or **Control** (macOS) key .
 > O magnetismo também leva à observação de etapas ao redimensionar objetos manualmente.
@@ -304,15 +304,15 @@ Para distribuir objetos com igual espaçamento:
 
 1. Selecione três ou mais objetos e clique na ferramenta Distribuir pretendida.
 
-2. In the toolbar, click on the distribution tool that corresponds to the distribution you want to apply.<p>![](../assets/en/FormEditor/distributionTool.png)</p> OU<p>Selecione um comando de distribuição no submenu **Alinear** do menu **Objeto** ou no menu contextual do editor.</p>In the toolbar, click on the distribution tool that corresponds to the distribution you want to apply.![](../assets/en/FormEditor/distributionTool.png)ORSelect a distribution menu command from the **Align** submenu in the **Object** menu or from the context menu of the editor.4D distributes the objects accordingly. Objects are distributed using the distance to their centers and the largest distance between two consecutive objects is used as a reference.
+2. In the toolbar, click on the distribution tool that corresponds to the distribution you want to apply.<p>![](/assets/en/FormEditor/distributionTool.png)</p> OU<p>Selecione um comando de distribuição no submenu **Alinear** do menu **Objeto** ou no menu contextual do editor.</p>In the toolbar, click on the distribution tool that corresponds to the distribution you want to apply.![](/assets/en/FormEditor/distributionTool.png)ORSelect a distribution menu command from the **Align** submenu in the **Object** menu or from the context menu of the editor.4D distributes the objects accordingly. Objects are distributed using the distance to their centers and the largest distance between two consecutive objects is used as a reference.
 
 Para distribuir objetos utilizando a caixa de diálogo Alinhar e distribuir:
 
 1. Seleccione os objectos que pretende distribuir.
 
-2. Choose the **Alignment** command from the **Align** submenu in the **Object** menu or from the context menu of the editor. Aparece a seguinte caixa de diálogo:![](../assets/en/FormEditor/alignmentAssistant.png)
+2. Choose the **Alignment** command from the **Align** submenu in the **Object** menu or from the context menu of the editor. Aparece a seguinte caixa de diálogo:![](/assets/en/FormEditor/alignmentAssistant.png)
 
-3. In the Left/Right Alignment and/or Top/Bottom Alignment areas, click the standard distribution icon: ![](../assets/en/FormEditor/horizontalDistribution.png)(Standard horizontal distribution icon)The example area displays the results of your selection.![](../assets/en/FormEditor/horizontalDistribution.png) <p>(Ícone de distribuição horizontal standard)</p>A área de exemplo apresenta os resultados da sua seleção.
+3. In the Left/Right Alignment and/or Top/Bottom Alignment areas, click the standard distribution icon: ![](/assets/en/FormEditor/horizontalDistribution.png)(Standard horizontal distribution icon)The example area displays the results of your selection.![](/assets/en/FormEditor/horizontalDistribution.png) <p>(Ícone de distribuição horizontal standard)</p>A área de exemplo apresenta os resultados da sua seleção.
 
 4. To perform a distribution that uses the standard scheme, click **Preview** or *Apply*.<p>In this case 4D will perform a standard distribution, so that the objects are set out with an equal amount of space between them.OR:To execute a specific distribution, select the <strong x-id="1">Distribute</strong> option (for example if you want to distribute the objects based on the distance to their right side).</p>For instance, if you want to perform a right alignment on a set of objects, the rightmost object will be used as the anchor.OR:To align objects to a specific object, select the **Align on** option and select the object to which you want the other objects to be aligned from the object list.<p>Para executar uma distribuição específica, selecione a opção **Distribuir** (por exemplo, se você quiser distribuir os objetos com base na distância até o lado direito). Esta opção funciona como um interruptor. If the Distribute check box is selected, the icons located below it perform a different function:</p>
 
@@ -326,7 +326,7 @@ Para distribuir objetos utilizando a caixa de diálogo Alinhar e distribuir:
 
 You will sometimes have to rearrange objects that are obstructing your view of other objects in the form. For example, you may have a graphic that you want to appear behind the fields in a form. 4D provides four menu items, **Move to Back**, **Move to Front**, **Up One Level** and **Down One Level** that let you “layer” objects on the form. These layers also determine the default entry order (see Modifying data entry order). A figura abaixo mostra objetos à frente e atrás de outros objetos:
 
-![](../assets/en/FormEditor/layering.png)
+![](/assets/en/FormEditor/layering.png)
 
 Para mover um objeto para outro nível, selecione-o e escolha:
 
@@ -334,7 +334,7 @@ Para mover um objeto para outro nível, selecione-o e escolha:
 - One of the commands in the **Level>** submenu in the context menu of the editor,
 - One of the commands associated with the level management button of the toolbar.
 
-![](../assets/en/FormEditor/level2.png)
+![](/assets/en/FormEditor/level2.png)
 > When several objects are superimposed, the **Ctrl+Shift+click** / **Command+Shift+click** shortcut can be used to select each object successively by going down a layer with each click.
 
 When ordering different levels, 4D always goes from the background to the foreground. As a result, the previous level moves the selection of objects one level towards the background. The next level moves the selection one level towards the foreground of the form.
@@ -353,11 +353,11 @@ If you don’t specify a custom entry order, by default 4D uses the layering of 
 
 Em alguns formulários, é necessária uma ordem de entrada de dados personalizada. Below, for example, additional fields related to the address have been added after the creation of the form. The resulting standard entry order thus becomes illogical and forces the user to enter the information in an awkward manner:
 
-![](../assets/en/FormEditor/entryOrder1.png)
+![](/assets/en/FormEditor/entryOrder1.png)
 
 In cases such as this, a custom data entry order allows you to enter the information in a more logical order:
 
-![](../assets/en/FormEditor/entryOrder2.png)
+![](/assets/en/FormEditor/entryOrder2.png)
 
 #### Visualização e alteração da ordem de introdução de dados
 
@@ -367,11 +367,11 @@ This paragraph describes viewing and modifying the entry order using the “Entr
 
 Para ver ou alterar a ordem de entrada:
 
-1. When you are satisfied with the data entry order, click any unselected tool in the toolbar or choose **Entry Order** from the **Form** menu.4D returns to normal operation of the Form editor.<p>![](../assets/en/FormEditor/zOrder.png)</p>
+1. When you are satisfied with the data entry order, click any unselected tool in the toolbar or choose **Entry Order** from the **Form** menu.4D returns to normal operation of the Form editor.<p>![](/assets/en/FormEditor/zOrder.png)</p>
 
-    Choose **Entry Order** from the **Form** menu or click on the Entry Order button in the toolbar of the window:![](../assets/en/FormEditor/zOrder.png)The pointer turns into an entry order pointer and 4D draws a line in the form showing the order in which it selects objects during data entry. A visualização e alteração da ordem de introdução de dados são as únicas acções que pode realizar até clicar em qualquer ferramenta na paleta Ferramentas.
+    Choose **Entry Order** from the **Form** menu or click on the Entry Order button in the toolbar of the window:![](/assets/en/FormEditor/zOrder.png)The pointer turns into an entry order pointer and 4D draws a line in the form showing the order in which it selects objects during data entry. A visualização e alteração da ordem de introdução de dados são as únicas acções que pode realizar até clicar em qualquer ferramenta na paleta Ferramentas.
 
-2. To change the data entry order, position the pointer on an object in the form and, while holding down the mouse button, drag the pointer to the object you want next in the data entry order.![](../assets/en/FormEditor/entryOrder3.png)4D will adjust the entry order accordingly.<p>![](../assets/en/FormEditor/entryOrder3.png)</p>4D irá ajustar a ordem de entrada em conformidade.
+2. To change the data entry order, position the pointer on an object in the form and, while holding down the mouse button, drag the pointer to the object you want next in the data entry order.![](/assets/en/FormEditor/entryOrder3.png)4D will adjust the entry order accordingly.<p>![](/assets/en/FormEditor/entryOrder3.png)</p>4D irá ajustar a ordem de entrada em conformidade.
 
 3. Repita a etapa 2 tantas vezes quantas forem necessárias para definir a ordem de introdução de dados que desejar.
 
@@ -410,15 +410,15 @@ When [style sheets](createStylesheet.md) have been defined, forms (including inh
 
 A barra de ferramentas do editor de formulários fornece um botão CSS para a visualização de objectos com estilo:
 
-![](../assets/en/FormEditor/cssToolbar.png)
+![](/assets/en/FormEditor/cssToolbar.png)
 
 Seleccione um dos seguintes modos de pré-visualização a partir do menu:
 
 | Ícone barra de ferramentas              | Modo de pré-visualização CSS | Descrição                                                                                                                         |
 | --------------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../assets/en/FormEditor/cssNo.png)  | Nenhum                       | No CSS values are applied in the form and no CSS values or icons displayed in the Property List.                                  |
-| ![](../assets/en/FormEditor/cssWin.png) | Windows                      | Os valores CSS para a plataforma Windows são aplicados no formulário. Valores CSS e ícones apresentados na Lista de Propriedades. |
-| ![](../assets/en/FormEditor/cssMac.png) | macOS                        | Os valores CSS para a plataforma macOS são aplicados no formulário. Valores CSS e ícones apresentados na Lista de Propriedades.   |
+| ![](/assets/en/FormEditor/cssNo.png)  | Nenhum                       | No CSS values are applied in the form and no CSS values or icons displayed in the Property List.                                  |
+| ![](/assets/en/FormEditor/cssWin.png) | Windows                      | Os valores CSS para a plataforma Windows são aplicados no formulário. Valores CSS e ícones apresentados na Lista de Propriedades. |
+| ![](/assets/en/FormEditor/cssMac.png) | macOS                        | Os valores CSS para a plataforma macOS são aplicados no formulário. Valores CSS e ícones apresentados na Lista de Propriedades.   |
 > If a font size too large for an object is defined in a style sheet or JSON, the object will automatically be rendered to accommodate the font, however the size of the object will not be changed.
 
 The CSS preview mode reflects the priority order applied to style sheets vs JSON attributes as defined in the [JSON vs Style Sheet](stylesheets.html#json-vs-style-sheet) section.
@@ -440,7 +440,7 @@ stroke: #800080;
 
 são apresentados com um ícone CSS na Lista de Propriedades:
 
-![](../assets/en/FormEditor/cssPpropList.png)
+![](/assets/en/FormEditor/cssPpropList.png)
 
 An attribute value defined in a style sheet can be overridden in the JSON form description (except if the CSS includes the `!important` declaration, see below). In this case, the Property List displays the JSON form value in **bold**. You can reset the value to its style sheet definition with the **Ctrl + click** (Windows) or **Command + click** (macOs) shortcuts.
 > If an attribute has been defined with the `!important` declaration for a group, an object within a group, or any object within a selection of multiple objects, that attribute value is locked and cannot be changed in the Property List.
@@ -449,9 +449,9 @@ An attribute value defined in a style sheet can be overridden in the JSON form d
 
 | Ícone                                         | Descrição                                                                                                                                                          |
 | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](../assets/en/FormEditor/cssIcon.png)      | Indica que um valor de atributo foi definido em uma folha de estilo                                                                                                |
-| ![](../assets/en/FormEditor/cssImportant.png) | Indicates that an attribute value has been defined in a style sheet with the `!important` declaration                                                              |
-| ![](../assets/en/FormEditor/cssIconMixed.png) | Displayed when an attribute value defined in a style sheet for at least one item in a group or a selection of multiple objects is different from the other objects |
+| ![](/assets/en/FormEditor/cssIcon.png)      | Indica que um valor de atributo foi definido em uma folha de estilo                                                                                                |
+| ![](/assets/en/FormEditor/cssImportant.png) | Indicates that an attribute value has been defined in a style sheet with the `!important` declaration                                                              |
+| ![](/assets/en/FormEditor/cssIconMixed.png) | Displayed when an attribute value defined in a style sheet for at least one item in a group or a selection of multiple objects is different from the other objects |
 
 ## Criação de list box
 
@@ -463,19 +463,19 @@ The List box builder lets you create and fill entity selection list boxes in a f
 
 1. Na barra de ferramentas do Editor de formulários, clique no ícone do construtor de List box:
 
- ![](../assets/en/FormEditor/listboxBuilderIcon.png)
+ ![](/assets/en/FormEditor/listboxBuilderIcon.png)
 
  O gerador do list box é exibido:
 
- ![](../assets/en/FormEditor/listboxBuilder.png)
+ ![](/assets/en/FormEditor/listboxBuilder.png)
 
 2. Selecione uma tabela na lista suspensa **Table**:
 
- ![](../assets/en/FormEditor/listboxBuilderTable.png)
+ ![](/assets/en/FormEditor/listboxBuilderTable.png)
 
 3. Select the fields for the list box in the **Fields** area:
 
- ![](../assets/en/FormEditor/listboxBuilderFields.png)
+ ![](/assets/en/FormEditor/listboxBuilderFields.png)
 
  Por padrão, todos os campos são selecionados. You can select or deselect fields individually or use **Ctrl+click** (Windows) or **Cmd+click** (macOS) to select or deselect them all at once.
 
@@ -483,21 +483,21 @@ The List box builder lets you create and fill entity selection list boxes in a f
 
 4. The expression to fill the list box's rows from the entity selection is prefilled:
 
- ![](../assets/en/FormEditor/listboxBuilderExpression.png)
+ ![](/assets/en/FormEditor/listboxBuilderExpression.png)
 
  Esta expressão pode ser alterada se necessário.
 
 5. Clicking on the **Copy** button will copy the expression for loading all records into memory:
 
- ![](../assets/en/FormEditor/listboxBuilderCode.png)
+ ![](/assets/en/FormEditor/listboxBuilderCode.png)
 
 6. Click the the **Build widget** button to create the list box.
 
- ![](../assets/en/FormEditor/listboxBuilderBuild.png)
+ ![](/assets/en/FormEditor/listboxBuilderBuild.png)
 
 O list box final:
 
-![](../assets/en/FormEditor/listboxBuilderListbox.png)
+![](/assets/en/FormEditor/listboxBuilderListbox.png)
 
 
 ## Inserir campos
@@ -510,11 +510,11 @@ O desenho do formulário resultante depende do formulário:
 
 - **Detail form**: clicking on the **Insert fields** button generates a form with a page design:
 
-![](../assets/en/FormEditor/insertFields2.png)
+![](/assets/en/FormEditor/insertFields2.png)
 
 - **List form**: clicking on the **Insert fields** button generates a list form design with fields organized on a single line and area markers:
 
-![](../assets/en/FormEditor/insertFields3.png)
+![](/assets/en/FormEditor/insertFields3.png)
 
 
 
@@ -523,11 +523,11 @@ O desenho do formulário resultante depende do formulário:
 
 The 4D Form Editor uses shields to make viewing object properties easier. Pode encontrá-los na barra de ferramentas do formulário:
 
-![](../assets/en/FormEditor/shields.png)
+![](/assets/en/FormEditor/shields.png)
 
 This function works as follows: Each shield is associated with a property (for example, **Views**, which means the object “is in the current view”). When you activate a shield, 4D displays a small icon (shield) in the upper left of each object of the form where the property is applied.
 
-![](../assets/en/FormEditor/shield.png)
+![](/assets/en/FormEditor/shield.png)
 
 ### Usando escudos
 
@@ -542,16 +542,16 @@ Segue-se uma descrição de cada tipo de escudo:
 
 | Ícone                                           | Nome                                | É exibido ...                                                                                                                        |
 | ----------------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](../assets/en/FormEditor/objectMethod.png)   | Método objecto                      | Para objectos com um método objeto associado                                                                                         |
-| ![](../assets/en/FormEditor/standardAction.png) | Acção padrão                        | Para objectos com uma acção padrão associada                                                                                         |
-| ![](../assets/en/FormEditor/resizing.png)       | Redimensionamento                   | Para objectos com pelo menos uma propriedade de redimensionamento, indica a combinação de propriedades actuais                       |
-| ![](../assets/en/FormEditor/entryOrder.png)     | Ordem de entrada                    | Para objectos enterráveis, indica o número da ordem de entrada                                                                       |
-| ![](../assets/en/FormEditor/viewNumber.png)     | Vista actual                        | Para todos os objectos na vista actual                                                                                               |
-| ![](../assets/en/FormEditor/cssShield.png)      | [Folha de estilo](stylesheets.html) | Para objectos com um ou mais valores de atributo anulados por uma folha de estilo.                                                   |
-| ![](../assets/en/FormEditor/filter.png)         | Filtro                              | Para objectos enterráveis com um filtro de entrada associado                                                                         |
-| ![](../assets/en/FormEditor/helpTip.png)        | Dica de Ajuda                       | Para objetos com uma mensagem de ajuda associada                                                                                     |
-| ![](../assets/en/FormEditor/localized.png)      | Localizado                          | Para objetos cuja etiqueta possui uma referência (etiqueta começando com “:”). A referência pode ser do tipo recurso (STR#) ou XLIFF |
-| ![](../assets/en/FormEditor/noShields.png)      | Sem Escudos                         | Nenhum escudo aparece                                                                                                                |
+| ![](/assets/en/FormEditor/objectMethod.png)   | Método objecto                      | Para objectos com um método objeto associado                                                                                         |
+| ![](/assets/en/FormEditor/standardAction.png) | Acção padrão                        | Para objectos com uma acção padrão associada                                                                                         |
+| ![](/assets/en/FormEditor/resizing.png)       | Redimensionamento                   | Para objectos com pelo menos uma propriedade de redimensionamento, indica a combinação de propriedades actuais                       |
+| ![](/assets/en/FormEditor/entryOrder.png)     | Ordem de entrada                    | Para objectos enterráveis, indica o número da ordem de entrada                                                                       |
+| ![](/assets/en/FormEditor/viewNumber.png)     | Vista actual                        | Para todos os objectos na vista actual                                                                                               |
+| ![](/assets/en/FormEditor/cssShield.png)      | [Folha de estilo](stylesheets.html) | Para objectos com um ou mais valores de atributo anulados por uma folha de estilo.                                                   |
+| ![](/assets/en/FormEditor/filter.png)         | Filtro                              | Para objectos enterráveis com um filtro de entrada associado                                                                         |
+| ![](/assets/en/FormEditor/helpTip.png)        | Dica de Ajuda                       | Para objetos com uma mensagem de ajuda associada                                                                                     |
+| ![](/assets/en/FormEditor/localized.png)      | Localizado                          | Para objetos cuja etiqueta possui uma referência (etiqueta começando com “:”). A referência pode ser do tipo recurso (STR#) ou XLIFF |
+| ![](/assets/en/FormEditor/noShields.png)      | Sem Escudos                         | Nenhum escudo aparece                                                                                                                |
 
 ## Vistas
 
@@ -563,7 +563,7 @@ Não há limite para o número de vistas por formulário. Pode criar tantas vist
 
 A gestão das vistas é efetuada através da paleta de vistas.
 
-![](../assets/en/FormEditor/viewEditor.png)
+![](/assets/en/FormEditor/viewEditor.png)
 
 ### Aceder à paleta de vistas
 
@@ -573,17 +573,17 @@ Existem três formas de aceder à paleta de vistas:
 
  |                   Vista por defeito apenas                   |                 Com vistas adicionais                  |
  |:------------------------------------------------------------:|:------------------------------------------------------:|
- | ![](../assets/en/FormEditor/icon.png "Nenhuma vista em uso") | ![](../assets/en/FormEditor/icon2.png "Vistas em uso") |
+ | ![](/assets/en/FormEditor/icon.png "Nenhuma vista em uso") | ![](/assets/en/FormEditor/icon2.png "Vistas em uso") |
 
 - **Context menu** (form or object): Right-click anywhere in the Form Editor or an object, and select **Current View**
 
- ![](../assets/en/FormEditor/contextMenu.png)
+ ![](/assets/en/FormEditor/contextMenu.png)
 
 The current view is indicated with a check mark (*e.g.*, "Work Address" in the image above)
 
 - **Form menu**: Click on the **Form** menu and select **View List**
 
-![](../assets/en/FormEditor/formMenu.png)
+![](/assets/en/FormEditor/formMenu.png)
 
 ### Antes de começar
 
@@ -606,17 +606,17 @@ Aqui estão algumas coisas importantes que você deve saber antes de começar a 
 
 Qualquer objecto criado num formulário é colocado na primeira vista ("Vista 1") do formulário. A primeira vista é **sempre** a vista por defeito, indicada por (Default) após o nome. The view's name can be changed (see [Renaming views](#renaming-views)), however it remains the default view.
 
-![](../assets/en/FormEditor/createView.png)
+![](/assets/en/FormEditor/createView.png)
 
 Existem duas formas de adicionar vistas adicionais:
 
 - Click on the **Add a new view** button at the bottom of the View palette:
 
-![](../assets/en/FormEditor/addView.png)
+![](/assets/en/FormEditor/addView.png)
 
 - Right-click on an existing view and select **Insert view**:
 
-![](../assets/en/FormEditor/addView2.png)
+![](/assets/en/FormEditor/addView2.png)
 
 Não há limite para o número de vistas.
 
@@ -628,11 +628,11 @@ Para mudar o nome de uma vista, pode utilizar:
 
 - Double-click directly on the view name (the selected view in this case). O nome torna-se então editável:
 
- ![](../assets/en/FormEditor/rename.png)
+ ![](/assets/en/FormEditor/rename.png)
 
 - Clique com o botão direito do rato no nome da vista. O nome torna-se então editável:
 
- ![](../assets/en/FormEditor/rename2.png)
+ ![](/assets/en/FormEditor/rename2.png)
 
 #### Reordenação de visualizações
 
@@ -640,7 +640,7 @@ You can change the display order of views by dragging/dropping them within the V
 
 Note-se que a vista padrão não é alterada:
 
-![](../assets/en/FormEditor/reorderView.png)
+![](/assets/en/FormEditor/reorderView.png)
 
 #### Eliminar vistas
 
@@ -648,11 +648,11 @@ Para mudar o nome de uma vista, pode utilizar:
 
 - Click on the **Delete the selected view** button at the bottom of the View palette:
 
- ![](../assets/en/FormEditor/deleteView.png)
+ ![](/assets/en/FormEditor/deleteView.png)
 
 - Clique com o botão direito do rato no nome da vista, e seleccione **Apagar Vista**:
 
- ![](../assets/en/FormEditor/deleteView2.png)
+ ![](/assets/en/FormEditor/deleteView2.png)
 > Se uma vista for apagada, quaisquer objectos nela contidos são automaticamente movidos para a vista por defeito.
 
 ### Usando vistas
@@ -671,32 +671,32 @@ Um objeto só pode pertencer a uma única vista.
 
 To create an object in another view, simply select the view in the View palette (prior to creating the object) by clicking its name (an Edit icon is displayed for the [Current view](#before-you-begin) and the name appears in bold text):
 
-![](../assets/en/FormEditor/addObject.png)
+![](/assets/en/FormEditor/addObject.png)
 
 #### Mover objectos entre vistas
 
 It's also possible to move one or more objects from one view to another. No formulário, selecionar o(s) objeto(s) cuja vista se pretende alterar. The view list indicates, using a symbol, the view to which the selection belongs:
 
-![](../assets/en/FormEditor/symbol.png)
+![](/assets/en/FormEditor/symbol.png)
 > A seleção pode conter vários objetos pertencentes a diferentes visualizações.
 
 Simply select the destination view, right-click, and select **Move to**:
 
-![](../assets/en/FormEditor/moveObject.png)
+![](/assets/en/FormEditor/moveObject.png)
 
 OU
 
 Select the destination view of the selection and click **Move to** button at the bottom of the View palette:
 
-![](../assets/en/FormEditor/moveObject3.png)
+![](/assets/en/FormEditor/moveObject3.png)
 
 A seleção é então colocada na nova vista:
 
-![](../assets/en/FormEditor/objNewView.png)
+![](/assets/en/FormEditor/objNewView.png)
 
 Você também pode mover um objeto para outra visualização por meio do menu de contexto do objeto. Right-click on the object, select **Move to view**, and select a view from the list of available views:
 
-![](../assets/en/FormEditor/moveObject2.png)
+![](/assets/en/FormEditor/moveObject2.png)
 > A [vista atual](#before-you-begin) é mostrado em negrito.
 
 #### Seleccionar todos os objectos de uma vista
@@ -705,11 +705,11 @@ You can select all objects belong to the same view in the current page of the fo
 
 To do this, right-click on the view in which you wish to select all the objects, click on **Select All**:
 
-![](../assets/en/FormEditor/selectAll.png)
+![](/assets/en/FormEditor/selectAll.png)
 
 Também pode utilizar o botão na parte inferior da paleta de vistas:
 
-![](../assets/en/FormEditor/selectAll2.png)
+![](/assets/en/FormEditor/selectAll2.png)
 
 #### Mostrar ou esconder objectos de uma vista
 
@@ -717,11 +717,11 @@ You can show or hide objects belonging to a view at any time in the form's curre
 
 By default, all views are shown, as indicated by the *Show/Hide* icon:
 
-![](../assets/en/FormEditor/showHide.png)
+![](/assets/en/FormEditor/showHide.png)
 
 Para ocultar uma vista, clique no ícone *Mostrar/Ocultar*. Em seguida, é escurecida e os objetos da vista correspondente deixam de ser mostrados no formulário:
 
-![](../assets/en/FormEditor/hidden.png)
+![](/assets/en/FormEditor/hidden.png)
 > A [vista atual](#before-you-begin) não pode ser ocultada.
 
 Para mostrar uma vista oculta, basta selecioná-la ou clicar no ícone *Mostrar/Ocultar* para essa vista.
@@ -732,11 +732,11 @@ Para mostrar uma vista oculta, basta selecioná-la ou clicar no ícone *Mostrar/
 
 By default, all views are unlocked, as indicated by the *Lock/Unlock* icon next to each view:
 
-![](../assets/en/FormEditor/lockUnlock.png)
+![](/assets/en/FormEditor/lockUnlock.png)
 
 Para bloquear os objetos de uma visualização, clique no ícone *Bloquear/Desbloquear*. O cadeado está fechado, o que significa que a vista está agora bloqueada:
 
-![](../assets/en/FormEditor/locked.png)
+![](/assets/en/FormEditor/locked.png)
 > A [vista atual](#before-you-begin) não pode ser bloqueada.
 
 To unlock a view that is locked, simply select it or click on the *Lock/Unlock* icon for that view.
@@ -745,7 +745,7 @@ To unlock a view that is locked, simply select it or click on the *Lock/Unlock* 
 
 Pode fazer zoom no formulário atual. Switch to “Zoom” mode by clicking on the magnifying glass icon or clicking directly on the desired percentage bar (50%, 100%, 200%, 400% and 800%):
 
-![](../assets/en/FormEditor/zoom.png)
+![](/assets/en/FormEditor/zoom.png)
 
 - Quando se clica na lupa, o cursor transforma-se numa lupa. Pode então clicar no formulário para aumentar a visualização ou manter premida a tecla Shift e clicar para reduzir a percentagem de visualização.
 - When you click on a percentage bar, the display is immediately modified.

@@ -8,7 +8,7 @@ sidebar_label: Página Restauración
 
 Puede restaurar manualmente un archivo de la base de datos actual utilizando la página **Restaurar**. Esta página ofrece varias opciones que pueden utilizarse para controlar la restauración de las bases:
 
-![](../assets/en/MSC/MSC_restore.png)
+![](/assets/en/MSC/MSC_restore.png)
 
 > Los sistemas de recuperación automática de 4D restauran las bases e incluyen el archivo de historial de datos cuando es necesario.
 

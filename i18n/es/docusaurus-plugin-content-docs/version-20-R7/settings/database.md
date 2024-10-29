@@ -13,7 +13,7 @@ Esta página permite configurar el almacenamiento de datos de la base 4D en el d
 
 Esta opción permite configurar el funcionamiento de la aplicación al abrir un archivo de datos bloqueado a nivel del sistema operativo. 4D incluye un mecanismo que impide automáticamente la apertura de una base cuando su archivo de datos, o uno de sus segmentos está bloqueado. En este caso, cuando se activa esta opción de detección, 4D muestra un mensaje de advertencia y no abre la base:
 
-![](../assets/en/settings/data-locked.png)
+![](/assets/en/settings/data-locked.png)
 
 A menos que se marque esta opción, no es posible abrir una base cuando su archivo de datos está bloqueado (funcionamiento por defecto para las bases 4D).
 
@@ -27,7 +27,7 @@ Esta área le permite cambiar la ubicación de los archivos temporales creados m
 
 La ubicación actual de esta carpeta se muestra en el área "Actual:". Puede hacer clic en esta área para mostrar el nombre de la ruta en forma de lista desplegable:
 
-![](../assets/en/settings/temporary-file-location.png)
+![](/assets/en/settings/temporary-file-location.png)
 
 Se ofrecen tres opciones de ubicación:
 
@@ -74,7 +74,7 @@ Este algoritmo se utiliza por defecto en las versiones japonesas de 4D. Si es ne
 
 Para desactivar _MeCab_, sólo tiene que marcar la opción **Considerar solo caracteres no alfanuméricos para las palabras claves**:
 
-![](../assets/en/settings/non-alphanumeric-chars.png)
+![](/assets/en/settings/non-alphanumeric-chars.png)
 
 ## Página Memoria
 
@@ -96,7 +96,7 @@ Utilice los parámetros de esta pestaña para configurar la memoria caché de la
   Porcentaje de la memoria disponible utilizado para la caché = 50%
   Tamaño máximo = 1 GB Tamaño mínimo = 128 MB_
 
-  ![](../assets/en/settings/memory-maximum-size.png)
+  ![](/assets/en/settings/memory-maximum-size.png)
 
 - **Cálculo de caché adaptativa no marcado**: en este modo, usted mismo define el tamaño de la memoria caché para la base. 4D muestra entonces un área de entrada que permite configurar la memoria caché a utilizar, así como información relacionada con la memoria física (RAM disponible en la máquina), la caché actual y la caché tras el reinicio (teniendo en cuenta sus cambios).
 

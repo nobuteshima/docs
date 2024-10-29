@@ -29,7 +29,7 @@ En *name*, pase el nombre de la hoja cuyo índice se devolverá. Si no se encuen
 
 En el siguiente documento:
 
-![](../../assets/en/ViewPro/vp-sheet-index-name.png)
+![](/assets/en/ViewPro/vp-sheet-index-name.png)
 
 Obtiene el índice de la hoja llamada "Total first quarter":
 

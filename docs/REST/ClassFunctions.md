@@ -185,7 +185,7 @@ See example for [getting a list built upon an entity selection](#using-an-entity
 
 This database is exposed as a remote datastore on localhost (port 8111):
 
-![alt-text](../assets/en/REST/ordastructure.png)
+![alt-text](/assets/en/REST/ordastructure.png)
 
 ### Using a datastore class function
 

@@ -43,7 +43,7 @@ Since a thread is handled independently starting from the parent process method,
 
 The "thread safety" property of each element depends on the element itself:
 
-- 4D commands: thread safety is an internal property. In the [4D Language Reference manual](https://doc.4d.com/4Dv20/4D/20.1/4D-Language-Reference.100-6479538.en.html), thread-safe commands are identified by the ![](../assets/en/Develop/thread-safe.png) icon. You can also use the [`Command name`](https://doc.4d.com/4dv20/help/command/en/page538.html) command to know if a command is thread-safe. A large part of 4D commands can run in preemptive mode.
+- 4D commands: thread safety is an internal property. In the [4D Language Reference manual](https://doc.4d.com/4Dv20/4D/20.1/4D-Language-Reference.100-6479538.en.html), thread-safe commands are identified by the ![](/assets/en/Develop/thread-safe.png) icon. You can also use the [`Command name`](https://doc.4d.com/4dv20/help/command/en/page538.html) command to know if a command is thread-safe. A large part of 4D commands can run in preemptive mode.
 - Project methods: conditions for being thread-safe are listed in [this paragraph](#writing-a-thread-safe-method).
 
 Basically, code to be run in preemptive threads cannot call parts with external interactions, such as plug-in code or interprocess variables. Accessing data, however, is allowed since the 4D data server and ORDA support preemptive execution.
@@ -57,7 +57,7 @@ Keep in mind that declaring a method "capable" of preemptive use makes it eligib
 
 To declare your method eligible for use in preemptive mode, you need to use the "Execution mode" declaration option in the Method Properties dialog box:
 
-![](../assets/en/Develop/preemptif.png)
+![](/assets/en/Develop/preemptif.png)
 
 The following options are provided:
 
@@ -130,16 +130,16 @@ For example, consider the following project methods:
 
 Executing a method in preemptive mode will depend on its "execution" property and the call chain. The following table illustrates these various situations:
 
-![](../assets/en/Develop/legend.png)
+![](/assets/en/Develop/legend.png)
 
 
 |Declaration and call chain|Compilation|Resulting thread safety|Execution	|Comment|
 |---|----|----|---|---|
-|![](../assets/en/Develop/scenar1.png)|	OK|![](../assets/en/Develop/scenar2.png)|Preemptive|CallComp is the parent method, declared "capable" of preemptive use; since MyComp is thread-safe internally, CallComp is thread-safe and the process is preemptive
-|![](../assets/en/Develop/scenar3.png)|Error|![](../assets/en/Develop/scenar4.png)|Execution is impossible|CallDial is the parent method, declared "capable"; MyDialog is "indifferent". However, since MyDialog is thread-unsafe internally, it contaminates the call chain. The compilation fails because of a conflict between the declaration of CallDial and its actual capability. The solution is either to modify MyDialog so that it becomes thread-safe so that execution is preemptive, or to change the declaration of CallDial 's property in order to run as cooperative
-|![](../assets/en/Develop/scenar5.png)|OK|![](../assets/en/Develop/scenar6.png)|Cooperative|Since CallDial is declared "incapable" of preemptive use, compilation is thread-unsafe internally; thus execution will always be cooperative, regardless of the status of MyDialog
-|![](../assets/en/Develop/scenar7.png)|OK|![](../assets/en/Develop/scenar8.png)|Cooperative|Since CallComp is the parent method with property "Indifferent", then the process is cooperative even if the entire chain is thread-safe.
-|![](../assets/en/Develop/scenar9.png)|OK|![](../assets/en/Develop/scenar10.png)|Cooperative|Since CallDial is the parent method (property was "Indifferent"), then the process is cooperative and compilation is successful|
+|![](/assets/en/Develop/scenar1.png)|	OK|![](/assets/en/Develop/scenar2.png)|Preemptive|CallComp is the parent method, declared "capable" of preemptive use; since MyComp is thread-safe internally, CallComp is thread-safe and the process is preemptive
+|![](/assets/en/Develop/scenar3.png)|Error|![](/assets/en/Develop/scenar4.png)|Execution is impossible|CallDial is the parent method, declared "capable"; MyDialog is "indifferent". However, since MyDialog is thread-unsafe internally, it contaminates the call chain. The compilation fails because of a conflict between the declaration of CallDial and its actual capability. The solution is either to modify MyDialog so that it becomes thread-safe so that execution is preemptive, or to change the declaration of CallDial 's property in order to run as cooperative
+|![](/assets/en/Develop/scenar5.png)|OK|![](/assets/en/Develop/scenar6.png)|Cooperative|Since CallDial is declared "incapable" of preemptive use, compilation is thread-unsafe internally; thus execution will always be cooperative, regardless of the status of MyDialog
+|![](/assets/en/Develop/scenar7.png)|OK|![](/assets/en/Develop/scenar8.png)|Cooperative|Since CallComp is the parent method with property "Indifferent", then the process is cooperative even if the entire chain is thread-safe.
+|![](/assets/en/Develop/scenar9.png)|OK|![](/assets/en/Develop/scenar10.png)|Cooperative|Since CallDial is the parent method (property was "Indifferent"), then the process is cooperative and compilation is successful|
 
 
 ### How to find out the actual execution mode
@@ -180,7 +180,7 @@ To be thread-safe, a method must respect the following rules:
 
 Methods with the "Can be run in preemptive processes" property will be checked by 4D during compilation. A compilation error is issued whenever the compiler finds something that prevents it from being thread-safe:
 
-![](../assets/en/Develop/thread-unsafe.png)
+![](/assets/en/Develop/thread-unsafe.png)
 
 :::info
 

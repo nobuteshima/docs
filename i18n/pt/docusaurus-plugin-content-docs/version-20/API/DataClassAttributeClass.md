@@ -234,7 +234,7 @@ A propriedade `.kind` <!-- REF DataClassAttributeClass.kind.Summary -->devolve a
 
 Dada a seguinte tabela e relação:
 
-![](../assets/en/API/dataclassAttribute3.png)
+![](/assets/en/API/dataclassAttribute3.png)
 
 ```4d
  var $attKind : Text
@@ -363,7 +363,7 @@ A propriedade `.relatedDataClass` <!-- REF DataClassAttributeClass.relatedDataCl
 
 Dada a seguinte tabela e relação:
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 ```4d
  var $relClass1; $relClassN : Text

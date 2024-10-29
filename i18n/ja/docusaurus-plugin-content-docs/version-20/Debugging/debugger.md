@@ -5,7 +5,7 @@ title: デバッガー
 
 デバッガーは、エラーを発見したり、メソッドの実行を監視する必要がある場合に便利です。 デバッガーを使って、コードをステップごとにゆっくり確認して情報を検証することができます。 このようにメソッドをステップごとに確認する処理はトレースと呼ばれます。
 
-![ローカルデバッガーウィンドウ](../assets/en/Debugging/debugger-window-intro.png)
+![ローカルデバッガーウィンドウ](/assets/en/Debugging/debugger-window-intro.png)
 
 ## デバッガーの呼び出し
 
@@ -16,7 +16,7 @@ title: デバッガー
 * メソッド実行ウィンドウで **デバッグ** ボタンをクリックする、またはコードエディターで **実行してデバッグ** ボタンを選択する。
 * メソッド実行中に **Alt+Shift+右クリック** (Windows) または **Ctrl+Option+Cmd+クリック** (Macintosh) をおこない、表示されるポップアップウィンドウ内でトレースするプロセスを選択する:
 
-![デバッガーを開く](../assets/en/Debugging/openDebugger.png)
+![デバッガーを開く](/assets/en/Debugging/openDebugger.png)
 
 * ランタイムエクスプローラーのプロセスページにてプロセスを選択した後、**トレース** ボタンをクリックする。
 * コードエディターウィンドウ、またはランタイムエクスプローラーのブレークおよびキャッチページでブレークポイントを作成する。
@@ -39,7 +39,7 @@ title: デバッガー
 
 デバッガーウィンドウの上部にある実行制御ツールバーには、デフォルトショートカットが設定された複数のボタンがあります:
 
-![実行制御ツールバーボタン](../assets/en/Debugging/executionToolbarButtons.png)
+![実行制御ツールバーボタン](/assets/en/Debugging/executionToolbarButtons.png)
 
 > デフォルトのショートカットは、環境設定ダイアログボックスのショートカットページで変更できます。
 
@@ -100,7 +100,7 @@ title: デバッガー
 
 **ウォッチエリア** は実行コントロールツールバーの下、デバッグウィンドウの左上隅に表示されます。 次に例を示します:
 
-![ウォッチエリア](../assets/en/Debugging/watchPane.png)
+![ウォッチエリア](/assets/en/Debugging/watchPane.png)
 
 > このエリアはリモートデバッグモードでは使用できません。
 
@@ -169,17 +169,17 @@ $c:=$a+$b
 
 変数の型や内部名を表示するには、右クリックしてコンテキストメニューを開き、**型を表示** にチェックを入れます:
 
-![型を表示メニュー項目](../assets/en/Debugging/showTypes.png)
+![型を表示メニュー項目](/assets/en/Debugging/showTypes.png)
 
 このようになります:
 
-![ダイナミック変数名](../assets/en/Debugging/dynamicVariableNames.png)
+![ダイナミック変数名](/assets/en/Debugging/dynamicVariableNames.png)
 
 #### カレントフォーム値
 
 このテーマには、カレントフォームに含まれる各動的オブジェクトの名前に加えて、そこに関連付けられている値が表示されます:
 
-![カレントフォーム値](../assets/en/Debugging/current-form-values.png)
+![カレントフォーム値](/assets/en/Debugging/current-form-values.png)
 
 リストボックス配列などの一部のオブジェクトは、二つの異なる項目として表示されることがあります (オブジェクト自身の変数と、そのデータソース)。
 
@@ -229,7 +229,7 @@ $c:=$a+$b
 
 ウォッチエリアのコンテキストメニューでは、追加オプションが提供されています。
 
-![コンテキストメニュー](../assets/en/Debugging/contextual-menu.png)
+![コンテキストメニュー](/assets/en/Debugging/contextual-menu.png)
 
 * **すべて閉じる**: ウォッチエリアの階層リストの全レベルを縮小します。
 * **すべて拡げる**: ウォッチエリアの階層リストの全レベルを展開します。
@@ -244,7 +244,7 @@ $c:=$a+$b
 
 1つのメソッドから他のメソッドまたはクラス関数が呼び出される場合があります。 このエリアは、この呼び出し連鎖のリストを表示します。
 
-![呼び出し連鎖エリア](../assets/en/Debugging/call-chain-example.png)
+![呼び出し連鎖エリア](/assets/en/Debugging/call-chain-example.png)
 
 それぞれのメインレベルの項目は、メソッドまたはクラス関数の名前です。 最も上にある項目は、現在トレース中のメソッド、次の項目は呼び出し元 (トレース中メソッドを呼び出したメソッドまたはクラス関数)、その次の項目は呼び出し元の呼び出し元、のように続きます。
 
@@ -263,7 +263,7 @@ $c:=$a+$b
 
 コンテキストメニュー内の **型を表示** を選択することで、引数のデータ型を表示することができます:
 
-![呼び出し連鎖-型を表示](../assets/en/Debugging/callChainShowTypes.png)
+![呼び出し連鎖-型を表示](/assets/en/Debugging/callChainShowTypes.png)
 
 メソッドの引数リストが展開されていれば、引数や戻り値を [カスタムウォッチエリア](#カスタムウォッチエリア) にドラッグ＆ドロップすることができます。
 
@@ -281,7 +281,7 @@ $c:=$a+$b
 * メソッド
 * ほか値を返すものなら何でも
 
-![カスタムウォッチエリア](../assets/en/Debugging/custom-watch-pane.png)
+![カスタムウォッチエリア](/assets/en/Debugging/custom-watch-pane.png)
 
 テキスト形式で表示できる式であれば、どのような式でも評価することができます。 ピクチャーや BLOBフィールドおよび変数は表示できません。 BLOB の内容を表示するには、[BLOB to text](https://doc.4d.com/4dv19/help/command/ja/page555.html) のような BLOBコマンドを使用してください。
 
@@ -304,11 +304,11 @@ $c:=$a+$b
 
 カスタムウォッチエリアのコンテキストメニューを使って、4D のフォーミュラエディターにアクセスできます:
 
-![カスタムウォッチエリア-コンテキストメニュー1](../assets/en/Debugging/custom-watch-pane-context-menu.png)
+![カスタムウォッチエリア-コンテキストメニュー1](/assets/en/Debugging/custom-watch-pane-context-menu.png)
 
 **新しい式...**: 新しい式を挿入し、4D のフォーミュラエディターを表示します。
 
-![カスタムウォッチエリア-コンテキストメニュー2](../assets/en/Debugging/custom-watch-pane-formula-editor.png)
+![カスタムウォッチエリア-コンテキストメニュー2](/assets/en/Debugging/custom-watch-pane-formula-editor.png)
 
 フォーミュラエディターに関する詳細は、<a href="https://doc.4d.com/4Dv19/4D/19/4D-Design-Reference.100-5416591.en.html" target="_blank">4D Design Reference マニュアル</a> を参照してください。
 
@@ -338,11 +338,11 @@ $c:=$a+$b
 * 宣言された式の型
 * 式のカレント値
 
-![ソースコードエリア](../assets/en/Debugging/sourceCodePane.png)
+![ソースコードエリア](/assets/en/Debugging/sourceCodePane.png)
 
 これはセレクションの場合も機能します:
 
-![ソースコードエリア-Tips](../assets/en/Debugging/sourcePaneTip.png)
+![ソースコードエリア-Tips](/assets/en/Debugging/sourcePaneTip.png)
 
 ### カスタムウォッチエリアへの式の追加
 
@@ -384,7 +384,7 @@ $c:=$a+$b
 
 ソースコードエリア のコンテキストメニューを使って、トレースモードでメソッドを実行する際に便利な機能にアクセスできます:
 
-![ソースコードエリア-コンテキストメニュー](../assets/en/Debugging/sourceCodePaneContext.png)
+![ソースコードエリア-コンテキストメニュー](/assets/en/Debugging/sourceCodePaneContext.png)
 
 * **定義に移動...**: 選択された要素の定義に移動します。 このコマンドは以下の要素に使用できます:
   * *プロジェクトメソッド*: 新しいコードエディターウィンドウにメソッドの内容を表示します。

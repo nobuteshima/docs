@@ -35,7 +35,7 @@ Pode passar tantos pares de *nomAtrib*/ *valorAtrib* quantos queira.
 
 Nesta área 4D Write Pro, selecione uma palavra:
 
-![](../../assets/en/WritePro/commands/pict2643639.en.png)
+![](/assets/en/WritePro/commands/pict2643639.en.png)
 
 Se executar o seguinte código:
 
@@ -55,7 +55,7 @@ Se executar o seguinte código:
 
 Obtem o seguinte resultado:
 
-![](../../assets/en/WritePro/commands/pict2643642.en.png)
+![](/assets/en/WritePro/commands/pict2643642.en.png)
 
 #### Exemplo 2 
 
@@ -70,7 +70,7 @@ Este exemplo ilustra o uso das constantes wk inside e wk outside:
 
 Supondo que todo o conteúdo foi selecionado, o resultado é:
 
-![](../../assets/en/WritePro/commands/pict2821715.en.png)
+![](/assets/en/WritePro/commands/pict2821715.en.png)
 
 #### Exemplo 3 
 
@@ -87,7 +87,7 @@ Se qioser estabelecer uma imagem de fundo para o documento:
 
 O resultado é:
 
-![](../../assets/en/WritePro/commands/pict3514231.en.png)
+![](/assets/en/WritePro/commands/pict3514231.en.png)
 
 Se quiser estabelecer uma imagem de fundo que cubra toda a área de impressão:
 
@@ -104,7 +104,7 @@ Se quiser estabelecer uma imagem de fundo que cubra toda a área de impressão:
 
 O resultado é:
 
-![](../../assets/en/WritePro/commands/pict3514233.en.png)
+![](/assets/en/WritePro/commands/pict3514233.en.png)
 
 **Nota**: O valor de paper box é aplicável apenas aos documentos e seções.
 
@@ -134,7 +134,7 @@ Se quiser estabelecer abas em intervalos variados e criar caracteres diferentes 
 
 O resultado é:
 
-![](../../assets/en/WritePro/commands/pict4251559.en.png)
+![](/assets/en/WritePro/commands/pict4251559.en.png)
 
 #### Ver também 
 

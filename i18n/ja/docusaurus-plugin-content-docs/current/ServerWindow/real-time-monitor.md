@@ -5,7 +5,7 @@ title: リアルタイムモニターページ
 
 リアルタイムモニターは、アプリケーションによって実行された、"長い" オペレーションの状態をリアルタイムでモニターします。 これらのオペレーションとは、たとえばシーケンシャルクエリやフォーミュラの実行などです:
 
-![](../assets/en/Admin/server-admin-monitor-page.png)
+![](/assets/en/Admin/server-admin-monitor-page.png)
 
 > このページは、サーバーマシンの管理ウィンドウにありますが、リモートの 4Dマシンからも見られます。 リモートマシンの場合は、サーバーマシン上で実行されている操作のデータを表示します。
 
@@ -41,17 +41,17 @@ title: リアルタイムモニターページ
 
 標準モードで表示される情報の例です:
 
-![](../assets/en/Admin/server-admin-monitor-adv1.png)
+![](/assets/en/Admin/server-admin-monitor-adv1.png)
 
 アドバンスドモード (オペレーションを **Shift+クリック**) では、さらなる情報が表示されます:
 
-![](../assets/en/Admin/server-admin-monitor-adv2.png)
+![](/assets/en/Admin/server-admin-monitor-adv2.png)
 
 ## スナップショットボタン
 
 **コピー** ボタンを使用すると、RTMパネルに表示されている全オペレーションと、それに関連する詳細 (プロセスとサブオペレーション情報) がクリップボードへとコピーされます:
 
-![](../assets/en/Admin/server-admin-monitor-snapshot.png)
+![](/assets/en/Admin/server-admin-monitor-snapshot.png)
 
 ## オペレーションを最低5秒間表示する
 

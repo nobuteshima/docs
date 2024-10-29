@@ -11,7 +11,7 @@ title: ピクチャーポップアップメニュー
 
 ピクチャーポップアップメニューを作成するには、[画像を参照](properties_Picture.md#パス名) する必要があります。 次の例は、ピクチャーポップアップメニューからインタフェース言語を選ぶことができます。 各言語は対応する国旗で表わされています:
 
-![](../assets/en/FormObjects/picturePopupMenu_example.png)
+![](/assets/en/FormObjects/picturePopupMenu_example.png)
 
 ### プログラミング
 

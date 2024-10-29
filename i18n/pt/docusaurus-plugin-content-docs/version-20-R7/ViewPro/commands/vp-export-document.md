@@ -147,7 +147,7 @@ Método ***AfterExport***:
 
 You want to export the current sheet to a `.txt` file with pipe-separated values:
 
-![example-export-csv](../../assets/en/ViewPro/vp-export-document-csv.png)
+![example-export-csv](/assets/en/ViewPro/vp-export-document-csv.png)
 
 ```4d
 var $params : Object
@@ -159,7 +159,7 @@ $params.columnDelimiter:="|" VP EXPORT DOCUMENT("ViewProArea";"c:\\tmp\\data.txt
 
 Aqui está o resultado:
 
-![example-export-csv](../../assets/en/ViewPro/vp-export-document-csv-result.png)
+![example-export-csv](/assets/en/ViewPro/vp-export-document-csv-result.png)
 
 #### Veja também
 

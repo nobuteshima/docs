@@ -36,7 +36,7 @@ $attr:=VP Get column attributes($range)
 
 ... devolverá uma coleção dos atributos no intervalo dado:
 
-![](../../assets/en/ViewPro/cmd_vpGetColumnAttributes.PNG)
+![](/assets/en/ViewPro/cmd_vpGetColumnAttributes.PNG)
 
 #### Veja também
 

@@ -55,7 +55,7 @@ O seguinte código pode ser o método de um botão que lhe permite inserir um no
  EDIT ITEM(*;"MinhaLista")
 ```
 
-![](../assets/en/commands/pict21419.pt.png)
+![](/assets/en/commands/pict21419.pt.png)
 
 #### Exemplo 2 
 
@@ -69,7 +69,7 @@ Dadas duas colunas em una list box onde os nomes das variáveis são “Array1�
  EDIT ITEM(Array2;$vlRowNum)
 ```
 
-![](../assets/en/commands/pict21420.es.png)
+![](/assets/en/commands/pict21420.es.png)
 
 #### Ver também 
 

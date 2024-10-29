@@ -17,7 +17,7 @@ O código de componente exposto (métodos e funções) assim como os formulário
 
 Quando um componente instalado contém métodos, classes e funções, estes aparecem no tema Component Methods da página Métodos do Explorador:
 
-![alt-text](../assets/en/Concepts/components-explorer.png)
+![alt-text](/assets/en/Concepts/components-explorer.png)
 
 :::note
 
@@ -27,4 +27,4 @@ Se o componente for compilado, seu [namespace](../Extensions/develop-components.
 
 Pode seleccionar um componente método de projecto ou classe e clicar no botão Documentação do Explorador para obter informações sobre o mesmo, se existir.
 
-![alt-text](../assets/en/Project/compDoc.png)
+![alt-text](/assets/en/Project/compDoc.png)

@@ -37,7 +37,7 @@ displayed_sidebar: docs
 
 以下のリストボックス内のいくつかの行の高さを変更したい場合を考えます:
 
-![](../assets/en/commands/pict3071133.en.png)
+![](/assets/en/commands/pict3071133.en.png)
 
 以下のコードを実行した場合、
 
@@ -49,7 +49,7 @@ displayed_sidebar: docs
 
 ... 以下のような結果になります。
 
-![](../assets/en/commands/pict3071135.en.png)
+![](/assets/en/commands/pict3071135.en.png)
 
 #### 例題 2 
 

@@ -26,7 +26,7 @@ Pour restituer manuellement une sauvegarde via une boîte de dialogue standard :
 1. Lancez l’application 4D et choisissez la commande **Restituer...** dans le menu **Fichier**. Il n’est pas obligatoire qu’une base de données soit ouverte. OR Execute the `RESTORE` command from a 4D method. Une boîte de dialogue standard d’ouverture de fichiers apparaît.
 2. Désignez le fichier de sauvegarde (.4bk) ou le fichier de sauvegarde de l’historique (.4bl) à restituer et cliquez sur **Ouvrir**. Un boîte de dialogue apparaît, vous permettant de désigner l’emplacement auquel vous souhaitez que les fichiers soient restitués . Par défaut, 4D restitue les fichiers dans un dossier nommé *“Nomarchive”* (sans extension) placé à côté de l’archive. Vous pouvez afficher le chemin :
 
-![](../assets/en/Backup/backup07.png)
+![](/assets/en/Backup/backup07.png)
 
 Vous pouvez également cliquer sur le bouton **[...]** et indiquer un autre emplacement.
 3. Cliquez sur le bouton **Restituer**. 4D extrait tous les fichiers de la sauvegarde à l’emplacement défini. Si le fichier d’historique courant ou un fichier de sauvegarde d’historique ayant le même numéro que le fichier de sauvegarde est stocké dans le même dossier, 4D examine son contenu. S’il contient des opérations non présentes dans le fichier de données, le programme propose de l’intégrer. L’intégration est effectuée automatiquement si l’option **d’intégration automatique de l’historique** est cochée (cf. paragraphe [Restitution automatique](settings.md#automatic-restore)). (Facultatif) Cliquez sur **OK** pour intégrer le fichier d’historique dans la base restituée. Si la restitution et l’intégration se sont déroulées correctement, 4D affiche une boîte de dialogue indiquant que l’opération a réussi.
@@ -40,7 +40,7 @@ La [page Restitution](MSC/restore.md) du Centre de sécurité et de maintenance 
 
 Si vous n’avez pas coché l’option d’intégration automatique du fichier d’historique dans la page Restitution du CSM (cf. [Intégration successive de plusieurs fichiers d’historiques](MSC/restore.md#successive-intergration-of-several-data-log-files)), une boîte de dialogue d’alerte apparaît à l’ouverture de la base lorsque 4D constate que le fichier d’historique contient plus d’opérations qu’il n’en a été effectué dans la base.
 
-![](../assets/en/Backup/backup08.png)
+![](/assets/en/Backup/backup08.png)
 
 > Pour que ce mécanisme fonctionne, 4D doit être en mesure d’accéder au fichier d’historique à son emplacement courant.
 

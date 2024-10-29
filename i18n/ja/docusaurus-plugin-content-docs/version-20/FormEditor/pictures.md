@@ -17,11 +17,11 @@ title: ピクチャー
 
 マシン上で利用できないフォーマットのピクチャーに対しては、専用のアイコンが表示されます。 アイコンの下部にその拡張子が表示されます。
 
-![](../assets/en/FormEditor/picNoFormat.png)
+![](/assets/en/FormEditor/picNoFormat.png)
 
 このアイコンは、そのピクチャーが表示されるべきところに自動的に使用されます:
 
-![](../assets/en/FormEditor/picNoFormat2.png)
+![](/assets/en/FormEditor/picNoFormat2.png)
 
 このアイコンは、そのピクチャーがローカルでは表示も編集もできないことを意味します。ですが、中身を改変することなく保存し、他のマシンで表示することは可能です。 たとえば、Windows での PDF ピクチャーや、PICT フォーマットのピクチャーなどが該当します。
 
@@ -37,8 +37,8 @@ title: ピクチャー
 
 | 表示タイプ | スケール係数              | 例題                                                                           |
 | ----- | ------------------- | ---------------------------------------------------------------------------- |
-| 標準解像度 | 1:1 ピクセル密度          | **1x**<br/>![](../assets/en/FormEditor/pictureScale1.png) *circle.png* |
-| 高解像度  | ピクセル密度は2、または3の係数で増加 | <table><th>2x</th><th>3x</th><tr><td>![](../assets/en/FormEditor/pictureScale2.png)*circle@2x.png*</td><td>![](../assets/en/FormEditor/pictureScale3.png)<br/>*circle@3x.png*</td></tr></table>                                                    |
+| 標準解像度 | 1:1 ピクセル密度          | **1x**<br/>![](/assets/en/FormEditor/pictureScale1.png) *circle.png* |
+| 高解像度  | ピクセル密度は2、または3の係数で増加 | <table><th>2x</th><th>3x</th><tr><td>![](/assets/en/FormEditor/pictureScale2.png)*circle@2x.png*</td><td>![](/assets/en/FormEditor/pictureScale3.png)<br/>*circle@3x.png*</td></tr></table>                                                    |
 
 "@nx" で定義された高解像度ピクチャーは、次のオブジェクトで使用できます。
 
@@ -74,7 +74,7 @@ title: ピクチャー
 
 ランタイム時に、4D は [現在のフォームのカラースキーム](https://doc.4d.com/4Dv19R2/4D/19-R2/FORM-Get-color-scheme.301-5494033.ja.html) に応じて、ライト用またはダーク用のピクチャーを自動的にロードします。
 
-![](../assets/en/FormEditor/darkicon.png)
+![](/assets/en/FormEditor/darkicon.png)
 
 ## ピクチャー上のマウス座標
 

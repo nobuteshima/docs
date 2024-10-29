@@ -77,7 +77,7 @@ Pode definir um único método de captura de erros para toda a aplicação ou di
 
 Quando ocorre um erro, apenas um método é chamado, como descrito no diagrama seguinte:
 
-![error management](../assets/en/Concepts/error-schema.png)
+![error management](/assets/en/Concepts/error-schema.png)
 
 ### Manejo de erros dentro do método
 

@@ -54,7 +54,7 @@ VP SET DATA CONTEXT("ViewProArea"; $context)
 VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; 3; 3); "PeopleTable"; "col")
 ```
 
-![](../../assets/en/ViewPro/table-base.png)
+![](/assets/en/ViewPro/table-base.png)
 
 表組みの前後に 1列ずつと、空行を 2行を追加します。 以下のように書くことができます:
 
@@ -62,7 +62,7 @@ VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; 3; 3); "PeopleTable"; "col")
 VP RESIZE TABLE(VP Cells("ViewProArea"; 0; 1; 4; 6); "PeopleTable")
 ```
 
-![](../../assets/en/ViewPro/table-resize.png)
+![](/assets/en/ViewPro/table-resize.png)
 
 #### 参照
 

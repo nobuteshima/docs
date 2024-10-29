@@ -56,7 +56,7 @@ Se quiser atribuir a um intervalo de células (que contenha algumas células já
 
 Resultado:
 
-![](../../assets/en/WritePro/commands/pict6398103.en.png)
+![](/assets/en/WritePro/commands/pict6398103.en.png)
 
 Os dados da célula já fusionada são mantidos todos na primeira célula (superior esquerda) depois da divisão, as outras células resultantes da divisão permanecem vazias.
 

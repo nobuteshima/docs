@@ -85,7 +85,7 @@ $compCity:=ds.Company["city"] //retourne l'attribut city dans la dataclass Compa
 
 Considérant la structure suivante d'une base :
 
-![](../assets/en/API/dataclassAttribute.png)
+![](/assets/en/API/dataclassAttribute.png)
 
 ```4d
 var $firstnameAtt;$employerAtt;$employeesAtt : Object
@@ -109,7 +109,7 @@ var $firstnameAtt;$employerAtt;$employeesAtt : Object
 
 Considérant les propriétés de table suivantes :
 
-![](../assets/en/API/dataclassAttribute2.png)
+![](/assets/en/API/dataclassAttribute2.png)
 
 ```4d
  var $sequenceNumberAtt : Object
@@ -1138,7 +1138,7 @@ ds.People.query("places.locations[a].kind= :1 and places.locations[a].city= :2";
 
 ORDA propose une syntaxe spéciale pour faciliter les recherches dans les relations N vers N. Dans ce contexte, vous pouvez avoir besoin de rechercher des valeurs différentes à l'aide de l'opérateur `AND` MAIS dans le même attribut. Par exemple, considérez la structure suivante :
 
-![alt-text](../assets/en/API/manytomany.png)
+![alt-text](/assets/en/API/manytomany.png)
 
 Imaginez que vous souhaitiez rechercher tous les films dans lesquels un acteur A *et* un acteur B ont simultanément joué un rôle. Si vous écrivez une recherche simple utilisant l'opérateur `AND`, cela ne va pas fonctionner :
 

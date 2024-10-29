@@ -105,7 +105,7 @@ displayed_sidebar: docs
 
 使用した結果:
 
-![](../../assets/en/WritePro/commands/pict6433508.en.png)
+![](/assets/en/WritePro/commands/pict6433508.en.png)
 
 #### 参照 
 

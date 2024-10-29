@@ -60,7 +60,7 @@ Project フォルダー Project Sources Classes Polygon.4dm
 既存のクラスを削除するには:
 
 - ディスク上で "Classes" フォルダーより .4dm クラスファイルを削除します。
-- 4D エクスプローラーでは、クラスを選択した状態で ![](../assets/en/Users/MinussNew.png) をクリックするか、コンテキストメニューより **移動** ＞ **ゴミ箱** を選択します。
+- 4D エクスプローラーでは、クラスを選択した状態で ![](/assets/en/Users/MinussNew.png) をクリックするか、コンテキストメニューより **移動** ＞ **ゴミ箱** を選択します。
 
 ### 4D インターフェースの使用
 
@@ -78,9 +78,9 @@ Project フォルダー Project Sources Classes Polygon.4dm
 
 クラスを新規作成するには次の方法があります:
 
-- **クラス** カテゴリを選択し、![](../assets/en/Users/PlussNew.png) ボタンをクリックします。
+- **クラス** カテゴリを選択し、![](/assets/en/Users/PlussNew.png) ボタンをクリックします。
 - エクスプローラーウィンドウの下部にあるアクションメニュー、またはクラスグループのコンテキストメニューから **新規クラス...** を選択します。
-  ![](../assets/en/Concepts/newClass.png)
+  ![](/assets/en/Concepts/newClass.png)
 - エクスプローラーのホームページのコンテキストメニューより **新規** > **クラス...** を選択します。
 
 #### クラスのコードサポート

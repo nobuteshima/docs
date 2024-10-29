@@ -7,7 +7,7 @@ title: ドロップダウンリスト
 
 macOS においては、ドロップダウンリストは "ポップアップメニュー" とも呼ばれます。 どちらの名前も同じタイプのオブジェクトを指します。 次の例に示すように、ドロップダウンリストの外観はプラットフォームによって若干異なります:
 
-![](../assets/en/FormObjects/popupDropdown_appearance.png)
+![](/assets/en/FormObjects/popupDropdown_appearance.png)
 
 ## ドロップダウンリストの種類
 
@@ -55,11 +55,11 @@ Form.myDrop.currentValue:="フルーツを選択してください"
 
 ドロップダウンリストには、プレースホルダー文字列が表示されます:
 
-![](../assets/en/FormObjects/fruits2.png)
+![](/assets/en/FormObjects/fruits2.png)
 
 ユーザーによって項目が選択されると:
 
-![](../assets/en/FormObjects/fruits3.png)
+![](/assets/en/FormObjects/fruits3.png)
 
 ```4d
 Form.myDrop.values // ["apples","nuts","pears","oranges","carrots"]
@@ -131,7 +131,7 @@ Form.myDrop.index //3
 
 フォームを実行すると、4D が自動的に入力中または表示中のドロップダウンリストの状態を管理します。ユーザーが値を選択すると、その値はフィールドに保存され、このフィールドの値はフォームが表示されたときにドロップダウンリスト表示されます:
 
-![](../assets/en/FormObjects/popupDropdown_choiceList.png)
+![](/assets/en/FormObjects/popupDropdown_choiceList.png)
 
 #### 選択された項目値 または 選択された項目参照
 
@@ -141,7 +141,7 @@ Form.myDrop.index //3
 
 階層型ドロップダウンリストは、リストの各項目にサブリストが関連付けられています。 以下は、階層型ドロップダウンリストの例です:
 
-![](../assets/en/FormObjects/popupDropdown_hierar.png)
+![](/assets/en/FormObjects/popupDropdown_hierar.png)
 
 > フォーム上では、階層型ドロップダウンリストは 2階層に制限されています。
 

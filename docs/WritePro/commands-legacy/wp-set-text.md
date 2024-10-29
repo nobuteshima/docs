@@ -50,7 +50,7 @@ If you do not pass a *rangeUpdate* parameter, by default the inserted contents a
 
 You want to to add text to this document:
 
-![](../../assets/en/WritePro/commands/pict3772543.en.png)
+![](/assets/en/WritePro/commands/pict3772543.en.png)
 
 *targetObj* is a 4D Write Pro document:
 

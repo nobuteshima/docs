@@ -27,13 +27,13 @@ Un objet texte vous permet d'afficher du contenu écrit statique (*ex :* instruc
 
 4D vous permet d’effectuer des rotations de zones de texte dans vos formulaires à l'aide de la propriété [Orientation](properties_Text.md#orientation).
 
-![](../assets/en/FormObjects/staticText.png)
+![](/assets/en/FormObjects/staticText.png)
 
 > La fonctionnalité de rotation de texte est disponible via la commande `OBJECT SET TEXT ORIENTATION`.
 
 Une fois qu’un texte a été orienté, il reste possible de modifier sa taille ou sa position ainsi que toutes ses propriétés. A noter que les propriétés de hauteur et de largeur de la zone de texte ne sont pas dépendantes de l’orientation :
 
-![](../assets/en/FormObjects/staticText2.png)
+![](/assets/en/FormObjects/staticText2.png)
 
 - Si l’objet est redimensionné dans la direction A, sa [largeur](properties_CoordinatesAndSizing.md#width) sera modifiée ;
 - Si l’objet est redimensionné dans la direction C, sa [hauteur](properties_CoordinatesAndSizing.md#height) sera modifiée ;

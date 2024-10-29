@@ -57,7 +57,7 @@ $context.col.push(New object("name"; "Wesson"; "salary"; 50000))
 $context.col.push(New object("name"; "Gross"; "salary"; 10500)) VP SET DATA CONTEXT("ViewProArea"; $context) VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; 3; 3); "PeopleTable"; "col")
 ```
 
-![](../../assets/en/ViewPro/table-base.png)
+![](/assets/en/ViewPro/table-base.png)
 
 Se quiser inserir duas linhas e duas colunas na tabela, pode escrever:
 
@@ -66,7 +66,7 @@ VP INSERT TABLE ROWS("ViewProArea"; "PeopleTable"; 1; 2)
 VP INSERT TABLE COLUMNS("ViewProArea"; "PeopleTable"; 1; 2)
 ```
 
-![](../../assets/en/ViewPro/table-insert.png)
+![](/assets/en/ViewPro/table-insert.png)
 
 #### Veja também
 

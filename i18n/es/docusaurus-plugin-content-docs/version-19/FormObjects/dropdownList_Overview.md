@@ -7,7 +7,7 @@ Las listas desplegables son objetos de formulario que permiten al usuario selecc
 
 En macOS, las listas desplegables también se denominan a veces "menú emergente". Ambos nombres se refieren a los mismos objetos. Como muestra el siguiente ejemplo, el aspecto de estos objetos puede variar ligeramente según la plataforma:
 
-![](../assets/en/FormObjects/popupDropdown_appearance.png)
+![](/assets/en/FormObjects/popupDropdown_appearance.png)
 
 ## Tipos de listas desplegables
 
@@ -55,11 +55,11 @@ Form.myDrop.currentValue:="Select a fruit"
 
 La lista desplegable se muestra con la cadena del marcador de posición:
 
-![](../assets/en/FormObjects/fruits2.png)
+![](/assets/en/FormObjects/fruits2.png)
 
 Después de que el usuario seleccione un valor:
 
-![](../assets/en/FormObjects/fruits3.png)
+![](/assets/en/FormObjects/fruits3.png)
 
 ```4d
 Form.myDrop.values // ["apples","nuts","pears","oranges","carrots"]
@@ -131,7 +131,7 @@ Para asociar una lista desplegable a un campo o variable, introduzca directament
 
 Cuando se ejecuta el formulario, 4D gestiona automáticamente la lista desplegable durante la introducción o la visualización: cuando un usuario elige un valor, éste se guarda en el campo; este valor de campo se muestra en la lista desplegable cuando se visualiza el formulario:
 
-![](../assets/en/FormObjects/popupDropdown_choiceList.png)
+![](/assets/en/FormObjects/popupDropdown_choiceList.png)
 
 #### Valor del elemento seleccionado o Referencia del elemento seleccionado
 
@@ -141,7 +141,7 @@ Cuando haya asociado una lista desplegable con una lista de opciones y con un ca
 
 Una lista desplegable jerárquica tiene una sublista asociada a cada elemento de la lista. Este es un ejemplo de lista desplegable jerárquica:
 
-![](../assets/en/FormObjects/popupDropdown_hierar.png)
+![](/assets/en/FormObjects/popupDropdown_hierar.png)
 
 > En los formularios, las listas desplegables jerárquicas están limitadas a dos niveles.
 

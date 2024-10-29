@@ -168,7 +168,7 @@ Nous recommandons d'utiliser les fonctions de classe plutôt que les méthodes p
 Vous pouvez développer avec Qodly Studio lorsque votre ordinateur n'est pas connecté à internet. Dans ce cas cependant, les fonctions suivantes ne sont pas accessibles :
 
 - [Templates](https://developer.qodly.com/docs/studio/pageLoaders/templates): the Template library is empty
-- UI tips (infobulles interface utilisateur) : ils ne sont pas affichés lorsque vous cliquez sur les icônes ![alt-text](../assets/en/WebServer/tips.png).
+- UI tips (infobulles interface utilisateur) : ils ne sont pas affichés lorsque vous cliquez sur les icônes ![alt-text](/assets/en/WebServer/tips.png).
 
 ## Déploiement
 
@@ -242,9 +242,9 @@ The project must be running in interpreted mode so that **Qodly Studio** menu it
 :::
 
 2. In the Qodly Studio toolbar, click on the **Debug** button.<br/>
-   ![qodly-debug](../assets/en/WebServer/qodly-debug.png)
+   ![qodly-debug](/assets/en/WebServer/qodly-debug.png)
 
-If the debug session starts successfully, a green bullet appears on the button label ![qodly-debug](../assets/en/WebServer/debug2.png) and you can use the Qodly Studio debugger.
+If the debug session starts successfully, a green bullet appears on the button label ![qodly-debug](/assets/en/WebServer/debug2.png) and you can use the Qodly Studio debugger.
 
 If the debugger is already attached to a another machine or another Qodly Studio page, an error is displayed. You have to detach it beforehand from the other location.
 
@@ -262,7 +262,7 @@ With Qodly Studio for 4D, the ["force login" mode](../REST/authUsers.md#force-lo
 
 Make sure the ["force login" mode](../REST/authUsers.md#force-login-mode) is enabled for your 4D application in the [Roles and Privileges page](https://developer.qodly.com/docs/studio/roles/rolesPrivilegesOverview), using the **Force login** option:
 
-![alt-text](../assets/en/WebServer/forcelogin.png)
+![alt-text](/assets/en/WebServer/forcelogin.png)
 
 Vous pouvez également définir cette option directement dans le fichier [**roles.json**](../ORDA/privileges.md#fichier-rolesjson).
 
@@ -311,7 +311,7 @@ Quand le [mode "force login" est activé](#setting-the-force-login-mode), Qodly 
 
 To logout the user, you just need to execute the **Logout** standard action from the Qodly page. Dans Qodly Studio, vous pouvez associer cette action standard à un bouton par exemple :
 
-![alt-text](../assets/en/WebServer/logout.png)
+![alt-text](/assets/en/WebServer/logout.png)
 
 Déclencher l'action de déconnexion d'une session utilisateur Web a les effets suivants :
 
@@ -343,11 +343,11 @@ Using different schemes might also lead to [session](sessions.md) issues, such a
 
 2. Le serveur web de votre base de données est démarré uniquement sur un port HTTP.
 
-![alt-text](../assets/en/WebServer/schemes.png)
+![alt-text](/assets/en/WebServer/schemes.png)
 
 3. Dans Qodly Studio, vous cliquez sur l'icône **Preview**. Vous êtes averti que les deux serveurs Web sont lancés sur des schémas différents, mais malgré cela, vous cliquez sur le bouton **Confirmer**.
 
-![alt-text](../assets/en/WebServer/render-button.png)
+![alt-text](/assets/en/WebServer/render-button.png)
 
 En conséquence, deux licences sont consommées.
 

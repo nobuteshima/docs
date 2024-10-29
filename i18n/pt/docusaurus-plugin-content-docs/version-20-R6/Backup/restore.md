@@ -31,7 +31,7 @@ Para restaurar um banco de dados manualmente via uma caixa de diálogo padrão:
 2. Selecione um arquivo de backup (.4bk) ou um arquivo de backup de log (.4bl) para ser restaurado e clique em **Abrir**.
    Aparece um diálogo que permite especificar o local onde os arquivos serão restaurados. Por padrão, o 4D restaura os arquivos em uma pasta chamada *Archivename* (sem extensão) localizada ao lado do arquivo. Pode exibir a rota:
 
-![](../assets/en/Backup/backup07.png)
+![](/assets/en/Backup/backup07.png)
 
 Você também pode clicar no botão **[...]** para especificar um local diferente.
 3. Clique no botão **Restaurar**.
@@ -54,7 +54,7 @@ Você pode restaurar um arquivo manualmente do aplicativo atual usando a [págin
 
 Se você não marcou a opção para a integração automática do arquivo de log na página de restauração do MSC (veja [integração completa de vários arquivos de log](MSC/restore. d#successive-intergration-of-several-data-log-files)), uma caixa de diálogo de aviso aparece durante a abertura do aplicativo quando 4D avisa que o arquivo de log contém mais operações do que as que foram realizadas no arquivo de dados.
 
-![](../assets/en/Backup/backup08.png)
+![](/assets/en/Backup/backup08.png)
 
 > Para que esse mecanismo funcione, 4D deve poder acessar o arquivo de histórico em seu local atual.
 

@@ -5,7 +5,7 @@ title: はじめに
 
 4D View Pro は、[4D フォームエリア](FormObjects/viewProArea_overview.md) と専用の [コマンド](commands.md) が含まれる [4Dコンポーネント](Concepts/components.md) です。 これにより、先進的なスプレッドシート機能をプロジェクトに埋め込むことが可能です。
 
-![](../assets/en/ViewPro/vpSpreadsheet.png)
+![](/assets/en/ViewPro/vpSpreadsheet.png)
 
 スプレッドシートとは、セルのグリッドを格納したアプリケーションのことで、これらのセルに情報を入力したり、計算を実行させたり、あるいはピクチャーを表示したりすることができます。 4D View Proは、4Dに統合された [SpreadJS スプレッドシートソリューション](https://developer.mescius.com/spreadjs) に基づいて動作します。<br />
 (4D View Pro のツールバー等のインターフェースは SpreadJS 提供のものです。インターフェース上で "テーブル" という用語が使用されますが、4D でテーブルといえばデータベーステーブルを指すため、当マニュアルではこれを便宜上 "表組み" あるいは "表" と呼んで区別します）
@@ -18,13 +18,13 @@ title: はじめに
 
 しかしながら、4D View Pro はライセンスを必要とします。 これらの機能を使用するには、アプリケーションにおいて当該ライセンスを有効化しておく必要があります。 4D View ライセンスがインストールされていない場合、4D View Pro 機能を必要とするオブジェクトのコンテンツはランタイムでは表示されず、エラーメッセージだけが表示されます:
 
-![](../assets/en/ViewPro/licenseError.png)
+![](/assets/en/ViewPro/licenseError.png)
 
 ## 4D View Pro エリアを挿入する
 
 4D View Pro ドキュメントは 4D View Pro という名前の [4Dフォームオブジェクト](FormObjects/viewProArea_overview.md) 内に表示され、手動で編集されます。 このオブジェクトを選択するには、オブジェクトバーの最後のツールをクリックします:
 
-![](../assets/en/ViewPro/vpArea.png)
+![](/assets/en/ViewPro/vpArea.png)
 
 また、[オブジェクトライブラリ](FormEditor/objectLibrary.md) であらかじめ設定された 4D View Pro エリアを選択することもできます。
 
@@ -43,7 +43,7 @@ title: はじめに
 - 複数の連続したセルを選択するには、マウスをセレクションの端から端へとドラッグします。 また、Shiftキーを押しながらセレクションの二つの端をクリックすることでも選択可能です。
 
 - スプレッドシート内のセルをすべて選択するには、エリアの左上端にあるセルをクリックします:
-  ![](../assets/en/ViewPro/vpSelectAll.PNG)
+  ![](/assets/en/ViewPro/vpSelectAll.PNG)
 
 - 列を選択するには、対応する文字 (アルファベット) をクリックします。
 
@@ -57,7 +57,7 @@ title: はじめに
 
 セルをダブルクリックすると、そのセル内で入力モードに入ります。 セルが空でない場合、挿入カーソルはセルのコンテンツの最後に置かれます。
 
-![](../assets/en/ViewPro/vpInput.PNG)
+![](/assets/en/ViewPro/vpInput.PNG)
 
 セルが選択されていれば、たとえ挿入カーソルが非表示であってもデータを直接入力することができます。 その場合、入力した内容はセルのコンテンツを上書きします。
 
@@ -71,7 +71,7 @@ title: はじめに
 
 4D View Pro エリアでは、コピー/ペーストといた標準の編集機能だけでなく、基本的なスプレッドシート機能も備えている自動コンテキストメニューを利用することができます:
 
-![](../assets/en/ViewPro/vpContext.PNG)
+![](/assets/en/ViewPro/vpContext.PNG)
 
 > コンテキストメニューのコピー/カット/ペースト機能はスプレッドシートエリア内でのみ動作し、システムのペーストボードにはアクセスしません。 しかしながら、**Ctrl+c/Ctrl+v** といったシステムショートカットは動作し、エリアと他のアプリケーション間でデータを交換するために使用することが可能です。
 
@@ -82,7 +82,7 @@ title: はじめに
   - **フィルタリング**: フィルタリングを使用して行を非表示にします ([SpreadJS ドキュメント](https://developer.mescius.com/spreadjs/docs/) の "Filtering rows" を参照ください)
   - **ソート**: 列のコンテンツを並べ替えます。
   - **コメントの挿入**: ユーザーコメントを入力できます。 コメントが入力されているセルには、小さな赤い三角形が表示されます:\
-    ![](../assets/en/ViewPro/vpContext2.PNG)
+    ![](/assets/en/ViewPro/vpContext2.PNG)
 
 ## 4D View Pro コマンドの使い方
 
@@ -90,7 +90,7 @@ title: はじめに
 
 4D View Pro はビルトインの 4Dコンポーネントであるため、そのコマンドの一覧はエクスプローラーにおいて、メソッドページの **コンポーネントメソッド** 内に表示されます:
 
-![component-methods](../assets/en/ViewPro/explorer-methods.png)
+![component-methods](/assets/en/ViewPro/explorer-methods.png)
 
 詳細な一覧については [コマンド](commands.md) を参照ください。
 
@@ -98,7 +98,7 @@ title: はじめに
 
 4D View Pro エリアは、複数のオブジェクトや要素を扱います。
 
-![](../assets/en/ViewPro/vpDocument.PNG)
+![](/assets/en/ViewPro/vpDocument.PNG)
 
 ほとんどの 4D View Pro コマンドは、[4D View Pro のフォームエリア名](FormObjects/viewProArea_overview.md) (4Dフォームオブジェクト) を _vpAreaName_ 引数として必要とします。 このエリア名は、[オブジェクト名](FormObjects/properties_Object.md#オブジェクト名) プロパティの値のことです。
 
@@ -116,7 +116,7 @@ VP SET COLUMN COUNT("myVpArea";5)
 
 たとえば、次のセルに対応するレンジオブジェクトを作成したい場合:
 
-![](../assets/en/ViewPro/vp-cells.png)
+![](/assets/en/ViewPro/vp-cells.png)
 
 [VP Cells](commands/vp-cells.md) コマンドを使用できます:
 

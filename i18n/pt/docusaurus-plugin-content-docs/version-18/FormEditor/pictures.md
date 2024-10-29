@@ -15,11 +15,11 @@ Os formatos de imagem mais comuns são compatíveis com ambas as plataformas: .j
 
 Um ícone específico é exibido para imagens salvas em um formato que não esteja disponível no mecanismo. A extensão do formato faltante é mostrado na parte inferior do ícone:
 
-![](../assets/en/FormEditor/picNoFormat.png)
+![](/assets/en/FormEditor/picNoFormat.png)
 
 O ícone é usado automaticamente onde a imagem precisar ser exibida:
 
-![](../assets/en/FormEditor/picNoFormat2.png)
+![](/assets/en/FormEditor/picNoFormat2.png)
 
 O ícone indica que a imagem não pode ser exibida ou manipulada localmente - mas pode ser salva sem alteração para que possa ser exibida em outros dispositivos. Por exemplo esse é o caso para imagens PDF em Windows ou para imagens no formato PICT.
 

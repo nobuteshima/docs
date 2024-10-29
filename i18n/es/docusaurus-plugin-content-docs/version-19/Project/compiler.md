@@ -13,9 +13,9 @@ La compilación se realiza desde su aplicación 4D y es totalmente automática.
 
 1. Abra la ventana de compilación seleccionando el comando **Compilador...** en el menú **Diseño** o el botón **Compilador** de la barra de herramientas.
 
- ![](../assets/en/Project/compilerWin1.png)
+ ![](/assets/en/Project/compilerWin1.png)
 
- ![](../assets/en/Project/comp1.png)
+ ![](/assets/en/Project/comp1.png)
 
 > También puede lanzar directamente la compilación seleccionando el elemento de menú **Iniciar compilación** en el menú **Diseño**.
 
@@ -23,13 +23,13 @@ La compilación se realiza desde su aplicación 4D y es totalmente automática.
 
 Si no se detecta ningún error, se inicia la compilación y se muestra el mensaje "Compilación exitosa" en la parte inferior de la ventana cuando se completa la compilación:
 
-![](../assets/en/Project/success.png)
+![](/assets/en/Project/success.png)
 
 Puede inmediatamente [ejecutar su aplicación en modo compilado](#run-compiled) y ver lo rápido que es.
 
 Si se detectan errores, se detiene el proceso y se muestra el mensaje "Compilación fallida". El área de información de la ventana muestra los nombres de los métodos y los números de línea correspondientes en una lista jerárquica:
 
-![](../assets/en/Project/compilerWin2.png)
+![](/assets/en/Project/compilerWin2.png)
 
 Haga doble clic en cada error detectado para abrir el método o la clase en cuestión directamente en el editor de métodos 4D. La línea que contiene el error se resalta y el tipo de error se muestra en el área de sintaxis de la ventana.
 
@@ -63,7 +63,7 @@ El botón **Declarar Tipos** crea o actualiza los métodos del compilador. Los m
 
 El nombre de estos métodos debe comenzar por `Compiler_`. Puede definir el nombre por defecto de cada uno de los 5 métodos del compilador en [la ventana de los parámetros del compilador](#compiler-methods-for). Los métodos de compilación que son generados y mantenidos por 4D tienen automáticamente el atributo `Invisible`:
 
-![](../assets/en/Project/compilerWin3.png)
+![](/assets/en/Project/compilerWin3.png)
 
 Sólo se generan los métodos de compilación necesarios (es decir, aquellos para los que ya existen elementos en el proyecto).
 
@@ -79,11 +79,11 @@ Las advertencias son mensajes específicos generados por el compilador cuando ve
 
 Dependiendo de las circunstancias y del estilo de programación utilizado, estas advertencias pueden ser más o menos relevantes. Puede activar o desactivar las advertencias haciendo clic en el botón **Mostrar/Ocultar las advertencias**:
 
-![](../assets/en/Project/compilerWin4.png)
+![](/assets/en/Project/compilerWin4.png)
 
 Cuando esta opción está marcada, las advertencias (si las hay) se muestran en la ventana, después de los otros tipos de error. Aparecen en itálica:
 
-![](../assets/en/Project/compilerWin5.png)
+![](/assets/en/Project/compilerWin5.png)
 
 Al hacer doble clic en un aviso se abre el método correspondiente.
 
@@ -109,7 +109,7 @@ Sólo se pueden desactivar los avisos con números. Los números de advertencia 
 
 La página "Compilador" de la caja de diálogo de Propiedades le permite definir los parámetros relacionados con la compilación del proyecto. Puede abrir directamente esta página desde la [ventana del compilador](#compiler-window) haciendo clic en el botón **Parámetros del compilador**:
 
-![](../assets/en/Project/compilerWin6.png)
+![](/assets/en/Project/compilerWin6.png)
 
 ### Opciones de compilación
 

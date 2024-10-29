@@ -8,7 +8,7 @@ title: Aide
 
 Cette propriété permet d'associer les messages d'aide aux objets actifs de vos formulaires. Ils peuvent être affichés au moment de l'exécution :
 
-![](../assets/en/FormObjects/property_helpTip.png)
+![](/assets/en/FormObjects/property_helpTip.png)
 
 > - Le délai d'affichage et la durée maximale des messages d'aide peuvent être définis à l'aide des sélecteurs de délai et de durée des conseils de la commande **[SET DATABASE PARAMETER](https://doc.4d.com/4Dv17R5/4D/17-R5/SET-DATABASE-PARAMETER.301-4128139.en.html)**.
 > - Ces infobulles peuvent être désactivées ou activées pour l'application à l'aide du sélecteur de la commande [**SET DATABASE PARAMETER**](https://doc.4d.com/4Dv17R5/4D/17-R5/SET-DATABASE-PARAMETER.301-4128139.en.html).

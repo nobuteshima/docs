@@ -12,7 +12,7 @@ ALERT("Hello, World!")
 
 Ce code affichera une boîte de dialogue d'alerte standard contenant le message "Hello, World!" et un bouton OK. Pour exécuter le code, il suffit de cliquer sur le bouton d'exécution dans l'éditeur de code :
 
-![hello-world](../assets/en/Concepts/helloworld.png)
+![hello-world](/assets/en/Concepts/helloworld.png)
 
 Vous pouvez également associer ce code à un bouton de formulaire et exécuter le formulaire. Dans ce cas, en cliquant sur le bouton, vous afficherez la boîte de dialogue d'alerte. Dans tous les cas, vous venez d'exécuter votre première ligne de code 4D !
 

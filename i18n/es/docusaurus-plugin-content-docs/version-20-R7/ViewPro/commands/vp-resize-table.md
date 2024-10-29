@@ -54,7 +54,7 @@ VP SET DATA CONTEXT("ViewProArea"; $context)
 VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; 3; 3); "PeopleTable"; "col")
 ```
 
-![](../../assets/en/ViewPro/table-base.png)
+![](/assets/en/ViewPro/table-base.png)
 
 Quiere añadir una columna antes y después de la tabla, así como dos líneas vacías. Puede escribir:
 
@@ -62,7 +62,7 @@ Quiere añadir una columna antes y después de la tabla, así como dos líneas v
 VP RESIZE TABLE(VP Cells("ViewProArea"; 0; 1; 4; 6); "PeopleTable")
 ```
 
-![](../../assets/en/ViewPro/table-resize.png)
+![](/assets/en/ViewPro/table-resize.png)
 
 #### Ver también
 

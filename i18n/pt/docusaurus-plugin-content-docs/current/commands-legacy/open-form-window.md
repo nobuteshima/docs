@@ -128,7 +128,7 @@ O exemplo abaixo usa a rota a um formulário json para exibir os registros em um
 
 o que retorna:
 
-![](../assets/en/commands/pict3687439.en.png)
+![](/assets/en/commands/pict3687439.en.png)
 
 #### Ver também 
 

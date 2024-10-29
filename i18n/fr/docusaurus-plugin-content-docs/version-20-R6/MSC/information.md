@@ -25,7 +25,7 @@ La partie centrale de la fenêtre affiche le nom et l’emplacement du projet et
 
 Cette page propose une vue d'ensemble de la base :
 
-![](../assets/en/MSC/MSC_Tables.png)
+![](/assets/en/MSC/MSC_Tables.png)
 
 > Les informations présentes dans cette page sont disponibles en mode standard et en mode maintenance.
 
@@ -49,11 +49,11 @@ La page **Données** fournit des informations sur l'espace de stockage libre et 
 
 Ces informations sont fournies sous forme de valeurs en octets et sont également représentées sous forme graphique :
 
-![](../assets/en/MSC/MSC_Data.png)
+![](/assets/en/MSC/MSC_Data.png)
 
 > La page Données ne tient pas compte de la taille des données éventuellement stockées à l’extérieur du fichier de données (cf. section Stockage externe des données).
 
-Des fichiers trop fragmentés réduisent les performances du disque dur et donc de la base. Si le taux d’occupation est trop faible, 4D vous le signale par une icône d’avertissement (qui apparaît dans le bouton Informations et dans l’onglet du type de fichier correspondant) et indique qu’un compactage est requis:![](../assets/en/MSC/MSC_infowarn.png)
+Des fichiers trop fragmentés réduisent les performances du disque dur et donc de la base. Si le taux d’occupation est trop faible, 4D vous le signale par une icône d’avertissement (qui apparaît dans le bouton Informations et dans l’onglet du type de fichier correspondant) et indique qu’un compactage est requis:![](/assets/en/MSC/MSC_infowarn.png)
 
 Une icône d'avertissement est également affichée sur le bouton de la page [Compacte](compact.md):
-![](../assets/en/MSC/MSC_compactwarn.png)
+![](/assets/en/MSC/MSC_compactwarn.png)

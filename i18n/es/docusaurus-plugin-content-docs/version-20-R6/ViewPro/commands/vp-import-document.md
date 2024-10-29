@@ -108,7 +108,7 @@ End if
 
 Quiere importar un archivo `.txt` que utiliza una coma (",") como delimitador:
 
-![example-import-csv](../../assets/en/ViewPro/vp-import-document-csv.png)
+![example-import-csv](/assets/en/ViewPro/vp-import-document-csv.png)
 
 ```4d
 $params:=New object
@@ -117,7 +117,7 @@ VP IMPORT DOCUMENT("ViewProArea";"c:\\import\\my-file.txt";New object("csvOption
 ```
 
 Este es el resultado:
-![example-import-csv](../../assets/en/ViewPro/vp-import-document-csv-result.png)
+![example-import-csv](/assets/en/ViewPro/vp-import-document-csv-result.png)
 
 #### Ver también
 

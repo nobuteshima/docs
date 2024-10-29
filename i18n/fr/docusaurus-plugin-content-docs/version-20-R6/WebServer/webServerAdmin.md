@@ -14,10 +14,10 @@ Un projet 4D peut démarrer et surveiller un serveur Web pour l'application prin
 Il y a plusieurs manières de démarrer le serveur Web principal :
 
 - via un bouton/une commande de menu :
-  - 4D: **Exécution\>Démarrer le serveur Web**<br/>![](../assets/en/WebServer/start1.png)
-  - 4D Server : Bouton **Démarrer le serveur HTTP** dans la page Serveur HTTP<br/>![](../assets/en/WebServer/start2.png)
+  - 4D: **Exécution\>Démarrer le serveur Web**<br/>![](/assets/en/WebServer/start1.png)
+  - 4D Server : Bouton **Démarrer le serveur HTTP** dans la page Serveur HTTP<br/>![](/assets/en/WebServer/start2.png)
 
-- automatiquement à l'ouverture de l'application 4D. Pour ce faire, affichez la page **Web\/Configuration** des Propriétés et cochez la case **Lancer le serveur Web au démarrage** :<br/>![](../assets/en/WebServer/config.png)
+- automatiquement à l'ouverture de l'application 4D. Pour ce faire, affichez la page **Web\/Configuration** des Propriétés et cochez la case **Lancer le serveur Web au démarrage** :<br/>![](/assets/en/WebServer/config.png)
 
 - Par programmation, en appelant la fonction [`webServer.start()`](API/WebServerClass.md#start) ou la commande `WEB START SERVER`.
 
@@ -39,11 +39,11 @@ Le serveur Web de n'importe quel composant peut être arrêté en appelant la fo
 
 La commande **Tester le serveur Web** peut être utilisé pour s'assurer que le serveur web intégré fonctionne correctement (4D uniquement). Cette commande est accessible depuis le menu **Run** lorsque le serveur web est lancé :
 
-![](../assets/en/WebServer/test1.png)
+![](/assets/en/WebServer/test1.png)
 
 Lorsque vous sélectionnez cette commande, la page d'accueil du site Web publié par l'application 4D s'affiche dans une fenêtre de votre navigateur par défaut :
 
-![](../assets/en/WebServer/defaultHomePage.png)
+![](/assets/en/WebServer/defaultHomePage.png)
 
 Cette commande vous permet de vérifier que le serveur web, l'affichage de la page d'accueil, etc. fonctionnent correctement. La page est appelée en utilisant l'URL *localhost*, qui est le raccourci standard désignant l'adresse IP de la machine sur laquelle le navigateur web est exécuté. Cette commande prend en compte le numéro du [port de publication TCP](#http-port) spécifié dans les paramètres.
 
@@ -221,7 +221,7 @@ Le fichier archivé est renommé sur le modèle suivant : "DYYYY_MM_DD_Thh_mm_ss
 
 Les paramètres de sauvegarde automatique du logweb.txt sont définis sur la page **Web > Journal (périodicité)** des Propriétés :
 
-![](../assets/en/WebServer/backup.png)
+![](/assets/en/WebServer/backup.png)
 
 D'abord, vous devez choisir la fréquence (jours, semaines, etc.) ou le critère de limite de taille du fichier en cliquant sur le bouton radio correspondant. Vous devez ensuite spécifier le moment précis de la sauvegarde si nécessaire.
 

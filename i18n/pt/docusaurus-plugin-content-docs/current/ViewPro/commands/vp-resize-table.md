@@ -50,7 +50,7 @@ $context.col.push(New object("name"; "Wesson"; "salary"; 50000))
 $context.col.push(New object("name"; "Gross"; "salary"; 10500)) VP SET DATA CONTEXT("ViewProArea"; $context) VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; 3; 3); "PeopleTable"; "col")
 ```
 
-![](../../assets/en/ViewPro/table-base.png)
+![](/assets/en/ViewPro/table-base.png)
 
 Se quiser adicionar uma coluna antes e depois da tabela, bem como duas linhas vazias. Você pode escrever:
 
@@ -58,7 +58,7 @@ Se quiser adicionar uma coluna antes e depois da tabela, bem como duas linhas va
 VP RESIZE TABLE(VP Cells("ViewProArea"; 0; 1; 4; 6); "PeopleTable")
 ```
 
-![](../../assets/en/ViewPro/table-resize.png)
+![](/assets/en/ViewPro/table-resize.png)
 
 #### Veja também
 

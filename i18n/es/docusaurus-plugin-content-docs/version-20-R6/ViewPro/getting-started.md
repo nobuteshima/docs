@@ -5,7 +5,7 @@ title: Comencemos
 
 4D View Pro es un [componente 4D](Concepts/components.md) que incluye un [área de formulario 4D](FormObjects/viewProArea_overview.md) y [comandos](commands.md) específicos. Le permite integrar las funcionalidades avanzadas de hoja de cálculo en sus proyectos.
 
-![](../assets/en/ViewPro/vpSpreadsheet.png)
+![](/assets/en/ViewPro/vpSpreadsheet.png)
 
 Una hoja de cálculo es una aplicación que contiene una cuadrícula de celdas en las que se puede introducir información, ejecutar cálculos o mostrar imágenes. 4D View Pro es alimentado por la [solución de hoja de cálculo SpreadJS](https://developer.mescius.com/spreadjs) integrada en 4D.
 
@@ -17,13 +17,13 @@ Las funcionalidades de 4D View Pro se incluyen directamente en 4D, lo que facili
 
 Sin embargo, 4D View Pro requiere una licencia. Es necesario activar esta licencia en su aplicación para poder utilizar sus funcionalidades. Cuando se utiliza este componente sin licencia, el contenido de un objeto que requiere una función de 4D View Pro no se muestra en tiempo de ejecución, sino que se muestra un mensaje de error:
 
-![](../assets/en/ViewPro/licenseError.png)
+![](/assets/en/ViewPro/licenseError.png)
 
 ## Inserción de un área 4D View Pro
 
 Los documentos de 4D View Pro se muestran y editan manualmente en un [objeto de formulario 4D](FormObjects/viewProArea_overview.md) llamado 4D View Pro. Para seleccionar este objeto, haga clic en la última herramienta de la barra de objetos:
 
-![](../assets/en/ViewPro/vpArea.png)
+![](/assets/en/ViewPro/vpArea.png)
 
 También puede seleccionar un área 4D View Pro preconfigurada en la [librería de objetos](FormEditor/objectLibrary.md).
 
@@ -42,7 +42,7 @@ Las hojas de cálculo se componen de líneas y columnas. A cada línea se le aso
 - Para seleccionar varias celdas continuas, arrastre el ratón de un extremo a otro de la selección. También puede hacer clic en los dos extremos de la selección mientras mantiene presionada la tecla Mayús.
 
 - Para seleccionar todas las celdas de la hoja de cálculo, haga clic en la celda situada en la parte superior izquierda del área:
-  ![](../assets/en/ViewPro/vpSelectAll.PNG)
+  ![](/assets/en/ViewPro/vpSelectAll.PNG)
 
 - Para seleccionar una columna, haga clic en la letra (o conjunto de letras) correspondiente.
 
@@ -56,7 +56,7 @@ Las hojas de cálculo se componen de líneas y columnas. A cada línea se le aso
 
 Hacer doble clic en una celda permite pasar al modo de entrada en la celda correspondiente. Si la celda no está vacía, el cursor de inserción se coloca después del contenido de la celda.
 
-![](../assets/en/ViewPro/vpInput.PNG)
+![](/assets/en/ViewPro/vpInput.PNG)
 
 Los datos pueden introducirse directamente una vez seleccionada una celda, incluso si el cursor de inserción no está visible. La entrada entonces reemplaza el contenido de la celda.
 
@@ -70,7 +70,7 @@ Las teclas de dirección (flechas) permiten mover una celda en la dirección ind
 
 Las áreas 4D View Pro se benefician de un menú contextual automático que ofrece funciones de edición estándar como copiar y pegar, pero también funciones básicas de hoja de cálculo:
 
-![](../assets/en/ViewPro/vpContext.PNG)
+![](/assets/en/ViewPro/vpContext.PNG)
 
 > Las funciones Copiar/Cortar y Pegar del menú contextual sólo funcionan dentro del área de la hoja de cálculo, no tienen acceso al portapapeles del sistema. Sin embargo, los atajos del sistema como **Ctrl+c/Ctrl+v** funcionan y pueden utilizarse para intercambiar datos entre el área y otras aplicaciones.
 
@@ -81,7 +81,7 @@ Dependiendo del área seleccionada, también están disponibles las siguientes o
   - **Filtrar**: permite ocultar la línea mediante filtros (ver "Filtrar las líneas" en la [documentación de SpreadJS](https://developer.mescius.com/spreadjs/docs/)).
   - **Ordenar**: ordena el contenido de la columna.
   - **Insertar comentario**: permite al usuario introducir un comentario para un área. Cuando se ha introducido un comentario para un área, la celda superior izquierda del área muestra un pequeño triángulo rojo:\
-    ![](../assets/en/ViewPro/vpContext2.PNG)
+    ![](/assets/en/ViewPro/vpContext2.PNG)
 
 ## Utilizando los comandos de 4D View Pro
 
@@ -89,7 +89,7 @@ Los comandos 4D View Pro se pueden utilizar en el editor de código 4D, al igual
 
 Como 4D View Pro es un componente 4D intregado, puede acceder a su lista de comandos desde el Explorador, en la sección **Métodos componentes**:
 
-![component-methods](../assets/en/ViewPro/explorer-methods.png)
+![component-methods](/assets/en/ViewPro/explorer-methods.png)
 
 Para obtener una lista detallada, consulte [Comandos](commands.md).
 
@@ -97,7 +97,7 @@ Para obtener una lista detallada, consulte [Comandos](commands.md).
 
 Un área 4D View Pro maneja varios objetos y elementos.
 
-![](../assets/en/ViewPro/vpDocument.PNG)
+![](/assets/en/ViewPro/vpDocument.PNG)
 
 La mayoría de los comandos de 4D View Pro requieren un parámetro *vpAreaName*, que es el [**nombre del área de formulario 4D View Pro**](FormObjects/viewProArea_overview.md) (objeto de formulario 4D). Este nombre es la propiedad del [nombre del objeto](FormObjects/properties_Object.md#object-name).
 
@@ -115,7 +115,7 @@ Algunos comandos 4D View Pro requieren un parámetro *rangeObj*. En 4D View Pro,
 
 Por ejemplo, para crear un objeto rango para las siguientes celdas:
 
-![](../assets/en/ViewPro/vp-cells.png)
+![](/assets/en/ViewPro/vp-cells.png)
 
 Puede utilizar el método [VP Cell](commands/vp-cells.md):
 

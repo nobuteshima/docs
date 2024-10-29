@@ -14,10 +14,10 @@ A 4D project can start and monitor a web server for the main (host) application 
 O servidor web principal de 4D pode ser iniciado de diferentes maneiras:
 
 * Utilizar um botão/comando de menu.
-  * 4D: **Execução\>iniciar servidor Web**<br/>![](../assets/en/WebServer/start1.png)
-  * 4D Server: botão **Iniciar servidor HTTP** da página Servidor HTTP<br/>![](../assets/en/WebServer/start2.png)
+  * 4D: **Execução\>iniciar servidor Web**<br/>![](/assets/en/WebServer/start1.png)
+  * 4D Server: botão **Iniciar servidor HTTP** da página Servidor HTTP<br/>![](/assets/en/WebServer/start2.png)
 
-* Inicia automaticamente cada vez que a aplicação 4D é aberta. To do this, display the **Web\/Configuration** page of the Settings and select the **Launch Web Server at Startup** check box:<br/>![](../assets/en/WebServer/config.png)
+* Inicia automaticamente cada vez que a aplicação 4D é aberta. To do this, display the **Web\/Configuration** page of the Settings and select the **Launch Web Server at Startup** check box:<br/>![](/assets/en/WebServer/config.png)
 
 * Programmatically, by calling the [`webServer.start()`](API/WebServerClass.md#start) function or `WEB START SERVER` command.
 
@@ -38,11 +38,11 @@ The web server of any component can be stopped by calling the `webServer.stop()`
 
 The **Test Web Server** command can be used to make sure the built-in web server is functioning correctly (4D only). This command is accessible in the **Run** menu when the web server is launched:
 
-![](../assets/en/WebServer/test1.png)
+![](/assets/en/WebServer/test1.png)
 
 When you select this command, the home page of the website published by the 4D application is displayed in a window of your default web browser:
 
-![](../assets/en/WebServer/defaultHomePage.png)
+![](/assets/en/WebServer/defaultHomePage.png)
 
 This command lets you verify that the web server, home page display, etc. work correctly. The page is called using the *localhost* URL, which is the standard shortcut designating the IP address of the machine on which the web browser is executed. O comando considera o número da [porta de publicação TCP](#http-port) especificado nos parâmetros.
 
@@ -210,7 +210,7 @@ The archived file is renamed based on the following example: “DYYYY_MM_DD_Thh_
 
 The automatic backup parameters for the logweb.txt are set on the **Web/Log (backup)** page of the Settings:
 
-![](../assets/en/WebServer/backup.png)
+![](/assets/en/WebServer/backup.png)
 
 Configure the automatic backup parameters for the request log. First you must choose the frequency (days, weeks, etc.) or the file size limit criterion by clicking on the corresponding radio button. Você deve então especificar o momento exato do backup, se necessário.
 

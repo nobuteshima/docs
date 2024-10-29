@@ -18,7 +18,7 @@ Exposed component code (methods and functions) as well as forms can be used as s
 
 When an installed component contains methods, classes, and functions, they appear in the **Component Methods** theme of the Explorer's Methods page:
 
-![alt-text](../assets/en/Concepts/components-explorer.png)
+![alt-text](/assets/en/Concepts/components-explorer.png)
 
 :::note
 
@@ -28,4 +28,4 @@ If the component is compiled, its [namespace](../Extensions/develop-components.m
 
 You can select a component [project method](methods.md) or [class](classes.md) and click on the **Documentation** button of the Explorer to get information about it, [if any](Project/documentation.md).
 
-![alt-text](../assets/en/Project/compDoc.png)
+![alt-text](/assets/en/Project/compDoc.png)

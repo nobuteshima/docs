@@ -104,7 +104,7 @@ Coordonnées supérieures de l'objet dans le formulaire.
 
 Définit l'arrondi des coins (en pixels) des objets de type [rectangle](shapes_overview.md#rectangle). Par défaut, la valeur du rayon des rectangles est de 0 pixel. Vous pouvez modifier cette propriété pour dessiner des rectangles arrondis avec des formes personnalisées :
 
-![](../assets/en/FormObjects/shape_rectangle.png)
+![](/assets/en/FormObjects/shape_rectangle.png)
 
 La valeur minimale est 0, dans ce cas un rectangle standard non arrondi est dessiné. La valeur maximale dépend de la taille du rectangle (elle ne peut pas dépasser la moitié de la taille du côté le plus court du rectangle) et est calculée dynamiquement.
 

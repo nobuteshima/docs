@@ -473,7 +473,7 @@ $sel2:=$sel.clean()
   //$sel2.length = 3
 ```
 
-![](../assets/en/API/clean.png)
+![](/assets/en/API/clean.png)
 
 #### Veja também
 
@@ -907,7 +907,7 @@ Se vários *attributePath* forem fornecidos, um *targetPath* deverá ser forneci
 
 Dada a seguinte tabela e relação:
 
-![](../assets/en/API/entityselection.PNG)
+![](/assets/en/API/entityselection.PNG)
 
 ```4d
  var $firstnames; $addresses; $mailing; $teachers : Collection
@@ -2164,7 +2164,7 @@ Uma colecção vazia é devolvida se:
 
 A estrutura abaixo será usada nos exemplos desta seção:
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 Exemplo sem filtro ou parâmetro de opções:
 

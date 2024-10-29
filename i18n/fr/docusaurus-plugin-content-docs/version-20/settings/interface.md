@@ -10,7 +10,7 @@ La page Interface vous permet de régler diverses options liées à l'interface 
 
 Cette zone vous permet de personnaliser diverses options d'affichage.
 
-![](../assets/en/settings/interface-page.png)
+![](/assets/en/settings/interface-page.png)
 
 ### Police à utiliser avec la commande MESSAGE
 
@@ -37,7 +37,7 @@ Vous pouvez définir la [fréquence d'écriture du cache](database.md#memory-pag
 
 -   **Use SDI mode on Windows**: When this option checked, 4D enables automatically the [SDI mode (Single-Document Interface)](../Menus/sdi.md) in your application when executed in a [supported context](../Menus/sdi.md#sdi-mode-availability). When you select this option, on Windows the **Run** menu of the 4D menu bar allows you to select the mode in which you want to test the application:
 
-    ![](../assets/en/settings/sdi-mdi.png)
+    ![](/assets/en/settings/sdi-mdi.png)
 
 :::note
 
@@ -55,8 +55,8 @@ Ce menu vous permet de sélectionner la palette de couleurs à utiliser au nivea
 
 Les palettes suivants sont disponibles :
 
--   **Clair** : l'application utilisera le thème clair par défaut ![](../assets/en/settings/light-appearance.png)
--   **Foncé**: l'application utilisera le thème foncé par défaut ![](../assets/en/settings/dark-appearance.png)
+-   **Clair** : l'application utilisera le thème clair par défaut ![](/assets/en/settings/light-appearance.png)
+-   **Foncé**: l'application utilisera le thème foncé par défaut ![](/assets/en/settings/dark-appearance.png)
 -   **Héritée** (par défaut) : l'application hérite du niveau de priorité le plus élevé (c'est-à-dire les préférences de l'utilisateur du système d'exploitation)
 
 > Les thèmes par défaut peuvent être gérés par du CSS. Pour plus d'informations, veuillez consulter la section [Media Queries](../FormEditor/createStylesheet.md#media-queries).
@@ -78,7 +78,7 @@ Les raccourcis clavier par défaut sont les suivants :
 
 Pour modifier le raccourci d'une opération, cliquez sur le bouton **Modifier** correspondant. La boîte de dialogue suivante apparaît :
 
-![](../assets/en/settings/shortcut.png)
+![](/assets/en/settings/shortcut.png)
 
 Pour modifier le raccourci clavier, tapez la nouvelle combinaison de touches sur votre clavier et cliquez sur **OK**. Si vous préférez ne pas avoir de raccourci pour une opération, cliquez sur **Effacer**.
 

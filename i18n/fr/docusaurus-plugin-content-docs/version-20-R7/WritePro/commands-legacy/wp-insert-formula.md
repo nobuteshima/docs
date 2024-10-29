@@ -107,7 +107,7 @@ Vous souhaitez utiliser un nom de formule pour le nom du client :
 
 Résultat :
 
-![](../../assets/en/WritePro/commands/pict6433508.en.png)
+![](/assets/en/WritePro/commands/pict6433508.en.png)
 
 #### Voir aussi 
 

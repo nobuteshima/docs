@@ -126,7 +126,7 @@ Se le pide a un worker ejecutar un método proyecto mediante una llamada al coma
 
 La siguiente animación ilustra esta secuencia:
 
-![](../assets/en/Develop/WorkerAnimation.gif)
+![](/assets/en/Develop/WorkerAnimation.gif)
 
 A diferencia de un proceso creado con el comando `New process`, un proceso worker **permanece vivo después de que termine la ejecución del método proceso**. Esto significa que todas las ejecuciones del método para el mismo worker se llevarán a cabo en el mismo proceso, que mantiene toda la información de estado del proceso (variables de proceso, registro actual y selección actual...). En consecuencia, los métodos ejecutados sucesivamente tendrán acceso y de este modo compartirán la misma información, lo que permite las comunicaciones entre procesos. El buzón de mensajes del worker maneja las llamadas sucesivas de forma asíncrona.
 

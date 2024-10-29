@@ -47,7 +47,7 @@ displayed_sidebar: docs
 
 正しい位置のカラムが削除されます:
 
-![](../../assets/en/WritePro/commands/pict4680318.en.png)
+![](/assets/en/WritePro/commands/pict4680318.en.png)
 
 #### 参照 
 

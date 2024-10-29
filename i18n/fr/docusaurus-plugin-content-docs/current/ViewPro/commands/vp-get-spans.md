@@ -24,7 +24,7 @@ Dans *rangeObj*, passez une plage de cellules fusionnées que vous souhaitez ré
 
 Pour centrer le texte des cellules fusionnées dans ce document :
 
-![](../../assets/en/ViewPro/cmd_vpGetSpans.PNG)
+![](/assets/en/ViewPro/cmd_vpGetSpans.PNG)
 
 ```4d
 // Rechercher toutes les cellules fusionnées 

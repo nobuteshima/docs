@@ -17,5 +17,5 @@ GET  /rest/Company(11)/blobAtt?$binary=true&$expand=blobAtt
 
 ディスク上の BLOB の保存先を聞かれます:
 
-![](../assets/en/REST/binary.png)
+![](/assets/en/REST/binary.png)
 

@@ -53,13 +53,13 @@ displayed_sidebar: docs
 
 人物のレコードを表示しているフォームにおいて、"Check children" ボタンを押すとその人物の子供の名前と年齢を検証あるいは変更するダイアログが開く場合を考えます:
 
-![](../assets/en/commands/pict3542015.en.png)
+![](/assets/en/commands/pict3542015.en.png)
 
 **注:** "Children" オブジェクトフィールドはこの例題においての構造を示すために表示されているだけです。
 
 検証フォームにおいて、[Form](form.md) オブジェクトプロパティを変数へと割り当てているものとします:
 
-![](../assets/en/commands/pict3541682.en.png)
+![](/assets/en/commands/pict3541682.en.png)
 
 "Check children" ボタンの中身のコードは以下のようになります:
 
@@ -93,7 +93,7 @@ displayed_sidebar: docs
 
 フォームはそれぞれの子供についての情報を表示します:
 
-![](../assets/en/commands/pict3515152.en.png)
+![](/assets/en/commands/pict3515152.en.png)
 
 値が変更されてOKボタンがクリックされた場合、フィールドは更新されます(その後、親のレコードも保存される必要があります)。
 

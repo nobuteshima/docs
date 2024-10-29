@@ -30,7 +30,7 @@ Pour restituer manuellement une application via une boîte de dialogue standard 
 2. Désignez le fichier de sauvegarde (.4bk) ou le fichier de sauvegarde de l’historique (.4bl) à restituer et cliquez sur **Ouvrir**.
    Un boîte de dialogue apparaît, vous permettant de désigner l’emplacement auquel vous souhaitez que les fichiers soient restitués . Par défaut, 4D restitue les fichiers dans un dossier nommé *“Nomarchive”* (sans extension) placé à côté de l’archive. Vous pouvez afficher le chemin :
 
-![](../assets/en/Backup/backup07.png)
+![](/assets/en/Backup/backup07.png)
 
 Vous pouvez également cliquer sur le bouton **[...]** et indiquer un autre emplacement.
 3. Cliquez sur le bouton **Restituer**.
@@ -53,7 +53,7 @@ La [page Restitution](MSC/restore.md) du Centre de sécurité et de maintenance 
 
 Si vous n’avez pas coché l’option d’intégration automatique du fichier d’historique dans la page Restitution du CSM (cf. [Intégration successive de plusieurs fichiers d’historique](MSC/restore.md#successive-intergration-of-several-data-log-files)), une boîte de dialogue d’alerte apparaît à l’ouverture de l'application lorsque 4D constate que le fichier d’historique contient plus d’opérations qu’il n’en a été effectué dans le fichier de données.
 
-![](../assets/en/Backup/backup08.png)
+![](/assets/en/Backup/backup08.png)
 
 > Pour que ce mécanisme fonctionne, 4D doit être en mesure d’accéder au fichier d’historique à son emplacement courant.
 

@@ -14,7 +14,7 @@ Les nouveaux projets d'application 4D peuvent être créés à partir de **4D** 
 Pour créer un nouveau projet :
 
 1. Lancez 4D ou 4D Server.
-2. Select **New > Project...** from the **File** menu: ![](../assets/en/getStart/projectCreate1.png)OR(4D only) Select **Project...** from the **New** toolbar button:![](../assets/en/getStart/projectCreate2.png)A standard **Save** dialog appears so you can choose the name and location of the 4D project's main folder.
+2. Select **New > Project...** from the **File** menu: ![](/assets/en/getStart/projectCreate1.png)OR(4D only) Select **Project...** from the **New** toolbar button:![](/assets/en/getStart/projectCreate2.png)A standard **Save** dialog appears so you can choose the name and location of the 4D project's main folder.
 
 3. Saisissez le nom du dossier de projet et cliquez sur **Sauvegarder**. Ce nom sera utilisé :
 
@@ -69,7 +69,7 @@ Vous pouvez utiliser un fichier [`.4DLink`](#about-4DLink-files) pour lancer l'a
 - double-cliquer ou glisser-déposer le fichier `.4DLink` sur l'application 4D
 - aller sur **Fichier** > **Ouvrir projets récents** et sélectionner un projet
 
-![open-recent-projects](../assets/en/Project/4Dlinkfiles.png)
+![open-recent-projects](/assets/en/Project/4Dlinkfiles.png)
 
 Un fichier .4DLink de type "projet distant" peut être copié et utilisé sur plusieurs machines.
 > Il est également possible de sélectionner un fichier 4DLink dans la boîte de dialogue d'ouverture de 4D et 4D Server (ouverture de projet local uniquement).
@@ -104,10 +104,10 @@ Lorsque vous travaillez sur un projet dans 4D, vous pouvez utiliser les éditeur
 
 Le framework de développement 4D comprend un gestionnaire d'accès aux fichiers pour contrôler l'accès simultané :
 
-- si un fichier ouvert est en lecture seule au niveau du système d'exploitation, une icône de verrouillage est affichée dans l'éditeur : ![](../assets/en/Project/lockicon.png)
+- si un fichier ouvert est en lecture seule au niveau du système d'exploitation, une icône de verrouillage est affichée dans l'éditeur : ![](/assets/en/Project/lockicon.png)
 - si un fichier ouvert est modifié simultanément à partir de différents emplacements, 4D affiche une boîte de dialogue d'alerte lorsqu'on tente d'enregistrer les modifications :
 
-![](../assets/en/Project/projectReload.png)
+![](/assets/en/Project/projectReload.png)
 
 - **Oui**: annuler les modifications de l'éditeur et recharger la version modifiée
 - **Non** : enregistre les modifications et écrase l'autre version

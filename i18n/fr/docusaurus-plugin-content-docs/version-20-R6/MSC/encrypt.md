@@ -28,18 +28,18 @@ Trois étapes sont nécessaires pour effectuer le tout premier chiffrement de vo
 1. Dans l'éditeur de structure, cochez l'attribut **Chiffrable** pour chaque table dont vous souhaitez chiffrer les données. Consultez la section "Propriétés des tables".
 2. Ouvrez la page Chiffrement du CSM.
    Si vous ouvrez la page sans paramétrer les tables comme étant **Chiffrables**, le message suivant s'affiche :
-   ![](../assets/en/MSC/MSC_encrypt1.png)
+   ![](/assets/en/MSC/MSC_encrypt1.png)
    Sinon, le message suivant s'affiche :
-   ![](../assets/en/MSC/MSC_encrypt2.png)<p>
+   ![](/assets/en/MSC/MSC_encrypt2.png)<p>
    Cela signifie que le statut **Chiffrable** défini pour au moins une table a été modifié et que le fichier de données n'a toujours pas été chiffré.
    \*\*Note : \*\*Le même message s'affiche lorsque le statut **Encryptable** a été modifié dans un fichier de données déjà crypté ou après que le fichier de données a été décrypté (voir ci-dessous).</p>
 3. Cliquez sur le bouton image Chiffrer.\
-   ![](../assets/en/MSC/MSC_encrypt3.png)\
+   ![](/assets/en/MSC/MSC_encrypt3.png)\
    Vous serez invité à saisir une phrase secrète pour votre fichier de données:
-   ![](../assets/en/MSC/MSC_encrypt4.png)
+   ![](/assets/en/MSC/MSC_encrypt4.png)
    La phrase secrète est utilisée pour générer la clé de cryptage des données. Une phrase secrète est une version plus sécurisée d'un mot de passe et peut contenir un grand nombre de caractères. Par exemple, vous pouvez saisir une phrase secrète telle que "Nous sommes tous venus à Montreux" ou "Ma première phrase de passe géniale !!".
    L'indicateur de niveau de sécurité peut vous aider à évaluer la force de votre phrase secrète:
-   ![](../assets/en/MSC/MSC_encrypt5.png)
+   ![](/assets/en/MSC/MSC_encrypt5.png)
    (le vert foncé est le niveau le plus élevé)
 4. Tapez sur Entrée pour confirmer votre phrase secrète sécurisée.
 
@@ -54,7 +54,7 @@ Si le processus de chiffrement est réussi, la page Chiffrement affiche les bout
 ## Opérations de maintenance liées au chiffrement
 
 Lorsqu'une application est chiffrée (voir ci-dessus), la page Chiffrement propose plusieurs opérations de maintenance du chiffrement, correspondant à des scénarios standard.
-![](../assets/en/MSC/MSC_encrypt6.png)
+![](/assets/en/MSC/MSC_encrypt6.png)
 
 ### Fournir la clé de chiffrement des données actuelle
 
@@ -62,7 +62,7 @@ Pour des raisons de sécurité, toutes les opérations de maintenance liées au 
 
 - Si la clé de chiffrement des données est déjà chargée dans le trousseau 4D(1), elle est automatiquement réutilisée par 4D.
 - Si la clé de chiffrement des données n'est pas identifiée, vous devez la fournir. Le dialogue suivant est affiché:
-  ![](../assets/en/MSC/MSC_encrypt7.png)
+  ![](/assets/en/MSC/MSC_encrypt7.png)
 
 À ce stade, deux options s'offrent à vous :
 
@@ -83,7 +83,7 @@ Cette opération est utile lorsque l'attribut **Chiffrable** a été modifié po
 2. Saisissez la clé de chiffrement des données actuelle.
 
 Le fichier de données est correctement re-chiffré avec la clé courante et un message de confirmation est affiché :
-![](../assets/en/MSC/MSC_encrypt8.png)
+![](/assets/en/MSC/MSC_encrypt8.png)
 
 ### Changer votre phrase secrète et re-chiffrer les données
 
@@ -92,9 +92,9 @@ Cette opération est utile en cas de modification de la clé de chiffrement des 
 1. Cliquez sur **Changer votre phrase secrète et re-chiffrer les données**.
 2. Saisissez la clé de chiffrement des données actuelle.
 3. Saisissez la nouvelle phrase secrète (pour plus de sécurité, il vous est demandé de la saisir deux fois):
-   ![](../assets/en/MSC/MSC_encrypt9.png)
+   ![](/assets/en/MSC/MSC_encrypt9.png)
    Le fichier de données est chiffré avec la nouvelle clé et le message de confirmation est affiché.
-   ![](../assets/en/MSC/MSC_encrypt8.png)
+   ![](/assets/en/MSC/MSC_encrypt8.png)
 
 ### Enlever le chiffrement de toutes les données
 
@@ -104,7 +104,7 @@ Cette opération supprime tout le chiffrement du fichier de données. Si vous ne
 2. Saisissez la clé de chiffrement de données actuelle (voir Fournir la clé de chiffrement des données actuelle).
 
 Le fichier de données est entièrement déchiffré et un message de confirmation est affiché :
-![](../assets/en/MSC/MSC_encrypt10.png)
+![](/assets/en/MSC/MSC_encrypt10.png)
 
 > Une fois que le fichier de données est déchiffré, le statut de chiffrement des tables ne correspond plus à leur attribut Chiffrable. Pour restaurer un état correspondant, vous devez désélectionner tous les attributs **Chiffrables** au niveau de la structure de la base de données.
 

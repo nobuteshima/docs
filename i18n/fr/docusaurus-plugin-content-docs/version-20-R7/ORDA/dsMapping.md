@@ -13,7 +13,7 @@ When you call a datastore using the [`ds`](commands/ds.md) or the [`Open datasto
 - Les champs correspondent à des attributs de stockage.
 - Les relations correspondent à des attributs de relation - les noms de relation, définis dans l'éditeur de structure, sont utilisés comme noms d'attribut de relation.
 
-![](../assets/en/ORDA/datastoreMapping.png)
+![](/assets/en/ORDA/datastoreMapping.png)
 
 ### Règles générales
 
@@ -37,7 +37,7 @@ Lorsque vous accédez à un datastore distant via la commande `Ouvrir datastore`
 
 Cette option doit être choisie au niveau de la structure 4D pour chaque table et chaque champ que vous souhaitez voir apparaître comme dataclass et attribut dans le datastore :
 
-![](../assets/en/ORDA/ExposeDataclass.png)
+![](/assets/en/ORDA/ExposeDataclass.png)
 
 ### Mise à jour des données
 
@@ -96,7 +96,7 @@ Toutes les dataclasses d'un projet 4D sont disponibles en tant que propriété d
 
 Par exemple, considérons cette table dans la structure suivante :
 
-![](../assets/en/ORDA/companyTable.png)
+![](/assets/en/ORDA/companyTable.png)
 
 La table `Company` est automatiquement disponible en tant que dataclasse dans la banque de données `ds`. Vous pouvez écrire :
 
@@ -148,7 +148,7 @@ Les attributs de la Dataclass sont de plusieurs types : storage, relatedEntity e
 
 Prenons l'exemple de la structure de base de données partielle suivante et les propriétés relationnelles :
 
-![](../assets/en/ORDA/relationProperties.png)
+![](/assets/en/ORDA/relationProperties.png)
 
 Tous les attributs relationnels seront disponibles automatiquement :
 
@@ -164,7 +164,7 @@ En outre, les attributs relationnels suivant seront également disponibles autom
 
 Tous les attributs de la dataclass sont exposés en tant que propriétés de la dataclass :
 
-![](../assets/en/ORDA/dataclassProperties.png)
+![](/assets/en/ORDA/dataclassProperties.png)
 
 Gardez à l'esprit que ces objets décrivent des attributs, mais ne donnent pas accès aux données. La lecture ou l'écriture des données se fait à travers des [objets entité](entities.md#using-entity-attributes).
 

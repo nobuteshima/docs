@@ -35,7 +35,7 @@ O código seguinte define cinco colunas na área 4D View Pro:
 VP SET COLUMN COUNT("ViewProArea";5)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSetColumnCount.PNG)
+![](/assets/en/ViewPro/cmd_vpSetColumnCount.PNG)
 
 #### Veja também
 

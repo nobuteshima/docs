@@ -116,7 +116,7 @@ Les données collectées sont écrites dans un fichier texte (format JSON) par b
 
 Une fois par semaine, le fichier est automatiquement envoyé par le réseau à 4D. Le fichier est ensuite supprimé du dossier 4D actif.
 
-![](../assets/en/Admin/data-collect.png)
+![](/assets/en/Admin/data-collect.png)
 
 > Si le fichier n'a pas pu être envoyé pour une raison quelconque, il est néanmoins supprimé et aucun message d'erreur n'est affiché côté 4D Server.
 

@@ -24,7 +24,7 @@ As sessões Web são usadas para:
 The session management feature can be enabled and disabled on your 4D web server. Existem diferentes formas de ativar a gestão de sessões:
 
 - Usando a opção **Sessões escalonáveis** na página "Web/Opções (I)" das Propriedades (configuração permanente):
-  ![alt-text](../assets/en/WebServer/settingsSession.png)
+  ![alt-text](/assets/en/WebServer/settingsSession.png)
 
 Esta opção é selecionada por defeito nos novos projetos. Sin embargo, se puede desactivar seleccionando la opción **Sin sesiones**, en cuyo caso las funcionalidades de la sesión web se desactivan (no hay ningún objeto `Session` disponible).
 
@@ -63,7 +63,7 @@ La creación de una sesión web para una petición REST puede requerir que una l
 
 The `Session` object of the current session can then be accessed through the [`Session`](commands/session.md) command in the code of any web processes.
 
-![alt-text](../assets/en/WebServer/schemaSession.png)
+![alt-text](/assets/en/WebServer/schemaSession.png)
 
 :::info
 
@@ -124,7 +124,7 @@ Privileges are implemented at the heart of the ORDA architecture to provide deve
 
 Em uma aplicação CRM, cada vendedor gerencia seu próprio portefólio de clientes. The datastore contains at least two linked dataclasses: Customers and SalesPersons (a salesperson has several customers).
 
-![alt-text](../assets/en/WebServer/exampleSession.png)
+![alt-text](/assets/en/WebServer/exampleSession.png)
 
 We want a salesperson to authenticate, open a session on the web server, and have the top 3 customers be loaded in the session.
 
@@ -151,7 +151,7 @@ http://localhost:8044/authenticate.shtml
 </html>
 ```
 
-![alt-text](../assets/en/WebServer/authenticate.png)
+![alt-text](/assets/en/WebServer/authenticate.png)
 
 3. El método authenticate project busca la persona _userID_ y valida la contraseña contra el valor hash ya almacenado en la tabla _SalesPersons_:
 

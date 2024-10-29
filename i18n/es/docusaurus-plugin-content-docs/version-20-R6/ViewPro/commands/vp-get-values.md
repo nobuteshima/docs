@@ -39,7 +39,7 @@ Las fechas o las horas son consideradas como un datetime y se completan de la si
 
 Quiere obtener los valores de C4 a G6:
 
-![](../../assets/en/ViewPro/cmd_vpGetValues.PNG)
+![](/assets/en/ViewPro/cmd_vpGetValues.PNG)
 
 ```4d
 $result:=VP Get values(VP Cells("ViewProArea";2;3;5;3))

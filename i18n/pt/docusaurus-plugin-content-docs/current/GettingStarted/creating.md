@@ -14,8 +14,8 @@ Para criar um novo projeto de banco de dados:
 1. Inicie 4D ou 4D Server.
 
 2. Faça uma das seguintes opções:
-   - Select **New > Project...** from the **File** menu: ![](../assets/en/getStart/projectCreate1.png)
-   - (4D only) Select **Project...** from the **New** toolbar button:<p>![](../assets/en/getStart/projectCreate2.png)</p>A standard **Save** dialog appears so you can choose the name and location of the 4D project's main folder.
+   - Select **New > Project...** from the **File** menu: ![](/assets/en/getStart/projectCreate1.png)
+   - (4D only) Select **Project...** from the **New** toolbar button:<p>![](/assets/en/getStart/projectCreate2.png)</p>A standard **Save** dialog appears so you can choose the name and location of the 4D project's main folder.
 
 3. Introduzca el nombre de su carpeta de proyecto y haga clic en **Guardar**. Este nome será utilizado:
 
@@ -77,7 +77,7 @@ You can use a [`.4DLink` file](#about-4DLink-files) to launch the 4D application
 - haga doble clic o arrastre y suelte el archivo `.4DLink` en la aplicación 4D
 - vaya a **Archivo** > **Abrir los proyectos recientes** y seleccione un proyecto
 
-![open-recent-projects](../assets/en/Project/4Dlinkfiles.png)
+![open-recent-projects](/assets/en/Project/4Dlinkfiles.png)
 
 Um arquivo .4DLink do tipo "projeto remoto" pode ser copiado e usado em várias máquinas.
 

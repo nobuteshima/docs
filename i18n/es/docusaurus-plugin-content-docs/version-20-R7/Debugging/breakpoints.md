@@ -17,7 +17,7 @@ Para crear un punto de interrupción, haga clic en el margen izquierdo de la ven
 
 En el siguiente ejemplo, se ha definido un punto de ruptura (la viñeta roja), en el depurador, en la línea `If ($in.dataClass#Null)`:
 
-![break-point](../assets/en/Debugging/break.png)
+![break-point](/assets/en/Debugging/break.png)
 
 En el ejemplo anterior, al hacer clic en el botón [**No Trace**](./debugger.md/#no-trace), se reanuda la ejecución normal hasta la línea marcada con el punto de interrupción. Esa línea no se ejecuta por sí misma, sino que se vuelve al modo de rastreo. Definir un punto de interrupción más allá del contador del programa y hacer clic en el botón **No Trace** le permite saltar las partes del método que se está rastreando.
 
@@ -27,7 +27,7 @@ Para eliminar un punto de ruptura, haga clic en la viñeta correspondiente.
 
 Puede modificar el comportamiento de un punto de interrupción utilizando la ventana Propiedades de puntos de interrupción:
 
-![breakpoint-properties](../assets/en/Debugging/breakpoint-properties.png)
+![breakpoint-properties](/assets/en/Debugging/breakpoint-properties.png)
 
 Esta ventana está disponible en el Editor de Código o en la [ventana de código fuente](debugger.md#source-code-pane). Puede:
 
@@ -59,7 +59,7 @@ Para abrir la página de la lista de puntos de ruptura:
 
 2. Haga clic en la pestaña **Break** para mostrar la lista de pausas:
 
-![break-list-runtime-explorer](../assets/en/Debugging/break-list.png)
+![break-list-runtime-explorer](/assets/en/Debugging/break-list.png)
 
 Utilizando esta ventana, puede:
 
@@ -84,7 +84,7 @@ Para abrir la página de los puntos de interrupción en comandos:
 
 2. Haga clic en **Catch** para mostrar la lista de puntos de interrupción en los comandos:
 
-![runtime-explorer-window](../assets/en/Debugging/catch-command.png)
+![runtime-explorer-window](/assets/en/Debugging/catch-command.png)
 
 Esta página lista los puntos de interrupción en el comando durante la ejecución. Se compone de dos columnas:
 

@@ -20,13 +20,13 @@ Com esta opção, pode facilmente implementar e atualizar várias cópias da mes
 
 Considere, por exemplo, a seguinte configuração, em que uma aplicação é duplicada e cada cópia utiliza uma definição de ID de porta diferente. Se esta definição do usuário estiver ligada ao arquivo de dados, será possível atualizar a aplicação sem ter de alterar manualmente o ID do porto:
 
-![](../assets/en/settings/user-settings-config.png)
+![](/assets/en/settings/user-settings-config.png)
 
 ## Ativar as definições do utilizador
 
 Para ativar as definições do usuário, você precisa verificar a opção **Configurações** > **Segurança** > **Ativar Definições do Usuário**:
 
-![](../assets/en/settings/user-settings-enable.png)
+![](/assets/en/settings/user-settings-enable.png)
 
 
 
@@ -36,7 +36,7 @@ Para ativar as definições do usuário, você precisa verificar a opção **Con
 
 Você pode acessar essas caixas de diálogo usando o menu **Design > Configurações...** ou o botão **Configurações** na barra de ferramentas:
 
-![](../assets/en/settings/user-settings-dialog.png)
+![](/assets/en/settings/user-settings-dialog.png)
 
 Você também pode acessar essas caixas de diálogo usando o comando [OPEN SETTINGS WINDOW](https://doc.4d.com/4dv19R/help/command/en/page903.html) com o seletor _settingsType_ apropriado.
 
@@ -46,7 +46,7 @@ A caixa de diálogo Configurações da estrutura é idêntica às Configuraçõe
 
 As caixas de diálogo **Configurações do Usuário** e **Configurações do Usuário para Arquivo de Dados** contêm uma seleção de propriedades relevantes que podem ser definidas para todos os arquivos de dados ou para um único arquivo de dados:
 
-![](../assets/en/settings/user-settings-2.png)
+![](/assets/en/settings/user-settings-2.png)
 
 A tabela seguinte lista as páginas das definições encontradas nas caixas de diálogo User Settings e User Settings for Data File e descreve as suas principais diferenças em relação às definições padrão:
 

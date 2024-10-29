@@ -33,7 +33,7 @@ HTTPエラーステータスコードの完全な詳細については、[HTTP�
 
 WebFolder フォルダーに、以下のようにカスタムページを定義している場合:
 
-![](../assets/en/WebServer/errorPage.png)
+![](/assets/en/WebServer/errorPage.png)
 
 - 403、404 HTTPレスポンスに対しては、"403.html" および "404.html" ページがそれぞれ返されます。
 

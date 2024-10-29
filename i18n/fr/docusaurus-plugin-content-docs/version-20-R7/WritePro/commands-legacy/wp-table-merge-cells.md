@@ -58,7 +58,7 @@ L'exemple suivant consiste à désigner une plage de cellules et à la fusionner
 
 Résultat :
 
-![](../../assets/en/WritePro/commands/pict6398108.en.png)
+![](/assets/en/WritePro/commands/pict6398108.en.png)
 
 Les données existantes des cellules d'origine sont concaténées dans la cellule fusionnée résultante.
 

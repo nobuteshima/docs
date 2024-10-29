@@ -25,7 +25,7 @@ title: VP ADD SELECTION
 
 以下のようにセルが選択されている場合:
 
-![](../../assets/en/ViewPro/cmd_vpAddSelection1.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection1.PNG)
 
 以下のコードを実行すると、指定したセルを選択範囲に追加します:
 
@@ -36,7 +36,7 @@ VP ADD SELECTION($currentSelection)
 
 結果:
 
-![](../../assets/en/ViewPro/cmd_vpAddSelection2.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection2.PNG)
 
 #### 参照
 

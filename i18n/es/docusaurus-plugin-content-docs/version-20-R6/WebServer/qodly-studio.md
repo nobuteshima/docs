@@ -163,7 +163,7 @@ Recomendamos utilizar funciones clase en lugar de métodos proyecto. Sólo las f
 Puede desarrollar con Qodly Studio mientras su ordenador no esté conectado a Internet. En este caso, sin embargo, las siguientes funciones no están disponibles:
 
 - [Templates](https://developer.qodly.com/docs/studio/pageLoaders/templates): the Template library is empty
-- Consejos de interfaz de usuario: no se muestran al hacer clic en los iconos ![alt-text](../assets/en/WebServer/tips.png).
+- Consejos de interfaz de usuario: no se muestran al hacer clic en los iconos ![alt-text](/assets/en/WebServer/tips.png).
 
 ## Despliegue
 
@@ -222,7 +222,7 @@ Con Qodly Studio for 4D, el modo ["forzar login"](../REST/authUsers.md#force-log
 
 Make sure the ["force login" mode](../REST/authUsers.md#force-login-mode) is enabled for your 4D application in the [Roles and Privileges page](https://developer.qodly.com/docs/studio/roles/rolesPrivilegesOverview), using the **Force login** option:
 
-![alt-text](../assets/en/WebServer/forcelogin.png)
+![alt-text](/assets/en/WebServer/forcelogin.png)
 
 También puede definir esta opción directamente en el archivo [**roles.json**](../ORDA/privileges.md#rolesjson-file).
 
@@ -271,7 +271,7 @@ Cuando el modo ["forzar inicio de sesión" está activado](#setting-the-force-lo
 
 Para cerrar la sesión del usuario, solo necesita ejecutar la acción estándar **Logout** desde la página Qodly. En Qodly Studio, puede asociar esta acción estándar a un botón por ejemplo:
 
-![alt-text](../assets/en/WebServer/logout.png)
+![alt-text](/assets/en/WebServer/logout.png)
 
 Al desencadenar la acción de cierre de sesión de una sesión de usuario web, se producen los siguientes efectos:
 
@@ -303,11 +303,11 @@ El uso de diferentes esquemas también puede llevar a problemas de [sesión](ses
 
 2. El servidor web de su base de datos se inicia sólo en un puerto HTTP.
 
-![alt-text](../assets/en/WebServer/schemes.png)
+![alt-text](/assets/en/WebServer/schemes.png)
 
 3. In Qodly Studio, you click on the **Preview** icon. Se le advierte que los dos servidores web se están iniciando en esquemas diferentes, pero a pesar de esto, usted hace clic en el botón **Confirm**.
 
-![alt-text](../assets/en/WebServer/render-button.png)
+![alt-text](/assets/en/WebServer/render-button.png)
 
 Como resultado, se conservan dos licencias.
 

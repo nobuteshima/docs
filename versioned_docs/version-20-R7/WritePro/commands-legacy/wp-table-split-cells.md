@@ -58,7 +58,7 @@ You want to designate a range of cells (that contain some already merged cells) 
 
 Result:
 
-![](../../assets/en/WritePro/commands/pict6398103.en.png)
+![](/assets/en/WritePro/commands/pict6398103.en.png)
 
 Data from the already merged cell is kept all in the first (top left) cell after the split, the other resulting cells from the split remain empty.
 

@@ -9,7 +9,7 @@ El área de búsqueda situada en la barra de herramientas de cada ventana de mé
 
 Los comandos Buscar/Reemplazar para métodos, clases o funciones se encuentran en **Editar** menú de 4D:
 
-![find-replace](../assets/en/code-editor/find-replace-1.png)
+![find-replace](/assets/en/code-editor/find-replace-1.png)
 
 > The find commands located above the **Find** submenu are not specific to the Code Editor but may be used to search for a value among all the methods, classes or functions, using the **Find in design** feature in the toolbar or in the **Edit** menu.
 
@@ -17,7 +17,7 @@ Los comandos Buscar/Reemplazar para métodos, clases o funciones se encuentran e
 
 Al seleccionar el comando **Buscar...** aparece el siguiente diálogo:
 
-![find-dialog](../assets/en/code-editor/find-dialog.png)
+![find-dialog](/assets/en/code-editor/find-dialog.png)
 
 La búsqueda definida en este diálogo se realizará en el método situado en el primer plano.
 
@@ -48,7 +48,7 @@ For more information about bookmarks, refer to [Using bookmarks](./write-class-m
 
 The **Replace** command displays the following dialog box:
 
-![find-dialog](../assets/en/code-editor/replace-dialog.png)
+![find-dialog](/assets/en/code-editor/replace-dialog.png)
 
 - The **Find What:** area is used to define the character string or the expression to be searched for. As in the Find dialog box, this area is a combo-box that stores the last 15 character strings searched for. If you highlight text before choosing the **Replace** command, it will appear in this area.
 - The **Replace with:** area is used to define the character string that will replace the one defined above. Esta área también es un combo-box que almacena las últimas 15 cadenas de caracteres que se han buscado o sustituido.

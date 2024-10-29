@@ -117,7 +117,7 @@ Os dados coletados são escritos em um arquivo de texto (formato JSON) por banco
 
 Uma vez por semana, o ficheiro é automaticamente enviado através da rede para 4D. O arquivo é então apagado da pasta 4D activa.
 
-![](../assets/en/Admin/data-collect.png)
+![](/assets/en/Admin/data-collect.png)
 
 > Se o arquivo não pôde ser enviado por algum motivo, é, no entanto, apagado e não é exibida nenhuma mensagem de erro no lado do Servidor 4D.
 

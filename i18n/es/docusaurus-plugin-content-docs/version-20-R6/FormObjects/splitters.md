@@ -7,7 +7,7 @@ Un separador divide un formulario en dos áreas, permitiendo al usuario ampliar 
 
 Los separadores se utilizan, por ejemplo, en los formularios de salida para poder cambiar el tamaño de las columnas:
 
-![](../assets/en/FormObjects/split1.png)
+![](/assets/en/FormObjects/split1.png)
 
 Algunas de las características generales del separador:
 

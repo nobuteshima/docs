@@ -22,7 +22,7 @@ Le compactage d'un fichier répond à deux types de besoins :
 
 Pour démarrer directement le compactage du fichier de données ou de structure, cliquez sur le bouton correspondant dans la fenêtre du CSM.
 
-![](../assets/en/MSC/MSC_compact.png)
+![](/assets/en/MSC/MSC_compact.png)
 
 > Le compactage entraînant la duplication du fichier d’origine, le bouton est désactivé si la place sur le disque contenant le fichier est insuffisante.
 

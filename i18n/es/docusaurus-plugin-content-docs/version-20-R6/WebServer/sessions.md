@@ -24,7 +24,7 @@ Las sesiones web se utilizan para:
 La funcionalidad de gestión de sesiones puede ser activada y desactivada en su servidor web 4D. Hay diferentes maneras de habilitar la gestión de la sesión:
 
 - Utilizando la opción de **sesiones escalables** en la página "Web/Opciones (I)" de la Configuración (configuración permanente):
-  ![alt-text](../assets/en/WebServer/settingsSession.png)
+  ![alt-text](/assets/en/WebServer/settingsSession.png)
 
 Esta opción está seleccionada por defecto en los nuevos proyectos. Sin embargo, se puede desactivar seleccionando la opción **Sin sesiones**, en cuyo caso las funcionalidades de la sesión web se desactivan (no hay ningún objeto `Session` disponible).
 
@@ -63,7 +63,7 @@ La creación de una sesión web para una petición REST puede requerir que una l
 
 Se puede acceder al objeto `Session` de la sesión actual a través del comando [`Session`](API/SessionClass.md#session) en el código de todo proceso web.
 
-![alt-text](../assets/en/WebServer/schemaSession.png)
+![alt-text](/assets/en/WebServer/schemaSession.png)
 
 :::info
 
@@ -124,7 +124,7 @@ Los privilegios se implementan en el corazón de la arquitectura ORDA para propo
 
 En una aplicación CRM, cada vendedor gestiona su propia cartera de clientes. El almacén de datos contiene al menos dos clases de datos vinculadas: Customers y SalesPersons (un vendedor tiene varios clientes).
 
-![alt-text](../assets/en/WebServer/exampleSession.png)
+![alt-text](/assets/en/WebServer/exampleSession.png)
 
 Queremos que un vendedor se autentique, abra una sesión en el servidor web y que se carguen los 3 primeros clientes en la sesión.
 
@@ -151,7 +151,7 @@ http://localhost:8044/authenticate.shtml
 </html>
 ```
 
-![alt-text](../assets/en/WebServer/authenticate.png)
+![alt-text](/assets/en/WebServer/authenticate.png)
 
 3. El método authenticate project busca la persona *userID* y valida la contraseña contra el valor hash ya almacenado en la tabla *SalesPersons*:
 

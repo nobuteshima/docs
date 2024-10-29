@@ -162,7 +162,7 @@ module.exports = {
       },
       ],
     },
-    //"image": "../assets/en/logohome.png",
+    //"image": "/assets/en/logohome.png",
     footer: {
       style: 'dark',
       links: [

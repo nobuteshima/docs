@@ -17,7 +17,7 @@ Um retângulo estático é um objeto decorativo para os formulários. Os rectân
 
 O desenho dos retângulos é controlado através de muitas propriedades (cor, espessura da linha, padrão, etc.). Especificamente, o [roundness](propriedades_CoordinatesAndSizing.md#corner-radius) dos seus cantos pode ser definido.
 
-![](../assets/en/FormObjects/shapes_rectangle2.png)
+![](/assets/en/FormObjects/shapes_rectangle2.png)
 
 #### JSON Exemplo
 
@@ -63,7 +63,7 @@ La propiedad JSON `startPoint` define a partir de qué coordenada dibujar la lí
 ```
 
 Resultado:
-![](../assets/en/FormObjects/shape_line1.png)
+![](/assets/en/FormObjects/shape_line1.png)
 
 ```
 	"myLine": {
@@ -78,7 +78,7 @@ Resultado:
 ```
 
 Resultado:
-![](../assets/en/FormObjects/shape_line2.png)
+![](/assets/en/FormObjects/shape_line2.png)
 
 #### Propriedades compatíveis
 
@@ -88,7 +88,7 @@ Resultado:
 
 Uma oval estática é um objeto decorativo para formas. Los objetos ovalados pueden utilizarse para dibujar formas circulares (cuando las propiedades [ancho](properties_CoordinatesAndSizing.md#width) y [alto](properties_CoordinatesAndSizing.md#height) son iguales).
 
-![](../assets/en/FormObjects/shape_oval.png)
+![](/assets/en/FormObjects/shape_oval.png)
 
 #### JSON Exemplo
 

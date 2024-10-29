@@ -112,11 +112,11 @@ title: リストボックス
 
 *   列を "スクロールしない" のみに設定した場合、横スクロールしないエリア内に限りドラッグで列を移動することができます。 しかし、そのスクロールしないエリアを越えて移動することはできません。
 
-![](../assets/en/FormObjects/property_lockedStaticColumns1.png)
+![](/assets/en/FormObjects/property_lockedStaticColumns1.png)
 
 *   "スクロールしない" 列と "ドラッグしない" 列を同じ数に設定した場合、スクロールしないエリア内ではドラッグで移動することもできません。
 
-![](../assets/en/FormObjects/property_lockedStaticColumns2.png)
+![](/assets/en/FormObjects/property_lockedStaticColumns2.png)
 
 *   必要に応じてスクロールしない列数とドラッグしない列数をそれぞれ設定できます。 たとえば、スクロールしない列を 3、ドラッグしない列を 1に設定した場合、ユーザーは横スクロールしないエリア内で右側 2つの列を入れ替えることができます。
 
@@ -196,7 +196,7 @@ title: リストボックス
  aLControlArr{10}:=lk row is not selectable
 ```
 
-![](../assets/en/FormObjects/listbox_styles5.png)
+![](/assets/en/FormObjects/listbox_styles5.png)
 
 複数のインターフェースプロパティを同時に定義することもできます:
 
@@ -204,7 +204,7 @@ title: リストボックス
  aLControlArr{8}:=lk row is not selectable + lk row is disabled
 ```
 
-![](../assets/en/FormObjects/listbox_styles6.png)
+![](/assets/en/FormObjects/listbox_styles6.png)
 
 要素に対してプロパティを設定すると、(再設定しない限り) 同要素の他の値を上書きするという点に注意してください。 例:
 

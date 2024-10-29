@@ -37,7 +37,7 @@ Si les paramètres facultatifs *décalHoriz* et *décalVert* sont utilisés, une
 
 Soient les images suivantes : 
 
-![](../assets/en/commands/pict27793.fr.png)
+![](/assets/en/commands/pict27793.fr.png)
 
 ```4d
  COMBINE PICTURES(drapeau;monfond;Superimposition;monrond;50;30)
@@ -45,7 +45,7 @@ Soient les images suivantes :
 
 Résultat :
 
-![](../assets/en/commands/pict27794.fr.png)
+![](/assets/en/commands/pict27794.fr.png)
 
 #### Voir aussi 
 

@@ -28,7 +28,7 @@ Dans *rangeObj*, passez un objet contenant une plage de lignes à supprimer. Si 
 
 Pour supprimer les lignes sélectionnées par l'utilisateur (lignes 1, 2 et 3 de l'image ci-dessous) :
 
-![](../../assets/en/ViewPro/cmd_vpDeleteRows.PNG)
+![](/assets/en/ViewPro/cmd_vpDeleteRows.PNG)
 
 saisissez le code suivant :
 

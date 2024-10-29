@@ -28,7 +28,7 @@ Graças a esta caraterística, toda a lógica comercial da sua aplicação 4D po
 
 - Por predefinição, todas as suas funções de classe do modelo de dados (incluindo [funções de atributo computadas](#computed-attributes-1)) e [atributos de alias](#alias-attributes-1) não são **expostas** a aplicações remotas e não podem ser chamadas a partir de pedidos REST. É necessário declarar explicitamente cada função pública e alias com a palavra-chave [`exposed`](#exposed-vs-non-exposed-functions) .
 
-![](../assets/en/ORDA/api.png)
+![](/assets/en/ORDA/api.png)
 
 
 Além disso, 4D [pré-criou automaticamente](#creating-classes) as classes para cada objeto de modelo de dados disponível.
@@ -38,7 +38,7 @@ Além disso, 4D [pré-criou automaticamente](#creating-classes) as classes para 
 
 A ORDA fornece **classes genéricas** expostas através da loja de classes **`4D`** [](Concepts/classes.md#class-stores), bem como **classes de utilizador** (que estendem as classes genéricas) expostas na loja de classes **`cs`** [](Concepts/classes.md#class-stores):
 
-![](../assets/en/ORDA/ClassDiagramImage.png)
+![](/assets/en/ORDA/ClassDiagramImage.png)
 
 Todas as classes do modelo de dados ORDA são expostas como propriedades do armazenamento de classes **`cs`** . Estão disponíveis as seguintes classes ORDA:
 
@@ -138,7 +138,7 @@ Em seguida, pode obter uma seleção de entidades das "melhores" empresas atrav�
 
 O seguinte catálogo *City* está exposto num datastore remoto (vista parcial):
 
-![](../assets/en/ORDA/Orda_example.png)
+![](/assets/en/ORDA/Orda_example.png)
 
 A classe `City` fornece uma API:
 
@@ -692,7 +692,7 @@ Alias attributes based upon relations have a specific [`path`](../API/DataClassC
 
 Considerando o seguinte modelo:
 
-![](../assets/en/ORDA/alias1.png)
+![](/assets/en/ORDA/alias1.png)
 
 Na classe de dados Teacher, um atributo alias devolve todos os alunos de um professor:
 
@@ -915,14 +915,14 @@ Uma classe de usuário do modelo de dados ORDA é definida adicionando, na [mesm
 
 4D pré-criou automaticamente classes vazias na memória para cada objeto de modelo de dados disponível.
 
-![](../assets/en/ORDA/ORDA_Classes-3.png)
+![](/assets/en/ORDA/ORDA_Classes-3.png)
 
 
-> Por padrão, as classes ORDA vazias não são exibidas no Explorer. Para as mostrar, é necessário selecionar **Mostrar todas as classes de dados** no menu de opções do Explorador: ![](../assets/en/ORDA/showClass.png)
+> Por padrão, as classes ORDA vazias não são exibidas no Explorer. Para as mostrar, é necessário selecionar **Mostrar todas as classes de dados** no menu de opções do Explorador: ![](/assets/en/ORDA/showClass.png)
 
 As classes de utilizadores ORDA têm um ícone diferente das classes normais. As classes vazias são escurecidas:
 
-![](../assets/en/ORDA/classORDA2.png)
+![](/assets/en/ORDA/classORDA2.png)
 
 Para criar um arquivo de classe ORDA, basta fazer duplo clique na classe predefinida correspondente no Explorador. 4D cria o arquivo de classe e adiciona o código `extends` . Por exemplo, para uma classe Entity:
 
@@ -937,16 +937,16 @@ Quando uma classe for definida, o seu nome deixa de estar obscurecido no Explora
 
 To open a defined ORDA class in the 4D method editor, select or double-click on an ORDA class name and use **Edit...** from the contextual menu/options menu of the Explorer window:
 
-![](../assets/en/ORDA/classORDA4.png)
+![](/assets/en/ORDA/classORDA4.png)
 
 Para as classes ORDA baseadas no armazenamento de dados local (`ds`), pode aceder diretamente ao código da classe a partir da janela 4D Structure:
 
-![](../assets/en/ORDA/classORDA5.png)
+![](/assets/en/ORDA/classORDA5.png)
 
 
 ### Editor de método
 
 No Editor de Código 4D, as variáveis digitadas como uma classe ORDA se beneficiam automaticamente das características de autocompletar. Exemplo com uma variável de classe Entity:
 
-![](../assets/en/ORDA/AutoCompletionEntity.png)
+![](/assets/en/ORDA/AutoCompletionEntity.png)
 

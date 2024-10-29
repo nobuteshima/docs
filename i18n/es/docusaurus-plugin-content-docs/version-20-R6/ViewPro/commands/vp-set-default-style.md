@@ -38,7 +38,7 @@ $style.backColor:="#E6E6FA" //coleor mordado claro
 VP SET DEFAULT STYLE("myDoc";$style)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSetDefaultStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpSetDefaultStyle.PNG)
 
 #### Ver también
 

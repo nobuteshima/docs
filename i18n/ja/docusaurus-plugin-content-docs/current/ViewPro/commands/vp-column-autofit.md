@@ -23,7 +23,7 @@ title: VP COLUMN AUTOFIT
 
 以下のカラムはすべて同じサイズで、一部のテキストが表示しきれていません:
 
-![](../../assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
 
 カラムを選択して、以下のコードを実行すると:
 
@@ -33,7 +33,7 @@ title: VP COLUMN AUTOFIT
 
 ... コンテンツに合うようにカラムがリサイズされます:
 
-![](../../assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
 
 #### 参照
 

@@ -63,7 +63,7 @@ Em um documento em branco, se desejar agregar uma nova tabela com 3 colunas e 2 
 
 Resultado:
 
-![](../../assets/en/WritePro/commands/pict3306926.en.png)
+![](/assets/en/WritePro/commands/pict3306926.en.png)
 
 #### Ver também 
 

@@ -148,7 +148,7 @@ VP EXPORT DOCUMENT("VPArea";"report.pdf";$params)
 
 カレントシートを、縦棒 (|) 区切りの `.txt` ファイルに書き出します:
 
-![example-export-csv](../../assets/en/ViewPro/vp-export-document-csv.png)
+![example-export-csv](/assets/en/ViewPro/vp-export-document-csv.png)
 
 ```4d
 var $params : Object
@@ -161,7 +161,7 @@ VP EXPORT DOCUMENT("ViewProArea";"c:\\tmp\\data.txt";New object("format";vk csv 
 
 このようになります:
 
-![example-export-csv](../../assets/en/ViewPro/vp-export-document-csv-result.png)
+![example-export-csv](/assets/en/ViewPro/vp-export-document-csv-result.png)
 
 #### 参照
 

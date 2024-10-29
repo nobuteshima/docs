@@ -35,7 +35,7 @@ displayed_sidebar: docs
  $next_XML_Ref:=DOM Get next sibling XML element($xml_Parent_Ref)
 ```
 
-![](../assets/en/commands/pict40038.ja.png)
+![](/assets/en/commands/pict40038.ja.png)
 
 #### 例題 2 
 
@@ -51,7 +51,7 @@ displayed_sidebar: docs
  End while
 ```
 
-![](../assets/en/commands/pict40039.ja.png)
+![](/assets/en/commands/pict40039.ja.png)
 
 #### システム変数およびセット 
 

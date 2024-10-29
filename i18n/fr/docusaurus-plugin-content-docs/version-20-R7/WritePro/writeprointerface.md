@@ -25,19 +25,19 @@ Pour implémenter l'Assistant de table dans votre application, les développeurs
 
 L'utilisateur ouvre la boîte de dialogue de l'Assistant de table à partir de l'élément de menu "Insérer une table" dans la barre d'outils et la barre latérale de l'interface de 4D Write Pro.
 
-![](../assets/en/WritePro/tablewizard-interface2.png)
+![](/assets/en/WritePro/tablewizard-interface2.png)
 
 À partir de cette interface, l'utilisateur peut sélectionner un modèle ou un tableau dans la première liste déroulante et un thème dans la deuxième.
 
 ##### Dans Colonnes :
 
-![](../assets/en/WritePro/columns2.PNG)
+![](/assets/en/WritePro/columns2.PNG)
 
 Selon la sélection de l'utilisateur d'un modèle ou d'un tableau, l'utilisateur peut voir la liste des champs stockés dans le modèle (Blob et les types d'objets sont automatiquement exclus). Ensuite, ils peuvent sélectionner les colonnes à afficher dans le tableau en cochant la case devant le nom du champ et les ordonner en déplaçant et en faisant glisser la liste des champs.
 
 ##### Dans Lignes :
 
-![](../assets/en/WritePro/rows1.PNG)
+![](/assets/en/WritePro/rows1.PNG)
 
 Dans l'Assistant de table, l'utilisateur peut également définir le nombre de lignes d'en-tête et de lignes supplémentaires (de 0 à 5 chacune), définir les [lignes de rupture](https://doc.4d.com/4Dv20/4D/20/Handling-tables.200-6229469.fr.html#6233076) (lignes de synthèse) au-dessus ou en dessous de la ligne de données, et choisir d'afficher/masquer les [lignes de report](https://doc.4d.com/4Dv20/4D/20/Handling-tables.200-6229469.fr.html#6236686).
 
@@ -45,7 +45,7 @@ In addition, the user has the possibility to choose the table's behavior when it
 
 ##### Dans Affichage :
 
-![](../assets/en/WritePro/display2.PNG)
+![](/assets/en/WritePro/display2.PNG)
 
 L'utilisateur ajuste le niveau de zoom selon ses préférences en sélectionnant l'option souhaitée dans une liste déroulante, utilise des boutons radio pour afficher les formules ou les données pour une présentation claire, et choisit d'afficher une règle horizontale à l'aide d'une case à cocher.
 

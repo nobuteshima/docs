@@ -47,7 +47,7 @@ VP SET FORMULAS(VP Cell("ViewProArea";6;3);$formulas) // Definir las celdas con 
 $0:=$1*3.33
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSetFormulas.PNG)
+![](/assets/en/ViewPro/cmd_vpSetFormulas.PNG)
 
 #### Ejemplo 2
 

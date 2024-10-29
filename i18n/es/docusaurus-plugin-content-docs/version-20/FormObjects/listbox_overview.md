@@ -6,7 +6,7 @@ title: List Box
 
 Los list boxes son objetos activos complejos que permiten mostrar e introducir datos en forma de columnas sincronizadas. Pueden vincularse a contenidos de la base de datos, como selecciones de entidades y secciones de registros, o a cualquier contenido del lenguaje, como colecciones y arrays. Incluyen funciones avanzadas relativas a la entrada de datos, la ordenación de columnas, la gestión de eventos, el aspecto personalizado, el desplazamiento de columnas, etc.
 
-![](../assets/en/FormObjects/listbox.png)
+![](/assets/en/FormObjects/listbox.png)
 
 Un list box contiene una o varias columnas cuyo contenido se sincroniza automáticamente. El número de columnas es, en teoría, ilimitado (depende de los recursos de la máquina).
 
@@ -16,7 +16,7 @@ Un list box contiene una o varias columnas cuyo contenido se sincroniza automát
 
 Durante la ejecución, los list box permiten visualizar e introducir datos en forma de listas. Para hacer que una celda sea editable ([si se permite la entrada para la columna](#managing-entry)), basta con pulsar dos veces sobre el valor que contiene:
 
-![](../assets/en/FormObjects/listbox_edit.png)
+![](/assets/en/FormObjects/listbox_edit.png)
 
 Los usuarios pueden introducir y mostrar el texto en varias líneas dentro de una celda de list box. Para añadir un salto de línea, presione **Ctrl+Retorno de carro** en Windows o **Opción+Retorno de carro** en macOS.
 
@@ -36,7 +36,7 @@ Un list box se compone de cuatro partes distintas:
 *   los encabezados de las columnas, y
 *   los pies de las columnas.
 
-![](../assets/en/FormObjects/listbox_parts.png)
+![](/assets/en/FormObjects/listbox_parts.png)
 
 Cada parte tiene su propio nombre y propiedades específicas. Por ejemplo, el número de columnas o el color alternativo de cada línea se define en las propiedades del objeto list box, el ancho de cada columna se define en las propiedades de las columnas y el tipo de fuente del encabezado se define en las propiedades de los encabezados.
 
@@ -271,7 +271,7 @@ Los eventos formulario de los objetos list box o columnas de list box pueden dev
 
 Un list box está formado por uno o varios objetos columna que tienen propiedades específicas. Puede seleccionar una columna de list box en el editor de formularios haciendo clic en ella cuando el objeto list box está seleccionado:
 
-![](../assets/en/FormObjects/listbox_column.png)
+![](/assets/en/FormObjects/listbox_column.png)
 
 Puede definir para cada columna de list box de las propiedades estándar (texto, color de fondo, etc.); estas propiedades tienen prioridad sobre las del objeto list box.
 > Puede definir el [tipo de expresión](properties_Object.md#expression-type) para las columnas de list box de tipo array (cadena, texto, número, fecha, hora, imagen, booleano u objeto).
@@ -315,14 +315,14 @@ Puede definir para cada columna de list box de las propiedades estándar (texto,
 
 Cuando se muestran los encabezados, puede seleccionar un encabezado en el editor de formularios haciendo clic en él cuando el objeto List box esté seleccionado:
 
-![](../assets/en/FormObjects/listbox_header.png)
+![](/assets/en/FormObjects/listbox_header.png)
 
 Puede definir propiedades de texto estándar para cada encabezado de columna de List box; en este caso, estas propiedades tienen prioridad sobre las de la columna o del propio List box.
 
 
 Además, tiene acceso a las propiedades específicas de los encabezados. En particular, se puede mostrar un icono en el encabezado junto al título de la columna o en su lugar, por ejemplo, cuando se realizan [ordenaciones personalizadas](#managing-sorts).
 
-![](../assets/en/FormObjects/lbHeaderIcon.png)
+![](/assets/en/FormObjects/lbHeaderIcon.png)
 
 Al momento de la ejecución, los eventos que se producen en un encabezado se generan en el [método objeto de la columna de list box](#object-methods).
 
@@ -343,7 +343,7 @@ Los List box pueden contener "pies de página" no editables, que muestren inform
 
 Cuando se muestran los pies, puede hacer clic para seleccionar un pie de list box en el editor de formularios haciendo clic en el objeto:
 
-![](../assets/en/FormObjects/listbox_footers.png)
+![](/assets/en/FormObjects/listbox_footers.png)
 
 Para cada pie de columna de list box, puede definir propiedades de texto estándar: en este caso, estas propiedades tienen prioridad sobre las de la columna o del list box. También puede acceder a propiedades específicas para los pies de página. En particular, puede insertar un [cálculo personalizado o automático](properties_Object.md#variable-calculation).
 
@@ -366,7 +366,7 @@ Para que una celda de list box sea editable, deben cumplirse las dos condiciones
 
 Consideremos el ejemplo de un list box que contiene dos arrays, uno fecha y otro texto. El array de la fecha no se puede introducir, pero el array del texto sí se puede introducir si la fecha no ha pasado.
 
-![](../assets/en/FormObjects/listbox_entry.png)
+![](/assets/en/FormObjects/listbox_entry.png)
 
 Aquí está el método de la columna *arrText*:
 
@@ -476,7 +476,7 @@ Tenga en cuenta que los arrays de list box utilizados para definir la apariencia
 
 Ha elegido ocultar el resaltado sistema y desea mostrar las selecciones en el list box con un color de fondo verde, como se muestra aquí:
 
-![](../assets/en/FormObjects/listbox_styles7.png)
+![](/assets/en/FormObjects/listbox_styles7.png)
 
 Para un list box de tipo array, es necesario actualizar el [Array colores de fondo](properties_BackgroundAndBorder.md#row-background-color-array) por programación. En el formulario JSON, ha definido el Array colores de fondo de línea para el list box:
 
@@ -561,7 +561,7 @@ Los ordenamientos personalizados le permiten:
 
 Desea ordenar un list box utilizando los valores de una propiedad almacenada en un atributo de objeto relacionado. Tiene la siguiente estructura:
 
-![](../assets/en/FormObjects/relationLB.png)
+![](/assets/en/FormObjects/relationLB.png)
 
 Se diseña un list box de tipo entity selection, vinculado a la expresión `Form.child`. En el evento formulario `On Load`, se ejecuta `Form.child:=ds.Child.all()`.
 
@@ -584,11 +584,11 @@ End if
 El valor de la [variable asociada al encabezado de una columna](properties_Object.md#variable-or-expression) permite gestionar una información adicional: la ordenación actual de la columna (lectura) y la visualización de la flecha de ordenación.
 
 - Si la variable se define en 0, la columna no se ordena y la flecha de ordenación no se muestra.  
-  ![](../assets/en/FormObjects/sorticon0.png)
+  ![](/assets/en/FormObjects/sorticon0.png)
 
-- Si la variable está definida como 1, la columna se ordena en orden ascendente y se muestra la flecha de ordenación. ![](../assets/en/FormObjects/sorticon1.png)
+- Si la variable está definida como 1, la columna se ordena en orden ascendente y se muestra la flecha de ordenación. ![](/assets/en/FormObjects/sorticon1.png)
 
-- Si la variable se establece en 2, la columna se clasifica en orden descendente y se muestra la flecha de clasificación. ![](../assets/en/FormObjects/sorticon2.png)
+- Si la variable se establece en 2, la columna se clasifica en orden descendente y se muestra la flecha de clasificación. ![](/assets/en/FormObjects/sorticon2.png)
 
 > Sólo las [variables](Concepts/variables.md) declaradas o dinámicas pueden utilizarse como variables de encabezado de columna. Otros tipos de [expresiones](Concepts/quick-tour.md#expressions) como `Form.sortValue` no son soportadas.
 
@@ -628,7 +628,7 @@ Para cada atributo (estilo, color y color de fondo), se implementa una **herenci
 - para los atributos líneas: valores de atributos de columnas
 - para los atributos de la columna: valores de los atributos del list box
 
-De esta forma, si desea que un objeto herede el valor de atributo de un nivel superior, puede utilizar pasar la constante `lk inherited` (valor por defecto) al comando de definición o directamente en el elemento del array de estilo/color correspondiente. Por ejemplo, dado un list box array que contiene un estilo de letra estándar con colores alternos: ![](../assets/en/FormObjects/listbox_styles3.png)
+De esta forma, si desea que un objeto herede el valor de atributo de un nivel superior, puede utilizar pasar la constante `lk inherited` (valor por defecto) al comando de definición o directamente en el elemento del array de estilo/color correspondiente. Por ejemplo, dado un list box array que contiene un estilo de letra estándar con colores alternos: ![](/assets/en/FormObjects/listbox_styles3.png)
 
 Realiza las siguientes modificaciones:
 
@@ -637,7 +637,7 @@ Realiza las siguientes modificaciones:
 - dos elementos de la columna 5 se cambian a negrita utilizando la propiedad [Row Style Array](properties_Text.md#row-style-array) del objeto columna 5,
 - los 2 elementos de la columna 1 y 2 se cambian a azul oscuro utilizando la propiedad [Row Background Color Array](properties_BackgroundAndBorder.md#row-background-color-array) para los objetos de la columna 1 y 2:
 
-![](../assets/en/FormObjects/listbox_styles3.png)
+![](/assets/en/FormObjects/listbox_styles3.png)
 
 Para restaurar la apariencia original de la caja del list box, puede:
 
@@ -711,7 +711,7 @@ La primera variable corresponde siempre al nombre de la variable de la primera c
 
 La última variable nunca es jerárquica aunque existan varios valores idénticos en este nivel. Por ejemplo, refiriéndonos a la configuración ilustrada anteriormente, imagine que arr1 contiene los valores A A B B B, arr2 tiene los valores 1 1 1 2 2 2 y arr3 los valores X X Y Y Z. En este caso, A, B, 1 y 2 podrían aparecer de forma contraída, pero no X e Y:
 
-![](../assets/en/FormObjects/property_hierarchicalListBox.png)
+![](/assets/en/FormObjects/property_hierarchicalListBox.png)
 
 Este principio no se aplica cuando sólo se especifica una variable en la jerarquía: en este caso, pueden agruparse valores idénticos.
 > Si especifica una jerarquía basada en las primeras columnas de un list box existente, deberá eliminar u ocultar estas columnas (excepto la primera), ya que de lo contrario aparecerán duplicadas en el list box. Si especifica la jerarquía mediante el menú emergente del editor (ver abajo), las columnas innecesarias se eliminan automáticamente del list box.
@@ -721,7 +721,7 @@ Este principio no se aplica cuando sólo se especifica una variable en la jerarq
 
 Cuando selecciona al menos una columna además de la primera en un objeto list box (de tipo array) en el editor de formularios, el comando **Crear jerarquía** está disponible en el menú contextual:
 
-![](../assets/en/FormObjects/listbox_hierarchy1.png)
+![](/assets/en/FormObjects/listbox_hierarchy1.png)
 
 Este comando es un acceso directo para definir una jerarquía. Cuando se selecciona, se llevan a cabo las siguientes acciones:
 
@@ -731,7 +731,7 @@ Este comando es un acceso directo para definir una jerarquía. Cuando se selecci
 
 Ejemplo: dado un list box cuyas primeras columnas contienen País, Región, Ciudad y Población. Cuando se seleccionan País, Región y Ciudad, si se elige **Crear jerarquía** en el menú contextual, se crea una jerarquía de tres niveles en la primera columna, se eliminan las columnas 2 y 3 y la columna Población pasa a ser la segunda:
 
-![](../assets/en/FormObjects/listbox_hierarchy2.png)
+![](/assets/en/FormObjects/listbox_hierarchy2.png)
 
 ##### Cancelar jerarquía
 Cuando la primera columna está seleccionada y ya se ha definido como jerárquica, puede utilizar el comando **Cancelar jerarquía**. Cuando elige este comando, se llevan a cabo las siguientes acciones:
@@ -746,11 +746,11 @@ Cuando se abre por primera vez un formulario que contiene un list box jerárquic
 
 Cuando los valores se repiten en los arrays, se añade automáticamente una línea de ruptura y un "nodo" jerárquico en el list box. Por ejemplo, imagine un list box que contenga cuatro arrays que indiquen las ciudades, cada una de ellas caracterizada por su país, su región, su nombre y su número de habitantes:
 
-![](../assets/en/FormObjects/hierarch1.png)
+![](/assets/en/FormObjects/hierarch1.png)
 
 Si este list box se muestra en forma jerárquica (los tres primeros arrays están incluidos en la jerarquía), se obtiene:
 
-![](../assets/en/FormObjects/hierarch2.png)
+![](/assets/en/FormObjects/hierarch2.png)
 
 Los arrays no se ordenan antes de construir la jerarquía. Si, por ejemplo, un array contiene los datos AAABBAACC, la jerarquía obtenida será:
 
@@ -771,11 +771,11 @@ Cuando se incluyen valores del tipo fecha u hora en un list box jerárquico, se 
 
 Cuando se incluyen valores del tipo fecha u hora en un list box jerárquico, se muestran en el formato del sistema corto.
 
-![](../assets/en/FormObjects/hierarch3.png)
+![](/assets/en/FormObjects/hierarch3.png)
 
 Si hace clic en el encabezado "Population" para ordenar las poblaciones por orden ascendente (o alternativamente descendente), los datos aparecen de la siguiente manera:
 
-![](../assets/en/FormObjects/hierarch4.png)
+![](/assets/en/FormObjects/hierarch4.png)
 
 Como para todos los list box, puede [desactivar el mecanismo de ordenación estándar](properties_Action.md#sortable) y gestionar las ordenaciones por programación.
 
@@ -786,11 +786,11 @@ Un list box jerárquico muestra un número variable de líneas en la pantalla se
 
 Veamos, por ejemplo, los siguientes arrays:
 
-![](../assets/en/FormObjects/hierarch5.png)
+![](/assets/en/FormObjects/hierarch5.png)
 
 Si estos arrays se representan jerárquicamente, la línea "Quimper" no se mostrará en la segunda línea, sino en la cuarta, debido a las dos líneas de ruptura que se añaden:
 
-![](../assets/en/FormObjects/hierarch6.png)
+![](/assets/en/FormObjects/hierarch6.png)
 
 Independientemente de cómo se muestren los datos en el list box (de forma jerárquica o no), si quiere cambiar la línea que contiene "Quimper" a negrita, debe utilizar la instrucción Style{2} = bold. Sólo se tiene en cuenta la posición de la línea en los arrays.
 
@@ -810,15 +810,15 @@ Este principio se aplica a los arrays internos que se pueden utilizar para gesti
  ->MyListbox{3}:=True
 ```
 
-Non-hierarchical representation: ![](../assets/en/FormObjects/hierarch7.png) Hierarchical representation: ![](../assets/en/FormObjects/hierarch8.png)
+Non-hierarchical representation: ![](/assets/en/FormObjects/hierarch7.png) Hierarchical representation: ![](/assets/en/FormObjects/hierarch8.png)
 
 > Si una o más líneas están ocultas porque sus padres están contraídos, ya no se seleccionan. Sólo se pueden seleccionar las líneas visibles (directamente o por desplazamiento). En otras palabras, las líneas no pueden estar ocultas y seleccionadas a la vez.
 
 Al igual que con las selecciones, el comando `LISTBOX GET CELL POSITION` devolverá los mismos valores para un list box jerárquico y un list box no jerárquico. Esto significa que en los dos ejemplos siguientes, `LISTBOX GET CELL POSITION` devolverá la misma posición: (3;2).
 
-*Representación jerárquica:* ![](../assets/en/FormObjects/hierarch9.png)
+*Representación jerárquica:* ![](/assets/en/FormObjects/hierarch9.png)
 
-*Representación no jerárquica:* ![](../assets/en/FormObjects/hierarch10.png)
+*Representación no jerárquica:* ![](/assets/en/FormObjects/hierarch10.png)
 
 Cuando se ocultan todas las líneas de una subjerarquía, la línea de ruptura se oculta automáticamente. En el ejemplo anterior, si las líneas 1 a 3 están ocultas, la línea de ruptura "Bretaña" no aparecerá.
 
@@ -826,7 +826,7 @@ Cuando se ocultan todas las líneas de una subjerarquía, la línea de ruptura s
 
 Si el usuario selecciona una línea de ruptura, `LISTBOX GET CELL POSITION` devuelve la primera ocurrencia de la línea en el array correspondiente. En el caso siguiente:
 
-![](../assets/en/FormObjects/hierarch11.png)
+![](/assets/en/FormObjects/hierarch11.png)
 
 
 ... `LISTBOX GET CELL POSITION` devuelve (2;4). Para seleccionar una línea de ruptura por programación, deberá utilizar el comando `LISTBOX SELECT BREAK`.
@@ -835,9 +835,9 @@ Las líneas de rotura no se tienen en cuenta en los arrays internos utilizados p
 
 El siguiente list box fue diseñado utilizando un array de objetos:
 
-*Representación jerárquica:* ![](../assets/en/FormObjects/hierarch12.png)
+*Representación jerárquica:* ![](/assets/en/FormObjects/hierarch12.png)
 
-*Representación no jerárquica:* ![](../assets/en/FormObjects/hierarch13.png)
+*Representación no jerárquica:* ![](/assets/en/FormObjects/hierarch13.png)
 
 En modo jerárquico, los niveles de ruptura no son tenidos en cuenta por los arrays de modificación de estilo denominados `tStyle` y `tColors`. Para modificar el color o el estilo de los niveles de ruptura, debe ejecutar las siguientes instrucciones:
 
@@ -849,7 +849,7 @@ En modo jerárquico, los niveles de ruptura no son tenidos en cuenta por los arr
 
 Resultado:
 
-![](../assets/en/FormObjects/hierarch14.png)
+![](/assets/en/FormObjects/hierarch14.png)
 
 
 #### Gestión optimizada de desplegar/contraer
@@ -862,9 +862,9 @@ Un list box jerárquico se construye a partir del contenido de sus arrays, por l
 El uso de los eventos de formulario `On Expand` y `On Collapse` puede superar estas limitaciones: por ejemplo, puede mostrar sólo una parte de la jerarquía y cargar/descargar los arrays sobre la marcha, basándose en las acciones del usuario. En el contexto de estos eventos, el comando `LISTBOX GET CELL POSITION` devuelve la celda en la que el usuario hizo clic para desplegar o contraer una línea.
 
 En este caso, debe llenar y vaciar los arrays por código. Los principios que deben aplicarse son:
-- Cuando se muestra el list box, sólo se debe llenar el primer array. Sin embargo, debe crear un segundo array con valores vacíos para que el list box muestre los botones desplegar/contraer: ![](../assets/en/FormObjects/hierarch15.png)
+- Cuando se muestra el list box, sólo se debe llenar el primer array. Sin embargo, debe crear un segundo array con valores vacíos para que el list box muestre los botones desplegar/contraer: ![](/assets/en/FormObjects/hierarch15.png)
 
-- Cuando un usuario hace clic en un botón de expandir, puede procesar el evento `On Expand`. El comando `LISTBOX GET CELL POSITION` devuelve la celda en cuestión y permite construir la jerarquía adecuada: se llena el primer array con los valores repetidos y el segundo con los valores enviados desde el comando `SELECTION TO ARRAY` y se insertan tantas líneas como sean necesarias en el list box utilizando el comando `LISTBOX INSERT ROWS`. ![](../assets/en/FormObjects/hierarch16.png)
+- Cuando un usuario hace clic en un botón de expandir, puede procesar el evento `On Expand`. El comando `LISTBOX GET CELL POSITION` devuelve la celda en cuestión y permite construir la jerarquía adecuada: se llena el primer array con los valores repetidos y el segundo con los valores enviados desde el comando `SELECTION TO ARRAY` y se insertan tantas líneas como sean necesarias en el list box utilizando el comando `LISTBOX INSERT ROWS`. ![](/assets/en/FormObjects/hierarch16.png)
 
 - Cuando un usuario hace clic en un botón de contracción, puede procesar el evento `On Collapse`. El comando `LISTBOX GET CELL POSITION` devuelve la celda en cuestión: con el comando `LISTBOX DELETE ROWS` se eliminan tantas líneas como sean necesarias del list box.
 
@@ -876,14 +876,14 @@ Las columnas de list box pueden manejar arrays de objetos. Como los arrays de ob
 
 El siguiente list box fue diseñado utilizando un array de objetos:
 
-![](../assets/en/FormObjects/listbox_column_objectArray.png)
+![](/assets/en/FormObjects/listbox_column_objectArray.png)
 
 
 ### Configurar una columna array de objetos
 
 Para asignar un array de objetos a una columna de list box, basta con definir el nombre del array de objetos en la lista de propiedades (campo "Nombre de variable"), o utilizando el comando [LISTBOX INSERT COLUMN](https://doc.4d.com/4Dv17R6/4D/17-R6/LISTBOX-INSERT-COLUMN.301-4311153.en.html), como para toda columna basada en arrays. En la lista de propiedades, ahora puede seleccionar Objeto como "Tipo de expresión" para la columna:
 
-![](../assets/en/FormObjects/listbox_column_objectArray_config.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_config.png)
 
 Las propiedades estándar relacionadas con las coordenadas, el tamaño y el estilo están disponibles para las columnas de tipo objeto. Puede definirlos utilizando la lista de Propiedades, o programando el estilo, el color de fuente, el color de fondo y la visibilidad para cada línea de una columna objeto del list box. Estos tipos de columnas también se pueden ocultar.
 
@@ -900,7 +900,7 @@ ARRAY OBJECT(obColumn;0) //column array
  APPEND TO ARRAY(obColumn;$ob)  
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld.png)
 > El formato de visualización y los filtros de entrada no pueden definirse para una columna de objetos. Dependen automáticamente del tipo de valor.
 
 #### valueType y visualización de datos
@@ -1012,7 +1012,7 @@ Los valores de las celdas se almacenan en el atributo "value". Este atributo se 
  APPEND TO ARRAY(obColumn;$ob3)
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_value.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_value.png)
 > Los valores null se soportan y dan como resultado una celda vacía.
 
 #### min y max
@@ -1030,7 +1030,7 @@ Estos atributos pueden utilizarse para controlar el rango de valores de entrada.
  OB SET($ob3;"max";3000)
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_minMax.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_minMax.png)
 
 #### behavior
 
@@ -1051,7 +1051,7 @@ El atributo behavior ofrece variaciones a la representación estándar de los va
  OB SET($ob4;"behavior";"threeStates")
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_behavior.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_behavior.png)
 
 #### requiredList y choiceList
 
@@ -1076,7 +1076,7 @@ Ejemplos:
     OB SET($ob;"value";"Closed")
     OB SET ARRAY($ob;"requiredList";$RequiredList)
 ```
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_openClosed.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_openClosed.png)
 
 *   Quiere aceptar todo valor entero, pero mostrar un combo box para sugerir los valores más comunes:
 
@@ -1092,7 +1092,7 @@ Ejemplos:
     OB SET($ob;"value";10) //10 como valor por defecto
     OB SET ARRAY($ob;"choiceList";$ChoiceList)
 ```
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_commonValues.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_commonValues.png)
 
 #### requiredListName y requiredListReference
 
@@ -1106,7 +1106,7 @@ Ejemplos:
 
 *   Desea mostrar una lista desplegable basada en una lista de "colores" definida en la caja de herramientas (que contiene los valores "azul", "amarillo" y "verde"), guardarla como valor y mostrar "azul" por defecto:
 
-![](../assets/en/FormObjects/listbox_column_objectArray_colors.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_colors.png)
 
 
 ```4d
@@ -1116,7 +1116,7 @@ Ejemplos:
     OB SET($ob;"value";"blue")
     OB SET($ob;"requiredListName";"colors")
 ```
-![](../assets/en/FormObjects/listbox_column_objectArray_colorsResult.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_colorsResult.png)
 
 *   Quiere mostrar una lista desplegable basada en una lista definida por programación y guardarla como referencia:
 
@@ -1134,7 +1134,7 @@ Ejemplos:
 ```
 
 
-    ![](../assets/en/FormObjects/listbox_column_objectArray_cities.png)
+    ![](/assets/en/FormObjects/listbox_column_objectArray_cities.png)
 
 #### choiceListName y choiceListReference
 
@@ -1148,7 +1148,7 @@ Ejemplo:
 
 Ejemplo:
 
-![](../assets/en/FormObjects/listbox_column_objectArray_colors.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_colors.png)
 
 ````4d
  C_OBJECT($ob)
@@ -1158,7 +1158,7 @@ Ejemplo:
  OB SET($ob;"choiceListName";"colors")
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_colorsResult.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_colorsResult.png)
 
 
 #### unitsList, unitsListName, unitsListReference y unitReference
@@ -1190,7 +1190,7 @@ OB SET($ob;"unitReference";1) //"lines"
 OB SET ARRAY($ob;"unitsList";$_units)
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_unitList.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_unitList.png)
 
 #### alternateButton
 
@@ -1225,7 +1225,7 @@ OB SET($ob;"alternateButton";True)
 OB SET($ob;"value";$entry)
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
 
 
 #### valueType color
@@ -1239,7 +1239,7 @@ El atributo valueType de valor "color" permite mostrar un color o un texto.
     OB SET($ob4;"valueType";"color")
     OB SET($ob4;"value";0x00FF0000)
     ````
-![](../assets/en/FormObjects/listbox_column_objectArray_colorValue.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_colorValue.png)
 
 
 *   Si el valor es un texto, entonces se muestra el texto (*por ejemplo*: "valor"; "Automatic").
@@ -1259,7 +1259,7 @@ OB SET($ob;"valueType";"event")
 OB SET($ob;"label";"Edit...")
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_eventValueType.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_eventValueType.png)
 
 
 ### Gestión de eventos

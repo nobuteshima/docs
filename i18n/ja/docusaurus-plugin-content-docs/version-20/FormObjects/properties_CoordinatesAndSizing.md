@@ -125,7 +125,7 @@ title: 座標とサイズ
 
 フォームオブジェクトの角の丸みをピクセル単位で指定します。 デフォルトでは、角の半径は 0ピクセルとなっています。 このプロパティを変更することによって独自の形の角の丸いフォームオブジェクトを描画することができます:
 
-![](../assets/en/FormObjects/shape_rectangle.png)
+![](/assets/en/FormObjects/shape_rectangle.png)
 
 最小値は 0 で、この場合には標準の (角の丸くない) フォームオブジェクトが描画されます。 最大値は四角のサイズに応じて変化し、動的に計算されます (ただし四角の短辺の半分を超えることはできません)。
 
@@ -136,7 +136,7 @@ title: 座標とサイズ
 - 角の半径プロパティは、[境界線スタイル](properties_BackgroundAndBorder.md#境界線スタイル) "なし"、"標準"、"ドット" の場合にのみ利用可能です。
 - 角の丸みはフォームオブジェクトの外側に絵描画されます (つまり、オブジェクトはより大きく表示されますが、[幅](properties_CoordinatesAndSizing.md#幅) と [高さ](properties_CoordinatesAndSizing.md#高さ) プロパティは変更されません)。
 
-![](../assets/en/FormObjects/radius-text.png)
+![](/assets/en/FormObjects/radius-text.png)
 
 :::
 
@@ -281,7 +281,7 @@ RowHeights{5}:=3
 
 セルの水平方向のパディングを設定します。 値はピクセル単位です (デフォルトは 0)。
 
-![](../assets/en/FormObjects/padding.png)
+![](/assets/en/FormObjects/padding.png)
 
 #### JSON 文法
 

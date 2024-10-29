@@ -25,7 +25,7 @@ No parâmetro opcional *sheet*, pode designar uma folha específica onde o inter
 
 #### Exemplo
 
-![](../../assets/en/ViewPro/cmd_vpGetSelection.PNG)
+![](/assets/en/ViewPro/cmd_vpGetSelection.PNG)
 
 O código seguinte recuperará as coordenadas de todas as células na seleção atual:
 

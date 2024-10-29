@@ -48,7 +48,7 @@ You want to delete one column from the *Invoice* table. This code:
 
 Will remove the column from the correct location:
 
-![](../../assets/en/WritePro/commands/pict4680318.en.png)
+![](/assets/en/WritePro/commands/pict4680318.en.png)
 
 #### See also 
 

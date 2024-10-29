@@ -12,13 +12,13 @@ Só pode haver um botão predefinido por página de formulário.
 
 In addition, on macOS, the default button property modifies the button's appearance in order to indicate a "recommended choice" to the user. O botão padrão pode diferir do botão selecionado. Os botões predefinidos têm um aspeto azul específico no macOS:
 
-![](../assets/en/FormObjects/property_defaultButtonmacOS.en.png)
+![](/assets/en/FormObjects/property_defaultButtonmacOS.en.png)
 
 > O botão tem de ter uma altura padrão para obter o aspeto de botão predefinido.
 
 On Windows, the concept of "recommended choice" is not supported: only the focused button has a different appearance at runtime. No entanto, no editor de formulários 4D, o botão padrão é representado por um contorno azul:
 
-![](../assets/en/FormObjects/property_defaultButtonWindows.en.png)
+![](/assets/en/FormObjects/property_defaultButtonWindows.en.png)
 
 #### Gramática JSON
 
@@ -262,11 +262,11 @@ Apresenta todas as expressões 4D inseridas no documento 4D Write Pro como *refe
 
 Por exemplo, se você tiver inserido a data atual junto com um formato, a data será exibida:
 
-![](../assets/en/FormObjects/writePro1.png)
+![](/assets/en/FormObjects/writePro1.png)
 
 Com a propriedade Mostrar as referências ativada, a referência é apresentada:
 
-![](../assets/en/FormObjects/writeProExpr.png)
+![](/assets/en/FormObjects/writeProExpr.png)
 
 > As expressões 4D podem ser inseridas usando o comando `ST INSERT EXPRESSION` .
 

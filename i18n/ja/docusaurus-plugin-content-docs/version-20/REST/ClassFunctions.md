@@ -116,7 +116,7 @@ ORDAユーザークラスに定義された関数には、引数を渡すこと�
 
 このデータベースは、localhost (ポート8111) 上でリモートデータストアーとして公開されています。
 
-![alt-text](../assets/en/REST/ordastructure.png)
+![alt-text](/assets/en/REST/ordastructure.png)
 
 ### データストアークラス関数を使用する
 

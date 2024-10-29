@@ -43,7 +43,7 @@ $properties:=New object("height";75;"header";"June")
 VP SET ROW ATTRIBUTES($row;$properties)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSetRowAttributes.PNG)
+![](/assets/en/ViewPro/cmd_vpSetRowAttributes.PNG)
 
 #### 参照
 

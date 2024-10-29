@@ -13,7 +13,7 @@ L'environnement de développement 4D fournit plusieurs outils de débogage pour 
 
 Les fautes de frappe sont détectées par l'éditeur de méthode. Elles sont affichées en rouge et des informations complémentaires sont fournies en bas de la fenêtre. Voici une erreur de frappe :
 
-![break-point](../assets/en/Debugging/typing-error.png)
+![break-point](/assets/en/Debugging/typing-error.png)
 
 
 Ces erreurs de frappe provoquent généralement des erreurs de syntaxe (dans l'image ci-dessus, le nom de la table est inconnu). Vous obtenez la description de l'erreur lorsque vous validez la ligne de code. Lorsque cela se produit, corrigez l'erreur de frappe et tapez Entrée pour valider la correction.
@@ -22,7 +22,7 @@ Ces erreurs de frappe provoquent généralement des erreurs de syntaxe (dans l'i
 
 Certaines erreurs ne peuvent être détectées que lorsque vous exécutez la méthode. La [fenêtre d'erreur de syntaxe](#syntax-error-window) apparaît lorsqu'une erreur se produit pendant l'exécution du code. Par exemple :
 
-![syntax-error](../assets/en/Debugging/syntax-error.png)
+![syntax-error](/assets/en/Debugging/syntax-error.png)
 
 Agrandissez la zone **Détails** pour afficher la dernière erreur et son numéro.
 
@@ -48,7 +48,7 @@ Parfois, le morceau de code qui affiche l'erreur peut être différent du code q
 
 En mode Application, vous pouvez obtenir des erreurs que vous ne voyez pas en mode interprété. Voici un exemple :
 
-![runtime-error](../assets/en/Debugging/runtimeError.png)
+![runtime-error](/assets/en/Debugging/runtimeError.png)
 
 Pour trouver rapidement l'origine du problème, rouvrez la version interprétée du fichier de structure, ouvrez la méthode et allez à la ligne correspondante.
 
@@ -59,7 +59,7 @@ La fenêtre d'erreur de syntaxe apparaît automatiquement lorsque l'exécution d
 - une erreur empêche la poursuite de l'exécution du code
 - la méthode produit une fausse assertion (voir la commande `ASSERT`)
 
-![syntax-error](../assets/en/Debugging/syntax-error.png)
+![syntax-error](/assets/en/Debugging/syntax-error.png)
 
 La zone de texte supérieure affiche un message décrivant l'erreur. La zone de texte inférieure montre la ligne qui était en cours d'exécution lorsque l'erreur s'est produite ; la zone où l'erreur s'est produite est mise en évidence. La section Détails développée contient la "pile" des erreurs liées au processus.
 

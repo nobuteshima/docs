@@ -65,7 +65,7 @@ Se quiser abrir um menu pop-up no canto esquerdo inferior do objeto "MyObject".
  RELEASE MENU($menu)
 ```
 
-![](../assets/en/commands/pict2678144.en.png)
+![](/assets/en/commands/pict2678144.en.png)
 
 #### Exemplo 2 
 

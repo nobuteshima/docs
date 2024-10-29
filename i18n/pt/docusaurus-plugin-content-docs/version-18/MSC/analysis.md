@@ -7,7 +7,7 @@ sidebar_label: Página análise de atividades
 A página Análise da atividade permite visualizar o conteúdo do ficheiro de registo atual. This function is useful for parsing the use of a database or detecting the operation(s) that caused errors or malfunctions. In the case of a database in client-server mode, it allows verifying operations performed by each client machine.
 > It is also possible to rollback the operations carried out on the data of the database. Para mais informações, consulte [página Retornar](rollback.md).
 
-![](../assets/en/MSC/MSC_analysis.png)
+![](/assets/en/MSC/MSC_analysis.png)
 
 Cada operação registada no ficheiro de registo aparece como uma linha. As colunas fornecem várias informações sobre a operação. Pode reorganizar as colunas conforme pretendido, clicando nos respectivos cabeçalhos.
 

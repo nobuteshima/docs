@@ -74,7 +74,7 @@ Pode definir um único método de captura de erros para toda a aplicação ou di
 
 Quando ocorre um erro, apenas um método é chamado, como descrito no diagrama seguinte:
 
-![o comando <code>GET LAST ERROR STACK</code> que devolve informação sobre a pilha de erros atual da aplicação 4D.](../assets/en/Concepts/error-schema.png)
+![o comando <code>GET LAST ERROR STACK</code> que devolve informação sobre a pilha de erros atual da aplicação 4D.](/assets/en/Concepts/error-schema.png)
 
 
 ### Manejo de erros dentro do método

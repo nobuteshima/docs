@@ -80,7 +80,7 @@ Since components can be installed in different ways, a priority order is applied
 
 **Prioridade mais baixa**
 
-![priority](../assets/en/Project/load-sequence.png)
+![priority](/assets/en/Project/load-sequence.png)
 
 When a component cannot be loaded because of another instance of the same component located at a higher priority level, it is given the *Overloaded* [status](#dependency-status). The loaded component has the *Overloading* [status](#dependency-status).
 
@@ -285,20 +285,20 @@ Em um projeto aberto, você pode obter informações sobre dependências e seu e
 Para exibir o painel Dependências:
 
 - with 4D, select the **Design/Project Dependencies** menu item (Development environment),<br/>
-  ![dependency-menu](../assets/en/Project/dependency-menu.png)
+  ![dependency-menu](/assets/en/Project/dependency-menu.png)
 
 - with 4D Server, select the **Window/Project Dependencies** menu item.<br/>
-  ![dependency-menu-server](../assets/en/Project/dependency-menu-server.png)
+  ![dependency-menu-server](/assets/en/Project/dependency-menu-server.png)
 
 O painel Dependência é então exibido. Dependencies are sorted by name in alphabetical order:
 
-![dependency](../assets/en/Project/dependency.png)
+![dependency](/assets/en/Project/dependency.png)
 
 ### Origem da dependência
 
 The Dependencies panel lists all project dependencies, whatever their origin, i.e. wherever they come from. The dependency origin is provided by the tag under its name:
 
-![dependency-origin](../assets/en/Project/dependency-origin.png)
+![dependency-origin](/assets/en/Project/dependency-origin.png)
 
 As seguintes origens são possíveis:
 
@@ -311,7 +311,7 @@ As seguintes origens são possíveis:
 
 **Clique com o botão direito do mouse** em uma linha de dependência e selecione **Mostrar no disco** para revelar o local de uma dependência:
 
-![dependency-show](../assets/en/Project/dependency-show.png)
+![dependency-show](/assets/en/Project/dependency-show.png)
 
 :::note
 
@@ -324,13 +324,13 @@ Component icon and location logo provide additional information:
 - The component logo indicates if it is provided by 4D or a third-party developer.
 - Local components can be differentiated from GitHub components by a small icon.
 
-![dependency-origin](../assets/en/Project/dependency-github.png)
+![dependency-origin](/assets/en/Project/dependency-github.png)
 
 ### Filtragem de dependências
 
 By default, all dependencies identified by the Dependency manager are listed, whatever their [status](#dependency-status). You can filter the displayed dependencies according to their status by selecting the appropriate tab at the top of the Dependencies panel:
 
-![dependency-tabs](../assets/en/Project/dependency-tabs.png)
+![dependency-tabs](/assets/en/Project/dependency-tabs.png)
 
 - **Ativo**: dependências carregadas e podem ser usadas no projeto. Isso inclui dependências *overloading*, que são de fato carregadas. *Overloaded* dependencies are listed in the **Conflicts** panel, along with all conflicting dependencies.
 - **Inativo**: dependências que não estão carregadas no projeto e não estão disponíveis. There are many possible reasons for this status: missing files, version incompatibility...
@@ -340,7 +340,7 @@ By default, all dependencies identified by the Dependency manager are listed, wh
 
 Dependencies requiring the developer's attention are indicated by a **status label** at the right side of the line and a specific background color:
 
-![dependency-status](../assets/en/Project/dependency-conflict2.png)
+![dependency-status](/assets/en/Project/dependency-conflict2.png)
 
 Estão disponíveis as seguintes etiquetas de status:
 
@@ -352,4 +352,4 @@ Estão disponíveis as seguintes etiquetas de status:
 
 A tooltip is displayed when you hover over the dependency line, provding additional information about the status:
 
-![dependency-tips](../assets/en/Project/dependency-tip1.png)
+![dependency-tips](/assets/en/Project/dependency-tip1.png)

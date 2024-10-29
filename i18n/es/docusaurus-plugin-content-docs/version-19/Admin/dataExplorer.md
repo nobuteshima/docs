@@ -7,7 +7,7 @@ title: Explorador de datos Web
 
 El Explorador de datos ofrece una interfaz web para ver y consultar los datos del almacén de datos de su proyecto. Utilizando esta herramienta, puede navegar fácilmente entre todas sus entidades y buscar, ordenar o filtrar los valores de los atributos. Le ayuda a controlar los datos y a identificar rápidamente los problemas en toda etapa del proceso de desarrollo.
 
-![alt-text](../assets/en/Admin/dataExplorer1.png)
+![alt-text](/assets/en/Admin/dataExplorer1.png)
 
 ## Configuración
 
@@ -34,7 +34,7 @@ Para conectarse a la página web del Explorador de datos:
 
  En este contexto, se le pedirá que introduzca la [clave de acceso](webAdmin.md#access-key) para abrir una sesión de `WebAdmin` en el servidor:
 
-![alt-text](../assets/en/Admin/accessKeyEnter.png)
+![alt-text](/assets/en/Admin/accessKeyEnter.png)
 
 > Los valores [HTTPPort](webAdmin.md#http-port) y [HTTPSPort](webAdmin.md#https-port) se configuran en los parámetros de `WebAdmin`.
 
@@ -59,22 +59,22 @@ El Explorador de Datos ofrece un acceso global al modelo de datos ORDA con respe
 
 Puede pasar al tema de visualización **modo oscuro** utilizando el selector en la parte inferior de la página:
 
-![alt-text](../assets/en/Admin/dark.png)
+![alt-text](/assets/en/Admin/dark.png)
 
-![alt-text](../assets/en/Admin/dataExplorer2.png)
+![alt-text](/assets/en/Admin/dataExplorer2.png)
 
 La página contiene varias áreas:
 
-- En el lado izquierdo se encuentran el **área de las Clases de datos** y el **área de los atributos**, lo que permite seleccionar las clases de datos y los atributos a mostrar. Los atributos se ordenan según el orden de creación de la estructura subyacente. Las llaves primarias y los atributos indexados tienen un icono específico. Puede filtrar la lista de nombres de clases de datos y de atributos propuestos utilizando las áreas de búsqueda respectivas. ![alt-text](../assets/en/Admin/dataExplorer3.png)
+- En el lado izquierdo se encuentran el **área de las Clases de datos** y el **área de los atributos**, lo que permite seleccionar las clases de datos y los atributos a mostrar. Los atributos se ordenan según el orden de creación de la estructura subyacente. Las llaves primarias y los atributos indexados tienen un icono específico. Puede filtrar la lista de nombres de clases de datos y de atributos propuestos utilizando las áreas de búsqueda respectivas. ![alt-text](/assets/en/Admin/dataExplorer3.png)
 
 - La parte central contiene el **Área de búsqueda** y la **Rejilla de datos** (lista de entidades de la clase de datos seleccionada). Cada columna de la cuadrícula representa un atributo del almacén de datos.
-  - Por defecto, se muestran todas las entidades. Puede filtrar las entidades mostradas utilizando el área de búsqueda. Hay dos modos de consulta disponibles: [Consulta sobre atributos](#query-on-attributes) (seleccionada por defecto), y la [Consulta avanzada con expresión](#advanced-query-with-expression). El modo de consulta se selecciona haciendo clic en el botón correspondiente (el botón **X** permite restablecer el área de consulta y, por tanto, dejar de filtrar): ![alt-text](../assets/en/Admin/dataExplorer4b.png)
+  - Por defecto, se muestran todas las entidades. Puede filtrar las entidades mostradas utilizando el área de búsqueda. Hay dos modos de consulta disponibles: [Consulta sobre atributos](#query-on-attributes) (seleccionada por defecto), y la [Consulta avanzada con expresión](#advanced-query-with-expression). El modo de consulta se selecciona haciendo clic en el botón correspondiente (el botón **X** permite restablecer el área de consulta y, por tanto, dejar de filtrar): ![alt-text](/assets/en/Admin/dataExplorer4b.png)
 
   - El nombre de la clase de datos seleccionada se añade como una pestaña encima de la cuadrícula de datos. Utilizando estas pestañas, puede cambiar entre las clases de datos que ya han sido seleccionadas. Puede eliminar una clase de datos referenciada haciendo clic en el icono "eliminar" situado a la derecha del nombre de la clase de datos.
   - Puede reducir el número de columnas desmarcando los atributos en la parte izquierda. También puede cambiar las columnas de la cuadrícula de datos utilizando arrastrar y soltar. Puede hacer clic en el encabezado de una columna para [ordenar entidades](#ordering-entities) de acuerdo a sus valores (cuando sea posible).
   - Si una operación requiere mucho tiempo, se muestra una barra de progreso. Puede detener la operación en curso en cualquier momento haciendo clic en el botón rojo:
 
-![alt-text](../assets/en/Admin/dataExplorer5.png)
+![alt-text](/assets/en/Admin/dataExplorer5.png)
 
 - En el lado derecho está el **área de Detalles**: muestra los valores de los atributos de la entidad seleccionada actualmente. Se muestran todos los tipos de atributos, incluidas las imágenes y los objetos (expresados en json). Puede navegar entre las entidades de la clase de datos haciendo clic en los enlaces **Primero** / **Anterior** / **Siguiente** / **Último** en la parte inferior del área.
 
@@ -88,7 +88,7 @@ Puede reordenar la lista de entidades mostrada según los valores de los atribut
 
 - Haga clic en el encabezado de una columna para ordenar entidades de acuerdo a los valores de atributo correspondientes. Por defecto, la ordenación es ascendente. Haga clic dos veces para una ordenación descendente. Una columna utilizada para ordenar las entidades se muestra con un pequeño icono y su nombre está en *itálica*.
 
-![alt-text](../assets/en/Admin/dataExplorer7.png)
+![alt-text](/assets/en/Admin/dataExplorer7.png)
 
 - Puede ordenar los atributos en varios niveles. Por ejemplo, puede ordenar a los empleados por ciudad y luego por salario. Para ello, manténga presionada la tecla **Mayús** y haga clic sucesivamente en el encabezado de cada columna a incluir en el orden de clasificación.
 
@@ -96,11 +96,11 @@ Puede reordenar la lista de entidades mostrada según los valores de los atribut
 
 En este modo, puede filtrar las entidades introduciendo los valores que desea encontrar (o excluir) en las áreas situadas arriba de la lista de atributos. Puede filtrar por uno o varios atributos. La lista de entidades se actualiza automáticamente cuando se digita.
 
-![alt-text](../assets/en/Admin/dataExplorer6.png)
+![alt-text](/assets/en/Admin/dataExplorer6.png)
 
 Si introduce varios atributos, se aplica automáticamente un AND. Por ejemplo, el siguiente filtro muestra las entidades con el atributo *firstname* que empieza por "flo" AND el valor del atributo *salary* > 50000:
 
-![alt-text](../assets/en/Admin/dataExplorer9.png)
+![alt-text](/assets/en/Admin/dataExplorer9.png)
 
 El botón **X** permite eliminar los atributos introducidos y así dejar de filtrar.
 
@@ -112,19 +112,19 @@ Existen diferentes operadores y opciones de consulta, según el tipo de datos de
 
 Con los atributos numéricos, de fecha y de hora, el operador "=" está seleccionado por defecto. Sin embargo, puede seleccionar otro operador de la lista de operadores (haga clic en el icono "=" para mostrar la lista):
 
-![alt-text](../assets/en/Admin/DEFilter1.png)
+![alt-text](/assets/en/Admin/DEFilter1.png)
 
 #### Fechas
 
 Con los atributos de fecha, puede introducir la fecha a utilizar a través de un widget de selección de fecha (haga clic en el área de la fecha para mostrar el calendario):
 
-![alt-text](../assets/en/Admin/DEFilter2.png)
+![alt-text](/assets/en/Admin/DEFilter2.png)
 
 #### Booleanos
 
 Al hacer clic en un área de atributos booleanos, se puede filtrar sobre los valores **true**/**false** pero también los valores **null**/**not null**:
 
-![alt-text](../assets/en/Admin/DEFilter3.png)
+![alt-text](/assets/en/Admin/DEFilter3.png)
 
 - **null** indica que el valor del atributo no fue definido
 - **no nulo** indica que el valor del atributo está definido (por tanto, true o false).
@@ -149,7 +149,7 @@ Si desea crear consultas más específicas, como "es exactamente", es posible qu
 
 Cuando se selecciona esta opción, aparece un área de consulta sobre la lista de entidades, que permite introducir cualquier expresión para filtrar el contenido:
 
-![alt-text](../assets/en/Admin/dataExplorer8.png)
+![alt-text](/assets/en/Admin/dataExplorer8.png)
 
 Puede introducir consultas avanzadas que no están disponibles como consultas de atributos. Por ejemplo, si quiere encontrar entidades con el atributo *firstname* que contenga "Jim" pero no "Jimmy", puede escribir:
 
@@ -171,8 +171,8 @@ firstname = "Marie Sophie" AND manager.lastname = "@th"
 
 Puede hacer clic en el icono `v` para mostrar tanto [`queryPlan`](API/DataClassClass.md#queryplan) como [`queryPath`](API/DataClassClass.md#querypath). En el área, puede pasar sobre los bloques de subconsultas para tener información detallada por subconsulta:
 
-![alt-text](../assets/en/Admin/dataExplorer12.png)
+![alt-text](/assets/en/Admin/dataExplorer12.png)
 
 Haga clic derecho en el área de consulta para mostrar las anteriores consultas válidas:
 
-![alt-text](../assets/en/Admin/dataExplorer11.png)
+![alt-text](/assets/en/Admin/dataExplorer11.png)

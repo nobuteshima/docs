@@ -57,7 +57,7 @@ Vous souhaitez personnaliser le menu **Aide** de votre application :
  APPELER SURÀPROPOS("À propos de cette application";"m_apropos") //pour remplacer "A propos de 4D" sur Windows
 ```
 
-![](../assets/en/commands/pict6260534.en.png)
+![](/assets/en/commands/pict6260534.en.png)
 
 #### Voir aussi 
 

@@ -5,7 +5,7 @@ title: ボタン
 
 ボタンとは、ユーザーのクリック操作に応じて実行されるアクション (*例* データベースタスクやインターフェース機能) を割り当てることのできるアクティブオブジェクトです。
 
-![](../assets/en/FormObjects/button_regular.png)
+![](/assets/en/FormObjects/button_regular.png)
 
 割り当てられたスタイルやアクションに応じて、ボタンはさまざまな役割を果たします。 たとえば、ユーザーがアンケートやフォーム内を移動したり、選択したりといった操作を可能にします。 設定によって、ボタンをワンクリックすることでコマンド実行することもできれば、複数回クリックすることで望む結果を得られるようにすることもできます。
 
@@ -33,7 +33,7 @@ title: ボタン
 
 通常スタイルのボタンは、標準的なシステムボタンで (長方形にラベルが付いたもの)、ユーザークリックに応じてコードを実行します。
 
-![](../assets/en/FormObjects/button_regular.png)
+![](/assets/en/FormObjects/button_regular.png)
 
 通常ボタンは、明るいグレーの背景に中央配置のラベルがデフォルトで付いています。 Windowsの場合は、通常ボタンの上にマウスオーバーすると、境界線色と背景色が変わります。 また、プラットフォームによって表現が異なりますが、クリック時にも背景色が変わるなどして、物理的なボタンを模倣します。
 
@@ -59,7 +59,7 @@ title: ボタン
 
 フラットスタイルのボタンは、標準的なシステムボタンで (長方形にラベルが付いたもの)、ユーザークリックに応じてコードを実行します。
 
-![](../assets/en/FormObjects/button_flat.png)
+![](/assets/en/FormObjects/button_flat.png)
 
 フラットボタンは、白の背景に中央配置のラベルがデフォルトで付いており、角が丸くなっています。 フラットボタンのグラフィック的な装飾は最小限であるため、印刷されるフォームでの使用に適しています。
 
@@ -90,7 +90,7 @@ title: ボタン
 
 - *Windows* - ボタンがハイライト表示されます。"ポップアップメニューあり" プロパティを使用ていると、ボタンの右側中央に三角形が表示されます。
 
-![](../assets/en/FormObjects/button_toolbar.png)
+![](/assets/en/FormObjects/button_toolbar.png)
 
 - *macOS* - ボタンはハイライト表示されません。 "ポップアップメニューあり" プロパティを使用していると、ボタンの右側に三角形が表示されます。
 
@@ -118,7 +118,7 @@ title: ボタン
 
 - *Windows* - ボタンがハイライト表示されます。 "ポップアップメニューあり" プロパティを使用していると、ボタンの右側に三角形が表示されます。
 
-![](../assets/en/FormObjects/button_bevel.png)
+![](/assets/en/FormObjects/button_bevel.png)
 
 - *macOS* - ボタンはハイライト表示されません。 "ポップアップメニューあり" プロパティを使用していると、ボタンの右側に三角形が表示されます。
 
@@ -146,7 +146,7 @@ title: ボタン
 
 - *Windows* - ベベルボタンと同じです。 "ポップアップメニューあり" プロパティを使用していると、ボタンの右側に三角形が表示されます。
 
-  ![](../assets/en/FormObjects/button_roundedbevel.png)
+  ![](/assets/en/FormObjects/button_roundedbevel.png)
 
 - *macOS* - 角が丸くなっています。 "ポップアップメニューあり" プロパティを使用していると、ボタンの右側に三角形が表示されます。
 
@@ -174,7 +174,7 @@ OS Xグラデーションボタンは、明るいグレーの背景に中央配�
 
 - *Windows* - ベベルボタンと同じです。 "ポップアップメニューあり" プロパティを使用していると、ボタンの右側に三角形が表示されます。
 
-![](../assets/en/FormObjects/button_osxgradient.png)
+![](/assets/en/FormObjects/button_osxgradient.png)
 
 - *macOS* - 2トーンのシステムボタンです。 "ポップアップメニューあり" プロパティを使用していると、ボタンの右側に三角形が表示されます。
 
@@ -202,7 +202,7 @@ OS Xテクスチャースタイルは [ベベル](#ベベル) スタイルとほ
 
 - *Windows* - 明るいブルーの背景に中央配置のラベルが付いた標準のシステムボタンです。 Vistaにおいては透明になる特別機能を持っています。
 
- ![](../assets/en/FormObjects/button_osxtextured.png)
+ ![](/assets/en/FormObjects/button_osxtextured.png)
 
 - *macOS* - 灰色のグラデーションを表示する標準のシステムボタンです。 高さは定義済みで、変更できません。
 
@@ -230,7 +230,7 @@ Office XPボタンの反転表示と背景のカラーはシステムカラー�
 
 - *Windows* - マウスオーバー時にのみ背景が表示されます。
 
-![](../assets/en/FormObjects/button_officexp.png)
+![](/assets/en/FormObjects/button_officexp.png)
 
 - *macOS* - 背景は常に表示されます。
 
@@ -254,7 +254,7 @@ Office XPボタンの反転表示と背景のカラーはシステムカラー�
 
 このスタイルはシステム標準のヘルプボタンを表示するために使用します。 デフォルトで、ヘルプボタンは丸の中に表示されたハテナマーク (疑問符) です。
 
-![](../assets/en/FormObjects/button_help.png)
+![](/assets/en/FormObjects/button_help.png)
 
 #### JSON 例
 
@@ -277,7 +277,7 @@ Office XPボタンの反転表示と背景のカラーはシステムカラー�
 
 サークルスタイルのボタンは、円形のシステムボタンとして表示されます。 このボタンスタイルは macOS 用に用意されています。
 
-![](../assets/en/FormObjects/button_circleM.png)
+![](/assets/en/FormObjects/button_circleM.png)
 
 Windows の場合、サークルは表示されません。
 
@@ -300,7 +300,7 @@ Windows の場合、サークルは表示されません。
 
 カスタムスタイルのボタンは、背景ピクチャーを使用できるほか、さまざまな追加パラメーターを管理することができます (アイコンオフセットやマージン)。
 
-![](../assets/en/FormObjects/button_custom.png)
+![](/assets/en/FormObjects/button_custom.png)
 
 #### JSON 例
 

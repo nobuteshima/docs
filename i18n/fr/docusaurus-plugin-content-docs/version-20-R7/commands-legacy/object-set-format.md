@@ -326,7 +326,7 @@ En supposant que vous avez stocké un fichier image nommé "envelope\_open.png" 
  OBJECT SET FORMAT(*;"Header1";vIcon+";"+vPos)
 ```
 
-![](../assets/en/commands/pict2878245.en.png)
+![](/assets/en/commands/pict2878245.en.png)
 
 #### Exemple 7 
 

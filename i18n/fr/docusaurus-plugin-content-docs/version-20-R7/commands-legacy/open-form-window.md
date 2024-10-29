@@ -127,7 +127,7 @@ L'exemple suivant utilise le chemin d'un fichier .json décrivant un formulaire 
 
 Résultat :
 
-![](../assets/en/commands/pict3687439.en.png)
+![](/assets/en/commands/pict3687439.en.png)
 
 #### Voir aussi 
 

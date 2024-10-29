@@ -9,7 +9,7 @@ title: ドロップダウンリスト
 
 macOS においては、ドロップダウンリストは "ポップアップメニュー" とも呼ばれます。 どちらの名前も同じタイプのオブジェクトを指します。 次の例に示すように、ドロップダウンリストの外観はプラットフォームによって若干異なります:
 
-![](../assets/en/FormObjects/popupDropdown_appearance.png)
+![](/assets/en/FormObjects/popupDropdown_appearance.png)
 
 ## 配列の使用
 
@@ -74,7 +74,7 @@ macOS においては、ドロップダウンリストは "ポップアップメ
 
 フォームを実行すると、4D が自動的に入力中または表示中のポップアップメニュー/コンボボックスの状態を管理します。ユーザーが値を選択すると、その値はフィールドに保存され、このフィールドの値はフォームが表示されたときにポップアップメニューに表示されます:
 
-![](../assets/en/FormObjects/popupDropdown_choiceList.png)
+![](/assets/en/FormObjects/popupDropdown_choiceList.png)
 > この原理は、配列を用いてオブジェクトを初期化する方法と組み合わせることはできません。 変数あるいは式の欄にフィールド名を入力した場合は、必ず選択リストを使用します。
 
 ### 関連付け

@@ -19,7 +19,7 @@ Lorsque cette propriété est désactivée (valeur `legacy` dans JSON), seule la
 
 - After all columns reach their maximum size, they are no longer enlarged and instead a blank (fake) column is added on the right to fill the extra space. If a fake (blank) column is present, when the list box width decreases, this is the first area to be reduced.
 
-![](../assets/en/FormObjects/property_columnAutoResizing.png)
+![](/assets/en/FormObjects/property_columnAutoResizing.png)
 
 #### About the fake (blank) column
 
@@ -98,13 +98,13 @@ Trois options sont disponibles :
 Lorsqu'un objet splitter a cette propriété, les autres objets à sa droite (splitter vertical) ou en dessous (splitter horizontal) sont poussés en même temps que le splitter, sans arrêt.
 
 Here is the result of a “pusher” splitter being moved:
-![](../assets/en/FormObjects/splitter_pusher1.png)
+![](/assets/en/FormObjects/splitter_pusher1.png)
 
-![](../assets/en/FormObjects/splitter_pusher3.png)
+![](/assets/en/FormObjects/splitter_pusher3.png)
 
 Lorsque cette propriété n'est pas appliquée au splitter, le résultat est le suivant :
 
-![](../assets/en/FormObjects/splitter_pusher2.png)
+![](/assets/en/FormObjects/splitter_pusher2.png)
 
 #### Grammaire JSON
 

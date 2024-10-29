@@ -41,7 +41,7 @@ Le code suivant :
 
 ... ouvrira une fenêtre de dialogue d'impression :
 
-![](../../assets/en/ViewPro/cmd_vpPrint.PNG)
+![](/assets/en/ViewPro/cmd_vpPrint.PNG)
 
 #### Voir également
 

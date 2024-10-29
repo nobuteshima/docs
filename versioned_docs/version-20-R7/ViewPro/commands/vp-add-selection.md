@@ -25,7 +25,7 @@ In *rangeObj*, pass a range object of cells to add to the current selection.
 
 You have cells currently selected:
 
-![](../../assets/en/ViewPro/cmd_vpAddSelection1.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection1.PNG)
 
 The following code will add cells to your selection:
 
@@ -36,7 +36,7 @@ VP ADD SELECTION($currentSelection)
 
 Result:
 
-![](../../assets/en/ViewPro/cmd_vpAddSelection2.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection2.PNG)
 
 #### See also
 

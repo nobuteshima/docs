@@ -26,7 +26,7 @@ En *evento*, puede pasar todo evento de formulario predefinido de 4D (puede util
 
 *Ejemplo de ejecución del comando* **CALL SUBFORM CONTAINER** *:*
 
-![](../assets/en/commands/pict166755.en.png)
+![](/assets/en/commands/pict166755.en.png)
 
 #### Ver también 
 

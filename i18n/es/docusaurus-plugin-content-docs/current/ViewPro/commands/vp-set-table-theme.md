@@ -46,7 +46,7 @@ VP SET TABLE THEME("ViewProArea"; "myTable"; $param)
 
 Quiere tener esta representación de columna alternativa:
 
-![](../../assets/en/ViewPro/col-bandering.png)
+![](/assets/en/ViewPro/col-bandering.png)
 
 ```4d
 var $param : cs.ViewPro.TableTheme

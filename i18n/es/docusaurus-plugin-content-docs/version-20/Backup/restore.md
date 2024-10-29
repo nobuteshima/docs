@@ -27,7 +27,7 @@ Para restaurar manualmente una aplicación a través de una caja de diálogo est
 1. Elija **Restituir...** en el menú de la aplicación 4D **Archivo**. It is not mandatory that an application project be open. OR Execute the `RESTORE` command from a 4D method. Aparece una caja de diálogo estándar de apertura de archivos.
 2. Seleccione un archivo de copia de seguridad (.4bk) o un archivo de copia de seguridad del historial (.4bl) que desee restaurar y haga clic en **Abrir**. Aparece una caja de diálogo que permite especificar la ubicación donde se restaurarán los archivos. Por defecto, 4D restaura los archivos en una carpeta llamada *Nomarchivo* (sin extensión) situada junto al archivo. Puede mostrar la ruta de acceso:
 
-![](../assets/en/Backup/backup07.png)
+![](/assets/en/Backup/backup07.png)
 
 También puede hacer clic en el botón **[...]** para especificar una ubicación diferente.
 3. Haga clic en el botón **Restaurar**. 4D extrae todos los archivos de copia de seguridad de la ubicación especificada. Si el archivo de historial actual o un archivo de copia de seguridad del historial tiene el mismo número que el archivo de copia de seguridad se almacena en la misma carpeta, 4D examina su contenido. Si contiene operaciones que no están presentes en el archivo de datos, el programa le pregunta si desea integrar estas operaciones. La integración se realiza automáticamente si la opción **de integración automática del historial** está seleccionada (ver [Restauración automática](settings.md#automatic-restore)).
@@ -49,7 +49,7 @@ Puede restaurar manualmente un archivo de la aplicación actual utilizando la p�
 
 Si no ha marcado la opción de integración automática del archivo de historial en la página Restaurar del CSM (ver [Integración sucesiva de varios archivos de historial](MSC/restore.md#successive-intergration-of-several-data-log-files)), aparece una caja de diálogo de advertencia durante la apertura de la aplicación cuando 4D advierte que el archivo de historial contiene más operaciones de las que se han realizado en el archivo de datos.
 
-![](../assets/en/Backup/backup08.png)
+![](/assets/en/Backup/backup08.png)
 
 > Para que este mecanismo funcione, 4D debe poder acceder al archivo de historial en su ubicación actual.
 

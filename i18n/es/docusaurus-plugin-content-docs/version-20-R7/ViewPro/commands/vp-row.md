@@ -36,7 +36,7 @@ En el parámetro opcional *sheet*, puede designar una hoja específica donde se 
 
 Desea definir un objeto rango para la línea que se muestra a continuación (en la hoja de cálculo actual):
 
-![](../../assets/en/ViewPro/cmd_vpRow.PNG)
+![](/assets/en/ViewPro/cmd_vpRow.PNG)
 
 Puede escribir:
 

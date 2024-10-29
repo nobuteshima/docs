@@ -56,7 +56,7 @@ title: サブフォーム
 
 親フォームにおいて、他のオブジェクトとサブフォームコンテナーとに同じ "変数あるいは式" を設定することで、親フォームとサブフォームのコンテキストをリンクし、洗練されたインターフェースを作成することができます。 たとえば、[入力エリア](input_overview.md) が設置されている親フォームに、時刻を静的に表示するサブフォームを置くとします:
 
-![](../assets/en/FormObjects/subforms1.png)
+![](/assets/en/FormObjects/subforms1.png)
 
 親フォームにおいて、両オブジェクト (入力エリアとサブフォームコンテナー) の ***変数あるいは式* プロパティは同じ設定にされています**。 変数 (例: `parisTime`)、あるいは式 (例: `Form.parisTime`) を設定することができます。
 
@@ -93,7 +93,7 @@ End if
 
 上のコードは、サブフォームの `Form.clockValue` の値を更新します:
 
-![](../assets/en/FormObjects/update-subform.png)
+![](/assets/en/FormObjects/update-subform.png)
 
 [On Bound Variable Change](../Events/onBoundVariableChange.md) フォームイベントは以下のときに生成されます:
 
@@ -126,7 +126,7 @@ If (Form event code=On Data Change)
 End if
 ```
 
-![](../assets/en/FormObjects/update-main-form.png)
+![](/assets/en/FormObjects/update-main-form.png)
 
 サブフォームの `Form.clockValue` の値が変化するたびに、サブフォームコンテナーの `Form.parisTime` も更新されます。
 
@@ -142,11 +142,11 @@ End if
 
 たとえば、サブフォームでは、入力は (サブフォームの) `Form` オブジェクトプロパティにバインドされています。
 
-![](../assets/en/FormObjects/subnew1.png)
+![](/assets/en/FormObjects/subnew1.png)
 
 親フォームで、このサブフォームを 2回表示するとします。 各サブフォームコンテナーは、(親フォームの) `Form` オブジェクトのプロパティである式にバインドされています。
 
-![](../assets/en/FormObjects/subnew2.png)
+![](/assets/en/FormObjects/subnew2.png)
 
 下のボタンは、親フォームの `Form` オブジェクトに `mother` と `father` プロパティを作成します。
 
@@ -158,11 +158,11 @@ Form.father:=New object("lastname"; "Golf"; "firstname"; "Félix")
 
 フォームを実行してボタンをクリックすると、サブフォームを含め、すべての値が正しく表示されていることがわかります:
 
-![](../assets/en/FormObjects/subnew3.png)
+![](/assets/en/FormObjects/subnew3.png)
 
 同じオブジェクトが使用されているため、親フォームまたはサブフォームで値を変更すると、もう一方のフォームでも値が自動更新されます:
 
-![](../assets/en/FormObjects/subnew4.png) ![](../assets/en/FormObjects/subnew5.png)
+![](/assets/en/FormObjects/subnew4.png) ![](/assets/en/FormObjects/subnew5.png)
 
 ### ポインターの使用 (互換性)
 
@@ -205,7 +205,7 @@ End if
 
 このメカニズムを図示すると以下のようになります:
 
-![](../assets/en/FormObjects/subforms6.png)
+![](/assets/en/FormObjects/subforms6.png)
 
 詳細は `EXECUTE METHOD IN SUBFORM` コマンドの説明を参照してください。
 

@@ -333,8 +333,8 @@ La Boîte à Outils fournit une page **Feuilles de style** sous forme de raccour
 
 1. Ouvrez la page **Style Sheets** en choisissant **Tool Box > Style Sheet** dans le menu Développement ou en cliquant sur l'icône **Tool Box** dans la barre d'outils de l'éditeur de formulaires.
 
- ![](../assets/en/FormEditor/stylesheets.png)
+ ![](/assets/en/FormEditor/stylesheets.png)
 
-2. Choisissez le type de feuille de style que vous souhaitez créer et cliquez sur le bouton **Créer** ou **Editer** : ![](../assets/en/FormEditor/createButton.png)
+2. Choisissez le type de feuille de style que vous souhaitez créer et cliquez sur le bouton **Créer** ou **Editer** : ![](/assets/en/FormEditor/createButton.png)
 
 3. La feuille de style s'ouvrira dans votre éditeur de texte par défaut.  

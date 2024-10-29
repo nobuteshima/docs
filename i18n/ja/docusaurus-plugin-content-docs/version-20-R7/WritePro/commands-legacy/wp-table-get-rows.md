@@ -67,7 +67,7 @@ displayed_sidebar: docs
  WP SET ATTRIBUTES($rows2;wk border width;4)
 ```
 
-![](../../assets/en/WritePro/commands/pict3307142.en.png)
+![](/assets/en/WritePro/commands/pict3307142.en.png)
 
 #### 例題 2 
 

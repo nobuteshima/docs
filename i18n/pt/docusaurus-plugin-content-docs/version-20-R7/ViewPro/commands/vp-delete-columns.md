@@ -28,7 +28,7 @@ Em rangeObj, passe um objeto que contenha um intervalo de colunas a remover. Se 
 
 Para eliminar as colunas seleccionadas pelo utilizador (colunas B, C e D da imagem abaixo):
 
-![](../../assets/en/ViewPro/cmd_vpDeleteColumns.PNG)
+![](/assets/en/ViewPro/cmd_vpDeleteColumns.PNG)
 
 utilizar o seguinte código:
 

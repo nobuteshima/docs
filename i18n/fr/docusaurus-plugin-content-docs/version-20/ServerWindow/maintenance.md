@@ -6,7 +6,7 @@ title: Page maintenance
 
 La page **Maintenance** fournit diverses informations relatives au fonctionnement courant de la base. Elle donne également accès aux fonctions de maintenance élémentaires :
 
-![](../assets/en/Admin/server-maintenance.png)
+![](/assets/en/Admin/server-maintenance.png)
 
 
 ## Dernière vérification/dernier compactage
@@ -25,7 +25,7 @@ A l’issue de la vérification, un fichier de compte-rendu est généré au for
 
 Ce bouton permet de lancer directement une opération de compactage des données. Cette opération nécessite de stopper le serveur : lorsque vous cliquez sur le bouton, la boîte de dialogue de fermeture de la base 4D Server apparaît, vous permettant de choisir le mode d’interruption de l’exploitation :
 
-![](../assets/en/Admin/server-shut.png)
+![](/assets/en/Admin/server-shut.png)
 
 Après l’interruption effective de la base, 4D Server effectue un compactage standard des données de la base. Si vous souhaitez disposer d’options supplémentaires, vous devez utiliser le [Centre de sécurité et de maintenance (CSM)](MSC/overview.md).
 

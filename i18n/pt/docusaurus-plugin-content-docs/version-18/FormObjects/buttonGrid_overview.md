@@ -7,7 +7,7 @@ title: Grade de botões
 
 Uma grelha de botões é um objecto transparente colocado em cima de um gráfico. O gráfico deve representar um array linha por coluna. Quando um dos gráficos é clicado, terá uma aparência afundada ou prensada:
 
-![](../assets/en/FormObjects/buttonGrid_smileys.png)
+![](/assets/en/FormObjects/buttonGrid_smileys.png)
 
 É possível utilizar um objeto de grelha de botões para determinar onde o usuário clica no gráfico. O método objeto utilizaria o evento `On Clicked` e tomaria as medidas adequadas em função da localização do clique.
 
@@ -17,7 +17,7 @@ Para criar a grelha de botões, adicione um gráfico de fundo ao formulário e c
 
 Em 4D, uma grelha de botões é utilizada como uma paleta de cores:
 
-![](../assets/en/FormObjects/button_buttonGrid.png)
+![](/assets/en/FormObjects/button_buttonGrid.png)
 
 ## Usar grades de botões
 

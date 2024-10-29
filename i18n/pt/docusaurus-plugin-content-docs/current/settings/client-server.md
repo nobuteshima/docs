@@ -41,7 +41,7 @@ Quando você modifica esse valor no 4D Server ou no 4D, ele é automaticamente t
 
 Para actualizar las otras máquinas clientes que no estén conectadas, basta con introducir el nuevo número de puerto (precedido de dos puntos) después de la dirección IP del equipo servidor en la pestaña **Personalizado** de la caja de diálogo de conexión  Por exemplo, se o novo número de porta é 19888:
 
-![](../assets/en/settings/client-server-network.png)
+![](/assets/en/settings/client-server-network.png)
 
 > Somente os bancos de dados publicados na mesma porta que a definida no cliente 4D são visíveis na página de publicação dinâmica TCP/IP.
 

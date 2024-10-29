@@ -48,7 +48,7 @@ Vous souhaitez supprimer une colonne du tableau *Invoice*. Ce code :
 
 Supprimera la colonne de son emplacement initial :
 
-![](../../assets/en/WritePro/commands/pict4680318.en.png)
+![](/assets/en/WritePro/commands/pict4680318.en.png)
 
 #### Voir aussi 
 

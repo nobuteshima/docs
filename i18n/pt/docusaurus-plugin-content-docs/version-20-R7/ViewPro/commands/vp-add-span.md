@@ -26,7 +26,7 @@ Em *rangeObj*, passe um objeto de intervalo de células. As células do interval
 
 Para abranger as células do primeiro trimestre e do segundo trimestre nas duas células ao lado delas, e a célula da área sul nas duas linhas abaixo dela:
 
-![initial-document](../../assets/en/ViewPro/vp-add-span.png)
+![initial-document](/assets/en/ViewPro/vp-add-span.png)
 
 ```4d
  // Intervalo do primeiro trimestre
@@ -41,7 +41,7 @@ Para abranger as células do primeiro trimestre e do segundo trimestre nas duas 
  VP ADD SPAN(VP Combine ranges($q1;$q2;$south))
 ```
 
-![vp-add-span-result](../../assets/en/ViewPro/vp-add-span-2.png)
+![vp-add-span-result](/assets/en/ViewPro/vp-add-span-2.png)
 
 #### Veja também
 

@@ -8,7 +8,7 @@ La página Retroceso permite acceder a la función de retorno entre las operacio
 
 Esta función sólo está disponible cuando la base funciona con un archivo de historial de datos.
 
-![](../assets/en/MSC/MSC_rollback1.png)
+![](/assets/en/MSC/MSC_rollback1.png)
 
 > Si la base de datos está encriptada y no se ha suministrado una llave de datos válida correspondiente al archivo de registro abierto, los valores encriptados no se muestran en la columna **Valores** y se muestra un diálogo en el que se solicita la frase secreta o la llave de datos si se hace clic en el botón **Retroceso**.
 
@@ -16,7 +16,7 @@ El contenido y el funcionamiento de la lista de operaciones es el mismo que el d
 
 Para realizar un retroceso entre las operaciones, seleccione la linea tras la cual deben anularse todas las operaciones. La operación de la línea seleccionada será la última conservada. Si, por ejemplo, desea cancelar una eliminación, seleccione la operación situada justo antes de ella. La operación de eliminación, así como todas las operaciones posteriores, se cancelarán.
 
-![](../assets/en/MSC/MSC_rollback2.png)
+![](/assets/en/MSC/MSC_rollback2.png)
 
 A continuación, haga clic en el botón **Retroceso**. 4D le pide que confirme la operación. Si hace clic en **Aceptar**, los datos se restauran al estado exacto en el que se encontraban en el momento de la acción seleccionada.
 

@@ -28,7 +28,7 @@ Par défaut, le fichier de données original sera dupliqué avant réparation. P
 
 La réparation standard permet de réparer des données dans lesquelles seuls quelques enregistrements ou index sont endommagés (les tables d'adresses sont intactes). Les données sont compactées et réparées. A noter que ce type de réparation ne peut être effectué que si le fichier de données et le fichier de structure correspondent.
 
-A l’issue de la procédure, la page "Réparation" du CSM est affichée. Un message indique si la réparation a été effectuée avec succès. Dans ce cas, vous pouvez immédiatement ouvrir l'application. ![](../assets/en/MSC/MSC_RepairOK.png)
+A l’issue de la procédure, la page "Réparation" du CSM est affichée. Un message indique si la réparation a été effectuée avec succès. Dans ce cas, vous pouvez immédiatement ouvrir l'application. ![](/assets/en/MSC/MSC_RepairOK.png)
 
 ## Réparation par en-têtes d'enregistrements
 
@@ -42,7 +42,7 @@ Les enregistrements de 4D sont de taille variable : il est donc nécessaire, pou
 
 Lorsque vous cliquez sur le bouton **Réparer**, 4D effectue une analyse complète du fichier de données. A l’issue de cette analyse, le résultat est affiché dans la fenêtre suivante :
 
-![](../assets/en/MSC/mscrepair2.png)
+![](/assets/en/MSC/mscrepair2.png)
 > Si tous les enregistrements et toutes les tables ont été attribués, seule la zone principale est affichée.
 
 La zone "Enregistrements trouvés dans le fichier de données" comporte deux tableaux synthétisant les informations issues de l’analyse du fichier de données.
@@ -59,7 +59,7 @@ La zone "Enregistrements trouvés dans le fichier de données" comporte deux tab
 
 Si, du fait de l’endommagement de la table d’adresses, un ou plusieurs groupes d’enregistrements n’ont pas pu être attribués à des tables, vous pouvez les attribuer manuellement. Pour attribuer une table à un groupe non identifié, sélectionnez le groupe dans le premier tableau. Lorsque vous sélectionnez des enregistrements non identifiés, la zone "Contenu des enregistrements" affiche une prévisualisation du contenu des premiers enregistrements du groupe afin de vous permettre de les attribuer plus facilement :
 
-![](../assets/en/MSC/mscrepair3.png)
+![](/assets/en/MSC/mscrepair3.png)
 
 Sélectionnez ensuite la table à attribuer dans le tableau des "Tables non attribuées" puis cliquez sur le bouton **Identifier table**. Vous pouvez également attribuer une table par glisser-déposer. Le groupe d’enregistrements est alors associé à la table, il sera récupéré dans cette table. Les noms des tables attribuées manuellement sont affichés en caractères noirs. Le bouton **Ignorer enregistrements** permet de supprimer l’association effectuée manuellement entre une table et un groupe d’enregistrements.
 

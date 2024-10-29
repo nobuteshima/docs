@@ -308,7 +308,7 @@ Cet événement est généralement utilisé pour afficher des pop up menus en ca
 4D vous permet de gérer ce type de bouton à l’aide de l'événement On Alternative Click. Cet événement est généré lorsque l’utilisateur clique sur la “flèche” (l'événement est généré dès que le bouton de la souris est enfoncé) :  
 \- si le pop up menu est de type “Séparé”, l’événement est généré uniquement en cas de clic sur la zone fléchée du bouton.  
 \- si le pop up menu est de type “Lié”, l’événement est généré en cas de clic sur n’importe quelle partie du bouton. A noter qu’avec ce type de bouton, l’événement On Long Click ne peut pas être généré.  
-![](../assets/en/commands/pict2074286.fr.png)
+![](/assets/en/commands/pict2074286.fr.png)
 
 Les styles de boutons 3D, boutons radio 3D et cases à cocher 3D acceptant la propriété “Avec pop up menu” sont : Aucun, Bouton barre outils, Bevel, Bevel arrondi et Office XP.
 
@@ -814,7 +814,7 @@ Vous souhaitez dessiner un rectangle rouge autour de la cellule sélectionnée d
 
 En résultat, le rectangle rouge suit bien le défilement de la list box :
 
-![](../assets/en/commands/pict1900395.en.png)
+![](/assets/en/commands/pict1900395.en.png)
 
 #### Voir aussi 
 

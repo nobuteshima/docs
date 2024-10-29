@@ -35,7 +35,7 @@ title: VP SET ROW COUNT
 VP SET ROW COUNT("ViewProArea";5)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSetRowCount.PNG)
+![](/assets/en/ViewPro/cmd_vpSetRowCount.PNG)
 
 #### 参照
 

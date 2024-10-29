@@ -6,7 +6,7 @@ title: アプリケーションサーバーページ
 
 アプリケーションサーバーページには、4D Server が公開しているデスクトップアプリケーションについての情報がまとめられていて、公開を管理できます。
 
-![](../assets/en/Admin/server-admin-application-page.png)
+![](/assets/en/Admin/server-admin-application-page.png)
 
 
 ページの上部には、4D Server アプリケーションサーバーの現在の状況が表示されます。
@@ -28,7 +28,7 @@ title: アプリケーションサーバーページ
 - ボタンのラベルは "新規接続を許可" に変わります。
 - 新規クライアントは接続不可になります。 接続しようとしたクライアントには以下のメッセージが表示されます:
 
-![](../assets/en/Admin/server-error.png)
+![](/assets/en/Admin/server-error.png)
 
 - 接続ダイアログにプロジェクト名が表示されなくなります。
 - すでに接続済みのクライアントは接続解除されず、通常通りに操作が可能です。

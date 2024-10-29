@@ -37,7 +37,7 @@ La commande **LISTBOX SET ROW HEIGHT** modifie le tableau de hauteur de lignes s
 
 Vous souhaitez modifier la hauteur de quelques lignes de la list box suivante :
 
-![](../assets/en/commands/pict3071133.en.png)
+![](/assets/en/commands/pict3071133.en.png)
 
 Si vous exécutez ce code :
 
@@ -49,7 +49,7 @@ Si vous exécutez ce code :
 
 ... vous obtenez le résultat suivant :
 
-![](../assets/en/commands/pict3071135.en.png)
+![](/assets/en/commands/pict3071135.en.png)
 
 #### Exemple 2 
 

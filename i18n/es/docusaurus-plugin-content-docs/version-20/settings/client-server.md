@@ -32,7 +32,7 @@ La personalización de este valor es necesaria cuando desea utilizar varias apli
 
 Para actualizar las otras máquinas clientes que no estén conectadas, basta con introducir el nuevo número de puerto (precedido de dos puntos) después de la dirección IP del equipo servidor en la pestaña **Personalizado** de la caja de diálogo de conexión en el momento de la siguiente conexión. Por ejemplo, si el nuevo número de puerto es 19888:
 
-![](../assets/en/settings/client-server-network.png)
+![](/assets/en/settings/client-server-network.png)
 
 > Sólo las bases de datos publicadas en el mismo puerto que el definido en 4D client son visibles en la página de publicación dinámica TCP/IP.
 

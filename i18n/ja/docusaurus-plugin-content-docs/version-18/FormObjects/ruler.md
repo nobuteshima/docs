@@ -7,7 +7,7 @@ title: ルーラー
 
 ルーラーは、カーソルを使用して目盛り上を移動することで値を選択する標準のインターフェースオブジェクトです。
 
-![](../assets/en/FormObjects/indicator_ruler.png)
+![](/assets/en/FormObjects/indicator_ruler.png)
 
 [割り当てられた変数](properties_Object.md#変数あるいは式) の値を入力エリア (フィールドまたは変数) に代入して格納したり、逆にオブジェクトの現在値を設定することもできます。
 

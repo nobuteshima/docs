@@ -51,7 +51,7 @@ Le paramètre optionnel *expressions* fournit des instructions pour l'évaluatio
 
 Pour retrouver le texte dans ce document :
 
-![](../../assets/en/WritePro/commands/pict3772381.en.png)
+![](/assets/en/WritePro/commands/pict3772381.en.png)
 
 Vous pouvez écrire :
 

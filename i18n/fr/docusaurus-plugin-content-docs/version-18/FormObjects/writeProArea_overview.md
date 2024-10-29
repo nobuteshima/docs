@@ -5,7 +5,7 @@ title: Zone 4D Write Pro
 
 4D Wite Pro propose aux utilisateurs de 4D un outil de traitement de texte avancé, intégré à votre base 4D. En utilisant 4D Write Pro, vous pouvez rédiger des e-mails et/ou des lettres pré-configurés contenant des images, une signature, du texte formaté et des placeholders pour des variables dynamiques. Vous pouvez également générer dynamiquement des factures ou des rapports, contenant du texte et des images formatés.
 
-![](../assets/en/FormObjects/writePro2.png)
+![](/assets/en/FormObjects/writePro2.png)
 
 ## Utiliser des zones 4D Write Pro
 

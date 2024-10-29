@@ -34,7 +34,7 @@ title: インストールとアクティベーション
 1. 4D アプリケーションを起動します。
 2. **ヘルプ** メニューから **ライセンスマネージャー...** を選択します。
 
-![](../assets/en/getStart/helpMenu.png)
+![](/assets/en/getStart/helpMenu.png)
 
 **ライセンスマネージャー** ダイアログボックスが表示されます (デフォルトではオンラインアクティベーションのページが選択されています)。 次のアクティベーションモードの章を参照してください。
 
@@ -44,7 +44,7 @@ title: インストールとアクティベーション
 
 1. 4D Server アプリケーションを起動します。 [アクティベーションモード](#アクティベーションモード) を選択するダイアログボックスが表示されます。
 
-![](../assets/en/getStart/helpMenu.png)
+![](/assets/en/getStart/helpMenu.png)
 
 ## アクティベーションモード
 
@@ -56,11 +56,11 @@ title: インストールとアクティベーション
 
 [https://account.4d.com/ja/login.shtml](https://account.4d.com/ja/login.shtml)
 
-![](../assets/en/getStart/activ1.png)
+![](/assets/en/getStart/activ1.png)
 
 その後、アクティベーションする製品のプロダクト番号を入力します。 このプロダクト番号は製品購入後にメールまたは郵送で提供されています。
 
-![](../assets/en/getStart/activ2.png)
+![](/assets/en/getStart/activ2.png)
 
 ### オフラインアクティベーション
 
@@ -69,23 +69,23 @@ title: インストールとアクティベーション
 1. **ヘルプ** メニューから "ライセンスマネージャー" を開き、**オフラインアクティベーション** タブを選択します。
 2. ライセンス番号とメールアドレスを入力し、**ファイルを生成** をクリックして IDファイル (*reg.txt*) を作成します。
 
-![](../assets/en/getStart/activ3.png)
+![](/assets/en/getStart/activ3.png)
 
 3. 生成された *reg.txt* ファイルを USBドライブへと保存し、インターネット環境があるコンピューターへと移動させます。
 4. インターネット環境のあるマシンから、[https://store.4d.com/jp/activation.shtml](https://store.4d.com/jp/activation.shtml) にログインします。
 5. Web ページ上にて、**ファイルを選択...** ボタンをクリックし、手順3と4で生成した *reg.txt* ファイルを選択し、**Activate** ボタンをクリックします。
 6. シリアルファイルをダウンロードします。
 
-![](../assets/en/getStart/activ4.png)
+![](/assets/en/getStart/activ4.png)
 
 7. *license4d* ファイルを、何らかの共有メディアに保存し、手順1で使用している4Dマシンへと移動させます。
 8. **"オフラインアクティベーション"** 画面のままになっている、4D をインストールしたマシン上にて、画面上の **次へ** をクリックし、次に **読み込み...** ボタンをクリックして、手順7の共有メディアにある *license4d* ファイルを選択します。
 
-![](../assets/en/getStart/activ5.png)
+![](/assets/en/getStart/activ5.png)
 
 ライセンスファイルが読み込まれた状態で、**次へ** をクリックします。
 
-![](../assets/en/getStart/activ6.png)
+![](/assets/en/getStart/activ6.png)
 
 9. 他のライセンスを追加するためには **番号追加** ボタンをクリックします。 これらの手順を、手順6のライセンスがすべて追加されるまで繰り返します。
 
@@ -101,7 +101,7 @@ title: インストールとアクティベーション
 
 4D または 4D Server アプリケーションの **ヘルプ** メニューから **ライセンスマネージャー...** を選択し、**更新** ボタンをクリックしてください:
 
-![](../assets/en/getStart/licens1.png)
+![](/assets/en/getStart/licens1.png)
 
 このボタンを押すと 4D カスタマーデータベースに接続し、利用中のライセンスに紐付いている新しい、あるいは更新されたライセンスの自動アクティベーションがおこなわれます (利用中のライセンスは "有効なライセンス" 一覧内で **太字** で表示されているものです)。 その際、4D アカウントとパスワードの入力が必要です。
 
@@ -123,23 +123,23 @@ title: インストールとアクティベーション
 
 ログイン後、ページ右側のマイ・ライセンスメニューから **ライセンスの一覧** をクリックします:
 
-![](../assets/en/getStart/licens2.png)
+![](/assets/en/getStart/licens2.png)
 
 ここでは、ライセンスをプロジェクト単位でグループ化して管理することができます。
 
 一覧から任意のライセンスを選択し、**プロジェクトにリンク... >** をクリックします:
 
-![](../assets/en/getStart/licens3.png)
+![](/assets/en/getStart/licens3.png)
 
 既存プロジェクトを選択、または新規プロジェクトを作成します:
 
-![](../assets/en/getStart/licens4.png)
+![](/assets/en/getStart/licens4.png)
 
-![](../assets/en/getStart/licens5.png)
+![](/assets/en/getStart/licens5.png)
 
 プロジェクトを利用することで、必要に応じてライセンスを整理することができます:
 
-![](../assets/en/getStart/licens6.png)
+![](/assets/en/getStart/licens6.png)
 
 ## トラブルシューティング
 

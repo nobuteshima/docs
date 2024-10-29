@@ -6,7 +6,7 @@ sidebar_label: Página Restauración
 
 Puede restaurar manualmente un archivo de la aplicación actual utilizando la página **Restaurar**. Esta página ofrece varias opciones que pueden utilizarse para controlar la restauración:
 
-![](../assets/en/MSC/MSC_restore.png)
+![](/assets/en/MSC/MSC_restore.png)
 
 > Los sistemas de recuperación automática de 4D restauran las aplicaciones e incluyen el archivo de historial de datos cuando es necesario.
 

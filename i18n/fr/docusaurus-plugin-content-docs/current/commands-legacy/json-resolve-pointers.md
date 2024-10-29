@@ -35,7 +35,7 @@ Optionnellement, vous pouvez passer dans *options* un objet contenant des propri
 | **Propriété** | **Type de valeur** | **Description**                                                                                                                                                          |
 | ------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | rootFolder    | Chaîne             | Chemin absolu (en syntaxe 4D standard) du dossier à utiliser pour résoudre les pointeurs relatifs dans *objet*. Par défaut, le dossier Resources de la base est utilisé. |
-| merge         | Booléen            | Fusionner les objets avec les objets pointeur (true) au lieu de les remplacer (false). Par défaut, l'option est à faux ![](../assets/en/commands/pict3516702.en.png)     |
+| merge         | Booléen            | Fusionner les objets avec les objets pointeur (true) au lieu de les remplacer (false). Par défaut, l'option est à faux ![](/assets/en/commands/pict3516702.en.png)     |
 
 Après l'exécution de la commande : 
 

@@ -20,11 +20,11 @@ Pode configurar o servidor web `WebAdmin` para que se lance ao início da aplica
 
 - Se utilizar uma aplicação 4D con interface, selecione a opção de menu **Arquivo > Administração web > Propriedades...**.
 
-![alt-text](../assets/en/Admin/waMenu1.png)
+![alt-text](/assets/en/Admin/waMenu1.png)
 
 Selecione a opção **Inicio automático da administração do servidor web** na caixa de diálogo de configuração:
 
-![alt-text](../assets/en/Admin/waSettings.png)
+![alt-text](/assets/en/Admin/waSettings.png)
 
 - Se usar uma aplicação 4D que tenha ou não interface, pode habilitar o modo de inicio automático utilizando o argumento abaixo *Interface de linha de comandos*:
 
@@ -40,7 +40,7 @@ Se utilizar uma aplicação 4D com interface, pode iniciar ou parar o servidor w
 
 Selecione a opção de menu **Arquivo > Administração web > Iniciar o servidor**.
 
-![alt-text](../assets/en/Admin/waMenu2.png)
+![alt-text](/assets/en/Admin/waMenu2.png)
 
 O item de menu vira **Stop Server** quando o servidor for lançado; selecione **Parar o servidor** para parar o `WebAdmin` servidor web.
 
@@ -56,11 +56,11 @@ Pode configurar o componente `WebAdmin` usando [Web Administration a caixa de di
 
 Para abrir a caixa de diálogo de configurações de administração web, selecione o item de menu **File > Web Administration > Configurações...**.
 
-![alt-text](../assets/en/Admin/waMenu1.png)
+![alt-text](/assets/en/Admin/waMenu1.png)
 
 A caixa de diálogo abaixo é mostrada:
 
-![alt-text](../assets/en/Admin/waSettings2.png)
+![alt-text](/assets/en/Admin/waSettings2.png)
 
 #### Inicio automático da administração de servidor web
 
@@ -105,7 +105,7 @@ O estado ou formato do arquivo de registro da petição HTTP (HTTPDebugLog_*nn*.
 
 Defining an access key is mandatory to unlock access to the `WebAdmin` web server through an URL (access via a 4D menu command does not require an access key). When no access key is defined, no web client is allowed to connect through an URL to a web administration interface like the [Data Explorer page](dataExplorer.md). Uma página de erro é retornada no caso uma solicitação de conexão:
 
-![alt-text](../assets/en/Admin/accessKey.png)
+![alt-text](/assets/en/Admin/accessKey.png)
 
 Uma chave de acesso é parecida a uma senha, mas não está associada com um login.
 

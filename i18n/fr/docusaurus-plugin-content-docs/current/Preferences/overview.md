@@ -13,7 +13,7 @@ User preferences specify various settings affecting your working environment, e.
 
 Vous pouvez accéder à la boîte de dialogue Préférences à partir du menu **Edition> Préférences...** (Windows) ou du menu de l'application **4D** (macOS) :
 
-![](../assets/en/Preferences/overviewAccess.png)
+![](/assets/en/Preferences/overviewAccess.png)
 
 Cette option de menu est disponible même lorsqu'il n'y a pas de projet ouvert.
 
@@ -30,7 +30,7 @@ Settings made in the Preferences dialog box are saved in an XML format preferenc
 
 Dans les boîtes de dialogue des paramètres, les paramètres dont les valeurs ont été modifiées apparaissent en gras :
 
-![](../assets/en/Preferences/overviewUser.png)
+![](/assets/en/Preferences/overviewUser.png)
 
 Les préférences indiquées comme personnalisées peuvent avoir été modifiées directement dans la boîte de dialogue, ou avoir été modifiées précédemment dans le cas d'une base de données convertie.
 
@@ -38,6 +38,6 @@ Un paramètre apparaît toujours en gras même lorsque sa valeur est remplacée 
 
 Pour rétablir les valeurs par défaut des paramètres et supprimer le style gras indiquant qu'ils ont été personnalisés, cliquez sur le bouton **Rétablir les paramètres d'usine** :
 
-![](../assets/en/Preferences/overviewSettings.png)
+![](/assets/en/Preferences/overviewSettings.png)
 
 Ce bouton réinitialise tous les paramètres de la page courante. Il devient actif lorsqu'au moins un paramètre a été modifié sur la page courante.

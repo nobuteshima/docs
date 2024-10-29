@@ -58,33 +58,33 @@ WIC および ImageIO はピクチャー内のメタデータの書き込みを�
  circle+rectangle // circle の右に rectangle が追加されます。
  rectangle+circle // rectangle の右に circle が追加されます。
 ```
-![](../assets/en/Concepts/concatHor.en.png) ![](../assets/en/Concepts/concatHor2.en.png)
+![](/assets/en/Concepts/concatHor.en.png) ![](/assets/en/Concepts/concatHor2.en.png)
 
 垂直連結
 ```4d
  circle/rectangle // circle の下に rectangle が追加されます。
  rectangle/circle // rectangle の下に circle が追加されます。
 ```
-![](../assets/en/Concepts/concatVer.en.png) ![](../assets/en/Concepts/concatVer2.en.png)
+![](/assets/en/Concepts/concatVer.en.png) ![](/assets/en/Concepts/concatVer2.en.png)
 
 排他的論理和
 ```4d
 Pict3:=Pict1 & Pict2 // Pict1 の上に Pict2 を重ねます。
 ```
-![](../assets/en/Concepts/superimpoExc.fr.png)
+![](/assets/en/Concepts/superimpoExc.fr.png)
 
 包括的論理和
 ```4d
 Pict3:=Pict1|Pict2 // 同じサイズの二つのピクチャーを重ね合わせた上でそのマスクの結果を返します。
 ```
-![](../assets/en/Concepts/superimpoInc.fr.png)
+![](/assets/en/Concepts/superimpoInc.fr.png)
 
 水平移動
 ```4d
 rectangle+50 // rectangle を右に 50ピクセル移動します。
 rectangle-50 // rectangle を左に 50ピクセル移動します。
 ```
-![](../assets/en/Concepts/hormove.en.png)
+![](/assets/en/Concepts/hormove.en.png)
 
 垂直移動
 
@@ -92,7 +92,7 @@ rectangle-50 // rectangle を左に 50ピクセル移動します。
 rectangle/50 // rectangle を下に 50ピクセル移動します。
 rectangle/-20 // rectangle を上に 20ピクセル移動します。
 ```
-![](../assets/en/Concepts/vertmove.en.png)![](../assets/en/Concepts/vertmove2.en.png)
+![](/assets/en/Concepts/vertmove.en.png)![](/assets/en/Concepts/vertmove2.en.png)
 
 拡大
 
@@ -100,7 +100,7 @@ rectangle/-20 // rectangle を上に 20ピクセル移動します。
 rectangle*1.5 // rectangle を 50%拡大します。
 rectangle*0.5 // rectangle を 50%縮小します。
 ```
-![](../assets/en/Concepts/resize.en.png)![](../assets/en/Concepts/resisze2.en.png)
+![](/assets/en/Concepts/resize.en.png)![](/assets/en/Concepts/resisze2.en.png)
 
 水平スケール
 
@@ -109,7 +109,7 @@ circle*+3 // circle の幅を 3倍に広げます。
 circle*+0.25 // circle の幅を 25%に縮めます。
 ```
 
-![](../assets/en/Concepts/Horscaling.en.png)![](../assets/en/Concepts/Horscaling2.en.png)
+![](/assets/en/Concepts/Horscaling.en.png)![](/assets/en/Concepts/Horscaling2.en.png)
 
 垂直スケール
 
@@ -118,4 +118,4 @@ circle*|2 // circle の高さを 2倍に伸ばします。
 circle*|0.25 // circle の高さを 25%に縮めます。
 ```
 
-![](../assets/en/Concepts/vertscaling.en.png)![](../assets/en/Concepts/veticalscaling2.en.png)
+![](/assets/en/Concepts/vertscaling.en.png)![](/assets/en/Concepts/veticalscaling2.en.png)

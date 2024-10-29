@@ -71,7 +71,7 @@ Conversion d’un tableau objet :
  $JsonStringPretty :=JSON Stringify array($myArray;*)
 ```
 
-![](../assets/en/commands/pict1205072.fr.png)
+![](/assets/en/commands/pict1205072.fr.png)
 
 #### Exemple 4 
 

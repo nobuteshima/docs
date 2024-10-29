@@ -126,7 +126,7 @@ Vous demandez à un worker d'exécuter une méthode projet en appelant la comman
 
 L'animation suivante illustre cette séquence :
 
-![](../assets/en/Develop/WorkerAnimation.gif)
+![](/assets/en/Develop/WorkerAnimation.gif)
 
 Contrairement à un process créé avec la commande `New process`, un process worker **reste en vie après la fin de l'exécution de la méthode process**. Cela signifie que toutes les exécutions de méthodes pour le même worker seront exécutées dans le même process, qui conserve toutes les informations relatives à l'état du process (variables process, enregistrement courant et sélection courante, etc.). Par conséquent, les méthodes exécutées successivement accèdent aux mêmes informations et les partagent, ce qui permet la communication entre les process. La boîte aux lettres du worker traite les appels successifs de manière asynchrone.
 

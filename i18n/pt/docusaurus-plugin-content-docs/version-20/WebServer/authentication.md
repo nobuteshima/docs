@@ -10,7 +10,7 @@ Authenticating users is necessary when you want to provide specific access right
 
 The 4D web server proposes three authentication modes, that you can select in the **Web**/**Options (I)** page of the Settings dialog box:
 
-![](../assets/en/WebServer/authentication.png)
+![](/assets/en/WebServer/authentication.png)
 
 > É recomendado usar uma autenticação **personalizada**.
 
@@ -18,7 +18,7 @@ The 4D web server proposes three authentication modes, that you can select in th
 
 O funcionamento do sistema de acesso do servidor web 4D está resumido no diagrama seguinte:
 
-![](../assets/en/WebServer/serverAccess.png)
+![](/assets/en/WebServer/serverAccess.png)
 
 > As solicitações que começam com `rest/` são tratadas diretamente pelo [servidor REST](REST/configuration.md).
 

@@ -52,7 +52,7 @@ You want to add a picture with default settings using a filepath.
 
 The result is:
 
-![](../../assets/en/WritePro/commands/pict3617325.en.png)
+![](/assets/en/WritePro/commands/pict3617325.en.png)
 
 #### Example 2 
 
@@ -69,7 +69,7 @@ You want to add a resized picture, centered and anchored to the header:
 
 The result is:
 
-![](../../assets/en/WritePro/commands/pict3617351.en.png)
+![](/assets/en/WritePro/commands/pict3617351.en.png)
 
 #### Example 3 
 
@@ -83,7 +83,7 @@ You want to use a field expression to add an anchored image to a document displa
  WP SET ATTRIBUTES($obImage;wk image formula;Formula([Flowers]Image))
 ```
 
-![](../../assets/en/WritePro/commands/pict3841719.en.png)
+![](/assets/en/WritePro/commands/pict3841719.en.png)
 
 #### See also 
 

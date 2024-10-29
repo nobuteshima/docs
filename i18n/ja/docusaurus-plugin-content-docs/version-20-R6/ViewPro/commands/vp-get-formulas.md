@@ -29,7 +29,7 @@ title: VP Get formulas
 
 このドキュメントの総計行と平均行のフォーミュラを取得します:
 
-![](../../assets/en/ViewPro/cmd_vpGetFormulas.PNG)
+![](/assets/en/ViewPro/cmd_vpGetFormulas.PNG)
 
 以下のコードを使用することができます:
 

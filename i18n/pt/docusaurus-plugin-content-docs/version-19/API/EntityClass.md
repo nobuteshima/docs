@@ -1289,7 +1289,7 @@ No parâmetro *options* pode passar o selector `ddk with primary key` ou`dk with
 
 A estrutura abaixo será usada nos exemplos desta seção:
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 Sem parâmetros de filtro:
 

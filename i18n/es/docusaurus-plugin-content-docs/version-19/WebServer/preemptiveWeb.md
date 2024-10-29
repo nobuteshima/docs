@@ -95,4 +95,4 @@ Tanto el Explorador de ejecución como la ventana de administración de 4D Serve
 
 | Tipo de proceso                  | Icono                                       |
 | -------------------------------- | ------------------------------------------- |
-| Método Web (proceso apropiativo) | ![](../assets/en/WebServer/processIcon.png) |
+| Método Web (proceso apropiativo) | ![](/assets/en/WebServer/processIcon.png) |

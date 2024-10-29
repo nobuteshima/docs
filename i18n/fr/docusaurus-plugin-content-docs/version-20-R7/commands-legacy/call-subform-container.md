@@ -26,7 +26,7 @@ Vous pouvez passer dans *événement* tout événement formulaire prédéfini de
 
 *Principe d’exécution de la commande* **CALL SUBFORM CONTAINER** *:*
 
-![](../assets/en/commands/pict166755.fr.png)
+![](/assets/en/commands/pict166755.fr.png)
 
 #### Voir aussi 
 

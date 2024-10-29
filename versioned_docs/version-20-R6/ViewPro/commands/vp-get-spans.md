@@ -23,7 +23,7 @@ In *rangeObj*, pass a range of cell spans you want to retrieve. If *rangeObj* do
 
 You want to center the text for the spanned cells in this document:
 
-![](../../assets/en/ViewPro/cmd_vpGetSpans.PNG)
+![](/assets/en/ViewPro/cmd_vpGetSpans.PNG)
 
 ```4d
 // Search for all cell spans 

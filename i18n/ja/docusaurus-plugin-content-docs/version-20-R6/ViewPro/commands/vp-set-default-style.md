@@ -38,7 +38,7 @@ $style.backColor:="#E6E6FA" // 薄い紫色
 VP SET DEFAULT STYLE("myDoc";$style)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSetDefaultStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpSetDefaultStyle.PNG)
 
 #### 参照
 

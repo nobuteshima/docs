@@ -19,7 +19,7 @@ Não precisa ativar nada para os usos abaixo:
 
 Com 4D, selecione o comando **Gestião de licenças...** do menu **Ajuda**. Com 4D Server basta lançar a aplicação 4D Server. Aparece a caixa de diálogo para escolher o [modo de ativação](#activation-mode).
 
-![](../assets/en/getStart/server1.png)
+![](/assets/en/getStart/server1.png)
 
 4D oferece três modos de ativação. Recomendamos
 **La activación inmediata**.
@@ -30,11 +30,11 @@ Digite seu ID (email ou conta 4D) e sua senha. Se ainda não tiver uma conta de 
 
 [https://account.4d.com/us/login.shtml](https://account.4d.com/us/login.shtml)
 
-![](../assets/en/getStart/activ1.png)
+![](/assets/en/getStart/activ1.png)
 
 Depois entre o número de licença do produto que quiser ativar. Esse número é fornecido por email depois da compra do produto.
 
-![](../assets/en/getStart/activ2.png)
+![](/assets/en/getStart/activ2.png)
 
 ### Ativação postergada
 
@@ -43,23 +43,23 @@ Se não puder usar [instant activation](#instant-activation) porque seu computad
 1. Na janela de License Manager, selecione a aba **Deferred Activation**.
 2. Digite o número de licença e seu email e clique  **Generate file** para criar o arquivo ID  (_reg.txt_).
 
-![](../assets/en/getStart/activ3.png)
+![](/assets/en/getStart/activ3.png)
 
 3. Salve o arquivo _reg.txt_ para um drive USB e leve ao computador que tenha acesso à internet.
 4. No aparelho com acesso à internet, faça login a  [https://activation.4d.com](https://activation.4d.com).
 5. Na página web, clique no botão **Choose File...** e selecione o arquivo _reg.txt_ dos passos 3 e 4; depois clique no botão **Ativar**.
 6. Baixe os arquivos seriais.
 
-![](../assets/en/getStart/activ4.png)
+![](/assets/en/getStart/activ4.png)
 
 7. Salve os arquivos _license4d_ em uma mídia partilhda e os transfira para a máquina 4D do passo 1.
 8. Agora de volta para a máquina com 4D, ainda na página **Deferred Activation**, clique **Next**; e depois clique no botão **Load...** e selecione o arquivo _license4d_ da mídia social do passo 7.
 
-![](../assets/en/getStart/activ5.png)
+![](/assets/en/getStart/activ5.png)
 
 Com o arquivo licença carregado, clique em **Next**.
 
-![](../assets/en/getStart/activ6.png)
+![](/assets/en/getStart/activ6.png)
 
 9. Clique no botão **Add N°** e adicione outra licença. Repita esses passos até que todas as licenças do passo 6 tenham sido integradas.
 
@@ -75,7 +75,7 @@ Pode adicionar novas licenças, por exemplo par aumentar as capacidades de sua a
 
 Escolha o comando **License Manager...** a partir do menu **Help** da aplicação Servidor 4D ou 4D, depois clicar no botão **Refresh** :
 
-![](../assets/en/getStart/licens1.png)
+![](/assets/en/getStart/licens1.png)
 
 Este botão conecta você à nossa base de dados de clientes e ativa automaticamente quaisquer licenças novas ou actualizadas relacionadas com a licença atual (a licença actual é apresentada em **em negrito** na lista "Active Licenses"). Será pedido sua conta de usuário e senha.
 
@@ -97,23 +97,23 @@ Clique **Login** para entrar usando a sua conta existente ou **Nova Conta** para
 
 Depois de iniciar sessão, pode clicar em **Lista de licenças** no canto superior direito da página:
 
-![](../assets/en/getStart/licens2.png)
+![](/assets/en/getStart/licens2.png)
 
 Aqui pode gerir as suas licenças, atribuindo-as a projectos.
 
 Seleccione a licença apropriada da lista e clique em **Link para um projeto... >**:
 
-![](../assets/en/getStart/licens3.png)
+![](/assets/en/getStart/licens3.png)
 
 Pode selecionar um projeto existente ou criar um novo:
 
-![](../assets/en/getStart/licens4.png)
+![](/assets/en/getStart/licens4.png)
 
-![](../assets/en/getStart/licens5.png)
+![](/assets/en/getStart/licens5.png)
 
 Pode utilizar os projectos para organizar as suas licenças de acordo com as suas necessidades:
 
-![](../assets/en/getStart/licens6.png)
+![](/assets/en/getStart/licens6.png)
 
 ## Resolução de problemas
 

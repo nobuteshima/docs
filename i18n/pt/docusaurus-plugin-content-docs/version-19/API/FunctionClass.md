@@ -291,13 +291,13 @@ O código abaixo cria um diálogo aceitando uma fórmula em formato texto:
  End if
 ```
 
-![](../assets/en/API/formulaDialog.png)
+![](/assets/en/API/formulaDialog.png)
 
 
 ...e executa a fórmula:
 
 
-![](../assets/en/API/formulaAlert.png)
+![](/assets/en/API/formulaAlert.png)
 
 
 

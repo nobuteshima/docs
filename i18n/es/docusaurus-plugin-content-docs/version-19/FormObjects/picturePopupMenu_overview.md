@@ -9,7 +9,7 @@ Un menú emergente de imágenes que muestra un array de imágenes en dos dimensi
 
 Para crear un menú emergente de imágenes, debe [referirse a una imagen](properties_Picture.md#pathname). El siguiente ejemplo permite seleccionar el idioma de la interfaz seleccionandolo en un menú emergente de imágenes. Cada idioma está representado por la bandera correspondiente:
 
-![](../assets/en/FormObjects/picturePopupMenu_example.png)
+![](/assets/en/FormObjects/picturePopupMenu_example.png)
 
 ### Programación
 

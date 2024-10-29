@@ -9,7 +9,7 @@ Esta página contém parâmetros que definem a interface do Editor de código e 
 
 Esta página permite selecionar, criar ou configurar temas do Editor de código. Um tema define a fonte, o tamanho da fonte, as cores e os estilos dos itens apresentados no editor de código.
 
-![](../assets/en/Preferences/themes.png)
+![](/assets/en/Preferences/themes.png)
 
 ### Lista de temas
 
@@ -55,7 +55,7 @@ Pode definir estilos de letra e cores diferentes (cor da letra ou cor de fundo) 
 
 Essas opções configuram as várias cores usadas nas interfaces do Editor de código e do depurador.
 
-![](../assets/en/Preferences/categories.png)
+![](/assets/en/Preferences/categories.png)
 
 |                                                | Descrição                                                                                                                                                                                                    |
 | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -75,7 +75,7 @@ Essas opções configuram as várias cores usadas nas interfaces do Editor de c�
 
 Esta página configura as opções de exibição do Editor de código.
 
-![](../assets/en/Preferences/options.png)
+![](/assets/en/Preferences/options.png)
 
 ### Opções
 
@@ -94,7 +94,7 @@ Altera o valor de indentação do código 4D no editor de código. A largura dev
 
 O código 4D é automaticamente indentado para revelar a sua estrutura:
 
-![](../assets/en/Preferences/optionsIndent.png)
+![](/assets/en/Preferences/optionsIndent.png)
 
 A modificação deste valor predefinido pode ser útil se os seus métodos contiverem algoritmos complexos com muitos níveis de incorporação. Pode ser utilizada uma indentação mais estreita para limitar a deslocação horizontal.
 
@@ -110,7 +110,7 @@ Lets you choose whether or not to show the lists of objects (Commands, Tables an
 
 Permite-lhe escolher se quer ou não mostrar as várias pranchetas no editor de código.
 
-![](../assets/en/Preferences/show-clipboards.png)
+![](/assets/en/Preferences/show-clipboards.png)
 
 Los correspondientes [atajos al portapapeles](https://doc.4d.com/4Dv19R3/4D/19-R3/Writing-a-method.300-5612559.en.html#3977166) siguen activos cuando estos portapapeles están ocultos.
 
@@ -118,7 +118,7 @@ Los correspondientes [atajos al portapapeles](https://doc.4d.com/4Dv19R3/4D/19-R
 
 Quando marcada, todo o código pertencente a um bloco lógico (If/End if, por exemplo) é realçado quando o rato é colocado sobre o nó expandido:
 
-![](../assets/en/Preferences/optionsLogicalBlocks.png)
+![](/assets/en/Preferences/optionsLogicalBlocks.png)
 
 El color de resaltado se puede definir en la página [Tema](#theme-definition).
 
@@ -126,13 +126,13 @@ El color de resaltado se puede definir en la página [Tema](#theme-definition).
 
 Oculta permanentemente as linhas verticais dos blocos. As linhas de bloco são concebidas para ligar visualmente os nós. Por padrão, são sempre apresentados (exceto quando os ícones de recolher/expandir estão ocultos, ver abaixo).
 
-![](../assets/en/Preferences/optionsBlockLines.png)
+![](/assets/en/Preferences/optionsBlockLines.png)
 
 #### Ocultar ícones recolher/expandir
 
 Permite-lhe ocultar todos os ícones de expansão/recolhimento por padrão ao apresentar o código. Quando a opção está selecionada, os ícones dos nós (bem como as linhas de bloco locais, ver acima) são apresentados temporariamente quando o rato é colocado sobre um nó:
 
-![](../assets/en/Preferences/optionsHideIcons.png)
+![](/assets/en/Preferences/optionsHideIcons.png)
 
 #### Inserir () e fechar } ) ] "
 
@@ -142,8 +142,8 @@ Permite a inserção automática de () e de chaves de fecho durante a escrita de
 
 - **cierre }, ), ], o "**: caracter que se añade al escribir respectivamente una apertura {, (, ], o ". Esta função permite inserir pares de símbolos correspondentes no ponto de inserção ou à volta de um texto selecionado. Por exemplo, se realçar uma cadeia de caracteres e escrever um único ", toda a cadeia de caracteres selecionada será colocada entre "":
 
-![](../assets/en/Preferences/optionsClosing.png)\
-![](../assets/en/Preferences/optionsClosing2.png)
+![](/assets/en/Preferences/optionsClosing.png)\
+![](/assets/en/Preferences/optionsClosing2.png)
 
 #### Correspondência \[]\(){}
 
@@ -152,7 +152,7 @@ As opções abaixo estão disponíveis:
 
 - **Ninguno**: sin señales
 - **Retângulo** (padrão): braces cercadas por uma linha preta\
-  ![](../assets/en/Preferences/optionsRectangle.png)
+  ![](/assets/en/Preferences/optionsRectangle.png)
 - **Color de fondo**: corchetes resaltados (el color se define en la página [Tema](#Teme-definition)).
 - **Negrita**: las llaves aparecen en negrita.
 
@@ -160,7 +160,7 @@ As opções abaixo estão disponíveis:
 
 Permite destacar todas as ocorrências da mesma variável ou campo numa janela de método aberta.
 
-![](../assets/en/Preferences/optionsVariables.png)
+![](/assets/en/Preferences/optionsVariables.png)
 
 - **No**(por defecto): no resaltado
 - **Con cursor**: todas las ocurrencias se destacan cuando se hace clic en el texto
@@ -172,7 +172,7 @@ El color de resaltado se puede definir en la página [Tema](#theme-definition).
 
 Destaca a linha que está atualmente em execução no depurador, para além do indicador de seta amarela normal.
 
-![](../assets/en/Preferences/optionsLine.png)
+![](/assets/en/Preferences/optionsLine.png)
 
 Se anular a seleção desta opção, só é mostrada a seta amarela.
 
@@ -182,5 +182,5 @@ Esta área permite-lhe configurar os mecanismos de preenchimento automático no 
 
 |                               | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Abertura automática da janela | Triggers the automatic display of the suggestion window for:<ul><li>Constants</li><li>Variables (local and interprocess) and object attributes</li><li>Tables</li><li>Prototypes (*i.e.*, class functions)</li></ul><p>For example, when the "Variables (local or interprocess) and object attributes" option is checked, a list of suggestions appears when you type the $ character:</p><p>![](../assets/en/Preferences/suggestionsAutoOpen.png)</p> You can disable this functioning for certain elements of the language by deselecting their corresponding option.                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Abertura automática da janela | Triggers the automatic display of the suggestion window for:<ul><li>Constants</li><li>Variables (local and interprocess) and object attributes</li><li>Tables</li><li>Prototypes (*i.e.*, class functions)</li></ul><p>For example, when the "Variables (local or interprocess) and object attributes" option is checked, a list of suggestions appears when you type the $ character:</p><p>![](/assets/en/Preferences/suggestionsAutoOpen.png)</p> You can disable this functioning for certain elements of the language by deselecting their corresponding option.                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Validação de uma sugestão     | Sets the entry context that allows the Code Editor to validate automatically the current suggestion displayed in the autocomplete window.<ul><li>**Tab and delimiters**<br/>When this option is selected, you can validate the current selection with the Tab key or any delimiter that is relevant to the context. Por exemplo, se introduzir "ALE" e depois "(", 4D escreve automaticamente "ALERT(" no editor. Here is the list of delimiters that are taken into account:<br/> ( ; : = < [ {</li><li>**Tab only**<br/>When this option is selected, you can only use the Tab key to insert the current suggestion. This can be used more particularly to facilitate the entry of delimiter characters in element names, such as ${1}.**Note**: You can also double-click in the window or press the Carriage return key to validate a suggestion.</li></ul> |

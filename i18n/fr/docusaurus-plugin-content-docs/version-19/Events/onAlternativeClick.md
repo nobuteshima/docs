@@ -18,12 +18,12 @@ Certains styles de boutons peuvent être [liés à un menu contextuel](FormObjec
 - Si le menu pop-up est **séparé**, l'événement n'est généré que lorsqu'un clic se produit sur la partie du bouton avec la flèche.
 - Si le pop-up menu est **lié**, l'événement est généré lorsqu'un clic se produit sur n'importe quelle partie du bouton. A noter que l'événement [`On Long Click`](onLongClick.md) ne peut pas être généré avec ce type de bouton.
 
-![](../assets/en/Events/clickevents.png)
+![](/assets/en/Events/clickevents.png)
 
 ### List box
 
 Cet événement est généré dans des colonnes de [list box de type tableau objets](FormObjects/listbox_overview.md#object-arrays-in-columns-4d-view-pro), lorsque l'utilisateur clique sur un bouton de sélection de widget (attribut "AlternateButton").
 
-![](../assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
 
 Voir la [description de l'attribut "alternateButton"](FormObjects/listbox_overview.md#alternatebutton).

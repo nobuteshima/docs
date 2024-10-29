@@ -81,7 +81,7 @@ Ces numéros de référence ne sont pas directement utilisables en tant que « s
 
 L’exemple suivant montre comment maintenir un historique des connexions à la base de données en utilisant la **On Server Open Connection database method** et la [On Server Close Connection database method](on-server-close-connection-database-method.md). La table \[Server Log\] (ci-dessous) sert à garder la trace des process de connexion : 
 
-![](../assets/en/commands/pict69173.fr.png)
+![](/assets/en/commands/pict69173.fr.png)
 
 L’information stockée dans cette table est gérée par la **On Server Open Connection database method** et la [On Server Close Connection database method](on-server-close-connection-database-method.md) listées ci-dessous :
 
@@ -121,7 +121,7 @@ L’information stockée dans cette table est gérée par la **On Server Open Co
 
 Voici quelques entrées dans \[Server Log\] montrant plusieurs connexions distantes :
 
-**![](../assets/en/commands/pict69174.fr.png)**
+**![](/assets/en/commands/pict69174.fr.png)**
 
 #### Exemple 2 
 

@@ -279,11 +279,11 @@ Le code suivant permettra de créer un dialogue acceptant une formule dans un fo
  End if
 ```
 
-![](../assets/en/API/formulaDialog.png)
+![](/assets/en/API/formulaDialog.png)
 
 ... et exécute la formule :
 
-![](../assets/en/API/formulaAlert.png)
+![](/assets/en/API/formulaAlert.png)
 
 <!-- REF FunctionClass.apply().Desc -->
 

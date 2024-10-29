@@ -153,7 +153,7 @@ El siguiente ejemplo funciona como lo haría un comando [PRINT SELECTION](print-
 
 Este formulario se utiliza como diálogo y luego se imprime con modificaciones:
 
-![](../assets/en/commands/pict6264975.en.png)
+![](/assets/en/commands/pict6264975.en.png)
 
 El método formulario:
 

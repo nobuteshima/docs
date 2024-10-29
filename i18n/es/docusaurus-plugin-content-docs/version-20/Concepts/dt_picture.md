@@ -58,33 +58,33 @@ Concatenación horizontal
  circle+rectangle //Colocar el rectángulo a la derecha del círculo
  rectangle+circle //Colocar el círculo a la derecha del rectángulo
 ```
-![](../assets/en/Concepts/concatHor.en.png) ![](../assets/en/Concepts/concatHor2.en.png)
+![](/assets/en/Concepts/concatHor.en.png) ![](/assets/en/Concepts/concatHor2.en.png)
 
 Concatenación vertical
 ```4d
  circle+rectangle //Colocar el rectángulo debajo del círculo
  rectangle+circle //Colocar el círculo debajo del rectángulo
 ```
-![](../assets/en/Concepts/concatVer.en.png) ![](../assets/en/Concepts/concatVer2.en.png)
+![](/assets/en/Concepts/concatVer.en.png) ![](/assets/en/Concepts/concatVer2.en.png)
 
 Superposición exclusiva
 ```4d
 Pict3:=Pict1 & Pict2 // Superponer Pict2 sobre Pict1
 ```
-![](../assets/en/Concepts/superimpoExc.fr.png)
+![](/assets/en/Concepts/superimpoExc.fr.png)
 
 Superposición inclusiva
 ```4d
 Pict3:=Pict1|Pict2 // Recupera la máscara resultante de la superposición de dos imágenes del mismo tamaño
 ```
-![](../assets/en/Concepts/superimpoInc.fr.png)
+![](/assets/en/Concepts/superimpoInc.fr.png)
 
 Desplazamiento horizontal
 ```4d
 rectangle+50 //Mover el rectángulo 50 píxeles a la derecha
 rectangle-50 //Mover el rectángulo 50 píxeles a la izquierda
 ```
-![](../assets/en/Concepts/hormove.en.png)
+![](/assets/en/Concepts/hormove.en.png)
 
 Movimiento vertical
 
@@ -92,7 +92,7 @@ Movimiento vertical
 rectangle/50 //Mover el rectángulo 50 píxeles hacia abajo
 rectangle/-20 //Mover el rectángulo 20 píxeles hacia arriba
 ```
-![](../assets/en/Concepts/vertmove.en.png)![](../assets/en/Concepts/vertmove2.en.png)
+![](/assets/en/Concepts/vertmove.en.png)![](/assets/en/Concepts/vertmove2.en.png)
 
 Redimensionamiento
 
@@ -100,7 +100,7 @@ Redimensionamiento
 rectangle*1.5 //El rectángulo se hace un 50% más grande
 rectangle*0.5 //El rectángulo se hace un 50% más pequeño
 ```
-![](../assets/en/Concepts/resize.en.png)![](../assets/en/Concepts/resisze2.en.png)
+![](/assets/en/Concepts/resize.en.png)![](/assets/en/Concepts/resisze2.en.png)
 
 Escala horizontal
 
@@ -109,7 +109,7 @@ circle*+3 //El círculo se hace 3 veces más ancho
 circle*+0,25 //El ancho del círculo se convierte en una cuarta parte de lo que era
 ```
 
-![](../assets/en/Concepts/Horscaling.en.png)![](../assets/en/Concepts/Horscaling2.en.png)
+![](/assets/en/Concepts/Horscaling.en.png)![](/assets/en/Concepts/Horscaling2.en.png)
 
 Escala vertical
 
@@ -118,4 +118,4 @@ circle*|2 //El círculo pasa a ser el doble de alto
 circle*|0.25 //La altura del círculo pasa a ser un cuarto de lo que era
 ```
 
-![](../assets/en/Concepts/vertscaling.en.png)![](../assets/en/Concepts/veticalscaling2.en.png)
+![](/assets/en/Concepts/vertscaling.en.png)![](/assets/en/Concepts/veticalscaling2.en.png)

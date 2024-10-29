@@ -5,7 +5,7 @@ title: Lista hierárquica
 
 As listas hierárquicas são objetos de formulário que podem ser utilizados para apresentar dados como listas com um ou mais níveis que podem ser expandidos ou recolhidos.
 
-![](../assets/en/FormObjects/Hlist1.png)
+![](/assets/en/FormObjects/Hlist1.png)
 
 Quando apropriado, o ícone de expansão/colapso é automaticamente apresentado à esquerda do item. As listas hierárquicas suportam um número ilimitado de subníveis.
 

@@ -11,7 +11,7 @@ El datastore ORDA se basa automáticamente en una estructura de base de datos 4D
 
 Este ejemplo utilizará la siguiente estructura de base de datos 4D simple:
 
-![](../assets/en/ORDA/struc.png)
+![](/assets/en/ORDA/struc.png)
 
 Para saber qué se expone como datastore, cree un nuevo método proyecto, escriba la siguiente línea:
 
@@ -21,7 +21,7 @@ TRACE
 
 Ejecute el método -- simplemente llama la ventana del depurador. En el área de Expresión, haga doble clic para insertar una expresión e introduzca `ds`. Devuelve el objeto del datastore. Despliegue el objeto, puede ver que las tablas y los campos son expuestos automáticamente por ORDA como propiedades del objeto `ds`:
 
-![](../assets/en/ORDA/debug1.png)
+![](/assets/en/ORDA/debug1.png)
 
 Esto significa por ejemplo que, siempre que necesite hacer referencia al campo city de la tabla [Company], en ORDA sólo tendrá que escribir:
 
@@ -35,7 +35,7 @@ ds.Company.city // devuelve el nombre de la ciudad
 
 También habrá notado la propiedad extra `hires` en la dataclass ds.Company. No corresponde a un campo. `hires` es en realidad el nombre de la relación *Uno a muchos* entre Company y Employee:
 
-![](../assets/en/ORDA/struc2s.png) *Nombre de la relación definida en el Inspector*
+![](/assets/en/ORDA/struc2s.png) *Nombre de la relación definida en el Inspector*
 
 Es decir, siempre que necesite acceder a la lista de empleados que trabajan en una empresa, en ORDA sólo tiene que escribir:
 
@@ -72,7 +72,7 @@ $status:=$entity.save()
 
 El editor de usuarios se encuentran en la caja de herramientas de 4D.
 
-![](../assets/en/Users/editor.png)
+![](/assets/en/Users/editor.png)
 
 ### Añadir y modificar usuarios
 
@@ -84,7 +84,7 @@ Para añadir un usuario desde la caja de herramientas :
 
 La lista de usuarios muestra todos los usuarios, incluyendo el [Diseñador y el Administrador](#designer-and-administrator).
 
-2. Haga clic en el botón ![](../assets/en/Users/PlussNew.png) situado debajo de la lista de usuarios. OR Right-click in the list of users and choose **Add** or **Duplicate** in the context menu.
+2. Haga clic en el botón ![](/assets/en/Users/PlussNew.png) situado debajo de la lista de usuarios. OR Right-click in the list of users and choose **Add** or **Duplicate** in the context menu.
 
 > El comando **Duplicar** se puede utilizar para crear varios usuarios que tengan las mismas características rápidamente.
 
@@ -102,7 +102,7 @@ La pertenencia de los usuarios a los distintos grupos también puede definirse p
 
 ### Eliminar un usuario
 
-Para eliminar un usuario, selecciónelo y haga clic en el botón de eliminación o utilice el comando **Suprimir** del menú contextual. ![](../assets/en/Users/MinussNew.png)
+Para eliminar un usuario, selecciónelo y haga clic en el botón de eliminación o utilice el comando **Suprimir** del menú contextual. ![](/assets/en/Users/MinussNew.png)
 
 Los nombres de usuario borrados ya no aparecen en el editor de usuarios. Tenga en cuenta que los ID de los usuarios eliminados se reasignan cuando se crean nuevas cuentas de usuario.
 
@@ -126,7 +126,7 @@ Para crear un grupo:
 
 1. Seleccione **Caja de herramientas > Grupos** en el menú **Diseño** o haga clic en el botón **Caja de herramientas** de la barra de herramientas de 4D luego haga clic en el botón **Grupos**. 4D muestra la ventana del editor de grupos. La lista de grupos muestra todos los grupos de la base.
 
-2. Haga clic en el botón ![](../assets/en/Users/PlussNew.png)ubicado debajo de la lista de grupos.  
+2. Haga clic en el botón ![](/assets/en/Users/PlussNew.png)ubicado debajo de la lista de grupos.  
    O  
    Haga clic derecho en la lista de grupos y elija el comando **Añadir** o **Duplicar** en el menú contextual.
 
@@ -142,7 +142,7 @@ Puede colocar cualquier usuario o grupo en un grupo, y también puede colocar el
 
 Para incluir a un usuario o grupo en un grupo, basta con marcar la opción "Miembro" para cada usuario o grupo en el área de atribución de los miembros:
 
-![](../assets/en/Users/groups.png)
+![](/assets/en/Users/groups.png)
 
 Si se marca el nombre de un usuario, éste se añade al grupo. Si marca el nombre de un grupo, todos los usuarios del grupo se añaden al nuevo grupo. El usuario o grupo afiliado tendrá entonces los mismos privilegios de acceso que los asignados al nuevo grupo.
 
@@ -160,7 +160,7 @@ También puede controlar el uso del servidor Web y del servidor SOAP de 4D en mo
 
 El área "Plug-in" de la página Grupos de la caja de herramientas lista todos los plug-ins cargados por la aplicación 4D. Para dar acceso a un grupo a un complemento, basta con marcar la opción correspondiente.
 
-![](../assets/en/Users/plugins.png)
+![](/assets/en/Users/plugins.png)
 
 Las líneas **4D Client Web Server** y **4D Client SOAP Server** permiten controlar la posibilidad de publicación Web y SOAP (Web Services) de cada 4D en modo remoto. Estas licencias son consideradas por 4D Server como licencias de plug-in. Por lo tanto, al igual que en el caso de los plug-ins, puede restringir el derecho de uso de estas licencias a un grupo específico de usuarios.
 
@@ -172,11 +172,11 @@ En este ejemplo, un usuario es asignado a uno de los tres grupos en función de 
 
 A continuación, los grupos se anidan para que los privilegios se distribuyan correctamente entre los usuarios de cada grupo.
 
-- El grupo de Dirección General sólo contiene usuarios de "alto nivel". ![](../assets/en/Users/schema1.png)
+- El grupo de Dirección General sólo contiene usuarios de "alto nivel". ![](/assets/en/Users/schema1.png)
 
-- El grupo Finanzas contiene usuarios de mantenimiento de datos, así como también usuarios de Dirección General, por lo que los usuarios de Dirección General también tienen los privilegios del grupo Finanzas. ![](../assets/en/Users/schema2.png)
+- El grupo Finanzas contiene usuarios de mantenimiento de datos, así como también usuarios de Dirección General, por lo que los usuarios de Dirección General también tienen los privilegios del grupo Finanzas. ![](/assets/en/Users/schema2.png)
 
-- El grupo Contabilidad contiene usuarios de entrada de datos así como usuarios del grupo Finanzas, por lo que los usuarios que pertenecen al grupo Finanzas y al grupo Dirección General disfrutan también de los privilegios del grupo Contabilidad. ![](../assets/en/Users/schema3.png)
+- El grupo Contabilidad contiene usuarios de entrada de datos así como usuarios del grupo Finanzas, por lo que los usuarios que pertenecen al grupo Finanzas y al grupo Dirección General disfrutan también de los privilegios del grupo Contabilidad. ![](/assets/en/Users/schema3.png)
 
 Puede decidir qué privilegios de acceso asignar a cada grupo en función del nivel de responsabilidad de los usuarios que contiene.
 

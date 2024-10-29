@@ -9,7 +9,7 @@ As aplicações 4D desktop podem ser utilizadas numa configuração Cliente/Serv
 
 - **Projetos remotos** são arquivos [.4DProject] (Project/architecture.md) abertos pelo 4D Server e acessados com o 4D em modo remoto. O servidor envia uma versão .4dz do projeto ([formato comprimido](building.md#build-compiled-structure)) para o 4D remoto, assim os arquivos de estrutura são apenas de leitura. Esta configuração é normalmente utilizada para testar aplicações.
 
-![](../assets/en/getStart/localremote.png)
+![](/assets/en/getStart/localremote.png)
 
 > Conectar a um projeto remoto da **mesma máquina que o 4D Server** permite modificar os arquivos do projeto. Esta [funcionalidade específica](#using-4d-and-4d-server-on-the-same-machine) permite desenvolver uma aplicação cliente/servidor no mesmo contexto do contexto de implantação.
 
@@ -36,13 +36,13 @@ Aparece o diálogo de ligação do 4D Server. Este diálogo possui três guias: 
 
 Se o 4D Server estiver conectado à mesma sub-rede que o 4D remoto, selecione **Disponível**. O servidor 4D inclui um sistema de transmissão integrado que, por padrão, publica o nome dos projetos 4D Server disponíveis na rede. A lista é classificada por ordem de aparecimento e atualizada dinamicamente.
 
-![](../assets/en/getStart/serverConnect.png)
+![](/assets/en/getStart/serverConnect.png)
 
 Para conectar a um servidor da lista, clique duas vezes no seu nome ou selecione-o e clique no botão **OK**.
 
 Se o projeto publicado não for exibido na lista **Disponível**, selecione **Personalizado**. The Custom page allows you to connect to a published server on the network using its network address and assigning it a customized name.
 
-![](../assets/en/Desktop/serverConnect2.png)
+![](/assets/en/Desktop/serverConnect2.png)
 
 - **Nome do projeto**: Define o nome local do projeto no servidor 4D. Este nome será usado na página **Recente** quando referente ao projeto.
 - **Endereço de rede**: O endereço IP da máquina onde o 4D Server foi lançado.

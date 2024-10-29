@@ -26,7 +26,7 @@ Dans *rangeObj*, passez un objet de plage de cellules. Les cellules de la plage 
 
 Pour fusionner les cellules First quarter et Second quarter avec les deux cellules côte à côte, et de fusionner la cellule South area avec les deux lignes en-dessous :
 
-![initial-document](../../assets/en/ViewPro/vp-add-span.png)
+![initial-document](/assets/en/ViewPro/vp-add-span.png)
 
 ```4d
  // Plage First quarter
@@ -41,7 +41,7 @@ Pour fusionner les cellules First quarter et Second quarter avec les deux cellul
  VP ADD SPAN(VP Combine ranges($q1;$q2;$south))
 ```
 
-![vp-add-span-result](../../assets/en/ViewPro/vp-add-span-2.png)
+![vp-add-span-result](/assets/en/ViewPro/vp-add-span-2.png)
 
 #### Voir également
 

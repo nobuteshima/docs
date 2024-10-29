@@ -42,7 +42,7 @@ Dans *débutPlage* et *finPlage*, passez des valeurs correspondant à la positio
 
 Vous souhaitez sélectionner une plage de 12 caractères à partir du début d'un champ 4D Write Pro. Le champ est affiché dans un objet de formulaire :
 
-![](../../assets/en/WritePro/commands/pict2644268.en.png)
+![](/assets/en/WritePro/commands/pict2644268.en.png)
 
 Si vous exécutez :
 
@@ -53,7 +53,7 @@ Si vous exécutez :
 
 ... le résultat est le suivant :
 
-![](../../assets/en/WritePro/commands/pict2644270.en.png)
+![](/assets/en/WritePro/commands/pict2644270.en.png)
 
 #### Exemple 2 
 

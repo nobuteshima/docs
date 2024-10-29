@@ -26,11 +26,11 @@ title: インストール
 
 インストールが完了すると、4D を起動し、ログインすることができます。 起動するには、4D 製品のアイコンをダブルクリックします。
 
-![](../assets/en/getStart/logo4d.png)
+![](/assets/en/getStart/logo4d.png)
 
 すると、Welcome ウィザードが表示されます:
 
-![](../assets/en/getStart/welcome2.png)
+![](/assets/en/getStart/welcome2.png)
 
 - 4D を試用するには、"初めて 4D をお使いですか？" の下にある、**無料体験版を開始するにはここをクリック** から先に進みます (4D アカウントでログイン、またはアカウントを新規作成する必要があります)。
 

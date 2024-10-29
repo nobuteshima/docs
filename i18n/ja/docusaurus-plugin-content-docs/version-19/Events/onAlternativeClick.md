@@ -18,12 +18,12 @@ title: On Alternative Click
 - ポップアップメニューが **分離** されている場合、このイベントはボタン中で矢印のあるエリアがクリックされた場合のみ生成されます。
 - ポップアップメニューが **リンク** されている場合、このイベントはボタン上どこをクリックしても生成されます。 このタイプのボタンでは [`On Long Click`](onLongClick.md) イベントが生成されないことに注意してください。
 
-![](../assets/en/Events/clickevents.png)
+![](/assets/en/Events/clickevents.png)
 
 ### リストボックス
 
 このイベントは [オブジェクト配列型のリストボックス](FormObjects/listbox_overview.md#オブジェクト配列カラムの設定) のカラムにおいて、ユーザーがウィジェットのエリプシスボタン ("alternateButton" 属性) をクリックしたときに生成されます。
 
-![](../assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
 
 ["alternateButton" 属性の説明](FormObjects/listbox_overview.md#alternatebutton) を参照ください。

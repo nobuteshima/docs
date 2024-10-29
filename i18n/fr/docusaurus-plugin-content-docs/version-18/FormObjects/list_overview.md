@@ -7,7 +7,7 @@ title: Liste hiérarchique
 
 Les listes hiérarchiques sont des objets de formulaire permettant d'afficher des données sous forme de listes comportant un ou plusieurs niveaux qu'il est possible de déployer ou de contracter.
 
-![](../assets/en/FormObjects/Hlist1.png)
+![](/assets/en/FormObjects/Hlist1.png)
 
 Le cas échéant, l'icône déployer/contractée est automatiquement affichée à gauche de l'élément. Les listes hiérarchiques prennent en charge un nombre illimité de sous-niveaux.
 

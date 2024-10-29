@@ -9,7 +9,7 @@ title: インターフェースページ
 
 このエリアでは、表示に関する様々なオプションを設定します。
 
-![](../assets/en/settings/interface-page.png)
+![](/assets/en/settings/interface-page.png)
 
 ### MESSAGEコマンドで使用されるフォント
 
@@ -37,7 +37,7 @@ title: インターフェースページ
 
 - **WindowsでSDIモードを使用する**: このオプションが選択されていると、[対応している環境](../Menus/sdi.md#SDIモード利用条件) で組み込みアプリが実行された場合に、4D は自動で [SDIモード (Single-Document Interface)](../Menus/sdi.md) を有効にします。 このオプションを選択すると、Windows では、4D メニューバーの **実行** メニューからアプリケーションの実行モードが選択できます:
 
-  ![](../assets/en/settings/sdi-mdi.png)
+  ![](/assets/en/settings/sdi-mdi.png)
 
 :::note
 
@@ -53,8 +53,8 @@ title: インターフェースページ
 
 以下のスキームが利用可能です:
 
-- **ライト**: アプリケーションはデフォルトのライトテーマを使用します。![](../assets/en/settings/light-appearance.png)
-- **ダーク**: アプリケーションはデフォルトのダークテーマを使用します。![](../assets/en/settings/dark-appearance.png)
+- **ライト**: アプリケーションはデフォルトのライトテーマを使用します。![](/assets/en/settings/light-appearance.png)
+- **ダーク**: アプリケーションはデフォルトのダークテーマを使用します。![](/assets/en/settings/dark-appearance.png)
 - **継承する** (デフォルト): アプリケーションは次の優先レベル (例: OSユーザー設定) のテーマを継承します。
 
 > デフォルトのテーマは CSS で管理可能です。 詳細については、[メディアクエリ](../FormEditor/createStylesheet.md#メディアクエリ) を参照してください。
@@ -76,6 +76,6 @@ title: インターフェースページ
 
 操作のショートカットを変更するには、対応する **編集** ボタンをクリックします。 以下のダイアログボックスが表示されます:
 
-![](../assets/en/settings/shortcut.png)
+![](/assets/en/settings/shortcut.png)
 
 ショートカットを変更するにはキーボードで新しいキーの組み合わせをタイプし、**OK** をクリックします。 ショートカットを無効にするには、**クリア** ボタンをクリックします。

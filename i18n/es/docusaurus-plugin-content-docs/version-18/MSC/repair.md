@@ -28,7 +28,7 @@ Por defecto, el archivo de datos original se duplicará antes de la operación d
 
 Se debe elegir la reparación estándar cuando sólo están dañados unos pocos registros o índices (las tablas de direcciones están intactas). Los datos se compactan y se reparan. Este tipo de reparación sólo puede realizarse cuando los datos y el archivo de estructura coinciden.
 
-Una vez finalizado el procedimiento de reparación, aparece la página "Reparación" del CSM. Un mensaje indica si la reparación fue exitosa. Si es así, puede abrir la base inmediatamente. ![](../assets/en/MSC/MSC_RepairOK.png)
+Una vez finalizado el procedimiento de reparación, aparece la página "Reparación" del CSM. Un mensaje indica si la reparación fue exitosa. Si es así, puede abrir la base inmediatamente. ![](/assets/en/MSC/MSC_RepairOK.png)
 
 ## Reparación por encabezados de registros
 
@@ -40,7 +40,7 @@ Los registros 4D varían en tamaño, por lo que es necesario mantener la ubicaci
 
 Al hacer clic en **Escanear y reparar...**, 4D realiza un análisis completo del archivo de datos. Una vez finalizado el análisis, los resultados aparecen en la siguiente ventana:
 
-![](../assets/en/MSC/mscrepair2.png)
+![](/assets/en/MSC/mscrepair2.png)
 > Si todos los registros y todas las tablas han sido asignados, sólo se muestra el área principal.
 
 El área "Registros encontrados en el archivo de datos" incluye dos tablas que resumen la información del análisis del archivo de datos.
@@ -57,7 +57,7 @@ El área "Registros encontrados en el archivo de datos" incluye dos tablas que r
 
 Si varios grupos de registros no han podido ser asignados a las tablas debido a una tabla de direcciones dañada, puede asignarlos manualmente. Para ello, seleccione primero un grupo de registros sin asignar en la primera tabla. El área "Contenido de los registros" muestra entonces una vista previa del contenido de los primeros registros del grupo para facilitar su asignación:
 
-![](../assets/en/MSC/mscrepair3.png)
+![](/assets/en/MSC/mscrepair3.png)
 
 A continuación, seleccione la tabla que desea asignar al grupo en la tabla "Tablas no asignadas" y haga clic en el botón **Identificar tabla**. También puede asignar una tabla utilizando arrastrar y soltar. El grupo de registros se asocia entonces a la tabla y se recupera en esta tabla. Los nombres de las tablas que se asignan manualmente aparecen en negro. Utilice el botón **Ignorar registros** para eliminar la asociación realizada manualmente entre la tabla y el grupo de registros.
 

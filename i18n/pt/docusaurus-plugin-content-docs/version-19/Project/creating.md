@@ -14,7 +14,7 @@ O desenvolvimento multi-usuário é gerido através de ferramentas de **source c
 Para criar um novo projeto de banco de dados:
 
 1. Inicie 4D ou 4D Server.
-2. Select **New > Project...** from the **File** menu: ![](../assets/en/getStart/projectCreate1.png)OR(4D only) Select **Project...** from the **New** toolbar button:![](../assets/en/getStart/projectCreate2.png)A standard **Save** dialog appears so you can choose the name and location of the 4D project's main folder.
+2. Select **New > Project...** from the **File** menu: ![](/assets/en/getStart/projectCreate1.png)OR(4D only) Select **Project...** from the **New** toolbar button:![](/assets/en/getStart/projectCreate2.png)A standard **Save** dialog appears so you can choose the name and location of the 4D project's main folder.
 
 3. Coloque o nome de sua pasta de projeto e clique **Save**. Este nome será utilizado:
 
@@ -69,7 +69,7 @@ Você pode usar um arquivo [`.4DLink`](#about-4DLink-files) para iniciar o aplic
 - duplo-clique ou arraste e solte o arquivo `.4DLink` no aplicativo 4D
 - ir para **Arquivo** > **Abrir Projetos Recentes** e selecionar um projeto
 
-![open-recent-projects](../assets/en/Project/4Dlinkfiles.png)
+![open-recent-projects](/assets/en/Project/4Dlinkfiles.png)
 
 Um arquivo .4DLink do tipo "projeto remoto" pode ser copiado e usado em várias máquinas.
 > Também é possível selecionar um arquivo 4DLink na caixa de diálogo 4D e 4D Server de abertura (abrindo apenas projeto local).
@@ -104,10 +104,10 @@ Jà que os editores usam arquivos no disco, podem ocorrer conflitos potenciais s
 
 A estrutura de desenvolvimento 4D inclui um gerenciador de acesso a ficheiros para controlar o acesso simultâneo:
 
-- se um arquivo aberto for somente leitura no nível do SO, um ícone bloqueado será exibido no editor: ![](../assets/en/Project/lockicon.png)
+- se um arquivo aberto for somente leitura no nível do SO, um ícone bloqueado será exibido no editor: ![](/assets/en/Project/lockicon.png)
 - se um arquivo aberto for editado simultaneamente a partir de diferentes locais, 4D exibe uma caixa de diálogo de alerta ao tentar salvar as alterações:
 
-![](../assets/en/Project/projectReload.png)
+![](/assets/en/Project/projectReload.png)
 
 - **Sim**: descartar as alterações do editor e recarregar a versão modificada
 - **Não**: salve as alterações e substitui a outra versão

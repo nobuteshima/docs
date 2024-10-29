@@ -47,7 +47,7 @@ Dans le paramètre optionnel *sheet*, vous pouvez désigner une feuille spécifi
 
 Vous souhaitez définir un objet plage pour les cellules suivantes (de la feuille courante) :
 
-![](../../assets/en/ViewPro/vp-cells.png)
+![](/assets/en/ViewPro/vp-cells.png)
 
 Le code est le suivant :
 

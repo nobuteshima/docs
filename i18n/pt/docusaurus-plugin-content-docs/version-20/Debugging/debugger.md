@@ -5,7 +5,7 @@ title: Depurador
 
 O depurador é útil quando é necessário detetar erros ou monitorizar a execução de métodos. Permite-lhe percorrer o seu código lentamente e examinar a informação. Este processo é designado por "rastreio".
 
-![debugger-window-local](../assets/en/Debugging/debugger-window-intro.png)
+![debugger-window-local](/assets/en/Debugging/debugger-window-intro.png)
 
 ## Chamando o depurador
 
@@ -16,7 +16,7 @@ Há várias formas de exibir o depurador:
 * Clicar no botão **Debug** na janela de execução do método ou selecionar o botão **Run and debug...** no editor de código
 * Utilizando **Alt+Shift+Clique com o botão direito do rato em** (Windows) ou **Ctrl+Option+Cmd+Clique em** (macOS) enquanto um método está a ser executado e, em seguida, seleccione o processo a rastrear no menu instantâneo:
 
-![open-debugger](../assets/en/Debugging/openDebugger.png)
+![open-debugger](/assets/en/Debugging/openDebugger.png)
 
 * Clicando no botão **Trace** quando um processo é selecionado na página Processo do Explorador de execução.
 * Adicionar um ponto de interrupção na janela do Editor de código ou nas páginas Break e Catch do Explorador de execução.
@@ -39,7 +39,7 @@ A janela do depurador é normalmente apresentada na máquina onde o código é e
 
 A barra de ferramentas do depurador inclui vários botões, associados a atalhos predefinidos:
 
-![execution-control-toolbar-buttons](../assets/en/Debugging/executionToolbarButtons.png)
+![execution-control-toolbar-buttons](/assets/en/Debugging/executionToolbarButtons.png)
 
 > Os atalhos padrão podem ser personalizados na página Atalhos da caixa de diálogo Preferências.
 
@@ -100,7 +100,7 @@ Esta ação não está disponível no modo de depuração remota (consulte [Depu
 
 A **janela de expressão** é apresentado no canto superior esquerdo da janela do depurador, por baixo da barra de ferramentas de controlo da execução. Aqui um exemplo simples:
 
-![watch-pane](../assets/en/Debugging/watchPane.png)
+![watch-pane](/assets/en/Debugging/watchPane.png)
 
 > Este painel não está disponível no modo de depuração remota.
 
@@ -169,17 +169,17 @@ Os arrays, como outras variáveis, aparecem nos subtemas Interprocesso, Processo
 
 Para apresentar os tipos de variáveis e os seus nomes internos, clique com o botão direito do rato e selecione a opção **Mostrar tipos** no menu de contexto:
 
-![show-types-menu-item](../assets/en/Debugging/showTypes.png)
+![show-types-menu-item](/assets/en/Debugging/showTypes.png)
 
 Aqui está o resultado:
 
-![dynamic-variable-names](../assets/en/Debugging/dynamicVariableNames.png)
+![dynamic-variable-names](/assets/en/Debugging/dynamicVariableNames.png)
 
 #### Valores actuais do formulário
 
 Este tema contém o nome de cada objeto dinâmico incluído no formulário atual, bem como o valor da sua variável associada:
 
-![current-form-value](../assets/en/Debugging/current-form-values.png)
+![current-form-value](/assets/en/Debugging/current-form-values.png)
 
 Alguns objetos, como os arrays list box, podem ser apresentados como dois objetos distintos, a variável do próprio objeto e a sua fonte de dados.
 
@@ -229,7 +229,7 @@ As expressões contidas neste tema não podem ser modificadas.
 
 O menu contextual da janela de expressão oferece opções adicionais.
 
-![context-menu](../assets/en/Debugging/contextual-menu.png)
+![context-menu](/assets/en/Debugging/contextual-menu.png)
 
 * **Recolher tudo**: Recolhe todos os níveis da lista hierárquica.
 * **Expandir tudo**: Expandir todos os níveis da lista hierárquica.
@@ -244,7 +244,7 @@ O menu contextual da janela de expressão oferece opções adicionais.
 
 Um método pode chamar outros métodos ou funções de classe, que podem chamar outros métodos ou funções. O painel Cadeia de chamadas permite-lhe acompanhar essa hierarquia.
 
-![call-chain-pane](../assets/en/Debugging/call-chain-example.png)
+![call-chain-pane](/assets/en/Debugging/call-chain-example.png)
 
 Cada item do nível principal é o nome de um método ou função classe. O item superior é o que é atualmente rastreado, o item seguinte do nível principal é o nome do chamador (o método ou função que chamou o que é atualmente rastreado), o item seguinte é o chamador do chamador, e assim por diante.
 
@@ -263,7 +263,7 @@ Clicar no ícone junto ao nome de um método ou função expande, ou recolhe os 
 
 Para visualizar o tipo de parâmetro, seleccione a opção **Mostrar tipos** no menu contextual:
 
-![call-chain-show-types](../assets/en/Debugging/callChainShowTypes.png)
+![call-chain-show-types](/assets/en/Debugging/callChainShowTypes.png)
 
 Depois de implementar a lista de parâmetros, você pode arrastar e soltar parâmetros e resultados de funções para o painel [Custom Watch Pane](#custom-watch-pane).
 
@@ -281,7 +281,7 @@ O Painel de controle personalizado é útil para avaliar expressões. É semelha
 * method
 * e qualquer outra coisa que devolva um valor
 
-![custom-Watch-pane](../assets/en/Debugging/custom-watch-pane.png)
+![custom-Watch-pane](/assets/en/Debugging/custom-watch-pane.png)
 
 É possível avaliar qualquer expressão que possa ser apresentada sob a forma de texto. Isto não abrange os campos ou variáveis imagem e BLOB. Para visualizar o conteúdo do BLOB, pode utilizar comandos BLOB, tais como [BLOB para texto](https://doc.4d.com/4dv19/help/command/en/page555.html).
 
@@ -304,11 +304,11 @@ Para excluir uma expressão, clique nela para selecioná-la e, em seguida, press
 
 O menu de contexto do Custom Watch Pane lhe dá acesso ao editor de fórmulas 4D e a outras opções:
 
-![custom-watch-pane-context-menu](../assets/en/Debugging/custom-watch-pane-context-menu.png)
+![custom-watch-pane-context-menu](/assets/en/Debugging/custom-watch-pane-context-menu.png)
 
 **New Expression**: Insere uma nova expressão e exibe o 4D Formula Editor.
 
-![custom-Watch-pane-context-menu](../assets/en/Debugging/custom-watch-pane-formula-editor.png)
+![custom-Watch-pane-context-menu](/assets/en/Debugging/custom-watch-pane-formula-editor.png)
 
 Para obter mais informações sobre o Formula Editor, consulte o manual <a href="https://doc.4d.com/4Dv19/4D/19/4D-Design-Reference.100-5416591.en.html" target="_blank">4D Design Reference.</a>
 
@@ -338,11 +338,11 @@ Passe o ponteiro do rato sobre qualquer expressão para visualizar uma dica de f
 * o tipo declarado da expressão
 * o valor atual da expressão
 
-![source-code-pane](../assets/en/Debugging/sourceCodePane.png)
+![source-code-pane](/assets/en/Debugging/sourceCodePane.png)
 
 Isto também funciona com as selecções:
 
-![source-code-pane-tip](../assets/en/Debugging/sourcePaneTip.png)
+![source-code-pane-tip](/assets/en/Debugging/sourcePaneTip.png)
 
 ### Adição de expressões ao painel de controle personalizado
 
@@ -384,7 +384,7 @@ Digamos que o contador de programas esteja definido na linha `If (This condition
 
 O menu contextual do painel Código-fonte fornece acesso a várias funções que são úteis ao executar métodos no modo Rastreamento:
 
-![source-code-pane-context-window](../assets/en/Debugging/sourceCodePaneContext.png)
+![source-code-pane-context-window](/assets/en/Debugging/sourceCodePaneContext.png)
 
 * **Ir para definição**: vai para onde o objeto selecionado está definido. Este comando está disponível para:
   * *Métodos projeto:* apresenta o conteúdo do método numa nova janela do editor de código

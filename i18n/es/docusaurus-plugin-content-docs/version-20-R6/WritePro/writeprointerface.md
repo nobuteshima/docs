@@ -25,19 +25,19 @@ Para implementar el Asistente de tablas en su aplicación, los desarrolladores p
 
 El usuario abre el diálogo Asistente para tablas desde el elemento de menú "Insertar tabla" de la barra de herramientas y la barra lateral de la interfaz de 4D Write Pro.
 
-![](../assets/en/WritePro/tablewizard-interface2.png)
+![](/assets/en/WritePro/tablewizard-interface2.png)
 
 Desde esta interfaz, el usuario puede seleccionar una plantilla o una tabla en la primera lista desplegable y un tema en la segunda.
 
 ##### En Columnas:
 
-![](../assets/en/WritePro/columns2.PNG)
+![](/assets/en/WritePro/columns2.PNG)
 
 Dependiendo de si el usuario selecciona un modelo o una tabla, puede ver la lista de campos almacenados en el modelo (los tipos Blob y objeto se excluyen automáticamente). A continuación, pueden seleccionar las columnas que se mostrarán en la tabla marcando la casilla situada delante del nombre del campo y ordenarlas moviendo y arrastrando la lista de campos.
 
 ##### En líneas:
 
-![](../assets/en/WritePro/rows1.PNG)
+![](/assets/en/WritePro/rows1.PNG)
 
 En el Asistente para tablas, el usuario también puede definir el número de filas de encabezado y filas adicionales (de 0 a 5 cada una), definir [filas de interrupción](https://doc.4d.com/4Dv20/4D/20/Handling-tables.200-6229469.en.html#6233076) (filas de resumen) encima o debajo de la fila de datos, y elegir mostrar/ocultar [filas de arrastre](https://doc.4d.com/4Dv20/4D/20/Handling-tables.200-6229469.en.html#6236686).
 
@@ -45,7 +45,7 @@ Además, el usuario tiene la posibilidad de elegir el comportamiento de la tabla
 
 ##### En pantalla:
 
-![](../assets/en/WritePro/display2.PNG)
+![](/assets/en/WritePro/display2.PNG)
 
 El usuario ajusta el nivel de zoom según sus preferencias seleccionando la opción deseada de una lista desplegable, utiliza botones de opción para mostrar fórmulas o datos para una presentación clara y elige mostrar una regla horizontal utilizando una casilla de verificación.
 

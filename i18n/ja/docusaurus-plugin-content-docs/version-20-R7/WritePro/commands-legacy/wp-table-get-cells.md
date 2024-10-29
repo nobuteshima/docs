@@ -65,7 +65,7 @@ displayed_sidebar: docs
 
 結果: 
 
-![](../../assets/en/WritePro/commands/pict3307320.en.png)
+![](/assets/en/WritePro/commands/pict3307320.en.png)
 
 #### 例題 2 
 

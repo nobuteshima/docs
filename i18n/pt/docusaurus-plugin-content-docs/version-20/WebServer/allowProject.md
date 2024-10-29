@@ -12,7 +12,7 @@ Este mecanismo representa, portanto, um risco de segurança para a aplicação, 
 
 *   Use a opção **Available through 4D tags and URLs (4DACTION...)** encontrada na caixa de diálogo Method properties:
 
-![](../assets/en/WebServer/methodProperties.png)
+![](/assets/en/WebServer/methodProperties.png)
 
 Esta opção é utilizada para designar individualmente cada método de projeto que pode ser chamado utilizando o URL especial `4DACTION` , ou as etiquetas `4DTEXT`, `4DHTML`, `4DEVAL`, `4DSCRIPT`, `4DIF`, `4DELSEIF` ou `4DLOOP` . Se não estiver assinalado, o método de projeto em causa não pode ser executado diretamente através de um pedido HTTP. Por outro lado, pode ser executado através de outros tipos de chamadas (fórmulas, outros métodos, etc.).
 
@@ -20,4 +20,4 @@ Esta opção não está selecionada por defeito. Os métodos que podem ser execu
 
 No Explorador, os métodos de projeto com esta propriedade recebem um ícone específico:
 
- ![](../assets/en/WebServer/methodIcon.png)
+ ![](/assets/en/WebServer/methodIcon.png)

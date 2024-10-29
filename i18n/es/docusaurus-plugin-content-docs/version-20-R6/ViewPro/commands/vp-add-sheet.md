@@ -31,7 +31,7 @@ En *name*, puede pasar un nombre para la nueva hoja. El nuevo nombre no puede co
 
 El documento tiene actualmente 3 hojas:
 
-![vp-document-with-3-sheets](../../assets/en/ViewPro/vp-sheet-3.png)
+![vp-document-with-3-sheets](/assets/en/ViewPro/vp-sheet-3.png)
 
 Para insertar una hoja en la tercera posición (índice 2) y nombrarla "March":
 
@@ -39,7 +39,7 @@ Para insertar una hoja en la tercera posición (índice 2) y nombrarla "March":
 VP ADD SHEET("ViewProArea";2;"March")
 ```
 
-![vp-add-sheet](../../assets/en/ViewPro/vp-add-sheet.png)
+![vp-add-sheet](/assets/en/ViewPro/vp-add-sheet.png)
 
 #### Ver también
 

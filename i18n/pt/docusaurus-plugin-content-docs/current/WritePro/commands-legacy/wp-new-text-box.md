@@ -58,7 +58,7 @@ Se quiser criar uma caixa de texto padrão:
 
 Resultado:
 
-![](../../assets/en/WritePro/commands/pict6196750.en.png)
+![](/assets/en/WritePro/commands/pict6196750.en.png)
 
 #### Exemplo 2 
 
@@ -91,7 +91,7 @@ Se quiser adicionar uma caixa de texto em um modelo de carta, para exibir o ende
 
 Result:
 
-![](../../assets/en/WritePro/commands/pict6196766.en.png)
+![](/assets/en/WritePro/commands/pict6196766.en.png)
 
 #### Ver também 
 

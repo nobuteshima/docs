@@ -25,7 +25,7 @@ In the optional *sheet* parameter, you can designate a specific spreadsheet wher
 
 #### Example
 
-![](../../assets/en/ViewPro/cmd_vpGetActiveCell.PNG)
+![](/assets/en/ViewPro/cmd_vpGetActiveCell.PNG)
 
 The following code will retrieve the coordinates of the active cell:
 

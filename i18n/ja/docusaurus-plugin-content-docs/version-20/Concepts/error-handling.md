@@ -76,7 +76,7 @@ ON ERR CALL("componentHandler";ek errors from components) // コンポーネン�
 
 エラーが発生した場合、以下の図のように 1つのメソッドのみが呼び出されます:
 
-![エラー管理](../assets/en/Concepts/error-schema.png)
+![エラー管理](/assets/en/Concepts/error-schema.png)
 
 
 ### メソッド内でのエラー処理

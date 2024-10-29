@@ -46,7 +46,7 @@ You indicate RGB color values in *foregroundColor* and, optionally, *backgroundC
 
 This form contains the two non-enterable variables *vsColorValue* and *vsColor* as well as the three thermometers: *thRed*, *thGreen*, and *thBlue*.
 
-![](../assets/en/commands/pict4278097.en.png)
+![](/assets/en/commands/pict4278097.en.png)
 
 Here are the methods for these objects:
 
@@ -88,19 +88,19 @@ Note the use of the [SET AUTOMATIC RELATIONS](set-automatic-relations.md) for ca
 
 When executed, the form looks like this:
 
-![](../assets/en/commands/pict4278099.en.png)
+![](/assets/en/commands/pict4278099.en.png)
 
 #### Example 2 
 
 Changing to transparent background with a light font color:
 
-![](../assets/en/commands/pict1210700.en.png)
+![](/assets/en/commands/pict1210700.en.png)
 
 ```4d
  OBJECT SET RGB COLORS(*;"myVar";Light shadow color;Background color none)
 ```
 
-![](../assets/en/commands/pict1210702.en.png)
+![](/assets/en/commands/pict1210702.en.png)
 
 #### See also 
 

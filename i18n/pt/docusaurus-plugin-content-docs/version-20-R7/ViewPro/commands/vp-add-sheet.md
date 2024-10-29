@@ -31,7 +31,7 @@ Em *name*, pode indicar um nome para a nova folha. O novo nome não pode conter 
 
 O documento tem atualmente 3 folhas:
 
-![vp-document-with-3-sheets](../../assets/en/ViewPro/vp-sheet-3.png)
+![vp-document-with-3-sheets](/assets/en/ViewPro/vp-sheet-3.png)
 
 Para inserir uma folha na terceira posição (índice 2) e chamar-lhe "March":
 
@@ -39,7 +39,7 @@ Para inserir uma folha na terceira posição (índice 2) e chamar-lhe "March":
 VP ADD SHEET("ViewProArea";2;"March")
 ```
 
-![vp-add-sheet](../../assets/en/ViewPro/vp-add-sheet.png)
+![vp-add-sheet](/assets/en/ViewPro/vp-add-sheet.png)
 
 #### Veja também
 

@@ -45,8 +45,8 @@ Este parâmetro é útil, por exemplo, quando a imagem de fundo contém contorno
 
 | Com / Sem               | Exemplo                                                      |
 | ----------------------- | ------------------------------------------------------------ |
-| Sem margem              | ![](../assets/en/FormObjects/property_horizontalMargin1.png) |
-| Com margem de 13 píxeis | ![](../assets/en/FormObjects/property_horizontalMargin2.png) |
+| Sem margem              | ![](/assets/en/FormObjects/property_horizontalMargin1.png) |
+| Com margem de 13 píxeis | ![](/assets/en/FormObjects/property_horizontalMargin2.png) |
 
 > Esta propiedad funciona junto con la propiedad [Margen vertical](#vertical-margin).
 
@@ -117,7 +117,7 @@ A imagem pode conter de 2 a 6 estados.
 
 Cada estado é representado por uma imagem diferente. Na imagem de origem, os estados devem ser empilhados verticalmente:
 
-![](../assets/en/FormObjects/six-states.png)
+![](/assets/en/FormObjects/six-states.png)
 
 #### Gramática JSON
 
@@ -159,11 +159,11 @@ Aqui estão os resultados utilizando as várias opções para esta propriedade:
 
 | Opção        | Descrição                                                                                                                                                             | Exemplo                                                           |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| \*\*Esquerda | O texto é colocado à esquerda do ícone. O conteúdo do botão é alinhado à direita.                                                     | ![](../assets/en/FormObjects/property_titlePosition_left.en.png)  |
-| **Superior** | O texto é colocado por cima do ícone. O conteúdo do botão é centrado.                                                                 | ![](../assets/en/FormObjects/property_titlePosition_top.png)      |
-| **Direita**  | O texto é colocado à direita do ícone. O conteúdo do botão é alinhado à esquerda.                                                     | ![](../assets/en/FormObjects/property_titlePosition_right.png)    |
-| **Fundo**    | O texto é colocado por baixo do ícone. O conteúdo do botão é centrado.                                                                | ![](../assets/en/FormObjects/property_titlePosition_bottom.png)   |
-| **Centrado** | O texto do ícone é centrado vertical e horizontalmente no botão. Este parâmetro é útil, por exemplo, para o texto incluído num ícone. | ![](../assets/en/FormObjects/property_titlePosition_centered.png) |
+| \*\*Esquerda | O texto é colocado à esquerda do ícone. O conteúdo do botão é alinhado à direita.                                                     | ![](/assets/en/FormObjects/property_titlePosition_left.en.png)  |
+| **Superior** | O texto é colocado por cima do ícone. O conteúdo do botão é centrado.                                                                 | ![](/assets/en/FormObjects/property_titlePosition_top.png)      |
+| **Direita**  | O texto é colocado à direita do ícone. O conteúdo do botão é alinhado à esquerda.                                                     | ![](/assets/en/FormObjects/property_titlePosition_right.png)    |
+| **Fundo**    | O texto é colocado por baixo do ícone. O conteúdo do botão é centrado.                                                                | ![](/assets/en/FormObjects/property_titlePosition_bottom.png)   |
+| **Centrado** | O texto do ícone é centrado vertical e horizontalmente no botão. Este parâmetro é útil, por exemplo, para o texto incluído num ícone. | ![](/assets/en/FormObjects/property_titlePosition_centered.png) |
 
 #### Gramática JSON
 
@@ -185,7 +185,7 @@ Esta propriedade não tem efeito quando o botão contém apenas um título (sem 
 
 By default, when a button contains a title and a picture, the elements are joined. El siguiente gráfico muestra el efecto de la propiedad `imageHugsTitle` (true cuando la propiedad está activada) con diferentes alineaciones de los botones:
 
-![](../assets/en/FormObjects/hugs.png)
+![](/assets/en/FormObjects/hugs.png)
 
 #### Gramática JSON
 
@@ -223,7 +223,7 @@ Este parâmetro é útil, por exemplo, quando a imagem de fundo contém contorno
 
 This property allows displaying a symbol that appears as a triangle in the button to indicate the presence of an attached pop-up menu:
 
-![](../assets/en/FormObjects/property_popup.png)
+![](/assets/en/FormObjects/property_popup.png)
 
 The appearance and location of this symbol depends on the button style and the current platform.
 
@@ -233,7 +233,7 @@ To attach a pop-up menu symbol to a button, there are two display options availa
 
 |                          Linked                         |                          Separado                          |
 | :-----------------------------------------------------: | :--------------------------------------------------------: |
-| ![](../assets/en/FormObjects/property_popup_linked.png) | ![](../assets/en/FormObjects/property_popup_separated.png) |
+| ![](/assets/en/FormObjects/property_popup_linked.png) | ![](/assets/en/FormObjects/property_popup_separated.png) |
 
 > The actual availability of a "separated" mode depends on the style of the button and the platform.
 

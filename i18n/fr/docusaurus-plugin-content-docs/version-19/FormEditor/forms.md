@@ -6,7 +6,7 @@ title: A propos des formulaires 4D
 
 Les formulaires fournissent l'interface par laquelle les informations sont saisies, modifiées et imprimées dans une application de bureau. A l'aide des formulaires, les utilisateurs peuvent interagir avec les données d'une base de données et imprimer des rapports. Les formulaires permettent de créer des boîtes de dialogue personnalisées, des palettes ou toute fenêtre personnalisée.
 
-![](../assets/en/FormObjects/form1.png)
+![](/assets/en/FormObjects/form1.png)
 
 Les formulaires peuvent également contenir d'autres formulaires grâce aux fonctionnalités suivantes :
 

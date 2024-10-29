@@ -13,7 +13,7 @@ title: デバッガー
 
 タイプミスはコードエディターによって検出されます。 これらは赤色で示され、ウィンドウ下部に追加情報が表示されます。 以下はタイプミスの例です:
 
-![break-point](../assets/en/Debugging/typing-error.png)
+![break-point](/assets/en/Debugging/typing-error.png)
 
 このようなタイプミスは通常、シンタックスエラーの原因となります (上の例では、テーブル名が間違っています)。 コードの該当行の編集を確定すると、エラーの説明が表示されます。 このような場合タイプミスを修正して Enterキーを押すと、再度コードの検証がおこなわれます。
 
@@ -21,7 +21,7 @@ title: デバッガー
 
 メソッドの実行時に限って、とらえることのできるエラーがあります。 [シンタックスエラーウィンドウ](#シンタックスエラーウィンドウ) はエラーが発生した際に表示されます。 例:
 
-![syntax-error](../assets/en/Debugging/syntax-error.png)
+![syntax-error](/assets/en/Debugging/syntax-error.png)
 
 **詳細** エリアを展開すると、最新のエラーと番号が表示されます。
 
@@ -47,7 +47,7 @@ title: デバッガー
 
 アプリケーションモードでは、インタープリターモードでは決して見られないエラーが発生する場合があります。 次に例を示します:
 
-![runtime-error](../assets/en/Debugging/runtimeError.png)
+![runtime-error](/assets/en/Debugging/runtimeError.png)
 
 問題の原因を迅速に発見するには、メソッドの名前と行番号を記録し、ストラクチャーファイルのインタープリター版を再び開いて、メソッドの該当行を確認します。
 
@@ -58,7 +58,7 @@ title: デバッガー
 - 以降のメソッド実行を妨げるエラーが発生した。
 - メソッドが False の表明を生成した (`ASSERT` コマンド参照)。
 
-![syntax-error](../assets/en/Debugging/syntax-error.png)
+![syntax-error](/assets/en/Debugging/syntax-error.png)
 
 上部テキストエリアには、エラーの説明メッセージが表示されます。 下部テキストエリアには、エラーが発生した時の実行行が表示されます。エラーが発生したエリアはハイライトされます。 詳細ボタンをクリックすると、プロセスのエラースタックを表示するエリアを展開できます。
 

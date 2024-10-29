@@ -11,7 +11,7 @@ Las barras de menú constituyen la principal interfaz de las aplicaciones person
 
 Puede mejorar la apariencia de cada barra de menú asociando una pantalla de inicio personalizada. La ventana que contiene la pantalla de inicio se muestra debajo de la barra de menús cuando aparece. Puede contener un logo o cualquier tipo de imagen. Por defecto, 4D muestra el logo 4D en la pantalla de inicio:
 
-![](../assets/en/Menus/splash1.png)
+![](/assets/en/Menus/splash1.png)
 
 Una imagen de pantalla de inicio personalizada puede provenir de cualquier aplicación gráfica. 4D le permite pegar una imagen del portapapeles o utilizar cualquier imagen presente en su disco duro. Se puede utilizar cualquier formato de imagen estándar soportado por 4D.
 
@@ -20,7 +20,7 @@ La imagen de la pantalla de inicio sólo puede definirse en el editor de menús:
 - Para pegar una imagen desde el portapapeles, seleccione **Pegar**.
 - Para abrir una imagen almacenada en un archivo de disco, seleccione **Abrir**. Si selecciona Abrir, aparecerá una caja de diálogo estándar de Abrir archivo para que pueda seleccionar el archivo de imagen que va a utilizar. Una vez definida, la imagen se muestra en miniatura en la zona. A continuación, se asocia a la barra de menús.
 
-![](../assets/en/Menus/splash2.png)
+![](/assets/en/Menus/splash2.png)
 
 Puede ver el resultado final probando la barra de menús (ver la sección siguiente). En el modo Aplicación, la imagen se muestra en la pantalla de inicio con el formato de tipo "Truncado (Centrado)".
 
@@ -34,6 +34,6 @@ El editor de la barra de menús le permite ver los menús personalizados y la pa
 
 Para ello, basta con seleccionar la barra de menús y elegir **Probar la barra de menús "Barra de menús #X"** en el menú contextual o en el menú de opciones del editor.
 
-![](../assets/en/Menus/splash3.png)
+![](/assets/en/Menus/splash3.png)
 
 4D muestra una vista previa de la barra de menús así como de la pantalla de inicio. Puede desplazarse por los menús y submenús para ver su contenido. Sin embargo, estos menús no están activos. Para probar el funcionamiento de los menús y la barra de herramientas, debe utilizar el comando **Probar la aplicación** en el menú **Ejecutar**.

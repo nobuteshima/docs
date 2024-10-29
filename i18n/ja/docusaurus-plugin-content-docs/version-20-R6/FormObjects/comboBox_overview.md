@@ -5,7 +5,7 @@ title: コンボボックス
 
 コンボボックスは [ドロップダウンリスト](dropdownList_Overview.md#概要) と似ていますが、キーボードから入力されたテキストを受けいれる点と、二つの追加オプションがついている点が異なります。
 
-![](../assets/en/FormObjects/combo_box.png)
+![](/assets/en/FormObjects/combo_box.png)
 
 基本的にコンボボックスは入力エリアと同じように取り扱い、オブジェクト、配列、または選択リストを一連のデフォルト値として使用します。
 

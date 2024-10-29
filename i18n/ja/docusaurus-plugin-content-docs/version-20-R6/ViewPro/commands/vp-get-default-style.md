@@ -27,7 +27,7 @@ title: VP Get default style
 
 このドキュメントのデフォルトスタイルを取得したい場合:
 
-![](../../assets/en/ViewPro/cmd_vpGetDefaultStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpGetDefaultStyle.PNG)
 
 以下のコードを実行すると:
 

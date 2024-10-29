@@ -13,7 +13,7 @@ Esta página indica el nombre, la versión y la ubicación de la aplicación, as
 A parte central da janela indica o nome e local do projeto de bancos de dados e arquivos de dados assim como o arquivo de histórico (se houver). A parte inferior da janela indica o nome do titular da licença 4D, o tipo de licença e o nome de usuário do banco de dados quando ativar as senhas (ou o Designer se não for o caso).
 
 - **Display and selection of pathnames**: On the **Program** tab, pathnames are displayed in pop-up menus containing the folder sequence as found on the disk:\
-  ![](../assets/en/MSC/MSC_popup.png)
+  ![](/assets/en/MSC/MSC_popup.png)
   If you select a menu item (disk or folder), it is displayed in a new system window.
   El comando **Copiar la ruta** copia el nombre completo de la ruta en el portapapeles como texto, utilizando los separadores de la plataforma actual.
 
@@ -25,7 +25,7 @@ A parte central da janela indica o nome e local do projeto de bancos de dados e 
 
 Esta página fornece uma visão geral das tabelas da sua base de dados:
 
-![](../assets/en/MSC/MSC_Tables.png)
+![](/assets/en/MSC/MSC_Tables.png)
 
 > As informações desta página estão disponíveis nos modos standard e de manutenção.
 
@@ -49,11 +49,11 @@ La página **Datos** ofrece información sobre el espacio de almacenamiento disp
 
 As informações são fornecidas sob a forma de gráficos:
 
-![](../assets/en/MSC/MSC_Data.png)
+![](/assets/en/MSC/MSC_Data.png)
 
 > This page does not take into account any data that may be stored outside of the data file (see "External storage").
 
-Arquivos que são muito fragmentados reduzem o desempenho do disco e, assim, do banco de dados. If the occupation rate is too low, 4D will indicate this by a warning icon (which is displayed on the Information button and on the tab of the corresponding file type) and specify that compacting is necessary:![](../assets/en/MSC/MSC_infowarn.png)
+Arquivos que são muito fragmentados reduzem o desempenho do disco e, assim, do banco de dados. If the occupation rate is too low, 4D will indicate this by a warning icon (which is displayed on the Information button and on the tab of the corresponding file type) and specify that compacting is necessary:![](/assets/en/MSC/MSC_infowarn.png)
 
 A warning icon is also displayed on the button of the [Compact](compact.md) page:
-![](../assets/en/MSC/MSC_compactwarn.png)
+![](/assets/en/MSC/MSC_compactwarn.png)

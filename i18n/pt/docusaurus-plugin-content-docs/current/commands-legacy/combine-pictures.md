@@ -38,7 +38,7 @@ Se forem utilizados os parâmetros opcionais *desloHor* e *desloVert*, uma tradu
 
 Dadas as seguintes imagens: 
 
-![](../assets/en/commands/pict27793.pt.png)
+![](/assets/en/commands/pict27793.pt.png)
 
 ```4d
  COMBINE PICTURES(bandeira;meufundo;Superimposição;meucirculo;50;30)
@@ -46,7 +46,7 @@ Dadas as seguintes imagens:
 
 Resultado:
 
-![](../assets/en/commands/pict27794.pt.png)
+![](/assets/en/commands/pict27794.pt.png)
 
 #### Ver também 
 

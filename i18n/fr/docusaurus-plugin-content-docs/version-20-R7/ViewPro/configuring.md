@@ -9,13 +9,13 @@ Les propriétés de la zone 4D View Pro peuvent être configurées à l'aide de 
 
 En utilisant la liste des propriétés de la zone, vous pouvez définir des [propriétés de l'objet 4D View Pro](FormObjects/viewProArea_overview.md#supported-properties) comme **Nom de l'objet**, [**Variable ou Expression**](#4d-view-pro-form-object-variable), **Apparence**, **Action** et **Événements**.
 
-![](../assets/en/ViewPro/vpPropertyList.png)
+![](/assets/en/ViewPro/vpPropertyList.png)
 
 ### Sélection d'une interface utilisateur
 
 Vous pouvez sélectionner l'interface à utiliser avec vos zones de formulaire 4D View Pro dans la **Liste de propriétés**, dans **Apparence** :
 
-![](../assets/en/ViewPro/vpUserInterface.PNG)
+![](/assets/en/ViewPro/vpUserInterface.PNG)
 
 > Vous pouvez également utiliser les propriétés JSON [`userInterface`](FormObjects/properties_Appearance.md#user-interface) et [`withFormulaBar`](FormObjects/properties_Appearance.md#show-formula-bar) (uniquement avec l'interface "toolbar").
 
@@ -23,7 +23,7 @@ Les interfaces permettent d'effectuer des modifications de base et de manipuler 
 
 #### Ruban
 
-![](../assets/en/ViewPro/vpRibbon.png)
+![](/assets/en/ViewPro/vpRibbon.png)
 
 #### Toolbar (Barre d’outils)
 
@@ -31,7 +31,7 @@ L'activation de l'interface de la barre d'outils affiche l'option [**Afficher la
 
 Lorsque la barre de formule est visible :
 
-![](../assets/en/ViewPro/vpToolbar.png)
+![](/assets/en/ViewPro/vpToolbar.png)
 
 #### Fonctionnalités
 
@@ -128,7 +128,7 @@ La définition d'un modèle de format garantit que le contenu de vos documents 4
 
 Par exemple, lors de l'utilisation des commandes [VP SET VALUE](commands/vp-set-value.md) ou [VP SET NUM VALUE](commands/vp-set-num-value.md) pour saisir des montants dans une facture, vous pouvez vouloir utiliser les symboles monétaires ($, €, ¥, etc.) pour être aligné quel que soit l'espace nécessaire par le numéro (c'est-à-dire que le montant soit de 5,00 $ ou 5 000,00 $). Vous pourriez utiliser des caractères de formatage et indiquer le motif _($\* #,##0.00_) qui afficherait les montants comme indiqué:
 
-![](../assets/en/ViewPro/apx_vpCellFormat1.PNG)
+![](/assets/en/ViewPro/apx_vpCellFormat1.PNG)
 
 A noter que lorsque vous créez vos propres modèles, seul l'affichage des données est modifié. La valeur des données reste inchangée.
 
@@ -294,12 +294,12 @@ The following special characters allow the automatic addition or formatting of i
 | N                     | Page count                                          | printInfo.headerLeft:="There are &N pages."                                       | There are 10 pages.                             |   |
 | D                     | Current date (yyyy/mm/dd format) | printInfo.headerLeft:="It is &D."                                                 | It is 2015/6/19.                                |   |
 | T                     | Current time                                        | printInfo.headerLeft:="It is &T."                                                 | It is 16:30:36. |   |
-| G                     | Image                                               | printInfo.headerLeftImage:=smiley<br/>printInfo.headerLeft:="&G"  | ![](../assets/en/ViewPro/apx_vpPrintAttributes1.PNG)            |   |
+| G                     | Image                                               | printInfo.headerLeftImage:=smiley<br/>printInfo.headerLeft:="&G"  | ![](/assets/en/ViewPro/apx_vpPrintAttributes1.PNG)            |   |
 | S                     | Strikethrough                                       | printInfo.headerLeft:="&SThis is text."                                           | ~~This is text.~~                               |   |
 | U                     | Souligné                                            | printInfo.headerLeft:="&UThis is text."                                           | This is text. (Underlined)   |   |
 | B                     | Souligné                                            | printInfo.headerLeft:="&BThis is text."                                           | **This is text.**                               |   |
 | I                     | Italique                                            | printInfo.headerLeft:="&IThis is text."                                           | _This is text._                                 |   |
-| "                     | Font prefix                                         | printInfo.headerLeft:="&\"Lucida Console\"&14This is text." | ![](../assets/en/ViewPro/apx_vpPrintAttributes2.PNG)            |   |
+| "                     | Font prefix                                         | printInfo.headerLeft:="&\"Lucida Console\"&14This is text." | ![](/assets/en/ViewPro/apx_vpPrintAttributes2.PNG)            |   |
 | K                     | Text Color prefix                                   | printInfo.headerLeft:="&KFF0000This is text."                                     | This is text (in red).       |   |
 | F                     | Workbook name                                       | printInfo.headerLeft:="&F"                                                                        | 2019 Monthly Revenue Forecasts                                  |   |
 | A                     | Spreadsheet name                                    | printInfo.headerLeft:="&A"                                                                        | June 2019 revenue forecast                                      |   |

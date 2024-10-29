@@ -1288,7 +1288,7 @@ filter 引数がリレートエンティティ型の属性を指定する場合 
 
 このセクションの例題では、以下のストラクチャーを使います:
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 filter 引数を渡さない場合:
 

@@ -10,7 +10,7 @@ As aplicações 4D desktop podem ser utilizadas numa configuração Cliente/Serv
 
 - Os **projectos remotos** são ficheiros [.4DProject](Project/architecture.md) abertos pelo 4D Server e acedidos com 4D em modo remoto. O servidor envia uma versão .4dz do projecto ([formato comprimido](building.md#build-compiled-structure)) para o 4D remoto, assim os ficheiros de estrutura são apenas de leitura. Esta configuração é normalmente utilizada para testar aplicações.
 
-![](../assets/en/getStart/localremote.png)
+![](/assets/en/getStart/localremote.png)
 
 > Connecting to a remote projet from the **same machine as 4D Server** allows modifying the project files. This [specific feature](#using-4d-and-4d-server-on-the-same-machine) allows to develop a client/server application in the same context as the deployment context.
 
@@ -35,7 +35,7 @@ Aparece o diálogo de ligação do 4D Server. This dialog has three tabs: **Rece
 
 If 4D Server is connected to the same network as the remote 4D, select **Available**. 4D Server includes a built-in TCP/IP broadcasting system that, by default, publishes the name of the 4D Server projects available over the network. A lista é classificada por ordem de aparecimento e atualizada dinamicamente.
 
-![](../assets/en/getStart/serverConnect.png)
+![](/assets/en/getStart/serverConnect.png)
 
 To connect to a server from the list, double-click on its name or select it and click the **OK** button.
 
@@ -43,7 +43,7 @@ To connect to a server from the list, double-click on its name or select it and 
 
 If the published project is not displayed in the **Available** list, select **Custom**. The Custom page allows you to connect to a published server on the network using its network address and assigning it a customized name.
 
-![](../assets/en/getStart/serverConnect2.png)
+![](/assets/en/getStart/serverConnect2.png)
 
 - **Project name**: Defines the local name of the 4D Server project. This name will be used in the **Recent** page when referring to the project.
 - **Network address**: The IP address of the machine where the 4D Server was launched. If two servers are executed simultaneously on the same machine, the IP address must be followed by a colon and port number, for example: `192.168.92.104:19814`. Por padrão, a porta de publicação de um 4D Server é 19813. Este número pode ser modificado nas definições do Projecto.

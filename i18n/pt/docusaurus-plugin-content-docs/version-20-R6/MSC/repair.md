@@ -31,7 +31,7 @@ By default, the original data file will be duplicated before the repair operatio
 A reparação padrão deve ser escolhida quando apenas alguns registos ou índices estão danificados (as tabelas de endereços estão intactas). Os dados são compactados e reparados. This type of repair can only be performed when the data and structure file match.
 
 When the repair procedure is finished, the "Repair" page of the MSC is displayed. Uma mensagem indica se a reparação foi bem sucedida. Se for assim, pode abrir o banco de dados imediatamente.
-![](../assets/en/MSC/MSC_RepairOK.png)
+![](/assets/en/MSC/MSC_RepairOK.png)
 
 ## Recuperar por cabeçalhos de registos
 
@@ -45,7 +45,7 @@ Use this low-level repair option only when the data file is severely damaged and
 
 Al hacer clic en **Escanear y reparar...**, 4D realiza un análisis completo del archivo de datos. Quando a verificação estiver concluída, os resultados aparecem na janela seguinte:
 
-![](../assets/en/MSC/mscrepair2.png)
+![](/assets/en/MSC/mscrepair2.png)
 
 > Se todos os registos e todas as tabelas tiverem sido atribuídos, apenas a área principal é mostrada.
 
@@ -64,7 +64,7 @@ The "Records found in the data file" area includes two tables summarizing the in
 If several groups of records could not be assigned to tables due to a damaged address table, you can assign them manually.
 Para fazer isso, primeiro selecione um grupo de registros não atribuído na primeira tabela. The "Content of the records" area then displays a preview of the contents of the first records of the group to make it easier to assign them:
 
-![](../assets/en/MSC/mscrepair3.png)
+![](/assets/en/MSC/mscrepair3.png)
 
 A continuación, seleccione la tabla que desea asignar al grupo en la tabla "Tablas no asignadas" y haga clic en el botón **Identificar tabla**. Também pode atribuir uma tabela utilizando a função arrastar e largar.
 The group of records is then associated with the table and it will be recovered in this table. Os nomes das tabelas atribuídas manualmente aparecem a preto.

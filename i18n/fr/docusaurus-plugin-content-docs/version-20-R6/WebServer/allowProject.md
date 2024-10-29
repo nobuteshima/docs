@@ -11,7 +11,7 @@ Ce mécanisme présente donc un risque de sécurité pour l'application, notamme
 
 - Utilisez l'option **Disponible via Balises HTML et URLs 4D (4DACTION...)** située dans la boîte de dialogue des Propriétés de la méthode :
 
-![](../assets/en/WebServer/methodProperties.png)
+![](/assets/en/WebServer/methodProperties.png)
 
 Cette option est utilisée pour désigner individuellement chaque méthode projet qui peut être appelée en utilisant l'URL spéciale `4DACTION`, ou les balises `4DTEXT`, `4DHTML`, `4DEVAL`, `4DSCRIPT`, `4DIF`, `4DELSEIF` ou `4DLOOP`. Lorsqu'elle n'est pas cochée, la méthode projet concernée ne peut pas être directement exécutée via une requête HTTP. Cependant, elle peut toujours être exécutée en utilisant d'autres types d'appels (formules, autres méthodes, etc.).
 
@@ -19,4 +19,4 @@ Cette option n'est pas cochée par défaut. Les méthodes qui peuvent être exé
 
 Dans l'Explorateur, les méthodes projet avec cette propriété bénéficient d'une icône spécifique :
 
-![](../assets/en/WebServer/methodIcon.png)
+![](/assets/en/WebServer/methodIcon.png)

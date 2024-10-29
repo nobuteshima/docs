@@ -144,14 +144,14 @@ Les exemples suivants illustrent les coordonnées retournées du rectangle englo
  $paraCoordinates:=WP Get position($paragraph) //ligne pointillée verte
 ```
 
-![](../../assets/en/WritePro/commands/pict4096405.en.png)
+![](/assets/en/WritePro/commands/pict4096405.en.png)
 
 *Ligne pointillée rouge :* *valeurs $textCoordinates de l'objet* 
 **Ligne pointillée verte :* **valeurs $* *paraCoordinates* **de l'objet*
 
 **Note :** En cas d'affichage sur plusieurs colonnes, la propriété *rangeHeight* (lignes pleines) peut être plus importante que *bounds.bottom*\-*bounds.top* (lignes pointillées) :
 
-![](../../assets/en/WritePro/commands/pict4096411.en.png)
+![](/assets/en/WritePro/commands/pict4096411.en.png)
 
 #### Voir aussi 
 

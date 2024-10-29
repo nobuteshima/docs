@@ -38,7 +38,7 @@ Dates or times are treated as a datetime and completed as follows:
 
 You want to get values from C4 to G6:
 
-![](../../assets/en/ViewPro/cmd_vpGetValues.PNG)
+![](/assets/en/ViewPro/cmd_vpGetValues.PNG)
 
 ```4d
 $result:=VP Get values(VP Cells("ViewProArea";2;3;5;3))

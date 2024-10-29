@@ -67,13 +67,13 @@ Function onInvoke($editor : Object)->$result : Object
   "currentPage"; $editor.editor.currentPage)
 ```
 
-マクロを呼び出します: ![](../assets/en/FormEditor/macroex1.png) ![](../assets/en/FormEditor/macroex2.png)
+マクロを呼び出します: ![](/assets/en/FormEditor/macroex1.png) ![](/assets/en/FormEditor/macroex2.png)
 
 ## フォームエディターでマクロを呼び出す
 
 4Dプロジェクトにマクロが定義されていると、フォームエディターのコンテキストメニューを使ってマクロを呼び出すことができます:
 
-![](../assets/en/FormEditor/macroSelect.png)
+![](/assets/en/FormEditor/macroSelect.png)
 
 このメニューは `formMacros.json` [マクロ定義ファイル](#マクロファイルの場所) をもとに作成されています。 マクロメニュー項目は ABC順に表示されます。
 
@@ -87,7 +87,7 @@ Function onInvoke($editor : Object)->$result : Object
 
 このファイルは、ホストまたはコンポーネントプロジェクトの **Project** > **Sources** フィルダーに配置しなければなりません:
 
-![](../assets/en/FormEditor/macroStructure.png)
+![](/assets/en/FormEditor/macroStructure.png)
 
 ## マクロの宣言
 

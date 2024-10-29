@@ -7,7 +7,7 @@ title: Prise en main
 4D View Pro est un [composant 4D](Concepts/components.md) qui comprend une [zone de formulaire 4D](FormObjects/viewProArea_overview.md) et des [méthodes](method-list.md) spécifiques. Il vous permet d'intégrer des fonctionnalités avancées de tableur dans vos projets.
 
 
-![](../assets/en/ViewPro/vpSpreadsheet.png)
+![](/assets/en/ViewPro/vpSpreadsheet.png)
 
 Une tableur est une application contenant une grille de cellules dans lesquelles vous pouvez saisir des informations, effectuer des calculs ou afficher des images. 4D View Pro est alimenté par la [solution de tableur SpreadJS](https://www.grapecity.com/spreadjs/docs/versions/v14/online/overview.html) intégrée à 4D.
 
@@ -20,14 +20,14 @@ Les fonctionnalités de 4D View Pro sont directement inclues dans 4D, ce qui en 
 
 Cependant, 4D View Pro nécessite une licence. Vous devez activer cette licence dans votre application afin d'utiliser ses fonctionnalités. Lorsque vous utilisez ce composant sans licence, le contenu d'un objet nécessitant une fonctionnalité 4D View Pro ne s'affiche pas au moment de l'exécution; au lieu de cela, un message d'erreur :
 
-![](../assets/en/ViewPro/licenseError.png)
+![](/assets/en/ViewPro/licenseError.png)
 
 
 ## Insertion d'une zone 4D View Pro
 
 Les documents 4D View Pro sont affichés et modifiés manuellement dans un [objet du formulaire 4D](FormObjects/viewProArea_overview.md) nommé 4D View Pro. Pour sélectionner cet objet, cliquez sur le dernier outil de la barre d'objets :
 
-![](../assets/en/ViewPro/vpArea.png)
+![](/assets/en/ViewPro/vpArea.png)
 
 Vous pouvez également sélectionner une zone 4D View Pro préconfigurée dans la [bibliothèque d'objets](FormEditor/objectLibrary.md).
 
@@ -46,7 +46,7 @@ Les feuilles de calcul sont composées de lignes et de colonnes. Un numéro est 
 
 *   Pour sélectionner plusieurs cellules continues, faites glisser la souris d'une extrémité à l'autre de la sélection. Vous pouvez également cliquer sur les deux extrémités de la sélection tout en maintenant la touche Maj enfoncée.
 
-*   To select all cells in the spreadsheet, click on the cell at the top left of the area: ![](../assets/en/ViewPro/vpSelectAll.PNG)
+*   To select all cells in the spreadsheet, click on the cell at the top left of the area: ![](/assets/en/ViewPro/vpSelectAll.PNG)
 
 *   Pour sélectionner une colonne, cliquez sur la lettre (ou le groupe de lettres) correspondant(e).
 
@@ -60,7 +60,7 @@ Les feuilles de calcul sont composées de lignes et de colonnes. Un numéro est 
 
 Un double-clic sur une cellule permet de passer en mode saisie dans la cellule concernée. Si la cellule n'est pas vide, le curseur d'insertion se place après le contenu de la cellule.
 
-![](../assets/en/ViewPro/vpInput.PNG)
+![](/assets/en/ViewPro/vpInput.PNG)
 
 Les données peuvent être saisies directement lorsqu'une cellule est déjà sélectionnée, même si le curseur d'insertion n'est pas visible. The input then replaces the content of the cell.
 
@@ -76,7 +76,7 @@ Les touches de direction (flèches) permettent de déplacer une cellule dans la 
 
 Les zones 4D View Pro bénéficient d'un menu contextuel automatique qui offre des fonctions d'édition standard telles que le copier-coller, mais aussi des fonctions de base de tableur :
 
-![](../assets/en/ViewPro/vpContext.PNG)
+![](/assets/en/ViewPro/vpContext.PNG)
 > Les fonctions Copier/Couper et Coller du menu contextuel fonctionnent uniquement dans la zone de la feuille de calcul, elles n'ont pas accès au presse-papiers du système. Les raccourcis système tels que **Ctrl+c/Ctrl+v** fonctionnent néanmoins et peuvent être utilisés pour échanger des données entre la zone et d'autres applications.
 
  En fonction de la zone cliquée, les options suivantes sont également disponibles :
@@ -86,7 +86,7 @@ Les zones 4D View Pro bénéficient d'un menu contextuel automatique qui offre d
     *   **Filtrer** : permet de masquer la ligne via des filtres (voir [Filtrer les lignes](https://www.grapecity.com/spreadjs/docs/versions/v14/online/filter.html) dans la documentation SpreadJS).
     *   **Trier** : permet de trier le contenu des colonnes.
     *   **Insérer un commentaire** : permet à l'utilisateur de saisir un commentaire pour une zone. Lorsqu'un commentaire a été saisi pour une zone, la cellule supérieure gauche de la zone affiche un petit triangle rouge :  
-      ![](../assets/en/ViewPro/vpContext2.PNG)
+      ![](/assets/en/ViewPro/vpContext2.PNG)
 
 
 ## Utilisation des méthodes 4D View Pro
@@ -95,7 +95,7 @@ Les zones 4D View Pro bénéficient d'un menu contextuel automatique qui offre d
 
 4D View Pro étant un composant 4D intégré, vous pouvez accéder à sa liste de méthodes à partir de l'Explorateur, dans la section **Méthodes composants** :
 
-![component-methods](../assets/en/ViewPro/explorer-methods.png)
+![component-methods](/assets/en/ViewPro/explorer-methods.png)
 
 Pour une liste détaillée des méthodes composants, voir [Liste des méthodes](method-list.md).
 
@@ -103,7 +103,7 @@ Pour une liste détaillée des méthodes composants, voir [Liste des méthodes](
 
 Une zone 4D View Pro gère plusieurs objets et éléments.
 
-![](../assets/en/ViewPro/vpDocument.PNG)
+![](/assets/en/ViewPro/vpDocument.PNG)
 
 La plupart des méthodes 4D View Pro nécessitent un paramètre *vpAreaName*, qui est le [**nom de la zone de formulaire 4D View Pro**](FormObjects/viewProArea_overview.md) (objet de formulaire 4D). Ce nom est la propriété du [nom de l'objet](FormObjects/properties_Object.md#object-name).
 
@@ -124,7 +124,7 @@ Certaines méthodes 4D View Pro nécessitent un paramètre *rangeObj*. Dans 4D V
 
 Par exemple, pour créer un objet plage pour les cellules suivantes :
 
-![](../assets/en/ViewPro/vp-cells.png)
+![](/assets/en/ViewPro/vp-cells.png)
 
 Vous pouvez utiliser la méthode [VP Cells](method-list.md#vp-cells) :
 

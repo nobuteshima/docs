@@ -35,15 +35,15 @@ Puede beneficiarse de esta funcionalidad en los siguientes entornos (sólo con l
 
 Todas las ventanas de estos editores se pueden poner en forma de pestaña:
 
-![](../assets/en/Preferences/general2.png)
+![](/assets/en/Preferences/general2.png)
 
 Un conjunto de comandos en el menú **Ventana** permite gestionar las pestañas:
 
-![](../assets/en/Preferences/general3.png)
+![](/assets/en/Preferences/general3.png)
 
 En la caja de diálogo de Preferencias de 4D, la opción **Ventana con pestañas** le permite controlar este funcionamiento:
 
-![](../assets/en/Preferences/general4.png)
+![](/assets/en/Preferences/general4.png)
 
 Hay tres opciones disponibles:
 
@@ -76,7 +76,7 @@ Si marca esta opción, se añaden dos elementos en el menú **Archivo > Nuevo** 
 - **Base de datos...**
 - **Base de datos a partir de una definición de estructura...**
 
-![](../assets/en/Preferences/general5.png)
+![](/assets/en/Preferences/general5.png)
 
 Estos elementos permiten crear bases de datos binarias (ver la sección [Crear una nueva base](https://doc.4d.com/4Dv18R6/4D/18-R6/Creating-a-new-database.300-5217610.en.html)). Ya no se proponen por defecto porque 4D recomienda utilizar la arquitectura basada en proyectos para los nuevos desarrollos.
 

@@ -28,7 +28,7 @@ Em *sheet*, passe o índice da planilha a ser definida como planilha atual. If t
 
 A folha atual do documento é a primeira folha:
 
-![first-sheet-selected](../../assets/en/ViewPro/vp-sheet-3-select.png)
+![first-sheet-selected](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 Definir a folha atual como a terceira folha:
 
@@ -36,7 +36,7 @@ Definir a folha atual como a terceira folha:
 VP SET CURRENT SHEET("ViewProArea";2)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-3-select.png)
+![](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 #### Veja também
 

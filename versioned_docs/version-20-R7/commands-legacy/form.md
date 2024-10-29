@@ -53,13 +53,13 @@ For more information, please refer to the *Page subforms* section.
 
 In a form displaying the record of a person, a "Check children" button opens a dialog to verify/modify the names and ages of their children:
 
-![](../assets/en/commands/pict3542015.en.png)
+![](/assets/en/commands/pict3542015.en.png)
 
 **Note:** The "Children" object field is represented only to show its structure for this example.
 
 In the verification form, you have assigned some [Form](form.md) object properties to variables:
 
-![](../assets/en/commands/pict3541682.en.png)
+![](/assets/en/commands/pict3541682.en.png)
 
 Here is the code for the "Check children" button:
 
@@ -93,7 +93,7 @@ Here is the code for the "Check children" button:
 
 The form displays information for each child:
 
-![](../assets/en/commands/pict3515152.en.png)
+![](/assets/en/commands/pict3515152.en.png)
 
 If values are edited and the OK button is clicked, the field is updated (the parent record must be saved afterwards). 
 

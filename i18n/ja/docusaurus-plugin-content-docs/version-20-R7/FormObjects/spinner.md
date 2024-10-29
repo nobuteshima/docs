@@ -5,7 +5,7 @@ title: スピナー
 
 スピナーは円形のインジケーターで、[バーバーショップ](progressIndicator.md#barber-shop) のように連続したアニメーションを表示します。
 
-![](../assets/en/FormObjects/spinner.gif)
+![](/assets/en/FormObjects/spinner.gif)
 
 このタイプのオブジェクトは通常、ネットワークへの接続や、計算などの処理が実行中であることを表すために使用します。 このインジケーターが選択されるとプロパティリストの [スケール](properties_Scale.md) テーマは非表示になります。
 

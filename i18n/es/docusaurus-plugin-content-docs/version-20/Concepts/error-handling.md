@@ -76,7 +76,7 @@ Se puede definir un único método de captura de errores para toda la aplicació
 
 Cuando se produce un error, sólo se llama a un método, como se describe en el siguiente diagrama:
 
-![gestión de errores](../assets/en/Concepts/error-schema.png)
+![gestión de errores](/assets/en/Concepts/error-schema.png)
 
 
 ### Manejo de errores e el método

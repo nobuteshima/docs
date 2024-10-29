@@ -5,7 +5,7 @@ title: Glossary
 
 ## Principais conceitos em resumo
 
-![](../assets/en/ORDA/mainConcepts.png)
+![](/assets/en/ORDA/mainConcepts.png)
 
 
 

@@ -15,16 +15,16 @@ Puede utilizar librerías de objetos en sus formularios. Una librería de objeto
 ## Utilización de la librería de objetos estándar
 
 La librería de objetos estándar está disponible en el editor de formularios: haga clic en el último botón de la barra de herramientas:  
-![](../assets/en/FormEditor/library1.png)
+![](/assets/en/FormEditor/library1.png)
 
 La librería se muestra en una ventana aparte:
 
-![](../assets/en/FormEditor/library2.png)
+![](/assets/en/FormEditor/library2.png)
 
 La ventana tiene las siguientes características principales:
 
 - Área de vista previa con mensajes de ayuda: el área central muestra una vista previa de cada objeto. Puede pasar el ratón por encima de un objeto para obtener información sobre el mismo en un mensaje de ayuda.
-- Puede filtrar el contenido de la ventana utilizando el menú **Categorías**: ![](../assets/en/FormEditor/library3.png)
+- Puede filtrar el contenido de la ventana utilizando el menú **Categorías**: ![](/assets/en/FormEditor/library3.png)
 - Para utilizar un objeto de la librería en su formulario, puede:
   - hacer clic derecho en un objeto y seleccionar **Copiar** en el menú contextual
   - or drag and drop the object from the library The object is then added to the form.
@@ -47,7 +47,7 @@ Para crear una librería de objetos, seleccione **Nuevo>Librería de objetos...*
 
 Una vez validada la caja de diálogo, 4D crea una nueva librería de objetos en su disco y muestra su ventana (vacía por defecto).
 
-![](../assets/en/FormEditor/library4.png)
+![](/assets/en/FormEditor/library4.png)
 
 Puede crear tantas librerías como desee por proyecto. Una librería creada y construida en macOS puede utilizarse en Windows y viceversa.
 
@@ -73,7 +73,7 @@ Los objetos se colocan en una librería de objetos mediante una operación de ar
 
 Las principales operaciones están disponibles en el menú contextual o en el menú de opciones de la ventana:
 
-![](../assets/en/FormEditor/library5.png)
+![](/assets/en/FormEditor/library5.png)
 
 - **Cortar** o **Copiar** al portapapeles
 - **Pegar** un objeto del tablero portapapeles
@@ -82,7 +82,7 @@ Las principales operaciones están disponibles en el menú contextual o en el me
 
 Puede colocar objetos individuales (incluidos los subformularios) o conjuntos de objetos en una librería de objetos. Cada objeto o conjunto se agrupa en un solo elemento:
 
-![](../assets/en/FormEditor/library6.png)
+![](/assets/en/FormEditor/library6.png)
 
 Una librería de objetos puede contener hasta 32.000 elementos.
 

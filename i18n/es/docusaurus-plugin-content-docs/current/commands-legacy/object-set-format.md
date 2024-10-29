@@ -326,7 +326,7 @@ Siempre que haya almacenado un archivo de imagen llamado "envelope\_open.png" en
  OBJECT SET FORMAT(*;"Header1";vIcon+";"+vPos)
 ```
 
-![](../assets/en/commands/pict2878245.en.png)
+![](/assets/en/commands/pict2878245.en.png)
 
 #### Ejemplo 7 
 

@@ -19,7 +19,7 @@ Le compactage d'un fichier répond à deux types de besoins :
 
 Pour démarrer directement le compactage du fichier de données ou de structure, cliquez sur le bouton correspondant dans la fenêtre du CSM.
 
-![](../assets/en/MSC/MSC_compact.png)
+![](/assets/en/MSC/MSC_compact.png)
 > Le compactage entraînant la duplication du fichier d’origine, le bouton est désactivé si la place sur le disque contenant le fichier est insuffisante.
 
 Cette opération défragmente le fichier principal ainsi que les éventuels fichiers d’index. 4D effectue une copie des fichiers d’origine et les place dans un dossier nommé **Replaced Files (Compacting)**, créé à côté du fichier d’origine. Si vous effectuez plusieurs compactages, un nouveau dossier est créé à chaque fois. Il est nommé “Replaced Files (Compacting)_1”, “Replaced Files (Compacting)_2”, etc. Vous pouvez modifier le dossier dans lequel les fichiers d’origine sont sauvegardés via le mode avancé.

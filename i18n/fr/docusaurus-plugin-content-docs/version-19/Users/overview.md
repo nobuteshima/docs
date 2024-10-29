@@ -15,7 +15,7 @@ Les groupes peuvent alors se voir affecter des privilèges d'accès à des parti
 
 L'exemple suivant présente les droits d'accès à l'explorateur d'exécution et au Développement assignés au groupe "Devs" :
 
-![](../assets/en/Users/Access1.png)
+![](/assets/en/Users/Access1.png)
 
 ## Activer le contrôle des accès
 
@@ -42,7 +42,7 @@ Dans les applications projet (fichiers .4DProject ou .4dz), les utilisateurs et 
 
 Les éditeurs des utilisateurs et groupes sont placés dans la boîte à outils de 4D. Ces éditeurs peuvent être utilisés pour la création d'utilisateurs et de groupes, l'affectation de mots de passe aux utilisateurs, le placement d'utilisateurs dans des groupes, etc.
 
-![](../assets/en/Users/editor.png)
+![](/assets/en/Users/editor.png)
 
 > L'éditeur d'utilisateurs et de groupes peut s'afficher à l'exécution à l'aide de la commande [EDIT ACCESS](https://doc.4d.com/4Dv18/4D/18/EDIT-ACCESS.301-4504687.en.html). Users and groups editor can be displayed at runtime using the [EDIT ACCESS](https://doc.4d.com/4Dv18/4D/18/EDIT-ACCESS.301-4504687.en.html) command.
 

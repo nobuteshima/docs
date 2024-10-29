@@ -53,7 +53,7 @@ Para más información, consulte la sección *Subformularios en página*.
 
 En un formulario, usted asignó algunas propiedades de objeto [Form](form.md) a variables:
 
-![](../assets/en/commands/pict3515147.en.png)
+![](/assets/en/commands/pict3515147.en.png)
 
 Luego, puede ejecutarlas desde cualquier lugar de la aplicación:
 
@@ -66,7 +66,7 @@ Luego, puede ejecutarlas desde cualquier lugar de la aplicación:
 
 El formulario muestra los valores que ha pasado:
 
-![](../assets/en/commands/pict3515152.en.png)
+![](/assets/en/commands/pict3515152.en.png)
 
 **Nota:** este ejemplo requiere que la notación de objeto esté habilitada en la base de datos (ver *Página Compatibilidad*).
 

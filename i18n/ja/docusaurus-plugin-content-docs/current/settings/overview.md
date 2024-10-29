@@ -5,7 +5,7 @@ title: Settings
 
 ストラクチャー設定では、カレントプロジェクトがどのように機能するかを設定します。 これらのパラメーターは、各プロジェクトごとに異なる設定を保存できます。 設定内容には待ち受けポート、バックアップ設定、セキュリティオプション、Webパラメーターなどが含まれます。
 
-![](../assets/en/settings/main.png)
+![](/assets/en/settings/main.png)
 
 > 4D は、4D IDE (統合開発環境) アプリケーションに適用される、**環境設定** と呼ばれるもうひとつの設定グループを提供します。 詳細は [環境設定](../Preferences/general.md) を参照ください。
 
@@ -35,7 +35,7 @@ title: Settings
 
 設定ダイアログボックスでは、変更された設定内容は **太字** で表示されます:
 
-![](../assets/en/settings/customize-settings.png)
+![](/assets/en/settings/customize-settings.png)
 
 ダイアログボックスで直接変更されたか、変換されたプロジェクトの場合は以前変更された設定が、カスタマイズ箇所として扱われます。
 

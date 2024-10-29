@@ -1362,7 +1362,7 @@ Si vous utilisez un autre attribut que la clé primaire comme attribut 1 dans un
 
 La structure suivante sera utilisée pour les exemples de cette section :
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 Sans paramètre filtre :
 

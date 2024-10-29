@@ -33,7 +33,7 @@ Quando clica no botão **Abrir arquivo de registo** , 4D mostra o arquivo de reg
 
 The **Table list** button displays a detailed page that can be used to view and select the actual records and indexes to be checked:
 
-![](../assets/en/MSC/MSC_Verify.png)
+![](/assets/en/MSC/MSC_Verify.png)
 
 
 Specifying the items to be verified lets you save time during the verification procedure.
@@ -44,11 +44,11 @@ Para cada linha da tabela, a coluna "Ação" indica as operações a realizar. W
 
 The "Status" column displays the verification status of each item using symbols:
 
-| ![](../assets/en/MSC/MSC_OK.png)  | A verificação foi efetuada sem problema      |
+| ![](/assets/en/MSC/MSC_OK.png)  | A verificação foi efetuada sem problema      |
 | --------------------------------- | -------------------------------------------- |
-| ![](../assets/en/MSC/MSC_KO2.png) | Verificação efectuada, problemas encontrados |
-| ![](../assets/en/MSC/MSC_KO3.png) | Verificação parcialmente efectuada           |
-| ![](../assets/en/MSC/MSC_KO.png)  | Verificação não efectuada                    |
+| ![](/assets/en/MSC/MSC_KO2.png) | Verificação efectuada, problemas encontrados |
+| ![](/assets/en/MSC/MSC_KO3.png) | Verificação parcialmente efectuada           |
+| ![](/assets/en/MSC/MSC_KO.png)  | Verificação não efectuada                    |
 
 Click on **Verify** to begin the verification or on **Standard** to go back to the standard page.
 

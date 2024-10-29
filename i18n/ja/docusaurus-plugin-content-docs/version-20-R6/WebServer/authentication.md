@@ -9,7 +9,7 @@ Webユーザーに特定のアクセス権を与えるには、ユーザーを�
 
 4D Webサーバーでは、3つの認証モードが用意されており、ストラクチャー設定ダイアログボックスの **Web**/**オプション (I)** ページで選択することができます:
 
-![](../assets/en/WebServer/authentication.png)
+![](/assets/en/WebServer/authentication.png)
 
 > **カスタムの認証** を使用することが推奨されています。
 
@@ -17,7 +17,7 @@ Webユーザーに特定のアクセス権を与えるには、ユーザーを�
 
 4D Webサーバーのアクセスシステムの処理を以下に図示します:
 
-![](../assets/en/WebServer/serverAccess.png)
+![](/assets/en/WebServer/serverAccess.png)
 
 > `rest/` で始まるリクエストは、[RESTサーバー](REST/configuration.md) が直接処理します。
 

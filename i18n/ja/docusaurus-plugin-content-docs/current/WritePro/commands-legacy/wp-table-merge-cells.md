@@ -58,7 +58,7 @@ If startColumn 引数と ColumnCount 引数の和、または *startRow* 引数�
 
 実行した結果:
 
-![](../../assets/en/WritePro/commands/pict6398108.en.png)
+![](/assets/en/WritePro/commands/pict6398108.en.png)
 
 元のセルにあった既存のデータは、結合したセル内に連結されます。
 

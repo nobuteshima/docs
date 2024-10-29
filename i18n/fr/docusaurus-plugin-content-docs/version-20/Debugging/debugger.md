@@ -5,7 +5,7 @@ title: Débogueur
 
 Le débogueur est utile lorsque vous devez repérer des erreurs ou surveiller l'exécution de méthodes. Il vous permet d'avancer pas à pas dans le code et d'examiner les informations. Ce processus est appelé le "traçage".
 
-![debugger-window-local](../assets/en/Debugging/debugger-window-intro.png)
+![debugger-window-local](/assets/en/Debugging/debugger-window-intro.png)
 
 ## Appeler le débogueur
 
@@ -16,7 +16,7 @@ Il existe plusieurs façons d'afficher le débogueur :
 * En cliquant sur le bouton **Debug** dans la fenêtre d'exécution de méthode ou en sélectionnant le bouton **Run and debug...** dans l'éditeur de code
 * En utilisant **Alt+Shift+Clic** droit (Windows) ou **Ctrl+Option+Cmd+Clic (macOS)** pendant l'exécution d'une méthode, puis en sélectionnant le processus à suivre dans le menu contextuel :
 
-![open-debugger](../assets/en/Debugging/openDebugger.png)
+![open-debugger](/assets/en/Debugging/openDebugger.png)
 
 * En cliquant sur le bouton **Trace** lorsqu'un process est sélectionné dans la page Process de l'Explorateur d'exécution.
 * En ajoutant un point d'arrêt dans la fenêtre de l'éditeur de code ou dans les pages Break et Catch de l'explorateur d'exécution.
@@ -39,7 +39,7 @@ La fenêtre du débogueur est généralement affichée sur la machine où le cod
 
 La barre d'outils du débogueur comprend plusieurs boutons, associés aux raccourcis par défaut :
 
-![execution-control-toolbar-buttons](../assets/en/Debugging/executionToolbarButtons.png)
+![execution-control-toolbar-buttons](/assets/en/Debugging/executionToolbarButtons.png)
 
 > Les raccourcis par défaut peuvent être personnalisés dans la page Raccourcis de la boîte de dialogue Préférences.
 
@@ -100,7 +100,7 @@ Cette action n'est pas disponible en mode débogueur distant (voir [Débogage de
 
 The **Watch pane** is displayed in the top left corner of the Debugger window, below the Execution Control Tool Bar. Voici un exemple :
 
-![watch-pane](../assets/en/Debugging/watchPane.png)
+![watch-pane](/assets/en/Debugging/watchPane.png)
 
 > Ce volet n'est pas disponible en mode débogage à distance.
 
@@ -169,17 +169,17 @@ Les tableaux, comme les autres variables, apparaissent dans les sous-thèmes int
 
 To display the variable types and their internal names, right click and check the **Show Types** option in the context menu:
 
-![show-types-menu-item](../assets/en/Debugging/showTypes.png)
+![show-types-menu-item](/assets/en/Debugging/showTypes.png)
 
 Voici le résultat :
 
-![dynamic-variable-names](../assets/en/Debugging/dynamicVariableNames.png)
+![dynamic-variable-names](/assets/en/Debugging/dynamicVariableNames.png)
 
 #### Valeurs du formulaire courant
 
 Ce thème contient le nom de chaque objet dynamique inclus dans le formulaire courant, ainsi que la valeur de sa variable associée :
 
-![current-form-value](../assets/en/Debugging/current-form-values.png)
+![current-form-value](/assets/en/Debugging/current-form-values.png)
 
 Certains objets, tels que les list box tableaux, peuvent être présentés comme deux objets distincts, la variable de l'objet lui-même et sa source de données.
 
@@ -229,7 +229,7 @@ Les expressions contenues dans ce thème ne peuvent pas être modifiées.
 
 Le menu contextuel de la fenêtre d’expression vous propose des options supplémentaires.
 
-![context-menu](../assets/en/Debugging/contextual-menu.png)
+![context-menu](/assets/en/Debugging/contextual-menu.png)
 
 * **Contracter** : Contracte tous les niveaux de la liste hiérarchique des expressions.
 * **Déployer** : Déploie tous les niveaux de la liste hiérarchique des expressions.
@@ -244,7 +244,7 @@ Le menu contextuel de la fenêtre d’expression vous propose des options suppl�
 
 Une méthode peut appeler d'autres méthodes ou fonctions de classe, qui peuvent à leur tour appeler d'autres méthodes ou fonctions. Le volet Chaîne d'appels vous permet de suivre cette hiérarchie.
 
-![call-chain-pane](../assets/en/Debugging/call-chain-example.png)
+![call-chain-pane](/assets/en/Debugging/call-chain-example.png)
 
 Chaque élément de niveau principal est le nom d'une méthode ou d'une fonction de classe. L'élément supérieur est celui que vous tracez actuellement, l'élément de niveau principal suivant est le nom de l'appelant (la méthode ou la fonction qui a appelé celle que vous tracez actuellement), le suivant est l'appelant de l'appelant, et ainsi de suite.
 
@@ -263,7 +263,7 @@ En cliquant sur l'icône à côté d'un nom de méthode ou de fonction, vous pou
 
 To display the parameter type, check the **Show types** option in the contextual menu:
 
-![call-chain-show-types](../assets/en/Debugging/callChainShowTypes.png)
+![call-chain-show-types](/assets/en/Debugging/callChainShowTypes.png)
 
 After you deploy the list of parameters, you can drag and drop parameters and function results to the [Custom Watch Pane](#custom-watch-pane).
 
@@ -281,7 +281,7 @@ Le fenêtre d'évaluation sert à évaluer les expressions. It is similar to the
 * method
 * et tout ce qui renvoie une valeur
 
-![custom-Watch-pane](../assets/en/Debugging/custom-watch-pane.png)
+![custom-Watch-pane](/assets/en/Debugging/custom-watch-pane.png)
 
 Vous pouvez évaluer toute expression qui peut être affichée sous forme de texte. Ceci n'inclut pas les champs et les variables image et BLOB. To display BLOB contents, you can use BLOB commands, such as [BLOB to text](https://doc.4d.com/4dv19/help/command/en/page555.html).
 
@@ -304,11 +304,11 @@ To delete an expression, click on it to select it, then press **Backspace** or *
 
 Le menu contextuel de la fenêtre vous donne accès à l'éditeur de formule 4D et à d'autres options :
 
-![custom-watch-pane-context-menu](../assets/en/Debugging/custom-watch-pane-context-menu.png)
+![custom-watch-pane-context-menu](/assets/en/Debugging/custom-watch-pane-context-menu.png)
 
 **New Expression**: This inserts a new expression and displays the 4D Formula Editor.
 
-![custom-Watch-pane-context-menu](../assets/en/Debugging/custom-watch-pane-formula-editor.png)
+![custom-Watch-pane-context-menu](/assets/en/Debugging/custom-watch-pane-formula-editor.png)
 
 For more information on the Formula Editor, see the <a href="https://doc.4d.com/4Dv19/4D/19/4D-Design-Reference.100-5416591.en.html" target="_blank">4D Design Reference manual.</a>
 
@@ -338,11 +338,11 @@ Passez votre pointeur sur une expression pour afficher une info-bulle qui indiqu
 * le type déclaré de l'expression
 * la valeur courante de l'expression
 
-![source-code-pane](../assets/en/Debugging/sourceCodePane.png)
+![source-code-pane](/assets/en/Debugging/sourceCodePane.png)
 
 Cela fonctionne également avec les sélections :
 
-![source-code-pane-tip](../assets/en/Debugging/sourcePaneTip.png)
+![source-code-pane-tip](/assets/en/Debugging/sourcePaneTip.png)
 
 ### Ajout d'expressions à la fenêtre d'évaluation
 
@@ -384,7 +384,7 @@ Considérons que le compteur de programme est défini sur la ligne `Si (conditio
 
 Le menu contextuel de la Fenêtre d'évaluation du code donne accès à plusieurs fonctions utiles en phase d’exécution du code en mode Trace :
 
-![source-code-pane-context-window](../assets/en/Debugging/sourceCodePaneContext.png)
+![source-code-pane-context-window](/assets/en/Debugging/sourceCodePaneContext.png)
 
 * **Aller à définition** : permet d’accéder à la définition de l’objet sélectionné. Cette commande est disponible avec les objets suivants :
   * *Project methods:* displays method contents in a new window of the Code Editor

@@ -14,8 +14,8 @@ Pour créer un nouveau projet :
 1. Lancez 4D ou 4D Server.
 
 2. Effectuez l'une des opérations suivantes :
-   - Sélectionnez **Nouveau > Projet...** dans le menu **Fichier** : ![](../assets/en/getStart/projectCreate1.png)
-   - (uniquement pour 4D) Sélectionnez **Projet...** dans le bouton de la barre d'outils **Nouveau** :<p>![](../assets/en/getStart/projectCreate2.png)</p>Une boîte de dialogue **Enregistrer** standard apparaît afin que vous puissiez choisir le nom et l'emplacement du dossier principal du projet 4D.
+   - Sélectionnez **Nouveau > Projet...** dans le menu **Fichier** : ![](/assets/en/getStart/projectCreate1.png)
+   - (uniquement pour 4D) Sélectionnez **Projet...** dans le bouton de la barre d'outils **Nouveau** :<p>![](/assets/en/getStart/projectCreate2.png)</p>Une boîte de dialogue **Enregistrer** standard apparaît afin que vous puissiez choisir le nom et l'emplacement du dossier principal du projet 4D.
 
 3. Saisissez le nom du dossier de projet et cliquez sur **Sauvegarder**. Ce nom sera utilisé :
 
@@ -77,7 +77,7 @@ Vous pouvez utiliser un [fichier `.4DLink`](#about-4DLink-files) pour lancer l'a
 - double-cliquer ou glisser-déposer le fichier `.4DLink` sur l'application 4D
 - aller sur **Fichier** > **Ouvrir projets récents** et sélectionner un projet
 
-![open-recent-projects](../assets/en/Project/4Dlinkfiles.png)
+![open-recent-projects](/assets/en/Project/4Dlinkfiles.png)
 
 Un fichier .4DLink de type "projet distant" peut être copié et utilisé sur plusieurs machines.
 

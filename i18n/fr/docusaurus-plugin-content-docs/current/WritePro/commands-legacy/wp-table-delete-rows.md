@@ -48,7 +48,7 @@ Vous souhaitez supprimer deux lignes du tableau *Invoice*. Le code suivant :
 
 Supprimera les deux lignes de leur emplacement initial :
 
-![](../../assets/en/WritePro/commands/pict4680306.en.png)
+![](/assets/en/WritePro/commands/pict4680306.en.png)
 
 #### Voir aussi 
 

@@ -46,7 +46,7 @@ $style.backgroundImage:=Null // 特定の属性を削除します
 VP SET CELL STYLE(VP Cell("ViewProArea";1;1);$style)
 ```
 
-![](../../assets/en/ViewPro/cmd_vpSetCellStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpSetCellStyle.PNG)
 
 #### 参照
 

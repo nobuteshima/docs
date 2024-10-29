@@ -7,7 +7,7 @@ title: Règle
 
 La règle est un objet d'interface standard permettant de définir ou de lire une valeur à l'aide d'un curseur placé sur une règle généralement graduée.
 
-![](../assets/en/FormObjects/indicator_ruler.png)
+![](/assets/en/FormObjects/indicator_ruler.png)
 
 [La variable ou expression associée](properties_Object.md#expression-type) à l’objet peut être affectée à une zone saisissable (champ ou variable) afin de stocker ou modifier la valeur courante de l’objet.
 

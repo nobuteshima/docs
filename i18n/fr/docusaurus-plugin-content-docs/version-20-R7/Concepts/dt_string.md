@@ -191,7 +191,7 @@ Lorsque vous utilisez les symboles d'indice de chaîne, il est de votre responsa
 
 L'alerte suivante s'affichera en mode compilé :
 
-![alt-text](../assets/en/Concepts/Syntax_Error.en.png)
+![alt-text](/assets/en/Concepts/Syntax_Error.en.png)
 
 ### Exemple
 
@@ -222,4 +222,4 @@ ALERT(Capitalize_text("Bonjour, mon nom est Jean Bon et je me présente aux pré
 
 affiche l'alerte suivante :
 
-![alt-text](../assets/en/Concepts/Jane_doe.en.png)
+![alt-text](/assets/en/Concepts/Jane_doe.en.png)

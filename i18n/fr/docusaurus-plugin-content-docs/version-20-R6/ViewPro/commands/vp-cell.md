@@ -39,7 +39,7 @@ Dans le paramètre optionnel *sheet*, vous pouvez indiquer l'index de la feuille
 
 Vous souhaitez définir une plage pour la cellule de la feuille courante (sur la feuille courante) :
 
-![vp-cell](../../assets/en/ViewPro/cmd_vpCell.png)
+![vp-cell](/assets/en/ViewPro/cmd_vpCell.png)
 
 Le code est le suivant :
 

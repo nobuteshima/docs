@@ -68,13 +68,13 @@ Todos los métodos proyecto de un proyecto matricial son por definición incluid
 
 Por otro lado, por defecto estos métodos proyecto no serán visibles, y no podrán ser llamados por el proyecto local. En el proyecto matriz, debe designar explícitamente los métodos que desea compartir con el proyecto local y sus componentes marcando la casilla **Compartido por los componentes y el proyecto local** en la caja de diálogo de las propiedades del método:
 
-![](../assets/en/Concepts/shared-methods.png)
+![](/assets/en/Concepts/shared-methods.png)
 
 Los métodos proyecto compartidos se pueden llamar en el código del proyecto local (pero no se pueden modificar en el editor de código del proyecto local). Estos métodos son los **puntos de entrada** del componente.
 
 Por el contrario, por razones de seguridad, por defecto un componente no puede ejecutar métodos proyecto que pertenezcan al proyecto local. En algunos casos, puede ser necesario permitir que un componente acceda a los métodos proyecto de su proyecto local. Para ello, debe designar explícitamente qué métodos proyecto del proyecto local quiere hacer accesibles a los componentes (en las propiedades del método, marque la casilla **Compartido por componentes y proyecto local**).
 
-![](../assets/en/Concepts/pict516563.en.png)
+![](/assets/en/Concepts/pict516563.en.png)
 
 Una vez que los métodos proyecto de los proyectos locales están disponibles para los componentes, puede ejecutar un método local desde dentro de un componente utilizando [`EXECUTE FORMULA`](https://doc. d.com/4dv20/help/command/en/page63.html) o [`EXECUTE METHOD`](https://doc.4d.com/4dv20/help/command/en/page1007.html). Por ejemplo:
 
@@ -100,7 +100,7 @@ Por defecto, las clases de los componentes no pueden ser llamadas desde el edito
 
 Para permitir que las clases de su componente se expongan en los proyectos locales y sus componentes cargados, introduzca un valor en la opción [**namespace del componente en la class store** en la página General](../settings/general.md#component-namespace-in-the-class-store) de las Propiedades del proyecto matriz. Por defecto, el área está vacía: las clases de componentes no están disponibles fuera del contexto de los componentes.
 
-![](../assets/en/settings/namespace.png)
+![](/assets/en/settings/namespace.png)
 
 :::note
 
@@ -121,7 +121,7 @@ $area:=$rect.getArea()
 
 El namespace de un componente [compilado](#protection-of-components-compilation) se añade entre paréntesis después del nombre del componente en la [página Métodos Componente](../Concepts/components.md#using-components) de los proyectos locales:
 
-![](../assets/en/settings/namesapece-explorer.png)
+![](/assets/en/settings/namesapece-explorer.png)
 
 :::
 
@@ -147,8 +147,8 @@ Para facilitar el uso de su componente a los desarrolladores, puede marcar la op
 
 Durante la fase de compilación se crea automáticamente un archivo de sintaxis (en formato JSON) con la sintaxis de las clases, funciones y [métodos expuestos] del componente (#sharing-of-project-methods), y se coloca en la carpeta `\Resources\en.lproj` del proyecto del componente. 4D utiliza el contenido de ese archivo de sintaxis para generar ayuda contextual en el editor de código, como la finalización del código y la sintaxis de las funciones:
 
-![](../assets/en/settings/syntax-code-completion-2.png)
-![](../assets/en/settings/syntax-code-completion-1.png)
+![](/assets/en/settings/syntax-code-completion-2.png)
+![](/assets/en/settings/syntax-code-completion-1.png)
 
 Si no ingresa un [namespace](#declaring-the-component-namespace), los recursos de las clases y de los métodos exposed no se generan incluso si la opción de archivo de sintaxis está marcada.
 

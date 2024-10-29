@@ -270,7 +270,7 @@ return false
 
 Quando 4D envia a página para um navegador Web, ela se parece com isso:
 
-![](../assets/en/WebServer/spiders.png)
+![](/assets/en/WebServer/spiders.png)
 
 As principais características desta página são:
 
@@ -331,7 +331,7 @@ The 4D web server provides several low-level web commands allowing you to develo
 
 Esses comandos estão resumidos no gráfico a seguir:
 
-![](../assets/en/WebServer/httpCommands.png)
+![](/assets/en/WebServer/httpCommands.png)
 
 The 4D web server supports files uploaded in chunked transfer encoding from any Web client. A codificação de transferência em pedaços é um mecanismo de transferência de dados especificado no HTTP/1.1. It allows data to be transferred in a series of "chunks" (parts) without knowing the final data size. El servidor web de 4D también soporta la codificación de transferencia en trozos desde el servidor a los clientes web (utilizando `WEB SEND RAW DATA`).
 

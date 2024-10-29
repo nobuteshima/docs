@@ -9,13 +9,13 @@ title: 4D View Pro エリアの設定
 
 **オブジェクト名**、[**変数あるいは式**](#4d-view-pro-フォームオブジェクト変数)、**アピアランス**、**アクション**、**イベント** などの [4D View Pro オブジェクトプロパティ](FormObjects/viewProArea_overview.md#プロパティ一覧) は、エリアのプロパティリストを使って設定できます。
 
-![](../assets/en/ViewPro/vpPropertyList.png)
+![](/assets/en/ViewPro/vpPropertyList.png)
 
 ### ユーザーインターフェースの選択
 
 4D View Pro のフォームエリアで使用するインターフェースは、**プロパティリスト** の **アピアランス** から選択できます:
 
-![](../assets/en/ViewPro/vpUserInterface.PNG)
+![](/assets/en/ViewPro/vpUserInterface.PNG)
 
 > また、[`userInterface`](FormObjects/properties_Appearance.md#ユーザーインターフェース) および [`withFormulaBar`](FormObjects/properties_Appearance.md#フォーミュラバーを表示) ("ツールバー" インターフェースのみ) の JSONプロパティを使用することもできます。
 
@@ -23,7 +23,7 @@ title: 4D View Pro エリアの設定
 
 #### リボン
 
-![](../assets/en/ViewPro/vpRibbon.png)
+![](/assets/en/ViewPro/vpRibbon.png)
 
 #### ツールバー
 
@@ -31,7 +31,7 @@ title: 4D View Pro エリアの設定
 
 フォーミュラバーが表示された状態:
 
-![](../assets/en/ViewPro/vpToolbar.png)
+![](/assets/en/ViewPro/vpToolbar.png)
 
 #### 機能
 
@@ -128,7 +128,7 @@ title: 4D View Pro エリアの設定
 
 たとえば、請求書において [VP SET VALUE](commands/vp-set-value.md) あるいは [VP SET NUM VALUE](commands/vp-set-num-value.md) コマンドを使用して金額を入力している場合、数値の桁数とは関係なく (つまり金額が $5.00 だろうと $5,000.00 だろうと) 通貨記号 ($, €, ¥, など)を同じ位置に整列させたい場合があるかもしれません。 この場合、フォーマット文字を使用してパターン _($\* #,##0.00)_ を指定することで、以下のように表示させることができます:
 
-![](../assets/en/ViewPro/apx_vpCellFormat1.PNG)
+![](/assets/en/ViewPro/apx_vpCellFormat1.PNG)
 
 カスタムのフォーマットパターンを作成する場合、データの表示 のみが変更されるという点に注意してください。 データの値そのものは変わりません。
 
@@ -294,12 +294,12 @@ VP SET VALUE(VP Cell("ViewProArea";3;9);New object("value";!2024-12-18!);"time";
 | N                     | ページ数                                          | printInfo.headerLeft:="&N ページあります"                                                                | 10 ページあります                                           |   |
 | D                     | カレント日付 (yyyy/mm/dd フォーマット) | printInfo.headerLeft:="日付は &D です"                                                                 | 日付は 2015/6/19 です                                     |   |
 | T                     | 現在の時刻                                         | printInfo.headerLeft:="時刻は &T です"                                                                 | 時刻は 16:30:36 です      |   |
-| G                     | ピクチャー                                         | printInfo.headerLeftImage:=smiley<br/>printInfo.headerLeft:="&G"  | ![](../assets/en/ViewPro/apx_vpPrintAttributes1.PNG) |   |
+| G                     | ピクチャー                                         | printInfo.headerLeftImage:=smiley<br/>printInfo.headerLeft:="&G"  | ![](/assets/en/ViewPro/apx_vpPrintAttributes1.PNG) |   |
 | S                     | 打ち消し線                                         | printInfo.headerLeft:="&Sこれはテキストです"                                                               | ~~これはテキストです~~                                        |   |
 | U                     | 下線                                            | printInfo.headerLeft:="&Uこれはテキストです"                                                               | これはテキストです (下線)                    |   |
 | B                     | 太字                                            | printInfo.headerLeft:="&Bこれはテキストです"                                                               | **これはテキストです**                                        |   |
 | I                     | イタリック                                         | printInfo.headerLeft:="&Iこれはテキストです"                                                               | _これはテキストです_                                          |   |
-| "                     | フォント指定                                        | printInfo.headerLeft:="&\"Lucida Console\"&14This is text." | ![](../assets/en/ViewPro/apx_vpPrintAttributes2.PNG) |   |
+| "                     | フォント指定                                        | printInfo.headerLeft:="&\"Lucida Console\"&14This is text." | ![](/assets/en/ViewPro/apx_vpPrintAttributes2.PNG) |   |
 | K                     | 文字カラー指定                                       | printInfo.headerLeft:="&KFF0000これはテキストです"                                                         | これはテキストです (赤字)。                   |   |
 | F                     | ワークブック名                                       | printInfo.headerLeft:="&F"                                                                        | 2019 Monthly Revenue Forecasts                       |   |
 | A                     | スプレッドシート名                                     | printInfo.headerLeft:="&A"                                                                        | June 2019 revenue forecast                           |   |

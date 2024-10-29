@@ -142,9 +142,9 @@ title: 入力
 
 > [入力可](#入力可) に設定された [入力オブジェクト](input_overview.md) は常にフォーカス可です。
 
-- ![](../assets/en/FormObjects/property_focusable1.png)<br/>Check box shows focus when selected
+- ![](/assets/en/FormObjects/property_focusable1.png)<br/>Check box shows focus when selected
 
-- ![](../assets/en/FormObjects/property_focusable2.png)<br/>Check box is selected but cannot show focus|
+- ![](/assets/en/FormObjects/property_focusable2.png)<br/>Check box is selected but cannot show focus|
 
 入力できないオブジェクトに **フォーカス可** プロパティが設定されていると、ユーザーはエリアの内容を選択、コピー、およびドラッグ＆ドロップすることができます。
 
@@ -197,13 +197,13 @@ title: 入力
 
 - 一行の入力オブジェクトでは、行の最後にある単語はエリアからはみ出し、改行はおこなわれません。
 - 複数行の入力オブジェクトの場合、4D は自動で改行します:\
-  ![](../assets/en/FormObjects/multilineAuto.png)
+  ![](/assets/en/FormObjects/multilineAuto.png)
 
 #### ×
 
 - 一行の入力オブジェクトでは、行の最後にある単語はエリアからはみ出し、改行はおこなわれません。
 - 改行はおこなわれません。テキストは常に一行で表示されます。 文字やテキストのフィールドまたは変数が改行文字を含んでいる場合、エリアが更新されるとすぐに最初のキャリッジリターンより後のテキストが取り除かれます:\
-  ![](../assets/en/FormObjects/multilineNo.png)
+  ![](/assets/en/FormObjects/multilineNo.png)
 
 #### ◯
 
@@ -227,7 +227,7 @@ title: 入力
 
 このテキストはフィールド内で半透明のテキストとして表示され、入力されるデータに関するヘルプ、指示、具体例などを表示します。 このテキストは、ユーザーが文字をエリアに入力した瞬間に表示されなくなります:
 
-![](../assets/en/FormObjects/property_placeholder.png)
+![](/assets/en/FormObjects/property_placeholder.png)
 
 プレースホルダーテキストは、フィールドの中身が消去されると再び表示されます。
 
@@ -282,7 +282,7 @@ xliff 参照を ":xliff:resname" の形でプレースホルダーとして使�
 
 ショートカットの設定をおこなうには、プロパティリストのショートカットプロパティの [...]  ボタンをクリックします。
 
-![](../assets/en/FormObjects/property_shortcut.png)
+![](/assets/en/FormObjects/property_shortcut.png)
 
 > カスタムメニューコマンドにもショートカットを割り当てることができます。 2つのショートカットに衝突がある場合には、アクティブオブジェクトが優先されます。 メニューへのショートカットの割り当てについては [メニュープロパティを設定する](https://doc.4d.com/4Dv18/4D/18/Setting-menu-properties.300-4575512.ja.html) を参照してください。
 

@@ -5,7 +5,7 @@ title: Page Serveur d’application
 
 La Page Serveur d’application regroupe les informations relatives à la base de données publiée par 4D Server et permet de gérer cette publication.
 
-![](../assets/en/Admin/server-admin-application-page.png)
+![](/assets/en/Admin/server-admin-application-page.png)
 
 La partie supérieure de la page fournit des informations sur le statut courant du serveur d’application de 4D Server.
 
@@ -28,7 +28,7 @@ Si vous cliquez sur le bouton **Refuser nouvelles connexions** :
 - Le libellé du bouton devient "Accepter nouvelles connexions"
 - Plus aucun nouveau client ne peut alors se connecter. Les clients qui tenteront de se connecter recevront le message suivant :
 
-![](../assets/en/Admin/server-error.png)
+![](/assets/en/Admin/server-error.png)
 
 - Le nom du projet n’apparaît plus dans la boîte de dialogue de connexion.
 - Les clients déjà connectés ne sont pas déconnectés et peuvent continuer à travailler normalement.

@@ -120,7 +120,7 @@ O exemplo abaixo retorna o número de objetos em um formulário JSON:
 
 o resultado mostrado é
 
-![](../assets/en/commands/pict3688480.en.png)
+![](/assets/en/commands/pict3688480.en.png)
 
 #### Exemplo 5 
 

@@ -23,7 +23,7 @@ En *rangeObj*, pase un objeto rango de la fusión. Las celdas fusionadas en el r
 
 Para eliminar todas las fusiones de celdas de este documento:
 
-![](../../assets/en/ViewPro/cmd_vpRemoveSpan1.PNG)
+![](/assets/en/ViewPro/cmd_vpRemoveSpan1.PNG)
 
 ```4d
  //identifica todas las celdas fusionadas
@@ -35,7 +35,7 @@ Para eliminar todas las fusiones de celdas de este documento:
 
 Resultado:
 
-![](../../assets/en/ViewPro/cmd_vpRemoveSpan2.PNG)
+![](/assets/en/ViewPro/cmd_vpRemoveSpan2.PNG)
 
 #### Ver también
 

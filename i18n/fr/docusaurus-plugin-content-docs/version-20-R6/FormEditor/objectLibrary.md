@@ -13,17 +13,17 @@ Vous pouvez utiliser des bibliothèques d'objets dans vos formulaires. Une bibli
 ## Utilisation de la bibliothèque d'objets standard
 
 The standard object library is available from the Form editor: click on the last button of the toolbar:\
-![](../assets/en/FormEditor/library1.png)
+![](/assets/en/FormEditor/library1.png)
 
 La bibliothèque est affichée dans une fenêtre séparée :
 
-![](../assets/en/FormEditor/library2.png)
+![](/assets/en/FormEditor/library2.png)
 
 La fenêtre présente les caractéristiques principales suivantes :
 
 - Zone d'aperçu avec des messages d'aide : la zone centrale affiche un aperçu de chaque objet. Vous pouvez survoler un objet pour obtenir des informations sur celui-ci dans un message d'aide.
 - You can filter the window contents by using the **Categories** menu:
-  ![](../assets/en/FormEditor/library3.png)
+  ![](/assets/en/FormEditor/library3.png)
 - Pour utiliser un objet de la bibliothèque dans votre formulaire, vous pouvez soit :
   - faire un clic droit sur un objet et sélectionnez **Copier** dans le menu contextuel
   - or drag and drop the object from the library The object is then added to the form.
@@ -46,7 +46,7 @@ Pour créer une bibliothèque d’objets, sélectionnez la commande **Nouveau > 
 
 Lorsque vous validez la boîte de dialogue, 4D crée sur disque une nouvelle bibliothèque d’objets et affiche sa fenêtre (vide par défaut).
 
-![](../assets/en/FormEditor/library4.png)
+![](/assets/en/FormEditor/library4.png)
 
 Vous pouvez créer autant de bibliothèques que vous voulez par projet. Une bibliothèque créée et construite sous macOS peut être utilisée sous Windows et inversement.
 
@@ -72,7 +72,7 @@ Les objets sont placés dans une bibliothèque d’objets par glisser-déposer o
 
 Les principales opérations sont accessibles via le menu contextuel ou le menu d'options de la fenêtre :
 
-![](../assets/en/FormEditor/library5.png)
+![](/assets/en/FormEditor/library5.png)
 
 - **Couper** ou **Copier** vers le conteneur de données
 - **Coller** un objet à partir du conteneur de données
@@ -81,7 +81,7 @@ Les principales opérations sont accessibles via le menu contextuel ou le menu d
 
 Vous pouvez placer dans la bibliothèque des objets individuels (y compris des sous-formulaires) ou des ensembles d’objets. Chaque objet ou ensemble d’objets est regroupé en un seul élément :
 
-![](../assets/en/FormEditor/library6.png)
+![](/assets/en/FormEditor/library6.png)
 
 Une bibliothèque d’objets peut contenir jusqu’à 32 000 éléments.
 

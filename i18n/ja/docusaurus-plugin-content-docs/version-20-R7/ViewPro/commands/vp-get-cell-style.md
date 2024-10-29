@@ -28,7 +28,7 @@ title: VP Get cell style
 
 選択されたセル (B2) のスタイルの詳細を取得します:
 
-![](../../assets/en/ViewPro/cmd_vpGetCellStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpGetCellStyle.PNG)
 
 以下のコードを実行すると:
 

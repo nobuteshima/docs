@@ -15,16 +15,16 @@ Pode utilizar bibliotecas de objectos nos seus formulários. Uma biblioteca de o
 ## Criar e utilizar bibliotecas de objetos personalizadas
 
 A biblioteca de objetos padrão está disponível no editor de formulários: clique no último botão da barra de ferramentas:  
-![](../assets/en/FormEditor/library1.png)
+![](/assets/en/FormEditor/library1.png)
 
 A biblioteca é apresentada numa janela separada:
 
-![](../assets/en/FormEditor/library2.png)
+![](/assets/en/FormEditor/library2.png)
 
 A janela tem as seguintes características principais:
 
 - Área de visualização com dicas: a área central exibe uma visualização de cada objeto. Você pode passar o mouse sobre um objeto para obter informações sobre ele em uma dica.
-- Pode filtrar o conteúdo da janela utilizando o menu **Categorias**: ![](../assets/en/FormEditor/library3.png)
+- Pode filtrar o conteúdo da janela utilizando o menu **Categorias**: ![](/assets/en/FormEditor/library3.png)
 - Para utilizar um objeto da biblioteca no seu formulário, pode:
     - clicar com o botão direito do rato num objeto e selecionar **Copiar** no menu contextual
     - ou arraste e solte o objeto da biblioteca. O objeto é então adicionado ao formulário.
@@ -49,7 +49,7 @@ To create an object library, select **New>Object Library...** from the 4D **File
 
 Após validar a caixa de diálogo, o 4D cria uma biblioteca de objetos em seu disco e exibe sua janela (vazia por padrão).
 
-![](../assets/en/FormEditor/library4.png)
+![](/assets/en/FormEditor/library4.png)
 
 É possível criar tantas bibliotecas quantas as desejadas por projeto. Uma biblioteca criada e construída no macOS pode ser usada no Windows e vice-versa.
 
@@ -75,7 +75,7 @@ Os objectos são colocados numa biblioteca de objectos usando o método de arras
 
 As operações básicas estão disponíveis no menu de contexto ou no menu de opções da janela:
 
-![](../assets/en/FormEditor/library5.png)
+![](/assets/en/FormEditor/library5.png)
 
 - **Cortar** ou **Copiar** para o papelão
 - **Colar** um objecto do papelão
@@ -85,7 +85,7 @@ As operações básicas estão disponíveis no menu de contexto ou no menu de op
 
 Pode colocar objectos individuais (incluindo subformulários) ou conjuntos de objectos numa biblioteca de objectos. Cada objecto ou conjunto é agrupado num único item:
 
-![](../assets/en/FormEditor/library6.png)
+![](/assets/en/FormEditor/library6.png)
 
 Uma biblioteca de objectos pode conter até 32.000 elementos.
 

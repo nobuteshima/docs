@@ -17,11 +17,11 @@ Les formats d'image les plus courants sont pris en charge par les deux plates-fo
 
 Une icône spécifique est affichée pour les images stockées dans un format non disponible sur le poste. L'extension du format manquant est inscrite en bas de l'icône :
 
-![](../assets/en/FormEditor/picNoFormat.png)
+![](/assets/en/FormEditor/picNoFormat.png)
 
 L'icône est automatiquement utilisée partout où l'image doit être affichée :
 
-![](../assets/en/FormEditor/picNoFormat2.png)
+![](/assets/en/FormEditor/picNoFormat2.png)
 
 Cette icône indique que l'image ne peut être ni affichée ni manipulée localement -- mais elle peut être stockée sans altération pour être affichée sur une autre machine. C'est le cas, par exemple, pour les images PDF sous Windows ou les images au format PICT.
 
@@ -37,8 +37,8 @@ Lorsque vous utilisez des images haute résolution, vous pouvez spécifier le fa
 
 | Type d'affichage    | Facteur d'échelle                                  | Exemple                                                                      |
 | ------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------- |
-| Résolution standard | densité de pixel 1:1.                              | **1x**<br/>![](../assets/en/FormEditor/pictureScale1.png) *circle.png* |
-| Haute résolution    | Densité de pixel augmentée d'un facteur de 2 ou 3. | <table><th>2x</th><th>3x</th><tr><td>![](../assets/en/FormEditor/pictureScale2.png)*circle@2x.png*</td><td>![](../assets/en/FormEditor/pictureScale3.png)<br/>*circle@3x.png*</td></tr></table>                                                    |
+| Résolution standard | densité de pixel 1:1.                              | **1x**<br/>![](/assets/en/FormEditor/pictureScale1.png) *circle.png* |
+| Haute résolution    | Densité de pixel augmentée d'un facteur de 2 ou 3. | <table><th>2x</th><th>3x</th><tr><td>![](/assets/en/FormEditor/pictureScale2.png)*circle@2x.png*</td><td>![](/assets/en/FormEditor/pictureScale3.png)<br/>*circle@3x.png*</td></tr></table>                                                    |
 
 Les images haute résolution avec la convention @nx peuvent être utilisées dans les objets suivants :
 
@@ -74,7 +74,7 @@ Une image en mode sombre est définie comme suit :
 
 Au moment de l'exécution, 4D charge automatiquement l'image en mode clair ou sombre, en fonction du [mode de couleurs du formulaire courant](https://doc.4d.com/4dv19/help/command/en/1761.html).
 
-![](../assets/en/FormEditor/darkicon.png)
+![](/assets/en/FormEditor/darkicon.png)
 
 ## Coordonnées de la souris dans une image
 

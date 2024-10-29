@@ -13,7 +13,7 @@ El entorno de desarrollo 4D ofrece varias herramientas de depuración para todo 
 
 Los errores de escritura son detectados por el Editor de código. Se muestran en rojo y se ofrece información adicional en la parte inferior de la ventana. He aquí un error de escritura:
 
-![break-point](../assets/en/Debugging/typing-error.png)
+![break-point](/assets/en/Debugging/typing-error.png)
 
 Estos errores de escritura suelen causar errores de sintaxis (en la imagen anterior, el nombre de la tabla es desconocido). Se obtiene la descripción del error cuando se valida la línea de código. Cuando esto ocurre, corrija el error de digitación y escriba Enter para validar la solución.
 
@@ -21,7 +21,7 @@ Estos errores de escritura suelen causar errores de sintaxis (en la imagen anter
 
 Algunos errores sólo se pueden capturar cuando se ejecuta el método. La [ventana de error de sintáxis](#syntax-error-window) aparece cuando ocurre un error durante la ejecución del código. Por ejemplo:
 
-![syntax-error](../assets/en/Debugging/syntax-error.png)
+![syntax-error](/assets/en/Debugging/syntax-error.png)
 
 Expanda el área **Detalles** para mostrar el último error y su número.
 
@@ -47,7 +47,7 @@ A veces el código que muestra el error puede ser diferente al código que en re
 
 En modo Aplicación, puede obtener errores que no ve en modo interpretado. Aquí un ejemplo:
 
-![runtime-error](../assets/en/Debugging/runtimeError.png)
+![runtime-error](/assets/en/Debugging/runtimeError.png)
 
 Para encontrar rápidamente el origen del problema, vuelva a abrir la versión interpretada del archivo de estructura, abra el método y vaya a la línea correspondiente.
 
@@ -58,7 +58,7 @@ La ventana de error de sintaxis aparece automáticamente cuando se interrumpe la
 - un error impide que el código siga ejecutándose
 - el método produce una afirmación falsa (ver el comando `ASSERT`)
 
-![syntax-error](../assets/en/Debugging/syntax-error.png)
+![syntax-error](/assets/en/Debugging/syntax-error.png)
 
 El área de texto superior muestra un mensaje describiendo el error. El área de texto inferior muestra la línea que se estaba ejecutando cuando ocurrió el error; el área donde ocurrió el error se resalta. La sección Detalles extendida contiene la "pila" de errores relacionados con el proceso.
 

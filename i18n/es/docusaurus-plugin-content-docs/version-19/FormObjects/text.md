@@ -26,13 +26,13 @@ Un objeto texto permite mostrar contenido escrito estático (*por ejemplo, *, in
 
 4D le permite rotar las áreas de texto en sus formularios utilizando la propiedad [Orientación](properties_Text.md#orientation).
 
-![](../assets/en/FormObjects/staticText.png)
+![](/assets/en/FormObjects/staticText.png)
 
 > La rotación del texto puede definirse para un proceso utilizando el comando de lenguaje `OBJECT SET TEXT ORIENTATION`.
 
 Una vez que un texto está rotado, puede seguir cambiando su tamaño o posición, así como todas sus propiedades. Tenga en cuenta que las propiedades de alto y ancho del área de texto no dependen de su orientación:
 
-![](../assets/en/FormObjects/staticText2.png)
+![](/assets/en/FormObjects/staticText2.png)
 
 - Si el objeto se redimensiona en la dirección A, se modifica su [ancho](properties_CoordinatesAndSizing.md#width);
 - Si el objeto se redimensiona en la dirección C, se modifica su [alto](properties_CoordinatesAndSizing.md#height);

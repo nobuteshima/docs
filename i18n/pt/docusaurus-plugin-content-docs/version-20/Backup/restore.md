@@ -27,7 +27,7 @@ Para restaurar um banco de dados manualmente via uma caixa de diálogo padrão:
 1. **Content**: Contents of the backup file. Não é obrigatório que um banco de dados seja aberto. OR Execute the `RESTORE` command from a 4D method. Uma caixa de diálogo de abertura de arquivos vai aparecer.
 2. Selecione um arquivo de backup (.4bk) ou um arquivo de backup de histórico (.4bl) para ser restaurado e clique **Abrir**. Aparece um diálogo que permite especificar o local onde os arquivos serão restaurados. Como padrão 4D restaura os arquivos em uma pasta chamada *Archivename* (sem extensão) que fica do lado do arquivo. Pode exibir a rota:
 
-![](../assets/en/Backup/backup07.png)
+![](/assets/en/Backup/backup07.png)
 
 You can also click on the **Browse...** button found just under the area in order to open any other archive file from a different location.
 3. The **Restore** button launches the manual restoration of the selected element(s). 4D extrai todos os arquivos de backup do local especificado. Se o arquivo de histórico atual ou um arquivo de histórico de backup com o mesmo número que o arquivo de cópia de segurança for armazenado na mesma pasta, 4D examina seus conteúdos. Se conter operações não presentes no arquivo de dados, o programa vai perguntar se deseja integrar essas operações. A integração é feita automaticamente se a opção **Integrar último arquivo de histórico...** for marcada (ver [Restauração automática](settings.md#automatic-restore)).
@@ -49,7 +49,7 @@ Pode restaurar manualmente um arquivo do banco de dados atual utilizando a pági
 
 Se não tiver marcado a opção de integração automática de arquivo de histórico na página Restaurar do CSM (ver [Integração sucessiva de vários arquivos de histórico](MSC/restore.md#successive-intergration-of-several-data-log-files)), aparece uma caixa de diálogo de advertência durante a abertura do banco quando 4D advertir que o arquivo de histórico conter mais operações do que as que foram realizadas no banco de dados.
 
-![](../assets/en/Backup/backup08.png)
+![](/assets/en/Backup/backup08.png)
 
 > Para que esse mecanismo funcione, 4D deve poder acessar o arquivo de histórico em seu local atual.
 

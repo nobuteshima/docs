@@ -56,7 +56,7 @@ You want to insert two rows at the end of the *Invoice* table:
 
 will insert the two new rows at the correct location:
 
-![](../../assets/en/WritePro/commands/pict4680266.en.png) 
+![](/assets/en/WritePro/commands/pict4680266.en.png) 
 
 #### See also 
 

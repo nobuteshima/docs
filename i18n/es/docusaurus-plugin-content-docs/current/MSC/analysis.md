@@ -8,7 +8,7 @@ La página Análisis de actividades permite ver el contenido del archivo de regi
 
 > También es posible revertir las operaciones realizadas sobre los datos de la base. Para más información, consulte [Página de retroceso](rollback.md).
 
-![](../assets/en/MSC/MSC_analysis.png)
+![](/assets/en/MSC/MSC_analysis.png)
 
 Cada operación registrada en el archivo de registro aparece como una línea. Las columnas ofrecen información variada sobre la operación. Puede reorganizar las columnas como desee haciendo clic en sus encabezados.
 

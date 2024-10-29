@@ -7,7 +7,7 @@ Radio buttons are objects that allow the user to select one of a group of button
 
 Um botão radio aparece na forma de um texto seguido de um círculo. Sin embargo, los botones radio pueden tener [diferentes apariencias](#estilos-de-botón).
 
-![](../assets/en/FormObjects/radio1.png)
+![](/assets/en/FormObjects/radio1.png)
 
 É selecionado um botão rádio:
 
@@ -20,7 +20,7 @@ Radio buttons are used in coordinated sets: only one button at a time can be sel
 
 Os botões rádio são controlados com métodos. Como todos os botões, um botão de rádio é definido como 0 quando o formulário é aberto pela primeira vez. Um método associado a um botão de rádio é executado quando o botão é selecionado. The following is an example of a group of radio buttons used in a video collection database to enter the speed of the recording (SP, LP, or EP):
 
-![](../assets/en/FormObjects/radio2.png)
+![](/assets/en/FormObjects/radio2.png)
 
 Selecting one radio button in a group sets that button to 1 and all of the others in the group to 0. Só pode ser selecionado um botão rádio de cada vez.
 
@@ -38,7 +38,7 @@ The value contained in a radio button object is not saved automatically (except 
 
 El estilo de botón radio Clásico es un botón sistema estándar (\*es decir, \*, una pequeña diana con texto) que ejecuta código cuando el usuario hace clic en él.
 
-![](../assets/en/FormObjects/radio_regular.png)
+![](/assets/en/FormObjects/radio_regular.png)
 
 In addition to initiating code execution, the Regular radio button style changes bullsey color when being hovered.
 
@@ -46,7 +46,7 @@ In addition to initiating code execution, the Regular radio button style changes
 
 El estilo de botón radio Plano es un botón sistema estándar (\*es decir, \*, una pequeña diana con texto) que ejecuta código cuando el usuario hace clic en él.
 
-![](../assets/en/FormObjects/radio_flat.png)
+![](/assets/en/FormObjects/radio_flat.png)
 
 Por padrão, o estilo Plano tem um aspeto minimalista. The Flat button style's graphic nature is particularly useful for forms that will be printed.
 
@@ -58,7 +58,7 @@ By default, the Toolbar style has a transparent background with a label in the c
 
 - *Windows* - o botão é destacado.
 
-![](../assets/en/FormObjects/radio_toolbar.png)
+![](/assets/en/FormObjects/radio_toolbar.png)
 
 - *macOS* - o destaque do botão nunca aparece.
 
@@ -68,7 +68,7 @@ El estilo de botón radio Bevel es similar al comportamiento del estilo [Barra d
 
 - *Windows* - o botão é destacado.
 
-![](../assets/en/FormObjects/radio_bevel.png)
+![](/assets/en/FormObjects/radio_bevel.png)
 
 - *macOS* - o destaque do botão nunca aparece.
 
@@ -79,7 +79,7 @@ O estilo de botão Bevel arredondado é quase idêntico ao estilo [Bevel](#bevel
 - *Windows* - el botón es idéntico al estilo [Bevel](#bevel).
 
 - *macOS* - las esquinas del botón están redondeadas.
-  ![](../assets/en/FormObjects/roundedBevel.png)
+  ![](/assets/en/FormObjects/roundedBevel.png)
 
 ### OS X Gradient
 
@@ -99,7 +99,7 @@ Como padrão, o estilo OS X Textured aparece como:
 
 - *macOS* - um botão sistema padrão que mostra uma mudança de cor cinza-claro a cinza-escuro. Sua altura está predefinida: não é possível ampliar ou reduzir.
 
-![](../assets/en/FormObjects/OSXTextured.png)
+![](/assets/en/FormObjects/OSXTextured.png)
 
 ### Office XP
 
@@ -109,7 +109,7 @@ As cores (ressaltado e fundo) de um botão com o estilo Office XP são baseadas 
 
 - *Windows* - seu fundo só aparece quando o mouse passa por cima.
 
-![](../assets/en/FormObjects/radio_xp.png)
+![](/assets/en/FormObjects/radio_xp.png)
 
 - *macOS* - its background is always displayed.
 
@@ -117,7 +117,7 @@ As cores (ressaltado e fundo) de um botão com o estilo Office XP são baseadas 
 
 Este estilo de botão pode ser utilizado para adicionar um ícone padrão contracter/déployer. Esses botões são usados nativamente em listas hierárquicas. Esses botões são usados nativamente em listas hierárquicas.
 
-![](../assets/en/FormObjects/checkbox_collapse.png)
+![](/assets/en/FormObjects/checkbox_collapse.png)
 
 :::info
 
@@ -129,7 +129,7 @@ O estilo Recolher/Expandir é denominado "disclosure" na [gramática JSON de est
 
 The disclosure radio button style displays the radio button as a standard disclosure button, usually used to show/hide additional information. O símbolo do botão aponta para baixo com o valor 0 e para cima com o valor 1.
 
-![](../assets/en/FormObjects/checkbox_disclosure.png)
+![](/assets/en/FormObjects/checkbox_disclosure.png)
 
 :::info
 

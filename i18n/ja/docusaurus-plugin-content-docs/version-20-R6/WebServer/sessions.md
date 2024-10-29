@@ -23,7 +23,7 @@ Webセッションは次のものに使用されます:
 
 セッション管理機能は、4D Webサーバー上で有効または無効にすることができます。 セッション管理を有効化する方法は複数あります:
 
-- ストラクチャー設定の Web / オプション (I) ページの **スケーラブルセッション** を使用する (永続的な設定): ![alt-text](../assets/en/WebServer/settingsSession.png)
+- ストラクチャー設定の Web / オプション (I) ページの **スケーラブルセッション** を使用する (永続的な設定): ![alt-text](/assets/en/WebServer/settingsSession.png)
 
 このオプションは、新規プロジェクトではデフォルトで選択されています。 これは、**セッションなし** オプションを選択して無効にすることもできます。この場合、Webセッション機能は無効になります (`Session` オブジェクトは使用できません)。
 
@@ -62,7 +62,7 @@ RESTリクエストのための Webセッションを作成するには、利用
 
 カレントセッションの `Session` オブジェクトは、あらゆる Webプロセスのコードにおいて [`Session`](API/SessionClass.md#session) コマンドを介してアクセスできます。
 
-![alt-text](../assets/en/WebServer/schemaSession.png)
+![alt-text](/assets/en/WebServer/schemaSession.png)
 
 :::info
 
@@ -124,7 +124,7 @@ End if
 
 CRMアプリケーションを使って、各営業担当者が自分の顧客ポートフォリオを管理します。 データストアには、少なくとも 2つのリンクされたデータクラス Customers と SalesPersons が含まれています (営業担当者は複数の顧客を持ちます)。
 
-![alt-text](../assets/en/WebServer/exampleSession.png)
+![alt-text](/assets/en/WebServer/exampleSession.png)
 
 営業担当者がログインし、Webサーバー上でセッションを開き、上位3名の顧客をセッションに読み込ませたいとします。
 
@@ -152,7 +152,7 @@ http://localhost:8044/authenticate.shtml
 
 ```
 
-![alt-text](../assets/en/WebServer/authenticate.png)
+![alt-text](/assets/en/WebServer/authenticate.png)
 
 3. authenticate project メソッドは、*userID* に合致する担当者を探し、*SalesPersons* テーブルに保存されているハッシュ値をパスワードと照合します。
 

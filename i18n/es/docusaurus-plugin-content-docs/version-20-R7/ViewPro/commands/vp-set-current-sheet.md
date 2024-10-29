@@ -28,7 +28,7 @@ En *sheet*, pase el índice de la hoja que se va a definir como hoja actual. Si 
 
 La hoja actual del documento es la primera hoja:
 
-![first-sheet-selected](../../assets/en/ViewPro/vp-sheet-3-select.png)
+![first-sheet-selected](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 Define la hoja actual en la tercera hoja:
 
@@ -36,7 +36,7 @@ Define la hoja actual en la tercera hoja:
 VP SET CURRENT SHEET("ViewProArea";2)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-3-select.png)
+![](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 #### Ver también
 

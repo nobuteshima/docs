@@ -52,7 +52,7 @@ Vous souhaitez ajouter une image avec les paramètrages par défaut, en utilisan
 
 Le résultat est :
 
-![](../../assets/en/WritePro/commands/pict3617325.en.png)
+![](/assets/en/WritePro/commands/pict3617325.en.png)
 
 #### Exemple 2 
 
@@ -69,7 +69,7 @@ Vous voulez ajouter une image retaillée, centrée et ancrée au papier :
 
 Le résultat est :
 
-![](../../assets/en/WritePro/commands/pict3617351.en.png)
+![](/assets/en/WritePro/commands/pict3617351.en.png)
 
 #### Exemple 3 
 
@@ -84,7 +84,7 @@ Vous souhaitez utiliser une expression de type champ pour ajouter une image ancr
 ```
   
   
-![](../../assets/en/WritePro/commands/pict3841719.en.png)
+![](/assets/en/WritePro/commands/pict3841719.en.png)
 
 #### Voir aussi 
 

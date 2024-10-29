@@ -9,7 +9,7 @@ title: 表示
 
 文字フォーマットは、表示や印刷時に文字フィールドや変数にデータを表示する方法を制御します。 以下は文字フィールド用に提供されるフォーマットのリストです:
 
-![](../assets/en/FormObjects/property_alphaFormat.png)
+![](/assets/en/FormObjects/property_alphaFormat.png)
 
 このリストからフォーマットを選択するか、コンボボックスに入力すことができます。 フォーマットポップアップメニューには、主に使用される文字フォーマット (電話番号等) が用意されています。 また、ツールボックスのフィルターとフォーマットで設定したカスタムフォーマットを選択することもできます。 この場合、そのフォーマットをオブジェクトプロパティで変更することはできません。
 開発者が作成したカスタムフォーマットやフィルターはリストの先頭に表示されます。
@@ -291,7 +291,7 @@ _(3)_ `ISO Date Time` フォーマットは XML の日付と時間表現の標�
 
 **スケーリング** を選択すると、ピクチャーはフィールドエリアの大きさに合うようにリサイズされます。
 
-![](../assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
+![](/assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
 
 ### トランケート (中央合わせ/中央合わせしない)
 
@@ -303,7 +303,7 @@ _(3)_ `ISO Date Time` フォーマットは XML の日付と時間表現の標�
 
 > ピクチャーフォーマットが **トランケート (中央合わせしない)** の場合、入力エリアにスクロールバーを追加できます。
 
-![](../assets/en/FormObjects/property_pictureFormat_Truncated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Truncated.png)
 
 ### スケーリング (プロポーショナル) とスケーリング (中央合わせ・プロポーショナル)
 
@@ -315,7 +315,7 @@ _(3)_ `ISO Date Time` フォーマットは XML の日付と時間表現の標�
 
 **中央合わせ** を選択した場合、画像はエリアの中央に配置されます:
 
-![](../assets/en/FormObjects/property_pictureFormat_ScaledProportional.png)
+![](/assets/en/FormObjects/property_pictureFormat_ScaledProportional.png)
 
 ### 繰り返し
 
@@ -323,7 +323,7 @@ _(3)_ `ISO Date Time` フォーマットは XML の日付と時間表現の標�
 
 **繰り返し** フォーマットを持つピクチャーが含まれるエリアが拡大されると、ピクチャーは変形されず、エリア全体を埋めるのに必要なだけピクチャーが繰り返されます。
 
-![](../assets/en/FormObjects/property_pictureFormat_Replicated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Replicated.png)
 
 フィールドがオリジナルのピクチャーよりも小さいサイズにされた場合、ピクチャーはトランケート (中央合わせなし) されます。
 
@@ -514,13 +514,13 @@ Customized time formats can be built using several patterns described in the [**
 
 - このオプションがチェックされているとき (デフォルト)、リストボックスセルの中身がカラムの幅を超えた場合、それらは省略され、エリプシスが表示されます:
 
-![](../assets/en/FormObjects/property_truncate1.png)
+![](/assets/en/FormObjects/property_truncate1.png)
 
 > エリプシスの位置はOSによって変わります。 上記の例 (Windows) では、テキストの右側に表示されます (テキストの後半が省略されます)。 macOS 上では、テキストの真ん中に表示されます (テキストの中盤が省略されます)。
 
 - このオプションのチェックが外れているとき、セルの中身がカラムの幅を超えていた場合、収まりきらない部分は表示されず、エリプシスも表示されません:
 
-![](../assets/en/FormObjects/property_truncate2.png)
+![](/assets/en/FormObjects/property_truncate2.png)
 
 エリプシスで省略オプションはデフォルトではチェックされており、配列、セレクション、コレクション型のリストボックスに対して指定可能です。
 
@@ -558,7 +558,7 @@ Customized time formats can be built using several patterns described in the [**
 
 これらのプロパティ値は、リストフォームのボディに配置されたオブジェクトを描画する場合にのみ使用されます。 具体的には、処理中のレコードが選択されているかいないかに応じて、当該オブジェクトを描画するかどうかを 4D に指示します。 これにより、ハイライト以外の視覚的属性でもって、レコードの選択を表現することができます:
 
-![](../assets/en/FormObjects/select-row.png)
+![](/assets/en/FormObjects/select-row.png)
 
 オブジェクトが [`OBJECT SET VISIBLE`](https://doc.4d.com/4dv20/help/command/ja/page603.html) コマンドで非表示にされた場合、4D はこのプロパティを無視します。 つまり、レコードの選択状態にかかわらず、当該オブジェクトは非表示のままになります。
 
@@ -615,7 +615,7 @@ Customized time formats can be built using several patterns described in the [**
 
 - 複数行のカラムやエリアの場合、4Dは自動改行を実行します。
 
-![](../assets/en/FormObjects/wordwrap2.png)
+![](/assets/en/FormObjects/wordwrap2.png)
 
 #### リストボックスにてチェックなし / 入力オブジェクトで "いいえ" に設定
 
@@ -623,15 +623,15 @@ Customized time formats can be built using several patterns described in the [**
 
 このオブションの場合、4D はいっさい自動改行をおこないません。表示可能な最後の単語はエリアをはみ出します。 テキストタイプのエリアでは改行がサポートされます:
 
-![](../assets/en/FormObjects/wordwrap3.png)
+![](/assets/en/FormObjects/wordwrap3.png)
 
 リストボックスの場合、長すぎるテキストは切り落とされ、省略記号 (...) が表示されます。 以下の例では、左の列ではワードラップのオプションがチェックされていて、右の列ではされていません:
 
-![](../assets/en/FormObjects/property_wordwrap1.png)
+![](/assets/en/FormObjects/property_wordwrap1.png)
 
 ワードラップの オプションの値に関わらず、行の高さは変化しないことに注意してください。 改行を含むテキストがカラムの中に表示しきれないとき、表示しきれない部分は 切り落とされ、省略記号も表示されません。 単一の行を表示するリストボックスの場合、テキストの最初の行のみ表示されます:
 
-![](../assets/en/FormObjects/property_wordwrap2.png)
+![](/assets/en/FormObjects/property_wordwrap2.png)
 
 #### 入力オブジェクトで "自動" に設定 (デフォルト)
 
@@ -640,7 +640,7 @@ Customized time formats can be built using several patterns described in the [**
 - 一行のエリアの場合、行の最後に表示される単語は切り落とされ、改行はされません。
 - 複数行のエリアの場合、4Dは自動改行を実行します。
 
-![](../assets/en/FormObjects/wordwrap1.png)
+![](/assets/en/FormObjects/wordwrap1.png)
 
 #### JSON 文法
 

@@ -11,13 +11,13 @@ Il ne peut y avoir qu'un seul bouton par défaut par page de formulaire.
 
 En outre, sur macOS, la propriété de bouton par défaut modifie l'apparence du bouton afin d'indiquer un "choix recommandé" à l'utilisateur et est automatiquement liée à la touche **Entrée** , même si elle n'a pas le focus. Le bouton par défaut peut être différent du bouton sélectionné. Les boutons par défaut ont une apparence bleue spécifique sur macOS :
 
-![](../assets/en/FormObjects/property_defaultButtonmacOS.en.png)
+![](/assets/en/FormObjects/property_defaultButtonmacOS.en.png)
 
 > Le bouton doit avoir une hauteur standard pour obtenir l'apparence du bouton par défaut.
 
 Sous Windows, le concept de "choix recommandé" n'est pas pris en charge : seul le bouton ayant le focus a une apparence différente au moment de l'exécution et la touche **Entrée** est liée au bouton ayant le focus. Cependant, dans l'éditeur de formulaires 4D, le bouton par défaut est représenté par un contour bleu :
 
-![](../assets/en/FormObjects/property_defaultButtonWindows.en.png)
+![](/assets/en/FormObjects/property_defaultButtonWindows.en.png)
 
 #### Grammaire JSON
 
@@ -261,11 +261,11 @@ Affiche toutes les expressions 4D insérées dans le document 4D Write Pro comme
 
 Par exemple, vous avez inséré la date courante avec un format, la date s'affiche :
 
-![](../assets/en/FormObjects/writePro1.png)
+![](/assets/en/FormObjects/writePro1.png)
 
 Lorsque la propriété Afficher les références est activée, la référence s'affiche :
 
-![](../assets/en/FormObjects/writeProExpr.png)
+![](/assets/en/FormObjects/writeProExpr.png)
 
 > Les expressions 4D peuvent être insérées à l'aide de la commande `ST INSERT EXPRESSION`.
 

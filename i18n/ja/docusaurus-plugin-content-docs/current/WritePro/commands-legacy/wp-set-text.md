@@ -50,7 +50,7 @@ displayed_sidebar: docs
 
 以下のドキュメントにテキストを追加したい場合を考えます:
 
-![](../../assets/en/WritePro/commands/pict3772543.en.png)
+![](/assets/en/WritePro/commands/pict3772543.en.png)
 
 *targetObj* が4D Write Pro ドキュメントの場合:
 

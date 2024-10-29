@@ -9,7 +9,7 @@ title: Visualización
 
 Los formatos alfabéticos controlan la forma en que aparecen los campos alfanuméricos y las variables cuando se visualizan o imprimen. Aquí hay una lista de formatos suministrados para los campos alfanuméricos:
 
-![](../assets/en/FormObjects/property_alphaFormat.png)
+![](/assets/en/FormObjects/property_alphaFormat.png)
 
 Puede elegir un formato de esta lista o utilizar cualquier formato personalizado. La lista por defecto contiene formatos para algunos de los campos alfa más comunes que requieren formatos: Números de teléfono de EE. UU. (locales y de larga distancia), números de la Seguridad Social y códigos postales. También puede introducir un nombre de formato personalizado definido en el editor Filtros y formatos de la caja de herramientas. En este caso, el formato no se puede modificar en las propiedades del objeto.
 Los formatos o filtros personalizados que haya creado estarán disponibles automáticamente, precedidos de una barra vertical (|).
@@ -283,7 +283,7 @@ Las opciones de truncamiento y escalado no afectan a la imagen en sí. El conten
 
 El formato **A escala para ajustarse** hace que 4D redimensione la imagen para ajustarla a las dimensiones del área.
 
-![](../assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
+![](/assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
 
 ### Truncado (centrado y no centrado)
 
@@ -295,7 +295,7 @@ El formato **Truncado (no centrado)** hace que 4D coloque la esquina superior iz
 
 > Cuando el formato de la imagen es **Truncado (no centrado)**, es posible añadir barras de desplazamiento al área de entrada.
 
-![](../assets/en/FormObjects/property_pictureFormat_Truncated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Truncated.png)
 
 ### Escala de ajuste (proporcional) y Escala de ajuste centrada (proporcional)
 
@@ -307,7 +307,7 @@ Si la imagen es más pequeña que el área definida en el formulario, no se modi
 
 Si ha aplicado el formato **Escalado para ajustar centrado (proporcional)**, la imagen también se centra en el área:
 
-![](../assets/en/FormObjects/property_pictureFormat_ScaledProportional.png)
+![](/assets/en/FormObjects/property_pictureFormat_ScaledProportional.png)
 
 ### Replicado
 
@@ -315,7 +315,7 @@ Si ha aplicado el formato **Escalado para ajustar centrado (proporcional)**, la 
 
 Cuando se amplía el área que contiene una imagen con el formato **Replicada**, la imagen no se deforma sino que se replica tantas veces como sea necesario para llenar el área por completo.
 
-![](../assets/en/FormObjects/property_pictureFormat_Replicated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Replicated.png)
 
 Si el campo se reduce a un tamaño menor que el de la imagen original, la imagen queda truncada (no centrada).
 
@@ -504,13 +504,13 @@ Esta opción está disponible para columnas con cualquier tipo de contenido, exc
 
 - Cuando la propiedad está activada (por defecto), si el contenido de una celda del list box excede el ancho de la columna, se trunca y se muestra una elipsis:
 
-![](../assets/en/FormObjects/property_truncate1.png)
+![](/assets/en/FormObjects/property_truncate1.png)
 
 > La posición de la elipsis depende del sistema operativo. En el ejemplo anterior (Windows), se añade a la derecha del texto. En macOS, la elipsis se añade en medio del texto.
 
 - Cuando la propiedad está desactivada, si el contenido de una celda excede el ancho de la columna, simplemente se recorta sin añadir elipsis:
 
-![](../assets/en/FormObjects/property_truncate2.png)
+![](/assets/en/FormObjects/property_truncate2.png)
 
 La opción Truncar con elipsis está activada por defecto y puede especificarse con list boxes de tipo Array, Selección o Colección.
 
@@ -548,7 +548,7 @@ En el contexto de los [formularios "lista"](FormEditor/properties_FormProperties
 
 Esta propiedad sólo se utiliza cuando se dibujan objetos situados en el cuerpo de un formulario listado. Indica a 4D si debe o no dibujar el objeto dependiendo de si el registro que se está procesando está seleccionado/no seleccionado. Permite representar una selección de registros utilizando atributos visuales distintos de los colores de resaltado:
 
-![](../assets/en/FormObjects/select-row.png)
+![](/assets/en/FormObjects/select-row.png)
 
 4D no tiene en cuenta esta propiedad si el objeto se ocultó utilizando el comando [`OBJECT SET VISIBLE`](https://doc.4d.com/4dv20/help/command/en/page603.html); en este caso, el objeto permanece invisible independientemente de si el registro está seleccionado o no.
 
@@ -580,7 +580,7 @@ Cuando esta opción está seleccionada, el texto pasa automáticamente a la lín
 
 - En las columnas/áreas multilínea, 4D realiza retornos de línea automáticos.
 
-![](../assets/en/FormObjects/wordwrap2.png)
+![](/assets/en/FormObjects/wordwrap2.png)
 
 #### Sin marcar para el list box/No para entrada
 
@@ -588,15 +588,15 @@ Cuando esta opción está seleccionada, el texto pasa automáticamente a la lín
 
 Cuando se selecciona esta opción, 4D no realiza ningún retorno de línea automático y la última palabra que se puede mostrar puede quedar truncada. En las áreas de tipo de texto, se soportan los retornos de carro:
 
-![](../assets/en/FormObjects/wordwrap3.png)
+![](/assets/en/FormObjects/wordwrap3.png)
 
 En los list boxes, el texto demasiado largo se trunca y se muestra con una elipse (...). En el siguiente ejemplo, la opción Wordwrap está **marcada para la columna izquierda** y **desmarcada para la columna derecha**:
 
-![](../assets/en/FormObjects/property_wordwrap1.png)
+![](/assets/en/FormObjects/property_wordwrap1.png)
 
 Tenga en cuenta que, independientemente del valor de la opción Ajuste de texto, la altura de la línea no se modifica. Si el texto con saltos de línea no puede visualizarse por completo en la columna, se trunca (sin elipse). En el caso de los list boxes que muestran una sola línea, sólo se muestra la primera línea de texto:
 
-![](../assets/en/FormObjects/property_wordwrap2.png)
+![](/assets/en/FormObjects/property_wordwrap2.png)
 
 #### Automático para entrada (opción por defecto)
 
@@ -605,7 +605,7 @@ Tenga en cuenta que, independientemente del valor de la opción Ajuste de texto,
 - En las áreas de una sola línea, las palabras situadas al final de las líneas se truncan y no hay retornos de línea.
 - En áreas multilíneas, 4D realiza retornos de línea automáticos.
 
-![](../assets/en/FormObjects/wordwrap1.png)
+![](/assets/en/FormObjects/wordwrap1.png)
 
 #### Gramática JSON
 

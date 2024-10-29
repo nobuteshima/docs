@@ -103,7 +103,7 @@ Reportez-vous aux exemples de [réception d'une sélection d'entité](#receiving
 
 Cette base de données est exposée comme un datastore distant sur localhost (port 8111) :
 
-![alt-text](../assets/en/REST/ordastructure.png)
+![alt-text](/assets/en/REST/ordastructure.png)
 
 ### Utiliser une fonction de classe de datastore
 

@@ -58,7 +58,7 @@ Vous souhaitez modifier des attributs des deux dernières colonnes du tableau :
 
 Résultat :
 
-![](../../assets/en/WritePro/commands/pict3307213.en.png)
+![](/assets/en/WritePro/commands/pict3307213.en.png)
 
 #### Exemple 2 
 

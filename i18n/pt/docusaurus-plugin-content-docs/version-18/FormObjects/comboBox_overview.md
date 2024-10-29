@@ -7,7 +7,7 @@ title: Combo Box
 
 Um combo box é parecido com uma lista [drop-down](dropdownList_Overview.md#overview), exceto que aceita texto digitado do teclado e tem opções adicionais.
 
-![](../assets/en/FormObjects/combo_box.png)
+![](/assets/en/FormObjects/combo_box.png)
 
 Você inicializa um combo box da mesma forma que uma lista suspensa. If the user enters text into the combo box, it fills the 0th element of the array. In other respects, you treat a combo box as an enterable area that uses its array or a choice list as the set of default values.
 

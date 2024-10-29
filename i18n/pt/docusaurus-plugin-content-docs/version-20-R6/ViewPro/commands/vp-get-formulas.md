@@ -29,7 +29,7 @@ A coleção devolvida é bidimensional:
 
 Você deseja recuperar as fórmulas nas colunas Sum e Average desse documento:
 
-![](../../assets/en/ViewPro/cmd_vpGetFormulas.PNG)
+![](/assets/en/ViewPro/cmd_vpGetFormulas.PNG)
 
 Pode utilizar este código:
 

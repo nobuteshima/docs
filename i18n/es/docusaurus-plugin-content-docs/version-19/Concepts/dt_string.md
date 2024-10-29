@@ -189,7 +189,7 @@ Al utilizar los símbolos de indice de cadena, debe dirigirse a los caracteres e
 
 provocará el error de tiempo de ejecución que se muestra aquí:
 
-![alt-text](../assets/en/Concepts/Syntax_Error.en.png)
+![alt-text](/assets/en/Concepts/Syntax_Error.en.png)
 
 ### Ejemplo
 
@@ -220,4 +220,4 @@ ALERT(Capitalize_text("hola, me llamo jane doe y me presento a la presidencia"))
 
 muestra la alerta que aparece aquí:
 
-![alt-text](../assets/en/Concepts/Jane_doe.en.png)
+![alt-text](/assets/en/Concepts/Jane_doe.en.png)

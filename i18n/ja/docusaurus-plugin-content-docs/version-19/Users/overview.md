@@ -15,7 +15,7 @@ title: 概要
 
 次の図は、デザインおよびランタイムエクスプローラーアクセス権を "Devs" グループに割り当てている様子を表しています (データベース設定の "セキュリティ" タブ):
 
-![](../assets/en/Users/Access1.png)
+![](/assets/en/Users/Access1.png)
 
 ## アクセスシステムを起動する
 
@@ -42,7 +42,7 @@ title: 概要
 
 ユーザーとグループのエディターは 4Dのツールボックスにあります。 ユーザーとグループを作成し、ユーザーにパスワードを設定し、ユーザーをグループに所属させるといった操作はこのエディターにて可能です。
 
-![](../assets/en/Users/editor.png)
+![](/assets/en/Users/editor.png)
 
 > ランタイムにおいてユーザーとグループのエディターを表示させるには [EDIT ACCESS](https://doc.4d.com/4Dv18/4D/18/EDIT-ACCESS.301-4504687.ja.html) コマンドを使用します。 ユーザーとグループの設定は、アプリケーション実行中でも [Users and Groups](https://doc.4d.com/4Dv18R3/4D/18-R3/Users-and-Groups.201-4900438.ja.html) テーマの 4Dランゲージコマンドを使って編集することができます。
 

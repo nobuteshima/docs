@@ -33,7 +33,7 @@ Dans le paramètre optionnel *sheet*, vous pouvez désigner une feuille spécifi
 
 Vous souhaitez définir une plage pour la colonne ci-dessous (dans la feuille courante) :
 
-![](../../assets/en/ViewPro/cmd_vpColumn.PNG)
+![](/assets/en/ViewPro/cmd_vpColumn.PNG)
 
 Le code est le suivant :
 

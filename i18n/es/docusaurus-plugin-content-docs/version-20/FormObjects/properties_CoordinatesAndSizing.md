@@ -125,7 +125,7 @@ Coordenadas superiores del objeto en el formulario.
 
 Define la redondez de las esquinas (en píxeles) del objeto. Por defecto, el valor del radio es de 0 píxeles. Puede cambiar esta propiedad para dibujar objetos redondeados con formas personalizadas:
 
-![](../assets/en/FormObjects/shape_rectangle.png)
+![](/assets/en/FormObjects/shape_rectangle.png)
 
 El valor mínimo es 0, en este caso se dibuja un objeto estándar no redondeado. El valor máximo depende del tamaño del rectángulo (no puede superar la mitad del tamaño del lado más corto del rectángulo) y se calcula dinámicamente.
 
@@ -136,7 +136,7 @@ Con [áreas de texto](text.md) y [entradas](input_overview.md):
 - la propiedad de radio de la esquina sólo está disponible con los [estilos de línea de borde](properties_BackgroundAndBorder.md#border-line-style) "ninguno", "sólido" o "punteado",
 - la redondez de la esquina se dibuja fuera del área del objeto (el objeto aparece más grande en el formulario pero su [ancho](properties_CoordinatesAndSizing.md#width) y [alto](properties_CoordinatesAndSizing.md#height) no se amplían).
 
-![](../assets/en/FormObjects/radius-text.png)
+![](/assets/en/FormObjects/radius-text.png)
 
 :::
 
@@ -281,7 +281,7 @@ Asumiendo que la unidad de las líneas es "líneas", entonces la quinta línea d
 
 Establece un relleno horizontal para las celdas. El valor se establece en píxeles (por defecto = 0).
 
-![](../assets/en/FormObjects/padding.png)
+![](/assets/en/FormObjects/padding.png)
 
 #### Gramática JSON
 

@@ -24,7 +24,7 @@ title: VP Get sheet count
 
 以下のドキュメントにおいて:
 
-![](../../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 シート数を取得し、最後のシートをカレントシートに設定します:
 
@@ -34,7 +34,7 @@ title: VP Get sheet count
  VP SET CURRENT SHEET("ViewProArea";$count-1)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-3-select.png)
+![](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 #### 参照
 

@@ -1387,7 +1387,7 @@ Se utilizar outro atributo que não a chave primária como o atributo Um numa re
 
 A estrutura abaixo será usada nos exemplos desta seção:
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 Sem parâmetros de filtro:
 

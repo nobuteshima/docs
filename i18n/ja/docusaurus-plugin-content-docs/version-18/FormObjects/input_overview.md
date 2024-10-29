@@ -7,7 +7,7 @@ title: 入力
 
 入力オブジェクトを使って、データベース[フィールド](Concepts/identifiers.md#フィールド) や [変数](Concepts/variables.md) といった式をフォーム上に追加することができます。 入力オブジェクトは文字ベースのデータ (テキスト、日付、数値など) およびピクチャー型のデータを扱えます。
 
-![](../assets/en/FormObjects/input.png)
+![](/assets/en/FormObjects/input.png)
 
 入力オブジェクトには [代入可、または代入不可の式](Concepts/quick-tour.md#代入可-vs-代入不可の式) を設定することができます。
 

@@ -177,7 +177,7 @@ We recommend using class functions over project methods. Only class functions ca
 You can develop with Qodly Studio while your computer is not connected to the internet. In this case however, the following features are not available:
 
 - [Templates](https://developer.qodly.com/docs/studio/pageLoaders/templates): the Template library is empty
-- UI tips: they are not displayed when you click on ![alt-text](../assets/en/WebServer/tips.png) icons.
+- UI tips: they are not displayed when you click on ![alt-text](/assets/en/WebServer/tips.png) icons.
 
 
 ## Deployment
@@ -244,7 +244,7 @@ With Qodly Studio for 4D, the ["force login" mode](../REST/authUsers.md#force-lo
 
 Make sure the ["force login" mode](../REST/authUsers.md#force-login-mode) is enabled for your 4D application in the [Roles and Privileges page](https://developer.qodly.com/docs/studio/roles/rolesPrivilegesOverview), using the **Force login** option:
 
-![alt-text](../assets/en/WebServer/forcelogin.png)
+![alt-text](/assets/en/WebServer/forcelogin.png)
 
 You can also set this option directly in the [**roles.json** file](../ORDA/privileges.md#rolesjson-file).
 
@@ -296,7 +296,7 @@ When the ["force login" mode is enabled](#setting-the-force-login-mode), Qodly S
 
 To logout the user, you just need to execute the **Logout** standard action from the Qodly page. In Qodly Studio, you can associate this standard action to a button for example:
 
-![alt-text](../assets/en/WebServer/logout.png)
+![alt-text](/assets/en/WebServer/logout.png)
 
 Triggering the logout action from a web user session has the following effects:
 
@@ -331,11 +331,11 @@ Using different schemes might also lead to [session](sessions.md) issues, such a
 
 2. The web server of your database is started only on an HTTP port.
 
-![alt-text](../assets/en/WebServer/schemes.png)
+![alt-text](/assets/en/WebServer/schemes.png)
 
 3. In Qodly Studio, you click on the **Preview** icon. You are warned that the two web servers are started on different schemes, but despite this you click on the **Confirm** button.
 
-![alt-text](../assets/en/WebServer/render-button.png)
+![alt-text](/assets/en/WebServer/render-button.png)
 
 As a result, two licenses are retained.
 

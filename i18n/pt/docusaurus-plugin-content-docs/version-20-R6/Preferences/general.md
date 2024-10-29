@@ -35,15 +35,15 @@ Você pode se beneficiar desse recurso nos seguintes ambientes (somente com vers
 
 Todas as janelas destes editores podem ser colocadas no formulário de tabulação:
 
-![](../assets/en/Preferences/general2.png)
+![](/assets/en/Preferences/general2.png)
 
 Un conjunto de comandos en el menú **Ventana** permite gestionar las pestañas:
 
-![](../assets/en/Preferences/general3.png)
+![](/assets/en/Preferences/general3.png)
 
 En la caja de diálogo de Preferencias de 4D, la opción **Ventana con pestañas** le permite controlar este funcionamiento:
 
-![](../assets/en/Preferences/general4.png)
+![](/assets/en/Preferences/general4.png)
 
 Estão disponíveis três opções:
 
@@ -76,7 +76,7 @@ Si marca esta opción, se añaden dos elementos en el menú **Archivo > Nuevo** 
 - **Base de dados...**
 - **Base de dados a partir da definição da estrutura...**
 
-![](../assets/en/Preferences/general5.png)
+![](/assets/en/Preferences/general5.png)
 
 Estos elementos permiten crear bases de datos binarias (ver la sección [Crear una nueva base](https://doc.4d.com/4Dv18R6/4D/18-R6/Creating-a-new-database.300-5217610.en.html)). Eles não são mais propostos por padrão porque 4D recomenda o uso de arquitetura baseada em projeto para novos desenvolvimentos.
 

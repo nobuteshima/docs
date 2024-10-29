@@ -9,7 +9,7 @@ Los botones radio son objetos que permiten al usuario seleccionar uno de un grup
 
 Normalmente, un botón radio muestra una pequeña diana con texto. Sin embargo, los botones radio pueden tener [diferentes apariencias](#estilos-de-botón).
 
-![](../assets/en/FormObjects/radio1.png)
+![](/assets/en/FormObjects/radio1.png)
 
 Se selecciona un botón radio:
 
@@ -22,7 +22,7 @@ Los botones radio se utilizan en conjuntos coordinados: sólo se puede seleccion
 
 Los botones radio se controlan con métodos. Como todos los botones, la variable asociada al botón radio se inicializa en 0 cuando se abre el formulario por primera vez. Un método asociado a un botón radio se ejecuta cuando se selecciona el botón. A continuación se muestra un ejemplo de un grupo de botones radio utilizados en una base de datos de registro de vídeos para introducir la velocidad del registro (SP, LP o EP):
 
-![](../assets/en/FormObjects/radio2.png)
+![](/assets/en/FormObjects/radio2.png)
 
 Al seleccionar un botón radio de un grupo, ese botón se pone en 1 y todos los demás del grupo en 0. Sólo se puede seleccionar un botón de radio a la vez.
 > Puede asociar [expresiones de tipo booleano](properties_Object.md#variable-or-expression) a botones radio. En este caso, cuando se selecciona un botón radio de un grupo, su variable es True y las variables de los demás botones radio del grupo son False.
@@ -39,7 +39,7 @@ El valor contenido en un objeto botón radio no se guarda automáticamente (exce
 
 El estilo de botón radio Clásico es un botón sistema estándar (*es decir, *, una pequeña diana con texto) que ejecuta código cuando el usuario hace clic en él.
 
-![](../assets/en/FormObjects/radio_regular.png)
+![](/assets/en/FormObjects/radio_regular.png)
 
 Además de iniciar la ejecución del código, el estilo del botón radio Clásico cambia el color de esfera cuando se pasa por encima.
 
@@ -47,7 +47,7 @@ Además de iniciar la ejecución del código, el estilo del botón radio Clásic
 
 El estilo de botón radio Plano es un botón sistema estándar (*es decir, *, una pequeña diana con texto) que ejecuta código cuando el usuario hace clic en él.
 
-![](../assets/en/FormObjects/radio_flat.png)
+![](/assets/en/FormObjects/radio_flat.png)
 
 Por defecto, el estilo Plano tiene una apariencia minimalista. El estilo gráfico del botón Flat es especialmente útil para los formularios a imprimir.
 
@@ -59,7 +59,7 @@ Por defecto, el estilo Barra de herramientas tiene un fondo transparente con una
 
 - *Windows* - el botón está resaltado.
 
-![](../assets/en/FormObjects/radio_toolbar.png)
+![](/assets/en/FormObjects/radio_toolbar.png)
 
 - *macOS* - el resalte del botón nunca aparece.
 
@@ -69,7 +69,7 @@ El estilo de botón radio Bevel es similar al comportamiento del estilo [Barra d
 
 - *Windows* - el botón está resaltado.
 
-  ![](../assets/en/FormObjects/radio_bevel.png)
+  ![](/assets/en/FormObjects/radio_bevel.png)
 
 - *macOS* - el resalte del botón nunca aparece.
 
@@ -79,7 +79,7 @@ El estilo de botón Bevel redondeado es casi idéntico al estilo [Bevel](#bevel)
 
 - *Windows* - el botón es idéntico al estilo [Bevel](#bevel).
 
-- *macOS* - las esquinas del botón están redondeadas. ![](../assets/en/FormObjects/roundedBevel.png)
+- *macOS* - las esquinas del botón están redondeadas. ![](/assets/en/FormObjects/roundedBevel.png)
 
 ### OS X Gradient
 
@@ -99,7 +99,7 @@ Por defecto, el estilo OS X Textured aparece como:
 
 - *macOS* - - un botón sistema estándar que muestra un cambio de color de gris claro a gris oscuro. Su altura está predefinida: no es posible ampliarla o reducirla.
 
-  ![](../assets/en/FormObjects/OSXTextured.png)
+  ![](/assets/en/FormObjects/OSXTextured.png)
 
 ### Office XP
 
@@ -109,7 +109,7 @@ Los colores (resaltado y fondo) de un botón con el estilo Office XP se basan en
 
 - *Windows* - su fondo sólo aparece cuando el ratón pasa por encima.
 
-  ![](../assets/en/FormObjects/radio_xp.png)
+  ![](/assets/en/FormObjects/radio_xp.png)
 
 - *macOS* - su fondo se muestra siempre.
 
@@ -117,13 +117,13 @@ Los colores (resaltado y fondo) de un botón con el estilo Office XP se basan en
 
 Este estilo de botón se puede utilizar para añadir un icono estándar contraer/desplegar. Estos botones se utilizan de forma nativa en las listas jerárquicas. Estos botones se utilizan de forma nativa en las listas jerárquicas.
 
-![](../assets/en/FormObjects/checkbox_collapse.png)
+![](/assets/en/FormObjects/checkbox_collapse.png)
 
 ### Botón de divulgación
 
 El estilo de botón radio de divulgación muestra el botón radio como un botón de divulgación estándar, normalmente utilizado para mostrar/ocultar información adicional. El símbolo del botón apunta hacia abajo con el valor 0 y hacia arriba con el valor 1.
 
-![](../assets/en/FormObjects/checkbox_disclosure.png)
+![](/assets/en/FormObjects/checkbox_disclosure.png)
 
 ### Personalizado
 

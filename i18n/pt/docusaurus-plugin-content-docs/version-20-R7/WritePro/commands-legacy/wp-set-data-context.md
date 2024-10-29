@@ -66,7 +66,7 @@ Insere um objeto no contexto de documento 4D Write Pro e exibe sua informação 
 
 Aqui está o resultado:
 
-![](../../assets/en/WritePro/commands/pict5867255.pt.png)
+![](/assets/en/WritePro/commands/pict5867255.pt.png)
 
 #### Exemplo 2 
 
@@ -74,7 +74,7 @@ Quando trabalhar com um documento modelo, pode associar um contexto para preench
 
 Quando se carregar um modelo e se estabelece o contexto de dados, um modelo de carta poderia ter o aspecto abaixo:
 
-![](../../assets/en/WritePro/commands/pict5867835.en.png)
+![](/assets/en/WritePro/commands/pict5867835.en.png)
 
 O exemplo abaixo recorre uma seleção de entidades e cria uma vista previa de impressão para cada entidade:
 

@@ -23,7 +23,7 @@ Dans *rangeObj*, passez un objet plage contenant une plage de colonnes dont la t
 
 Les colonnes suivantes sont toutes de la même taille et n'affichent pas certaines parties du texte :
 
-![](../../assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
 
 La sélection des colonnes et l'exécution du code suivant :
 
@@ -33,7 +33,7 @@ La sélection des colonnes et l'exécution du code suivant :
 
 ... redimensionne les colonnes pour correspondre à la taille du contenu :
 
-![](../../assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
 
 #### Voir également
 

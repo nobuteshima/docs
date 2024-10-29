@@ -16,7 +16,7 @@ title: バックアップ
 
 1. 4D の **ファイル** メニューから **バックアップ...** を選択します。
    バックアップウインドウが表示されます:
-   ![](../assets/en/Backup/backup01.png)
+   ![](/assets/en/Backup/backup01.png)
    "バックアップファイルの保存先" エリアの隣のポップアップメニューを使用して、バックアップファイルの保存場所を確認することができます。 この場所はデータベース設定の **バックアップ/設定** ページにて、設定されています。
 
 - 4D の [Maintenance & Security Center (MSC)](MSC/overview.md) を開いて、[バックアップページ](MSC/backup.md) から操作することもできます。
@@ -39,7 +39,7 @@ title: バックアップ
 
 バックアップが開始すると 4Dは、バックアップの進捗状況を知らせるサーモメーターのあるダイアログボックスを表示します:
 
-![](../assets/en/Backup/backupProgress.png)
+![](/assets/en/Backup/backupProgress.png)
 
 MSC を使用している場合、この進捗インジケーターは [MSC のバックアップページ](MSC/backup.md) に表示されます。
 

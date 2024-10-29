@@ -40,7 +40,7 @@ Descriptive REST requests are always processed by the server, even if no web use
 
 4. If the user is successfully authentified, a 4D license is consumed on the server and all REST requests are accepted.
 
-![alt-text](../assets/en/REST/force-login-2.jpeg)
+![alt-text](/assets/en/REST/force-login-2.jpeg)
 
 
 In the user login phase, license usage is disconnected from web user sessions. A license is required only when the [`Session.setPrivileges()`](../API/SessionClass.md#setprivileges) is executed, allowing you to control the number of used licenses.    
@@ -57,7 +57,7 @@ Descriptive REST requests can be processed in web user sessions that do not requ
 - `/rest/$catalog/authentify` - the datastore function used to login the user
 - `/rest/$getWebForm` - the rendering of a Qodly page
 
-![alt-text](../assets/en/REST/force-login-1.jpeg)
+![alt-text](/assets/en/REST/force-login-1.jpeg)
 
 
 ## `Function authentify`

@@ -26,7 +26,7 @@ En `number`, pase un número correspondiente a cuántas hojas contendrá el docu
 
 El documento tiene actualmente una hoja:
 
-![](../../assets/en/ViewPro/vp-sheet-1.png)
+![](/assets/en/ViewPro/vp-sheet-1.png)
 
 Para definir el número de hojas en 3:
 
@@ -34,7 +34,7 @@ Para definir el número de hojas en 3:
 VP SET SHEET COUNT("ViewProArea";3)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 #### Ver también
 

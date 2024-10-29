@@ -1363,7 +1363,7 @@ Si utiliza otro atributo distinto de la llave primaria como atributo Uno en una 
 
 En todos los ejemplos de esta sección se utilizará la siguiente estructura:
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 Sin parámetro de filtro:
 

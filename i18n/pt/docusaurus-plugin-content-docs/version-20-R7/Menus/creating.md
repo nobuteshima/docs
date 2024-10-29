@@ -30,7 +30,7 @@ Pode modificar esta barra de menu como desejar ou criar outras.
 
 ### Utilizar o editor de menus
 
-1. Select the item you want to create and click the add ![](../assets/en/Menus/PlussNew.png) button below the menu bar area.
+1. Select the item you want to create and click the add ![](/assets/en/Menus/PlussNew.png) button below the menu bar area.
    O
    Elija **Crear una nueva barra de menús** o **Crear un nuevo menú** en el menú contextual de la lista o en el menú de opciones situado debajo de la lista.
    If you created a menu bar, a new bar appears in the list containing the default menus (File and Edit).
@@ -58,7 +58,7 @@ Para adicionar um item de menu:
    Se o menu já contiver comandos, eles serão exibidos na lista central. If you want to insert the new command, select the command that you want it to appear above. Você sempre pode reorganizar o menu posteriormente, arrastando e soltando.
 2. Elija **Añadir un elemento al menú "NombreDelMenú"** en el menú de opciones del editor o desde el menú contextual (clic derecho en la lista central).
    OR
-   Click on the add ![](../assets/en/Menus/PlussNew.png) button located below the central list.
+   Click on the add ![](/assets/en/Menus/PlussNew.png) button located below the central list.
    4D adds a new item with the default name “Item X” where X is the number of items already created.
 3. Double-click on the name of the command in order to switch it to editing mode and enter a custom name.
    OR Enter the custom name in the "Title" area. Pode conter até 31 caracteres. Você pode digitar o nome como "código duro" ou insira uma referência (veja abaixo).
@@ -75,7 +75,7 @@ Você pode excluir uma barra de menus, um menu ou um item de menu a qualquer mom
 
 Para eliminar uma barra de menu, um menu ou um item de menu:
 
-- Select the item to be deleted and click on the delete ![](../assets/en/Menus/MinussNew.png) button located beneath the list.
+- Select the item to be deleted and click on the delete ![](/assets/en/Menus/MinussNew.png) button located beneath the list.
 - o bien, utilice el comando apropiado **Eliminar...** del menú contextual o del menú de opciones del editor.
 
 > Não é possível eliminar a barra de menus #1.
@@ -99,10 +99,10 @@ At runtime, if an attached menu is modified by programming, every other instance
 Um menu pode ser anexado a uma barra de menus ou a outro menu.
 
 - To attach a menu to a menu bar: right-click on the menu bar and select **Attach a menu to the menu bar "bar name" >**, then choose the menu to be attached to the menu bar:
-  ![](../assets/en/Menus/attach.png)
+  ![](/assets/en/Menus/attach.png)
   You can also select a menu bar then click on the options button found below the list.
 - To attach a menu to another menu: select the menu in the left-hand area, then right-click on the menu item and select **Attach a sub-menu to the item "item name">**, then choose the menu you want to use as sub-menu:\
-  ![](../assets/en/Menus/attach2.png)
+  ![](/assets/en/Menus/attach2.png)
   You can also select a menu item then click on the options button found below the list.
   O menu que está a ser anexado torna-se assim um sub-menu. The title of the item is kept (the original sub-menu name is ignored), but this title can be modified.
 

@@ -9,7 +9,7 @@ Un séparateur divise un formulaire en deux zones. Il permet à l’utilisateur 
 
 L’utilisation type du séparateur est le formulaire de sortie dans lequel les colonnes peuvent être redimensionnées :
 
-![](../assets/en/FormObjects/split1.png)
+![](/assets/en/FormObjects/split1.png)
 
 
 Les caractéristiques générales des séparateurs sont les suivantes :

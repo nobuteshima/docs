@@ -79,7 +79,7 @@ $0:=ds.Employee.query("firstname = :1 and lastname = :2";$firstname;$lastname).f
 
 4Dプロジェクト側では、下図のとおりメソッドプロパティが設定されています:
 
-![alt-text](../assets/en/REST/methodProp_ex.png)
+![alt-text](/assets/en/REST/methodProp_ex.png)
 
 この場合、次のように `HTTP Request` 4Dコマンドを使って REST POSTリクエストを送信できます:
 

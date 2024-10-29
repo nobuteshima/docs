@@ -104,7 +104,7 @@ Coordenadas superiores del objeto en el formulario.
 
 Define la redondez de las esquinas (en píxeles) de los objetos de tipo [rectángulo](shapes_overview.md#rectangle). Por defecto, el valor del radio de los rectángulos es de 0 píxeles. Puede cambiar esta propiedad para dibujar rectángulos redondeados con formas personalizadas:
 
-![](../assets/en/FormObjects/shape_rectangle.png)
+![](/assets/en/FormObjects/shape_rectangle.png)
 
 El valor mínimo es 0, en este caso se dibuja un rectángulo estándar no redondeado. El valor máximo depende del tamaño del rectángulo (no puede superar la mitad del tamaño del lado más corto del rectángulo) y se calcula dinámicamente.
 

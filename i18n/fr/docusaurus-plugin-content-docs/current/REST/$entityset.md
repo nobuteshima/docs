@@ -60,15 +60,15 @@ Vous trouverez ci-dessous une représentation des opérateurs logiques basés su
 
 **AND**
 
-![](../assets/en/REST/and.png)
+![](/assets/en/REST/and.png)
 
 **OR**
 
-![](../assets/en/REST/or.png)
+![](/assets/en/REST/or.png)
 
 **EXCEPT**
 
-![](../assets/en/REST/except.png)
+![](/assets/en/REST/except.png)
 
 La syntaxe est la suivante :
 

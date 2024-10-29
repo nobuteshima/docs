@@ -26,7 +26,7 @@ Dans *vpAreaName*, passez le nom de la zone 4D View Pro.
 
 Lorsque la troisième feuille est sélectionnée :
 
-![third-sheet](../../assets/en/ViewPro/vp-sheet-3-select.png)
+![third-sheet](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 La commande retourne 2 :
 

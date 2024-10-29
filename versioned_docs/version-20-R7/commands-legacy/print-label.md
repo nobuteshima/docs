@@ -26,7 +26,7 @@ If do not specify the *document* parameter, **PRINT LABEL** prints the current s
 
 If you specify the *document* parameter, **PRINT LABEL** enables you to access the Label Wizard (shown below) or to print an existing Label document stored on disk. See the following discussion.
 
-![](../assets/en/commands/pict2980390.en.png)
+![](/assets/en/commands/pict2980390.en.png)
 
 By default, **PRINT LABEL** displays the Print job dialog box before printing. If the user cancels the dialog box, the command is canceled and the labels are not printed. You can suppress these dialog box by using either the optional asterisk (*\**) parameter or the optional “greater than” (*\>*) parameter:
 

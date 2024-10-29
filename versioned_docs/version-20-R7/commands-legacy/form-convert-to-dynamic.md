@@ -43,7 +43,7 @@ You want to convert a classic form, modify it, and display it.
 The original form:
 
   
-![](../assets/en/commands/pict3977360.en.png)
+![](/assets/en/commands/pict3977360.en.png)
 
   
 ```4d
@@ -58,7 +58,7 @@ The original form:
 If you execute the code: 
 
   
-![](../assets/en/commands/pict3977362.en.png)
+![](/assets/en/commands/pict3977362.en.png)
 
 #### See also 
 

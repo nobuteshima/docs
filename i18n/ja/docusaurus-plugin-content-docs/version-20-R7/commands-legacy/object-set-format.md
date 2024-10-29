@@ -299,7 +299,7 @@ This example formats a date variable and a time variable using [customized forma
  OBJECT SET FORMAT(*;"Header1";vIcon+";"+vPos)
 ```
 
-![](../assets/en/commands/pict2878245.en.png)
+![](/assets/en/commands/pict2878245.en.png)
 
 #### 例題 7 
 

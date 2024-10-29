@@ -30,7 +30,7 @@ title: VP CREATE TABLE
 
 La commande `VP CREATE TABLE` <!-- REF #_method_.VP CREATE TABLE.Summary -->crée une table dans la plage spécifiée<!-- END REF -->. Vous pouvez créer une table dans une plage de cellules pour faciliter la gestion et l'analyse d'un groupe de données connexes. Une table contient généralement des données connexes en lignes et en colonnes, et tire parti d'un [contexte de données](vp-set-data-context).
 
-![](../../assets/en/ViewPro/vp-create-table.png)
+![](/assets/en/ViewPro/vp-create-table.png)
 
 Dans *rangeObj*, passez la plage de cellules où la table sera créée.
 
@@ -101,7 +101,7 @@ VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; $options.tableColumns.length; 1); 
 
 Voici le résultat :
 
-![](../../assets/en/ViewPro/vp-create-table.png)
+![](/assets/en/ViewPro/vp-create-table.png)
 
 #### Voir également
 

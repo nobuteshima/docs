@@ -53,13 +53,13 @@ Pour plus d'informations, veuillez vous reporter à la section *Sous-formulaires
 
 Dans un formulaire affichant l'enregistrement d'une personne, un bouton ouvre un dialogue permettant de vérifier ou de modifier les noms et âges de ses enfants :
 
-![](../assets/en/commands/pict3542015.en.png)
+![](/assets/en/commands/pict3542015.en.png)
 
 **Note :** Le champ objet "enfants" est représenté uniquement dans cet exemple afin de faire apparaître sa structure.
 
 Dans le formulaire de vérification, vous avez assigné des propriétés d'objet [Form](form.md) aux variables :
 
-![](../assets/en/commands/pict3541682.en.png)
+![](/assets/en/commands/pict3541682.en.png)
 
 Voici le code du bouton "Check Children" :
 
@@ -93,7 +93,7 @@ Voici le code du bouton "Check Children" :
 
 Le formulaire affiche les informations pour chaque enfant :
 
-![](../assets/en/commands/pict3515152.en.png)
+![](/assets/en/commands/pict3515152.en.png)
 
 Si des valeurs sont modifiées et que l'utilisateur clique sur le bouton OK, le champ est mis à jour (bien entendu, l'enregistrement parent devra être sauvegardé par la suite).
 

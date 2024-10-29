@@ -51,7 +51,7 @@ displayed_sidebar: docs
 
 以下のドキュメント内のテキストを取得したい場合を考えます:
 
-![](../../assets/en/WritePro/commands/pict3772381.en.png)
+![](/assets/en/WritePro/commands/pict3772381.en.png)
 
 以下のように書くことができます:
 

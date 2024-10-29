@@ -35,15 +35,15 @@ Vous pouvez bénéficier de cette fonctionnalité dans les environnements de 4D 
 
 Toutes les fenêtres de ces éditeurs peuvent être ouvertes sous forme d'onglets :
 
-![](../assets/en/Preferences/general2.png)
+![](/assets/en/Preferences/general2.png)
 
 Un ensemble de commandes du menu **Fenêtre** permet de gérer les onglets :
 
-![](../assets/en/Preferences/general3.png)
+![](/assets/en/Preferences/general3.png)
 
 Dans la boîte de dialogue des Préférences de 4D, l'option **Fenêtre à onglets** vous permet de contrôler ce fonctionnement :
 
-![](../assets/en/Preferences/general4.png)
+![](/assets/en/Preferences/general4.png)
 
 Trois options sont disponibles :
 
@@ -76,7 +76,7 @@ Si vous sélectionnez cette option, deux éléments s'ajoutent au menu **Fichier
 - **Database...**
 - **Base de données à partir d'une définition de structure...**
 
-![](../assets/en/Preferences/general5.png)
+![](/assets/en/Preferences/general5.png)
 
 Ces éléments vous permettent de créer des bases binaires (voir la section [Créer une nouvelle base](https://doc.4d.com/4Dv19R4/4D/19-R4/Creer-une-nouvelle-base.300-5736754.fe.html)). Ils ne sont plus proposés par défaut car 4D recommande, pour les nouveaux développements, l'utilisation d'une architecture de bases projets.
 

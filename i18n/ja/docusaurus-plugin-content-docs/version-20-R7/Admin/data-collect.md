@@ -116,7 +116,7 @@ title: データ収集
 
 週に一度、ファイルはネットワーク経由で自動的に 4D に送信されます。 その後、ファイルは Active 4D Folder から削除されます。
 
-![](../assets/en/Admin/data-collect.png)
+![](/assets/en/Admin/data-collect.png)
 
 > 何らかの理由でファイルを送信できなかった場合でも、ファイルは削除され、4D Server にエラーメッセージは表示されません。
 

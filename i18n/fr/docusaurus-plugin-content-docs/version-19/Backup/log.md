@@ -28,7 +28,7 @@ Le fichier d’historique est géré par 4D. Il prend en compte indifféremment 
 
 Ce schéma résume le principe général de fonctionnement du fichier d’historique :
 
-![](../assets/en/Backup/backup05.png)
+![](/assets/en/Backup/backup05.png)
 
 Le fichier d’historique courant est automatiquement sauvegardé avec le fichier de données courant. Ce mécanisme procure deux avantages principaux :
 
@@ -68,7 +68,7 @@ Si vous souhaitez interrompre l’enregistrement du fichier d’historique coura
 
 4D affiche alors un message d’alerte afin d’attirer votre attention sur le fait que cette action vous prive de la sécurité apportée par le fichier d’historique :
 
-![](../assets/en/Backup/backup06.png)
+![](/assets/en/Backup/backup06.png)
 
 Si vous cliquez sur le bouton **Fermer**, le fichier d’historique courant est immédiatement refermé (il n’est pas nécessaire que la boîte de dialogue des Propriétés soit ensuite validée).
 

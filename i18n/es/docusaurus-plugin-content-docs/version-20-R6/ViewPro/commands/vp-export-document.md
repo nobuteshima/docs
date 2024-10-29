@@ -148,7 +148,7 @@ Método ***AfterExport***:
 
 Quiere exportar la hoja actual a un archivo `.txt` con valores separados por "|":
 
-![example-export-csv](../../assets/en/ViewPro/vp-export-document-csv.png)
+![example-export-csv](/assets/en/ViewPro/vp-export-document-csv.png)
 
 ```4d
 var $params : Object
@@ -161,7 +161,7 @@ VP EXPORT DOCUMENT("ViewProArea";"c:\\tmp\\data.txt";New object("format";vk csv 
 
 Aquí está el resultado:
 
-![example-export-csv](../../assets/en/ViewPro/vp-export-document-csv-result.png)
+![example-export-csv](/assets/en/ViewPro/vp-export-document-csv-result.png)
 
 #### Ver también
 

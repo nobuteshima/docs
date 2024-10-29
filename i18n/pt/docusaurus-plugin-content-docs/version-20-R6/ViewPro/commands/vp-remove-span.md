@@ -23,7 +23,7 @@ Em *rangeObj*, passe um objeto de alcance do intervalo da célula. As células g
 
 Para remover todos os intervalos de células deste documento:
 
-![](../../assets/en/ViewPro/cmd_vpRemoveSpan1.PNG)
+![](/assets/en/ViewPro/cmd_vpRemoveSpan1.PNG)
 
 ```4d
  //encontre todas as células fusionadas
@@ -36,7 +36,7 @@ Para remover todos os intervalos de células deste documento:
 
 Resultados:
 
-![](../../assets/en/ViewPro/cmd_vpRemoveSpan2.PNG)
+![](/assets/en/ViewPro/cmd_vpRemoveSpan2.PNG)
 
 #### Veja também
 

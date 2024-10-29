@@ -11,7 +11,7 @@ ORDA はオブジェクトベースであるため、ORDA を使うにはオブ�
 
 この例題では、以下の単純な 4Dデータベースストラクチャーを使用します:
 
-![](../assets/en/ORDA/struc.png)
+![](/assets/en/ORDA/struc.png)
 
 データストアとして公開されているものを知るために、新しいプロジェクトメソッドを作成し、以下の行を記述します:
 
@@ -23,7 +23,7 @@ TRACE
 式を挿入するために式エリアをダブルクリックし、`ds` と入力します。 これは、データストアオブジェクトを返します。
 オブジェクトを展開すると、`ds` オブジェクトのプロパティとしてテーブルとフィールドが ORDA によって自動的に公開されることがわかります。
 
-![](../assets/en/ORDA/debug1.png)
+![](/assets/en/ORDA/debug1.png)
 
 これはつまり、たとえば [Company]テーブルの cityフィールドを参照する必要がある場合、ORDA では次のように書くだけ事足ります:
 
@@ -37,7 +37,7 @@ ds.Company.city // 都市の名前を返します
 
 また、ds.Company データクラスに `hires` プロパティが追加されていることにお気づきでしょうか。 これはフィールドに対応した属性ではありません。 `hires` は、実際には Company と Employee の間の _1対N_ リレーションの名前です:
 
-![](../assets/en/ORDA/struc2s.png)
+![](/assets/en/ORDA/struc2s.png)
 _Name of the relation as defined in the Inspector_
 
 つまり、ある会社で働く従業員のリストにアクセスしたいとき、ORDA では次のように書きます:

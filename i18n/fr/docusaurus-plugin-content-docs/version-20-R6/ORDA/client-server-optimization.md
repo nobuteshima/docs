@@ -39,7 +39,7 @@ Le contexte d'optimisation est fondé sur ce qui suit :
 
 - Vous pouvez créer des contextes d'optimisation manuellement à l'aide de la fonction [`dataStore.setRemoteContextInfo()`](../API/DataStoreClass.md#setremotecontextinfo) (voir [Préconfiguration des contextes](#preconfiguring-contexts)).
 
-![](../assets/en/ORDA/cs-optimization-process.png)
+![](/assets/en/ORDA/cs-optimization-process.png)
 
 :::note Note de compatibilité
 

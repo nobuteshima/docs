@@ -13,7 +13,7 @@ Esta página indica el nombre, la versión y la ubicación de la aplicación, as
 La parte central de la ventana indica el nombre y la ubicación del proyecto y de los os archivos de datos, así como también el archivo de historial (si lo hay). La parte inferior de la ventana indica el nombre del titular de la licencia 4D, el tipo de licencia y el nombre del usuario 4D actual.
 
 - **Visualización y selección de nombres de ruta**: en la pestaña **Programa**, los nombres de ruta se muestran en menús emergentes que contienen la secuencia de carpetas tal y como se encuentran en el disco:\
-  ![](../assets/en/MSC/MSC_popup.png)
+  ![](/assets/en/MSC/MSC_popup.png)
   Si selecciona un elemento del menú (disco o carpeta), se muestra en una nueva ventana del sistema.
   El comando **Copiar la ruta** copia el nombre completo de la ruta en el portapapeles como texto, utilizando los separadores de la plataforma actual.
 
@@ -25,7 +25,7 @@ La parte central de la ventana indica el nombre y la ubicación del proyecto y d
 
 Esta página ofrece una visión general de las tablas de su base:
 
-![](../assets/en/MSC/MSC_Tables.png)
+![](/assets/en/MSC/MSC_Tables.png)
 
 > La información de esta página está disponible tanto en el modo estándar como en el de mantenimiento.
 
@@ -49,11 +49,11 @@ La página **Datos** ofrece información sobre el espacio de almacenamiento disp
 
 La información se ofrece en forma gráfica:
 
-![](../assets/en/MSC/MSC_Data.png)
+![](/assets/en/MSC/MSC_Data.png)
 
 > Esta página no tiene en cuenta los datos que puedan estar almacenados fuera del archivo de datos (ver "Almacenamiento externo").
 
-Los archivos demasiado fragmentados reducen el rendimiento del disco y, por tanto, de la base. Si la tasa de ocupación es demasiado baja, 4D lo indicará con un icono de advertencia (que aparece en el botón de información y en la pestaña del tipo de archivo correspondiente) y especificará que es necesario compactar:![](../assets/en/MSC/MSC_infowarn.png)
+Los archivos demasiado fragmentados reducen el rendimiento del disco y, por tanto, de la base. Si la tasa de ocupación es demasiado baja, 4D lo indicará con un icono de advertencia (que aparece en el botón de información y en la pestaña del tipo de archivo correspondiente) y especificará que es necesario compactar:![](/assets/en/MSC/MSC_infowarn.png)
 
 También se muestra un icono de advertencia en el botón de la página [Compact](compact.md):
-![](../assets/en/MSC/MSC_compactwarn.png)
+![](/assets/en/MSC/MSC_compactwarn.png)

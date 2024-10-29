@@ -23,7 +23,7 @@ Em *rangeObj*, passe um objeto de intervalo contendo um intervalo de colunas cuj
 
 As colunas a seguir são todas do mesmo tamanho e não exibem parte do texto:
 
-![](../../assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit1.PNG)
 
 Selecionar as colunas e executar este código:
 
@@ -33,7 +33,7 @@ Selecionar as colunas e executar este código:
 
 ... redimensiona as colunas para se adaptarem ao tamanho do conteúdo:
 
-![](../../assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
+![](/assets/en/ViewPro/cmd_vpColumnAutoFit2.PNG)
 
 #### Veja também
 

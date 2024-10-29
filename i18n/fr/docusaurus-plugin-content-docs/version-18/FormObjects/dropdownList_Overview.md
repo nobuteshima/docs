@@ -9,7 +9,7 @@ Les pop-up/listes déroulantes sont des objets qui permettent à l’utilisateur
 
 Sous macOS, les listes déroulantes sont aussi parfois appelées "pop-up menu". Les deux noms font référence aux mêmes objets. Comme le montre l'exemple suivant, l'apparence de ces objets peut différer légèrement selon la plateforme :
 
-![](../assets/en/FormObjects/popupDropdown_appearance.png)
+![](/assets/en/FormObjects/popupDropdown_appearance.png)
 
 ## Utiliser un tableau
 
@@ -74,7 +74,7 @@ Pour associer un popup/liste déroulante à un champ ou une variable énuméré(
 
 A l’exécution du formulaire, 4D gère automatiquement le pop up menu ou la combo box en saisie ou à l’affichage : lorsque l’utilisateur choisit une valeur, elle est stockée dans le champ ; à l’affichage, la valeur du champ est affichée dans le pop up menu :
 
-![](../assets/en/FormObjects/popupDropdown_choiceList.png)
+![](/assets/en/FormObjects/popupDropdown_choiceList.png)
 > Il n'est pas possible de mixer ce principe avec l'initialisation de l'objet à l'aide d'un tableau. Si vous saisissez un nom de champ dans la zone Nom de la variable, il est nécessaire d'utiliser une énumération.
 
 ### Enregistrer comme

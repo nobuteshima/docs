@@ -36,7 +36,7 @@ Le paramètre optionnel zoneEcran vous permet d'indiquer si vous souhaitez les c
 
 Les images suivantes illustrent les différences entre la zone de l'écran et la zone de travail :
 
-![](../assets/en/commands/pict4800387.en.png) 
+![](/assets/en/commands/pict4800387.en.png) 
 
 **Notes** :
 

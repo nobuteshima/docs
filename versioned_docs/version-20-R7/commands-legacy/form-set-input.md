@@ -94,7 +94,7 @@ The following example uses a .json file describing a form to enter the records i
 
 which displays:
 
-![](../assets/en/commands/pict3687432.en.png)
+![](/assets/en/commands/pict3687432.en.png)
 
 #### See also 
 

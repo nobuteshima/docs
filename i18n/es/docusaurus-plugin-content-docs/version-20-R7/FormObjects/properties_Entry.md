@@ -130,9 +130,9 @@ Cuando la propiedad **Enfocable** está activada para un objeto, el objeto puede
 
 > Un [objeto de entrada](input_overview.md) es siempre enfocable si tiene la propiedad [Editable](#enterable).
 
-- ![](../assets/en/FormObjects/property_focusable1.png)<br/>Check box shows focus when selected
+- ![](/assets/en/FormObjects/property_focusable1.png)<br/>Check box shows focus when selected
 
-- ![](../assets/en/FormObjects/property_focusable2.png)<br/>Check box is selected but cannot show focus|
+- ![](/assets/en/FormObjects/property_focusable2.png)<br/>Check box is selected but cannot show focus|
 
 Cuando se selecciona la propiedad **Enfocable** para un objeto no editable, el usuario puede seleccionar, copiar o incluso arrastrar y soltar el contenido del área.
 
@@ -176,13 +176,13 @@ Esta propiedad está disponible para [objetos de entrada](input_overview.md) que
 
 - En las entradas de una línea, las palabras situadas al final de las líneas se truncan y no hay retornos de línea.
 - En las entradas multilínea, 4D realiza retornos de línea automáticos:\
-  ![](../assets/en/FormObjects/multilineAuto.png)
+  ![](/assets/en/FormObjects/multilineAuto.png)
 
 #### No
 
 - En las entradas de una línea, las palabras situadas al final de las líneas se truncan y no hay retornos de línea.
 - Nunca hay retornos de línea: el texto siempre se muestra en una sola línea. Si el campo o variable Alfa o Texto contiene retornos de carro, el texto situado después del primer retorno de carro se elimina en cuanto se modifica el área:\
-  ![](../assets/en/FormObjects/multilineNo.png)
+  ![](/assets/en/FormObjects/multilineNo.png)
 
 #### Sí
 
@@ -206,7 +206,7 @@ Cuando se selecciona este valor, la propiedad es gestionada por la opción [Reto
 
 El texto del marcador de posición aparece como texto de marca de agua en un campo, suministrando un mensaje de ayuda, una indicación o un ejemplo de los datos que deben introducirse. Este texto desaparece tan pronto como el usuario ingrese un caracter en el área:
 
-![](../assets/en/FormObjects/property_placeholder.png)
+![](/assets/en/FormObjects/property_placeholder.png)
 
 El texto del marcador de posición vuelve a aparecer si se borra el contenido del campo.
 
@@ -261,7 +261,7 @@ Esta propiedad permite definir teclas de significado especial (atajos de teclado
 
 Puede configurar esta opción haciendo clic en [...] en la propiedad Accesos directos de la Lista de propiedades.
 
-![](../assets/en/FormObjects/property_shortcut.png)
+![](/assets/en/FormObjects/property_shortcut.png)
 
 > También puede asignar un acceso directo a un comando de menú personalizado. Si hay un conflicto entre dos accesos directos, el objeto activo tiene prioridad. Para más información sobre cómo asociar accesos directos a los menús, consulte [Configuración de las propiedades de los menús](https://doc.4d.com/4Dv17R5/4D/17-R5/Setting-menu-properties.300-4163525.en.html).
 

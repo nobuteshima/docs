@@ -129,7 +129,7 @@ A collection of objects, each with this structure:
 
 In the list box, each column refers to one of the properties of the object, either directly (This.name), indirectly (This.employees.length), or through an expression (*getPicture*) in which can be used directly. O list box parece com:
 
-![](../assets/en/commands/pict3776706.en.png)
+![](/assets/en/commands/pict3776706.en.png)
 
 The *GetPicture* project method is automatically executed during the **On display detail** event:
 
@@ -145,17 +145,17 @@ The *GetPicture* project method is automatically executed during the **On displa
 
 Once the form is executed, you can see the result:
 
-![](../assets/en/commands/pict3783169.en.png)
+![](/assets/en/commands/pict3783169.en.png)
 
 #### Exemplo 2
 
 You want to display entities from the following structure in a list box:
 
-![](../assets/en/commands/pict3872836.en.png)
+![](/assets/en/commands/pict3872836.en.png)
 
 You build a list box of the "Collection or entity selection" type with the following definition:
 
-![](../assets/en/commands/pict3872844.en.png)
+![](/assets/en/commands/pict3872844.en.png)
 
 Note que:
 
@@ -172,7 +172,7 @@ Note que:
 
 Once the form is executed, the list box is automatically filled with the entity selection:
 
-![](../assets/en/commands/pict3872875.en.png)
+![](/assets/en/commands/pict3872875.en.png)
 
 #### Veja também
 

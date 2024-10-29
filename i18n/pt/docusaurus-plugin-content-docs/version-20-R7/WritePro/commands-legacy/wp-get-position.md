@@ -146,14 +146,14 @@ Os exemplos abaixo ilustram as coordenadas do retângulo delimitador devolvidas,
  $paraCoordinates:=WP Get position($paragraph) // línha pontilhada verde
 ```
 
-![](../../assets/en/WritePro/commands/pict4096405.en.png)
+![](/assets/en/WritePro/commands/pict4096405.en.png)
 
 *Línha de pontos vermelha:* *valores de objeto $textCoordinates* 
 *Línha de pontos verde:* *valores de objeto $* *paraCoordinates* 
 
 **Nota: no** caso de uma visualização em várias colunas, a propriedade *rangeHeight* (línhas sem formato) podería ser maior que *bounds.bottom*\-*bounds.top* (linhas de pontos):
 
-![](../../assets/en/WritePro/commands/pict4096411.en.png)  
+![](/assets/en/WritePro/commands/pict4096411.en.png)  
 
 #### Ver também 
 

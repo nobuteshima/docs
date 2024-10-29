@@ -45,7 +45,7 @@ $displayCell:=VP Cell("myVPArea";50;50)
 
 Resultados:
 
-![](../../assets/en/ViewPro/cmd_vpShowCell1.PNG)
+![](/assets/en/ViewPro/cmd_vpShowCell1.PNG)
 
 The same code with the vertical and horizontal selectors changed to show the same cell positioned at the top right of the 4D View Pro area:
 
@@ -56,7 +56,7 @@ $displayCell:=VP Cell("myVPArea";50;50)
 
 Resultados:
 
-![](../../assets/en/ViewPro/cmd_vpShowCell2.PNG)
+![](/assets/en/ViewPro/cmd_vpShowCell2.PNG)
 
 #### Veja também
 

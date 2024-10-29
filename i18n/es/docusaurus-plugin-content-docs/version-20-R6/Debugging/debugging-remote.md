@@ -9,7 +9,7 @@ Cuando una base de datos 4D se ejecuta en 4D Server en modo interpretado, puede 
 
 En una máquina remota, la [ventana de depuración](debugger.md) muestra un icono de servidor específico y un color de fondo azul para indicar que está depurando el código servidor:
 
-![debugger-window-remote](../assets/en/Debugging/debuggerWindowRemote.png)
+![debugger-window-remote](/assets/en/Debugging/debuggerWindowRemote.png)
 
 Esta funcionalidad es especialmente útil cuando 4D Server se ejecuta en modo sin interfaz (ver [Command Line Interface](../Admin/cli.md)), o cuando el acceso a la máquina del servidor no es fácil.
 
@@ -82,9 +82,9 @@ Mientras el depurador esté conectado a un cliente 4D remoto o a 4D Server, ning
 
 Si una máquina intenta conectar el depurador cuando ya está conectado, se rechaza la conexión y aparece una caja de diálogo:
 
-![attach-debugger-dialog](../assets/en/Debugging/attach-debugger-dialog.png)
+![attach-debugger-dialog](/assets/en/Debugging/attach-debugger-dialog.png)
 
-![attach-debugger-dialog-2](../assets/en/Debugging/attach-debugger-dialog-2.png)
+![attach-debugger-dialog-2](/assets/en/Debugging/attach-debugger-dialog-2.png)
 
 Adjuntar el depurador en este caso requiere que:
 

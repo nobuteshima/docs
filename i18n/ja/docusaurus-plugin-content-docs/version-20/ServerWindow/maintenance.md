@@ -6,7 +6,7 @@ title: メンテナンスページ
 
 **メンテナンス** ページには、アプリケーションの現在の動作状況に関する情報が表示されます。 また、基本的なメンテナンス機能にアクセスすることもできます:
 
-![](../assets/en/Admin/server-maintenance.png)
+![](/assets/en/Admin/server-maintenance.png)
 
 
 ## 最新の検査/圧縮:
@@ -25,7 +25,7 @@ title: メンテナンスページ
 
 このボタンを使用して、データ圧縮処理を直接起動できます。 この処理をおこなうにはサーバーを停止させる必要があります。 ボタンをクリックすると、4D Server の終了ダイアログが表示され、終了方法を選択することができます:
 
-![](../assets/en/Admin/server-shut.png)
+![](/assets/en/Admin/server-shut.png)
 
 アプリケーションが実際に停止された後、4D Server はデータベースのデータに対する標準の圧縮処理をおこないます。 追加のオプションを指定したい場合は、[Maintenance ＆ Security Center](MSC/overview.md) (MSC) を使用します。
 

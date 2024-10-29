@@ -13,9 +13,9 @@ La compilación se realiza desde su aplicación 4D y es totalmente automática.
 
 1. Abra la ventana de compilación seleccionando el comando **Compilador...** en el menú **Diseño** o el botón **Compilador** de la barra de herramientas.
 
-   ![](../assets/en/Project/compilerWin1.png)
+   ![](/assets/en/Project/compilerWin1.png)
 
-   ![](../assets/en/Project/comp1.png)
+   ![](/assets/en/Project/comp1.png)
 
 > También puede lanzar directamente la compilación seleccionando el elemento de menú **Iniciar compilación** en el menú **Diseño**.
 
@@ -23,13 +23,13 @@ La compilación se realiza desde su aplicación 4D y es totalmente automática.
 
 Si no se detecta ningún error, se inicia la compilación y se muestra el mensaje "Compilación exitosa" en la parte inferior de la ventana cuando se completa la compilación:
 
-![](../assets/en/Project/success.png)
+![](/assets/en/Project/success.png)
 
 Puede inmediatamente [ejecutar su aplicación en modo compilado](#run-compiled) y ver lo rápido que es.
 
 Si se detectan errores, se detiene el proceso y se muestra el mensaje "Compilación fallida". El área de información de la ventana muestra los nombres de los métodos y los números de línea correspondientes en una lista jerárquica:
 
-![](../assets/en/Project/compilerWin2.png)
+![](/assets/en/Project/compilerWin2.png)
 
 Haga doble clic en cada error detectado para abrir el método o la clase en cuestión directamente en el Editor de código 4D. La línea que contiene el error se resalta y el tipo de error se muestra en el área de sintaxis de la ventana.
 
@@ -73,11 +73,11 @@ El botón **Borrar el código compilado** borra el código compilado del proyect
 
 Puede alternar la visualización de [advertencias](#advertencias) en la ventana del compilador haciendo clic en el botón **Mostrar/Ocultar advertencias**:
 
-![](../assets/en/Project/compilerWin4.png)
+![](/assets/en/Project/compilerWin4.png)
 
 Cuando esta opción está marcada, las advertencias (si las hay) se muestran en la ventana, después de los otros tipos de error. Aparecen en itálica:
 
-![](../assets/en/Project/compilerWin5.png)
+![](/assets/en/Project/compilerWin5.png)
 
 Al hacer doble clic en un aviso se abre el método correspondiente.
 
@@ -85,7 +85,7 @@ Al hacer doble clic en un aviso se abre el método correspondiente.
 
 La pestaña "Compilador" de la caja de diálogo Propiedades le permite definir los parámetros relacionados con la compilación del proyecto. Puede abrir directamente esta página desde la [ventana del compilador](#compiler-window) haciendo clic en el botón **Parámetros del compilador**:
 
-![](../assets/en/Project/compilerWin6.png)
+![](/assets/en/Project/compilerWin6.png)
 
 ### Opciones de compilación
 
@@ -158,7 +158,7 @@ Dependiendo de las circunstancias y del estilo de programación utilizado, las a
 
 ### Pestaña Advertencias
 
-![](../assets/en/Project/warnings-tab.png)
+![](/assets/en/Project/warnings-tab.png)
 
 Esta pestaña le permite definir qué advertencias deben mostrarse globalmente. De la lista de todas las advertencias posibles con sus tipos, su código y su etiqueta localizada, ordenadas por código de advertencia.
 

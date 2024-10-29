@@ -7,7 +7,7 @@ title: Webデータエクスプローラー
 
 データエクスプローラーは、プロジェクトのデータストアにあるデータを表示・クエリするための Webインターフェースを提供します。 このツールを使用すると、すべてのエンティティを簡単に照会し、属性値に基づいて検索・並べ替え・フィルターすることができます。 このツールは、開発プロセスのどの段階においても、データを管理し、問題を迅速に特定するのに役立ちます。
 
-![alt-text](../assets/en/Admin/dataExplorer1.png)
+![alt-text](/assets/en/Admin/dataExplorer1.png)
 
 ## アクセス設定
 
@@ -34,7 +34,7 @@ title: Webデータエクスプローラー
 
  このコンテキストでは、サーバー上で `WebAdmin` セッションを開くために [アクセスキー](webAdmin.md#アクセスキー) の入力を求められます。
 
-![alt-text](../assets/en/Admin/accessKeyEnter.png)
+![alt-text](/assets/en/Admin/accessKeyEnter.png)
 
 > [HTTPPort](webAdmin.md#http-ポート) および [HTTPSPort](webAdmin.md#https-ポート) の値は、`WebAdmin` 設定内で定義されます。
 
@@ -59,22 +59,22 @@ title: Webデータエクスプローラー
 
 ページ下部のセレクターを使って、表示テーマを **ダークモード** に切り替えることができます。
 
-![alt-text](../assets/en/Admin/dark.png)
+![alt-text](/assets/en/Admin/dark.png)
 
-![alt-text](../assets/en/Admin/dataExplorer2.png)
+![alt-text](/assets/en/Admin/dataExplorer2.png)
 
 このページにはいくつかのエリアがあります:
 
-- 左側には **データクラスエリア** と **属性エリア** があり、表示するデータクラスおよび属性を選択できます。 属性は、ストラクチャーにおける作成順にしたがって並べられます。 プライマリーキーおよびインデックス付きの属性には、専用アイコンが表示されます。 表示されているデータクラス名と属性名のリストは、それぞれの検索エリアを使ってフィルターできます。 ![alt-text](../assets/en/Admin/dataExplorer3.png)
+- 左側には **データクラスエリア** と **属性エリア** があり、表示するデータクラスおよび属性を選択できます。 属性は、ストラクチャーにおける作成順にしたがって並べられます。 プライマリーキーおよびインデックス付きの属性には、専用アイコンが表示されます。 表示されているデータクラス名と属性名のリストは、それぞれの検索エリアを使ってフィルターできます。 ![alt-text](/assets/en/Admin/dataExplorer3.png)
 
 - 中央部には、**検索エリア** と **データグリッド** (選択されたデータクラスのエンティティのリスト) があります。 グリッドの各列は、データストアの属性を表します。
-  - デフォルトでは、すべてのエンティティが表示されます。 検索エリアを使用して、表示されるエンティティをフィルターできます。 2つのクエリモードがあります: [属性に基づくクエリ](#属性に基づくクエリ) (デフォルト)、および [式による高度なクエリ](#式による高度なクエリ) です。 対応するボタンをクリックして、クエリモードを選択します (**X** ボタンは、クエリエリアをリセットして、フィルターを停止します)。 ![alt-text](../assets/en/Admin/dataExplorer4b.png)
+  - デフォルトでは、すべてのエンティティが表示されます。 検索エリアを使用して、表示されるエンティティをフィルターできます。 2つのクエリモードがあります: [属性に基づくクエリ](#属性に基づくクエリ) (デフォルト)、および [式による高度なクエリ](#式による高度なクエリ) です。 対応するボタンをクリックして、クエリモードを選択します (**X** ボタンは、クエリエリアをリセットして、フィルターを停止します)。 ![alt-text](/assets/en/Admin/dataExplorer4b.png)
 
   - 選択されたデータクラスの名前は、データグリッドの上にタブとして追加されます。 これらのタブを使って、選択されたデータクラスを切り替えることができます。 参照されているデータクラスを削除するには、データクラス名の右に表示される "削除" アイコンをクリックします。
   - 左側の属性のチェックを外すことで、表示されている列数を減らせます。 また、ドラッグ＆ドロップでデータグリッドの列の位置を入れ替えることができます。 列のヘッダーをクリックすると、値に応じて [エンティティを並べ替える](#エンティティの並べ替え) ことができます (可能な場合)。
   - 処理に時間がかかる場合は、進捗バーが表示されます。 赤いボタンをクリックすると、いつでも実行中の処理を停止できます:
 
-![alt-text](../assets/en/Admin/dataExplorer5.png)
+![alt-text](/assets/en/Admin/dataExplorer5.png)
 
 - 右側には **詳細エリア** があり、選択されているエンティティの属性値が表示されます。 ピクチャーやオブジェクト (json で表現) を含めた、すべての属性タイプが表示されます。 エリア下部にある **First** / **Previous** / **Next** / **Last** のリンクをクリックすることで、データクラスのエンティティ間を移動することができます。
 
@@ -88,7 +88,7 @@ title: Webデータエクスプローラー
 
 - 列のヘッダーをクリックすると、その列の属性値に応じてエンティティを並べ替えます。 デフォルトでは、昇順でソートされます。 2回クリックすると、降順でソートされます。 並べ替えの基準となる列には小さなアイコンが付き、属性名が *イタリック* で表示されます。
 
-![alt-text](../assets/en/Admin/dataExplorer7.png)
+![alt-text](/assets/en/Admin/dataExplorer7.png)
 
 - 属性を基準に複数のレベルでソートできます。 たとえば、従業員を都市別にソートした後、給与別にソートすることができます。 これには、**Shift** キーを押しながら、ソート基準とする各列のヘッダーを順にクリックします。
 
@@ -96,11 +96,11 @@ title: Webデータエクスプローラー
 
 このモードでは、データグリッドの属性名の上のエリアに検索 (または除外) する値を入力して、エンティティをフィルターします。 1つまたは複数の属性でフィルター可能です。 入力すると、エンティティリストは自動的に更新されます。
 
-![alt-text](../assets/en/Admin/dataExplorer6.png)
+![alt-text](/assets/en/Admin/dataExplorer6.png)
 
 複数の属性を指定した場合は、自動的に AND が適用されます。 たとえば次のフィルターでは、*firstname* 属性が "flo" で始まり、*salary* 属性値が > 50000であるエンティティが表示されます:
 
-![alt-text](../assets/en/Admin/dataExplorer9.png)
+![alt-text](/assets/en/Admin/dataExplorer9.png)
 
 **X** ボタンは入力された属性値を削除し、フィルターを停止します。
 
@@ -112,19 +112,19 @@ title: Webデータエクスプローラー
 
 数値、日付、時間型の属性では、デフォルトで "=" 演算子が選択されています。 ただし、演算子のリストから別の演算子を選択することができます ("=" アイコンをクリックするとリストが表示されます)。
 
-![alt-text](../assets/en/Admin/DEFilter1.png)
+![alt-text](/assets/en/Admin/DEFilter1.png)
 
 #### 日付
 
 日付型属性では、ピッカーを使って日付を入力することができます (日付エリアをクリックするとカレンダーが表示されます)。
 
-![alt-text](../assets/en/Admin/DEFilter2.png)
+![alt-text](/assets/en/Admin/DEFilter2.png)
 
 #### ブール
 
 ブール型の属性エリアをクリックすると、**true**/**false** 値だけでなく **null**/**not null** 値でもフィルターすることができます。
 
-![alt-text](../assets/en/Admin/DEFilter3.png)
+![alt-text](/assets/en/Admin/DEFilter3.png)
 
 - **null** は、その属性値が定義されていないことを示します。
 - **not null** は、属性値が定義されていることを示します (つまり、true または false)。
@@ -149,7 +149,7 @@ title: Webデータエクスプローラー
 
 このオプションを選択すると、エンティティリストの上にクエリエリアが表示され、コンテンツのフィルターに使用する任意の式を入力することができます。
 
-![alt-text](../assets/en/Admin/dataExplorer8.png)
+![alt-text](/assets/en/Admin/dataExplorer8.png)
 
 属性クエリでは利用できない高度なクエリを入力することができます。 たとえば、*firstname* 属性に "Jim" が含まれ、"Jimmy" が含まれていないエンティティを探すには、次のように記述します:
 
@@ -171,8 +171,8 @@ firstname = "Marie Sophie" AND manager.lastname = "@th"
 
 [`queryPlan`](API/DataClassClass.md#queryplan) と [`queryPath`](API/DataClassClass.md#querypath) を両方表示するには `v` アイコンをクリックします。 このエリアでは、サブクエリのブロックにカーソルを合わせると、サブクエリごとの詳細情報が表示されます。
 
-![alt-text](../assets/en/Admin/dataExplorer12.png)
+![alt-text](/assets/en/Admin/dataExplorer12.png)
 
 クエリエリアで右クリックすると、以前の有効なクエリが表示されます:
 
-![alt-text](../assets/en/Admin/dataExplorer11.png)
+![alt-text](/assets/en/Admin/dataExplorer11.png)

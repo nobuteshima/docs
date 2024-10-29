@@ -42,7 +42,7 @@ displayed_sidebar: docs
 
 4D Write Proフィールドの、最初から数えて12文字のレンジを選択したい場合を考えます。フィールドはフォームオブジェクト内に表示されているとします:
 
-![](../../assets/en/WritePro/commands/pict2644268.en.png)
+![](/assets/en/WritePro/commands/pict2644268.en.png)
 
 以下のコードを実行した場合:
 
@@ -53,7 +53,7 @@ displayed_sidebar: docs
 
 ...結果は以下の画像のようになります:
 
-![](../../assets/en/WritePro/commands/pict2644270.en.png)
+![](/assets/en/WritePro/commands/pict2644270.en.png)
 
 #### 例題 2 
 

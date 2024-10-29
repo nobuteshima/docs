@@ -45,8 +45,8 @@ title: テキスト、ピクチャー
 
 | マージン指定       | 例題                                                           |
 | ------------ | ------------------------------------------------------------ |
-| マージンなし       | ![](../assets/en/FormObjects/property_horizontalMargin1.png) |
-| 13 ピクセルのマージン | ![](../assets/en/FormObjects/property_horizontalMargin2.png) |
+| マージンなし       | ![](/assets/en/FormObjects/property_horizontalMargin1.png) |
+| 13 ピクセルのマージン | ![](/assets/en/FormObjects/property_horizontalMargin2.png) |
 
 > このプロパティは [縦方向マージン](#縦方向マージン) プロパティとの組み合わせで機能します。
 
@@ -117,7 +117,7 @@ title: テキスト、ピクチャー
 
 一つの状態につき、一つの画像を割り当てます。 ソースピクチャーでは、状態を表すアイコンは縦に並んでいなければなりません:
 
-![](../assets/en/FormObjects/six-states.png)
+![](/assets/en/FormObjects/six-states.png)
 
 #### JSON 文法
 
@@ -159,11 +159,11 @@ title: テキスト、ピクチャー
 
 | オプション  | 説明                                                        | 例題                                                                |
 | ------ | --------------------------------------------------------- | ----------------------------------------------------------------- |
-| **左**  | テキストはアイコンの左に置かれます。 ボタンの内容は右揃えされます。                        | ![](../assets/en/FormObjects/property_titlePosition_left.en.png)  |
-| **上**  | テキストはアイコンの上に置かれます。 ボタンの内容は中央揃えされます。                       | ![](../assets/en/FormObjects/property_titlePosition_top.png)      |
-| **右**  | テキストはアイコンの右に置かれます。 ボタンの内容は左揃えされます。                        | ![](../assets/en/FormObjects/property_titlePosition_right.png)    |
-| **下**  | テキストはアイコンの下に置かれます。 ボタンの内容は中央揃えされます。                       | ![](../assets/en/FormObjects/property_titlePosition_bottom.png)   |
-| **中央** | アイコンのテキストはボタン内で縦と横に中央揃えされます。 テキストをアイコンの中に組み込むような場合に利用します。 | ![](../assets/en/FormObjects/property_titlePosition_centered.png) |
+| **左**  | テキストはアイコンの左に置かれます。 ボタンの内容は右揃えされます。                        | ![](/assets/en/FormObjects/property_titlePosition_left.en.png)  |
+| **上**  | テキストはアイコンの上に置かれます。 ボタンの内容は中央揃えされます。                       | ![](/assets/en/FormObjects/property_titlePosition_top.png)      |
+| **右**  | テキストはアイコンの右に置かれます。 ボタンの内容は左揃えされます。                        | ![](/assets/en/FormObjects/property_titlePosition_right.png)    |
+| **下**  | テキストはアイコンの下に置かれます。 ボタンの内容は中央揃えされます。                       | ![](/assets/en/FormObjects/property_titlePosition_bottom.png)   |
+| **中央** | アイコンのテキストはボタン内で縦と横に中央揃えされます。 テキストをアイコンの中に組み込むような場合に利用します。 | ![](/assets/en/FormObjects/property_titlePosition_centered.png) |
 
 #### JSON 文法
 
@@ -185,7 +185,7 @@ title: テキスト、ピクチャー
 
 ボタンがタイトルと画像を持つ場合、デフォルトでは、それらは隣接して表示されます。 次の図は、様々な配置における `imageHugsTitle` プロパティ (有効な場合は true) の効果を示したものです:
 
-![](../assets/en/FormObjects/hugs.png)
+![](/assets/en/FormObjects/hugs.png)
 
 #### JSON 文法
 
@@ -223,7 +223,7 @@ title: テキスト、ピクチャー
 
 このプロパティを使用すると、ボタン内に逆三角形として表われるシンボルを表示することができます。このシンボルは、ポップアップメニューが付属することを示します:
 
-![](../assets/en/FormObjects/property_popup.png)
+![](/assets/en/FormObjects/property_popup.png)
 
 このシンボルの外観と位置は、ボタンスタイルとプラットフォームによって変わります。
 
@@ -233,7 +233,7 @@ title: テキスト、ピクチャー
 
 |                           リンク                           |                             分離                             |
 | :-----------------------------------------------------: | :--------------------------------------------------------: |
-| ![](../assets/en/FormObjects/property_popup_linked.png) | ![](../assets/en/FormObjects/property_popup_separated.png) |
+| ![](/assets/en/FormObjects/property_popup_linked.png) | ![](/assets/en/FormObjects/property_popup_separated.png) |
 
 > 実際に "分離" モードを利用できるかどうかは、ボタンスタイルとプラットフォームによって決まります。
 

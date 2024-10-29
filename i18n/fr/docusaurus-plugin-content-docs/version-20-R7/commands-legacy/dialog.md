@@ -27,7 +27,7 @@ Cette commande permet de concevoir des interfaces utilisateur personnalisées et
 
 **DIALOG** est généralement utilisée avec la commande [Open form window](open-form-window.md) pour afficher des formulaires complexes, comme par exemple :
 
-![](../assets/en/commands/pict3541609.en.png)
+![](/assets/en/commands/pict3541609.en.png)
 
 La commande **DIALOG** peut également être utilisée au lieu de [ALERT](alert.md), [CONFIRM](confirm.md) ou [Request](request.md) lorsque les informations à afficher ou à recueillir sont plus complexes que celles que peuvent gérer ces trois commandes.
 
@@ -82,13 +82,13 @@ L'exemple suivant permet de créer une palette d'outils :
 
 Dans un formulaire affichant l'enregistrement d'une personne, un bouton ouvre un dialogue permettant de vérifier ou de modifier les noms et âges de ses enfants :
 
-![](../assets/en/commands/pict3542015.en.png)
+![](/assets/en/commands/pict3542015.en.png)
 
 **Note :** Le champ objet "enfants" est représenté uniquement dans cet exemple afin de faire apparaître sa structure.
 
 Dans le formulaire de vérification, vous avez assigné des propriétés d'objet [Form](form.md) aux variables :
 
-![](../assets/en/commands/pict3541682.en.png)
+![](/assets/en/commands/pict3541682.en.png)
 
 Voici le code du bouton "Check Children" :
 
@@ -122,7 +122,7 @@ Voici le code du bouton "Check Children" :
 
 Le formulaire affiche les informations pour chaque enfant :
 
-![](../assets/en/commands/pict3515152.en.png)
+![](/assets/en/commands/pict3515152.en.png)
 
 Si des valeurs sont modifiées et que l'utilisateur clique sur le bouton OK, le champ est mis à jour (bien entendu, l'enregistrement parent devra être sauvegardé par la suite).
 
@@ -138,7 +138,7 @@ L'exemple suivant utilise le chemin d'un fichier .json décrivant un formulaire 
 
 Résultat :
 
-![](../assets/en/commands/pict3687439.en.png)
+![](/assets/en/commands/pict3687439.en.png)
 
 #### Exemple 4 
 
@@ -156,7 +156,7 @@ L'exemple suivant crée un objet à partir d'un fichier .json décrivant un form
 
 Le formulaire est affiché avec la bordure, le logo et le titre modifiés :
 
-![](../assets/en/commands/pict3688356.en.png)
+![](/assets/en/commands/pict3688356.en.png)
 
 #### Variables et ensembles système 
 

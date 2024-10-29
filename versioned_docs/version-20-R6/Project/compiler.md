@@ -14,9 +14,9 @@ The compilation is handled from your 4D application and is entirely automatic.
 
 1. Open the compiler window by selecting the **Compiler...** command in the **Design** menu or the **Compiler** toolbar button.
 
-	![](../assets/en/Project/compilerWin1.png)  
+	![](/assets/en/Project/compilerWin1.png)  
 	
-	![](../assets/en/Project/comp1.png)
+	![](/assets/en/Project/comp1.png)
 	  
 > You can also launch directly the compilation by selecting the **Start Compilation** menu item from the **Design** menu. 
 
@@ -24,13 +24,13 @@ The compilation is handled from your 4D application and is entirely automatic.
 
 If no errors are detected, the actual compilation begins and the "Compilation successful" message is displayed at the bottom of the window when the compilation is completed:
 
-![](../assets/en/Project/success.png)
+![](/assets/en/Project/success.png)
 
 You can immediately [run your application in compiled mode](#run-compiled) and see how faster it is. 
 
 If errors are detected, the process is stopped and the "Compilation failed" message is displayed. The information area of the window displays the method names and line numbers concerned in a hierarchical list:
 
-![](../assets/en/Project/compilerWin2.png)
+![](/assets/en/Project/compilerWin2.png)
 
 Double-click on each error detected to open the method or class concerned directly in the 4D Code Editor. The line containing the error is highlighted and the type of error is displayed in the syntax area of the window. 
 
@@ -64,7 +64,7 @@ The **Generate Typing** button creates or updates typing compiler methods. Compi
 
 The name of these methods must begin with `Compiler_`. You can set the default name for each of the 5 compiler methods in the [compiler settings window](#compiler-methods-for). The compiler methods that are generated and maintained by 4D automatically have the `Invisible` attribute:
 
-![](../assets/en/Project/compilerWin3.png)
+![](/assets/en/Project/compilerWin3.png)
 
 Only the necessary compiler methods (i.e., those for which items already exist in the project) are generated. 
 
@@ -80,11 +80,11 @@ The **Clear compiled code** button deletes the compiled code of the project. Whe
 
 You can toggle the [warnings](#warnings) display in the Compiler window by clicking the **Show/Hide Warnings** button:
 
-![](../assets/en/Project/compilerWin4.png)
+![](/assets/en/Project/compilerWin4.png)
 
 When this option is checked, the warnings (if any) are displayed in the window, after the other error types. They appear in italics:
 
-![](../assets/en/Project/compilerWin5.png)
+![](/assets/en/Project/compilerWin5.png)
 
 Double-clicking a warning opens the corresponding method.
 
@@ -92,7 +92,7 @@ Double-clicking a warning opens the corresponding method.
 
 The "Compiler" tab of the Settings dialog box lets you set parameters related to project compilation. You can directly open this page from the [compiler window](#compiler-window) by clicking on the **Compiler Settings** button:
 
-![](../assets/en/Project/compilerWin6.png)
+![](/assets/en/Project/compilerWin6.png)
 
 
 ### Compilation options
@@ -178,7 +178,7 @@ Depending on circumstances and the programming style used, warnings may be more 
 
 ### Warnings tab
 
-![](../assets/en/Project/warnings-tab.png)
+![](/assets/en/Project/warnings-tab.png)
 
 This tab allows you to define which warnings should be displayed globally. From the list of all possible warnings with their types, their code and their localized label, ordered by warning code. 
 

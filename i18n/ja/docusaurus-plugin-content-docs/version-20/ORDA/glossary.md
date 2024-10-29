@@ -5,7 +5,7 @@ title: 用語集
 
 ## 主なコンセプトの概要
 
-![](../assets/en/ORDA/mainConcepts.png)
+![](/assets/en/ORDA/mainConcepts.png)
 
 
 

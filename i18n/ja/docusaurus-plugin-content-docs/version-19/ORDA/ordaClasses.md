@@ -28,7 +28,7 @@ Form.comp.city:=$cityManager.City.getCityName(Form.comp.zipcode)
 
 - デフォルトでは、データモデルクラス関数はすべて、リモートアプリケーションに対し **非公開** に設定されており、RESTリクエストで呼び出すことはできません。 公開する関数は [`exposed`](#公開vs非公開関数) キーワードによって明示的に宣言する必要があります。
 
-![](../assets/en/ORDA/api.png)
+![](/assets/en/ORDA/api.png)
 
 各データモデルオブジェクトに関わるクラスは、4D によって [あらかじめ自動的に作成](#クラスの作成) されます。
 
@@ -36,7 +36,7 @@ Form.comp.city:=$cityManager.City.getCityName(Form.comp.zipcode)
 
 ORDA では、**`4D`** [クラスストア](Concepts/classes.md#クラスストア) を介して公開される **汎用クラス** と、**`cs`** [クラスストア](Concepts/classes.md#クラスストア) で公開される **ユーザークラス** が提供されています:
 
-![](../assets/en/ORDA/ClassDiagramImage.png)
+![](/assets/en/ORDA/ClassDiagramImage.png)
 
 
 ORDA データモデルクラスはすべて **`cs`** クラスストアのプロパティとして公開されます。 次の ORDA クラスが提供されています:
@@ -127,7 +127,7 @@ Function GetBestOnes()
 
 次の *City* カタログをリモートデータストアとして公開しています:
 
-![](../assets/en/ORDA/Orda_example.png)
+![](/assets/en/ORDA/Orda_example.png)
 
 `City クラス` は API を提供しています:
 
@@ -398,13 +398,13 @@ ORDA データモデルユーザークラスは、クラスと同じ名称の .4
 
 各データモデルオブジェクトに関わるクラスは、4D によってあらかじめ自動的にメモリ内に作成されます。
 
-![](../assets/en/ORDA/ORDA_Classes-3.png)
+![](/assets/en/ORDA/ORDA_Classes-3.png)
 
-> 空の ORDA クラスは、デフォルトではエクスプローラーに表示されません。 表示するにはエクスプローラーのオプションメニューより **データクラスを全て表示** を選択します: ![](../assets/en/ORDA/showClass.png)
+> 空の ORDA クラスは、デフォルトではエクスプローラーに表示されません。 表示するにはエクスプローラーのオプションメニューより **データクラスを全て表示** を選択します: ![](/assets/en/ORDA/showClass.png)
 
 ORDA ユーザークラスは通常のクラスとは異なるアイコンで表されます。 空のクラスは薄く表示されます:
 
-![](../assets/en/ORDA/classORDA2.png)
+![](/assets/en/ORDA/classORDA2.png)
 
 ORDA クラスファイルを作成するには、エクスプローラーで任意のクラスをダブルクリックします。 4D はクラスファイルを作成し、`extends` ステートメントを自動で追加します。 たとえば、Entity クラスを継承するクラスの場合は:
 
@@ -418,14 +418,14 @@ Class extends Entity
 
 定義された ORDA クラスファイルを 4D メソッドエディターで開くには、ORDA クラス名を選択してエクスプローラーのオブションメニュー、またはコンテキストメニューの **編集...** を使用するか、ORDA クラス名をダブルクリックします:
 
-![](../assets/en/ORDA/classORDA4.png)
+![](/assets/en/ORDA/classORDA4.png)
 
 ローカルデータストア (`ds`) に基づいた ORDA クラスの場合には、4D ストラクチャーウィンドウからも直接クラスコードにアクセスできます:
 
-![](../assets/en/ORDA/classORDA5.png)
+![](/assets/en/ORDA/classORDA5.png)
 
 ### メソッドエディター
 
 4D メソッドエディターにおいて、ORDA クラス型として定義された変数は、自動補完機能の対象となります。 Entity クラス変数の例です:
 
-![](../assets/en/ORDA/AutoCompletionEntity.png)
+![](/assets/en/ORDA/AutoCompletionEntity.png)

@@ -19,7 +19,7 @@ No es necesaria la activación para los siguientes usos:
 
 Con 4D, seleccione el comando **Gestión de licencias...** del menú **Ayuda**. Con 4D Server, basta con lanzar la aplicación 4D Server. Aparece la caja de diálogo para elegir el [modo de activación](#activation-mode).
 
-![](../assets/en/getStart/server1.png)
+![](/assets/en/getStart/server1.png)
 
 4D ofrece tres modos de activación. Recomendamos **La activación inmediata**.
 
@@ -29,11 +29,11 @@ Introduzca su identificación de usuario (correo electrónico o cuenta 4D) así 
 
 [https://account.4d.com/us/login.shtml](https://account.4d.com/us/login.shtml)
 
-![](../assets/en/getStart/activ1.png)
+![](/assets/en/getStart/activ1.png)
 
 A continuación, introduzca el número de licencia del producto que desea activar. Este número se facilita por correo electrónico o por correo tras la compra de un producto.
 
-![](../assets/en/getStart/activ2.png)
+![](/assets/en/getStart/activ2.png)
 
 ### Activación diferida
 
@@ -42,23 +42,23 @@ Si no puede utilizar [la activación instantánea](#instant-activation) porque s
 1. En la ventana del Administrador de licencias, seleccione la pestaña **Activación diferida**.
 2. Introduzca el número de licencia y su dirección de correo electrónico y, a continuación, haga clic en **Generar el archivo** para crear el archivo de identificación (*reg.txt*).
 
-![](../assets/en/getStart/activ3.png)
+![](/assets/en/getStart/activ3.png)
 
 3. Guarde el archivo *reg.txt* en una unidad USB y llévelo a un ordenador que tenga acceso a Internet.
 4. En la máquina con acceso a Internet, inicie sesión en [https://activation.4d.com](https://activation.4d.com).
 5. En la página Web, haga clic en el botón **Elegir archivo...** y seleccione el archivo *reg.txt* de los pasos 3 y 4; a continuación, haga clic en el botón **Activar**.
 6. Descargue los archivos seriales.
 
-![](../assets/en/getStart/activ4.png)
+![](/assets/en/getStart/activ4.png)
 
 7. Guarde el(los) archivo(s) *licencia4d* en un medio compartido y transfiéralo(s) de nuevo a la máquina 4D del paso 1.
 8. Ahora, de vuelta en la máquina con 4D, todavía en la página **Activación Diferida**, haga clic en **Siguiente**; a continuación, haga clic en el botón **Cargar...** y seleccione un archivo *licencia4d* del medio compartido del paso 7.
 
-![](../assets/en/getStart/activ5.png)
+![](/assets/en/getStart/activ5.png)
 
 Con el archivo de licencia cargado, haga clic en **Siguiente**.
 
-![](../assets/en/getStart/activ6.png)
+![](/assets/en/getStart/activ6.png)
 
 9. Haga clic en el botón **Añadir N°** para añadir otra licencia. Repita estos pasos hasta que se hayan integrado todas las licencias del paso 6.
 
@@ -74,7 +74,7 @@ Puede añadir nuevas licencias, por ejemplo para ampliar las capacidades de su a
 
 Elija el comando **Administrador de licencias...** del menú **Ayuda** de la aplicación 4D o 4D Server, y luego haga clic en el botón **Refrescar**:
 
-![](../assets/en/getStart/licens1.png)
+![](/assets/en/getStart/licens1.png)
 
 Este botón lo conecta con nuestra base clientes y activa automáticamente todas las licencias nueva o actualizadas relacionadas con la licencia actual (la licencia actual se muestra en **negrita** en la lista de "Licencias activas"). Sólo se le pedirá su cuenta de usuario y su contraseña.
 
@@ -96,23 +96,23 @@ Haga clic en **Inicio de sesión** para acceder con su cuenta actual o en **Nuev
 
 Después de iniciar sesión, puede hacer clic en **Lista de licencias** en la parte superior derecha de la página:
 
-![](../assets/en/getStart/licens2.png)
+![](/assets/en/getStart/licens2.png)
 
 Aquí puede gestionar sus licencias asignándolas a proyectos.
 
 Seleccione la licencia adecuada de la lista y, a continuación, haga clic en **Enlazar con un proyecto...> **:
 
-![](../assets/en/getStart/licens3.png)
+![](/assets/en/getStart/licens3.png)
 
 Puede seleccionar un proyecto existente o crear uno nuevo:
 
-![](../assets/en/getStart/licens4.png)
+![](/assets/en/getStart/licens4.png)
 
-![](../assets/en/getStart/licens5.png)
+![](/assets/en/getStart/licens5.png)
 
 Puede utilizar los proyectos para organizar sus licencias según sus necesidades:
 
-![](../assets/en/getStart/licens6.png)
+![](/assets/en/getStart/licens6.png)
 
 ## Solución de problemas
 

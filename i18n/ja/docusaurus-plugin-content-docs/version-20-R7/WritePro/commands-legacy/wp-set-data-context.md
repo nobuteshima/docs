@@ -67,7 +67,7 @@ displayed_sidebar: docs
 
 上記のコードを実行した結果は以下のようになります:
 
-![](../../assets/en/WritePro/commands/pict5867255.en.png)
+![](/assets/en/WritePro/commands/pict5867255.en.png)
 
 #### 例題 2 
 
@@ -75,7 +75,7 @@ displayed_sidebar: docs
 
 テンプレートがロードされてコンテキストが設定されれば、以下のようにテンプレートを活用することができます:
 
-![](../../assets/en/WritePro/commands/pict5867835.en.png)
+![](/assets/en/WritePro/commands/pict5867835.en.png)
 
 以下のコードは、エンティティセレクション内をループし、各エンティティに対して印刷プレビューを作成します:
 

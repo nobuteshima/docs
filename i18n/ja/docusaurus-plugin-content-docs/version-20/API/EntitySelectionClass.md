@@ -986,7 +986,7 @@ $paths:=ds.Employee.all().distinctPaths("fullData")
 
 以下のテーブルとリレーションを前提とします:
 
-![](../assets/en/API/entityselection.PNG)
+![](/assets/en/API/entityselection.PNG)
 
 ```4d
  var $firstnames; $addresses; $mailing; $teachers : Collection
@@ -2287,7 +2287,7 @@ filterString および filterCol 引数が省略されるか、空の文字列�
 
 このセクションの例題では、以下のストラクチャーを使います:
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 
 filterString や filterCol、および options 引数を渡さない例:

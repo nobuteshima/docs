@@ -39,7 +39,7 @@ title: クライアント/サーバーの最適化
 
 - [`dataStore.setRemoteContextInfo()`](../API/DataStoreClass.md#setremotecontextinfo) 関数を使用して、最適化コンテキストを手動で構築することができます ([コンテキストの事前設定](#コンテキストの事前設定) 参照)。
 
-![](../assets/en/ORDA/cs-optimization-process.png)
+![](/assets/en/ORDA/cs-optimization-process.png)
 
 :::note 互換性に関する注意
 

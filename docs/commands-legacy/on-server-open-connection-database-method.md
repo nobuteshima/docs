@@ -80,7 +80,7 @@ These ID numbers are not directly usable as sources of information to be passed 
 
 The following example shows how to maintain a log of the connections to the database using the **On Server Open Connection database method** and the **On Server Close Connection Database Method**. The *\[Server Log\]* table (shown below) is used to keep track of the connection processes:
 
-![](../assets/en/commands/pict69173.en.png)
+![](/assets/en/commands/pict69173.en.png)
 
 The information stored in this table is managed by the **On Server Open Connection database method** and the **On Server Close Connection Database Method** listed here:
 
@@ -118,7 +118,7 @@ The information stored in this table is managed by the **On Server Open Connecti
 
 Here are some entries in the \[Server Log\] showing several remote connections:
 
-![](../assets/en/commands/pict69174.en.png)
+![](/assets/en/commands/pict69174.en.png)
 
 #### Example 2 
 

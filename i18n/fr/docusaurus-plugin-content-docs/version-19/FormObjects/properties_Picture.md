@@ -34,7 +34,7 @@ Les emplacements suivants peuvent être utilisés pour le chemin d'images statiq
 
 Le format **Non tronquée** permet à 4D de redimensionner l'image pour qu'elle corresponde aux dimensions de la zone.
 
-![](../assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
+![](/assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
 
 ### Mosaïque
 
@@ -42,7 +42,7 @@ Le format **Non tronquée** permet à 4D de redimensionner l'image pour qu'elle 
 
 Lorsque la zone qui contient une image avec le format **Mosaïque** est agrandie, l'image n'est pas déformée mais est répliquée autant de fois que nécessaire pour remplir entièrement la zone.
 
-![](../assets/en/FormObjects/property_pictureFormat_Replicated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Replicated.png)
 
 Si le champ est réduit à une taille plus petite que celle de l'image d'origine, l'image est tronquée (non centrée).
 
@@ -55,7 +55,7 @@ Le format **Centre** permet à 4D de centrer l'image dans la zone et de rogner t
 Avec le format **Image tronquée (non centrée)**, 4D place le coin supérieur gauche de l'image dans le coin supérieur gauche de la zone et rogne toute partie qui ne rentre pas dans la zone. 4D rogne à partie de la droite et du bas.
 > Lorsque le format de l'image est **tronquée (non centrée)**, il est possible d'ajouter des barres de défilement à la zone de saisie.
 
-![](../assets/en/FormObjects/property_pictureFormat_Truncated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Truncated.png)
 
 #### Grammaire JSON
 

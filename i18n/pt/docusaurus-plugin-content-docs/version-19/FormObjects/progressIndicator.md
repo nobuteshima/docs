@@ -6,7 +6,7 @@ title: Indicador de progresso
 
 A progress indicator (also called "thermometer") is designed to display or set numeric or date/time values graphically.
 
-![](../assets/en/FormObjects/progress1.png)
+![](/assets/en/FormObjects/progress1.png)
 
 ## Utilizar os indicadores
 
@@ -30,7 +30,7 @@ O método atribui o valor do código ao campo Salary. À medida que o usuário a
 
 ## Termómetro predefinido
 
-![](../assets/en/FormObjects/indicator_progressBar.png)
+![](/assets/en/FormObjects/indicator_progressBar.png)
 
 O termómetro é o indicador básico de progresso.
 
@@ -44,7 +44,7 @@ Estão disponíveis várias opções gráficas: valores mínimos/máximos, gradu
 
 ## Barber shop
 
-![](../assets/en/FormObjects/indicator.gif)
+![](/assets/en/FormObjects/indicator.gif)
 
 **Barber shop** é uma variante do termômetro predefinido. To enable this variant, you need to set the [Barber shop](properties_Scale.md#barber-shop) property.
 > In JSON code, just remove "max" property from a default thermometer object to enable the Barber shop variant.

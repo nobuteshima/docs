@@ -41,13 +41,13 @@ The list reference you pass in *sublist* must refer to an existing list. The exi
 
 Here is a partial view of a database structure:
 
-![](../assets/en/commands/pict334094.en.png)
+![](/assets/en/commands/pict334094.en.png)
 
 The \[Departments\] and \[Employees\] tables contain the following records:
 
-![](../assets/en/commands/pict334096.en.png)
+![](/assets/en/commands/pict334096.en.png)
 
-![](../assets/en/commands/pict334098.en.png)
+![](/assets/en/commands/pict334098.en.png)
 
 You want to display a hierarchical list, named *hlList*, that shows the Departments, and for each Department, a child list that shows the Employees working in that Department. The object method of *hlList* is:
 
@@ -149,7 +149,7 @@ Therefore, we made the item reference numbers unique, not because we wanted uniq
 
 When the form is executed, the list will look like this:
 
-![](../assets/en/commands/pict334100.en.png)
+![](/assets/en/commands/pict334100.en.png)
 
 **Note:** This example is useful for user interface purposes if you deal with a reasonably small number of records. Remember that lists are held in memory—do not build user interfaces with hierarchical lists containing millions of items.
 

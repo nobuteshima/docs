@@ -46,4 +46,4 @@ Le nom de la troisième feuille est "Total premier trimestre" :
 VP SET SHEET NAME("ViewProArea";"Total first quarter";2)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-index-name.png)
+![](/assets/en/ViewPro/vp-sheet-index-name.png)

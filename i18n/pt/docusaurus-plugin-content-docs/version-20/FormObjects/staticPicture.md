@@ -6,7 +6,7 @@ title: Imagem estática
 
 Static pictures are [static objects](formObjects_overview.md#active-and-static-objects) that can be used for various purposes in 4D forms, including decoration, background, or user interface:
 
-![](../assets/en/FormObjects/StaticPict.png)
+![](/assets/en/FormObjects/StaticPict.png)
 
 
 As imagens estáticas são armazenadas fora dos formulários e inseridas por referência. In the form editor, static picture objects are created by copy/paste or drag and drop operations.

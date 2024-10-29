@@ -33,7 +33,7 @@ La séquence de connexion d'un utilisateur est la suivante :
 
 4. Si l'utilisateur est authentifié avec succès, une licence 4D est consommée sur le serveur et toutes les requêtes REST sont acceptées.
 
-![alt-text](../assets/en/REST/force-login-2.jpeg)
+![alt-text](/assets/en/REST/force-login-2.jpeg)
 
 Dans la phase de connexion de l'utilisateur, l'utilisation des licences est déconnectée des sessions utilisateur web. Une licence est requise uniquement lorsque la fonction [`Session.setPrivileges()`](../API/SessionClass.md#setprivileges) est exécutée, ce qui vous permet de contrôler le nombre de licences utilisées.
 
@@ -47,7 +47,7 @@ Les requêtes REST descriptives peuvent être traitées dans des sessions d'util
 - `/rest/$catalog/authentify` - la fonction datastore utilisée pour connecter l'utilisateur
 - `/rest/$getWebForm` - le rendu d'une page Qodly
 
-![alt-text](../assets/en/REST/force-login-1.jpeg)
+![alt-text](/assets/en/REST/force-login-1.jpeg)
 
 ## `Function authentify`
 

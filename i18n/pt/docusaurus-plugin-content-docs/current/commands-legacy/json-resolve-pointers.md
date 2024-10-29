@@ -35,7 +35,7 @@ Opcionalmente, pode passar em *opções* um objeto que contenha propriedades esp
 | **Propriedade** | **Tipo de valor** | **Descrição**                                                                                                                                                                     |
 | --------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | rootFolder      | String            | Rota absoluta (utilizando a sintaxe 4D padrão) a pasta que se utilizará para resolver ponteiros relativos no objeto. O valor predeterminado é a pasta Recursos do banco de dados. |
-| merge           | Booleano          | Fusiona objetos com objetos ponteiro (true) ao invés de substituí-los (false). O valor predeterminado é false ![](../assets/en/commands/pict3516702.pt.png)                       |
+| merge           | Booleano          | Fusiona objetos com objetos ponteiro (true) ao invés de substituí-los (false). O valor predeterminado é false ![](/assets/en/commands/pict3516702.pt.png)                       |
 
 Depois de executar o comando:
 

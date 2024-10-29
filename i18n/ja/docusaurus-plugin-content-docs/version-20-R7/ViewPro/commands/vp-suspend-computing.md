@@ -27,7 +27,7 @@ title: VP SUSPEND COMPUTING
 
 ユーザーが計算を停止/再開できるように、フォーム上に 2つボタンを追加します:
 
-![](../../assets/en/ViewPro/cmd_vpStopCalculations.PNG)
+![](/assets/en/ViewPro/cmd_vpStopCalculations.PNG)
 
 計算停止ボタンのコード:
 

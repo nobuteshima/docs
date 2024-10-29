@@ -227,7 +227,7 @@ Para ser llamado en una petición REST, un método debe:
     - **Registro actual** -para los métodos aplicados al registro actual (entidad) utilizando la sintaxis `\{dataClass\}(key)/{method}`.
     - **Selección actual** -para los métodos aplicados a la selección actual
 
-![alt-text](../assets/en/REST/MethodProp.png)
+![alt-text](/assets/en/REST/MethodProp.png)
 
 ### Pasar parámetros a un método
 

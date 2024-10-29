@@ -28,7 +28,7 @@ title: VP REMOVE SHEET
 
 ドキュメントには現在 3つのシートがあります:
 
-![](../../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 3つ目のシートを削除します:
 
@@ -36,7 +36,7 @@ title: VP REMOVE SHEET
 VP REMOVE SHEET("ViewProArea";2)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-2.png)
+![](/assets/en/ViewPro/vp-sheet-2.png)
 
 #### 参照
 

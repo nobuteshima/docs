@@ -19,7 +19,7 @@ No nível de rede, o protocolo de segurança é inserido entre a capa TCP/IP (ba
 
 Configuração de rede usando TSL:
 
-![](../assets/en/WebServer/tls1.png)
+![](/assets/en/WebServer/tls1.png)
 
 O protocolo TLS foi criado para autenticar o emissor e o recipiente e assim garantir a confidencialidade e integridade da troca de informações:
 
@@ -123,7 +123,7 @@ Um servidor trabalhando em modo seguro significa que precisa de um certificado d
 
 > Navegadores web autorizam apenas os certificados emitidos por autoridades de certificação referenciados em suas propriedades.
 
-![](../assets/en/WebServer/tls2.png)
+![](/assets/en/WebServer/tls2.png)
 
 A autoridade de certificação é escolhida de acordo com vários critérios. Se a autoridade de certificação for bem reconhecida, o certificado será autorizado por vários navegadores, mas o preço pode ser caro.
 

@@ -35,7 +35,7 @@ Opcionalmente, puede pasar en *opciones* un objeto que contenga propiedades espe
 | **Propiedad** | **Tipo de valor** | **Descripción**                                                                                                                                                                            |
 | ------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | rootFolder    | Cadena            | Ruta absoluta (utilizando la sintaxis 4D estándar) a la carpeta que se utilizará para resolver punteros relativos en el objeto. El valor predeterminado es la carpeta Recursos de la base. |
-| merge         | Booleano          | Fusiona objetos con objetos puntero (true) en lugar de reemplazarlos (false). El valor predeterminado es false ![](../assets/en/commands/pict3516702.es.png)                               |
+| merge         | Booleano          | Fusiona objetos con objetos puntero (true) en lugar de reemplazarlos (false). El valor predeterminado es false ![](/assets/en/commands/pict3516702.es.png)                               |
 
 Después de ejecutar el comando:
 

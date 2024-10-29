@@ -25,7 +25,7 @@ title: VP Get active cell
 
 #### 例題
 
-![](../../assets/en/ViewPro/cmd_vpGetActiveCell.PNG)
+![](/assets/en/ViewPro/cmd_vpGetActiveCell.PNG)
 
 以下のコードを実行するとアクティブセルの座標が取得できます:
 

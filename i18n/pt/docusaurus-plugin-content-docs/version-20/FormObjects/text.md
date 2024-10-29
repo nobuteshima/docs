@@ -27,13 +27,13 @@ A text object allows you to display static written content (*e.g.*, instructions
 
 4D lets you rotate text areas in your forms using the [Orientation](properties_Text.md#orientation) property.
 
-![](../assets/en/FormObjects/staticText.png)
+![](/assets/en/FormObjects/staticText.png)
 
 > A rotação do texto pode ser definida para um processo utilizando o comando de linguagem `OBJECT SET TEXT ORIENTATION`.
 
 Quando um texto é rodado, pode continuar a alterar o seu tamanho ou posição, bem como todas as suas propriedades. Note that the text area’s height and width properties do not depend on its orientation:
 
-![](../assets/en/FormObjects/staticText2.png)
+![](/assets/en/FormObjects/staticText2.png)
 
 - If the object is resized in direction A, its [width](properties_CoordinatesAndSizing.md#width) is modified;
 - If the object is resized in direction C, its [height](properties_CoordinatesAndSizing.md#height) is modified;

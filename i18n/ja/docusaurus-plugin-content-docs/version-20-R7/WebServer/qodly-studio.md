@@ -168,7 +168,7 @@ Qodlyページを利用した Webアプリケーションを開発するには�
 コンピュータがインターネットに接続されていない状態でも、Qodly Studio を使って開発することができます。 ただしこの場合、以下の機能は使用できません:
 
 - [Templates](https://developer.qodly.com/docs/studio/pageLoaders/templates): the Template library is empty
-- UI Tips: ![alt-text](../assets/en/WebServer/tips.png)アイコンをクリックしても表示されません。
+- UI Tips: ![alt-text](/assets/en/WebServer/tips.png)アイコンをクリックしても表示されません。
 
 ## 運用
 
@@ -242,9 +242,9 @@ Qodly Studio デバッガーを実行中の 4D Server アプリケーション�
 :::
 
 2. Qodly Studio のツールバーで、**Debug** ボタンをクリックします。<br/>
-   ![qodly-debug](../assets/en/WebServer/qodly-debug.png)
+   ![qodly-debug](/assets/en/WebServer/qodly-debug.png)
 
-デバッグセッションが正常に開始されると、ボタンラベルに緑色の丸が表示され [qodly-debug](../assets/en/WebServer/debug2.png)、Qodly Studio デバッガーを使用できるようになります。
+デバッグセッションが正常に開始されると、ボタンラベルに緑色の丸が表示され [qodly-debug](/assets/en/WebServer/debug2.png)、Qodly Studio デバッガーを使用できるようになります。
 
 デバッガーがすでに別のマシンまたは別の Qodly Studio ページで有効化されている場合は、エラーが表示されます。 事前に、別の場所で有効化済みのデバッガーを無効化する必要があります。
 
@@ -262,7 +262,7 @@ Qodly Studio for 4D で ["強制ログイン" モード](../REST/authUsers.md#�
 
 Make sure the ["force login" mode](../REST/authUsers.md#force-login-mode) is enabled for your 4D application in the [Roles and Privileges page](https://developer.qodly.com/docs/studio/roles/rolesPrivilegesOverview), using the **Force login** option:
 
-![alt-text](../assets/en/WebServer/forcelogin.png)
+![alt-text](/assets/en/WebServer/forcelogin.png)
 
 このオプションは、[**roles.json** ファイル](../ORDA/privileges.md#rolesjson-ファイル) で直接設定することもできます。
 
@@ -311,7 +311,7 @@ End if
 
 ユーザーをログアウトするには、Qodlyページから **Logout** 標準アクションを実行するだけです。 Qodly Studio では、この標準アクションをボタンなどに関連付けることができます:
 
-![alt-text](../assets/en/WebServer/logout.png)
+![alt-text](/assets/en/WebServer/logout.png)
 
 Webユーザーセッションからログアウトアクションをトリガーすると、次のような効果があります:
 
@@ -343,11 +343,11 @@ Qodly Studio からレンダラーを実行する際、これら 2つの Webサ�
 
 2. データベースの Webサーバーは HTTPポート上でのみ起動します。
 
-![alt-text](../assets/en/WebServer/schemes.png)
+![alt-text](/assets/en/WebServer/schemes.png)
 
 3. Qodly Studioで、**Preview** アイコンをクリックします。 2つの Webサーバーが異なるスキームで起動されていることを警告されますが、それにもかかわらず、**Confirm** ボタンをクリックします。
 
-![alt-text](../assets/en/WebServer/render-button.png)
+![alt-text](/assets/en/WebServer/render-button.png)
 
 結果、2つのライセンスが使用されます。
 

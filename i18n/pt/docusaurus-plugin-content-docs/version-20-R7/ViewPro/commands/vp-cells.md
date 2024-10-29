@@ -47,7 +47,7 @@ No parâmetro opcional *sheet*, pode designar uma folha específica onde o inter
 
 Você deseja definir um objeto de intervalo para as seguintes células (na planilha atual):
 
-![](../../assets/en/ViewPro/vp-cells.png)
+![](/assets/en/ViewPro/vp-cells.png)
 
 O código seria:
 

@@ -9,7 +9,7 @@ Un pop-up menu image affiche un tableau d’images bidimensionnel. Un pop-up men
 
 Pour créer un pop-up menu image, vous devez [faire référence à une image](properties_Picture.md#pathname) conçue dans ce but. L’exemple suivant vous permet de sélectionner la langue d’interface de l’application à l’aide d’un pop-up menu image. Chaque langue est symbolisée par un drapeau :
 
-![](../assets/en/FormObjects/picturePopupMenu_example.png)
+![](/assets/en/FormObjects/picturePopupMenu_example.png)
 
 ### Programmation
 

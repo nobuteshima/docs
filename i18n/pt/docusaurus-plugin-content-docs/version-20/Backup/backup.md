@@ -14,7 +14,7 @@ Uma cópia de segurança pode ser iniciada de três maneiras:
 
 ## You can use the Backup page to view some backup parameters of the database and to launch a manual backup:
 
-1. Seleccione o comando **Backup...** no menu 4D **File** . A janela de backup aparece: ![](../assets/en/Backup/backup01.png) Você pode ver a localização da pasta de backup usando o menu pop-up ao lado da área de "Destino de backup". Também se registra no banco de dados **Backup journal.txt**.
+1. Seleccione o comando **Backup...** no menu 4D **File** . A janela de backup aparece: ![](/assets/en/Backup/backup01.png) Você pode ver a localização da pasta de backup usando o menu pop-up ao lado da área de "Destino de backup". Também se registra no banco de dados **Backup journal.txt**.
 
 - Também pode abrir o [Centro de manutenção e segurança](MSC/overview.md) de 4D e mostrar a [página de cópias de segurança](MSC/backup.md).
 
@@ -36,7 +36,7 @@ Quando o comando de linguagem `BACKUP` 4D for executado a partir de qualquer mé
 
 Quando iniciar o backup, 4D exibe uma caixa de diálogo com um termômetro indicando o progresso da cópia de segurança:
 
-![](../assets/en/Backup/backupProgress.png)
+![](/assets/en/Backup/backupProgress.png)
 
 Esse termômetro também é mostrado na página [Backup de CSM](MSC/backup.md) se utilizou esta caixa de diálogo.
 

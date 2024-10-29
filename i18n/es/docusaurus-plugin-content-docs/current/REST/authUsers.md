@@ -33,7 +33,7 @@ La secuencia de inicio de sesión del usuario es la siguiente:
 
 4. Si el usuario se autentica correctamente, se consume una licencia 4D en el servidor y se aceptan todas las peticiones REST.
 
-![alt-text](../assets/en/REST/force-login-2.jpeg)
+![alt-text](/assets/en/REST/force-login-2.jpeg)
 
 En la fase de inicio de sesión del usuario, el uso de la licencia está desconectado de las sesiones de usuario web. Sólo se requiere una licencia cuando se ejecuta el comando [`Session.setPrivileges()`](../API/SessionClass.md#setprivileges), lo que permite controlar el número de licencias utilizadas.
 
@@ -47,7 +47,7 @@ Las peticiones REST descriptivas pueden procesarse en sesiones de usuario web qu
 - `/rest/$catalog/authentify` - la función del almacén de datos utilizada para iniciar sesión del usuario
 - `/rest/$getWebForm` - la renderización de una página Qodly
 
-![alt-text](../assets/en/REST/force-login-1.jpeg)
+![alt-text](/assets/en/REST/force-login-1.jpeg)
 
 ## `Function authentify`
 

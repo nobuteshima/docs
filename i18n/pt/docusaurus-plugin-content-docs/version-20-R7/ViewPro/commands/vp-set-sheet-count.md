@@ -26,7 +26,7 @@ Em `number`, passe um número correspondente à quantidade de folhas que o docum
 
 O documento tem atualmente uma folha:
 
-![](../../assets/en/ViewPro/vp-sheet-1.png)
+![](/assets/en/ViewPro/vp-sheet-1.png)
 
 Para definir o número de folhas como 3:
 
@@ -34,7 +34,7 @@ Para definir o número de folhas como 3:
 VP SET SHEET COUNT("ViewProArea";3)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 #### Veja também
 

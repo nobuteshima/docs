@@ -27,13 +27,13 @@ title: テキスト
 
 4D では、フォーム内のテキストエリアを [回転](properties_Text.md#方向) させることができます。
 
-![](../assets/en/FormObjects/staticText.png)
+![](/assets/en/FormObjects/staticText.png)
 
 > このプロパティは `OBJECT SET TEXT ORIENTATION` ランゲージコマンドによっても設定することができます。
 
 テキストが回転された後でも、サイズや位置などすべてのプロパティを変更することが可能です。 テキストエリアの高さと幅は、回転の方向に依らないという点に注意してください:
 
-![](../assets/en/FormObjects/staticText2.png)
+![](/assets/en/FormObjects/staticText2.png)
 
 - オブジェクトが A 方向にリサイズされるとき、変更されるのは [幅](properties_CoordinatesAndSizing.md#幅) です。
 - オブジェクトが C 方向にリサイズされるとき、変更されるのは [高さ](properties_CoordinatesAndSizing.md#高さ) です。

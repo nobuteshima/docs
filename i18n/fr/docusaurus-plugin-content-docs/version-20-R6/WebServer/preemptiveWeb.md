@@ -89,4 +89,4 @@ Dans l'Explorateur d'exécution et dans la fenêtre d'administration de 4D Serve
 
 | Type de process                                    | Icône                                       |
 | -------------------------------------------------- | ------------------------------------------- |
-| Méthode Web (process préemptif) | ![](../assets/en/WebServer/processIcon.png) |
+| Méthode Web (process préemptif) | ![](/assets/en/WebServer/processIcon.png) |

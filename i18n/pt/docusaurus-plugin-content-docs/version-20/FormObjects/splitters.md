@@ -9,7 +9,7 @@ A splitter divides a form into two areas, allowing the user to enlarge and reduc
 
 O divisor é usado, por exemplo, em formulários de saída para que as colunas possam ser redimensionadas:
 
-![](../assets/en/FormObjects/split1.png)
+![](/assets/en/FormObjects/split1.png)
 
 
 Algumas das características gerais do repartidor:

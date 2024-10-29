@@ -17,7 +17,7 @@ Pour créer un point d'arrêt, cliquez dans la marge gauche de la fenêtre d'év
 
 Dans l'exemple suivant, un point d'arrêt (la puce rouge) a été défini dans le débogueur, sur la ligne `If ($in.dataClass#Null)` :
 
-![break-point](../assets/en/Debugging/break.png)
+![break-point](/assets/en/Debugging/break.png)
 
 Dans l'exemple ci-dessus, en cliquant sur le bouton [**No Trace**](./debugger.md/#no-trace), l'exécution normale reprend jusqu'à la ligne marquée avec le point d'arrêt. Cette ligne n'est pas exécutée - vous retournez en mode trace. Le fait de définir un point d'arrêt au-delà du compteur du programme et de cliquer sur le bouton **No Trace** vous permet de sauter des parties de la méthode tracée.
 
@@ -27,7 +27,7 @@ Pour supprimer un point d'arrêt, cliquez sur la puce correspondante.
 
 Vous pouvez modifier le comportement d'un point d'arrêt à l'aide de la fenêtre Propriétés du point d'arrêt :
 
-![breakpoint-properties](../assets/en/Debugging/breakpoint-properties.png)
+![breakpoint-properties](/assets/en/Debugging/breakpoint-properties.png)
 
 Cette fenêtre est disponible depuis l'éditeur de code ou la [fenêtre d'évaluation du code](debugger.md#source-code-pane). Vous pouvez :
 
@@ -59,7 +59,7 @@ Pour ouvrir la page de la liste des points d'arrêt :
 
 2. Cliquez sur l'onglet **Break** pour afficher la liste des points d'arrêts :
 
-![break-list-runtime-explorer](../assets/en/Debugging/break-list.png)
+![break-list-runtime-explorer](/assets/en/Debugging/break-list.png)
 
 À l'aide de cette fenêtre, vous pouvez :
 
@@ -84,7 +84,7 @@ Pour ouvrir la page des points d'arrêt sur commandes :
 
 2. Cliquez sur **Catch** pour afficher la liste des points d'arrêt sur commandes :
 
-![runtime-explorer-window](../assets/en/Debugging/catch-command.png)
+![runtime-explorer-window](/assets/en/Debugging/catch-command.png)
 
 Cette page répertorie les points d'arrêt sur commande pendant l'exécution. Elle est composée de deux colonnes :
 

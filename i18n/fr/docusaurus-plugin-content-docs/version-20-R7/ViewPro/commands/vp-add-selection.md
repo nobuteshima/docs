@@ -25,7 +25,7 @@ Dans *rangeObj*, passez un objet plage de plusieurs cellules à ajouter à la s�
 
 Les cellules sélectionnées sont les suivantes :
 
-![](../../assets/en/ViewPro/cmd_vpAddSelection1.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection1.PNG)
 
 Le code suivant ajoutera des cellules à votre sélection :
 
@@ -36,7 +36,7 @@ VP ADD SELECTION($currentSelection)
 
 Résultat:
 
-![](../../assets/en/ViewPro/cmd_vpAddSelection2.PNG)
+![](/assets/en/ViewPro/cmd_vpAddSelection2.PNG)
 
 #### Voir également
 

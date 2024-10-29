@@ -13,7 +13,7 @@ Las preferencias del usuario especifican varios ajustes que afectan a su entorno
 
 Puede acceder a la caja de diálogo Preferencias desde el menú **Editar > Preferencias...** (Windows) o el menú de la aplicación **4D** (macOS):
 
-![](../assets/en/Preferences/overviewAccess.png)
+![](/assets/en/Preferences/overviewAccess.png)
 
 Esta opción de menú está disponible incluso cuando no hay ningún proyecto abierto.
 
@@ -30,7 +30,7 @@ Los ajustes realizados en la caja de diálogo Preferencias se guardan en un arch
 
 En las cajas de diálogo de los parámetros, los parámetros cuyos valores han sido modificados aparecen en negrita:
 
-![](../assets/en/Preferences/overviewUser.png)
+![](/assets/en/Preferences/overviewUser.png)
 
 Las preferencias indicadas como personalizadas pueden haber sido modificadas directamente en la caja de diálogo, o pueden haber sido modificadas previamente en el caso de una base convertida.
 
@@ -38,6 +38,6 @@ Un parámetro sigue apareciendo en negrita aunque su valor se remplace manualmen
 
 Para reiniciar los parámetros a sus valores por defecto y eliminar el estilo negrita que indica que han sido personalizados, haga clic en el botón **Restablecer los parámetros de fábrica**:
 
-![](../assets/en/Preferences/overviewSettings.png)
+![](/assets/en/Preferences/overviewSettings.png)
 
 Este botón reinicializa todos los parámetros de la página actual. Se activa cuando se ha modificado al menos un parámetro en la página actual.

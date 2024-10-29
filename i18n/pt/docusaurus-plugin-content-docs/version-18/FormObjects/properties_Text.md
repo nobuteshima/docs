@@ -94,7 +94,7 @@ Estão disponíveis três temas de tipos de letra:
 - **normal**: automatic style, applied by default to any new object created in the Form editor.
 - **main** and **additional** font themes are only supported by [text areas](text.md) and [inputs](input_overview.md). Estes temas destinam-se principalmente a desenho de caixas de diálogo. They refer to font styles used, respectively, for main text and additional information in your interface windows. Aqui estão as caixas de diálogo típicas (macOS e Windows) que utilizam estes temas de tipos de letra:
 
-![](../assets/en/FormObjects/FontThemes.png)
+![](/assets/en/FormObjects/FontThemes.png)
 
 > Os temas de tipo de letra gerem o tipo de letra, bem como o seu tamanho e cor. If you modify one of the properties managed by a font theme, it no longer works dynamically. However, you can apply custom style properties (Bold, Italic or Underline) without altering its functioning.
 
@@ -366,10 +366,10 @@ Modifica a orientação (rotação) de uma área texto. Áreas texto pode ser ro
 
 | Valor de orientação | Resultados                                     |
 | ------------------- | ---------------------------------------------- |
-| 0 (o padrão)        | ![](../assets/en/FormObjects/orientation1.png) |
-| 90                  | ![](../assets/en/FormObjects/orientation2.png) |
-| 180                 | ![](../assets/en/FormObjects/orientation3.png) |
-| 270                 | ![](../assets/en/FormObjects/orientation4.png) |
+| 0 (o padrão)        | ![](/assets/en/FormObjects/orientation1.png) |
+| 90                  | ![](/assets/en/FormObjects/orientation2.png) |
+| 180                 | ![](/assets/en/FormObjects/orientation3.png) |
+| 270                 | ![](/assets/en/FormObjects/orientation4.png) |
 
 Além de [áreas de texto estáticas](text.md), [input](input_overview.md) os objetos de texto podem ser girados quando forem não-[digitáveis](properties_Entry.md#enterable). Quando uma propriedade rotação for aplicada a um objeto input, a propriedade digitável é removida (se houver). Esse objeto é então excluído da ordem de entrada.
 
@@ -431,7 +431,7 @@ Essa propriedade só está disponível para a área input [Multiestilo](#multi-s
 
 Por exemplo, aqui está um texto que inclui uma modificação de estilo:
 
-![](../assets/en/FormObjects/tagStyle1.png)
+![](/assets/en/FormObjects/tagStyle1.png)
 
 Quando a propriedade for desativada, a área só armazena a modificação. Os conteúdos armazenados são entretanto:
 

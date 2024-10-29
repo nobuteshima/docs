@@ -6,7 +6,7 @@ title: Regla
 
 La regla es un objeto de interfaz estándar que se utiliza para definir u obtener valores mediante un cursor que se mueve a lo largo de sus graduaciones.
 
-![](../assets/en/FormObjects/indicator_ruler.png)
+![](/assets/en/FormObjects/indicator_ruler.png)
 
 Puede asignar su [variable o expresión asociada](properties_Object.md#expression-type) a un área editable (campo o variable) para almacenar o modificar el valor actual del objeto.
 

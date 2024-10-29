@@ -65,7 +65,7 @@ Note that header and footer variables are always created with a specific type (l
 
 In an array type list box, we want to duplicate the "First Name" column, ready for input:
 
-![](../assets/en/commands/pict1205357.en.png)
+![](/assets/en/commands/pict1205357.en.png)
 
 Here is the code of the button:
 
@@ -78,7 +78,7 @@ Here is the code of the button:
 
 When you click on the button, the list box appears as follows:
 
-![](../assets/en/commands/pict1205359.en.png)
+![](/assets/en/commands/pict1205359.en.png)
 
 #### Example 2 
 

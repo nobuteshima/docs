@@ -9,7 +9,7 @@ A picture pop-up menu is a pop-up menu that displays a two-dimensional array of 
 
 Para criar um menu pop-up imagem, você precisa [fazer referência a uma imagem](properties_Picture.md#pathname). The following example allows you to select the interface language by selecting it from a picture pop-up menu. Cada língua é representada pela bandeira correspondente:
 
-![](../assets/en/FormObjects/picturePopupMenu_example.png)
+![](/assets/en/FormObjects/picturePopupMenu_example.png)
 
 ### Programação
 

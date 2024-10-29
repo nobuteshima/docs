@@ -6,7 +6,7 @@ sidebar_label: Página de respaldo
 
 Puede utilizar la página de copia de seguridad para ver algunos parámetros de la copia de seguridad de la base y para lanzar una copia de seguridad manual:
 
-![](../assets/en/MSC/msc_Backup.png)
+![](/assets/en/MSC/msc_Backup.png)
 
 Esta página consta de las tres áreas siguientes:
 

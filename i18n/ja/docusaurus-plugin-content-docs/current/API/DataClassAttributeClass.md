@@ -234,7 +234,7 @@ title: DataClassAttribute
 
 以下のテーブルとリレーションを前提とします:
 
-![](../assets/en/API/dataclassAttribute3.png)
+![](/assets/en/API/dataclassAttribute3.png)
 
 ```4d
  var $attKind : Text
@@ -363,7 +363,7 @@ title: DataClassAttribute
 
 以下のテーブルとリレーションを前提とします:
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 ```4d
  var $relClass1; $relClassN : Text

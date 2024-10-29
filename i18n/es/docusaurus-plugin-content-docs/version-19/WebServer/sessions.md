@@ -18,7 +18,7 @@ Las sesiones de usuario del servidor web permiten:
 
 La funcionalidad de gestión de sesiones puede ser activada y desactivada en su servidor web 4D. Hay diferentes maneras de habilitar la gestión de la sesión:
 
-- Utilizando la opción **Sesiones escalables** en la página "Web/Opciones (I)" de la Configuración (configuración permanente): ![alt-text](../assets/en/WebServer/settingsSession.png)
+- Utilizando la opción **Sesiones escalables** en la página "Web/Opciones (I)" de la Configuración (configuración permanente): ![alt-text](/assets/en/WebServer/settingsSession.png)
 
 Esta opción está seleccionada por defecto en los nuevos proyectos. Sin embargo, se puede desactivar seleccionando la opción **Sin sesiones**, en cuyo caso las funcionalidades de la sesión web se desactivan (no hay ningún objeto `Session` disponible).
 
@@ -47,7 +47,7 @@ Cuando [se habilitan las sesiones](#enabling-sessions), se implementan mecanismo
 
 El objeto `Session` actual puede entonces ser accedido a través del comando [`Session`](API/SessionClass.md#session) en el código de cualquier proceso web.
 
-![alt-text](../assets/en/WebServer/schemaSession.png)
+![alt-text](/assets/en/WebServer/schemaSession.png)
 
 > Los procesos web no suelen terminar, sino que se reciclan en un fondo común para ser más eficientes. Cuando un proceso termina de ejecutar una petición, se devuelve al pool y queda disponible para la siguiente petición. Dado que un proceso web puede ser reutilizado por cualquier sesión, [las variables de proceso](Concepts/variables.md#process-variables) deben ser borradas por su código al final de su ejecución (utilizando [`CLEAR VARIABLE`](https://doc.4d.com/4dv18/help/command/en/page89.html) por ejemplo). Esta limpieza es necesaria para cualquier información relacionada con el proceso, como una referencia a un archivo abierto. Esta es la razón por la que **se recomienda** utilizar el objeto [Sesión](API/SessionClass.md) cuando se quiera guardar información relacionada con la sesión.
 
@@ -94,7 +94,7 @@ End if
 
 En una aplicación CRM, cada vendedor gestiona su propia cartera de clientes. El almacén de datos contiene al menos dos clases de datos vinculadas: Customers y SalesPersons (un vendedor tiene varios clientes).
 
-![alt-text](../assets/en/WebServer/exampleSession.png)
+![alt-text](/assets/en/WebServer/exampleSession.png)
 
 Queremos que un vendedor se autentique, abra una sesión en el servidor web y que se carguen los 3 primeros clientes en la sesión.
 
@@ -121,7 +121,7 @@ http://localhost:8044/authenticate.shtml
 </html>
 ```
 
-![alt-text](../assets/en/WebServer/authenticate.png)
+![alt-text](/assets/en/WebServer/authenticate.png)
 
 3. El método authenticate project busca la persona *userID* y valida la contraseña contra el valor hash ya almacenado en la tabla *SalesPersons*:
 

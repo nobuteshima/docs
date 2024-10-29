@@ -8,7 +8,7 @@ A página Análise da atividade permite visualizar o conteúdo do ficheiro de re
 
 > It is also possible to rollback the operations carried out on the data of the database. Para más información, consulte [Página de retroceso](rollback.md).
 
-![](../assets/en/MSC/MSC_analysis.png)
+![](/assets/en/MSC/MSC_analysis.png)
 
 Cada operação registada no ficheiro de registo aparece como uma linha. As colunas fornecem várias informações sobre a operação. Pode reorganizar as colunas conforme pretendido, clicando nos respectivos cabeçalhos.
 

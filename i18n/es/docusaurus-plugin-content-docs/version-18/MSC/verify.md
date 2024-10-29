@@ -29,7 +29,7 @@ Al presionar el botón **Abrir archivo de historial**, 4D muestra el archivo de 
 
 El botón **Lista de tablas** muestra una página detallada que puede utilizarse para ver y seleccionar los registros e índices reales que se van a verificar:
 
-![](../assets/en/MSC/MSC_Verify.png)
+![](/assets/en/MSC/MSC_Verify.png)
 
 La designación de los elementos a verificar le permite ahorrar tiempo durante el procedimiento de verificación.
 
@@ -39,11 +39,11 @@ Para cada línea de tabla, la columna "Acción" indica las operaciones a realiza
 
 La columna "Estado" muestra el estado de verificación de cada elemento mediante símbolos:
 
-| ![](../assets/en/MSC/MSC_OK.png)  | Verificación realizada sin problemas          |
+| ![](/assets/en/MSC/MSC_OK.png)  | Verificación realizada sin problemas          |
 | --------------------------------- | --------------------------------------------- |
-| ![](../assets/en/MSC/MSC_KO2.png) | Verificación efectuada, problemas encontrados |
-| ![](../assets/en/MSC/MSC_KO3.png) | Verificación realizada parcialmente           |
-| ![](../assets/en/MSC/MSC_KO.png)  | Verificación no efectuada                     |
+| ![](/assets/en/MSC/MSC_KO2.png) | Verificación efectuada, problemas encontrados |
+| ![](/assets/en/MSC/MSC_KO3.png) | Verificación realizada parcialmente           |
+| ![](/assets/en/MSC/MSC_KO.png)  | Verificación no efectuada                     |
 
 Haga clic en **Verificar** para comenzar la verificación o en **Estándar** para volver a la página estándar.
 

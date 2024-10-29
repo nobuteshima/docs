@@ -5,7 +5,7 @@ title: Página Atajos
 
 Esta página lista todos los atajos utilizados en el entorno Diseño de 4D (excepto los atajos "sistema" estándar, como Ctrl+C/Comando+C para el comando Copiar).
 
-![](../assets/en/Preferences/shortcuts.png)
+![](/assets/en/Preferences/shortcuts.png)
 
 Para modificar un atajo, puede seleccionar/deseleccionar el elemento a modificar (Mayúscula, Alt o tecla de letra) en la lista. También puede hacer doble clic en un acceso directo para configurarlo mediante una caja de diálogo específica.
 

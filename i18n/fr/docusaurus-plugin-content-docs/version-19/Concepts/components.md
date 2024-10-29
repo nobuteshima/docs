@@ -71,7 +71,7 @@ En revanche, par défaut ces méthodes projet ne seront ni visibles ni appelable
 
 A l’inverse, pour des raisons de sécurité, par défaut un composant ne peut pas exécuter de méthode projet appartenant au projet hôte. Dans certains cas, vous pourrez avoir besoin d’autoriser un composant à accéder à des méthodes projet de votre projet hôte. In certain cases, you may need to allow a component to access the project methods of your host project.
 
-![](../assets/en/Concepts/pict516563.en.png)
+![](/assets/en/Concepts/pict516563.en.png)
 
 Une fois que les méthodes projets hôtes sont disponibles pour les composants, vous pouvez exécuter une méthode hôte depuis l'intérieur d'un composant à l'aide des commandes `EXECUTE FORMULA` ou `EXECUTE METHOD`. Par exemple :
 

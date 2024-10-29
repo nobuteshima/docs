@@ -23,12 +23,12 @@ Se crea una nueva carpeta cada vez que se realiza una operación de cifrado/desc
 Para cifrar los datos por primera vez con el CSM es necesario seguir los siguientes pasos:
 
 1. En el editor de estructuras, marque el atributo **Encriptable** de cada tabla cuyos datos desee encriptar. Ver la sección "Propiedades de las tablas".
-2. Abra la página de encriptación del CSM. If you open the page without setting any tables as **Encryptable**, the following message is displayed in the page: ![](../assets/en/MSC/MSC_encrypt2.png)<p>
+2. Abra la página de encriptación del CSM. If you open the page without setting any tables as **Encryptable**, the following message is displayed in the page: ![](/assets/en/MSC/MSC_encrypt2.png)<p>
 Esto significa que el estado **Encriptable** de al menos una tabla ha sido modificado y el archivo de datos aún no ha sido encriptado.
 **Nota: **El mismo mensaje se muestra cuando el estado **Encriptable** se ha modificado en un archivo de datos ya encriptado o después de que el archivo de datos haya sido desencriptado (ver más abajo).</p>
 3. Haga clic en el botón Encriptar imagen.  
-   ![](../assets/en/MSC/MSC_encrypt3.png)  
-   Se le pedirá que introduzca una frase secreta para su archivo de datos: ![](../assets/en/MSC/MSC_encrypt4.png) La frase secreta se utiliza para generar la llave de cifrado de los datos. Una frase secreta es una versión más segura de una contraseña y puede contener un gran número de caracteres. Por ejemplo, puede introducir una frase de paso como "We all came out to Montreux" o "¡Mi primera gran frase de paso!". El indicador de nivel de seguridad puede ayudarle a evaluar la fuerza de su frase secreta: ![](../assets/en/MSC/MSC_encrypt5.png) (el verde intenso es el nivel más alto)
+   ![](/assets/en/MSC/MSC_encrypt3.png)  
+   Se le pedirá que introduzca una frase secreta para su archivo de datos: ![](/assets/en/MSC/MSC_encrypt4.png) La frase secreta se utiliza para generar la llave de cifrado de los datos. Una frase secreta es una versión más segura de una contraseña y puede contener un gran número de caracteres. Por ejemplo, puede introducir una frase de paso como "We all came out to Montreux" o "¡Mi primera gran frase de paso!". El indicador de nivel de seguridad puede ayudarle a evaluar la fuerza de su frase secreta: ![](/assets/en/MSC/MSC_encrypt5.png) (el verde intenso es el nivel más alto)
 4. Introduzca para confirmar su frase secreta segura.
 
 A continuación, se inicia el proceso de encriptación. Si el CSM se abrió en modo estándar, la aplicación se reabre en modo mantenimiento.
@@ -40,14 +40,14 @@ Si el proceso de encriptación es exitoso, la página de encriptación muestra l
 **Atención:** durante la operación de encriptación, 4D crea un nuevo archivo de datos vacío y lo llena con los datos del archivo de datos original. Los registros correspondientes a las tablas "encriptadas" se encriptan y luego se copian, los demás registros sólo se copian (también se ejecuta una operación de compactación). Si la operación tiene éxito, el archivo de datos original se traslada a una carpeta de "Archivos reemplazados (encriptados)". Si tiene la intención de entregar un archivo de datos encriptado, asegúrese antes de mover/eliminar cualquier archivo de datos no encriptado de la carpeta de la aplicación.
 
 ## Operaciones de mantenimiento de la encriptación
-When an application is encrypted (see above), the Encrypt page provides several encryption maintenance operations, corresponding to standard scenarios. ![](../assets/en/MSC/MSC_encrypt6.png)
+When an application is encrypted (see above), the Encrypt page provides several encryption maintenance operations, corresponding to standard scenarios. ![](/assets/en/MSC/MSC_encrypt6.png)
 
 
 ### Suministrar la llave de encriptación de datos actual
 Por razones de seguridad, todas las operaciones de mantenimiento del cifrado requieren necesitan la llave de cifrado de datos actual.
 
 - Si la llave de encriptación de datos ya está cargada en el llavero 4D(1), ésta es reutilizada automáticamente por 4D.
-- Si no se encuentra la llave de encriptación de datos, debe proporcionarla. Se muestra la siguiente caja de diálogo: ![](../assets/en/MSC/MSC_encrypt7.png)
+- Si no se encuentra la llave de encriptación de datos, debe proporcionarla. Se muestra la siguiente caja de diálogo: ![](/assets/en/MSC/MSC_encrypt7.png)
 
 En este paso, tiene dos opciones:
 - introduzca la frase secreta actual(2) y haga clic en **OK**. O
@@ -65,14 +65,14 @@ Esta operación es útil cuando se ha modificado el atributo **Encriptable** de 
 1. Haga clic en **Recibir los datos con la llave de cifrado actual**.
 2. Introduzca la llave de encriptación de datos actual.
 
-The data file is properly re-encrypted with the current key and a confirmation message is displayed: ![](../assets/en/MSC/MSC_encrypt8.png)
+The data file is properly re-encrypted with the current key and a confirmation message is displayed: ![](/assets/en/MSC/MSC_encrypt8.png)
 
 ### Cambiar la frase secreta y volver a encriptar los datos
 Esta operación es útil cuando se necesita cambiar la llave de datos de encriptación actual. Por ejemplo, es posible que tenga que hacerlo para cumplir con las normas de seguridad (como la exigencia de cambiar la frase secreta cada tres meses).
 
 1. Haga clic en **Cambiar su frase de contraseña y volver a cifrar los datos**.
 2. Introduzca la llave de encriptación de datos actual.
-3. Enter the new passphrase (for added security, you are prompted to enter it twice): ![](../assets/en/MSC/MSC_encrypt9.png) The data file is encrypted with the new key and the confirmation message is displayed. ![](../assets/en/MSC/MSC_encrypt8.png)
+3. Enter the new passphrase (for added security, you are prompted to enter it twice): ![](/assets/en/MSC/MSC_encrypt9.png) The data file is encrypted with the new key and the confirmation message is displayed. ![](/assets/en/MSC/MSC_encrypt8.png)
 
 ### Desencriptar todos los datos
 Esta operación elimina toda la codificación del archivo de datos. Si ya no desea tener sus datos encriptados:
@@ -80,7 +80,7 @@ Esta operación elimina toda la codificación del archivo de datos. Si ya no des
 1. Haga clic en **Desencriptar todos los datos**.
 2. Introduzca la llave de encriptación de datos actual ( ver Suministrar la llave de encriptación de datos actual).
 
-The data file is fully decrypted and a confirmation message is displayed: ![](../assets/en/MSC/MSC_encrypt10.png)
+The data file is fully decrypted and a confirmation message is displayed: ![](/assets/en/MSC/MSC_encrypt10.png)
 > Una vez descifrado el archivo de datos, el estado de cifrado de las tablas no coincide con sus atributos Encriptables. Para restablecer un estado coincidente, debe anular la selección de todos los atributos **Encriptable** al nivel de la estructura de la base.
 
 ## Guardar la llave de encriptación

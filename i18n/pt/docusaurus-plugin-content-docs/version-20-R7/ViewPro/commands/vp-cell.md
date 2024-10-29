@@ -39,7 +39,7 @@ No parâmetro opcional *sheet*, você pode indicar o índice da planilha em que 
 
 Se quiser definir um objeto de intervalo para a célula mostrada abaixo (na planilha atual):
 
-![vp-cell](../../assets/en/ViewPro/cmd_vpCell.png)
+![vp-cell](/assets/en/ViewPro/cmd_vpCell.png)
 
 O código seria:
 

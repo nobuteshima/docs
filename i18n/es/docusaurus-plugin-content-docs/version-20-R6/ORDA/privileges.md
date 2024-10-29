@@ -15,7 +15,7 @@ Cada solicitud de usuario enviada dentro de la sesión se evalúa en función de
 
 Si un usuario intenta ejecutar una acción y no tiene los derechos de acceso adecuados, se genera un error de privilegio o, en el caso de que falte el permiso de Lectura en los atributos, no se envían.
 
-![schema](../assets/en/ORDA/privileges-schema.png)
+![schema](/assets/en/ORDA/privileges-schema.png)
 
 ### Ver también
 

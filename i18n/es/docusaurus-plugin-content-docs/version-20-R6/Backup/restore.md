@@ -30,7 +30,7 @@ Para restaurar manualmente una aplicación a través de una caja de diálogo est
 2. Seleccione un archivo de copia de seguridad (.4bk) o un archivo de copia de seguridad del historial (.4bl) que desee restaurar y haga clic en **Abrir**.
    Aparece una caja de diálogo que permite especificar la ubicación donde se restaurarán los archivos. Por defecto, 4D restaura los archivos en una carpeta llamada *Nomarchivo* (sin extensión) situada junto al archivo. Puede mostrar la ruta de acceso:
 
-![](../assets/en/Backup/backup07.png)
+![](/assets/en/Backup/backup07.png)
 
 También puede hacer clic en el botón **[...]** para especificar una ubicación diferente.
 3. Haga clic en el botón **Restaurar**.
@@ -53,7 +53,7 @@ Puede restaurar manualmente un archivo de la aplicación actual utilizando la p�
 
 Si no ha marcado la opción de integración automática del archivo de historial en la página Restaurar del CSM (ver [Integración sucesiva de varios archivos de historial](MSC/restore.md#successive-intergration-of-several-data-log-files)), aparece una caja de diálogo de advertencia durante la apertura de la aplicación cuando 4D advierte que el archivo de historial contiene más operaciones de las que se han realizado en el archivo de datos.
 
-![](../assets/en/Backup/backup08.png)
+![](/assets/en/Backup/backup08.png)
 
 > Para que este mecanismo funcione, 4D debe poder acceder al archivo de historial en su ubicación actual.
 

@@ -25,7 +25,7 @@ title: リモートデータストアの利用
 
 これらの原則を下図に示します:
 
-![](../assets/en/ORDA/sessions.png)
+![](/assets/en/ORDA/sessions.png)
 
 > REST リクエストによって開かれたセッションについては、[ユーザーとセッション](REST/authUsers.md) を参照ください。
 
@@ -39,7 +39,7 @@ title: リモートデータストアの利用
 
 次の例では、1つのセッション上で 2つのプロセスが実行中です:
 
-![](../assets/en/ORDA/sessionAdmin.png)
+![](/assets/en/ORDA/sessionAdmin.png)
 
 ### ロッキングとトランザクション
 
@@ -89,7 +89,7 @@ title: リモートデータストアの利用
 
 * [`dataStore.setRemoteContextInfo()`](../API/DataStoreClass.md#setremotecontextinfo) 関数を使用して、最適化コンテキストを手動で構築することができます ([コンテキストの事前設定](#コンテキストの事前設定) 参照)。
 
-![](../assets/en/ORDA/cs-optimization-process.png)
+![](/assets/en/ORDA/cs-optimization-process.png)
 
 :::warning 互換性に関する注記
 

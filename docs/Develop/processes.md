@@ -132,7 +132,7 @@ You ask a worker to execute a project method by calling the `CALL WORKER` comman
 
 The following animation illustrates this sequence:
 
-![](../assets/en/Develop/WorkerAnimation.gif)
+![](/assets/en/Develop/WorkerAnimation.gif)
 
 Unlike a process created with the `New process` command, a worker process **remains alive after the execution of the process method ends**. This means that all method executions for the same worker will be run in the same process, which maintains all process state information (process variables, current record and current selection, etc.). Consequently, methods executed successively will access and thus share the same information, allowing communication between processes. The worker's message box handles successive calls asynchronously.
 

@@ -271,7 +271,7 @@ return false
 
 Cuando 4D envía la página a un navegador web, tiene el siguiente aspecto:
 
-![](../assets/en/WebServer/spiders.png)
+![](/assets/en/WebServer/spiders.png)
 
 Las principales características de esta página son:
 
@@ -332,7 +332,7 @@ El servidor web de 4D ofrece varios comandos web de bajo nivel que le permiten d
 
 Estos comandos se resumen en el siguiente gráfico:
 
-![](../assets/en/WebServer/httpCommands.png)
+![](/assets/en/WebServer/httpCommands.png)
 
 El servidor web de 4D ahora soporta archivos cargados con codificación chunked desde cualquier cliente web. La codificación de transferencia en trozos es un mecanismo de transferencia de datos especificado en HTTP/1.1. Permite transferir datos en una serie de "trozos" (partes) sin conocer el tamaño final de los datos. El servidor web de 4D también soporta la codificación de transferencia en trozos desde el servidor a los clientes web (utilizando `WEB SEND RAW DATA`).
 

@@ -34,7 +34,7 @@ En modo SDI, la barra de menú del proceso se muestra automáticamente en cada v
 
 Los menús se añaden sobre las ventanas sin modificar el tamaño de su contenido:
 
-![](../assets/en/Menus/sdi1.png)
+![](/assets/en/Menus/sdi1.png)
 
 Así, las ventanas pueden utilizarse en los modos MDI o SDI sin tener que recalcular la posición de los objetos.
 

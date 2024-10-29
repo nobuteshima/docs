@@ -305,14 +305,14 @@ In an opened project, you can add, remove, and get information about dependencie
 To display the Dependencies panel:
 
 - with 4D, select the **Design/Project Dependencies** menu item (Development environment),<br/>
-  ![dependency-menu](../assets/en/Project/dependency-menu.png)
+  ![dependency-menu](/assets/en/Project/dependency-menu.png)
 
 - with 4D Server, select the **Window/Project Dependencies** menu item.<br/>
-  ![dependency-menu-server](../assets/en/Project/dependency-menu-server.png)
+  ![dependency-menu-server](/assets/en/Project/dependency-menu-server.png)
 
 The Dependencies panel is then displayed. Dependencies are sorted by name in alphabetical order:
 
-![dependency](../assets/en/Project/dependency.png)
+![dependency](/assets/en/Project/dependency.png)
 
 The Dependencies panel interface allows you to manage dependencies (on 4D single-user and 4D Server). You can add or remove **local** and **GitHub** dependencies.
 
@@ -320,13 +320,13 @@ The Dependencies panel interface allows you to manage dependencies (on 4D single
 
 To add a local dependency, click on the **+** button in the footer area of the panel. La fenêtre suivante s'affiche :
 
-![dependency-add](../assets/en/Project/dependency-add.png)
+![dependency-add](/assets/en/Project/dependency-add.png)
 
 Make sure the **Local** tab is selected and click on the **...** button. A standard Open file dialog box is displayed, allowing you to select the component to add. You can select a [**.4DZ**](../Desktop/building.md#build-component) or a [**.4DProject**](architecture.md##applicationname4dproject-file) file.
 
 If the selected item is valid, its name and location are displayed in the dialog box.
 
-![dependency-selected](../assets/en/Project/local-selected.png)
+![dependency-selected](/assets/en/Project/local-selected.png)
 
 If the selected item is not valid, an error message is displayed.
 
@@ -347,13 +347,13 @@ The dependency is added to the [inactive dependency list](#dependency-status) wi
 
 To add a [GitHub dependency](#components-stored-on-github), click on the **+** button in the footer area of the panel and select the **GitHub** tab.
 
-![dependency-add-git](../assets/en/Project/dependency-add-git.png)
+![dependency-add-git](/assets/en/Project/dependency-add-git.png)
 
 Enter the path of the GitHub repository of the dependency. It could be a **repository URL** or a **github-account/repository-name string**, for example:
 
-![dependency-add-git-2](../assets/en/Project/dependency-add-git-2.png)
+![dependency-add-git-2](/assets/en/Project/dependency-add-git-2.png)
 
-Once the connection is established, the GitHub icon ![dependency-gitlogo](../assets/en/Project/dependency-gitlogo.png) is displayed on the right side of the entry area. You can click on this icon to open the repository in your default browser.
+Once the connection is established, the GitHub icon ![dependency-gitlogo](/assets/en/Project/dependency-gitlogo.png) is displayed on the right side of the entry area. You can click on this icon to open the repository in your default browser.
 
 :::note
 
@@ -363,7 +363,7 @@ If the component is stored on a [private GitHub repository](#private-repositorie
 
 You can then define the [tag or version](#tags-and-versions) option for the dependency:
 
-![dependency-git-tag](../assets/en/Project/dependency-git-tag.png)
+![dependency-git-tag](/assets/en/Project/dependency-git-tag.png)
 
 - **Latest**: Selected by default and allows to download the release that is tagged as the latest (stable) version.
 - **Up to Next Major Version**: Define a [semantic version range](#tags-and-versions) to restrict updates to the next major version.
@@ -381,11 +381,11 @@ If the component is stored on a [private GitHub repository](#private-repositorie
 - click on **Add a personal access token...** button that is displayed in the "Add a dependency" dialog box after you entered a private GitHub repository path.
 - or, select **Add a GitHub personal access token...** in the Dependency manager menu at any moment.
 
-![dependency-add-token](../assets/en/Project/dependency-add-token.png)
+![dependency-add-token](/assets/en/Project/dependency-add-token.png)
 
 You can then enter your personal access token:
 
-![dependency-add-token-2](../assets/en/Project/dependency-add-token-2.png)
+![dependency-add-token-2](/assets/en/Project/dependency-add-token-2.png)
 
 You can only enter one personal access token. Once a token has been entered, you can edit it.
 
@@ -401,7 +401,7 @@ Only dependencies declared in the [**dependencies.json**](#dependenciesjson) fil
 
 Une boîte de dialogue de confirmation s'affiche. If the dependency was declared in the **environment4d.json** file, an option allows you to remove it:
 
-![dependency-remove](../assets/en/Project/remove-comp.png)
+![dependency-remove](/assets/en/Project/remove-comp.png)
 
 If you confirm the dialog box, the removed dependency [status](#dependency-status) is automatically flagged "Unload after restart". It will be unloaded once the application restarts.
 
@@ -409,7 +409,7 @@ If you confirm the dialog box, the removed dependency [status](#dependency-statu
 
 The Dependencies panel lists all project dependencies, whatever their origin, i.e. wherever they come from. The dependency origin is provided by the tag under its name:
 
-![dependency-origin](../assets/en/Project/dependency-origin.png)
+![dependency-origin](/assets/en/Project/dependency-origin.png)
 
 The following origins are possible:
 
@@ -422,7 +422,7 @@ The following origins are possible:
 
 **Right-click** in a dependency line and select **Show on disk** to reveal the location of a dependency:
 
-![dependency-show](../assets/en/Project/dependency-show.png)
+![dependency-show](/assets/en/Project/dependency-show.png)
 
 :::note
 
@@ -435,13 +435,13 @@ Component icon and location logo provide additional information:
 - The component logo indicates if it is provided by 4D or a third-party developer.
 - Local components can be differentiated from GitHub components by a small icon.
 
-![dependency-origin](../assets/en/Project/dependency-github.png)
+![dependency-origin](/assets/en/Project/dependency-github.png)
 
 ### Filtering Dependencies
 
 By default, all dependencies identified by the Dependency manager are listed, whatever their [status](#dependency-status). You can filter the displayed dependencies according to their status by selecting the appropriate tab at the top of the Dependencies panel:
 
-![dependency-tabs](../assets/en/Project/dependency-tabs.png)
+![dependency-tabs](/assets/en/Project/dependency-tabs.png)
 
 - **Active**: Dependencies that are loaded and can be used in the project. It includes _overloading_ dependencies, which are actually loaded. _Overloaded_ dependencies are listed in the **Conflicts** panel, along with all conflicting dependencies.
 - **Inactive**: Dependencies that are not loaded in the project and are not available. There are many possible reasons for this status: missing files, version incompatibility...
@@ -451,7 +451,7 @@ By default, all dependencies identified by the Dependency manager are listed, wh
 
 Dependencies requiring the developer's attention are indicated by a **status label** at the right side of the line and a specific background color:
 
-![dependency-status](../assets/en/Project/dependency-conflict2.png)
+![dependency-status](/assets/en/Project/dependency-conflict2.png)
 
 The following status labels are available:
 
@@ -465,4 +465,4 @@ The following status labels are available:
 
 A tooltip is displayed when you hover over the dependency line, provding additional information about the status:
 
-![dependency-tips](../assets/en/Project/dependency-tip1.png)
+![dependency-tips](/assets/en/Project/dependency-tip1.png)

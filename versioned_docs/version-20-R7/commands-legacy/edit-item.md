@@ -53,7 +53,7 @@ The following code may be the method of a button that allows you to insert a new
  EDIT ITEM(*;"MyList")
 ```
 
-![](../assets/en/commands/pict21419.en.png)
+![](/assets/en/commands/pict21419.en.png)
 
 #### Example 2 
 
@@ -67,7 +67,7 @@ Given two columns in a list box whose variable names are “Array1” and “Arr
  EDIT ITEM(Array2;$vlRowNum)
 ```
 
-![](../assets/en/commands/pict21420.en.png)
+![](/assets/en/commands/pict21420.en.png)
 
 #### See also 
 

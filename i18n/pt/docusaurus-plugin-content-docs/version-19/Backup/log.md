@@ -28,7 +28,7 @@ Para saber mais sobre essas ações, consulte a página [Análise de atividades]
 
 A instrução abaixo resume o funcionamento do arquivo de historial:
 
-![](../assets/en/Backup/backup05.png)
+![](/assets/en/Backup/backup05.png)
 
 O arquivo de historial atual se guarda automaticamente com o arquivo de dados atual. Este mecanismo tem duas vantagens distintas:
 
@@ -68,7 +68,7 @@ Se quiser parar as operações de registro no arquivo de histórico atual, apena
 
 4D então exibe uma mensagem de alerta para avisar que a ação evita de aproveitar as vantagens de segurança de ter um arquivo de histórico:
 
-![](../assets/en/Backup/backup06.png)
+![](/assets/en/Backup/backup06.png)
 
 Se clicar **Stop**, o arquivo de histórico é imediatamente fechado (a caixa de diálogo Propriedades do banco de dados não precisa ser validada depois).
 

@@ -6,7 +6,7 @@ title: Formulários
 
 Os formulários constituem a interface através da qual a informação é introduzida, modificada e impressa numa aplicação de desktop. Os usuários interagem com os dados em um banco de dados usando formulários e imprimem relatórios usando formulários. Formulários podem ser usados para criar caixas de diálogo personalizadas, paletas ou qualquer janela personalizada em destaque.
 
-![](../assets/en/FormObjects/form1.png)
+![](/assets/en/FormObjects/form1.png)
 
 Os formulários também podem conter outros formulários através das seguintes funcionalidades:
 

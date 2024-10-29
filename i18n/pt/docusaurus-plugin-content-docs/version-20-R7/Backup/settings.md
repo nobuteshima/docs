@@ -19,7 +19,7 @@ Se esta aplicação não foi lançada no momento teórico do backup, na próxima
 
 As configurações de backup do agendador são definidas na página **Backup/Periodicidade** das Configurações da Estrutura:
 
-![](../assets/en/Backup/backup02.png)
+![](/assets/en/Backup/backup02.png)
 
 As opções encontradas nessa aba permitem estabelecer e  configurar as cópias de segurança automáticas programadas do banco de dados. Pode escolher uma configuração rápida padrão ou pode personalizá-la completamente. Várias opções aparecem dependendo da escolha feita no menu **Backup automático**:
 
@@ -40,7 +40,7 @@ As opções encontradas nessa aba permitem estabelecer e  configurar as cópias 
 
 A página Cópia de segurança| Configuração das propriedades do banco de dados permite determinar os arquivos de cópia de segurança e sua localização, assim como a do arquivo de histórico. Esses parâmetros são específicos para cada banco de dados abertos pela aplicação 4D.
 
-![](../assets/en/Backup/backup032.png)
+![](/assets/en/Backup/backup032.png)
 
 > **4D Server:** Estes parâmetros só podem ser configurados desde a máquina 4D Server.
 
@@ -78,7 +78,7 @@ Por padrão, qualquer projeto criado com o 4D utiliza um arquivo de log (opção
 
 Modificar as opções de cópia de segurança e restauração é opcional. Seus valores padrão correspondem ao uso padrão da função.
 
-![](../assets/en/Backup/backup04.png)
+![](/assets/en/Backup/backup04.png)
 
 ### Parâmetros gerais
 

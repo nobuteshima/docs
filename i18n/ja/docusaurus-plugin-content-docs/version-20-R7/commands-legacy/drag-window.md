@@ -23,7 +23,7 @@ displayed_sidebar: docs
 
 以下のフォームには、それぞれの側に非表示ボタンが上に置かれたス色付きのフレームがあります:
 
-![](../assets/en/commands/pict2762756.en.png)
+![](/assets/en/commands/pict2762756.en.png)
 
 それぞれのボタンには以下のメソッドが書かれています:
 
@@ -41,7 +41,7 @@ displayed_sidebar: docs
 
 以下のようなウィンドウが表示されます:
 
-![](../assets/en/commands/pict2762759.en.png)
+![](/assets/en/commands/pict2762759.en.png)
 
 フレームをクリックして、ウィンドウをドラッグすることができます。
 

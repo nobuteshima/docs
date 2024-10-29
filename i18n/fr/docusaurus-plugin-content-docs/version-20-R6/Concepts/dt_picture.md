@@ -57,8 +57,8 @@ Concaténation horizontale
 rectangle+cercle // Place le cercle à droite du rectangle
 ```
 
-![](../assets/en/Concepts/concatHor.en.png)
-![](../assets/en/Concepts/concatHor2.en.png)
+![](/assets/en/Concepts/concatHor.en.png)
+![](/assets/en/Concepts/concatHor2.en.png)
 
 Concaténation verticale
 
@@ -67,8 +67,8 @@ Concaténation verticale
  rectangle/circle //Place the circle under the rectangle
 ```
 
-![](../assets/en/Concepts/concatVer.en.png)
-![](../assets/en/Concepts/concatVer2.en.png)
+![](/assets/en/Concepts/concatVer.en.png)
+![](/assets/en/Concepts/concatVer2.en.png)
 
 Superposition exclusive
 
@@ -76,7 +76,7 @@ Superposition exclusive
 Pict3:=Pict1 & Pict2 // Superposer Pict2 à Pict1
 ```
 
-![](../assets/en/Concepts/superimpoExc.fr.png)
+![](/assets/en/Concepts/superimpoExc.fr.png)
 
 Superposition inclusive
 
@@ -84,7 +84,7 @@ Superposition inclusive
 Pict3:=Pict1|Pict2 // Récupérer le masque résultant de la superposition de deux images de même taille
 ```
 
-![](../assets/en/Concepts/superimpoInc.fr.png)
+![](/assets/en/Concepts/superimpoInc.fr.png)
 
 Déplacement horizontal
 
@@ -93,7 +93,7 @@ rectangle+50 // Déplace le rectangle 50 pixels vers la droite
 rectangle-50 // Déplace le rectangle 50 pixels vers la gauche
 ```
 
-![](../assets/en/Concepts/hormove.en.png)
+![](/assets/en/Concepts/hormove.en.png)
 
 Déplacement vertical
 
@@ -102,7 +102,7 @@ rectangle/50 // Déplace le rectangle 50 pixels vers le bas
 rectangle/-20 // Déplace le rectangle 20 pixels vers le haut
 ```
 
-![](../assets/en/Concepts/vertmove.en.png)![](../assets/en/Concepts/vertmove2.en.png)
+![](/assets/en/Concepts/vertmove.en.png)![](/assets/en/Concepts/vertmove2.en.png)
 
 Redimensionnement
 
@@ -111,7 +111,7 @@ rectangle*1.5 // Augmente la taille du rectangle de 50%
  rectangle*0.5 // Réduit la taille du rectangle de 50%
 ```
 
-![](../assets/en/Concepts/resize.en.png)![](../assets/en/Concepts/resisze2.en.png)
+![](/assets/en/Concepts/resize.en.png)![](/assets/en/Concepts/resisze2.en.png)
 
 Extension horizontale
 
@@ -120,7 +120,7 @@ cercle*+3 // Multiplie par 3 la largeur du cercle
  cercle*+0,25 // La largeur du cercle est réduite à un quart de sa taille originale
 ```
 
-![](../assets/en/Concepts/Horscaling.en.png)![](../assets/en/Concepts/Horscaling2.en.png)
+![](/assets/en/Concepts/Horscaling.en.png)![](/assets/en/Concepts/Horscaling2.en.png)
 
 Extension verticale
 
@@ -129,4 +129,4 @@ cercle*|2 // Double la hauteur du cercle
  cercle*|0.25 // La hauteur du cercle est réduite à un quart de sa taille originale
 ```
 
-![](../assets/en/Concepts/vertscaling.en.png)![](../assets/en/Concepts/veticalscaling2.en.png)
+![](/assets/en/Concepts/vertscaling.en.png)![](/assets/en/Concepts/veticalscaling2.en.png)

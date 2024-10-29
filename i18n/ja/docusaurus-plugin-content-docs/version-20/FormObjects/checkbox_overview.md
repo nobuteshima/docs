@@ -5,7 +5,7 @@ title: チェックボックス
 
 チェックボックスはボタンの一種で、バイナリ (true-false) データの入力や表示をおこないます。 基本的に、チェックボックスの状態は選択または未選択のいずれかになりますが、[3つめの状態](#スリーステートチェックボックス) を定義することもできます。
 
-![](../assets/en/FormObjects/checkbox.png)
+![](/assets/en/FormObjects/checkbox.png)
 
 チェックボックスは、メソッドまたは [標準アクション](#標準アクションの使用) を使って管理します。 チェックボックスが選択されると、チェックボックスに割り当てられたメソッドが実行されます。 他のボタンと同じように、フォームが初めて開かれると、チェックボックスの変数は 0 に初期化されます。
 
@@ -26,7 +26,7 @@ title: チェックボックス
 
 [ボタンスタイル](properties_TextAndPicture.md#ボタンスタイル) が [通常](checkbox_overview.md#通常) および [フラット](checkbox_overview.md#フラット) タイプのチェックボックスは 3番目の状態を受け入れます。 この 3番目の状態は中間的な状態であり、一般的には表示のために用いられます。 たとえば、選択されたオブジェクトが複数あるうち、一部のオブジェクトにのみ特定のプロパティが存在することを表すのに使用されます。
 
-![](../assets/en/FormObjects/checkbox_3states.png)
+![](/assets/en/FormObjects/checkbox_3states.png)
 
 この 3番目の状態を有効にするには [スリーステート](properties_Display.md#スリーステート) プロパティを選択します。
 
@@ -87,7 +87,7 @@ true/false ステータスで表すことのできるアクション ("checkable
 
 通常スタイルのチェックボックスは、標準的なシステムチェックボックス (四角形にタイトルが付いたもの) です。
 
-![](../assets/en/FormObjects/checkbox_regular.png)
+![](/assets/en/FormObjects/checkbox_regular.png)
 
 #### JSON 例:
 
@@ -111,7 +111,7 @@ true/false ステータスで表すことのできるアクション ("checkable
 
 フラットスタイルのチェックボックスでは、装飾が最小限に抑えられています。 このグラフィック的特性により、フラットスタイルは印刷フォームでの使用に適しています。
 
-![](../assets/en/FormObjects/checkbox_flat.png)
+![](/assets/en/FormObjects/checkbox_flat.png)
 
 #### JSON 例:
 
@@ -138,7 +138,7 @@ true/false ステータスで表すことのできるアクション ("checkable
 
 チェックなし / チェック / ハイライト状態の例です:
 
-![](../assets/en/FormObjects/checkbox_toolbar.png)
+![](/assets/en/FormObjects/checkbox_toolbar.png)
 
 
 #### JSON 例:
@@ -167,7 +167,7 @@ true/false ステータスで表すことのできるアクション ("checkable
 
 チェックなし / チェック / ハイライト状態の例です:
 
-![](../assets/en/FormObjects/checkbox_bevel.png)
+![](/assets/en/FormObjects/checkbox_bevel.png)
 
 
 #### JSON 例:
@@ -196,7 +196,7 @@ true/false ステータスで表すことのできるアクション ("checkable
 
 macOS の例:
 
-  ![](../assets/en/FormObjects/checkbox_roundedbevel_mac.png)
+  ![](/assets/en/FormObjects/checkbox_roundedbevel_mac.png)
 
 > Windows 上では、角の丸いベベルスタイルは [ベベル](#ベベル) スタイルと同じです。
 
@@ -225,7 +225,7 @@ OS Xグラデーションスタイルは [ベベル](#ベベル) スタイルと
 
 OS X グラデーションスタイルは明るいグレーの背景にラベルが付いています。macOS 上では2トーンのシステムボタンとして表示されることがあります。 また、通常は [4つの状態を持つ画像](properties_TextAndPicture.md#状態の数) が関連付けられます。
 
-  ![](../assets/en/FormObjects/checkbox_osxgradient_mac.png)
+  ![](/assets/en/FormObjects/checkbox_osxgradient_mac.png)
 
 > Windows 上では、このスタイルは [ベベル](#ベベル) スタイルと同じです。
 
@@ -257,11 +257,11 @@ OS Xテクスチャースタイルは [ベベル](#ベベル) スタイルと似
 
  - *Windows* - 明るいブルーの背景に中央配置のラベルが付いた標準のシステムボタンです。
 
-  ![](../assets/en/FormObjects/checkbox_osxtextured.png)
+  ![](/assets/en/FormObjects/checkbox_osxtextured.png)
 
  - *macOS* - 標準のシステムボタンです。 高さは定義済みで、変更できません。
 
-  ![](../assets/en/FormObjects/checkbox_osxtextured_mac.png)
+  ![](/assets/en/FormObjects/checkbox_osxtextured_mac.png)
 
 #### JSON 例:
 
@@ -288,11 +288,11 @@ Office XP スタイルのチェックボックスの反転表示と背景のカ�
 
  - *Windows* - マウスオーバー時にのみ背景が表示されます。 チェックなし / チェック / ハイライト状態の例です:
 
-  ![](../assets/en/FormObjects/checkbox_officexp.png)
+  ![](/assets/en/FormObjects/checkbox_officexp.png)
 
  - *macOS* - 背景は常に表示されます。 チェックなし / チェック状態の例です:
 
-  ![](../assets/en/FormObjects/checkbox_officexp_mac.png)
+  ![](/assets/en/FormObjects/checkbox_officexp_mac.png)
 
 #### JSON 例:
 
@@ -319,11 +319,11 @@ Office XP スタイルのチェックボックスの反転表示と背景のカ�
 
  - *Windows* - [+] または [-] のように表示されます。
 
-  ![](../assets/en/FormObjects/checkbox_collapse.png)
+  ![](/assets/en/FormObjects/checkbox_collapse.png)
 
  - *macOS* - 右や下を指す三角として表示されます。
 
-  ![](../assets/en/FormObjects/checkbox_collapse_mac.png)
+  ![](/assets/en/FormObjects/checkbox_collapse_mac.png)
 
 :::info
 
@@ -354,11 +354,11 @@ Office XP スタイルのチェックボックスの反転表示と背景のカ�
 
  - *Windows*
 
-    ![](../assets/en/FormObjects/checkbox_disclosure.png)
+    ![](/assets/en/FormObjects/checkbox_disclosure.png)
 
  - *macOS*
 
-    ![](../assets/en/FormObjects/checkbox_disclosure_mac.png)
+    ![](/assets/en/FormObjects/checkbox_disclosure_mac.png)
 
 :::info
 

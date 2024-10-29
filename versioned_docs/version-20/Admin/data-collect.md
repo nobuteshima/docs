@@ -127,7 +127,7 @@ Collected data is written in a text file (JSON format) per database when 4D Serv
 
 Once a week, the file is automatically sent over the network to 4D. The file is then deleted from the active 4D folder. 
 
-![](../assets/en/Admin/data-collect.png)
+![](/assets/en/Admin/data-collect.png)
 
 > If the file could not be sent for some reason, it is nevertheless deleted and no error message is displayed on the 4D Server side. 
 

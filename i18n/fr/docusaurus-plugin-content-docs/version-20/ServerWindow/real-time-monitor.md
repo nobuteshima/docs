@@ -6,7 +6,7 @@ title: Page Moniteur temps réel
 
 La page Moniteur temps réel permet de surveiller en temps réel le déroulement des opérations "longues" effectuées par l’application. Ces opérations sont par exemple les recherches séquentielles, l’exécution de formules, etc.
 
-![](../assets/en/Admin/server-admin-monitor-page.png)
+![](/assets/en/Admin/server-admin-monitor-page.png)
 > Cette page est disponible dans la fenêtre d’administration du poste serveur et également depuis un poste 4D distant. Dans le cas d’un poste distant, la page affiche les données des opérations effectuées sur le poste serveur.
 
 Chaque opération longue sur les données entraîne l’ajout d’une ligne. La ligne disparaît automatiquement lorsque l’opération est terminée (l'option **Afficher opérations au moins 5 secondes** permet de conserver à l'écran les opérations exécutées rapidement, cf. ci-dessous).
@@ -40,18 +40,18 @@ Pour accéder au mode avancé pour une opération, appuyez sur la touche **Maj**
 
 Voici un exemple d'information affichée en mode standard :
 
-![](../assets/en/Admin/server-admin-monitor-adv1.png)
+![](/assets/en/Admin/server-admin-monitor-adv1.png)
 
 
 En mode avancé (**Maj+Clic** sur la ligne de l'opération), des informations supplémentaires sont affichées :
 
-![](../assets/en/Admin/server-admin-monitor-adv2.png)
+![](/assets/en/Admin/server-admin-monitor-adv2.png)
 
 ## Bouton Instantané
 
 Le bouton **Instantané** vous permet de copier dans le presse-papiers toutes les opérations affichées dans le panneau du MTR, ainsi que les détails associés (informations sur les process et les sous-opérations) :
 
-![](../assets/en/Admin/server-admin-monitor-snapshot.png)
+![](/assets/en/Admin/server-admin-monitor-snapshot.png)
 
 
 ## Afficher opérations au moins 5 secondes

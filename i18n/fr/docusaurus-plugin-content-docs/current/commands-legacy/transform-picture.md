@@ -58,7 +58,7 @@ Vous souhaitez transformer les parties blanches d'une image en parties transpare
 
 Vous obtenez le résultat suivant :
 
-![](../assets/en/commands/pict1359750.en.png)
+![](/assets/en/commands/pict1359750.en.png)
 
 #### Exemple 2 
 
@@ -68,7 +68,7 @@ Voici un exemple de recadrage (l’image est affichée dans le formulaire avec l
  TRANSFORM PICTURE($vpRouages;Crop;50;50;100;100)
 ```
 
-![](../assets/en/commands/pict28288.fr.png)
+![](/assets/en/commands/pict28288.fr.png)
 
 #### Voir aussi 
 

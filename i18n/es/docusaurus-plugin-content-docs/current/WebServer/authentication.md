@@ -9,7 +9,7 @@ La autentificación de los usuarios es necesaria cuando se desea ofrecer derecho
 
 El servidor web 4D ofrece tres modos de autenticación, que puede seleccionar en la página **Web**/**Opciones (I)** de la ventana Propiedades:
 
-![](../assets/en/WebServer/authentication.png)
+![](/assets/en/WebServer/authentication.png)
 
 > Se recomienda utilizar una autenticación **personalizada**.
 
@@ -17,7 +17,7 @@ El servidor web 4D ofrece tres modos de autenticación, que puede seleccionar en
 
 El funcionamiento del sistema de acceso del servidor web 4D se resume en el siguiente diagrama:
 
-![](../assets/en/WebServer/serverAccess.png)
+![](/assets/en/WebServer/serverAccess.png)
 
 > Las peticiones que comienzan por `rest/` son gestionadas directamente por el [servidor REST](REST/configuration.md).
 

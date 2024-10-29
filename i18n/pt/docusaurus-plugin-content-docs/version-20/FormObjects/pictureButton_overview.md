@@ -19,7 +19,7 @@ Os botões imagem podem ser utilizados de duas formas:
 
 * Como botão de imagem que permite ao usuário escolher entre várias opções. Neste caso, pode ser utilizado um botão de imagem em vez de um menu pop-up de imagem. As a picture button letting the user choose among several choices. In this case, a picture button can be used in place of a pop-up picture menu. As a picture button letting the user choose among several choices. In this case, a picture button can be used in place of a pop-up picture menu. Suppose you want to give the users of a custom application the opportunity to choose the interface language for the application. You implement the option as a picture button in a custom properties dialog box:
 
-![](../assets/en/FormObjects/button_pictureButton.png)
+![](/assets/en/FormObjects/button_pictureButton.png)
 
 Clicar no objeto altera a imagem.
 
@@ -30,7 +30,7 @@ Clicar no objeto altera a imagem.
 
 1. First, prepare a single graphic in which the series of images are arranged in a row, a column, or a row-by-column grid.
 
-   ![](../assets/en/FormObjects/pictureButton_grid.png)
+   ![](/assets/en/FormObjects/pictureButton_grid.png)
 
 You can organize pictures as columns, rows, or a row-by-column grid (as shown above). When organizing pictures as a grid, they  are numbered from left to right, row by row, beginning with 0. For example, the second picture of the second row of a grid that consists of two rows and three columns, is numbered 4 (The UK flag in the example above).
 

@@ -27,7 +27,7 @@ displayed_sidebar: docs
 
 このコマンドは一般的に[Open form window](open-form-window.md) コマンドと合わせて使用することで、以下の例題のように洗練されたフォームを表示します:
 
-![](../assets/en/commands/pict3541609.en.png)
+![](/assets/en/commands/pict3541609.en.png)
 
 表示や取得しなければならない情報が複雑で、[ALERT](alert.md)、[CONFIRM](confirm.md)、または [Request](request.md)などのコマンドで処理しきれない場合、**DIALOG** を代わりに使用して置き換えることができます。
 
@@ -83,13 +83,13 @@ displayed_sidebar: docs
 
 人物のレコードを表示しているフォームにおいて、"Check children" ボタンを押すとその人物の子供の名前と年齢を検証あるいは変更するダイアログが開く場合を考えます:
 
-![](../assets/en/commands/pict3542015.en.png)
+![](/assets/en/commands/pict3542015.en.png)
 
 **注:** "Children" オブジェクトフィールドはこの例題においての構造を示すために表示されているだけです。
 
 検証フォームにおいて、[Form](form.md) オブジェクトプロパティを変数へと割り当てているものとします:
 
-![](../assets/en/commands/pict3541682.en.png)
+![](/assets/en/commands/pict3541682.en.png)
 
 "Check children" ボタンの中身のコードは以下のようになります:
 
@@ -123,7 +123,7 @@ displayed_sidebar: docs
 
 フォームはそれぞれの子供についての情報を表示します:
 
-![](../assets/en/commands/pict3515152.en.png)
+![](/assets/en/commands/pict3515152.en.png)
 
 値が変更されてOKボタンがクリックされた場合、フィールドは更新されます(その後、親のレコードも保存される必要があります)。
 
@@ -139,7 +139,7 @@ displayed_sidebar: docs
 
 結果は以下のようになります:
 
-![](../assets/en/commands/pict3687439.en.png)
+![](/assets/en/commands/pict3687439.en.png)
 
 #### 例題 4 
 
@@ -157,7 +157,7 @@ displayed_sidebar: docs
 
 変更されたフォームが、新しいタイトル、ロゴ、そして境界線とともに返されます:
 
-![](../assets/en/commands/pict3688356.en.png)
+![](/assets/en/commands/pict3688356.en.png)
 
 #### システム変数およびセット 
 

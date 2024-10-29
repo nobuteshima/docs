@@ -33,7 +33,7 @@ A noter également que cette commande ne modifie pas forcément les dimensions d
 
 Soit la fenêtre suivante (les champs et l'encadrement ont pour propriété de redimensionnement horizontal “Agrandir”) :
 
-![](../assets/en/commands/pict39548.fr.png)
+![](/assets/en/commands/pict39548.fr.png)
 
 Après l'exécution de cette ligne :
 
@@ -43,7 +43,7 @@ Après l'exécution de cette ligne :
 
 ... la fenêtre a l'apparence suivante :
 
-![](../assets/en/commands/pict39549.fr.png)
+![](/assets/en/commands/pict39549.fr.png)
 
 #### Voir aussi 
 

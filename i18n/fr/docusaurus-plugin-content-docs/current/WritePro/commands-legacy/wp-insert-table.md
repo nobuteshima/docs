@@ -64,7 +64,7 @@ Dans un document vide, vous souhaitez ajouter un nouveau tableau avec 3 colonnes
 
 Résultat :
 
-![](../../assets/en/WritePro/commands/pict3306926.en.png)
+![](/assets/en/WritePro/commands/pict3306926.en.png)
 
 #### Voir aussi 
 

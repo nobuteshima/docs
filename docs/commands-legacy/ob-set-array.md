@@ -100,7 +100,7 @@ Using an object array:
 
 Here is how the object appears in the debugger:
 
-![](../assets/en/commands/pict1211436.en.png)
+![](/assets/en/commands/pict1211436.en.png)
 
 #### Example 5 
 
@@ -114,7 +114,7 @@ Using an Object field:
  OB SET ARRAY([People]Children;"Girls";$arrGirls)
 ```
 
-![](../assets/en/commands/pict1899097.en.png)
+![](/assets/en/commands/pict1899097.en.png)
 
 #### Example 6 
 

@@ -47,7 +47,7 @@ displayed_sidebar: docs
 
 MESSAGEをコールするたびに、以下のウィンドウが表示されては消えます:
 
-![](../assets/en/commands/pict25453.ja.png)
+![](/assets/en/commands/pict25453.ja.png)
 
 #### 例題 2 
 
@@ -65,7 +65,7 @@ MESSAGEをコールするたびに、以下のウィンドウが表示されて�
 
 結果は以下の通り:
 
-![](../assets/en/commands/pict25454.ja.png)
+![](/assets/en/commands/pict25454.ja.png)
 
 #### 例題 3 
 
@@ -83,7 +83,7 @@ MESSAGEをコールするたびに、以下のウィンドウが表示されて�
 
 結果は以下の通り:
 
-![](../assets/en/commands/pict25455.en.png)
+![](/assets/en/commands/pict25455.en.png)
 
 #### 例題 4 
 
@@ -107,7 +107,7 @@ MESSAGEをコールするたびに、以下のウィンドウが表示されて�
 
 結果は以下の通り:
 
-![](../assets/en/commands/pict25456.en.png)
+![](/assets/en/commands/pict25456.en.png)
 
 #### 参照 
 

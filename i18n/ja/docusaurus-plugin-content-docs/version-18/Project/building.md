@@ -23,11 +23,11 @@ title: プロジェクトパッケージのビルド
 
 このウィンドウを開くには 4D の **デザイン** メニューから **アプリケーションビルド...** を選択します。
 
-![](../assets/en/Project/buildappProj.png)
+![](/assets/en/Project/buildappProj.png)
 
 アプリケーションビルドウィンドウには複数のページがあり、タブを使用してページを移動できます:
 
-![](../assets/en/Project/appbuilderProj.png)
+![](/assets/en/Project/appbuilderProj.png)
 
 ビルドをおこなう前にアプリケーションはコンパイルされていなければなりません。 まだコンパイルされていないアプリケーションでこのメニューコマンドを選択する、あるいはコンパイル後にコードが変更されていると、データベースを (再) コンパイルしなければならない旨の警告ダイアログが表示されます。
 
@@ -50,7 +50,7 @@ title: プロジェクトパッケージのビルド
 
 ## アプリケーション名と保存先フォルダー
 
-![](../assets/en/Project/buidappstructureProj.png)
+![](/assets/en/Project/buidappstructureProj.png)
 
 **アプリケーション名** には生成するアプリケーションの名前を入力します。
 
@@ -60,7 +60,7 @@ title: プロジェクトパッケージのビルド
 
 このページでは、標準のコンパイル済みストラクチャーファイルやコンパイル済みコンポーネントをビルドできます。
 
-![](../assets/en/Project/appbuilderProj.png)
+![](/assets/en/Project/appbuilderProj.png)
 
 ### コンパイル済みストラクチャーをビルド
 
@@ -95,7 +95,7 @@ title: プロジェクトパッケージのビルド
 
 このタブでは、スタンドアロンのシングルユーザー版アプリケーションをビルドします:
 
-![](../assets/en/Project/standaloneProj.png)
+![](/assets/en/Project/standaloneProj.png)
 
 ### スタンドアロンアプリケーションをビルド
 
@@ -181,7 +181,7 @@ Windows においては、.exe 拡張子のついた実行ファイルが作成�
 
 このページでは、クライアントの自動更新もサポートできるクロスプラットフォームなクライアント/サーバーアプリケーションをビルドするための設定をおこないます。
 
-![](../assets/en/Project/buildappCSProj.png)
+![](/assets/en/Project/buildappCSProj.png)
 
 ### クライアント/サーバーアプリケーションとは
 
@@ -322,7 +322,7 @@ Windows においては、.exe 拡張子のついた実行ファイルが作成�
 
 このページには、現在の 4Dアプリケーションにロードされている要素がリストされます:
 
-![](../assets/en/Project/buildapppluginsProj.png)
+![](/assets/en/Project/buildapppluginsProj.png)
 
 * **アクティブ** 列 - ビルドするアプリケーションパッケージに項目を統合するかどうかを指定します。 デフォルトですべての項目が選択されています。 プラグインやコンポーネントを除外するには、チェックボックスの選択を外します。
 
@@ -344,7 +344,7 @@ Windows においては、.exe 拡張子のついた実行ファイルが作成�
 * シングルユーザーのスタンドアロンアプリケーションに統合するライセンス番号を指定します。
 * macOS 環境下では、証明書を使用してアプリケーションに署名をすることができます。
 
-![](../assets/en/Project/buildapplicenseProj.png)
+![](/assets/en/Project/buildapplicenseProj.png)
 
 ### ライセンスリスト
 
@@ -376,13 +376,13 @@ Windows においては、.exe 拡張子のついた実行ファイルが作成�
 
 * **アプリケーションに署名** オプションにチェックをすると、macOS のアプリケーションビルド処理に認証が含まれます。4D はビルドの際に、認証に必要な要素の有無をチェックします:
 
-![](../assets/en/Project/buildapposxcertProj.png)
+![](/assets/en/Project/buildapposxcertProj.png)
 
 このオプションは Windows と macOS 両方の環境で表示されますが、macOS の場合においてのみ有効です。
 
 * **認証名** - Apple によって有効化されたデベロッパー認証名を入力してください。 この認証名は通常、キーチェーンアクセスユーティリティ内の証明書の名前と一緒です (下図の赤枠):
 
-![](../assets/en/Project/certificate.png)
+![](/assets/en/Project/certificate.png)
 
 Apple からデベロッパー認証を取得するためには、キーチェーンアクセスのメニューのコマンドを使用するか、次のリンクへ移動してください: [http://developer.apple.com/library/mac/#documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html](http://developer.apple.com/library/mac/#documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html)。
 > この証明書の取得には Apple の codesign ユーティリティが必要になります。このユーティリティはデフォルトで提供されており、通常 “/usr/bin/” フォルダーにあります。 エラーが起きた際には、このユーティリティがディスク上にあるかどうかを確認してください。
@@ -466,9 +466,9 @@ userPrefs:=Get 4D folder(Active 4D Folder)
 
 このモードを使えば、組み込みアプリがいくつあっても、それぞれが専用のデータファイルを使えます。 ただし、デメリットもあります: アプリケーションパッケージを移動させてしまうとアプリケーションパスが変わってしまうため、データファイルを見つけられなくなります。この場合、ユーザーは開くデータファイルを指定するダイアログを提示され、正しいファイルを選択しなくてはなりません。一度選択されれば、*lastDataPath.xml* ファイルが更新され、新しい "executablePath" 属性のエントリーが保存されます。
 
-*データがアプリケーション名でリンクされている場合の複製:* ![](../assets/en/Project/datalinking1.png)
+*データがアプリケーション名でリンクされている場合の複製:* ![](/assets/en/Project/datalinking1.png)
 
-*データがアプリケーションパスでリンクされている場合の複製:* ![](../assets/en/Project/datalinking2.png)
+*データがアプリケーションパスでリンクされている場合の複製:* ![](/assets/en/Project/datalinking2.png)
 
 このデータリンクモードはアプリケーションビルドの際に選択することができます。 これには、次の二つの方法があります:
 
@@ -491,7 +491,7 @@ userPrefs:=Get 4D folder(Active 4D Folder)
 
 この機能を図示すると次のようになります:
 
-![](../assets/en/Project/DefaultData.png)
+![](/assets/en/Project/DefaultData.png)
 
 デフォルトのデータファイルが初回起動時に検知された場合、データファイルは自動的に読み取り専用モードで開かれ、データファイルの変更を伴わないカスタムオペレーションを実行できるようになります。
 
@@ -530,6 +530,6 @@ userPrefs:=Get 4D folder(Active 4D Folder)
 組み込みクライアントアプリがサーバーに接続できない場合、標準のサーバー選択ダイアログボックスを表示するかどうかは設定しておくことができます。 この設定は、アプリケーションをビルドするマシン上の [ServerSelectionAllowedXML](https://doc.4d.com/4Dv18/4D/18/ServerSelectionAllowed.300-4671093.ja.html) キーの値によって制御されます:
 
 * **エラーメッセージを表示し、サーバー選択ダイアログボックスを表示させない**。 デフォルトの挙動です。 アプリケーションは終了する以外の選択肢がありません。  
-  `ServerSelectionAllowed`: **False** 値、またはキーを省略 ![](../assets/en/Project/connect1.png)
+  `ServerSelectionAllowed`: **False** 値、またはキーを省略 ![](/assets/en/Project/connect1.png)
 
-* **エラーメッセージを表示し、サーバー選択ダイアログボックスへのアクセスを可能にする**。 ユーザーは **選択...** ボタンをクリックすることによって、サーバー選択ウィンドウにアクセスできます。 `ServerSelectionAllowed`: **True** 値 ![](../assets/en/Project/connect2.png) ![](../assets/en/Project/connect3.png)
+* **エラーメッセージを表示し、サーバー選択ダイアログボックスへのアクセスを可能にする**。 ユーザーは **選択...** ボタンをクリックすることによって、サーバー選択ウィンドウにアクセスできます。 `ServerSelectionAllowed`: **True** 値 ![](/assets/en/Project/connect2.png) ![](/assets/en/Project/connect3.png)

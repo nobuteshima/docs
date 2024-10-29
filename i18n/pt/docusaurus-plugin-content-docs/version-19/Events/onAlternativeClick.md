@@ -18,12 +18,12 @@ Alguns estilos de botões podem ser [ligados a um menu pop-up](FormObjects/prope
 - If the pop-up menu is **separated**,the event is only generated when a click occurs on the portion of the button with the arrow.
 - Se o menu pop-up for **linked**, o evento será gerado quando ocorrer um clique em qualquer parte do botão. Observe que o evento [`No Clique Longo`](onLongClick.md) não pode ser gerado com este tipo de botão.
 
-![](../assets/en/Events/clickevents.png)
+![](/assets/en/Events/clickevents.png)
 
 ### List box
 
 Esse evento é gerado nas colunas das caixas de listagem do tipo matriz de objetos [](FormObjects/listbox_overview.md#object-arrays-in-columns-4d-view-pro), quando o usuário clica em um botão de reticências do widget (atributo "alternateButton").
 
-![](../assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
 
 Ver a [descrição do atributo "alternateButton"](FormObjects/listbox_overview.md#alternatebutton).

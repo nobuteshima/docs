@@ -85,7 +85,7 @@ La méthode *doAddMessage* ajoute simplement une ligne dans la list box du formu
 
 A l'utilisation, vous obtenez le résultat suivant :
 
-![](../assets/en/commands/pict2896824.en.png)
+![](/assets/en/commands/pict2896824.en.png)
 
 Vous pouvez alors ajouter d'autres messages en exécutant à nouveau la commande **CALL FORM** :
 
@@ -94,7 +94,7 @@ Vous pouvez alors ajouter d'autres messages en exécutant à nouveau la commande
  CALL FORM(formRef2;"doAddMessage";Current process name;"Hello 2 Form 2")
 ```
 
-![](../assets/en/commands/pict2896833.en.png)
+![](/assets/en/commands/pict2896833.en.png)
 
 #### Voir aussi 
 

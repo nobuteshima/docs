@@ -9,13 +9,13 @@ As propriedades da área 4D View Pro podem ser configuradas utilizando a lista d
 
 Using the area's property list, you can set [4D View Pro object properties](FormObjects/viewProArea_overview.md#supported-properties) such as **Object Name**, [**Variable or Expression**](#4d-view-pro-form-object-variable), **Appearance**, **Action**, and **Events**.
 
-![](../assets/en/ViewPro/vpPropertyList.png)
+![](/assets/en/ViewPro/vpPropertyList.png)
 
 ### Selecção de uma interface utilizador
 
 Puede seleccionar la interfaz a utilizar con sus áreas de formulario 4D View Pro en la **Lista de propiedades**, en **Apariencia**:
 
-![](../assets/en/ViewPro/vpUserInterface.PNG)
+![](/assets/en/ViewPro/vpUserInterface.PNG)
 
 > You can also use the [`userInterface`](FormObjects/properties_Appearance.md#user-interface) and [`withFormulaBar`](FormObjects/properties_Appearance.md#show-formula-bar)(only with the "toolbar" interface) JSON properties.
 
@@ -23,7 +23,7 @@ As interfaces permitem modificações básicas e a manipulação de dados. User-
 
 #### Fita
 
-![](../assets/en/ViewPro/vpRibbon.png)
+![](/assets/en/ViewPro/vpRibbon.png)
 
 #### Barra de ferramentas
 
@@ -31,7 +31,7 @@ Habilitar a interface da barra de ferramentas exibe a opção [**Mostrar a barra
 
 Com barra de fórmula visível:
 
-![](../assets/en/ViewPro/vpToolbar.png)
+![](/assets/en/ViewPro/vpToolbar.png)
 
 #### Funcionalidades
 
@@ -128,7 +128,7 @@ Defining a format pattern ensures that the content of your 4D View Pro documents
 
 For example, when using the [VP SET VALUE](commands/vp-set-value.md) or [VP SET NUM VALUE](commands/vp-set-num-value.md) commands to enter amounts in an invoice, you may want the currency symbols ($, €, ¥, etc.) to be aligned regardless of the space required by the number (i.e., whether the amount is $5.00 or $5,000.00). You could use formatting characters and spectify the pattern _($\* #,##0.00_) which would display amounts as shown:
 
-![](../assets/en/ViewPro/apx_vpCellFormat1.PNG)
+![](/assets/en/ViewPro/apx_vpCellFormat1.PNG)
 
 Note that when creating your own format patterns, only the display of the data is modified. O valor dos dados mantém-se inalterado.
 
@@ -292,12 +292,12 @@ The following special characters allow the automatic addition or formatting of i
 | N                     | Contagem de páginas                                | printInfo.headerLeft:="Hay &N páginas."                                           | Existem 10 páginas.                             |   |
 | D                     | Data atual (formato yyyy/mm/dd) | printInfo.headerLeft:="Es &D."                                                    | Estamos em 2015/6/19.                           |   |
 | T                     | Hora actual                                        | printInfo.headerLeft:="Es &T."                                                    | São 16:30:36.   |   |
-| G                     | Imagem                                             | printInfo.headerLeftImage:=smiley<br/>printInfo.headerLeft:="&G"  | ![](../assets/en/ViewPro/apx_vpPrintAttributes1.PNG)            |   |
+| G                     | Imagem                                             | printInfo.headerLeftImage:=smiley<br/>printInfo.headerLeft:="&G"  | ![](/assets/en/ViewPro/apx_vpPrintAttributes1.PNG)            |   |
 | S                     | Riscado                                            | printInfo.headerLeft:="&SEsto es texto."                                          | ~Isto é texto.~ |   |
 | U                     | Sublinhado                                         | printInfo.headerLeft:="&UEsto es texto."                                          | Isto é texto. (Sublinhado)   |   |
 | B                     | Negrito                                            | printInfo.headerLeft:="&BEsto es texto."                                          | **Isto é texto.**                               |   |
 | I                     | Itálico                                            | printInfo.headerLeft:="&IEsto es texto."                                          | _Isto é texto._                                 |   |
-| "                     | Prefixo do tipo de letra                           | printInfo.headerLeft:="&\"Lucida Console\"&14This is text." | ![](../assets/en/ViewPro/apx_vpPrintAttributes2.PNG)            |   |
+| "                     | Prefixo do tipo de letra                           | printInfo.headerLeft:="&\"Lucida Console\"&14This is text." | ![](/assets/en/ViewPro/apx_vpPrintAttributes2.PNG)            |   |
 | K                     | Prefixo da cor do texto                            | printInfo.headerLeft:="&KFF0000Esto es texto."                                    | Este é o texto (a vermelho). |   |
 | F                     | Nome do Workbook                                   | printInfo.headerLeft:="&F"                                                                        | 2019 Monthly Revenue Forecasts                                  |   |
 | A                     | Nome da folha de cálculo                           | printInfo.headerLeft:="&A"                                                                        | June 2019 revenue forecast                                      |   |

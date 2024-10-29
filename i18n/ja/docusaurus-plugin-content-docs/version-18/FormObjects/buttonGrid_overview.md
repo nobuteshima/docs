@@ -7,7 +7,7 @@ title: ボタングリッド
 
 ボタングリッドは透明なオブジェクトであり、画像の最前面に配置されます。 おもに、列と行の配列を表現する画像との組み合わせで使用します。 ユーザーがグラフィック上でクリックすると、そこが凹んだように描画されます。
 
-![](../assets/en/FormObjects/buttonGrid_smileys.png)
+![](/assets/en/FormObjects/buttonGrid_smileys.png)
 
 ボタングリッドのオブジェクトを使用すると、グラフィック上でユーザーがクリックした場所を判別することができます。 オブジェクトメソッドでは `On Clicked` イベントを使用し、クリックされた場所に応じて適切な動作を実行します。
 
@@ -17,7 +17,7 @@ title: ボタングリッド
 
 4D では、カラーパレットにボタングリッドが使用されています:
 
-![](../assets/en/FormObjects/button_buttonGrid.png)
+![](/assets/en/FormObjects/button_buttonGrid.png)
 
 ## ボタングリッドの使用
 

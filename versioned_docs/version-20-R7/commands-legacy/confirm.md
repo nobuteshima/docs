@@ -43,7 +43,7 @@ The line:
 
 will display the confirm dialog box (on Windows) shown here:
 
-![](../assets/en/commands/pict4225029.en.png)
+![](/assets/en/commands/pict4225029.en.png)
 
 #### Example 2 
 
@@ -55,7 +55,7 @@ The line:
 
 will display the confirm dialog box (on Windows) shown here:
 
-![](../assets/en/commands/pict4225038.en.png)
+![](/assets/en/commands/pict4225038.en.png)
 
 #### Example 3 
 
@@ -71,7 +71,7 @@ You are writing a 4D application for the international market. You wrote your in
 
 could display the French confirm dialog box (on Windows) shown here:
 
-![](../assets/en/commands/pict4225048.en.png)
+![](/assets/en/commands/pict4225048.en.png)
 
 **Note:** For more information on xliff database localization, please refer to the *Appendix B: XLIFF architecture* section. 
 
@@ -86,7 +86,7 @@ The line:
 
 will display the confirm dialog box (on Windows) shown here:
 
-![](../assets/en/commands/pict4225058.en.png)
+![](/assets/en/commands/pict4225058.en.png)
 
 #### See also 
 

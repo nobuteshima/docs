@@ -26,7 +26,7 @@ title: VP SET SHEET COUNT
 
 ドキュメントには現在シートが 1つあります:
 
-![](../../assets/en/ViewPro/vp-sheet-1.png)
+![](/assets/en/ViewPro/vp-sheet-1.png)
 
 シート数を 3つに設定します:
 
@@ -34,7 +34,7 @@ title: VP SET SHEET COUNT
 VP SET SHEET COUNT("ViewProArea";3)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 #### 参照
 

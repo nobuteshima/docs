@@ -39,7 +39,7 @@ title: VP Cell
 
 以下に表示されている (カレントスプレッドシートの) セルに対するレンジオブジェクトを定義します:
 
-![vp-cell](../../assets/en/ViewPro/cmd_vpCell.png)
+![vp-cell](/assets/en/ViewPro/cmd_vpCell.png)
 
 以下のようにコードを書くことができます:
 

@@ -28,18 +28,18 @@ Para encriptar os seus dados pela primeira vez utilizando o CSM, são necessári
 1. En el editor de estructuras, marque el atributo **Encriptable** de cada tabla cuyos datos desee encriptar. Ver a secção "Propriedades das tabelas".
 2. Abra a página Encriptar do CSM.
    If you open the page without setting any tables as **Encryptable**, the following message is displayed in the page:
-   ![](../assets/en/MSC/MSC_encrypt1.png)
+   ![](/assets/en/MSC/MSC_encrypt1.png)
    Otherwise, the following message is displayed:
-   ![](../assets/en/MSC/MSC_encrypt2.png)<p>
+   ![](/assets/en/MSC/MSC_encrypt2.png)<p>
    This means that the **Encryptable** status for at least one table has been modified and the data file still has not been encrypted.
    \*\*Note: \*\*The same message is displayed when the **Encryptable** status has been modified in an already encrypted data file or after the data file has been decrypted (see below).</p>
 3. Click on the Encrypt picture button.\
-   ![](../assets/en/MSC/MSC_encrypt3.png)\
+   ![](/assets/en/MSC/MSC_encrypt3.png)\
    You will be prompted to enter a passphrase for your data file:
-   ![](../assets/en/MSC/MSC_encrypt4.png)
+   ![](/assets/en/MSC/MSC_encrypt4.png)
    The passphrase is used to generate the data encryption key. Uma frase-chave é uma versão mais segura de uma palavra-passe e pode conter um grande número de caracteres. Por exemplo, pode introduzir uma frase-chave como "Todos nós viemos para Montreux" ou "A minha primeira grande frase-chave!"
    The security level indicator can help you evaluate the strength of your passphrase:
-   ![](../assets/en/MSC/MSC_encrypt5.png)
+   ![](/assets/en/MSC/MSC_encrypt5.png)
    (deep green is the highest level)
 4. Introduza para confirmar a sua frase-passe protegida.
 
@@ -54,7 +54,7 @@ Se o processo de encriptação for bem-sucedido, a página Encriptar apresenta b
 ## Operações de manutenção da cifragem
 
 When an application is encrypted (see above), the Encrypt page provides several encryption maintenance operations, corresponding to standard scenarios.
-![](../assets/en/MSC/MSC_encrypt6.png)
+![](/assets/en/MSC/MSC_encrypt6.png)
 
 ### Fornecimento da chave de encriptação de dados atual
 
@@ -62,7 +62,7 @@ Por razões de segurança, todas as operações de manutenção da cifragem exig
 
 - Se a chave de encriptação de dados já está carregada no enxoval 4D(1), é automaticamente reutilizada por 4D.
 - Se a chave de encriptação de dados não for encontrada, é necessário fornecê-la. O seguinte diálogo é exibido:
-  ![](../assets/en/MSC/MSC_encrypt7.png)
+  ![](/assets/en/MSC/MSC_encrypt7.png)
 
 Nesta fase, tem duas opções:
 
@@ -83,7 +83,7 @@ Esta operación es útil cuando se ha modificado el atributo **Encriptable** de 
 2. Introduzir a chave de encriptação de dados atual.
 
 The data file is properly re-encrypted with the current key and a confirmation message is displayed:
-![](../assets/en/MSC/MSC_encrypt8.png)
+![](/assets/en/MSC/MSC_encrypt8.png)
 
 ### Alterar a sua frase-chave e voltar a encriptar os dados
 
@@ -92,9 +92,9 @@ Esta operação é útil quando é necessário alterar a chave de encriptação 
 1. Haga clic en **Cambiar su frase de contraseña y volver a cifrar los datos**.
 2. Introduzir a chave de encriptação de dados atual.
 3. Enter the new passphrase (for added security, you are prompted to enter it twice):
-   ![](../assets/en/MSC/MSC_encrypt9.png)
+   ![](/assets/en/MSC/MSC_encrypt9.png)
    The data file is encrypted with the new key and the confirmation message is displayed.
-   ![](../assets/en/MSC/MSC_encrypt8.png)
+   ![](/assets/en/MSC/MSC_encrypt8.png)
 
 ### Desencriptar todos os dados
 
@@ -104,7 +104,7 @@ Esta operação remove toda a encriptação do ficheiro de dados. Se já não pr
 2. Introduzir a chave de encriptação de dados atual (ver Fornecer a chave de encriptação de dados atual).
 
 The data file is fully decrypted and a confirmation message is displayed:
-![](../assets/en/MSC/MSC_encrypt10.png)
+![](/assets/en/MSC/MSC_encrypt10.png)
 
 > Quando o arquivo de dados for desencriptado, o estado de encriptação das tabelas não corresponde aos seus atributos Encryptable. Para restablecer un estado coincidente, debe anular la selección de todos los atributos **Encriptable** al nivel de la estructura de la base.
 

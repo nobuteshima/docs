@@ -52,7 +52,7 @@ You want to insert three columns after first column in the *Invoice* table. This
 
 Will insert the new columns at the correct location:
 
-![](../../assets/en/WritePro/commands/pict4680283.en.png)
+![](/assets/en/WritePro/commands/pict4680283.en.png)
 
 #### See also 
 

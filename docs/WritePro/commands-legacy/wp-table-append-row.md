@@ -42,7 +42,7 @@ You want to create an empty table and append several rows of different sizes. Yo
  $wpRow3:=WP Table append row($wpTable;"Mary";"Trenton";18;"New!")
 ```
 
-![](../../assets/en/WritePro/commands/pict3306976.en.png)
+![](/assets/en/WritePro/commands/pict3306976.en.png)
 
 #### Example 2 
 
@@ -71,7 +71,7 @@ In a billing application, you want to create a table automatically filled with r
  WP SET ATTRIBUTES($wpTable;wk font size;10)
 ```
 
-![](../../assets/en/WritePro/commands/pict3369663.en.png)
+![](/assets/en/WritePro/commands/pict3369663.en.png)
 
 #### See also 
 

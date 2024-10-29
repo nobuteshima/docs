@@ -23,7 +23,7 @@ title: リモートデータストア
 
 これらの原則を下図に示します:
 
-![](../assets/en/ORDA/sessions.png)
+![](/assets/en/ORDA/sessions.png)
 
 ### セッションの監視
 
@@ -35,7 +35,7 @@ title: リモートデータストア
 
 次の例では、1つのセッション上で 2つのプロセスが実行中です:
 
-![](../assets/en/ORDA/sessionAdmin.png)
+![](/assets/en/ORDA/sessionAdmin.png)
 
 ## セッションの終了
 

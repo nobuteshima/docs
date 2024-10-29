@@ -23,7 +23,7 @@ El `localID` es local a la máquina que se conecta al datastore remoto, lo que s
 
 Estos principios se ilustran en los gráficos siguientes:
 
-![](../assets/en/ORDA/sessions.png)
+![](/assets/en/ORDA/sessions.png)
 
 > Para las sesiones abiertas por peticiones REST, consulte [Usuarios y sesiones](REST/authUsers.md).
 
@@ -37,7 +37,7 @@ Los procesos que gestionan las sesiones de acceso al datastore se muestran en la
 
 En el siguiente ejemplo, se están ejecutando dos procesos para la misma sesión:
 
-![](../assets/en/ORDA/sessionAdmin.png)
+![](/assets/en/ORDA/sessionAdmin.png)
 
 ## Bloqueo y transacciones
 

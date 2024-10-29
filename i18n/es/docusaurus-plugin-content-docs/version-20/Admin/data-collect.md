@@ -127,7 +127,7 @@ Los datos recolectados se escriben en un archivo de texto (formato JSON) por bas
 
 Una vez a la semana, el archivo se envía automáticamente por la red a 4D. A continuación, el archivo se elimina de la carpeta activa de 4D.
 
-![](../assets/en/Admin/data-collect.png)
+![](/assets/en/Admin/data-collect.png)
 
 > Si el archivo no ha podido ser enviado por alguna razón, no obstante se elimina y no se muestra ningún mensaje de error del lado de 4D Server.
 

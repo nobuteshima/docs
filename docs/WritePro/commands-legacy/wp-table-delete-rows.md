@@ -48,7 +48,7 @@ You want to delete two rows from the *Invoice* table. This code:
 
 Will remove the two rows from the correct location:
 
-![](../../assets/en/WritePro/commands/pict4680306.en.png)
+![](/assets/en/WritePro/commands/pict4680306.en.png)
 
 #### See also 
 

@@ -54,7 +54,7 @@ Usted desea definir como lista de opciones de un menú emergente jerárquico una
  OBJECT SET LIST BY REFERENCE(*;"popup";Choice list;$myList)
 ```
 
-![](../assets/en/commands/pict3372004.en.png)
+![](/assets/en/commands/pict3372004.en.png)
 
 #### Ver también 
 

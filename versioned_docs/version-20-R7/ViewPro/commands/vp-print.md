@@ -40,7 +40,7 @@ The following code:
 
 ... will open a print dialog window:
 
-![](../../assets/en/ViewPro/cmd_vpPrint.PNG)
+![](/assets/en/ViewPro/cmd_vpPrint.PNG)
 
 #### See also
 

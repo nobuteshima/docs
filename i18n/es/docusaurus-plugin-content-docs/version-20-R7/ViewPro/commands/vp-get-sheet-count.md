@@ -24,7 +24,7 @@ En *vpAreaName*, pase el nombre del área 4D View Pro.
 
 En el siguiente documento:
 
-![](../../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 Obtener el número de hojas y define la hoja actual como la última hoja:
 
@@ -34,7 +34,7 @@ Obtener el número de hojas y define la hoja actual como la última hoja:
  VP SET CURRENT SHEET("ViewProArea";$count-1)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-3-select.png)
+![](/assets/en/ViewPro/vp-sheet-3-select.png)
 
 #### Ver también
 

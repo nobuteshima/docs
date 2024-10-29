@@ -13,7 +13,7 @@ Cette page vous permet de paramétrer le stockage des données de la base 4D sur
 
 Cette option permet de paramétrer le fonctionnement de l’application en cas d’ouverture d’un fichier de données verrouillé au niveau du système d’exploitation. 4D intègre un dispositif permettant d’empêcher automatiquement l’ouverture d’une base lorsque son fichier de données ou l’un de ses segments est verrouillé. Dans ce cas, lorsque la détection est activée, 4D affiche un message d’alerte et la base quitte :
 
-![](../assets/en/settings/data-locked.png)
+![](/assets/en/settings/data-locked.png)
 
 Lorsque l’option n’est pas cochée, il n’est pas possible d’ouvrir la base avec un fichier de données verrouillé (fonctionnement par défaut pour les bases 4D).
 
@@ -27,7 +27,7 @@ Cette zone vous permet de modifier l’emplacement des fichiers temporaires cré
 
 L’emplacement courant de ce dossier est affiché dans la zone “Actuel :”. Vous pouvez cliquer dans cette zone pour faire apparaître le chemin d’accès sous forme de pop up menu :
 
-![](../assets/en/settings/temporary-file-location.png)
+![](/assets/en/settings/temporary-file-location.png)
 
 Trois options d’emplacement sont proposées :
 
@@ -74,7 +74,7 @@ Cet algorithme est utilisé par défaut dans les versions japonaises de 4D. Si v
 
 Pour désactiver _MeCab_, il vous suffit de cocher l’option **N’utiliser que les caractères non alphanumériques pour les mots-clés** :
 
-![](../assets/en/settings/non-alphanumeric-chars.png)
+![](/assets/en/settings/non-alphanumeric-chars.png)
 
 ## Page Mémoire
 
@@ -96,7 +96,7 @@ Utilisez les paramètres de cet onglet pour configurer la mémoire cache de la b
   Pourcentage de la mémoire disponible utilisé pour le cache = 50%
   Taille maximale = 1 Go Taille minimale = 128 Mo_
 
-  ![](../assets/en/settings/memory-maximum-size.png)
+  ![](/assets/en/settings/memory-maximum-size.png)
 
 - **Calcul du cache adaptatif non cochée** :  dans ce mode, vous définissez vous-même la taille de la mémoire cache pour la base. 4D affiche alors une zone de saisie permettant de définir la mémoire cache à utiliser ainsi que les informations relatives à la mémoire physique (mémoire RAM disponible sur la machine), le cache actuel et le cache après redémarrage (tenant compte de vos modifications).
 

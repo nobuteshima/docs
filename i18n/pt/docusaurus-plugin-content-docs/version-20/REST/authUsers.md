@@ -32,7 +32,7 @@ Neste exemplo, o usuário introduz o seu e-mail e palavra-passe numa página htm
 
 A página de início de sessão em HTML:
 
-![alt-text](../assets/en/REST/login.png)
+![alt-text](/assets/en/REST/login.png)
 
 
 ```html

@@ -28,7 +28,7 @@ Em *index*, passe o índice da folha a ser removida. Se o *index* passado não e
 
 O documento tem atualmente três folhas:
 
-![](../../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 Retirar a terceira folha:
 
@@ -36,7 +36,7 @@ Retirar a terceira folha:
 VP REMOVE SHEET("ViewProArea";2)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-2.png)
+![](/assets/en/ViewPro/vp-sheet-2.png)
 
 #### Veja também
 

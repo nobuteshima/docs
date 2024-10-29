@@ -5,7 +5,7 @@ title: Generalidades
 
 Puede crear barras de menús y menús para sus aplicaciones 4D. Dado que los menús desplegables son una funcionalidad estándar de toda aplicación de escritorio, su adición facilitará el uso de sus aplicaciones y hará que los usuarios las sientan familiares.
 
-![](../assets/en/Menus/menubar.png)
+![](/assets/en/Menus/menubar.png)
 
 Una **barra de menús** es un grupo de menús que pueden aparecer juntos en una misma pantalla. Cada **menú** de una barra de menús puede tener varios comandos de menú en ella, incluyendo algunos que llaman a submenús en cascada (o submenús jerárquicos). Cuando el usuario elige un comando de menú o submenú, llama a un método proyecto o a una acción estándar que realiza una operación.
 
@@ -28,7 +28,7 @@ Para crear menús y barras de menús, puede utilizar:
 
 Se accede al editor de menús mediante el botón **Menús** de la caja de herramientas.
 
-![](../assets/en/Menus/editor1.png)
+![](/assets/en/Menus/editor1.png)
 
 Los menús y las barras de menús se muestran como dos elementos de la misma lista jerárquica, en la parte izquierda de la caja de diálogo. Cada menú puede estar unido a una barra de menús o a otro menú. En el segundo caso, el menú se convierte en un submenú.
 

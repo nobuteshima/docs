@@ -42,7 +42,7 @@ displayed_sidebar: docs
 
 元のフォームはこちらです:
 
-![](../assets/en/commands/pict3977360.en.png)
+![](/assets/en/commands/pict3977360.en.png)
 
   
 ```4d
@@ -56,7 +56,7 @@ displayed_sidebar: docs
   
 コードを実行した結果がこちらです:
 
-![](../assets/en/commands/pict3977362.en.png)
+![](/assets/en/commands/pict3977362.en.png)
 
 #### 参照 
 

@@ -6,7 +6,7 @@ title: Lista jerárquica
 
 Las listas jerárquicas son objetos formulario que pueden utilizarse para mostrar datos en forma de listas con uno o más niveles que pueden desplegarse o contraerse.
 
-![](../assets/en/FormObjects/Hlist1.png)
+![](/assets/en/FormObjects/Hlist1.png)
 
 Cuando corresponda, el icono desplegar/contraer se mostrará automáticamente a la izquierda del elemento. Las listas jerárquicas soportan un número ilimitado de subniveles.
 

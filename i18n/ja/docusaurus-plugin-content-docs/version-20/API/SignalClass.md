@@ -34,7 +34,7 @@ Signal オブジェクトは、[New signal](#new-signal) コマンドによっ�
 - `signal.trigger()` は、他のワーカー/プロセスを待機状態から解放するために、タスク実行を終えたワーカー/プロセスが呼び出す必要があります。
 
 
-![](../assets/en/API/signal.png)
+![](/assets/en/API/signal.png)
 
 `signal.trigger()` の呼び出しによって解放されたシグナルは 、再利用することができません。 別のシグナルを設定するには、`New signal` コマンドをあらためて呼び出す必要があります。
 

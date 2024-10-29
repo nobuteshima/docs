@@ -82,7 +82,7 @@ Vous souhaitez insérer un saut de section continu pour avoir une section à une
 ```  
     
     
-![](../../assets/en/WritePro/commands/pict5562056.en.png)
+![](/assets/en/WritePro/commands/pict5562056.en.png)
 2. Set the column count to 2 for the first section:  
     
 ```4d  
@@ -91,7 +91,7 @@ Vous souhaitez insérer un saut de section continu pour avoir une section à une
 ```  
     
     
-![](../../assets/en/WritePro/commands/pict5562058.en.png)
+![](/assets/en/WritePro/commands/pict5562058.en.png)
 
 #### Voir aussi 
 

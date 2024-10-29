@@ -31,7 +31,7 @@ VP INSERT ROWS(VP Row("ViewProArea";0;3))
 
 Le résultat est le suivant :
 
-![](../../assets/en/ViewPro/cmd_vpInsertRows.PNG)
+![](/assets/en/ViewPro/cmd_vpInsertRows.PNG)
 
 #### Voir également
 

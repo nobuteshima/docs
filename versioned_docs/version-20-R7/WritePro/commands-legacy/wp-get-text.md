@@ -51,7 +51,7 @@ The optional *expressions* parameter provides instructions for the evaluation of
 
 To retrieve the text in this document:
 
-![](../../assets/en/WritePro/commands/pict3772381.en.png)
+![](/assets/en/WritePro/commands/pict3772381.en.png)
 
 you can write:
 

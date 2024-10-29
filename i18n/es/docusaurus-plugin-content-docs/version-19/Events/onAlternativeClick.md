@@ -18,12 +18,12 @@ Algunos estilos de botón pueden ser [vinculados a un menú emergente](FormObjec
 - Si el menú emergente está **separado**, el evento sólo se genera cuando se hace clic en la parte del botón con la flecha.
 - Si el menú emergente está **asociado**, el evento se genera cuando se hace clic en cualquier parte del botón. Tenga en cuenta que el evento [`On Long Click`](onLongClick.md) no se puede generar con este tipo de botón.
 
-![](../assets/en/Events/clickevents.png)
+![](/assets/en/Events/clickevents.png)
 
 ### List box
 
 Este evento se genera en las columnas de [list box de tipo array objeto](FormObjects/listbox_overview.md#object-arrays-in-columns-4d-view-pro), cuando el usuario hace clic en un botón de selección de widget (atributo "alternateButton").
 
-![](../assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
 
 Ver la [descripción del atributo "alternateButton"](FormObjects/listbox_overview.md#alternatebutton).

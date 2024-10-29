@@ -42,7 +42,7 @@ displayed_sidebar: docs
  $wpRow3:=WP Table append row($wpTable;"Mary";"Trenton";18;"New!")
 ```
 
-![](../../assets/en/WritePro/commands/pict3306976.en.png)
+![](/assets/en/WritePro/commands/pict3306976.en.png)
 
 #### 例題 2 
 
@@ -71,7 +71,7 @@ displayed_sidebar: docs
  WP SET ATTRIBUTES($wpTable;wk font size;10)
 ```
 
-![](../../assets/en/WritePro/commands/pict3369663.en.png)
+![](/assets/en/WritePro/commands/pict3369663.en.png)
 
 #### 参照 
 

@@ -124,7 +124,7 @@ Coordonnées supérieures de l'objet dans le formulaire.
 
 Définit l'arrondi des coins (en pixels) de l'objet. Par défaut, la valeur du rayon est de 0 pixel. Vous pouvez modifier cette propriété pour dessiner des objets arrondis avec des formes personnalisées :
 
-![](../assets/en/FormObjects/shape_rectangle.png)
+![](/assets/en/FormObjects/shape_rectangle.png)
 
 La valeur minimale est de 0. Dans ce cas, un rectangle d'objet standard non arrondi est dessiné.
 La valeur maximale dépend de la taille du rectangle (elle ne peut pas dépasser la moitié de la taille du côté le plus court du rectangle) et est calculée dynamiquement.
@@ -136,7 +136,7 @@ Avec les [zones de texte](text.md) et les [zones de saisie](input_overview.md) :
 - la propriété de rayon d'angle n'est disponible qu'avec les [styles de ligne de bordure](properties_BackgroundAndBorder.md#border-line-style) "none", "solid" ou "dotted",
 - l'arrondi du coin est dessiné en dehors de la zone de l'objet (l'objet apparaît plus grand dans le formulaire mais sa [largeur](properties_CoordinatesAndSizing.md#width) et sa [hauteur](properties_CoordinatesAndSizing.md#height) ne sont pas étendues).
 
-![](../assets/en/FormObjects/radius-text.png)
+![](/assets/en/FormObjects/radius-text.png)
 
 :::
 
@@ -286,7 +286,7 @@ En supposant que l'unité des lignes soit «lignes», alors la cinquième ligne 
 
 Définit une marge horizontale pour les cellules. La valeur est définie en pixels (valeur par défaut = 0).
 
-![](../assets/en/FormObjects/padding.png)
+![](/assets/en/FormObjects/padding.png)
 
 #### Grammaire JSON
 

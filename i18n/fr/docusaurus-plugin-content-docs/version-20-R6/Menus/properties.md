@@ -86,7 +86,7 @@ Cette option de l'éditeur de menus permet de définir un groupe pour une comman
 
 Les groupes de commandes de menus peuvent être séparés par un filet. Cette fonctionnalité est utile pour rassembler les commandes de menus par fonction.
 
-![](../assets/en/Menus/separator.png)
+![](/assets/en/Menus/separator.png)
 
 Vous ajoutez un filet de séparation en créant une commande de menu.
 
@@ -133,7 +133,7 @@ Pour affecter un raccourci clavier dans l'éditeur de menus :
 Sélectionnez la ligne de menu à laquelle vous souhaitez affecter un raccourci clavier.
 Click on the [...] button to the right of the "Shortcut" entry area. La fenêtre suivante apparaît :
 
-![](../assets/en/Menus/Shortcut.png)
+![](/assets/en/Menus/Shortcut.png)
 
 Saisissez le caractère à utiliser puis (facultatif) cochez les options **Majuscule** et/ou **Alt** (**Option**) en fonction de la combinaison que vous souhaitez obtenir.
 Vous pouvez également appuyer sur les touches constituant la combinaison (n’appuyez pas sur la touche **Ctrl/Commande**).
@@ -169,11 +169,11 @@ En règle générale, les styles de police doivent être appliqués à vos menus
 
 Vous pouvez associer une icône à une ligne de menu. Elle sera affichée directement dans le menu, à côté de la ligne :
 
-![](../assets/en/Menus/iconMenu.png)
+![](/assets/en/Menus/iconMenu.png)
 
 Pour définir l’icône dans l'éditeur de menu, choisissez l'option **Ouvrir** pour ouvrir un fichier image à partir du disque. Lorsque vous sélectionnez un fichier image qui n'est pas stocké dans le dossier Resources du projet, il est automatiquement copié dans ce dossier. Une fois définie, l’icône de ligne apparaît dans la zone d’aperçu :
 
-![](../assets/en/Menus/iconpreview.png)
+![](/assets/en/Menus/iconpreview.png)
 
 Pour supprimer l’icône de ligne, choisissez l’option **Pas d’icône** dans le menu de la zone “Icône ligne”.
 

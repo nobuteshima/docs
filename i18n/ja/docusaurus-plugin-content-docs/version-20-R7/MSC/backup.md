@@ -6,7 +6,7 @@ sidebar_label: バックアップページ
 
 MSC のバックアップページは、データベースのバックアップ設定を表示し、手動のバックアップ処理を開始するのに使用します:
 
-![](../assets/en/MSC/msc_Backup.png)
+![](/assets/en/MSC/msc_Backup.png)
 
 このページは以下の 3つのエリアで構成されています:
 

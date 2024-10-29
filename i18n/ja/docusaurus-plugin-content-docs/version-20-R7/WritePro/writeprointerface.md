@@ -25,19 +25,19 @@ title: 4D WritePro インターフェース
 
 ユーザーは、4D Write Pro インタフェースツールバーとサイドバーの "表を挿入" メニューボタンから表ウィザードダイアログを開きます。
 
-![](../assets/en/WritePro/tablewizard-interface2.png)
+![](/assets/en/WritePro/tablewizard-interface2.png)
 
 このインターフェースで、ユーザーは最初のドロップダウンリストからテンプレートまたはテーブルを選択し、2番目のドロップダウンリストからテーマを選択します。
 
 ##### 列について:
 
-![](../assets/en/WritePro/columns2.PNG)
+![](/assets/en/WritePro/columns2.PNG)
 
 テンプレートまたはテーブルの選択に応じて、テンプレートに保存されているフィールドのリストが表示されます (BLOB およびオブジェクト型は自動的に除外されます)。 表の列として表示させたいフィールドは、フィールド名の左にあるチェックボックスで選択します。また、表示する列の順序はフィールドをドラッグしてリスト内を移動させることで変更することができます。
 
 ##### 行について:
 
-![](../assets/en/WritePro/rows1.PNG)
+![](/assets/en/WritePro/rows1.PNG)
 
 表ウィザードでは、ヘッダー行と追加の行の数 (それぞれ 0～5) を定義したり、[ブレーク行](https://doc.4d.com/4Dv20/4D/20/Handling-tables.200-6229469.ja.html#6233076) (小計行) を繰り返し行の上または下に設定したり、[キャリーオーバー行](https://doc.4d.com/4Dv20/4D/20/Handling-tables.200-6229469.ja.html#6236686) の表示/非表示を選択したりすることもできます。
 
@@ -45,7 +45,7 @@ title: 4D WritePro インターフェース
 
 ##### 表示について:
 
-![](../assets/en/WritePro/display2.PNG)
+![](/assets/en/WritePro/display2.PNG)
 
 ユーザーは、ドロップダウンリストから希望するオプションを選択することで、好みのズームレベルを調整し、ラジオボタンを使ってフォーミュラまたはデータを表示し、チェックボックスを使って水平ルーラーを表示するかどうかを選択します。
 

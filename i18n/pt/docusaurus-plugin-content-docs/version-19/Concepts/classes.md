@@ -56,7 +56,7 @@ Por exemplo, se quiser definir uma classe chamada "Polígono", precisa  criar o 
 Para eliminar uma classe existente, pode:
 
 - no seu disco, remover o arquivo de classe .4dm da pasta "Classes",
-- no Explorador 4D, selecionar a classe e clicar em ![](../assets/en/Users/MinussNew.png) ou escolher **Mover para Lixo** a partir do menu contextual.
+- no Explorador 4D, selecionar a classe e clicar em ![](/assets/en/Users/MinussNew.png) ou escolher **Mover para Lixo** a partir do menu contextual.
 
 ### Utilização da interface 4D
 
@@ -74,8 +74,8 @@ Na página de **Métodos** do Explorador, as classes são agrupadas na categoria
 
 Para criar uma nova classe, pode:
 
-- seleccionar a categoria **Classes** e clicar no botão ![](../assets/en/Users/PlussNew.png) .
-- seleccionar **Nova Classe...** no menu de acção na parte inferior da janela do Explorer, ou no menu contextual do grupo Classes. ![](../assets/en/Concepts/newClass.png)
+- seleccionar a categoria **Classes** e clicar no botão ![](/assets/en/Users/PlussNew.png) .
+- seleccionar **Nova Classe...** no menu de acção na parte inferior da janela do Explorer, ou no menu contextual do grupo Classes. ![](/assets/en/Concepts/newClass.png)
 - seleccionar **Novo > Classe...** a partir do menu contextual da página inicial do Explorador.
 
 #### Suporte de código de classe

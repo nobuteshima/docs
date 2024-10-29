@@ -32,7 +32,7 @@ A personalização desse valor é necessária quando se deseja usar vários apli
 
 Para atualizar qualquer outro computador cliente que não estiver conectado, basta inserir o novo número da porta (precedido por dois pontos) após o endereço IP do computador servidor na guia **Custom** da caixa de diálogo de conexão no momento da próxima conexão. Por exemplo, se o novo número de porta é 19888:
 
-![](../assets/en/settings/client-server-network.png)
+![](/assets/en/settings/client-server-network.png)
 
 > Somente os bancos de dados publicados na mesma porta que a definida no cliente 4D são visíveis na página de publicação dinâmica TCP/IP.
 

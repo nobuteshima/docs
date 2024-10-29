@@ -31,7 +31,7 @@ Para más información, consulte la sección [Clases](../Concepts/classes.md).
 Para eliminar um método ou classe existente, pode:
 
 - en su disco, elimine el archivo *.4dm* de la carpeta "Sources",
-- in the 4D Explorer, select the method or class and click ![](../assets/en/Users/MinussNew.png) or choose **Move to Trash** from the contextual menu.
+- in the 4D Explorer, select the method or class and click ![](/assets/en/Users/MinussNew.png) or choose **Move to Trash** from the contextual menu.
 
 > Para eliminar un método objeto, seleccione **Borrar el método de objeto** en el [editor de formularios](../FormEditor/formEditor.md) (menú **Objeto** o menú contextual).
 

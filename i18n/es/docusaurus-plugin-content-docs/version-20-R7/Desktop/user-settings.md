@@ -20,13 +20,13 @@ Con esta opción, puede desplegar y actualizar fácilmente varias copias de la m
 
 Considere, por ejemplo, la siguiente configuración, en la que se duplica una aplicación y cada copia utiliza un parámetro de ID de puerto diferente. Si este parámetro usuario está vinculado al archivo de datos, podrá actualizar la aplicación sin tener que cambiar manualmente el ID del puerto:
 
-![](../assets/en/settings/user-settings-config.png)
+![](/assets/en/settings/user-settings-config.png)
 
 ## Activar las propiedades usuario
 
 Para activar los parámetros usuario, debe seleccionar la opción **Parámetros** > **Seguridad** > **Autorizar las propiedades usuario**:
 
-![](../assets/en/settings/user-settings-enable.png)
+![](/assets/en/settings/user-settings-enable.png)
 
 Cuando se marca esta opción, los parámetros se separan en tres cajas de diálogo:
 
@@ -36,7 +36,7 @@ Cuando se marca esta opción, los parámetros se separan en tres cajas de diálo
 
 Puede acceder a estas cajas de diálogo utilizando el menú **Diseño > Propiedades...** o el botón **Propiedades** de la barra de herramientas:
 
-![](../assets/en/settings/user-settings-dialog.png)
+![](/assets/en/settings/user-settings-dialog.png)
 
 También puede acceder a estas cajas de diálogo utilizando el comando [OPEN SETTINGS WINDOW](https://doc.4d.com/4dv19R/help/command/en/page903.html) con el selector _settingsType_ apropiado.
 
@@ -46,7 +46,7 @@ La caja de diálogo Propiedades de estructura es idéntica a la caja de diálogo
 
 Las cajas de diálogo **Propiedades usuario** y **Propiedades usuario para el archivo de datos**contienen una selección de propiedades relevantes que pueden definirse para todos los archivos de datos o para un solo archivo de datos:
 
-![](../assets/en/settings/user-settings-2.png)
+![](/assets/en/settings/user-settings-2.png)
 
 La siguiente tabla lista las páginas de parámetros que se encuentran en las cajas de diálogo **Parámetros usuario** y **Parámetros usuario para el archivo de datos** y describe sus principales diferencias con respecto a los parámetros estándar:
 

@@ -88,7 +88,7 @@ $compCity:=ds.Company["city"] //returns the city attribute in the Company datacl
 
 Considering the following database structure:
 
-![](../assets/en/API/dataclassAttribute.png)
+![](/assets/en/API/dataclassAttribute.png)
 
 ```4d
 var $firstnameAtt;$employerAtt;$employeesAtt : Object
@@ -112,7 +112,7 @@ var $firstnameAtt;$employerAtt;$employeesAtt : Object
 
 Considering the following table properties:
 
-![](../assets/en/API/dataclassAttribute2.png)
+![](/assets/en/API/dataclassAttribute2.png)
 
 ```4d
  var $sequenceNumberAtt : Object
@@ -1132,7 +1132,7 @@ ds.People.query("places.locations[a].kind= :1 and places.locations[a].city= :2";
 
 ORDA offers a special syntax to facilitate queries in many-to-many relations. In this context, you may need to search for different values with an `AND` operator BUT in the same attribute. For example, take a look at the following structure:
 
-![alt-text](../assets/en/API/manytomany.png)
+![alt-text](/assets/en/API/manytomany.png)
 
 Imagine that you want to search all movies in which *both* actor A and actor B have a role. If you write a simple query using an `AND` operator, it will not work:
 

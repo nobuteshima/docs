@@ -31,7 +31,7 @@ displayed_sidebar: docs
 
 以下のウィンドウがあります (フィールドとフレームに水平方向に拡大のプロパティが設定されています):
 
-![](../assets/en/commands/pict39548.ja.png)
+![](/assets/en/commands/pict39548.ja.png)
 
 以下の行を実行すると:
 
@@ -41,7 +41,7 @@ displayed_sidebar: docs
 
 ウィンドウは以下のように表示されます:
 
-![](../assets/en/commands/pict39549.ja.png)
+![](/assets/en/commands/pict39549.ja.png)
 
 #### 参照 
 

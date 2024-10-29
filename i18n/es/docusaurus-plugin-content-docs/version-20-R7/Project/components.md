@@ -305,14 +305,14 @@ En un proyecto abierto, puede añadir, eliminar y obtener información sobre las
 Para mostrar el panel Dependencias:
 
 - con 4D, seleccione el ítem de menú **Diseño/Dependencias del Proyecto** (entorno de desarrollo),<br/>
-  ![dependency-menu](../assets/en/Project/dependency-menu.png)
+  ![dependency-menu](/assets/en/Project/dependency-menu.png)
 
 - con 4D Server, seleccione el ítem de menú **Ventana/Dependencias del Proyecto**.<br/>
-  ![dependency-menu-server](../assets/en/Project/dependency-menu-server.png)
+  ![dependency-menu-server](/assets/en/Project/dependency-menu-server.png)
 
 A continuación, se muestra el panel Dependencias. Las dependencias se ordenan por nombre en orden alfabético:
 
-![dependency](../assets/en/Project/dependency.png)
+![dependency](/assets/en/Project/dependency.png)
 
 La interfaz del panel Dependencias le permite gestionar las dependencias (en 4D monousuario y 4D Server). Puede añadir o eliminar las dependencias **local** y **GitHub**.
 
@@ -320,13 +320,13 @@ La interfaz del panel Dependencias le permite gestionar las dependencias (en 4D 
 
 Para añadir una dependencia local, haga clic en el botón **+** en el área de pie de página del panel. Se muestra la siguiente caja de diálogo:
 
-![dependency-add](../assets/en/Project/dependency-add.png)
+![dependency-add](/assets/en/Project/dependency-add.png)
 
 Asegúrese de que la pestaña **Local** esté seleccionada y haga clic en el botón **...**. Aparece una caja de diálogo estándar Abrir archivo, que le permite seleccionar el componente que desea añadir. Puede seleccionar un [**.4DZ**](../Desktop/building.md#build-component) o un archivo [**.4DProject**](architecture.md##applicationname4dproject-file).
 
 Si el elemento seleccionado es válido, su nombre y ubicación se muestran en la caja de diálogo.
 
-![dependency-selected](../assets/en/Project/local-selected.png)
+![dependency-selected](/assets/en/Project/local-selected.png)
 
 Si el elemento seleccionado no es válido, se mostrará un mensaje de error.
 
@@ -347,13 +347,13 @@ La dependencia se añade a la [lista de dependencias inactivas](#dependency-stat
 
 Para añadir una [dependencia GitHub](#components-stored-on-github), haga clic en el botón **+** en el área de pie de página del panel y seleccione la pestaña **GitHub**.
 
-![dependency-add-git](../assets/en/Project/dependency-add-git.png)
+![dependency-add-git](/assets/en/Project/dependency-add-git.png)
 
 Introduzca la ruta del repositorio GitHub de la dependencia. Podría ser una **URL del repositorio** o una **cadena de nombres de repositorio github/account/repository**, por ejemplo:
 
-![dependency-add-git-2](../assets/en/Project/dependency-add-git-2.png)
+![dependency-add-git-2](/assets/en/Project/dependency-add-git-2.png)
 
-Una vez establecida la conexión, se muestra el icono de GitHub![dependency-gitlogo](../assets/en/Project/dependency-gitlogo.png) en el lado derecho del área de entrada. Puede hacer clic en este icono para abrir el repositorio en su navegador predeterminado.
+Una vez establecida la conexión, se muestra el icono de GitHub![dependency-gitlogo](/assets/en/Project/dependency-gitlogo.png) en el lado derecho del área de entrada. Puede hacer clic en este icono para abrir el repositorio en su navegador predeterminado.
 
 :::note
 
@@ -363,7 +363,7 @@ If the component is stored on a [private GitHub repository](#private-repositorie
 
 You can then define the [tag or version](#tags-and-versions) option for the dependency:
 
-![dependency-git-tag](../assets/en/Project/dependency-git-tag.png)
+![dependency-git-tag](/assets/en/Project/dependency-git-tag.png)
 
 - **Latest**: Selected by default and allows to download the release that is tagged as the latest (stable) version.
 - **Up to Next Major Version**: Define a [semantic version range](#tags-and-versions) to restrict updates to the next major version.
@@ -381,11 +381,11 @@ If the component is stored on a [private GitHub repository](#private-repositorie
 - click on **Add a personal access token...** button that is displayed in the "Add a dependency" dialog box after you entered a private GitHub repository path.
 - or, select **Add a GitHub personal access token...** in the Dependency manager menu at any moment.
 
-![dependency-add-token](../assets/en/Project/dependency-add-token.png)
+![dependency-add-token](/assets/en/Project/dependency-add-token.png)
 
 Luego puede introducir su token de acceso personal:
 
-![dependency-add-token-2](../assets/en/Project/dependency-add-token-2.png)
+![dependency-add-token-2](/assets/en/Project/dependency-add-token-2.png)
 
 Solo puede introducir un token de acceso personal. Una vez se ha sido introducido un token, puede editarlo.
 
@@ -401,7 +401,7 @@ Sólo las dependencias declaradas en el archivo [**dependencies.json**](#depende
 
 Aparece una caja de diálogo de confirmación. Si la dependencia se declaró en el archivo **environment4d.json**, una opción permite eliminarla:
 
-![dependency-remove](../assets/en/Project/remove-comp.png)
+![dependency-remove](/assets/en/Project/remove-comp.png)
 
 If you confirm the dialog box, the removed dependency [status](#dependency-status) is automatically flagged "Unload after restart". Se descargará cuando se reinicie la aplicación.
 
@@ -409,7 +409,7 @@ If you confirm the dialog box, the removed dependency [status](#dependency-statu
 
 El panel Dependencias enumera todas las dependencias del proyecto, sea cual sea su origen, es decir, de dónde procedan. El origen de la dependencia lo suministra la etiqueta bajo su nombre:
 
-![dependency-origin](../assets/en/Project/dependency-origin.png)
+![dependency-origin](/assets/en/Project/dependency-origin.png)
 
 Las siguientes opciones de origen son posibles:
 
@@ -422,7 +422,7 @@ Las siguientes opciones de origen son posibles:
 
 **Clic derecho** en una línea de dependencia y selecciona **Mostrar en el disco** para revelar la ubicación de una dependencia:
 
-![dependency-show](../assets/en/Project/dependency-show.png)
+![dependency-show](/assets/en/Project/dependency-show.png)
 
 :::note
 
@@ -435,13 +435,13 @@ El icono del componente y el logotipo de ubicación ofrecen información adicion
 - El logotipo del componente indica si es suministrado por 4D o por un desarrollador externo.
 - Los componentes locales se pueden diferenciar de los componentes GitHub por un pequeño icono.
 
-![dependency-origin](../assets/en/Project/dependency-github.png)
+![dependency-origin](/assets/en/Project/dependency-github.png)
 
 ### Filtrado de dependencias
 
 Por defecto, se listan todas las dependencias identificadas por el gestor de dependencias, sea cual sea su [estado](#dependency-status). Puede filtrar las dependencias mostradas según su estado seleccionando la pestaña correspondiente en la parte superior del panel Dependencias:
 
-![dependency-tabs](../assets/en/Project/dependency-tabs.png)
+![dependency-tabs](/assets/en/Project/dependency-tabs.png)
 
 - **Activo**: dependencias que están cargadas y pueden ser utilizadas en el proyecto. Incluye dependencias _overloading_, las cuales son realmente cargadas. Las dependencias _Overloaded_ se enumeran en el panel **Conflicts** junto con todas las dependencias en conflicto.
 - **Inactivo**: dependencias que no están cargadas en el proyecto y no están disponibles. Hay muchas razones posibles para este estado: archivos que faltan, incompatibilidad de versiones...
@@ -451,7 +451,7 @@ Por defecto, se listan todas las dependencias identificadas por el gestor de dep
 
 Las dependencias que requieren la atención del desarrollador se indican mediante una **etiqueta de estado** a la derecha de la línea y un color de fondo específico:
 
-![dependency-status](../assets/en/Project/dependency-conflict2.png)
+![dependency-status](/assets/en/Project/dependency-conflict2.png)
 
 Las siguientes etiquetas de estado están disponibles:
 
@@ -465,4 +465,4 @@ Las siguientes etiquetas de estado están disponibles:
 
 Al pasar el ratón por encima de la línea de dependencia, se muestra un mensaje que ofrece información adicional sobre el estado:
 
-![dependency-tips](../assets/en/Project/dependency-tip1.png)
+![dependency-tips](/assets/en/Project/dependency-tip1.png)

@@ -57,7 +57,7 @@ rowNumber 引数の番号がの表内にある行数より大きい場合、行�
 
 正しい位置に行が二つ新しく追加されます:
 
-![](../../assets/en/WritePro/commands/pict4680266.en.png)
+![](/assets/en/WritePro/commands/pict4680266.en.png)
 
 #### 参照 
 

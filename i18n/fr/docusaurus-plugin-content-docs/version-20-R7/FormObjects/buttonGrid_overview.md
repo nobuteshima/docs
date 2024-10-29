@@ -5,7 +5,7 @@ title: Grille de boutons
 
 Une grille de boutons est un objet transparent placé sur une image. L’image doit correspondre à la forme d’un tableau. Lorsque l'utilisateur clique sur un graphique, ce dernier aura un aspect comprimé :
 
-![](../assets/en/FormObjects/buttonGrid_smileys.png)
+![](/assets/en/FormObjects/buttonGrid_smileys.png)
 
 Vous pouvez utiliser une grille de boutons pour déterminer où l’utilisateur clique dans l’image. Votre méthode objet utilise alors l’événement `Sur clic` et gère les actions suivant l’emplacement du clic souris.
 
@@ -15,7 +15,7 @@ Pour créer une grille de boutons, placez une image d’arrière-plan puis dessi
 
 4D utilise une grille de boutons pour les palettes de couleurs :
 
-![](../assets/en/FormObjects/button_buttonGrid.png)
+![](/assets/en/FormObjects/button_buttonGrid.png)
 
 ## Utiliser une grille de boutons
 

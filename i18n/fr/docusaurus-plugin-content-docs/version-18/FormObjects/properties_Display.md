@@ -9,7 +9,7 @@ title: Affichage
 
 Les formats Alpha contrôlent l'apparence des champs et des variables alphanumériques (strings) lorsqu'ils sont affichés ou imprimés. Voici une liste des formats proposés pour les champs alphanumériques :
 
-![](../assets/en/FormObjects/property_alphaFormat.png)
+![](/assets/en/FormObjects/property_alphaFormat.png)
 
 Vous pouvez choisir un format dans cette liste ou utiliser n'importe quel format personnalisé. La liste par défaut contient des formats pour certains des champs alpha les plus courants qui nécessitent des formats: numéros de téléphone américains (local et longue distance), numéros de sécurité sociale et codes postaux. Vous pouvez également saisir un nom de format personnalisé défini dans l'éditeur Filtres et formats de la boîte à outils. Dans ce cas, le format ne peut pas être modifié dans les propriétés de l'objet. Tous les formats ou filtres personnalisés que vous avez créés sont automatiquement disponibles, précédés d'une barre verticale (|).
 
@@ -256,7 +256,7 @@ Les options de troncature et de mise à l'échelle n'affectent pas l'image elle-
 
 Le format **Non tronquée** permet à 4D de redimensionner l'image pour qu'elle corresponde aux dimensions de la zone.
 
-![](../assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
+![](/assets/en/FormObjects/property_pictureFormat_ScaledToFit.png)
 
 ### Image tronquée (centrée et non centrée)
 
@@ -267,7 +267,7 @@ Avec le format **Image tronquée (centrée)**, 4D centre l'image dans la zone et
 Avec le format **Image tronquée (non centrée)**, 4D place le coin supérieur gauche de l'image dans le coin supérieur gauche de la zone et rogne toute partie qui ne rentre pas dans la zone. 4D rogne à partie de la droite et du bas.
 > Lorsque le format de l'image est **tronquée (non centrée)**, il est possible d'ajouter des barres de défilement à la zone de saisie.
 
-![](../assets/en/FormObjects/property_pictureFormat_Truncated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Truncated.png)
 
 ### Image proportionnelle et Image proportionnelle centrée
 
@@ -279,7 +279,7 @@ Si l'image est plus petite que la zone définie dans le formulaire, elle ne sera
 
 Si vous avez appliqué le format **Image proportionnelle centrée**, l'image est également centrée dans la zone :
 
-![](../assets/en/FormObjects/property_pictureFormat_ScaledProportional.png)
+![](/assets/en/FormObjects/property_pictureFormat_ScaledProportional.png)
 
 ### Mosaïque
 
@@ -287,7 +287,7 @@ Si vous avez appliqué le format **Image proportionnelle centrée**, l'image est
 
 Lorsque la zone qui contient une image avec le format **Mosaïque** est agrandie, l'image n'est pas déformée mais est répliquée autant de fois que nécessaire pour remplir entièrement la zone.
 
-![](../assets/en/FormObjects/property_pictureFormat_Replicated.png)
+![](/assets/en/FormObjects/property_pictureFormat_Replicated.png)
 
 Si le champ est réduit à une taille plus petite que celle de l'image d'origine, l'image est tronquée (non centrée).
 
@@ -457,12 +457,12 @@ Cette option est disponible pour les colonnes avec n'importe quel type de conten
 
 * Lorsque la propriété est activée (par défaut), si le contenu d'une cellule de list box dépasse la largeur de la colonne, il est tronqué et une ellipse est affichée :
 
- ![](../assets/en/FormObjects/property_truncate1.png)
+ ![](/assets/en/FormObjects/property_truncate1.png)
 > La position de l'ellipse dépend de l'OS. Dans l'exemple ci-dessus (Windows), il est ajouté sur le côté droit du texte. Sur macOS, les points de suspension sont ajoutés au milieu du texte.
 
 * Lorsque la propriété est désactivée, si le contenu d'une cellule dépasse la largeur de la colonne, il est simplement coupé sans ajout d'une ellipse :
 
- ![](../assets/en/FormObjects/property_truncate2.png)
+ ![](/assets/en/FormObjects/property_truncate2.png)
 
 L'option Tronquer avec ellipse est activée par défaut et peut être spécifiée pour les list box de type tableau, sélection ou collection.
 
@@ -500,7 +500,7 @@ Dans le contexte des formulaires liste, la propriété de Visibilité prend en c
 
 Cette propriété est utilisée uniquement lors du dessin d'objets situés dans le corps d'un formulaire liste. Elle indique à 4D s'il faut ou non dessiner l'objet en fonction de la sélection/non-sélection de l'enregistrement en cours de traitement. Cela vous permet de représenter une sélection d'enregistrements en utilisant des attributs visuels autres que les couleurs de surbrillance :
 
-![](../assets/en/FormObjects/select-row.png)
+![](/assets/en/FormObjects/select-row.png)
 
 4D ne prend pas en compte cette propriété si l'objet a été masqué à l'aide de la commande [`OBJECT SET VISIBLE`](https://doc.4d.com/4dv18/help/command/fr/page603.html); dans ce cas, l'objet reste invisible quelle que soit la sélection de l'enregistrement.
 
@@ -532,7 +532,7 @@ Lorsque cette option est sélectionnée, le texte passe automatiquement à la li
 
 * Dans les colonnes/zones multi-lignes, 4D effectue des retours à la ligne automatiques.
 
-![](../assets/en/FormObjects/wordwrap2.png)
+![](/assets/en/FormObjects/wordwrap2.png)
 
 #### Non cochée pour list box/Non pour input
 
@@ -540,15 +540,15 @@ Lorsque cette option est sélectionnée, le texte passe automatiquement à la li
 
 Lorsque cette option est sélectionnée, 4D ne fait aucune retour automatique à la ligne et le dernier mot qui peut être affiché peut être tronqué. Dans les zones de type texte, les retours chariots sont pris en charge :
 
-![](../assets/en/FormObjects/wordwrap3.png)
+![](/assets/en/FormObjects/wordwrap3.png)
 
 Dans les listes déroulantes, tout texte trop long est tronqué et affiché avec une ellipse (...). Dans l'exemple suivant, l'option de retour à la ligne est **cochée pour la colonne de gauche** et **décochée pour la colonne de droite** :
 
-![](../assets/en/FormObjects/property_wordwrap1.png)
+![](/assets/en/FormObjects/property_wordwrap1.png)
 
 Notez que quelle que soit la valeur de l'option de renvoi à la ligne automatique, la hauteur de la ligne n'est pas modifiée. Si le texte avec des sauts de ligne ne peut pas être entièrement affiché dans la colonne, il est tronqué (sans ellipse). Dans le cas des list box affichant une seule ligne, seule la première ligne de texte est affichée :
 
-![](../assets/en/FormObjects/property_wordwrap2.png)
+![](/assets/en/FormObjects/property_wordwrap2.png)
 
 #### Automatique pour l'input (option par défaut)
 
@@ -557,7 +557,7 @@ Notez que quelle que soit la valeur de l'option de renvoi à la ligne automatiqu
 * Dans les zones mono-lignes, les mots situés en fin de ligne sont tronqués et il n’y a pas de retours à la ligne.
 * Dans les zones multi-lignes, 4D effectue des retours à la ligne automatiques.
 
-![](../assets/en/FormObjects/wordwrap1.png)
+![](/assets/en/FormObjects/wordwrap1.png)
 
 #### Grammaire JSON
 

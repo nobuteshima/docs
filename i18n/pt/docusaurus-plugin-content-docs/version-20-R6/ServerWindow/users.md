@@ -5,13 +5,13 @@ title: Página Usuários
 
 La página **Usuarios** lista los usuarios 4D conectados al servidor.
 
-![](../assets/en/Admin/server-users.png)
+![](/assets/en/Admin/server-users.png)
 
 The "Users" button indicates, in parentheses, the total number of users connected to the server (this number does not take into account any display filters applied to the window). A página também contém uma área de pesquisa dinâmica e botões de controlo. You can modify the order of the columns by dragging and dropping their header areas.
 
 Também pode ordenar a lista de valores da coluna clicando no respetivo cabeçalho. Clique várias vezes para especificar sucessivamente uma ordem ascendente/descendente.
 
-![](../assets/en/Admin/server-users-sort.png)
+![](/assets/en/Admin/server-users-sort.png)
 
 ## Lista de usuários
 
@@ -30,7 +30,7 @@ For each user connected to the server, the list provides the following informati
 
 4D Server specifically handles cases where a machine running a 4D remote application switches to sleep mode while its connection to the server machine is still active. In this case, the connected 4D remote application automatically notifies 4D Server of its imminent disconnection. En el servidor, el usuario conectado pasa a un estado de actividad **Dormido**:
 
-![](../assets/en/Admin/server-sleeping.png)
+![](/assets/en/Admin/server-sleeping.png)
 
 Este estado liberta recursos no servidor. In addition, the 4D remote application reconnects to 4D Server automatically after waking up from sleep mode.
 
@@ -52,7 +52,7 @@ Esta página inclui três botões de controlo. Esses botões estarão ativos se 
 
 This button can be used to send a message to the 4D users selected in the window. Se nenhum usuário estiver selecionado, o botão não está ativo. When you click on this button, a dialog box appears that lets you enter the message. The dialog box indicates the number of users that will receive this message:
 
-![](../assets/en/Admin/server-message.png)
+![](/assets/en/Admin/server-message.png)
 
 A mensagem será apresentada como um alerta nas máquinas remotas.
 

@@ -23,7 +23,7 @@ In *rangeObj*, pass a range object of the cell span. Les cellules fusionnées de
 
 Pour retirer toutes les fusions de cellules de ce document :
 
-![](../../assets/en/ViewPro/cmd_vpRemoveSpan1.PNG)
+![](/assets/en/ViewPro/cmd_vpRemoveSpan1.PNG)
 
 ```4d
  //find all cell spans
@@ -36,7 +36,7 @@ Pour retirer toutes les fusions de cellules de ce document :
 
 Résultat:
 
-![](../../assets/en/ViewPro/cmd_vpRemoveSpan2.PNG)
+![](/assets/en/ViewPro/cmd_vpRemoveSpan2.PNG)
 
 #### Voir également
 

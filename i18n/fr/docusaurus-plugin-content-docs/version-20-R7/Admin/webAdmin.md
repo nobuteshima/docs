@@ -19,11 +19,11 @@ Vous pouvez configurer le server web `WebAdmin` pour qu'il se lance au démarrag
 
 - Si vous utilisez une application 4D avec une interface, sélectionnez **Fichier > Administration Web > Propriétés...**.
 
-![alt-text](../assets/en/Admin/waMenu1.png)
+![alt-text](/assets/en/Admin/waMenu1.png)
 
 Cochez l'option **Lancer le serveur WebAdmin au démarrage** dans la boîte de dialogue des paramètres :
 
-![alt-text](../assets/en/Admin/waSettings.png)
+![alt-text](/assets/en/Admin/waSettings.png)
 
 - Que vous utilisiez une application 4D avec ou sans interface, vous pouvez activer le lancement automatique au démarrage en utilisant l'argument suivant dans _L'interface de ligne de commande_ :
 
@@ -39,7 +39,7 @@ Si vous utilisez une application 4D avec une interface, vous pouvez démarrer ou
 
 Sélectionnez **Fichier> Administration web > Démarrer le serveur**.
 
-![alt-text](../assets/en/Admin/waMenu2.png)
+![alt-text](/assets/en/Admin/waMenu2.png)
 
 Le menu affiche **Arrêter le Server** une fois le serveur lancé. Sélectionnez **Arrêter le Server** pour arrêter le serveur web `WebAdmin`.
 
@@ -55,11 +55,11 @@ Vous pouvez configurer le composant `WebAdmin` dans la [fenêtre de configuratio
 
 Pour ouvrir la fenêtre de configuration des paramètres d'administration web, sélectionnez **Fichier > Administration web > Propriétés...**.
 
-![alt-text](../assets/en/Admin/waMenu1.png)
+![alt-text](/assets/en/Admin/waMenu1.png)
 
 La fenêtre suivante s'affiche :
 
-![alt-text](../assets/en/Admin/waSettings2.png)
+![alt-text](/assets/en/Admin/waSettings2.png)
 
 #### Lancer le serveur WebAdmin au démarrage
 
@@ -104,7 +104,7 @@ Statut ou format du fichier de logs des requêtes HTTP (HTTPDebugLog__nn_.txt, s
 
 La configuration d'une clé d'accès est obligatoire pour débloquer l'accès au serveur web `webAdmin` via des URL (l'accès via les menus ne requiert pas de clé d'accès). Lorsque aucune clé d'accès n'est définie, il n'est pas possible pour les clients web d'accéder aux interfaces d'administration web telles que l'[Explorateur de données](dataExplorer.md) via des URL. En cas de requête de connexion, une page d'erreur est retournée:
 
-![alt-text](../assets/en/Admin/accessKey.png)
+![alt-text](/assets/en/Admin/accessKey.png)
 
 Une clé d'accès est similaire à un mot de passe, mais sans login associé.
 

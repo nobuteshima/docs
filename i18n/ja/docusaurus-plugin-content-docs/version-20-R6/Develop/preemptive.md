@@ -41,7 +41,7 @@ title: プリエンプティブプロセス
 
 要素毎の "スレッドセーフティ" プロパティは、その要素自身によります:
 
-- 4Dコマンド: スレッドセーフティは内部プロパティです。 [4Dランゲージリファレンス](https://doc.4d.com/4Dv20/4D/20.1/4D-Language-Reference.100-6479538.ja.html) 内では、スレッドセーフなコマンドは ![](../assets/en/Develop/thread-safe.png) のアイコンで識別されています。 [`Command name`](https://doc.4d.com/4dv20/help/command/ja/page538.html) コマンドを使用して、コマンドがスレッドセーフであるかどうかを知ることもできます。 4Dコマンドの大部分はプリエンプティブモードで実行可能です。
+- 4Dコマンド: スレッドセーフティは内部プロパティです。 [4Dランゲージリファレンス](https://doc.4d.com/4Dv20/4D/20.1/4D-Language-Reference.100-6479538.ja.html) 内では、スレッドセーフなコマンドは ![](/assets/en/Develop/thread-safe.png) のアイコンで識別されています。 [`Command name`](https://doc.4d.com/4dv20/help/command/ja/page538.html) コマンドを使用して、コマンドがスレッドセーフであるかどうかを知ることもできます。 4Dコマンドの大部分はプリエンプティブモードで実行可能です。
 - プロジェクトメソッド: スレッドセーフであるための条件は [こちらの段落](#スレッドセーフなメソッドの書き方) にまとめられています。
 
 原則として、プリエンプティブスレッド内で実行されるコードは外部との相互作用する部分、たとえばプラグインコードやインタープロセス変数などを呼び出すことはできません。 しかしながら、4Dデータサーバーと ORDA はプリエンプティブ実行をサポートしていることから、データアクセスは可能です。
@@ -54,7 +54,7 @@ title: プリエンプティブプロセス
 
 メソッドがプリエンプティブモードに則していることを宣言するためには、メソッドプロパティダイアログボックスの "実行モード" 宣言オプションを使用する必要があります:
 
-![](../assets/en/Develop/preemptif.png)
+![](/assets/en/Develop/preemptif.png)
 
 以下のオプションが提供されています:
 
@@ -127,15 +127,15 @@ title: プリエンプティブプロセス
 
 プリエンプティブモードでのメソッド実行は、"プリエンプティブ" プロパティや呼び出しチェーンに依存します。 以下の表は、これらの様々な状況をまとめたものです:
 
-![](../assets/en/Develop/legend.png)
+![](/assets/en/Develop/legend.png)
 
 | 宣言と呼び出しチェーン                           | コンパイル | スレッドセーフの結果                             | 実行モード    | 説明                                                                                                                                                                                                                                                                                  |
 | ------------------------------------- | ----- | -------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../assets/en/Develop/scenar1.png) | OK    | ![](../assets/en/Develop/scenar2.png)  | プリエンプティブ | CallComp は親メソッドで、プリエンプティブな使用が "capable" (可能) と宣言されています。MyComp は内部的にスレッドセーフなので、CallComp も内部的にスレッドセーフとなり、プロセスはプリエンプティブになります                                                                                                                                        |
-| ![](../assets/en/Develop/scenar3.png) | エラー発生 | ![](../assets/en/Develop/scenar4.png)  | 実行不可能    | CallDial は親メソッドでプリエンプティブ "capable" (可能)、MyDialog は "indifferent" と宣言されています。 しかし、MyDialog が内部的にはスレッドアンセーフのため、呼び出しチェーンを "汚染" してしまいます。 CallDial の宣言と実際の実効性が矛盾するためコンパイルは失敗します。 解決方法は、MyDialog を変更してスレッドセーフにして実行をプリエンプティブにするか、CallDial のプロパティを変更してコオペラティブに実行するようにします。 |
-| ![](../assets/en/Develop/scenar5.png) | OK    | ![](../assets/en/Develop/scenar6.png)  | コオペラティブ  | CallDial はプリエンプティブな使用が "incapable"(不可) と宣言されているのでコンパイル時には内部的にスレッドアンセーフとなり、MyDialog の状況に関わらず実行はかならずコオペラティブになります。                                                                                                                                                  |
-| ![](../assets/en/Develop/scenar7.png) | OK    | ![](../assets/en/Develop/scenar8.png)  | コオペラティブ  | CallComp が親メソッドでプロパティが "indifferent" のため、呼び出しチェーンがすべてスレッドセーフでも、プロセスはコオペラティブになります。                                                                                                                                                                                                   |
-| ![](../assets/en/Develop/scenar9.png) | OK    | ![](../assets/en/Develop/scenar10.png) | コオペラティブ  | CallDial が親メソッドでプロパティが "indifferent" のため、プロセスはコオペラティブになり、コンパイルは成功します。                                                                                                                                                                                                               |
+| ![](/assets/en/Develop/scenar1.png) | OK    | ![](/assets/en/Develop/scenar2.png)  | プリエンプティブ | CallComp は親メソッドで、プリエンプティブな使用が "capable" (可能) と宣言されています。MyComp は内部的にスレッドセーフなので、CallComp も内部的にスレッドセーフとなり、プロセスはプリエンプティブになります                                                                                                                                        |
+| ![](/assets/en/Develop/scenar3.png) | エラー発生 | ![](/assets/en/Develop/scenar4.png)  | 実行不可能    | CallDial は親メソッドでプリエンプティブ "capable" (可能)、MyDialog は "indifferent" と宣言されています。 しかし、MyDialog が内部的にはスレッドアンセーフのため、呼び出しチェーンを "汚染" してしまいます。 CallDial の宣言と実際の実効性が矛盾するためコンパイルは失敗します。 解決方法は、MyDialog を変更してスレッドセーフにして実行をプリエンプティブにするか、CallDial のプロパティを変更してコオペラティブに実行するようにします。 |
+| ![](/assets/en/Develop/scenar5.png) | OK    | ![](/assets/en/Develop/scenar6.png)  | コオペラティブ  | CallDial はプリエンプティブな使用が "incapable"(不可) と宣言されているのでコンパイル時には内部的にスレッドアンセーフとなり、MyDialog の状況に関わらず実行はかならずコオペラティブになります。                                                                                                                                                  |
+| ![](/assets/en/Develop/scenar7.png) | OK    | ![](/assets/en/Develop/scenar8.png)  | コオペラティブ  | CallComp が親メソッドでプロパティが "indifferent" のため、呼び出しチェーンがすべてスレッドセーフでも、プロセスはコオペラティブになります。                                                                                                                                                                                                   |
+| ![](/assets/en/Develop/scenar9.png) | OK    | ![](/assets/en/Develop/scenar10.png) | コオペラティブ  | CallDial が親メソッドでプロパティが "indifferent" のため、プロセスはコオペラティブになり、コンパイルは成功します。                                                                                                                                                                                                               |
 
 ### 実際の実行モードの調べ方
 
@@ -171,7 +171,7 @@ title: プリエンプティブプロセス
 
 "プリエンプティブプロセスで実行可能" プロパティを持つメソッドは、コンパイル時に 4D によってチェックされます。 メソッドがスレッドセーフになるのを妨げる要因をコンパイラーが見つけた場合にはコンパイルエラーが生成されます:
 
-![](../assets/en/Develop/thread-unsafe.png)
+![](/assets/en/Develop/thread-unsafe.png)
 
 :::info
 

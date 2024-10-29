@@ -65,7 +65,7 @@ displayed_sidebar: docs
  RELEASE MENU($menu)
 ```
 
-![](../assets/en/commands/pict2678144.en.png)
+![](/assets/en/commands/pict2678144.en.png)
 
 #### 例題 2 
 

@@ -39,7 +39,7 @@ title: VP Get values
 
 C4 から G6 までの値を取得します:
 
-![](../../assets/en/ViewPro/cmd_vpGetValues.PNG)
+![](/assets/en/ViewPro/cmd_vpGetValues.PNG)
 
 ```4d
 $result:=VP Get values(VP Cells("ViewProArea";2;3;5;3))

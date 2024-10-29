@@ -6,7 +6,7 @@ sidebar_label: Page restitution
 
 La page **Restitution** du Centre de sécurité et de maintenance vous permet de restituer manuellement une archive de l'application courante. Cette page propose plusieurs options permettant de contrôler la restitution :
 
-![](../assets/en/MSC/MSC_restore.png)
+![](/assets/en/MSC/MSC_restore.png)
 
 > Les systèmes de restitution automatique de 4D restituent les applications et incluent le fichier d'historique si nécessaire.
 

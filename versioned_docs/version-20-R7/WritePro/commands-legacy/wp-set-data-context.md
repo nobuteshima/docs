@@ -65,7 +65,7 @@ Insert an object in the 4D Write Pro document's context and display its informat
 
 Here's the result:
 
-![](../../assets/en/WritePro/commands/pict5867255.en.png)
+![](/assets/en/WritePro/commands/pict5867255.en.png)
 
 #### Example 2 
 
@@ -73,7 +73,7 @@ When working with a template document, you can associate a context with it to fi
 
 Once a template is loaded and the data context is set, a letter template might look like this:
 
-![](../../assets/en/WritePro/commands/pict5867835.en.png)
+![](/assets/en/WritePro/commands/pict5867835.en.png)
 
 The following example loops through an entity selection and creates a print preview for each entity:
 

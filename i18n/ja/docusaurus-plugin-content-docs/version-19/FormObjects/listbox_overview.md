@@ -6,7 +6,7 @@ title: リストボックス
 
 リストボックスは複合アクティブオブジェクトで、同期化された複数列 (カラムとも呼びます) の形式でデータの表示・入力がおこなえます。 リストボックスは、エンティティセレクションやレコードセレクションなどのデータベースコンテンツのほか、コレクションや配列などのランゲージコンテンツと紐づけることができます。 データ入力、列の並べ替え、イベント管理、外観のカスタマイズ、 列の移動など、リストボックスには高度な機能が備わっています。
 
-![](../assets/en/FormObjects/listbox.png)
+![](/assets/en/FormObjects/listbox.png)
 
 リストボックスには 1つ以上の列があり、その内容が自動的に同期化されます。 理論上、列数に制限はありません (マシンのリソースに依存します)。
 
@@ -16,7 +16,7 @@ title: リストボックス
 
 実行中、リストボックスはリストとしてデータを表示し、入力を受け付けます。 セルを編集可能にするには ([その列について入力が許可されていれば](#入力の管理))、セル上で2回クリックします:
 
-![](../assets/en/FormObjects/listbox_edit.png)
+![](/assets/en/FormObjects/listbox_edit.png)
 
 リストボックスのセルには、複数行のテキストを入力・表示できます。 セル内で改行するには、**Ctrl+Return** (Windows) または **Command+Return** (macOS) を押します。
 
@@ -35,7 +35,7 @@ title: リストボックス
 * 列ヘッダー
 * 列フッター
 
-![](../assets/en/FormObjects/listbox_parts.png)
+![](/assets/en/FormObjects/listbox_parts.png)
 
 それぞれが独自のオブジェクト名や固有のプロパティを持ちます。 たとえば、列の数や、交互に使用する行の背景色などはリストボックスオブジェクトのプロパティで指定し、各列の幅は列プロパティ、ヘッダーのフォントはヘッダープロパティで指定します。
 
@@ -247,7 +247,7 @@ myCol:=myCol.push("new value") // リストボックスに new value を表示
 
 リストボックスは、それぞれ固有のプロパティを持つ 1つ以上の列オブジェクトから構成されています。 列を選択するには、フォームエディターでリストボックスオブジェクトが選択されているときに任意の列をクリックします:
 
-![](../assets/en/FormObjects/listbox_column.png)
+![](/assets/en/FormObjects/listbox_column.png)
 
 リストボックスの各列毎に標準のプロパティ (テキスト、背景色など) を設定できます。設定すると、リストボックスに対する設定よりもこちらが優先されます。
 > 配列型リストボックスのカラムについては、[式タイプ](properties_Object.md#式の型-式タイプ) (テキスト、数値、整数、ブール、ピクチャー、時間、日付、あるいはオブジェクト) を定義することができます。
@@ -289,13 +289,13 @@ myCol:=myCol.push("new value") // リストボックスに new value を表示
 
 ヘッダーが表示されていれば、フォームエディターでリストボックスオブジェクトが選択されているときに、リストボックスヘッダーをクリックするとヘッダーを選択できます:
 
-![](../assets/en/FormObjects/listbox_header.png)
+![](/assets/en/FormObjects/listbox_header.png)
 
 リストボックスの各列ヘッダー毎に標準のテキストプロパティを設定できます。設定すると、リストボックスや列に対する設定よりもこちらが優先されます。
 
 さらに、ヘッダー特有のプロパティを設定することができます。 [カスタマイズされた並び替え](#ソートの管理) などの用途に、ヘッダーの列タイトルの隣、あるいはタイトルの代わりにアイコンを表示することができます。
 
-![](../assets/en/FormObjects/lbHeaderIcon.png)
+![](/assets/en/FormObjects/lbHeaderIcon.png)
 
 ランタイムにおいてヘッダーで発生したイベントは、[その列のオブジェクトメソッド](#オブジェクトメソッド) が受け取ります。
 
@@ -312,7 +312,7 @@ myCol:=myCol.push("new value") // リストボックスに new value を表示
 
 フッターが表示されていれば、フォームエディターでリストボックスオブジェクトが選択されているときにフッターをクリックすることで選択できます:
 
-![](../assets/en/FormObjects/listbox_footers.png)
+![](/assets/en/FormObjects/listbox_footers.png)
 
 リストボックスの各列フッター毎に標準のテキストプロパティを設定できます。設定すると、リストボックスや列に対する設定よりもこちらが優先されます。 さらに、フッター特有のプロパティを設定することができます。 [カスタムまたは自動計算](properties_Object.md#変数の計算) をフッターに挿入することができます。
 
@@ -333,7 +333,7 @@ myCol:=myCol.push("new value") // リストボックスに new value を表示
 
 2つの配列で構築されるリストボックスを考えてみましょう。1つは日付でもう 1つはテキストです。 日付配列は入力不可ですが、テキスト配列は日付が過去でない場合に入力可とします。
 
-![](../assets/en/FormObjects/listbox_entry.png)
+![](/assets/en/FormObjects/listbox_entry.png)
 
 *arrText* 列のメソッドは以下の通りです:
 
@@ -443,7 +443,7 @@ myCol:=myCol.push("new value") // リストボックスに new value を表示
 
 システムのハイライトを非表示にして、リストボックスの選択行を緑の背景色で表しました:
 
-![](../assets/en/FormObjects/listbox_styles7.png)
+![](/assets/en/FormObjects/listbox_styles7.png)
 
 配列タイプのリストボックスの場合、[行背景色配列](properties_BackgroundAndBorder.md#行背景色配列) をプログラムにより更新する必要があります。 JSON フォームにおいて、リストボックスに次の行背景色配列を定義した場合:
 
@@ -525,7 +525,7 @@ JSON フォームにおいて、リストボックスに次のハイライトセ
 
 リレート先のオブジェクト属性のプロパティ値に基づいてリストボックスをソートします。 以下のようなストラクチャーの場合を考えます:
 
-![](../assets/en/FormObjects/relationLB.png)
+![](/assets/en/FormObjects/relationLB.png)
 
 `Form.child` 式に紐づいた、エンティティセレクションタイプのリストボックスを設置します。 `On Load` フォームイベントでは、`Form.child:=ds.Child.all()` を実行します。
 
@@ -548,11 +548,11 @@ End if
 [列ヘッダー変数](properties_Object.md#変数あるいは式)の値を使用すると、列の現在の並べ替え状況 (読み込み) や並べ替え矢印の表示など、追加情報を管理することができます。
 
 * 変数が 0 のとき、列は並べ替えられておらず、矢印は表示されていません。  
-  ![](../assets/en/FormObjects/sorticon0.png)
+  ![](/assets/en/FormObjects/sorticon0.png)
 
-* 変数が 1 のとき、列は昇順に並べ替えられており、並べ替え矢印が表示されています。 ![](../assets/en/FormObjects/sorticon1.png)
+* 変数が 1 のとき、列は昇順に並べ替えられており、並べ替え矢印が表示されています。 ![](/assets/en/FormObjects/sorticon1.png)
 
-* 変数が 2 のとき、列は降順に並べ替えられており、並べ替え矢印が表示されています。 ![](../assets/en/FormObjects/sorticon2.png)
+* 変数が 2 のとき、列は降順に並べ替えられており、並べ替え矢印が表示されています。 ![](/assets/en/FormObjects/sorticon2.png)
 
 > 列ヘッダー変数には、宣言された、あるいは動的な [変数](Concepts/variables.md) のみを使用できます。 その他の [式](Concepts/quick-tour.md#式) (例: `Form.sortValue`) はサポートされていません。
 
@@ -590,7 +590,7 @@ End if
 * 行属性について: 列の属性値を受け継ぎます
 * 列属性について: リストボックスの属性値を受け継ぎます
 
-このように、高次のレベルの属性値をオブジェクトに継承させたい場合は、定義するコマンドに `lk inherited` 定数 (デフォルト値) を渡すか、対応する行スタイル/カラー配列の要素に直接渡します。 以下のような、標準のフォントスタイルで行の背景色が交互に変わる配列リストボックスを考えます: ![](../assets/en/FormObjects/listbox_styles3.png)
+このように、高次のレベルの属性値をオブジェクトに継承させたい場合は、定義するコマンドに `lk inherited` 定数 (デフォルト値) を渡すか、対応する行スタイル/カラー配列の要素に直接渡します。 以下のような、標準のフォントスタイルで行の背景色が交互に変わる配列リストボックスを考えます: ![](/assets/en/FormObjects/listbox_styles3.png)
 
 以下の変更を加えます:
 
@@ -599,7 +599,7 @@ End if
 * 5 列目の列オブジェクトの [行スタイル配列](properties_Text.md#行スタイル配列) を使用して、5 列目の二つの要素を太字に変更します。
 * 1、2 列目の列オブジェクトの [行背景色配列](properties_BackgroundAndBorder.md#行背景色配列) を使用して、両列から一つずつ、計二つの背景色を濃い青に変更します:
 
-![](../assets/en/FormObjects/listbox_styles3.png)
+![](/assets/en/FormObjects/listbox_styles3.png)
 
 リストボックスを元の状態に戻すには、以下の手順でおこないます:
 
@@ -663,7 +663,7 @@ Variable 1 は常に、リストボックスの先頭列の変数名に対応し
 
 最後の変数に複数の同じ値が存在しても、この変数が階層になることはありません。 たとえば、arr1 に A A A B B B、arr2 に 1 1 1 2 2 2、そしてarr3 に X X Y Y Y Z が値として設定されている場合、A、B、1、そして 2 は階層で表示できますが、X と Y は階層になりません:
 
-![](../assets/en/FormObjects/property_hierarchicalListBox.png)
+![](/assets/en/FormObjects/property_hierarchicalListBox.png)
 
 この原則は階層がひとつだけ設定されている場合には適用されません。この場合、同じ値はグループ化されます。
 > 既存のリストボックスで階層を設定した場合、(最初のものを除き) これらの列を削除または非表示にしなければなりません。でないと、それらはリストボックス中で重複して表示されます。 エディターのポップアップメニューを使用して階層を設定すると (階層リストボックス参照)、不要な列は自動でリストボックスから取り除かれます。
@@ -672,7 +672,7 @@ Variable 1 は常に、リストボックスの先頭列の変数名に対応し
 
 フォームエディター内で配列タイプのリストボックスオブジェクトの一番目から任意の数の列を選択すると、**階層を作成** コマンドがコンテキストメニューから利用できるようになります:
 
-![](../assets/en/FormObjects/listbox_hierarchy1.png)
+![](/assets/en/FormObjects/listbox_hierarchy1.png)
 
 このコマンドは階層化のショートカットです。 このコマンドを選択すると、以下のアクションが実行されます:
 
@@ -682,7 +682,7 @@ Variable 1 は常に、リストボックスの先頭列の変数名に対応し
 
 例: 左から国、地域、都市、人口列が設定されたリストボックスがあります。 国、地域、都市が (下図の通り) 選択され、コンテキストメニューから **階層を作成** を選択すると、先頭列に3レベルの階層が作成され、二番目と三番目の列は取り除かれます。人口列が二番目になります:
 
-![](../assets/en/FormObjects/listbox_hierarchy2.png)
+![](/assets/en/FormObjects/listbox_hierarchy2.png)
 
 ##### 階層をキャンセル
 
@@ -697,11 +697,11 @@ Variable 1 は常に、リストボックスの先頭列の変数名に対応し
 
 配列中で値が繰り返されていると、ブレーク行と階層 "ノード" がリストボックスに自動で追加されます。 たとえば、リストボックスに都市に関する 4つの配列が含まれていて、それぞれ国、地域、都市名、人口データが含まれているとします:
 
-![](../assets/en/FormObjects/hierarch1.png)
+![](/assets/en/FormObjects/hierarch1.png)
 
 リストボックスが階層形式で表示されると (先頭3つの配列が階層化されている場合)、以下のように表示されます:
 
-![](../assets/en/FormObjects/hierarch2.png)
+![](/assets/en/FormObjects/hierarch2.png)
 
 階層を正しく構築するためには、事前に配列をソートしなければなりません。 たとえば、配列中にデータが AAABBAACC の順で含まれていると、階層は以下のようになります:
 
@@ -722,11 +722,11 @@ Variable 1 は常に、リストボックスの先頭列の変数名に対応し
 
 例として、まだソートされていない以下のリストボックスがあります:
 
-![](../assets/en/FormObjects/hierarch3.png)
+![](/assets/en/FormObjects/hierarch3.png)
 
 "Population" ヘッダーをクリックして人口に基づき昇順あるいは降順でソートを行おこなうと、データは以下のように表示されます:
 
-![](../assets/en/FormObjects/hierarch4.png)
+![](/assets/en/FormObjects/hierarch4.png)
 
 通常のリストボックスと同様、リストボックスの [ソート可](properties_Action.md#ソート可) オプションの選択を解除することで標準のソートメカニズムを無効にし、プログラムでソートを管理できます。
 
@@ -736,11 +736,11 @@ Variable 1 は常に、リストボックスの先頭列の変数名に対応し
 
 例として以下の配列を見てみましょう:
 
-![](../assets/en/FormObjects/hierarch5.png)
+![](/assets/en/FormObjects/hierarch5.png)
 
 これらの配列が階層的に表示されると、2つのブレーク行が追加されるため、"Quimper" 行は 2行目ではなく 4行目に表示されます:
 
-![](../assets/en/FormObjects/hierarch6.png)
+![](/assets/en/FormObjects/hierarch6.png)
 
 階層であってもなくても、リストボックスにどのようにデータが表示されているかにかかわらず、"Quimper" が含まれる行を太字にしたい場合はステートメント Style{2} = bold を使用しなければなりません。 配列中の行の位置のみが考慮されます。
 
@@ -758,15 +758,15 @@ Variable 1 は常に、リストボックスの先頭列の変数名に対応し
  ->MyListbox{3}:=True
 ```
 
-非階層表示: ![](../assets/en/FormObjects/hierarch7.png) 階層表示: ![](../assets/en/FormObjects/hierarch8.png)
+非階層表示: ![](/assets/en/FormObjects/hierarch7.png) 階層表示: ![](/assets/en/FormObjects/hierarch8.png)
 
 > 親が折りたたまれているために行が非表示になっていると、それらは選択から除外されます。 (直接あるいはスクロールによって) 表示されている行のみを選択できます。 言い換えれば、行を選択かつ隠された状態にすることはできません。
 
 選択と同様に、`LISTBOX GET CELL POSITION` コマンドは階層リストボックスと非階層リストボックスにおいて同じ値を返します。 つまり以下の両方の例題で、`LISTBOX GET CELL POSITION` は同じ位置 (3;2) を返します。
 
-*非階層表示:* ![](../assets/en/FormObjects/hierarch9.png)
+*非階層表示:* ![](/assets/en/FormObjects/hierarch9.png)
 
-*階層表示:* ![](../assets/en/FormObjects/hierarch10.png)
+*階層表示:* ![](/assets/en/FormObjects/hierarch10.png)
 
 サブ階層のすべての行が隠されているとき、ブレーク行は自動で隠されます。 先の例題で 1から 3行目までが隠されていると、"Brittany" のブレーク行は表示されません。
 
@@ -774,7 +774,7 @@ Variable 1 は常に、リストボックスの先頭列の変数名に対応し
 
 ユーザーがブレーク行を選択すると、`LISTBOX GET CELL POSITION` は対応する配列の最初のオカレンスを返します。 以下のケースで:
 
-![](../assets/en/FormObjects/hierarch11.png)
+![](/assets/en/FormObjects/hierarch11.png)
 
 `LISTBOX GET CELL POSITION` は (2;4) を返します。 プログラムでブレーク行を選択するには `LISTBOX SELECT BREAK` コマンドを使用する必要があります。
 
@@ -782,9 +782,9 @@ Variable 1 は常に、リストボックスの先頭列の変数名に対応し
 
 以下のリストボックスを例題とします (割り当てた配列名は括弧内に記載しています):
 
-*非階層表示:* ![](../assets/en/FormObjects/hierarch12.png)
+*非階層表示:* ![](/assets/en/FormObjects/hierarch12.png)
 
-*階層表示:* ![](../assets/en/FormObjects/hierarch13.png)
+*階層表示:* ![](/assets/en/FormObjects/hierarch13.png)
 
 階層モードでは `tStyle` や `tColors` 配列で変更されたスタイルは、ブレーク行に適用されません。 ブレークレベルでカラーやスタイルを変更するには、以下のステートメントを実行します:
 
@@ -796,7 +796,7 @@ Variable 1 は常に、リストボックスの先頭列の変数名に対応し
 
 結果:
 
-![](../assets/en/FormObjects/hierarch14.png)
+![](/assets/en/FormObjects/hierarch14.png)
 
 #### 展開/折りたたみ管理の最適化
 
@@ -808,9 +808,9 @@ Variable 1 は常に、リストボックスの先頭列の変数名に対応し
 
 この場合、開発者がコードを使用して配列を空にしたり値を埋めたりしなければなりません。 実装する際注意すべき原則は以下のとおりです:
 
-* リストボックスが表示される際、先頭の配列のみ値を埋めます。 しかし 2番目の配列を空の値で生成し、リストボックスに展開/折りたたみアイコンが表示されるようにしなければなりません: ![](../assets/en/FormObjects/hierarch15.png)
+* リストボックスが表示される際、先頭の配列のみ値を埋めます。 しかし 2番目の配列を空の値で生成し、リストボックスに展開/折りたたみアイコンが表示されるようにしなければなりません: ![](/assets/en/FormObjects/hierarch15.png)
 
-* ユーザーが展開アイコンをクリックすると `On Expand` イベントが生成されます。 `LISTBOX GET CELL POSITION` コマンドはクリックされたセルを返すので、適切な階層を構築します: 先頭の配列に繰り返しの値を設定し、2番目の配列には `SELECTION TO ARRAY` コマンドから得られる値を設定します。そして`LISTBOX INSERT ROWS` コマンドを使用して必要なだけ行を挿入します。 ![](../assets/en/FormObjects/hierarch16.png)
+* ユーザーが展開アイコンをクリックすると `On Expand` イベントが生成されます。 `LISTBOX GET CELL POSITION` コマンドはクリックされたセルを返すので、適切な階層を構築します: 先頭の配列に繰り返しの値を設定し、2番目の配列には `SELECTION TO ARRAY` コマンドから得られる値を設定します。そして`LISTBOX INSERT ROWS` コマンドを使用して必要なだけ行を挿入します。 ![](/assets/en/FormObjects/hierarch16.png)
 
 * ユーザーが折りたたみアイコンをクリックすると `On Collapse` イベントが生成されます。 `LISTBOX GET CELL POSITION` コマンドはクリックされたセルを返すので、 `LISTBOX DELETE ROWS` コマンドを使用してリストボックスから必要なだけ行を削除します。
 
@@ -820,13 +820,13 @@ Variable 1 は常に、リストボックスの先頭列の変数名に対応し
 
 以下のリストボックスはオブジェクト配列を使用してデザインされました:
 
-![](../assets/en/FormObjects/listbox_column_objectArray.png)
+![](/assets/en/FormObjects/listbox_column_objectArray.png)
 
 ### オブジェクト配列カラムの設定
 
 オブジェクト配列をリストボックスのカラムに割り当てるには、プロパティリスト (の "変数名" 欄) にオブジェクト配列名を設定するか、配列型のカラムのように [LISTBOX INSERT COLUMN](https://doc.4d.com/4Dv18/4D/18/LISTBOX-INSERT-COLUMN.301-4505224.ja.html) コマンドを使用します。 プロパティリスト内では、カラムにおいて "式タイプ" にオブジェクトを選択できます:
 
-![](../assets/en/FormObjects/listbox_column_objectArray_config.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_config.png)
 
 オブジェクトカラムに対しては、座標、サイズ、スタイルなどに関連した標準のプロパティが使用可能です。 プロパティリストを使用して定義する方法のほかにも、オブジェクト型のリストボックスカラムのそれぞれの行に対してスタイル、フォントカラー、背景色、表示状態をプログラムで定義することもできます。 これらのタイプのカラムは非表示にすることも可能です。
 
@@ -842,7 +842,7 @@ ARRAY OBJECT(obColumn;0) // カラム配列
  APPEND TO ARRAY(obColumn;$ob)  
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld.png)
 > 表示フォーマットと入力フィルターはオブジェクトカラムに対しては設定できません。 これらは値の型に応じて自動的に変わるからです。
 
 #### valueTypeとデータ表示
@@ -933,7 +933,7 @@ ARRAY OBJECT(obColumn;0) // カラム配列
  APPEND TO ARRAY(obColumn;$ob3)
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_value.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_value.png)
 > null 値はサポートされており、空のセルとして表示されます。
 
 #### min と max
@@ -951,7 +951,7 @@ ARRAY OBJECT(obColumn;0) // カラム配列
  OB SET($ob3;"max";3000)
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_minMax.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_minMax.png)
 
 #### behavior
 
@@ -974,7 +974,7 @@ behavior 属性は、値の通常の表示とは異なる表示方法を提供�
  OB SET($ob4;"behavior";"threeStates")
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_behavior.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_behavior.png)
 
 #### requiredList と choiceList
 
@@ -1000,7 +1000,7 @@ behavior 属性は、値の通常の表示とは異なる表示方法を提供�
  OB SET ARRAY($ob;"requiredList";$RequiredList)
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_openClosed.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_openClosed.png)
 
 * 整数値であればすべて受け入れ可能な状態にしておいた上で、もっとも一般的な値を提示するためにコンボボックスを表示したい場合を考えます:
 
@@ -1017,7 +1017,7 @@ behavior 属性は、値の通常の表示とは異なる表示方法を提供�
  OB SET ARRAY($ob;"choiceList";$ChoiceList)
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_helloWorld_commonValues.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_helloWorld_commonValues.png)
 
 #### requiredListName と requiredListReference
 
@@ -1031,7 +1031,7 @@ behavior 属性は、値の通常の表示とは異なる表示方法を提供�
 
 * ツールボックスで定義された "colors" リスト ("blue"、"yellow"、そして "green" の値を格納) に基づいたドロップダウンリストを表示し、値として保存し、デフォルトの表示は "blue" にしたい場合を考えます:
 
-![](../assets/en/FormObjects/listbox_column_objectArray_colors.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_colors.png)
 
 ```4d
  C_OBJECT($ob)
@@ -1041,7 +1041,7 @@ behavior 属性は、値の通常の表示とは異なる表示方法を提供�
  OB SET($ob;"requiredListName";"colors") 
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_colorsResult.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_colorsResult.png)
 
 * プログラミングによって定義されたリストに基づいたドロップダウンリストを表示し、参照として保存したい場合を考えます:
 
@@ -1058,7 +1058,7 @@ behavior 属性は、値の通常の表示とは異なる表示方法を提供�
  OB SET($ob;"requiredListReference";<>List)
 ```
 
- ![](../assets/en/FormObjects/listbox_column_objectArray_cities.png)
+ ![](/assets/en/FormObjects/listbox_column_objectArray_cities.png)
 
 #### choiceListName と choiceListReference
 
@@ -1072,7 +1072,7 @@ behavior 属性は、値の通常の表示とは異なる表示方法を提供�
 
 ツールボックスで定義された "colors" リスト ("blue"、"yellow"、そして "green" の値を格納) に基づいたドロップダウンリストを表示し、値として保存し、デフォルトの表示は "green" にしたい場合を考えます:
 
-![](../assets/en/FormObjects/listbox_column_objectArray_colors.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_colors.png)
 
 ````4d
  C_OBJECT($ob)
@@ -1081,7 +1081,7 @@ behavior 属性は、値の通常の表示とは異なる表示方法を提供�
  OB SET($ob;"choiceListName";"colors")
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_colorsResult.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_colorsResult.png)
 
 #### unitsList、unitsListName、 unitsListReference と unitReference
 
@@ -1112,7 +1112,7 @@ OB SET($ob;"unitReference";1) //"lines"
 OB SET ARRAY($ob;"unitsList";$_units)
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_unitList.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_unitList.png)
 
 #### alternateButton
 
@@ -1130,7 +1130,7 @@ OB SET($ob;"alternateButton";True)
 OB SET($ob;"value";$entry)
 ```
 
-![](../assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_alternateButton.png)
 
 #### color valueType
 
@@ -1144,7 +1144,7 @@ OB SET($ob;"value";$entry)
  OB SET($ob4;"value";0x00FF0000)
  ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_colorValue.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_colorValue.png)
 
 * 値がテキストの場合、そのテキストが表示されます (*例*: "value";"Automatic")。
 
@@ -1162,7 +1162,7 @@ OB SET($ob;"valueType";"event")
 OB SET($ob;"label";"Edit...")
 ````
 
-![](../assets/en/FormObjects/listbox_column_objectArray_eventValueType.png)
+![](/assets/en/FormObjects/listbox_column_objectArray_eventValueType.png)
 
 ### イベント管理
 

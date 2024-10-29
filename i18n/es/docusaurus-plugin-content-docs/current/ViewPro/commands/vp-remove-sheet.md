@@ -28,7 +28,7 @@ En *index*, pase el índice de la hoja que desea eliminar. Si el *index* pasado 
 
 El documento tiene actualmente tres hojas:
 
-![](../../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 Eliminar la tercera hoja:
 
@@ -36,7 +36,7 @@ Eliminar la tercera hoja:
 VP REMOVE SHEET("ViewProArea";2)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-2.png)
+![](/assets/en/ViewPro/vp-sheet-2.png)
 
 #### Ver también
 

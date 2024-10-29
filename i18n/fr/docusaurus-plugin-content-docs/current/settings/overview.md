@@ -5,7 +5,7 @@ title: Propriétés
 
 Les Propriétés configurent le fonctionnement du projet en cours. Ces paramètres peuvent être différents pour chaque projet. Ils comprennent les ports d'écoute, les configurations de sauvegarde, les options de sécurité, les paramètres Web, etc.
 
-![](../assets/en/settings/main.png)
+![](/assets/en/settings/main.png)
 
 > 4D fournit un autre ensemble de paramètres, appelés **Préférences**, qui s'appliquent à l'application 4D IDE. Pour plus d'informations, reportez-vous à la section [Préférences](../Preferences/general.md).
 
@@ -35,7 +35,7 @@ Dans les deux cas, les paramètres peuvent être ouverts en 'Lecture seule', mai
 
 Dans les boîtes de dialogue des Propriétés, les paramètres dont les valeurs ont été modifiées apparaissent **en gras** :
 
-![](../assets/en/settings/customize-settings.png)
+![](/assets/en/settings/customize-settings.png)
 
 Les paramètres indiqués comme personnalisés peuvent avoir été modifiés directement dans la boîte de dialogue, ou avoir été modifiés précédemment dans le cas d'un projet converti.
 

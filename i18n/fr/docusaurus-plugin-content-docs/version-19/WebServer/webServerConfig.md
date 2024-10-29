@@ -137,7 +137,7 @@ Désigne une page comme page d'accueil par défaut pour le serveur web. Cette pa
 
 Par défaut, quand le serveur web est lancé pour la première fois, 4D crée une page d'accueil appelée "index.html" et la place dans le dossier HTML racine. Si vous ne modifiez pas cette configuration, n'importe quel browser se connectant au serveur web obtiendra cette page :
 
-![](../assets/en/WebServer/defaultHomePage.png)
+![](/assets/en/WebServer/defaultHomePage.png)
 
 Vous pouvez désigner une autre page comme page d'accueil par défaut en entrant son chemin d'accès :
 

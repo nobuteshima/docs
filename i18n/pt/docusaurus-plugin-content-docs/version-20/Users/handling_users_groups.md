@@ -41,8 +41,8 @@ O administrador pode:
 
 Tanto o Designer quanto o Administrador estão disponíveis como padrão em todos os bancos de dados. No diálogo de [gestão de usuários](#users-and-groups-editor), os ícones de Designer e Administrator são exibidos em verde e vermelho, respectivamentes:
 
-- Ícone Designer: ![](../assets/en/Users/iconDesigner.png)
-- Ícone de Administrador: ![](../assets/en/Users/iconAdmin.png)
+- Ícone Designer: ![](/assets/en/Users/iconDesigner.png)
+- Ícone de Administrador: ![](/assets/en/Users/iconAdmin.png)
 
 Pode renomear os usuários Designer e Administardor. Na linguagem, o ID de Designer é sempre 1 e a ID de Administrador é sempre 2.
 
@@ -54,7 +54,7 @@ O Designer e Administrador podem cada um criar até 16.000 grupos e 16 mil usuá
 
 O editor de usuários está na Barra de Ferramentas de 4D.
 
-![](../assets/en/Users/editor.png)
+![](/assets/en/Users/editor.png)
 
 > O editor de usuários e grupos pode ser exibido em execução com ajuda do comando [EDIT ACCESS](https://doc.4d.com/4dv19R/help/command/en/page281.html). Toda a configuração de usuários e grupos pode também ser editada durante a execução da aplicação utilizando comandos de linguagem 4D do tema `Usuários e grupos`.
 
@@ -68,7 +68,7 @@ Para adicionar um usuário da Barra de Ferramentas:
 
 A lista de usuários exibe todos os usuários, incluindo o[Designer and the Administrator](#designer-and-administrator).
 
-2. Clique no botão ![](../assets/en/Users/PlussNew.png) que está abaixo da lista de usuários. OR Right-click in the list of users and choose **Add** or **Duplicate** in the context menu.
+2. Clique no botão ![](/assets/en/Users/PlussNew.png) que está abaixo da lista de usuários. OR Right-click in the list of users and choose **Add** or **Duplicate** in the context menu.
 
 > O comando **Duplicate** pode ser usado para criar rapidamente vários usuários com as mesmas características.
 
@@ -87,7 +87,7 @@ A adesão do usuário aos diferentes grupos também pode ser estabelecida por gr
 ### Apagar um usuário
 
 
-Para apagar um usuário, selecione-o e clique no botão apagar ou use o comando **Delete** no menu contextual. ![](../assets/en/Users/MinussNew.png)
+Para apagar um usuário, selecione-o e clique no botão apagar ou use o comando **Delete** no menu contextual. ![](/assets/en/Users/MinussNew.png)
 
 Usuários deletados não aparecem mais no editor de Usuários. Note que as IDs de usuários deletados são retribuídas quando novas contas de usuário forem criadas.
 
@@ -112,7 +112,7 @@ Para criar um gurpo:
 
 1. Selecione **Tool Box > Grupos** no menu **Design** ou clique no botão **Tool Box** da barra 4D e depois no botão **Grupos**. 4D exibe a janela de editor de grupos. A lista de grupos exibe todos os grupos do banco de dados.
 
-2. Click on the ![](../assets/en/Users/PlussNew.png) button located below the list of groups.  
+2. Click on the ![](/assets/en/Users/PlussNew.png) button located below the list of groups.  
    OR  
    Right-click in the list of groups and choose the **Add** or **Duplicate** command in the context menu.
 
@@ -130,7 +130,7 @@ Pode colocar qualquer usuário ou grupo dentro de um grupo, e pode também coloc
 
 Para colocar um usuário ou grupo em um grupo, precisa marcar a opção "Membro" para cada usuário ou grupo na área de atribuição de membros:
 
-![](../assets/en/Users/groups.png)
+![](/assets/en/Users/groups.png)
 
 Se marcar o nome de usuário, esse usuário é adicionado ao grupo. Se marcar o nome de um grupo, todos os usuários do grupo serão adicionados ao novo grupo. The affiliated user or group will then have the same access privileges as those assigned to the new group.
 
@@ -148,7 +148,7 @@ Distributing access to the plug-ins lets you control the use of the licenses you
 
 The “Plug-in” area on the Groups page of the tool box lists all the plug-ins loaded by the 4D application. To give a group access to a plug-in, you simply need to check the corresponding option.
 
-![](../assets/en/Users/plugins.png)
+![](/assets/en/Users/plugins.png)
 
 The **4D Client Web Server** and **4D Client SOAP Server** items lets you control the possibility of Web and SOAP (Web Services) publication for each 4D in remote mode. Essas licenças são consideradas como licenças de plug-in por 4D Server. Therefore, in the same way as for plug-ins, you can restrict the right to use these licenses to a specific group of users.
 
@@ -161,11 +161,11 @@ In this example, a user is assigned to one of three groups depending on their le
 
 The groups are then nested so that privileges are correctly distributed to the users of each group.
 
-- The General Management group contains only “high-level” users. ![](../assets/en/Users/schema1.png)
+- The General Management group contains only “high-level” users. ![](/assets/en/Users/schema1.png)
 
-- The Finances group contains data maintenance users as well as General Management users, thus the users in General Management have the privileges of the Finances group as well. ![](../assets/en/Users/schema2.png)
+- The Finances group contains data maintenance users as well as General Management users, thus the users in General Management have the privileges of the Finances group as well. ![](/assets/en/Users/schema2.png)
 
-- The Accounting group contains data entry users as well as Finances group users, so the users who belong to the Finances group and the General Management group enjoy the privileges of the Accounting group as well. ![](../assets/en/Users/schema3.png)
+- The Accounting group contains data entry users as well as Finances group users, so the users who belong to the Finances group and the General Management group enjoy the privileges of the Accounting group as well. ![](/assets/en/Users/schema3.png)
 
 You can decide which access privileges to assign to each group based on the level of responsibility of the users it includes.
 
@@ -183,7 +183,7 @@ Groups are assigned access privileges to specific parts or features of the appli
 
 Estes acessos são definidos no diálogo Parâmetros. O exemplo abaixo mostra direitos de acesso ao explorador de Execução e ao Design sendo atribuidos ao grupo "Devs":
 
-![](../assets/en/Users/Access1.png)
+![](/assets/en/Users/Access1.png)
 
 You also use groups to [distribute available licenses](#assigning-a-group-to-a-plug-in-or-to-a-server). Esta distribuição é definida no editor Grupos.
 

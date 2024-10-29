@@ -280,7 +280,7 @@ return false
 
 4D が Webブラウザーにページを送信すると、以下のように表示されます:
 
-![](../assets/en/WebServer/spiders.png)
+![](/assets/en/WebServer/spiders.png)
 
 このページの主な特徴は:
 
@@ -341,7 +341,7 @@ HTMLではすべてのオブジェクトがテキストオブジェクトであ�
 
 これらのコマンドは次の図にまとめられています:
 
-![](../assets/en/WebServer/httpCommands.png)
+![](/assets/en/WebServer/httpCommands.png)
 
 4D Webサーバーは、どの Webクライアントからでもチャンクド・エンコーディングでアップロードされたファイルをサポートするようになりました。 チャンクド・エンコーディングは HTTP/1.1 にて定義されているデータ転送方式です。 これを使用することにより、最終的なデータサイズを知る事なく、データを複数の "チャンク" (部分) に分けて転送することができます。 4D Webサーバーでは、サーバーから Webクライアントへのチャンクド・エンコーディングもサポートしています (`WEB SEND RAW DATA` を使用します)。
 

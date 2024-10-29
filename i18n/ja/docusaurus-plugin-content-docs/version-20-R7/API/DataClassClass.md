@@ -85,7 +85,7 @@ $compCity:=ds.Company["city"] // Companyデータクラスの city属性を返�
 
 以下のストラクチャーを前提とします:
 
-![](../assets/en/API/dataclassAttribute.png)
+![](/assets/en/API/dataclassAttribute.png)
 
 ```4d
 var $firstnameAtt;$employerAtt;$employeesAtt : Object
@@ -109,7 +109,7 @@ var $firstnameAtt;$employerAtt;$employeesAtt : Object
 
 以下のテーブルプロパティを前提とします:
 
-![](../assets/en/API/dataclassAttribute2.png)
+![](/assets/en/API/dataclassAttribute2.png)
 
 ```4d
  var $sequenceNumberAtt : Object
@@ -1144,7 +1144,7 @@ ds.People.query("places.locations[a].kind= :1 and places.locations[a].city= :2";
 
 ORDA は、N対Nリレーションにおけるクエリを容易にするための特別な構文を提供します。 このような場合には `AND` 演算子を使って、同じ属性内に格納されている異なる値を検索する必要があるかもしれません。 たとえば、以下のようなストラクチャーの場合を考えます:
 
-![alt-text](../assets/en/API/manytomany.png)
+![alt-text](/assets/en/API/manytomany.png)
 
 俳優 A と俳優 B の *両方* が出演している映画をすべて検索したいとします。 `AND` 演算子を使った単純なクエリを書いても、うまくいきません:
 

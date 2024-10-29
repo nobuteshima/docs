@@ -80,7 +80,7 @@ title: コンポーネント
 
 **優先度低**
 
-![priority](../assets/en/Project/load-sequence.png)
+![priority](/assets/en/Project/load-sequence.png)
 
 同じコンポーネントの別のインスタンスがより高い優先度レベルにあるためにコンポーネントを読み込めない場合、そのコンポーネントには *Overloaded* [ステータス](#依存関係のステータス) が与えられます。 この場合、読み込まれている方のコンポーネントには *Overloading* [ステータス](#依存関係のステータス) が与えられます。
 
@@ -285,20 +285,20 @@ GitHub ではリリースを作成するときに、**タグ** と **バージ�
 依存関係パネルを表示するには:
 
 - 4D では、**デザイン/プロジェクト依存関係** メニューアイテムを選択します (開発環境)。<br/>
-  ![dependency-menu](../assets/en/Project/dependency-menu.png)
+  ![dependency-menu](/assets/en/Project/dependency-menu.png)
 
 - 4D Server では、**ウインドウ/プロジェクト依存関係** メニューアイテムを選択します。<br/>
-  ![dependency-menu-server](../assets/en/Project/dependency-menu-server.png)
+  ![dependency-menu-server](/assets/en/Project/dependency-menu-server.png)
 
 依存関係パネルが表示されます。 依存関係は ABC順にソートされます。
 
-![dependency](../assets/en/Project/dependency.png)
+![dependency](/assets/en/Project/dependency.png)
 
 ### 依存関係のオリジン
 
 依存関係パネルには、各依存関係のオリジン (由来) にかかわらず、プロジェクトの依存関係すべてがリストされます。 依存関係のオリジンは、名前の下に表示されるタグによって判断することができます:
 
-![dependency-origin](../assets/en/Project/dependency-origin.png)
+![dependency-origin](/assets/en/Project/dependency-origin.png)
 
 以下のオリジンがありえます:
 
@@ -311,7 +311,7 @@ GitHub ではリリースを作成するときに、**タグ** と **バージ�
 
 依存関係の行で **右クリック** し、**ディスク上に表示** を選択すると、依存関係の保管場所が表示されます:
 
-![dependency-show](../assets/en/Project/dependency-show.png)
+![dependency-show](/assets/en/Project/dependency-show.png)
 
 :::note
 
@@ -324,13 +324,13 @@ GitHub ではリリースを作成するときに、**タグ** と **バージ�
 - コンポーネントロゴは、それが 4D またはサードパーティーによる提供かを示します。
 - ローカルコンポーネントと GitHubコンポーネントは、小さなアイコンで区別できます。
 
-![dependency-origin](../assets/en/Project/dependency-github.png)
+![dependency-origin](/assets/en/Project/dependency-github.png)
 
 ### 依存関係のフィルタリング
 
 デフォルトでは、依存関係マネージャーによって識別されたすべての依存関係は、それらの [ステータス](#依存関係のステータス) に関係なくリストされます。 依存関係パネル上部のタブを選択することで、依存関係のステータスに応じてリストの表示をフィルタリングできます:
 
-![dependency-tabs](../assets/en/Project/dependency-tabs.png)
+![dependency-tabs](/assets/en/Project/dependency-tabs.png)
 
 - **アクティブ**: プロジェクトに読み込まれ、使用できる依存関係。 実際にロードされた *Overloading* な依存関係が含まれます。 *Overloaded* である方の依存関係は、その他の競合している依存関係とともに **コンフリクト** パネルに表示されます。
 - **非アクティブ**: プロジェクトに読み込まれておらず、利用できない依存関係。 このステータスには様々な理由が考えられます: ファイルの欠落、バージョンの非互換性など…
@@ -340,7 +340,7 @@ GitHub ではリリースを作成するときに、**タグ** と **バージ�
 
 デベロッパーの注意を必要とする依存関係は、行の右側の **ステータスラベル** と背景色で示されます。
 
-![dependency-status](../assets/en/Project/dependency-conflict2.png)
+![dependency-status](/assets/en/Project/dependency-conflict2.png)
 
 使用されるステータスラベルは次のとおりです:
 
@@ -352,4 +352,4 @@ GitHub ではリリースを作成するときに、**タグ** と **バージ�
 
 依存関係の行にマウスオーバーするとツールチップが表示され、ステータスに関する追加の情報を提供します:
 
-![dependency-tips](../assets/en/Project/dependency-tip1.png)
+![dependency-tips](/assets/en/Project/dependency-tip1.png)

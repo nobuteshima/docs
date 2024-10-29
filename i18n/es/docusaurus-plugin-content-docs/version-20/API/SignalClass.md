@@ -34,7 +34,7 @@ En 4D, se crea un nuevo objeto signal llamando al comando [`New signal`](#new-si
 - `signal.trigger()` debe llamarse desde el worker/proceso que terminó su ejecución para liberar a todos los demás.
 
 
-![](../assets/en/API/signal.png)
+![](/assets/en/API/signal.png)
 
 Una vez que una señal ha sido liberada utilizando una llamada `signal.trigger()`, no puede ser reutilizada de nuevo. Si desea definir otra señal, debe llamar de nuevo al comando `New signal`.
 

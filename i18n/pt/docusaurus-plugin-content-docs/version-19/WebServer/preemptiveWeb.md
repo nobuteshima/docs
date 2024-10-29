@@ -95,4 +95,4 @@ Both the Runtime Explorer and the 4D Server administration window display a spec
 
 | Tipo de processo      | Ícone                                       |
 | --------------------- | ------------------------------------------- |
-| Método web preventivo | ![](../assets/en/WebServer/processIcon.png) |
+| Método web preventivo | ![](/assets/en/WebServer/processIcon.png) |

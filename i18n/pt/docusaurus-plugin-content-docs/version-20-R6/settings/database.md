@@ -13,7 +13,7 @@ Esta página é utilizada para configurar o armazenamento de dados no disco para
 
 This option allows configuration of the application operation when opening a locked data file at the operating system level. 4D includes a mechanism that automatically prevents the opening of a database when its data file, or one of its segments, is locked. In this case, when this detection option is activated, 4D displays a warning message and does not open the database:
 
-![](../assets/en/settings/data-locked.png)
+![](/assets/en/settings/data-locked.png)
 
 Unless this option is checked, it is not possible to open a database when its data file is locked (default operation for 4D databases).
 
@@ -27,7 +27,7 @@ This area lets you change the location of temporary files created while 4D is ru
 
 The current location of this folder is displayed in the "Current:" area. Você pode clicar nessa área para mostrar o nome do caminho como uma lista suspensa:
 
-![](../assets/en/settings/temporary-file-location.png)
+![](/assets/en/settings/temporary-file-location.png)
 
 São oferecidos três opções de localização:
 
@@ -74,7 +74,7 @@ Este algoritmo é usado por defeito nas versões japonesas de 4D. Si es necesari
 
 Para desactivar *MeCab*, sólo tiene que marcar la opción **Considerar solo caracteres no alfanuméricos para las palabras claves**:
 
-![](../assets/en/settings/non-alphanumeric-chars.png)
+![](/assets/en/settings/non-alphanumeric-chars.png)
 
 ## Página Memória
 
@@ -96,7 +96,7 @@ You use the settings on this tab to configure the cache memory for the database.
   Percentage of the available memory used for the cache = 50%
   Maximum size = 1 GB Minimum size = 128 MB*
 
-  ![](../assets/en/settings/memory-maximum-size.png)
+  ![](/assets/en/settings/memory-maximum-size.png)
 
 - **Cálculo de caché adaptativa no marcado**: en este modo, usted mismo define el tamaño de la memoria caché para la base. 4D then displays an entry area that allows setting the memory cache to use as well as information related to the physical memory (RAM available on the machine), the current cache and cache after restart (taking your changes into account).
 

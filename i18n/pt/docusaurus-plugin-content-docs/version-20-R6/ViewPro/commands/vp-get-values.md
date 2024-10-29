@@ -39,7 +39,7 @@ Datas ou horas são tratadas como um datetime e são completadas da forma abaixo
 
 Pretende obter valores de C4 a G6:
 
-![](../../assets/en/ViewPro/cmd_vpGetValues.PNG)
+![](/assets/en/ViewPro/cmd_vpGetValues.PNG)
 
 ```4d
 $result:=VP Get values(VP Cells("ViewProArea";2;3;5;3))

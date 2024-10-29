@@ -124,7 +124,7 @@ Coordenada superior do objecto no formulário.
 
 Defines the corner roundness (in pixels) of the object. By default, the radius value for rectangles is 0 pixels. You can change this property to draw rounded rectangles with custom shapes:
 
-![](../assets/en/FormObjects/shape_rectangle.png)
+![](/assets/en/FormObjects/shape_rectangle.png)
 
 Minimum value is 0, in this case a standard non-rounded rectangle is drawn.
 Maximum value depends on the rectangle size (it cannot exceed half the size of the shortest rectangle side) and is calculated dynamically.
@@ -136,7 +136,7 @@ Com as [áreas de texto](text.md) e [entradas](input_overview.md):
 - la propiedad de radio de la esquina sólo está disponible con los [estilos de línea de borde](properties_BackgroundAndBorder.md#border-line-style) "ninguno", "sólido" o "punteado",
 - o arredondamento do canto é desenhado fora da área do objeto (o objeto aparece maior no formulário, mas sua [largura](properties_CoordinatesAndSizing.md#width) e [altura](properties_CoordinatesAndSizing.md#height) não são estendidas).
 
-![](../assets/en/FormObjects/radius-text.png)
+![](/assets/en/FormObjects/radius-text.png)
 
 :::
 
@@ -286,7 +286,7 @@ Assuming that the unit of the rows is "lines," then the fifth row of the list bo
 
 Define um preenchimento horizontal para as células. O valor é definido em pixeis (padrão = 0).
 
-![](../assets/en/FormObjects/padding.png)
+![](/assets/en/FormObjects/padding.png)
 
 #### Gramática JSON
 

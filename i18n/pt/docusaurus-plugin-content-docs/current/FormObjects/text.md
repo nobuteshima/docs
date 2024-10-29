@@ -25,13 +25,13 @@ Um objeto texto permite exibir conteúdo escrito estático (_e.g._, instruções
 
 4D permite que você gire áreas de texto em seus formulários usando a propriedade [Orientação](propriedades_Text.md#orientação).
 
-![](../assets/en/FormObjects/staticText.png)
+![](/assets/en/FormObjects/staticText.png)
 
 > A rotação do texto pode ser definida para um processo utilizando o comando de linguagem `OBJECT SET TEXT ORIENTATION`.
 
 Quando um texto é rodado, pode continuar a alterar o seu tamanho ou posição, bem como todas as suas propriedades. Note that the text area’s height and width properties do not depend on its orientation:
 
-![](../assets/en/FormObjects/staticText2.png)
+![](/assets/en/FormObjects/staticText2.png)
 
 - Se o objeto for redimensionado na direção A, seu [largura](propriedades_CoordinatesAndSizing.md#width) será modificada;
 - Se o objeto for redimensionado em direção C, seu [altura](propriedades_CoordinatesAndSizing.md#height) será modificada;

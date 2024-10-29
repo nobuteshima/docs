@@ -37,7 +37,7 @@ If the optional *horOffset* and *vertOffset* parameters are used, a translation 
 
 Given the following pictures: 
 
-![](../assets/en/commands/pict27793.en.png)
+![](/assets/en/commands/pict27793.en.png)
 
 ```4d
  COMBINE PICTURES(flag;mybackground;Superimposition;mycircle;50;30)
@@ -45,7 +45,7 @@ Given the following pictures:
 
 Result:
 
-![](../assets/en/commands/pict27794.en.png)
+![](/assets/en/commands/pict27794.en.png)
 
 #### See also 
 

@@ -17,7 +17,7 @@ Le code exposé des composants (méthodes et fonctions) ainsi que les formulaire
 
 Lorsqu'un composant installé contient des méthodes, des classes et des fonctions, celles-ci apparaissent dans le thème **Méthodes Composant** de la page Méthodes de l'explorateur :
 
-![alt-text](../assets/en/Concepts/components-explorer.png)
+![alt-text](/assets/en/Concepts/components-explorer.png)
 
 :::note
 
@@ -27,4 +27,4 @@ Si le composant est compilé, son [espace de nommage](../Extensions/develop-comp
 
 Vous pouvez sélectionner une [méthode projet](methods.md) ou [classe](classes.md) de composant et cliquer sur le bouton **Documentation** de l'Explorateur pour obtenir des informations à son sujet, [le cas échéant](Project/documentation.md).
 
-![alt-text](../assets/en/Project/compDoc.png)
+![alt-text](/assets/en/Project/compDoc.png)

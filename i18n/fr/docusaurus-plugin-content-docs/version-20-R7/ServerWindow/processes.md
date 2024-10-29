@@ -5,7 +5,7 @@ title: Page Process
 
 La page **Process** liste les process en cours d’exécution.
 
-![](../assets/en/Admin/server-admin-process-page.png)
+![](/assets/en/Admin/server-admin-process-page.png)
 
 Le bouton "Process" indique entre parenthèses le nombre total de process en cours d’exécution sur le serveur (ce nombre ne tient pas compte des éventuels filtres d’affichage appliqués à la fenêtre ni de l’état de l’option \*\*Afficher les process par groupe
 
@@ -15,7 +15,7 @@ Tout comme la Page Utilisateurs, cette page contient une [zone de recherche/filt
 
 Vous disposez également de trois boutons-raccourcis permettant de filtrer par famille les process affichés dans la fenêtre :
 
-![](../assets/en/Admin/server-process-buttons.png)
+![](/assets/en/Admin/server-process-buttons.png)
 
 - **Process utilisateurs** : Process générés par et pour les sessions utilisateurs. Ces process sont précédés d’une icône en forme de personnage.
 - **Process 4D** : Process générés par le moteur de 4D Server. Ces process sont précédés d’une icône en forme de roue crantée.
@@ -50,30 +50,30 @@ Chaque process est identifié par une icône et un type. La couleur et la forme 
 
 | icône                                      | type                                                                                                                                                                                                                   |
 | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../assets/en/Admin/server-icon-1.png)  | Serveur d’application                                                                                                                                                                                                  |
-| ![](../assets/en/Admin/server-icon-2.png)  | Serveur SQL                                                                                                                                                                                                            |
-| ![](../assets/en/Admin/server-icon-3.png)  | Serveur DB4D (moteur de base de données)                                                                                                                                                            |
-| ![](../assets/en/Admin/server-icon-4.png)  | Serveur Web                                                                                                                                                                                                            |
-| ![](../assets/en/Admin/server-icon-5.png)  | Serveur SOAP                                                                                                                                                                                                           |
-| ![](../assets/en/Admin/server-icon-6.png)  | Process client 4D protégé (process développement d’un 4D connecté)                                                                                                                                  |
-| ![](../assets/en/Admin/server-icon-7.png)  | Main process of a connected 4D client or process created with `New process` on a connected 4D client (Collaborative process, equivalent on the server of the process created on the client machine) |
-| ![](../assets/en/Admin/server-icon-8.png)  | Process de base client 4D (process parallèle à un process client 4D. Process préemptif chargé de contrôler le process client 4D principal correspondant)                            |
-| ![](../assets/en/Admin/server-icon-9.png)  | Process en attente (ancien ou futur "Process client 4D base de données")                                                                                                                            |
-| ![](../assets/en/Admin/server-icon-10.png) | Worker serveur SQL                                                                                                                                                                                                     |
-| ![](../assets/en/Admin/server-icon-11.png) | Worker serveur HTTP                                                                                                                                                                                                    |
-| ![](../assets/en/Admin/server-icon-13.png) | Procédure stockée (process coopératif lancé par un 4D connecté et tournant sur le serveur)                                                                                                          |
-| ![](../assets/en/Admin/server-icon-14.png) | Méthode Web (lancée par un 4DACTION par exemple)                                                                                                                                                    |
-| ![](../assets/en/Admin/server-icon-15.png) | Méthode Web (process préemptif)                                                                                                                                                                     |
-| ![](../assets/en/Admin/server-icon-16.png) | Méthode SOAP (lancée par un Web Service)                                                                                                                                                            |
-| ![](../assets/en/Admin/server-icon-17.png) | Méthode SOAP (process préemptif)                                                                                                                                                                    |
-| ![](../assets/en/Admin/server-icon-18.png) | Logger                                                                                                                                                                                                                 |
-| ![](../assets/en/Admin/server-icon-19.png) | Listener connexion TCP                                                                                                                                                                                                 |
-| ![](../assets/en/Admin/server-icon-20.png) | Manager session TCP                                                                                                                                                                                                    |
-| ![](../assets/en/Admin/server-icon-21.png) | Autre process                                                                                                                                                                                                          |
-| ![](../assets/en/Admin/server-icon-22.png) | Process worker (coopératif)                                                                                                                                                                         |
-| ![](../assets/en/Admin/server-icon-23.png) | Process 4D client (préemptif)                                                                                                                                                                       |
-| ![](../assets/en/Admin/server-icon-24.png) | Procédure stockée (process préemptif)                                                                                                                                                               |
-| ![](../assets/en/Admin/server-icon-25.png) | Process worker (préemptif)                                                                                                                                                                          |
+| ![](/assets/en/Admin/server-icon-1.png)  | Serveur d’application                                                                                                                                                                                                  |
+| ![](/assets/en/Admin/server-icon-2.png)  | Serveur SQL                                                                                                                                                                                                            |
+| ![](/assets/en/Admin/server-icon-3.png)  | Serveur DB4D (moteur de base de données)                                                                                                                                                            |
+| ![](/assets/en/Admin/server-icon-4.png)  | Serveur Web                                                                                                                                                                                                            |
+| ![](/assets/en/Admin/server-icon-5.png)  | Serveur SOAP                                                                                                                                                                                                           |
+| ![](/assets/en/Admin/server-icon-6.png)  | Process client 4D protégé (process développement d’un 4D connecté)                                                                                                                                  |
+| ![](/assets/en/Admin/server-icon-7.png)  | Main process of a connected 4D client or process created with `New process` on a connected 4D client (Collaborative process, equivalent on the server of the process created on the client machine) |
+| ![](/assets/en/Admin/server-icon-8.png)  | Process de base client 4D (process parallèle à un process client 4D. Process préemptif chargé de contrôler le process client 4D principal correspondant)                            |
+| ![](/assets/en/Admin/server-icon-9.png)  | Process en attente (ancien ou futur "Process client 4D base de données")                                                                                                                            |
+| ![](/assets/en/Admin/server-icon-10.png) | Worker serveur SQL                                                                                                                                                                                                     |
+| ![](/assets/en/Admin/server-icon-11.png) | Worker serveur HTTP                                                                                                                                                                                                    |
+| ![](/assets/en/Admin/server-icon-13.png) | Procédure stockée (process coopératif lancé par un 4D connecté et tournant sur le serveur)                                                                                                          |
+| ![](/assets/en/Admin/server-icon-14.png) | Méthode Web (lancée par un 4DACTION par exemple)                                                                                                                                                    |
+| ![](/assets/en/Admin/server-icon-15.png) | Méthode Web (process préemptif)                                                                                                                                                                     |
+| ![](/assets/en/Admin/server-icon-16.png) | Méthode SOAP (lancée par un Web Service)                                                                                                                                                            |
+| ![](/assets/en/Admin/server-icon-17.png) | Méthode SOAP (process préemptif)                                                                                                                                                                    |
+| ![](/assets/en/Admin/server-icon-18.png) | Logger                                                                                                                                                                                                                 |
+| ![](/assets/en/Admin/server-icon-19.png) | Listener connexion TCP                                                                                                                                                                                                 |
+| ![](/assets/en/Admin/server-icon-20.png) | Manager session TCP                                                                                                                                                                                                    |
+| ![](/assets/en/Admin/server-icon-21.png) | Autre process                                                                                                                                                                                                          |
+| ![](/assets/en/Admin/server-icon-22.png) | Process worker (coopératif)                                                                                                                                                                         |
+| ![](/assets/en/Admin/server-icon-23.png) | Process 4D client (préemptif)                                                                                                                                                                       |
+| ![](/assets/en/Admin/server-icon-24.png) | Procédure stockée (process préemptif)                                                                                                                                                               |
+| ![](/assets/en/Admin/server-icon-25.png) | Process worker (préemptif)                                                                                                                                                                          |
 
 > Chaque process client 4D principal et son process base 4D client "jumeau" sont regroupés lorsque l’option **Afficher les process par groupes** est cochée.
 
@@ -81,7 +81,7 @@ Chaque process est identifié par une icône et un type. La couleur et la forme 
 
 La page comporte cinq boutons de commande permettant d’agir sur le ou les process sélectionné(s). A noter que vous ne pouvez agir que sur les process utilisateurs.
 
-![](../assets/en/Admin/server-process-actions.png)
+![](/assets/en/Admin/server-process-actions.png)
 
 - **Tuer process** : permet de tuer le ou les process sélectionné(s). Lorsque vous cliquez sur ce bouton, une boîte de dialogue d’alerte apparaît, vous permettant de confirmer ou d’annuler l’opération.
 

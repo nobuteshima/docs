@@ -19,11 +19,11 @@ WebAdmin 内部コンポーネントは、"WebAdmin" 権限を持つユーザー
 
 - インターフェースを持つ 4Dアプリケーションを使用している場合は、**ファイル ＞ Web管理 ＞ 設定...** メニュー項目を選択します。
 
-![alt-text](../assets/en/Admin/waMenu1.png)
+![alt-text](/assets/en/Admin/waMenu1.png)
 
 Web管理設定ダイアログボックスで、**WebAdmin サーバーをスタートアップ時に起動** オプションをチェックします。
 
-![alt-text](../assets/en/Admin/waSettings.png)
+![alt-text](/assets/en/Admin/waSettings.png)
 
 - ヘッドレスの 4Dアプリケーションを使用しているかにかかわらず、以下の _コマンドライン・インターフェース_ の引数を使用して、自動スタートアップを有効にすることができます:
 
@@ -39,7 +39,7 @@ open ~/Desktop/4D.app --webadmin-auto-start true
 
 **ファイル ＞ Web管理 ＞ Webサーバー開始** メニュー項目を選択します。
 
-![alt-text](../assets/en/Admin/waMenu2.png)
+![alt-text](/assets/en/Admin/waMenu2.png)
 
 サーバーが開始されていると、メニュー項目は **Webサーバー停止** になります。`WebAdmin` Webサーバーを停止するには、これを選択します。
 
@@ -55,11 +55,11 @@ open ~/Desktop/4D.app --webadmin-auto-start true
 
 Web管理の設定ダイアログボックスを開くには、**ファイル ＞ Web 管理 ＞ 設定...** メニュー項目を選択します。
 
-![alt-text](../assets/en/Admin/waMenu1.png)
+![alt-text](/assets/en/Admin/waMenu1.png)
 
 次のようなダイアログボックスが表示されます:
 
-![alt-text](../assets/en/Admin/waSettings2.png)
+![alt-text](/assets/en/Admin/waSettings2.png)
 
 #### WebAdmin サーバーをスタートアップ時に起動
 
@@ -104,7 +104,7 @@ HTTPリクエストログファイル (アプリケーションの "Logs" フォ
 
 `WebAdmin` Webサーバーへの URL経由アクセスのロックを解除するには、アクセスキーの定義は必須です (4Dメニューコマンドによるアクセスにはアクセスキーは必要ありません)。 アクセスキーが定義されていない場合、[データエクスプローラーページ](dataExplorer.md) などの Web管理インターフェースに Webクライアントを使って URLを介した接続はできません。 接続リクエストがあった場合には、エラーページが返されます:
 
-![alt-text](../assets/en/Admin/accessKey.png)
+![alt-text](/assets/en/Admin/accessKey.png)
 
 アクセスキーはパスワードに似ていますが、ログインとは関係ありません。
 

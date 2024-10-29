@@ -7,7 +7,7 @@ title: スプリッター
 
 たとえば、スプリッターは列のサイズを変更できるよう、リストフォームで使用されます:
 
-![](../assets/en/FormObjects/split1.png)
+![](/assets/en/FormObjects/split1.png)
 
 スプリッターの一般的な特徴をいくつか次に説明します:
 

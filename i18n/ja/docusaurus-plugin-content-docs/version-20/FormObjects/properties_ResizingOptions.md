@@ -19,7 +19,7 @@ title: リサイズオプション
 
 * すべての列が最大幅に到達すると、これらはそれ以上拡大されず、余分な空白を埋める形で空の列が右に追加されます。 この余白カラムがあるときにリストボックスの幅を縮小させた場合、余白カラムから先に縮小されていきます。
 
-![](../assets/en/FormObjects/property_columnAutoResizing.png)
+![](/assets/en/FormObjects/property_columnAutoResizing.png)
 
 #### 余白カラムについて
 
@@ -95,13 +95,13 @@ title: リサイズオプション
 
 プロパティを適用するとスプリッターオブジェクトは "プッシャー" になり、そのオブジェクトの右側 (垂直スプリッター) または下側 (水平スプリッター) にある他のオブジェクトは、スプリッターと一緒に押し出されて移動します。
 
-"プッシャー" スプリッターを移動した場合の結果を次に示します: ![](../assets/en/FormObjects/splitter_pusher1.png)
+"プッシャー" スプリッターを移動した場合の結果を次に示します: ![](/assets/en/FormObjects/splitter_pusher1.png)
 
-![](../assets/en/FormObjects/splitter_pusher3.png)
+![](/assets/en/FormObjects/splitter_pusher3.png)
 
 スプリッターに対してこのプロパティを指定しない場合、結果は次のようになります:
 
-![](../assets/en/FormObjects/splitter_pusher2.png)
+![](/assets/en/FormObjects/splitter_pusher2.png)
 
 #### JSON 文法
 

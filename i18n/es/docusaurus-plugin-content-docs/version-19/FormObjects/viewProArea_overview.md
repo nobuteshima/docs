@@ -5,7 +5,7 @@ title: Área 4D View Pro
 
 4D View Pro le permite insertar y mostrar un área de hoja de cálculo en sus formularios 4D. Una hoja de cálculo es una aplicación que contiene una cuadrícula de celdas en las que se puede introducir información, ejecutar cálculos o mostrar imágenes.
 
-![](../assets/en/FormObjects/viewPro2.png)
+![](/assets/en/FormObjects/viewPro2.png)
 
 Una vez que utilice las áreas de 4D View Pro en sus formularios, podrá importar y exportar documentos de hojas de cálculo.
 

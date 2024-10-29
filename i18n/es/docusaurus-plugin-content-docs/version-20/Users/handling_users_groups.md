@@ -41,8 +41,8 @@ El administrador no puede:
 
 Tanto el Diseñador como el Administrador están disponibles por defecto en todas las aplicaciones. En la [caja de diálogo de gestión de usuarios](#users-and-groups-editor), los iconos del Diseñador y del Administrador se muestran en rojo y verde respectivamente:
 
-- Icono Diseñador: ![](../assets/en/Users/iconDesigner.png)
-- Icono del Administrador: ![](../assets/en/Users/iconAdmin.png)
+- Icono Diseñador: ![](/assets/en/Users/iconDesigner.png)
+- Icono del Administrador: ![](/assets/en/Users/iconAdmin.png)
 
 Puede cambiar el nombre de los usuarios Diseñador y Administrador. En el lenguaje, el ID del diseñador es siempre 1 y el ID del administrador es siempre 2.
 
@@ -54,7 +54,7 @@ El Diseñador y el Administrador pueden crear hasta 16.000 grupos y 16.000 usuar
 
 El editor de usuarios se encuentran en la caja de herramientas de 4D.
 
-![](../assets/en/Users/editor.png)
+![](/assets/en/Users/editor.png)
 
 > El editor de usuarios y grupos se puede mostrar en tiempo de ejecución utilizando el comando [EDIT ACCESS](https://doc.4d.com/4dv19R/help/command/en/page281.html). Toda la configuración de usuarios y grupos también puede editarse durante la ejecución de la aplicación utilizando los comandos del lenguaje 4D del tema `Usuarios y Grupos`.
 
@@ -68,7 +68,7 @@ Para añadir un usuario desde la caja de herramientas :
 
 La lista de usuarios muestra todos los usuarios, incluyendo el [Diseñador y el Administrador](#designer-and-administrator).
 
-2. Haga clic en el botón ![](../assets/en/Users/PlussNew.png) situado debajo de la lista de usuarios. OR Right-click in the list of users and choose **Add** or **Duplicate** in the context menu.
+2. Haga clic en el botón ![](/assets/en/Users/PlussNew.png) situado debajo de la lista de usuarios. OR Right-click in the list of users and choose **Add** or **Duplicate** in the context menu.
 
 > El comando **Duplicar** se puede utilizar para crear varios usuarios que tengan las mismas características rápidamente.
 
@@ -87,7 +87,7 @@ La pertenencia de los usuarios a los distintos grupos también puede definirse p
 ### Eliminar un usuario
 
 
-Para eliminar un usuario, selecciónelo y haga clic en el botón de eliminación o utilice el comando **Suprimir** del menú contextual. ![](../assets/en/Users/MinussNew.png)
+Para eliminar un usuario, selecciónelo y haga clic en el botón de eliminación o utilice el comando **Suprimir** del menú contextual. ![](/assets/en/Users/MinussNew.png)
 
 Los nombres de usuario borrados ya no aparecen en el editor de usuarios. Tenga en cuenta que los ID de los usuarios eliminados se reasignan cuando se crean nuevas cuentas de usuario.
 
@@ -112,7 +112,7 @@ Para crear un grupo:
 
 1. Seleccione **Caja de herramientas > Grupos** en el menú **Diseño** o haga clic en el botón **Caja de herramientas** de la barra de herramientas de 4D luego haga clic en el botón **Grupos**. 4D muestra la ventana del editor de grupos. La lista de grupos muestra todos los grupos del proyecto de aplicación.
 
-2. Haga clic en el botón ![](../assets/en/Users/PlussNew.png)ubicado debajo de la lista de grupos.  
+2. Haga clic en el botón ![](/assets/en/Users/PlussNew.png)ubicado debajo de la lista de grupos.  
    O  
    Haga clic derecho en la lista de grupos y elija el comando **Añadir** o **Duplicar** en el menú contextual.
 
@@ -130,7 +130,7 @@ Puede colocar cualquier usuario o grupo en un grupo, y también puede colocar el
 
 Para incluir a un usuario o grupo en un grupo, basta con marcar la opción "Miembro" para cada usuario o grupo en el área de atribución de los miembros:
 
-![](../assets/en/Users/groups.png)
+![](/assets/en/Users/groups.png)
 
 Si se marca el nombre de un usuario, éste se añade al grupo. Si marca el nombre de un grupo, todos los usuarios del grupo se añaden al nuevo grupo. El usuario o grupo afiliado tendrá entonces los mismos privilegios de acceso que los asignados al nuevo grupo.
 
@@ -148,7 +148,7 @@ Distribuir los accesos a los plug-ins le permite controlar el uso de las licenci
 
 El área "Plug-in" de la página Grupos de la caja de herramientas lista todos los plug-ins cargados por la aplicación 4D. Para dar acceso a un grupo a un complemento, basta con marcar la opción correspondiente.
 
-![](../assets/en/Users/plugins.png)
+![](/assets/en/Users/plugins.png)
 
 Las líneas **4D Client Web Server** y **4D Client SOAP Server** permiten controlar la posibilidad de publicación Web y SOAP (Web Services) de cada 4D en modo remoto. Estas licencias son consideradas por 4D Server como licencias de plug-in. Por lo tanto, al igual que en el caso de los plug-ins, puede restringir el derecho de uso de estas licencias a un grupo específico de usuarios.
 
@@ -161,11 +161,11 @@ En este ejemplo, un usuario es asignado a uno de los tres grupos en función de 
 
 A continuación, los grupos se anidan para que los privilegios se distribuyan correctamente entre los usuarios de cada grupo.
 
-- El grupo de Dirección General sólo contiene usuarios de "alto nivel". ![](../assets/en/Users/schema1.png)
+- El grupo de Dirección General sólo contiene usuarios de "alto nivel". ![](/assets/en/Users/schema1.png)
 
-- El grupo Finanzas contiene usuarios de mantenimiento de datos, así como también usuarios de Dirección General, por lo que los usuarios de Dirección General también tienen los privilegios del grupo Finanzas. ![](../assets/en/Users/schema2.png)
+- El grupo Finanzas contiene usuarios de mantenimiento de datos, así como también usuarios de Dirección General, por lo que los usuarios de Dirección General también tienen los privilegios del grupo Finanzas. ![](/assets/en/Users/schema2.png)
 
-- El grupo Contabilidad contiene usuarios de entrada de datos así como usuarios del grupo Finanzas, por lo que los usuarios que pertenecen al grupo Finanzas y al grupo Dirección General disfrutan también de los privilegios del grupo Contabilidad. ![](../assets/en/Users/schema3.png)
+- El grupo Contabilidad contiene usuarios de entrada de datos así como usuarios del grupo Finanzas, por lo que los usuarios que pertenecen al grupo Finanzas y al grupo Dirección General disfrutan también de los privilegios del grupo Contabilidad. ![](/assets/en/Users/schema3.png)
 
 Puede decidir qué privilegios de acceso asignar a cada grupo en función del nivel de responsabilidad de los usuarios que contiene.
 
@@ -183,7 +183,7 @@ Los grupos tienen asignados privilegios de acceso para partes o funcionalidades 
 
 Estos accesos se definen en la caja de diálogo Parámetros. El siguiente ejemplo muestra los derechos de acceso del explorador de diseño y tiempo de ejecución asignados al grupo "Devs":
 
-![](../assets/en/Users/Access1.png)
+![](/assets/en/Users/Access1.png)
 
 También se utilizan grupos para [distribuir las licencias disponibles](#assigning-a-group-to-a-plug-in-or-to-a-server). Esta distribución se define en el editor Grupos.
 

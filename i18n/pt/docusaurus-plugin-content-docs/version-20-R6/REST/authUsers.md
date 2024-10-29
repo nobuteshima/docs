@@ -33,7 +33,7 @@ A sequência de login do usuário é a seguinte:
 
 4. If the user is successfully authentified, a 4D license is consumed on the server and all REST requests are accepted.
 
-![alt-text](../assets/en/REST/force-login-2.jpeg)
+![alt-text](/assets/en/REST/force-login-2.jpeg)
 
 In the user login phase, license usage is disconnected from web user sessions. A license is required only when the [`Session.setPrivileges()`](../API/SessionClass.md#setprivileges) is executed, allowing you to control the number of used licenses.
 
@@ -47,7 +47,7 @@ Descriptive REST requests can be processed in web user sessions that do not requ
 - `/rest/$catalog/authentify` - la función del almacén de datos utilizada para iniciar sesión del usuario
 - `/rest/$getWebForm` - Renderização de uma página Qodly
 
-![alt-text](../assets/en/REST/force-login-1.jpeg)
+![alt-text](/assets/en/REST/force-login-1.jpeg)
 
 ## `Function authentify`
 

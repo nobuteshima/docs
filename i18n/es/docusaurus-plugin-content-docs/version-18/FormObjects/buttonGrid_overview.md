@@ -7,7 +7,7 @@ title: Rejilla de botones
 
 Una rejilla de botones es un objeto transparente que se coloca sobre una imagen. La imagen debe corresponder a la forma d eun array. Cuando se hace clic en uno de los gráficos, éste tendrá un aspecto presionado:
 
-![](../assets/en/FormObjects/buttonGrid_smileys.png)
+![](/assets/en/FormObjects/buttonGrid_smileys.png)
 
 Puede utilizar un objeto rejilla de botones para determinar dónde hace clic el usuario en la imagen. El método objeto utilizaría el evento `On Clicked` y tomaría la acción apropiada dependiendo de la ubicación del clic.
 
@@ -17,7 +17,7 @@ Para crear la rejilla de botones, añada una imagen de fondo al formulario y col
 
 En 4D, se utiliza una rejilla de botones para las paletas de colores:
 
-![](../assets/en/FormObjects/button_buttonGrid.png)
+![](/assets/en/FormObjects/button_buttonGrid.png)
 
 ## Utilizar rejillas de botones
 

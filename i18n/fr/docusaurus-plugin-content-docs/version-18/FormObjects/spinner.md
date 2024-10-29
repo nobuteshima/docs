@@ -7,7 +7,7 @@ title: Spinner
 
 Le spinner est un indicateur circulaire qui affiche une animation continue, telle que le [Barber shop](progressIndicator.md#barber-shop).
 
-![](../assets/en/FormObjects/spinner.gif)
+![](/assets/en/FormObjects/spinner.gif)
 
 Ce type d'objet vous permet d'indiquer une opération telle que la recherche de connexion réseau ou le calcul est en cours. Lorsque cet indicateur est sélectionné, [les propriétés "Graduations"](properties_Scale.md) ne sont pas disponibles.
 

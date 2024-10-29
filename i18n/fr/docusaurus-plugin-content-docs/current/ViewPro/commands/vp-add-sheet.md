@@ -31,7 +31,7 @@ Dans *name*, vous pouvez passer un nom pour la nouvelle feuille. Le nouveau nom 
 
 Le document comporte actuellement 3 feuilles :
 
-![vp-document-with-3-sheets](../../assets/en/ViewPro/vp-sheet-3.png)
+![vp-document-with-3-sheets](/assets/en/ViewPro/vp-sheet-3.png)
 
 Pour insérer une feuille à la troisième position (index 2) et la nommer "March" :
 
@@ -39,7 +39,7 @@ Pour insérer une feuille à la troisième position (index 2) et la nommer "Marc
 VP ADD SHEET("ViewProArea";2;"March")
 ```
 
-![vp-add-sheet](../../assets/en/ViewPro/vp-add-sheet.png)
+![vp-add-sheet](/assets/en/ViewPro/vp-add-sheet.png)
 
 #### Voir également
 

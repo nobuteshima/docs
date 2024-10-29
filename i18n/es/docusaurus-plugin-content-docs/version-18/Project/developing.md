@@ -17,8 +17,8 @@ Cuando trabaja en un proyecto en 4D Developer, puede utilizar los editores integ
 
 4D Developer incluye un gestor de acceso a los archivos para controlar los accesos simultáneos:
 
-- if an open file which is read-only at the OS level, a locked icon is displayed in the editor: ![](../assets/en/Project/lockicon.png)
-- if an open file is edited concurrently from different locations, 4D displays an alert dialog box when trying to save the changes:![](../assets/en/Project/projectReload.png)
+- if an open file which is read-only at the OS level, a locked icon is displayed in the editor: ![](/assets/en/Project/lockicon.png)
+- if an open file is edited concurrently from different locations, 4D displays an alert dialog box when trying to save the changes:![](/assets/en/Project/projectReload.png)
   - **Sí**: ignorar los cambios del editor y volver a cargar
   - **No**: guardar los cambios y sobrescribir la otra versión
   - **Cancelar**: no guardar

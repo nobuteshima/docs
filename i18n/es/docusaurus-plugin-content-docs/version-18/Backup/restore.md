@@ -26,7 +26,7 @@ Para restaurar una base manualmente a través de una caja de diálogo estándar:
 1. Elija **Restituir...** en el menú de la aplicación 4D **Archivo**. No es obligatorio que una base de datos esté abierta. OR Execute the `RESTORE` command from a 4D method. Aparece una caja de diálogo estándar de apertura de archivos.
 2. Seleccione un archivo de copia de seguridad (.4bk) o un archivo de copia de seguridad del historial (.4bl) que desee restaurar y haga clic en **Abrir**. Aparece una caja de diálogo que permite especificar la ubicación donde se restaurarán los archivos. Por defecto, 4D restaura los archivos en una carpeta llamada *Nomarchivo* (sin extensión) situada junto al archivo. Puede mostrar la ruta de acceso:
 
-![](../assets/en/Backup/backup07.png)
+![](/assets/en/Backup/backup07.png)
 
 También puede hacer clic en el botón **[...]** para especificar una ubicación diferente.
 3. Haga clic en el botón **Restaurar**. 4D extrae todos los archivos de copia de seguridad de la ubicación especificada. Si el archivo de historial actual o un archivo de copia de seguridad del historial tiene el mismo número que el archivo de copia de seguridad se almacena en la misma carpeta, 4D examina su contenido. Si contiene operaciones que no están presentes en el archivo de datos, el programa le pregunta si desea integrar estas operaciones. La integración se realiza automáticamente si la opción **de integración automática del historial** está seleccionada (ver [Restauración automática](settings.md#automatic-restore)). 4.(Opcional) Haga clic en **OK** para integrar el archivo de historial en la base restaurada. Si la restauración y la integración se han realizado correctamente, 4D muestra una caja de diálogo que indica que la operación se ha realizado con éxito.
@@ -40,7 +40,7 @@ Puede restaurar manualmente un archivo de la base de datos actual utilizando la 
 
 Si no ha marcado la opción de integración automática del archivo de historial en la página Restaurar del CSM (ver [Integración sucesiva de varios archivos de historial](MSC/restore.md#successive-intergration-of-several-data-log-files)), aparece una caja de diálogo de advertencia durante la apertura de la base cuando 4D advierte que el archivo de historial contiene más operaciones de las que se han realizado en la base.
 
-![](../assets/en/Backup/backup08.png)
+![](/assets/en/Backup/backup08.png)
 
 > Para que este mecanismo funcione, 4D debe poder acceder al archivo de historial en su ubicación actual.
 

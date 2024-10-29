@@ -500,7 +500,7 @@ $sel2:=$sel.clean()
   //$sel2.length = 3
 ```
 
-![](../assets/en/API/clean.png)
+![](/assets/en/API/clean.png)
 
 
 #### See also
@@ -949,7 +949,7 @@ If several *attributePath* are given, a *targetPath* must be given for each. Onl
 
 Given the following table and relation:
 
-![](../assets/en/API/entityselection.PNG)
+![](/assets/en/API/entityselection.PNG)
 
 ```4d
  var $firstnames; $addresses; $mailing; $teachers : Collection
@@ -2247,7 +2247,7 @@ An empty collection is returned if:
 
 The following structure will be used throughout all examples of this section:
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 
 Example without filter or options parameter:

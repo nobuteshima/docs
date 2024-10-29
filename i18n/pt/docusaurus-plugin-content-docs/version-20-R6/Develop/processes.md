@@ -126,7 +126,7 @@ Você pede a um trabalhador para executar um método de projeto chamando o coman
 
 A animação a seguir ilustra esta sequência:
 
-![](../assets/en/Develop/WorkerAnimation.gif)
+![](/assets/en/Develop/WorkerAnimation.gif)
 
 Ao contrário de um processo criado com o comando `Novo processo`, um processo de trabalhador **permanece ativo após a conclusão do método de execução do processo**. Isto significa que todas as execuções de métodos para o mesmo trabalhador serão executadas no mesmo processo, que mantém todas as informações do estado do processo (variáveis do processo, registro atual e seleção atual, etc.). Consequentemente, os métodos executados sucessivamente terão acesso e compartilharão as mesmas informações, permitindo a comunicação entre os processos. A caixa de mensagens do worker lida com chamadas sucessivas de forma assíncrona.
 

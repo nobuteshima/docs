@@ -42,7 +42,7 @@ Vous souhaitez créer un tableau vide et y ajouter plusieurs lignes de taille di
  $wpRow3:=WP Table append row($wpTable;"Mary";"Trenton";18;"New!")
 ```
 
-![](../../assets/en/WritePro/commands/pict3306976.en.png)
+![](/assets/en/WritePro/commands/pict3306976.en.png)
 
 #### Exemple 2 
 
@@ -71,7 +71,7 @@ Dans une facturation, vous souhaitez créer un tableau automatiquement rempli av
  WP SET ATTRIBUTES($wpTable;wk font size;10)
 ```
 
-![](../../assets/en/WritePro/commands/pict3369663.en.png)
+![](/assets/en/WritePro/commands/pict3369663.en.png)
 
 #### Voir aussi 
 

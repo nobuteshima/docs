@@ -85,7 +85,7 @@ The *doAddMessage* method only adds a row in the list box in the "FormMessage" f
 
 At runtime, you get the following result:
 
-![](../assets/en/commands/pict2896824.en.png)
+![](/assets/en/commands/pict2896824.en.png)
 
 You can then add other messages by executing the **CALL FORM** command again:
 
@@ -94,7 +94,7 @@ You can then add other messages by executing the **CALL FORM** command again:
  CALL FORM(formRef2;"doAddMessage";Current process name;"Hello 2 Form 2")
 ```
 
-![](../assets/en/commands/pict2896833.en.png)
+![](/assets/en/commands/pict2896833.en.png)
 
 #### See also 
 

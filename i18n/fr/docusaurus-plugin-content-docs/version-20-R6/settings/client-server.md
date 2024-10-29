@@ -41,7 +41,7 @@ Lorsque vous modifiez cette valeur depuis 4D Server ou 4D, elle est automatiquem
 
 Pour mettre à jour les autres machines clientes qui ne sont pas connectées, il suffit de saisir le nouveau numéro de port (précédé de deux points) après l'adresse IP de la machine serveur dans l'onglet **Personnalisé** de la boîte de dialogue de connexion Par exemple, si le nouveau numéro de port est 19888 :
 
-![](../assets/en/settings/client-server-network.png)
+![](/assets/en/settings/client-server-network.png)
 
 > Seules les bases de données publiées sur le même port que celui défini dans 4D client sont visibles sur la page de publication dynamique TCP/IP.
 

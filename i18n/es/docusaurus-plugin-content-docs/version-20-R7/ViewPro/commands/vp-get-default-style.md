@@ -27,7 +27,7 @@ Puede definir dónde obtener el número de columnas en el parámetro opcional *s
 
 Para obtener los detalles sobre el estilo predeterminado para este documento:
 
-![](../../assets/en/ViewPro/cmd_vpGetDefaultStyle.PNG)
+![](/assets/en/ViewPro/cmd_vpGetDefaultStyle.PNG)
 
 Este código:
 

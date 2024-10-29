@@ -9,7 +9,7 @@ This page contains parameters defining the Code Editor interface and its default
 
 This page allows selecting, creating, or configuring Code Editor themes. Un thème définit la police, la taille de la police, les couleurs et les styles des éléments de l'éditeur de code.
 
-![](../assets/en/Preferences/themes.png)
+![](/assets/en/Preferences/themes.png)
 
 ### Liste des thèmes
 
@@ -56,7 +56,7 @@ Vous pouvez définir différents styles et couleurs de police (couleur de police
 
 These options configure the various colors used in the Code Editor and debugger interfaces.
 
-![](../assets/en/Preferences/categories.png)
+![](/assets/en/Preferences/categories.png)
 
 
 |                                                                | Description                                                                                                                                                                                                   |
@@ -80,7 +80,7 @@ These options configure the various colors used in the Code Editor and debugger 
 
 This page configures Code Editor display options.
 
-![](../assets/en/Preferences/options.png)
+![](/assets/en/Preferences/options.png)
 
 
 ### Options
@@ -101,7 +101,7 @@ Changes the indentation value for the 4D code in the Code Editor. La largeur doi
 
 Le code 4D est automatiquement indenté afin de faire apparaître sa structure :
 
-![](../assets/en/Preferences/optionsIndent.png)
+![](/assets/en/Preferences/optionsIndent.png)
 
 Modifier cette valeur par défaut peut être utile si vos méthodes contiennent des algorithmes complexes avec de nombreux niveaux d'intégration. Une indentation plus étroite peut être utilisée afin de limiter le défilement horizontal.
 
@@ -117,7 +117,7 @@ Lets you choose whether or not to show the lists of objects (Commands, Tables an
 
 Vous permet de choisir d'afficher ou non les multiples presse-papiers dans l'éditeur de code.
 
-![](../assets/en/Preferences/show-clipboards.png)
+![](/assets/en/Preferences/show-clipboards.png)
 
 Les [raccourcis du presse-papiers](https://doc.4d.com/4Dv19R3/4D/19-R3/Writing-a-method.300-5612559.en.html#3977166) correspondants demeurent actifs lorsque ces presse-papiers sont masqués.
 
@@ -125,7 +125,7 @@ Les [raccourcis du presse-papiers](https://doc.4d.com/4Dv19R3/4D/19-R3/Writing-a
 
 Lorsque vous cochez l'option, tout le code correspondant à un bloc logique (Si/Fin de si par exemple) est surligné lorsque la souris est placée au-dessus de l'icône plier/déplier :
 
-![](../assets/en/Preferences/optionsLogicalBlocks.png)
+![](/assets/en/Preferences/optionsLogicalBlocks.png)
 
 La couleur de surlignage peut être modifiée dans la page [Définition d'un thème](#définition-dun-thème).
 
@@ -133,13 +133,13 @@ La couleur de surlignage peut être modifiée dans la page [Définition d'un th�
 
 Permet de cacher de façon permanente les lignes verticales de blocs. Les lignes de blocs sont conçues pour visualiser les blocs logiques. Par défaut, elles sont toujours affichées, excepté lorsque les icônes plier/déplier sont masquées (voir ci-dessous).
 
-![](../assets/en/Preferences/optionsBlockLines.png)
+![](/assets/en/Preferences/optionsBlockLines.png)
 
 #### Masquer les icônes plier/déplier
 
 Permet de masquer, par défaut, toutes les icônes plier/déplier lorsque vous affichez le code. Lorsque cette option est cochée, les icônes plier/déplier (ainsi que les lignes de blocs locales, voir ci-dessus) sont affichées temporairement lorsque la souris survole une icône :
 
-![](../assets/en/Preferences/optionsHideIcons.png)
+![](/assets/en/Preferences/optionsHideIcons.png)
 
 #### Insérer () et ajouter } ) ] " fermants
 
@@ -149,8 +149,8 @@ Active l'insertion automatique de () et de caractères fermants lors de la saisi
 
 - **fermeture }, ), ] ou "** : caractère ajouté lorsque vous tapez respectivement une ouverture {, (, ] ou ". Cette fonction permet d'insérer des paires de symboles correspondants au point d'insertion ou autour d'un texte sélectionné. Par exemple, si vous mettez en surbrillance une chaîne de caractères et que vous tapez un simple caractère ", toute la chaîne sélectionnée sera entourée de "" :
 
-![](../assets/en/Preferences/optionsClosing.png)  
-![](../assets/en/Preferences/optionsClosing2.png)
+![](/assets/en/Preferences/optionsClosing.png)  
+![](/assets/en/Preferences/optionsClosing2.png)
 
 #### Correspondance \[]\(){}
 
@@ -158,7 +158,7 @@ Permet de modifier la signalisation graphique des caractères d'encadrement corr
 
 - **Aucun** : Aucun signal
 - **Rectangle** (défaut): Caractères encadrés par un filet noir  
-  ![](../assets/en/Preferences/optionsRectangle.png)
+  ![](/assets/en/Preferences/optionsRectangle.png)
 - **Couleur de fond** : Caractères mis en surbrillance (la couleur est définie dans la page [Thème](thèmes)).
 - **Gras** : caractères affichés en gras.
 
@@ -166,7 +166,7 @@ Permet de modifier la signalisation graphique des caractères d'encadrement corr
 
 Permet de mettre en surbrillance toutes les occurrences d'un(e) même variable ou champ dans une fenêtre de méthode ouverte.
 
-![](../assets/en/Preferences/optionsVariables.png)
+![](/assets/en/Preferences/optionsVariables.png)
 
 - **Non** (par défaut) : Pas de surbrillance
 - **Sur curseur** : Toutes les occurrences sont mises en évidence lorsque le texte est cliqué
@@ -178,7 +178,7 @@ La couleur de surlignage peut être modifiée dans la page [Définition d'un th�
 
 Permet de mettre en surbrillance la ligne en exécution dans le Débogueur, en plus de la flèche jaune.
 
-![](../assets/en/Preferences/optionsLine.png)
+![](/assets/en/Preferences/optionsLine.png)
 
 Si vous désélectionnez cette option, seule la flèche jaune est affichée.
 
@@ -188,7 +188,7 @@ This area lets you configure autocomplete mechanisms in the Code Editor to adapt
 
 |                                     | Description                                                                                                                                                                                                                                            |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Affichage automatique de la fenêtre | Ouverture automatique de la fenêtre de suggestion pour :<ul><li>Constantes</li><li>Variables (locales et interprocess) et attributs d'objets</li><li>Tables</li><li>Prototypes (c'est-à-dire les fonctions de classe)</li></ul><p>Par exemple, lorsque l'option "Variables (locales ou interprocess) et attributs d'objets" est cochée, une liste de suggestions apparaît lorsque vous tapez le caractère $ :</p><p>![](../assets/en/Preferences/suggestionsAutoOpen.png)</p> Vous pouvez désactiver ce fonctionnement pour certains éléments du langage en décochant leur option correspondante. |
+| Affichage automatique de la fenêtre | Ouverture automatique de la fenêtre de suggestion pour :<ul><li>Constantes</li><li>Variables (locales et interprocess) et attributs d'objets</li><li>Tables</li><li>Prototypes (c'est-à-dire les fonctions de classe)</li></ul><p>Par exemple, lorsque l'option "Variables (locales ou interprocess) et attributs d'objets" est cochée, une liste de suggestions apparaît lorsque vous tapez le caractère $ :</p><p>![](/assets/en/Preferences/suggestionsAutoOpen.png)</p> Vous pouvez désactiver ce fonctionnement pour certains éléments du langage en décochant leur option correspondante. |
 | Validation d'une suggestion         | Sets the entry context that allows the Code Editor to validate automatically the current suggestion displayed in the autocomplete window.<ul><li>**Tabulation et délimiteurs**<br/> Lorsque cette option est cochée, vous pouvez valider la sélection courante à l'aide de la touche Tab ou de tout autre délimiteur pertinent. Par exemple, si vous entrez "ALE" et ensuite "(", 4D écrit automatiquement "ALERT(" dans l'éditeur. Voici la liste des délimiteurs qui sont pris en compte :<br/> ( ; : = < [ {</li><li>**Tabulation uniquement**<br/> Lorsque cette option est cochée, vous pouvez utiliser uniquement la touche Tab pour insérer la suggestion courante. This can be used more particularly to facilitate the entry of delimiter characters in element names, such as ${1}.**Note**: You can also double-click in the window or press the Carriage return key to validate a suggestion.</li></ul>                                                                                     |
 	
 

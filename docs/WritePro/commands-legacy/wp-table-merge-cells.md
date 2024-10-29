@@ -58,7 +58,7 @@ You want to designate a range of cells and merge it together:
 
 Result:
 
-![](../../assets/en/WritePro/commands/pict6398108.en.png)
+![](/assets/en/WritePro/commands/pict6398108.en.png)
 
 Existing data from the original cells is concatenated in the resulting merged cell. 
 

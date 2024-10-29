@@ -46,8 +46,8 @@ Este parámetro es útil, por ejemplo, cuando la imagen de fondo contiene bordes
 
 | Con / Sin                | Ejemplo                                                      |
 | ------------------------ | ------------------------------------------------------------ |
-| Sin margen               | ![](../assets/en/FormObjects/property_horizontalMargin1.png) |
-| Con un margen 13 píxeles | ![](../assets/en/FormObjects/property_horizontalMargin2.png) |
+| Sin margen               | ![](/assets/en/FormObjects/property_horizontalMargin1.png) |
+| Con un margen 13 píxeles | ![](/assets/en/FormObjects/property_horizontalMargin2.png) |
 > Esta propiedad funciona junto con la propiedad [Margen vertical](#vertical-margin).
 
 #### Gramática JSON
@@ -102,7 +102,7 @@ Esta propiedad define el número exacto de estados presentes en la imagen utiliz
 
 Cada estado está representado por una imagen diferente. En la imagen fuente, los estados deben apilarse verticalmente:
 
-![](../assets/en/property_numberOfStates.png)
+![](/assets/en/property_numberOfStates.png)
 
 Están representados los siguientes estados:
 
@@ -151,11 +151,11 @@ Aquí están los resultados utilizando las distintas opciones para esta propieda
 
 | Option        | Descripción                                                                                                                                       | Ejemplo                                                           |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| **Izquierda** | El texto se coloca a la izquierda del icono. El contenido del botón se alinea a la derecha.                                                       | ![](../assets/en/FormObjects/property_titlePosition_left.en.png)  |
-| **Arriba**    | El texto se coloca debajo del icono. El contenido del botón está centrado.                                                                        | ![](../assets/en/FormObjects/property_titlePosition_top.png)      |
-| **Derecha**   | El texto se coloca a la derecha del icono. El contenido del botón se alinea a la izquierda.                                                       | ![](../assets/en/FormObjects/property_titlePosition_right.png)    |
-| **Abajo**     | El texto se coloca sobre el icono. El contenido del botón está centrado.                                                                          | ![](../assets/en/FormObjects/property_titlePosition_bottom.png)   |
-| **Centrado**  | El texto del icono está centrado vertical y horizontalmente en el botón. Este parámetro es útil, por ejemplo, para el texto incluido en un icono. | ![](../assets/en/FormObjects/property_titlePosition_centered.png) |
+| **Izquierda** | El texto se coloca a la izquierda del icono. El contenido del botón se alinea a la derecha.                                                       | ![](/assets/en/FormObjects/property_titlePosition_left.en.png)  |
+| **Arriba**    | El texto se coloca debajo del icono. El contenido del botón está centrado.                                                                        | ![](/assets/en/FormObjects/property_titlePosition_top.png)      |
+| **Derecha**   | El texto se coloca a la derecha del icono. El contenido del botón se alinea a la izquierda.                                                       | ![](/assets/en/FormObjects/property_titlePosition_right.png)    |
+| **Abajo**     | El texto se coloca sobre el icono. El contenido del botón está centrado.                                                                          | ![](/assets/en/FormObjects/property_titlePosition_bottom.png)   |
+| **Centrado**  | El texto del icono está centrado vertical y horizontalmente en el botón. Este parámetro es útil, por ejemplo, para el texto incluido en un icono. | ![](/assets/en/FormObjects/property_titlePosition_centered.png) |
 
 #### Gramática JSON
 
@@ -193,7 +193,7 @@ Este parámetro es útil, por ejemplo, cuando la imagen de fondo contiene bordes
 
 Esta propiedad permite mostrar un símbolo que aparece como un triángulo en el botón para indicar la presencia de un menú emergente adjunto:
 
-![](../assets/en/FormObjects/property_popup.png)
+![](/assets/en/FormObjects/property_popup.png)
 
 La apariencia y ubicación de este símbolo depende del estilo del botón y de la plataforma actual.
 
@@ -203,7 +203,7 @@ Para asociar un símbolo de menú emergente a un botón, hay dos opciones de vis
 
 |                        Enlazado                         |                          Separado                          |
 |:-------------------------------------------------------:|:----------------------------------------------------------:|
-| ![](../assets/en/FormObjects/property_popup_linked.png) | ![](../assets/en/FormObjects/property_popup_separated.png) |
+| ![](/assets/en/FormObjects/property_popup_linked.png) | ![](/assets/en/FormObjects/property_popup_separated.png) |
 > La disponibilidad efectiva de un modo "separado" depende del estilo del botón y de la plataforma.
 
 Cada opción precisa la relación entre el botón y el menú emergente asociado:

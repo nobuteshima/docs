@@ -17,7 +17,7 @@ title: 図形
 
 四角のグラフィック属性 (線カラー、線幅、点線タイプ等) やリサイズオプションはプロパティリストにて指定できます。 角の [丸み](properties_CoordinatesAndSizing.md#角の半径) を指定することもできます。
 
-![](../assets/en/FormObjects/shapes_rectangle2.png)
+![](/assets/en/FormObjects/shapes_rectangle2.png)
 
 #### JSON 例:
 
@@ -79,7 +79,7 @@ title: 図形
 ```
 
 結果:
-![](../assets/en/FormObjects/shape_line1.png)
+![](/assets/en/FormObjects/shape_line1.png)
 
 ```
 	"myLine": {
@@ -95,7 +95,7 @@ title: 図形
 ```
 
 結果:
-![](../assets/en/FormObjects/shape_line2.png)
+![](/assets/en/FormObjects/shape_line2.png)
 
 #### プロパティ一覧
 
@@ -120,7 +120,7 @@ title: 図形
 
 フォーム上に楕円を配置することで、視覚的な効果が得られます。 楕円を使って円を描くことができます ([幅](properties_CoordinatesAndSizing.md#幅) と [高さ](properties_CoordinatesAndSizing.md#高さ) を同じ値に設定します)。
 
-![](../assets/en/FormObjects/shape_oval.png)
+![](/assets/en/FormObjects/shape_oval.png)
 
 #### JSON 例:
 

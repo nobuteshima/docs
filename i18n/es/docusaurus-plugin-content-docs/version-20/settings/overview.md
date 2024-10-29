@@ -5,7 +5,7 @@ title: Settings
 
 Los parámetros configuran el funcionamiento del proyecto actual. Estos parámetros pueden ser diferentes para cada proyecto. Incluyen los puertos de escucha, las configuraciones de copia de seguridad, las opciones de seguridad, los parámetros Web, etc.
 
-![](../assets/en/settings/main.png)
+![](/assets/en/settings/main.png)
 
 > 4D ofrece otro conjunto de parámetros, llamados **Preferencias**, que se aplican a la aplicación 4D IDE. Para más información, consulte [Preferencias](../Preferences/general.md).
 
@@ -38,7 +38,7 @@ En ambos casos, los parámetros pueden abrirse en "Sólo lectura", pero no puede
 
 En las cajas de diálogo de las Propiedades, los parámetros cuyos valores se han modificado aparecen **en negrita**:
 
-![](../assets/en/settings/customize-settings.png)
+![](/assets/en/settings/customize-settings.png)
 
 Los parámetros indicados como personalizados pueden haber sido modificados directamente en la caja de diálogo, o pueden haber sido modificados previamente en el caso de un proyecto convertido.
 

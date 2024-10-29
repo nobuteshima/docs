@@ -147,7 +147,7 @@ Designa una página de inicio por defecto para el servidor web. Esta página pue
 
 Por defecto, cuando el servidor web se lanza por primera vez, 4D crea una página de inicio llamada "index.html" y la coloca en la carpeta raíz HTML. Si no modifica esta configuración, todo navegador que se conecte al servidor web obtendrá la siguiente página:
 
-![](../assets/en/WebServer/defaultHomePage.png)
+![](/assets/en/WebServer/defaultHomePage.png)
 
 Puede designar otra página de inicio por defecto introduciendo su nombre de ruta.
 

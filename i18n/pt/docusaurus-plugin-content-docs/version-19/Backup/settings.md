@@ -19,7 +19,7 @@ Se essa aplicação não for lançada no momento teórico do backup, na próxima
 
 Os parâmetros da cópia de segurança programador são definidos na página **Backup/Periodicidade** das Propriedades do banco de dados:
 
-![](../assets/en/Backup/backup02.png)
+![](/assets/en/Backup/backup02.png)
 
 As opções encontradas nessa aba permitem estabelecer e  configurar as cópias de segurança automáticas programadas do banco de dados. Pode escolher uma configuração rápida padrão ou pode personalizá-la completamente. Aparecem várias opções em função da escolha realizada no menu **Cópia de segurança automática**:
 
@@ -40,7 +40,7 @@ As opções encontradas nessa aba permitem estabelecer e  configurar as cópias 
 
 A página Cópia de segurança| Configuração das propriedades do banco de dados permite determinar os arquivos de cópia de segurança e sua localização, assim como a do arquivo de histórico. Esses parâmetros são específicos para cada banco de dados abertos pela aplicação 4D.
 
-![](../assets/en/Backup/backup03.png)
+![](/assets/en/Backup/backup03.png)
 
 > **4D Server:** estes parâmetros só podem ser configurados desde a máquina 4D Server.
 
@@ -78,7 +78,7 @@ Como padrão, todo banco de dados criado com 4D usando um arquivo de histórico 
 
 Modificar as opções de cópia de segurança e restauração é opcional. Seus valores padrão correspondem ao uso padrão da função.
 
-![](../assets/en/Backup/backup04.png)
+![](/assets/en/Backup/backup04.png)
 
 ### Parâmetros gerais
 

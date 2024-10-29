@@ -5,7 +5,7 @@ title: Menus
 
 Pode criar barras de menu e menus para as suas aplicações 4D. Because pull-down menus are a standard feature of any desktop application, their addition will make your applications easier to use and will make them feel familiar to users.
 
-![](../assets/en/Menus/menubar.png)
+![](/assets/en/Menus/menubar.png)
 
 Una **barra de menús** es un grupo de menús que pueden aparecer juntos en una misma pantalla. Cada **menú** de una barra de menús puede tener varios comandos de menú en ella, incluyendo algunos que llaman a submenús en cascada (o submenús jerárquicos). When the user chooses a menu or submenu command, it calls a project method or a standard action that performs an operation.
 
@@ -28,7 +28,7 @@ Para criar menus e barras de menu, pode utilizar qualquer um deles:
 
 Se accede al editor de menús mediante el botón **Menús** de la caja de herramientas.
 
-![](../assets/en/Menus/editor1.png)
+![](/assets/en/Menus/editor1.png)
 
 Menus and menu bars are displayed as two items of the same hierarchical list, on the left side of the dialog box. Cada menu pode ser anexado a uma barra de menus ou a outro menu. No segundo caso, o menu torna-se um sub-menu.
 

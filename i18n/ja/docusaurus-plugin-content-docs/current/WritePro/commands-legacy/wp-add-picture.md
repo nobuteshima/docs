@@ -52,7 +52,7 @@ displayed_sidebar: docs
 
 結果は以下のようになります:
 
-![](../../assets/en/WritePro/commands/pict3617325.en.png)
+![](/assets/en/WritePro/commands/pict3617325.en.png)
 
 #### 例題 2 
 
@@ -69,7 +69,7 @@ displayed_sidebar: docs
 
 結果は以下のようになります:
 
-![](../../assets/en/WritePro/commands/pict3617351.en.png)
+![](/assets/en/WritePro/commands/pict3617351.en.png)
 
 #### 例題 3 
 
@@ -83,7 +83,7 @@ displayed_sidebar: docs
  WP SET ATTRIBUTES($obImage;wk image formula;Formula([Flowers]Image))
 ```
 
-![](../../assets/en/WritePro/commands/pict3841719.en.png)
+![](/assets/en/WritePro/commands/pict3841719.en.png)
 
 #### 参照 
 

@@ -144,14 +144,14 @@ The following examples illustrate the returned bounding rectangle coordinates, d
  $paraCoordinates:=WP Get position($paragraph) // green dotted line
 ```
 
-![](../../assets/en/WritePro/commands/pict4096405.en.png)
+![](/assets/en/WritePro/commands/pict4096405.en.png)
 
 *Red dotted line:* *$textCoordinates object values* 
 *Green dotted line: $* *paraCoordinates object values* 
 
 **Note:** In case of a display on several columns, the *rangeHeight* property (plain lines) could be larger than *bounds.bottom*\-*bounds.top* (dotted lines):
 
-![](../../assets/en/WritePro/commands/pict4096411.en.png)
+![](/assets/en/WritePro/commands/pict4096411.en.png)
 
 #### See also 
 

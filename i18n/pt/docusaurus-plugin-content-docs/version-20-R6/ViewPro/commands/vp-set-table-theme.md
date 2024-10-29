@@ -45,7 +45,7 @@ $param.theme:="medium2" VP SET TABLE THEME("ViewProArea"; "myTable"; $param)
 
 Pretende ter esta renderização de coluna alternativa:
 
-![](../../assets/en/ViewPro/col-bandering.png)
+![](/assets/en/ViewPro/col-bandering.png)
 
 ```4d
 var $param : cs.ViewPro.TableTheme

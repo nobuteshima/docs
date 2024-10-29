@@ -30,7 +30,7 @@ title: VP CREATE TABLE
 
 `VP CREATE TABLE` コマンドは、<!-- REF #_method_.VP CREATE TABLE.Summary -->指定のレンジ内に表組みを作成します<!-- END REF -->。 表組みを作成することで、関連するデータの管理や分析をより簡単におこなえます。 表組みは通常、関連するデータを行と列に含み、[データコンテキスト](vp-set-data-context.md) を利用します。
 
-![](../../assets/en/ViewPro/vp-create-table.png)
+![](/assets/en/ViewPro/vp-create-table.png)
 
 *rangeObj* 引数には、表の作成場所としたいセルのレンジを渡します。
 
@@ -101,7 +101,7 @@ VP CREATE TABLE(VP Cells("ViewProArea"; 1; 1; $options.tableColumns.length; 1); 
 
 このようになります:
 
-![](../../assets/en/ViewPro/vp-create-table.png)
+![](/assets/en/ViewPro/vp-create-table.png)
 
 #### 参照
 

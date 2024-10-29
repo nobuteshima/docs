@@ -18,7 +18,7 @@ ORDA のセキュリティアーキテクチャーは、権限、許諾アクシ
 
 権限外のアクションをユーザーが実行しようとすると、権限エラーが生成されるか、あるいは読み取り権限がない属性の場合にはそのデータは送信されません。
 
-![スキーマ](../assets/en/ORDA/privileges-schema.png)
+![スキーマ](/assets/en/ORDA/privileges-schema.png)
 
 
 

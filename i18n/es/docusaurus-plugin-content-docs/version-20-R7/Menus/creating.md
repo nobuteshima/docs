@@ -30,7 +30,7 @@ Puede modificar esta barra de menú como desee o crear otras adicionales.
 
 ### Utilizando el editor de menús
 
-1. Seleccione el elemento que desea crear y haga clic en el botón Añadir ![](../assets/en/Menus/PlussNew.png) debajo del área de la barra de menús.
+1. Seleccione el elemento que desea crear y haga clic en el botón Añadir ![](/assets/en/Menus/PlussNew.png) debajo del área de la barra de menús.
    O
    Elija **Crear una nueva barra de menús** o **Crear un nuevo menú** en el menú contextual de la lista o en el menú de opciones situado debajo de la lista.
    Si ha creado una barra de menús, aparece una nueva barra en la lista que contiene los menús por defecto (Archivo y Edición).
@@ -58,7 +58,7 @@ Para añadir un elemento de menú:
    Si el menú ya tiene comandos, se mostrarán en la lista central. Si desea insertar el nuevo comando, seleccione el comando que desea que aparezca sobre él. Todavía es posible reorganizar el menú posteriormente utilizando la función de arrastrar y soltar.
 2. Elija **Añadir un elemento al menú "NombreDelMenú"** en el menú de opciones del editor o desde el menú contextual (clic derecho en la lista central).
    O
-   Haga clic en el botón añadir ![](../assets/en/Menus/PlussNew.png) ubicado debajo de la lista central.
+   Haga clic en el botón añadir ![](/assets/en/Menus/PlussNew.png) ubicado debajo de la lista central.
    4D añade un nuevo elemento con el nombre por defecto "Elemento X" donde X es el número de elementos ya creados.
 3. Haga doble clic en el nombre del comando para pasar al modo edición e introducir un nombre personalizado.
    OR Enter the custom name in the "Title" area. Puede contener hasta 31 caracteres. Puede introducir el nombre como "codificado" o introducir una referencia (ver más abajo).
@@ -75,7 +75,7 @@ Puede eliminar una barra de menús, un menú o un elemento de menú en el editor
 
 Para eliminar una barra de menús, un menú o un elemento de menú:
 
-- Seleccione el elemento que desea eliminar y haga clic en el botón ![](../assets/en/Menus/MinussNew.png) situado debajo de la lista.
+- Seleccione el elemento que desea eliminar y haga clic en el botón ![](/assets/en/Menus/MinussNew.png) situado debajo de la lista.
 - o bien, utilice el comando apropiado **Eliminar...** del menú contextual o del menú de opciones del editor.
 
 > No es posible eliminar Menu Bar #1.

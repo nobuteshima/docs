@@ -9,7 +9,7 @@ Esta página contiene parámetros que definen la interfaz, la visualización por
 
 Esta página permite seleccionar, crear o configurar los temas del editor de métodos. Un tema define la fuente, el tamaño de la fuente, los colores y los estilos de los elementos mostrados del editor de código.
 
-![](../assets/en/Preferences/themes.png)
+![](/assets/en/Preferences/themes.png)
 
 ### Lista de temas
 
@@ -55,7 +55,7 @@ Puede definir diferentes estilos de fuente y colores de fuente (color de fuente 
 
 Estas opciones configuran los distintos colores utilizados en las interfaces del editor de métodos y del depurador.
 
-![](../assets/en/Preferences/categories.png)
+![](/assets/en/Preferences/categories.png)
 
 |                                                        | Descripción                                                                                                                                                                                  |
 | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -75,7 +75,7 @@ Estas opciones configuran los distintos colores utilizados en las interfaces del
 
 Esta página configura las opciones de visualización del editor de métodos.
 
-![](../assets/en/Preferences/options.png)
+![](/assets/en/Preferences/options.png)
 
 ### Opciones
 
@@ -94,7 +94,7 @@ Cambia el valor de indentación del código 4D en el editor de métodos. El anch
 
 El código 4D es indentado automáticamente para revelar su estructura:
 
-![](../assets/en/Preferences/optionsIndent.png)
+![](/assets/en/Preferences/optionsIndent.png)
 
 Modificar este valor por defecto puede ser útil si sus métodos contienen algoritmos complejos con muchos niveles de integración. Se puede utilizar una indentación más estrecha para limitar el desplazamiento horizontal.
 
@@ -110,7 +110,7 @@ Le permite elegir si mostrar o no las listas de objetos (Comandos, Tablas y camp
 
 Cuando está seleccionada, todo el código perteneciente a un bloque lógico (If/End if por ejemplo) se resalta cuando el ratón se sitúa sobre el nodo expandido:
 
-![](../assets/en/Preferences/optionsLogicalBlocks.png)
+![](/assets/en/Preferences/optionsLogicalBlocks.png)
 
 El color de resaltado se puede definir en la página [Tema](#theme-definition).
 
@@ -118,13 +118,13 @@ El color de resaltado se puede definir en la página [Tema](#theme-definition).
 
 Permite ocultar permanentemente las líneas verticales de bloques. Las líneas de bloque están diseñadas para conectar visualmente los nodos. Por defecto, siempre se muestran (excepto cuando los iconos contraer/desplegar están ocultos, ver más abajo).
 
-![](../assets/en/Preferences/optionsBlockLines.png)
+![](/assets/en/Preferences/optionsBlockLines.png)
 
 #### Ocultar los iconos contraer/expandir
 
 Permite ocultar todos los iconos expandir/desplegar por defecto al mostrar el código. Cuando la opción está seleccionada, los iconos de nodo (así como las líneas de bloque locales, ver arriba), se muestran temporalmente cuando el ratón se sitúa sobre un nodo:
 
-![](../assets/en/Preferences/optionsHideIcons.png)
+![](/assets/en/Preferences/optionsHideIcons.png)
 
 #### Insertar () y añadir } ) ] " cierres
 
@@ -134,8 +134,8 @@ Activa la inserción automática de () y de llaves de cierre mientras se escribe
 
 * **cierre }, ), ], o "**: caracter que se añade al escribir respectivamente una apertura {, (, ], o ". Esta función permite insertar pares de símbolos coincidentes en el punto de inserción o alrededor de un texto seleccionado. Por ejemplo, si resalta una cadena de caracteres y escribe un simple caracter ", toda la cadena seleccionada quedará encerrada en "":
 
-![](../assets/en/Preferences/optionsClosing.png)  
-![](../assets/en/Preferences/optionsClosing2.png)
+![](/assets/en/Preferences/optionsClosing.png)  
+![](/assets/en/Preferences/optionsClosing2.png)
 
 #### Correspondencia \[]\(){}
 
@@ -143,7 +143,7 @@ Define la señalización gráfica de las llaves correspondientes en el código. 
 
 * **Ninguno**: sin señales
 * **Rectángulo** (por defecto): corchetes rodeados por una línea negra  
-  ![](../assets/en/Preferences/optionsRectangle.png)
+  ![](/assets/en/Preferences/optionsRectangle.png)
 * **Color de fondo**: corchetes resaltados (el color se define en la página [Tema](#Teme-definition)).
 * **Negrita**: las llaves aparecen en negrita.
 
@@ -151,7 +151,7 @@ Define la señalización gráfica de las llaves correspondientes en el código. 
 
 Permite resaltar todas las ocurrencias de la misma variable o campo en una ventana de método abierta.
 
-![](../assets/en/Preferences/optionsVariables.png)
+![](/assets/en/Preferences/optionsVariables.png)
 
 * **No**(por defecto): no resaltado
 * **Con cursor**: todas las ocurrencias se destacan cuando se hace clic en el texto
@@ -163,7 +163,7 @@ El color de resaltado se puede definir en la página [Tema](#theme-definition).
 
 Resalta la línea que se está ejecutando actualmente en el depurador, además del indicador de flecha amarilla.
 
-![](../assets/en/Preferences/optionsLine.png)
+![](/assets/en/Preferences/optionsLine.png)
 
 Si deselecciona esta opción, sólo se mostrará la flecha amarilla.
 
@@ -173,5 +173,5 @@ Esta área le permite configurar los mecanismos de autocompletar en el editor de
 
 |                                   | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Apertura automática de la ventana | Activa la visualización automática de la ventana de sugerencias para: <ul><li>Constantes</li><li>Variables (locales e interproceso) y atributos de objetos</li><li>Tablas</li><li>Prototipos (es decir las funciones de clase)</li></ul>Por ejemplo, cuando la opción "Variables (locales o interproceso) y atributos de objetos" está seleccionada, aparece una lista de sugerencias al escribir el caracter $:![](../assets/en/Preferences/suggestionsAutoOpen.png) Puede desactivar este funcionamiento para determinados elementos del lenguaje desmarcando su opción correspondiente. |
+| Apertura automática de la ventana | Activa la visualización automática de la ventana de sugerencias para: <ul><li>Constantes</li><li>Variables (locales e interproceso) y atributos de objetos</li><li>Tablas</li><li>Prototipos (es decir las funciones de clase)</li></ul>Por ejemplo, cuando la opción "Variables (locales o interproceso) y atributos de objetos" está seleccionada, aparece una lista de sugerencias al escribir el caracter $:![](/assets/en/Preferences/suggestionsAutoOpen.png) Puede desactivar este funcionamiento para determinados elementos del lenguaje desmarcando su opción correspondiente. |
 | Validación de una sugerencia      | Define el contexto de entrada que permite al editor de métodos validar automáticamente la sugerencia actual mostrada en la ventana de autocompletar.<ul><li>**Tabulación y delimitadores**<br/>Cuando se selecciona esta opción, puede validar la selección actual con la tecla Tab o con cualquier delimitador pertinente al contexto. Por ejemplo, si introduce "ALE" y luego "(", 4D escribe automáticamente "ALERT(" en el editor. Esta es la lista de delimitadores que se tienen en cuenta:<br/> ( ; : = < [ {</li><li>**Sólo tabulador**<br/>Cuando se selecciona esta opción, sólo se puede utilizar el tabulador para insertar la sugerencia actual. Esto puede utilizarse más concretamente para facilitar la introducción de caracteres delimitadores en los nombres de elementos, como ${1}.**Note**: También puede hacer doble clic en la ventana o presionar la tecla Retorno de carro para validar una sugerencia.</li></ul>                                                                                                                                                                                                                                                                    |

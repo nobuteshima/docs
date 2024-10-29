@@ -46,7 +46,7 @@ Se executar o seguinte código:
 
 Este facto é ilustrado pelo gráfico seguinte:
 
-![](../assets/en/ORDA/entityRef1.png)
+![](/assets/en/ORDA/entityRef1.png)
 
 Agora, se executar:
 
@@ -63,7 +63,7 @@ Agora, se executar:
 
 Este facto é ilustrado pelo gráfico seguinte:
 
-![](../assets/en/ORDA/entityRef2.png)
+![](/assets/en/ORDA/entityRef2.png)
 
 Note-se, no entanto, que as entidades se referem ao mesmo registo. En todos los casos, si se llama al método `entity.save( )`, el registro se actualizará (excepto en caso de conflicto, ver [Entity locking](#entity-locking)).
 
@@ -122,7 +122,7 @@ Por exemplo, para obter e definir um valor de atributo de armazenamento do tipo 
 
 O acesso a um atributo relacionado depende do tipo de atributo. Por exemplo, com a seguinte estrutura:
 
-![](../assets/en/ORDA/entityAttributes.png)
+![](/assets/en/ORDA/entityAttributes.png)
 
 É possível aceder aos dados através do(s) objeto(s) relacionado(s):
 
@@ -133,7 +133,7 @@ O acesso a um atributo relacionado depende do tipo de atributo. Por exemplo, com
 
 Observe que tanto _theClient_ como _companyProjects_ en el ejemplo anterior son atributos de relación primaria y representan una relación directa entre las dos dataclasses. No entanto, os atributos de relação também podem ser criados com base em caminhos através de relações em vários níveis, incluindo referências circulares. Por exemplo, considere a seguinte estrutura:
 
-![](../assets/en/ORDA/entityAttributes2.png)
+![](/assets/en/ORDA/entityAttributes2.png)
 
 Cada trabalhador pode ser um gestor e pode ter um gestor. Para obter o gerente do gerente de um funcionário, você pode simplesmente escrever:
 
@@ -196,7 +196,7 @@ Na arquitetura ORDA, os atributos de relação contêm diretamente dados relacio
 
 Vejamos a seguinte estrutura (simplificada):
 
-![](../assets/en/ORDA/entityAttributes3.png)
+![](/assets/en/ORDA/entityAttributes3.png)
 
 Neste exemplo, uma entidade na classe de dados "Employee" contém um objeto do tipo Entity no atributo "employer" (ou um valor nulo). Uma entidade na classe de dados "Company" contém um objeto do tipo EntitySelection no atributo "staff" (ou um valor nulo).
 
@@ -419,7 +419,7 @@ Este código devuelve en _$localEmails_ una colección de direcciones de correo 
 
 In addition to the variety of ways you can query, you can also use relation attributes as properties of entity selections to return new entity selections. Por exemplo, considere a seguinte estrutura:
 
-![](../assets/en/ORDA/entitySelectionRelationAttributes.png)
+![](/assets/en/ORDA/entitySelectionRelationAttributes.png)
 
 ```4d
 var $myParts : cs.PartSelection
@@ -560,11 +560,11 @@ This automatic mechanism is based on the concept of "optimistic locking" which i
 
 O diagrama seguinte ilustra o bloqueio otimista:
 
-1. Dois processos carregam a mesma entidade.<br/><br/>![](../assets/en/ORDA/optimisticLock1.png)
+1. Dois processos carregam a mesma entidade.<br/><br/>![](/assets/en/ORDA/optimisticLock1.png)
 
-2. O primeiro processo modifica a entidade e valida a alteração. Se llama al método `entity.save( )`. The 4D engine automatically compares the internal stamp value of the modified entity with that of the entity stored in the data. Since they match, the entity is saved and its stamp value is incremented.<br/><br/>![](../assets/en/ORDA/optimisticLock2.png)
+2. O primeiro processo modifica a entidade e valida a alteração. Se llama al método `entity.save( )`. The 4D engine automatically compares the internal stamp value of the modified entity with that of the entity stored in the data. Since they match, the entity is saved and its stamp value is incremented.<br/><br/>![](/assets/en/ORDA/optimisticLock2.png)
 
-3. O segundo processo também modifica a entidade carregada e valida as suas alterações. Se llama al método `entity.save( )`. Since the stamp value of the modified entity does not match the one of the entity stored in the data, the save is not performed and an error is returned.<br/><br/>![](../assets/en/ORDA/optimisticLock3.png)
+3. O segundo processo também modifica a entidade carregada e valida as suas alterações. Se llama al método `entity.save( )`. Since the stamp value of the modified entity does not match the one of the entity stored in the data, the save is not performed and an error is returned.<br/><br/>![](/assets/en/ORDA/optimisticLock3.png)
 
 Isto também pode ser ilustrado pelo seguinte código:
 
@@ -605,9 +605,9 @@ Using both classic and ORDA commands to lock records is based upon the following
 
 Estes princípios são apresentados no diagrama seguinte:
 
-![](../assets/en/ORDA/concurrent1.png)
+![](/assets/en/ORDA/concurrent1.png)
 
 Los **bloqueos de transacciones** también se aplican tanto a los comandos clásicos como a los comandos ORDA. In a multiprocess or a multi-user application, a lock set within a transaction on a record by a classic command will result in preventing any other processes to lock entities related to this record (or conversely), until the transaction is validated or canceled.
 
-- Example with a lock set by a classic command:<br/><br/>![](../assets/en/ORDA/concurrent2.png)
-- Example with a lock set by an ORDA function:<br/><br/>![](../assets/en/ORDA/concurrent3.png)
+- Example with a lock set by a classic command:<br/><br/>![](/assets/en/ORDA/concurrent2.png)
+- Example with a lock set by an ORDA function:<br/><br/>![](/assets/en/ORDA/concurrent3.png)

@@ -105,7 +105,7 @@ You want to use a formula name for the customer name:
 
 Result:
 
-![](../../assets/en/WritePro/commands/pict6433508.en.png)
+![](/assets/en/WritePro/commands/pict6433508.en.png)
 
 #### See also 
 

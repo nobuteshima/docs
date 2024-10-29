@@ -24,13 +24,13 @@ RESTサーバーは 4D および 4D Server に含まれており、[設定完了
     - Firstname (文字列)
     - Salary (倍長整数)
 
-![](../assets/en/REST/getstarted1.png)
+![](/assets/en/REST/getstarted1.png)
 
 > テーブルおよび各フィールドの "RESTリソースとして公開" オプションはデフォルトで選択されています。これを変更しないでください。
 
 3. フォームを作成し、何名かの社員レコードを作成します:
 
-![](../assets/en/REST/getstarted2.png)
+![](/assets/en/REST/getstarted2.png)
 
 4. ストラクチャー設定の **Web** ＞ **Web機能** ページを開き、[RESTサーバーとして公開](configuration.md#restサーバーを開始する) オプションを選択します。
 

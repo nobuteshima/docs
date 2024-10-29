@@ -22,7 +22,7 @@ displayed_sidebar: docs
 
 <!--REF #_command_.METHOD GET FOLDERS.Summary-->La commande **METHOD GET FOLDERS** retourne dans le tableau *tabNoms* les noms des dossiers créés dans la page Démarrage de l’Explorateur de 4D :
 
-![](../assets/en/commands/pict837666.fr.png)
+![](/assets/en/commands/pict837666.fr.png)
 
 Comme les noms des dossiers doivent être uniques, la hiérarchie n’est pas retournée dans le tableau.<!-- END REF--> 
 

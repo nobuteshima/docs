@@ -13,9 +13,9 @@ La compilation est gérée depuis votre application 4D et est entièrement autom
 
 1. Ouvrez la fenêtre de compilation en sélectionnant la commande **Compilateur...** dans le menu **Développement** ou le bouton **Compilateur** de la barre d'outils.
 
-   ![](../assets/en/Project/compilerWin1.png)
+   ![](/assets/en/Project/compilerWin1.png)
 
-   ![](../assets/en/Project/comp1.png)
+   ![](/assets/en/Project/comp1.png)
 
 > Vous pouvez également lancer directement la compilation en sélectionnant l'élément de menu **Lancer la compilation** dans le menu **Développement**.
 
@@ -23,13 +23,13 @@ La compilation est gérée depuis votre application 4D et est entièrement autom
 
 Si aucune erreur n'est détectée, la compilation démarre et le message "Compilation successful" s'affiche au bas de la fenêtre lorsque la compilation est terminée :
 
-![](../assets/en/Project/success.png)
+![](/assets/en/Project/success.png)
 
 Vous pouvez immédiatement [exécuter votre application en mode compilé](#run-compiled) et identifier sa rapidité.
 
 Si des erreurs sont détectées, le process est stoppé et le message "Compilation failed" s'affiche. La zone d'information de la fenêtre affiche les noms des méthodes et les numéros de ligne concernés dans une liste hiérarchique :
 
-![](../assets/en/Project/compilerWin2.png)
+![](/assets/en/Project/compilerWin2.png)
 
 Double-cliquez sur chaque erreur détectée pour ouvrir la méthode ou la classe concernée directement dans l'éditeur de code 4D. La ligne contenant l'erreur est mise en évidence et le type d'erreur est affiché dans la zone syntaxique de la fenêtre.
 
@@ -63,7 +63,7 @@ Le bouton **Générer le typage** crée ou met à jour les méthodes de typage d
 
 Le nom de ces méthodes doit commencer par `Compiler_`. Vous pouvez définir le nom par défaut de chacune des 5 méthodes du compilateur dans [la fenêtre des paramètres du compilateur](#compiler-methods-for). Les méthodes de compilation qui sont générées et gérées par 4D ont automatiquement l'attribut `Invisible` :
 
-![](../assets/en/Project/compilerWin3.png)
+![](/assets/en/Project/compilerWin3.png)
 
 Seules les méthodes de compilation nécessaires (c'est-à-dire celles pour lesquelles des éléments existent déjà dans le projet) sont générées.
 
@@ -77,11 +77,11 @@ Le bouton **Effacer le code compilé** permet de supprimer le code compilé du p
 
 You can toggle the [warnings](#warnings) display in the Compiler window by clicking the **Show/Hide Warnings** button:
 
-![](../assets/en/Project/compilerWin4.png)
+![](/assets/en/Project/compilerWin4.png)
 
 Lorsque cette option est cochée, les warnings (le cas échéant) sont affichés dans la fenêtre, après les autres types d'erreurs. Ils apparaissent en italique :
 
-![](../assets/en/Project/compilerWin5.png)
+![](/assets/en/Project/compilerWin5.png)
 
 Un double-clic sur un warning ouvre la méthode correspondante.
 
@@ -89,7 +89,7 @@ Un double-clic sur un warning ouvre la méthode correspondante.
 
 The "Compiler" tab of the Settings dialog box lets you set parameters related to project compilation. Vous pouvez ouvrir directement cette page à partir de la [fenêtre du compilateur](#compiler-window) en cliquant sur le bouton **Paramètres du compilateur** :
 
-![](../assets/en/Project/compilerWin6.png)
+![](/assets/en/Project/compilerWin6.png)
 
 ### Options de compilation
 
@@ -170,7 +170,7 @@ Depending on circumstances and the programming style used, warnings may be more 
 
 ### Warnings tab
 
-![](../assets/en/Project/warnings-tab.png)
+![](/assets/en/Project/warnings-tab.png)
 
 This tab allows you to define which warnings should be displayed globally. From the list of all possible warnings with their types, their code and their localized label, ordered by warning code.
 

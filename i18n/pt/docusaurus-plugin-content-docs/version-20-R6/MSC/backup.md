@@ -6,7 +6,7 @@ sidebar_label: Página de Backup
 
 Pode utilizar a página de cópia de segurança para ver alguns parâmetros de cópia de segurança do banco de dados e para iniciar uma cópia de segurança manual:
 
-![](../assets/en/MSC/msc_Backup.png)
+![](/assets/en/MSC/msc_Backup.png)
 
 Esta página é composta pelas três áreas seguintes:
 

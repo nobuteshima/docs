@@ -11,7 +11,7 @@ title: プロジェクトメソッドの許可
 
 - **公開オプション: 4DタグとURL (4DACTION...)** (メソッドプロパティ) を使用する:
 
-![](../assets/en/WebServer/methodProperties.png)
+![](/assets/en/WebServer/methodProperties.png)
 
 このオプションを使用してプロジェクトメソッドごとに、特別な URL `4DACTION` や `4DTEXT`, `4DHTML`, `4DEVAL`, `4DSCRIPT`, `4DIF`, `4DELSEIF`, `4DLOOP` などの 4Dタグを使用した呼び出しを許可するかしないかを設定できます。 このオプションがチェックされていない場合、そのプロジェクトメソッドは HTTPリクエストから直接実行することはできません。 他方、他のタイプの呼び出し (フォーミュラや他のメソッドからの呼び出しなど) ではこれらのメソッドを実行することができます。
 
@@ -19,4 +19,4 @@ title: プロジェクトメソッドの許可
 
 このプロパティが指定されたプロジェクトメソッドは、エクスプローラーで以下のアイコンが表示されます:
 
-![](../assets/en/WebServer/methodIcon.png)
+![](/assets/en/WebServer/methodIcon.png)

@@ -17,7 +17,7 @@ title: ドキュメンテーション
 
 ドキュメントされた内容は、エクスプローラーの右側にあるプレビューエリアに表示されます:
 
-![](../assets/en/Project/explorer_Doc.png)
+![](/assets/en/Project/explorer_Doc.png)
 
 また、[コードエディターのヘルプTip](#コードエディターでドキュメンテーションを表示する) として部分的に表示することもできます。
 
@@ -71,7 +71,7 @@ title: ドキュメンテーション
 2. エクスプローラーリストより、ドキュメントされている要素を選択します。
 3. プレビューエリアの下にある **ドキュメンテーション** ボタンをクリックします。
 
-![](../assets/en/Project/comments-explo2.png)
+![](/assets/en/Project/comments-explo2.png)
 
 - 選択要素のドキュメンテーションファイルが見つからなかった場合には、**作成する** ボタンが表示されます。
 
@@ -86,7 +86,7 @@ title: ドキュメンテーション
 - `Documentation` ペインにある **作成する** ボタンをクリックするか、
 - エクスプローラーのオプションメニューまたはコンテキストメニューより **ドキュメンテーションを編集...** を選択します。
 
-![](../assets/en/Project/comments-explo3.png)
+![](/assets/en/Project/comments-explo3.png)
 
 テンプレートを使い、適切な場所・名称で自動作成された .md ファイルは、デフォルトの Markdown エディターで開かれます。
 
@@ -96,7 +96,7 @@ title: ドキュメンテーション
 
 4D のコードエディターは、メソッドのドキュメンテーションの一部をヘルプTip として表示します。
 
-![](../assets/en/Project/codeEditor_Comments.png)
+![](/assets/en/Project/codeEditor_Comments.png)
 
 `<MethodName>.md` ファイルが `<package>/documentation` フォルダーに存在する場合、コードエディターは次の優先順位でヘルプTips を表示します:
 
@@ -115,7 +115,7 @@ title: ドキュメンテーション
 
 新規作成されたドキュメンテーションファイルには、次のデフォルト項目が含まれています:
 
-![](../assets/en/Project/comments-explo4.png)
+![](/assets/en/Project/comments-explo4.png)
 
 | 線                                                   | 説明                                                                                      |
 | --------------------------------------------------- | --------------------------------------------------------------------------------------- |
@@ -216,6 +216,6 @@ C_LONGINT($size)
 $logo:=GetLogo(5)
 ```
 
-- エクスプローラーの表示: ![](../assets/en/Project/explorer_Doc.png)
+- エクスプローラーの表示: ![](/assets/en/Project/explorer_Doc.png)
 
-- コードエディターの表示: ![](../assets/en/Project/comments-explo5.png)
+- コードエディターの表示: ![](/assets/en/Project/comments-explo5.png)

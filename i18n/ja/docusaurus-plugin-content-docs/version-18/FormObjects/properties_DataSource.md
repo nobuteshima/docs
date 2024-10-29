@@ -14,7 +14,7 @@ title: データソース
 
 たとえば、"France, Germany, Italy" という値を含む選択リストが "Countries" というコンボボックスに関連付けられていた場合を考えます。**自動挿入** のオプションがチェックをされていて、ユーザーが "Spain" という値を入力すると、"Spain" という値が自動的にメモリー内のリストに追加されます:
 
-![](../assets/en/FormObjects/comboBox_AutomaticInsertion_example.png)
+![](/assets/en/FormObjects/comboBox_AutomaticInsertion_example.png)
 
 当然のことながら、オブジェクトに [除外リスト](properties_RangeOfValues.md#除外リスト) が設定されていた場合には、そのリストに含まれる値を入力することはできません。
 > デザインモードで定義されたリストが関連付けられている場合、自動挿入によって、その元のリストが変更されることはありません。
@@ -126,7 +126,7 @@ title: データソース
 
 デフォルト値のリストを入力します。 フォームエディター上で専用のダイアログが開き、改行で区切られた値を入力することができます。
 
-![](../assets/en/FormObjects/defaultValues.png)
+![](/assets/en/FormObjects/defaultValues.png)
 
 > リストボックス列に [選択リスト](properties_DataSource.md#選択リスト) を定義することもできます。 選択リストは列の各行において選択可能な値の候補として使用されますが、デフォルト値のリストはカラムの各行に上から順に割り当てられます。
 

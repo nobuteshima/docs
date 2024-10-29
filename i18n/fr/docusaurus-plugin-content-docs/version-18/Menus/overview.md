@@ -5,7 +5,7 @@ title: Vue d’ensemble
 
 4D vous permet de créer des barres de menus et des menus pour vos bases de données et vos applications personnalisées. Comme les menus sont une fonctionnalité standard de toute application, leur présence dans votre base facilite son utilisation.
 
-![](../assets/en/Menus/menubar.png)
+![](/assets/en/Menus/menubar.png)
 
 Une **barre de menus** est un groupe de menus qui peuvent être affichés dans le même écran. Chaque **menu** d’une barre de menus peut posséder plusieurs commandes dont certaines peuvent faire appel à des sous-menus en cascade (on parle alors de sous-menus hiérarchiques). Lorsque l’utilisateur choisit une commande de menu ou de sous-menu, il appelle une méthode projet ou une action standard qui réalise une opération.
 
@@ -28,7 +28,7 @@ Pour créer des menus et des barres de menus, vous pouvez utiliser soit :
 
 L’éditeur de menus est accessible via le bouton **Menus** de la Boîte à outils.
 
-![](../assets/en/Menus/editor1.png)
+![](/assets/en/Menus/editor1.png)
 
 Les barres de menus et les menus sont affichés sous forme de deux éléments d’une même liste hiérarchique, dans la partie gauche de la fenêtre. Chaque menu peut être attaché à une barre de menus ou à un autre menu. Dans le deuxième cas, le menu devient un sous-menu.
 

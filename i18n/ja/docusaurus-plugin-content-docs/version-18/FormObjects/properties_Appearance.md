@@ -12,13 +12,13 @@ title: アピアランス
 
 macOS上では、デフォルトボタンプロパティによってボタンの見た目が変更され、推奨されている選択肢であることをユーザーに対して示します。 デフォルトボタンとフォーカスされているボタンは同一である必要はありません。 macOSにおけるデフォルトボタンは特徴的な青い外観を持ちます:
 
-![](../assets/en/FormObjects/property_defaultButtonmacOS.en.png)
+![](/assets/en/FormObjects/property_defaultButtonmacOS.en.png)
 
 > このデフォルトボタンとしての外観を得るには、ボタンの高さが 22以下に設定されている必要があります。
 
 Windows上では "推奨選択肢" の概念はサポートされていないため、ランタイムにおいて異なる外観を持つのはフォーカスされているボタンのみですが、 4D フォームエディター上ではデフォルトボタンは青い枠線で表されます:
 
-![](../assets/en/FormObjects/property_defaultButtonWindows.en.png)
+![](/assets/en/FormObjects/property_defaultButtonWindows.en.png)
 
 #### JSON 文法
 
@@ -262,11 +262,11 @@ HTML WYSIWYG ビューを有効/無効にします。このビューでは、�
 
 たとえば、フォーマットを指定したカレント日付を挿入していると、デフォルトでは次の表示になります:
 
-![](../assets/en/FormObjects/writePro1.png)
+![](/assets/en/FormObjects/writePro1.png)
 
 参照を表示オプションを有効にすると、代わりにもとの参照が表示されます:
 
-![](../assets/en/FormObjects/writeProExpr.png)
+![](/assets/en/FormObjects/writeProExpr.png)
 
 > 4D 式を挿入するには、`ST INSERT EXPRESSION` コマンドを使います。
 

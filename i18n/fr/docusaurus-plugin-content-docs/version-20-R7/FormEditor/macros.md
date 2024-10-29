@@ -67,14 +67,14 @@ Function onInvoke($editor : Object)->$result : Object
 ```
 
 Ensuite, vous pouvez appeler la macro :
-![](../assets/en/FormEditor/macroex1.png)
-![](../assets/en/FormEditor/macroex2.png)
+![](/assets/en/FormEditor/macroex1.png)
+![](/assets/en/FormEditor/macroex2.png)
 
 ## Appeler des macros dans l'éditeur de formulaires
 
 Lorsque des macros sont définies dans votre projet 4D, vous pouvez appeler une macro à l'aide du menu contextuel de l'éditeur de formulaires :
 
-![](../assets/en/FormEditor/macroSelect.png)
+![](/assets/en/FormEditor/macroSelect.png)
 
 Ce menu est crée selon le(s) [fichier(s) de définition de macro](#location-of-macros) `formMacros.json`. Les macros sont classées par ordre alphabétique.
 
@@ -88,7 +88,7 @@ Toutes les macros de l'éditeur de formulaire 4D sont définies dans un seul fic
 
 Ce fichier doit se trouver dans le dossier **Projet** >**Sources** de l'hôte ou du composant :
 
-![](../assets/en/FormEditor/macroStructure.png)
+![](/assets/en/FormEditor/macroStructure.png)
 
 ## Déclaration de macros
 

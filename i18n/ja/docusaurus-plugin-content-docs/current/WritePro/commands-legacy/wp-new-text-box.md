@@ -58,7 +58,7 @@ displayed_sidebar: docs
 
 実行した結果:
 
-![](../../assets/en/WritePro/commands/pict6196750.en.png)
+![](/assets/en/WritePro/commands/pict6196750.en.png)
 
 #### 例題 2 
 
@@ -91,7 +91,7 @@ displayed_sidebar: docs
 
 実行した結果:
 
-![](../../assets/en/WritePro/commands/pict6196766.en.png)
+![](/assets/en/WritePro/commands/pict6196766.en.png)
 
 #### 参照 
 

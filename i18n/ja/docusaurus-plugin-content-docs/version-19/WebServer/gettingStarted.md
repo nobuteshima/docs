@@ -26,7 +26,7 @@ title: はじめに
 
 デフォルトのホームページが表示されます:
 
-![](../assets/en/WebServer/defaultHomePage.png)
+![](/assets/en/WebServer/defaultHomePage.png)
 
 ### Hello World の表示
 
@@ -53,7 +53,7 @@ http://localhost/hello
 
 Webサーバーがリクエストを処理して次を返します:
 
-![](../assets/en/WebServer/hello.png)
+![](/assets/en/WebServer/hello.png)
 
 ## データベースのデータを取得する
 
@@ -61,7 +61,7 @@ Webサーバーがリクエストを処理して次を返します:
 
 たとえば、数件のレコードを含む 1つのテーブルを持つ基本的なデータベースを作成します:
 
-![](../assets/en/WebServer/hello2.png) ![](../assets/en/WebServer/hello3.png)
+![](/assets/en/WebServer/hello2.png) ![](/assets/en/WebServer/hello3.png)
 
 ### ページへのデータ表示
 
@@ -89,7 +89,7 @@ http://localhost/friends.shtml
 
 `.shtml` のページは、Webサーバーによって自動的に処理されます。 データを表示するページが返されます:
 
-![](../assets/en/WebServer/hello3bis.png)
+![](/assets/en/WebServer/hello3bis.png)
 
 ### RESTリクエスト
 
@@ -97,7 +97,7 @@ http://localhost/friends.shtml
 
 1. RESTサーバーを使ってデータにアクセスしましょう: "ストラクチャー設定" ダイアログボックスで "Web/RESTリソース" ページを選択し、**RESTサーバーとして公開** オプションをチェックします。
 
-![](../assets/en/WebServer/hello5.png)
+![](/assets/en/WebServer/hello5.png)
 
 2. ブラウザーで次の URL を入力します:
 
@@ -192,7 +192,7 @@ http://localhost/rest/Friends
 
 1. いくつかのフィールドを持つテーブルを作成します。たとえば:
 
-![](../assets/en/WebServer/helloUsers.png)
+![](/assets/en/WebServer/helloUsers.png)
 
 2. 以下のコードを実行し、ユーザーを作成します:
 
@@ -254,7 +254,7 @@ End if
 
 3. コードエディターの **[i]** ボタンでメソッドプロパティを表示し、`4DタグとURL(4DACTION...)` オプションにチェックを入れて **OK** をクリックします。
 
-![](../assets/en/WebServer/hello0.png)
+![](/assets/en/WebServer/hello0.png)
 
 4. ブラウザーで次の URL を入力します:
 
@@ -266,10 +266,10 @@ http://localhost/4DACTION/login/?userID=john@4d.com&password=123
 
 すると、そのセッションでログインされます:
 
-![](../assets/en/WebServer/login1.png)
+![](/assets/en/WebServer/login1.png)
 
 間違ったログイン情報は拒否されます:
 
-![](../assets/en/WebServer/login2.png)
+![](/assets/en/WebServer/login2.png)
 
 ユーザーがログインすると、`WEB Get Current Session ID` メソッドを使って、関連するセッションを処理することができます。 [ユーザーセッション](sessions.md) のページを参照ください。

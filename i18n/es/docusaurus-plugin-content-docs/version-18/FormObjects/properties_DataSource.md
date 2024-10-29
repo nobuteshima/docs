@@ -14,7 +14,7 @@ Cuando se selecciona esta opción, si un usuario introduce un valor que no se en
 
 Por ejemplo, dada una lista de selección que contiene "Francia, Alemania, Italia" que está asociada a un combo box "Países": si la propiedad **inserción automática** está activada y un usuario introduce "España", entonces el valor "España" se añade automáticamente a la lista en memoria:
 
-![](../assets/en/FormObjects/comboBox_AutomaticInsertion_example.png)
+![](/assets/en/FormObjects/comboBox_AutomaticInsertion_example.png)
 
 Naturalmente, el valor introducido no debe pertenecer a la lista de [valores excluidos](properties_RangeOfValues.md#excluded-list) asociada al objeto, si se ha definido una.
 > Si la lista se creó a partir de una lista definida en el modo Diseño, la lista original no se modifica.
@@ -126,7 +126,7 @@ Lista de valores que se utilizarán como valores por defecto para la columna del
 
 Debe introducir una lista de valores. En el editor de formularios, un diálogo específico permite introducir valores separados por retornos de carro:
 
-![](../assets/en/FormObjects/defaultValues.png)
+![](/assets/en/FormObjects/defaultValues.png)
 
 > También puede definir una [lista de selección](properties_DataSource.md#choice-list) con la columna list box. Sin embargo, se utilizará una lista de selección como lista de valores seleccionables para cada línea de columna, mientras que la lista por defecto rellena todas las líneas de columna.
 

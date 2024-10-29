@@ -63,7 +63,7 @@ VP SET ALLOWED METHODS($allowed)
 
 このコードが実行されたあと、定義されたファンクションは 4D View Pro フォーミュラで使用することができるようになります:
 
-![](../../assets/en/ViewPro/cmd_vpSetAllowedMethods.PNG)
+![](/assets/en/ViewPro/cmd_vpSetAllowedMethods.PNG)
 
 > インデックスは 0 起点です。
 

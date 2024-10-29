@@ -33,7 +33,7 @@ title: ユーザーとセッション
 
 4. ユーザーが正常に認証された場合、4Dライセンスがサーバー上で消費され、すべての RESTリクエストが受け入れられます。
 
-![alt-text](../assets/en/REST/force-login-2.jpeg)
+![alt-text](/assets/en/REST/force-login-2.jpeg)
 
 ユーザーログインの段階では、ライセンスの消費は Webユーザーセッションから切り離されます。 ライセンスは、[`Session.setPrivileges()`](../API/SessionClass.md#setprivileges) が実行された時にのみ必要なため、使用されるライセンスの数を制御することができます。
 
@@ -47,7 +47,7 @@ title: ユーザーとセッション
 - `/rest/$catalog/authentify` - ユーザーログインに使用されるデータストア関数
 - `/rest/$getWebForm` - Qodlyページのレンダリング
 
-![alt-text](../assets/en/REST/force-login-1.jpeg)
+![alt-text](/assets/en/REST/force-login-1.jpeg)
 
 ## `Function authentify`
 

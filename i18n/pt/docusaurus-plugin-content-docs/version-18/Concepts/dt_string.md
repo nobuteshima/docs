@@ -195,7 +195,7 @@ Quando utiliza os símbolos de referência de caracteres, deve endereçar os car
 
 accionará o erro de tempo de execução mostrado aqui:
 
-![alt-text](../assets/en/Concepts/Syntax_Error.en.png)
+![alt-text](/assets/en/Concepts/Syntax_Error.en.png)
 
 ### Exemplo
 
@@ -226,4 +226,4 @@ ALERT(Capitalize_text("hello, my name is jane doe and i'm running for president!
 
 mostra o alerta aqui mostrado:
 
-![alt-text](../assets/en/Concepts/Jane_doe.en.png)
+![alt-text](/assets/en/Concepts/Jane_doe.en.png)

@@ -46,7 +46,7 @@ VP SHOW CELL($displayCell;vk position center;vk position center)
 
 結果:
 
-![](../../assets/en/ViewPro/cmd_vpShowCell1.PNG)
+![](/assets/en/ViewPro/cmd_vpShowCell1.PNG)
 
 先ほどのコードの縦および横方向のセレクターを変更して、AY51 セルを 4D View Pro エリアの右上に表示します:
 
@@ -58,7 +58,7 @@ VP SHOW CELL($displayCell;vk position top;vk position right)
 
 結果:
 
-![](../../assets/en/ViewPro/cmd_vpShowCell2.PNG)
+![](/assets/en/ViewPro/cmd_vpShowCell2.PNG)
 
 #### 参照
 

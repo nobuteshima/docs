@@ -31,7 +31,7 @@ En este ejemplo, el usuario introduce su correo electrónico y contraseña en un
 
 Página de inicio de sesión HTML:
 
-![alt-text](../assets/en/REST/login.png)
+![alt-text](/assets/en/REST/login.png)
 
 ```html
 <html><body bgcolor="#ffffff">

@@ -7,7 +7,7 @@ Une zone de plug-in est une zone du formulaire contrôlée par un plug-in. La ca
 
 Lorsque vous ouvrez une application, 4D crée une liste interne des plug-ins [installés dans votre application](#installing-plug-ins). Une fois que vous avez inséré une Zone de plug-in dans un formulaire, vous pouvez sélectionner le plug-in à lui affecter via la liste **Type** dans la fenêtre de propriétés de l’objet :
 
-![](../assets/en/FormObjects/pluginArea.png)
+![](/assets/en/FormObjects/pluginArea.png)
 
 > Certains plug-ins, comme 4D Internet Commands, ne peuvent pas être utilisés dans des formulaires ou des fenêtres externes. Dans ce cas, ils n’apparaissent pas dans la liste de propriétés.
 

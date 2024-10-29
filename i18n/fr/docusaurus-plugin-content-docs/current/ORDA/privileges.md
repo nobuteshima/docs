@@ -15,7 +15,7 @@ Chaque requête utilisateur envoyée dans la session est évaluée par rapport a
 
 Si un utilisateur tente d'exécuter une action et ne dispose pas des droits d'accès appropriés, une erreur de privilège est générée ou, en cas de permission de lecture manquante sur les attributs, ils ne sont pas envoyés.
 
-![schema](../assets/en/ORDA/privileges-schema.png)
+![schema](/assets/en/ORDA/privileges-schema.png)
 
 ### Voir également
 

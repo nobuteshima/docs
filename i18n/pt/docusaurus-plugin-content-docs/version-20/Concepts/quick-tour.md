@@ -12,7 +12,7 @@ ALERT("Hello, World!")
 
 Esse código vai exibir um alerta normal de plataforma com a mensagem "hello world" contendo um botão OK. Para executar o código, precisa clicar no botão de execução do editor de Método:
 
-!["Hello World"](../assets/en/Concepts/helloworld.png)
+!["Hello World"](/assets/en/Concepts/helloworld.png)
 
 Ou poderia anexar esse código a um botão em um formulário e executar o formulário, nesse caso, clicar no botão exibira a caixa de diálogo de alerta. Em qualquer caso, acabou de executar sua primeira linha de código 4D!
 

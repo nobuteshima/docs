@@ -38,7 +38,7 @@ displayed_sidebar: docs
 
 以下のピクチャがある時: 
 
-![](../assets/en/commands/pict27793.ja.png)
+![](/assets/en/commands/pict27793.ja.png)
 
 ```4d
  COMBINE PICTURES(flag;mybackground;Superimposition;mycircle;50;30)
@@ -46,7 +46,7 @@ displayed_sidebar: docs
 
 結果は:
 
-![](../assets/en/commands/pict27794.ja.png)
+![](/assets/en/commands/pict27794.ja.png)
 
 #### 参照 
 

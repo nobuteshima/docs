@@ -15,8 +15,8 @@ Para crear un nuevo proyecto:
 
 1. Lance 4D o 4D Server.
 2. Haga una de las siguientes cosas:
-    * Seleccione **Nuevo > Proyecto** desde el menú **Archivo**: ![](../assets/en/getStart/projectCreate1.png)
-    * (Sólo 4D) Seleccione **Proyecto...** en el botón de la barra de herramientas **Nuevo**:<p>![](../assets/en/getStart/projectCreate2.png)</p>Aparece un diálogo estándar **Guardar** para que pueda elegir el nombre y la ubicación de la carpeta principal del proyecto 4D.
+    * Seleccione **Nuevo > Proyecto** desde el menú **Archivo**: ![](/assets/en/getStart/projectCreate1.png)
+    * (Sólo 4D) Seleccione **Proyecto...** en el botón de la barra de herramientas **Nuevo**:<p>![](/assets/en/getStart/projectCreate2.png)</p>Aparece un diálogo estándar **Guardar** para que pueda elegir el nombre y la ubicación de la carpeta principal del proyecto 4D.
 
 3. Introduzca el nombre de su carpeta de proyecto y haga clic en **Guardar**. Este nombre se utilizará:
 
@@ -78,7 +78,7 @@ Puede utilizar un archivo [`.4DLink`](#about-4DLink-files) para lanzar la aplica
 * haga doble clic o arrastre y suelte el archivo `.4DLink` en la aplicación 4D
 * vaya a **Archivo** > **Abrir los proyectos recientes** y seleccione un proyecto
 
-![open-recent-projects](../assets/en/Project/4Dlinkfiles.png)
+![open-recent-projects](/assets/en/Project/4Dlinkfiles.png)
 
 Un archivo .4DLink de tipo "proyecto remoto" puede copiarse y utilizarse en varias máquinas.
 > También es posible seleccionar un archivo 4DLink en la caja de diálogo de apertura de 4D y 4D Server (abriendo sólo el proyecto local).
@@ -113,10 +113,10 @@ Dado que los editores utilizan archivos en el disco, podrían producirse conflic
 
 El marco de desarrollo 4D incluye un gestor de acceso a los archivos para controlar los accesos simultáneos:
 
-* if an open file is read-only at the OS level, a locked icon is displayed in the editor: ![](../assets/en/Project/lockicon.png)
+* if an open file is read-only at the OS level, a locked icon is displayed in the editor: ![](/assets/en/Project/lockicon.png)
 * si un archivo abierto se edita simultáneamente desde diferentes ubicaciones, 4D muestra un diálogo de alerta al intentar guardar los cambios:
 
-![](../assets/en/Project/projectReload.png)
+![](/assets/en/Project/projectReload.png)
 
 * **Sí**: ignorar los cambios del editor y volver a cargar la versión modificada
 * **No**: guardar los cambios y sobrescribir la otra versión

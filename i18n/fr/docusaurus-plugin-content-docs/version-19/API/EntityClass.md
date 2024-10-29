@@ -1288,7 +1288,7 @@ Dans le paramètre *options*, vous pouvez passer les sélecteurs `dk with primar
 
 La structure suivante sera utilisée pour les exemples de cette section :
 
-![](../assets/en/API/dataclassAttribute4.png)
+![](/assets/en/API/dataclassAttribute4.png)
 
 Sans paramètre filtre :
 

@@ -5,7 +5,7 @@ title: Caixa de selecção
 
 Uma caixa de seleção é um tipo de botão usado para introduzir ou exibir dados binários (verdadeiro-falso). Basicamente, ou é verificada ou não, mas um [terceiro estado](#three-states-check-box) pode ser definido.
 
-![](../assets/en/FormObjects/checkbox.png)
+![](/assets/en/FormObjects/checkbox.png)
 
 As caixas de verificação são controladas por métodos ou [acções normalizadas](#using-a-standard-action). O método associado com ela é executado quando selecionar a caixa de seleção. Como todos os botões, uma variável da caixa de seleção é estabelecida em 0 quando o formulário é aberto pela primeira vez.
 
@@ -26,7 +26,7 @@ Uma parte ou todas as caixas de seleção de um formulário podem estar marcadas
 
 Os objetos caixa de seleção de estilo [Clássico](checkbox_overview.md#regular) y [Plano](checkbox_overview.md#flat) aceitam um terceiro estado. Este terceiro estado é um estado intermediário, que geralmente se usa para fins de visualização. Por exemplo, permite indicar que uma propriedade é presentada em uma seleção de objetos,
 
-![](../assets/en/FormObjects/checkbox_3states.png)
+![](/assets/en/FormObjects/checkbox_3states.png)
 
 Para ativar este terceiro estado, deve selecionar a propriedade [Três estados](properties_Display.md#three-states).
 
@@ -87,7 +87,7 @@ Com exceção das [propriedades disponíveis](#supported-properties), muitos obj
 
 O estilo Clássico de caixa de seleção corresponde a um sistema de caixa de seleção padrão (*ou seja, *, um retângulo com um título descritivo):
 
-![](../assets/en/FormObjects/checkbox_regular.png)
+![](/assets/en/FormObjects/checkbox_regular.png)
 
 #### JSON Exemplo
 
@@ -111,7 +111,7 @@ O estilo Clássico de caixa de seleção corresponde a um sistema de caixa de se
 
 O estilo de caixa de seleção Plano tem uma aparência minimalista. A natureza gráfica do estilo Flat é especialmente útil para os formulários que vão ser impressos.
 
-![](../assets/en/FormObjects/checkbox_flat.png)
+![](/assets/en/FormObjects/checkbox_flat.png)
 
 #### JSON Exemplo
 
@@ -138,7 +138,7 @@ O estilo Barra de ferramentas tem um fundo transparente com um título. Está ge
 
 Exemplo com estados selecionado/ não selecionado/ ressaltado:
 
-![](../assets/en/FormObjects/checkbox_toolbar.png)
+![](/assets/en/FormObjects/checkbox_toolbar.png)
 
 
 #### JSON Exemplo
@@ -167,7 +167,7 @@ O estilo Bevel tem um fundo cinza claro com um título. Está geralmente associa
 
 Exemplo com estados selecionado/ não selecionado/ ressaltado:
 
-![](../assets/en/FormObjects/checkbox_bevel.png)
+![](/assets/en/FormObjects/checkbox_bevel.png)
 
 
 #### JSON Exemplo
@@ -196,7 +196,7 @@ O estilo Bevel arredondado tem um fundo cinza claro com um título. Está geralm
 
 Exemplo em macOS:
 
-  ![](../assets/en/FormObjects/checkbox_roundedbevel_mac.png)
+  ![](/assets/en/FormObjects/checkbox_roundedbevel_mac.png)
 
 > em Windows, o estilo Bevel arredondado é idêntico ao estilo [Bevel](#bevel).
 
@@ -225,7 +225,7 @@ O estilo de caixa de seleção OS X Gradient é quase idêntico ao estilo [Bevel
 
 O estilo Gradient OS X tem um fundo cinza claro com um título e se mostra como um botão de sistema de dois tons em macOS. Está geralmente associado com uma [imagem de 4 estados](properties_TextAndPicture.md#number-of-states).
 
-  ![](../assets/en/FormObjects/checkbox_osxgradient_mac.png)
+  ![](/assets/en/FormObjects/checkbox_osxgradient_mac.png)
 
 > Em Windows, este estilo é idêntico ao estilo [Bevel](#bevel).
 
@@ -257,11 +257,11 @@ Como padrão, o estilo OS X Textured aparece como:
 
  - *Windows* - um botão padrão com um fundo azul claro com um título no centro.
 
-  ![](../assets/en/FormObjects/checkbox_osxtextured.png)
+  ![](/assets/en/FormObjects/checkbox_osxtextured.png)
 
  - *macOS* - um botão de sistema ‘standard’. Sua altura está predefinida: não é possível ampliar ou reduzir.
 
-  ![](../assets/en/FormObjects/checkbox_osxtextured_mac.png)
+  ![](/assets/en/FormObjects/checkbox_osxtextured_mac.png)
 
 #### JSON Exemplo
 
@@ -288,11 +288,11 @@ As cores (ressaltado e fundo) de um botão com o estilo Office XP são baseadas 
 
  - *Windows* - seu fundo só aparece quando o mouse passa por cima. Exemplo com estados selecionado/ não selecionado/ ressaltado:
 
-  ![](../assets/en/FormObjects/checkbox_officexp.png)
+  ![](/assets/en/FormObjects/checkbox_officexp.png)
 
  - *macOS* - seu fundo é sempre mostrado. Exemplos com estados desmarcado/ marcado:
 
-  ![](../assets/en/FormObjects/checkbox_officexp_mac.png)
+  ![](/assets/en/FormObjects/checkbox_officexp_mac.png)
 
 #### JSON Exemplo
 
@@ -319,11 +319,11 @@ Este estilo de caixa de seleção pode ser usado para adicionar um ícone padrã
 
  - *Windows* - o ícone parece-se com um [+] ou um [-]
 
-  ![](../assets/en/FormObjects/checkbox_collapse.png)
+  ![](/assets/en/FormObjects/checkbox_collapse.png)
 
  - *macOS* - parece com um triângulo apontando para cima ou para baixo.
 
-  ![](../assets/en/FormObjects/checkbox_collapse_mac.png)
+  ![](/assets/en/FormObjects/checkbox_collapse_mac.png)
 
 :::info
 
@@ -354,11 +354,11 @@ Em macOS e Windows, uma caixa de seleção com o estilo de botão "Divulgação"
 
  - *Windows*
 
-    ![](../assets/en/FormObjects/checkbox_disclosure.png)
+    ![](/assets/en/FormObjects/checkbox_disclosure.png)
 
  - *macOS*
 
-    ![](../assets/en/FormObjects/checkbox_disclosure_mac.png)
+    ![](/assets/en/FormObjects/checkbox_disclosure_mac.png)
 
 :::info
 

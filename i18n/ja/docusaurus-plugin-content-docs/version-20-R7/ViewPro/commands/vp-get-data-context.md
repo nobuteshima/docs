@@ -35,7 +35,7 @@ title: VP Get data context
 
 次のセルにバインドされたデータコンテキストを取得します:
 
-![](../../assets/en/ViewPro/vp-set-data-context-bind.png)
+![](/assets/en/ViewPro/vp-set-data-context-bind.png)
 
 ```4d
 var $dataContext : Object

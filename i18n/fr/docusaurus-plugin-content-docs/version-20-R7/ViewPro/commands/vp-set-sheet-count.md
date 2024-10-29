@@ -26,7 +26,7 @@ In `number`, pass a number corresponding to how many sheets the document will co
 
 Le document comporte actuellement une feuille :
 
-![](../../assets/en/ViewPro/vp-sheet-1.png)
+![](/assets/en/ViewPro/vp-sheet-1.png)
 
 Pour régler le nombre de feuilles sur 3 :
 
@@ -34,7 +34,7 @@ Pour régler le nombre de feuilles sur 3 :
 VP SET SHEET COUNT("ViewProArea";3)
 ```
 
-![](../../assets/en/ViewPro/vp-sheet-3.png)
+![](/assets/en/ViewPro/vp-sheet-3.png)
 
 #### Voir également
 

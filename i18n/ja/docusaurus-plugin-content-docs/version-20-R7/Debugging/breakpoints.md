@@ -17,7 +17,7 @@ title: ブレークポイントとキャッチコマンド
 
 次の図では、ブレークポイント (赤い点) がデバッガー内で、`If ($in.dataClass#Null)` の行に設定されています:
 
-![break-point](../assets/en/Debugging/break.png)
+![break-point](/assets/en/Debugging/break.png)
 
 上の状態で [**トレース終了**](./debugger.md/#トレース終了) ボタンをクリックすると、ブレークポイントが設定された行まで実行が再開されます。 その後、ブレークポイントで示された行は実行されずに、トレースモードへ 戻ります。 プログラムカウンターより下方の (後に実行される) 行にブレークポイントを設定し、**トレース終了** ボタンをクリックすると、ブレークポイントまでのメソッドをスキップすることができます。
 
@@ -27,7 +27,7 @@ title: ブレークポイントとキャッチコマンド
 
 ブレークポイントプロパティウィンドウを使って、ブレークポイントのふるまいを変更することができます:
 
-![breakpoint-properties](../assets/en/Debugging/breakpoint-properties.png)
+![breakpoint-properties](/assets/en/Debugging/breakpoint-properties.png)
 
 このウィンドウはコードエディターおよびデバッガーの [ソースコードエリア](debugger.md#ソースコードエリア) からアクセスします。 次のことが可能です:
 
@@ -59,7 +59,7 @@ title: ブレークポイントとキャッチコマンド
 
 2. **ブレーク** タブをクリックして、ブレークリストを表示させます:
 
-![break-list-runtime-explorer](../assets/en/Debugging/break-list.png)
+![break-list-runtime-explorer](/assets/en/Debugging/break-list.png)
 
 このウィンドウを使用して、以下のことが可能です:
 
@@ -84,7 +84,7 @@ title: ブレークポイントとキャッチコマンド
 
 2. **キャッチ** タブをクリックすると、キャッチコマンドリストが表示されます:
 
-![runtime-explorer-window](../assets/en/Debugging/catch-command.png)
+![runtime-explorer-window](/assets/en/Debugging/catch-command.png)
 
 このページは、実行中にキャッチされるコマンドをリスト表示します。 リストは 2つの列で構成されています:
 

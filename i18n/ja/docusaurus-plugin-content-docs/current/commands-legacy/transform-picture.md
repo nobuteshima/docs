@@ -58,7 +58,7 @@ displayed_sidebar: docs
 
 結果は以下の様になります:
 
-![](../assets/en/commands/pict1359750.en.png)
+![](/assets/en/commands/pict1359750.en.png)
 
 #### 例題 2 
 
@@ -68,7 +68,7 @@ displayed_sidebar: docs
  TRANSFORM PICTURE($vpGears;Crop;50;50;100;100)
 ```
 
-![](../assets/en/commands/pict28288.ja.png)
+![](/assets/en/commands/pict28288.ja.png)
 
 #### 参照 
 

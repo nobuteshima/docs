@@ -31,7 +31,7 @@ Em 4D, se cria um novo objeto sinal chamando ao comando [`New signal`](#new-sign
 - `signal.wait()` deve ser chamado do worker/processo que precisa de outro worker/processo para terminar uma tarefa para poder continuar.
 - `signal.trigger()` deve ser chamado desde worker/processo que terminou sua execução para liberar a todos os outros.
 
-![](../assets/en/API/signal.png)
+![](/assets/en/API/signal.png)
 
 Quando um sinal tiver sido lançado usando uma chamada `signal.trigger()`, não pode ser reutilizado. Se quiser estabelecer outro sinal, precisa chamar o comando `New signal` novamente.
 
