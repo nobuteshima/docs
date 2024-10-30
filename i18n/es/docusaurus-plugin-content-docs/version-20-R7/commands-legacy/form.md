@@ -53,7 +53,7 @@ Para más información, consulte la sección *Subformularios en página*.
 
 En un formulario, usted asignó algunas propiedades de objeto [Form](form.md) a variables:
 
-![](/assets/en/commands/pict3515147.en.png)
+![](/assets/en/commands/pict3541682.en.png)
 
 Luego, puede ejecutarlas desde cualquier lugar de la aplicación:
 

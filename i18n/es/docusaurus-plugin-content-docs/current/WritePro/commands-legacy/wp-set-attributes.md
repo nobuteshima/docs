@@ -146,7 +146,7 @@ Usted desea definir pestañas en intervalos variables y designar diferentes cara
 
 El resultado es:
 
-![](/assets/en/WritePro/commands/pict3634557.en.png)
+![](/assets/en/WritePro/commands/pict4251559.en.png)
 
 #### Ver también 
 

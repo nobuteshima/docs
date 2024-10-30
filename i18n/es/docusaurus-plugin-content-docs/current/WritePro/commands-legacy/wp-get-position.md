@@ -145,7 +145,7 @@ Los siguientes ejemplos ilustran las coordenadas del rectángulo delimitador dev
  $paraCoordinates:=WP Get position($paragraph) // línea punteada verde
 ```
 
-![](/assets/en/WritePro/commands/pict4096405.es.png)
+![](/assets/en/WritePro/commands/pict4096405.en.png)
 
 *Línea de puntos roja:* *valores de objeto $textCoordinates* 
 *Línea de puntos verde:* *valores de objeto $* *paraCoordinates* 
