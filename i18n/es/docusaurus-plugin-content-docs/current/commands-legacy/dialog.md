@@ -77,7 +77,7 @@ El siguiente ejemplo puede usarse para crear una paleta de herramientas
 
 En un formulario, usted asignó algunas propiedades de objeto [Form](form.md) a variables:
 
-![](/assets/en/commands/pict3515147.en.png)
+![](/assets/en/commands/pict3515152.en.png)
 
 Luego, puede ejecutarlas desde cualquier lugar de la aplicación:
 
