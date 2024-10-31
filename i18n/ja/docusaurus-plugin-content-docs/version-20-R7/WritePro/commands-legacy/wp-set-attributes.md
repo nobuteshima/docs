@@ -146,7 +146,7 @@ displayed_sidebar: docs
 
 結果は以下のようになります:
 
-![](/assets/en/WritePro/commands/pict3634557.en.png)
+![](/assets/en/WritePro/commands/pict4251559.en.png)
 
 #### 参照 
 
