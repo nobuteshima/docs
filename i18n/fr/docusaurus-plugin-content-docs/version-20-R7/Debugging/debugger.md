@@ -23,7 +23,7 @@ Il existe plusieurs façons d'afficher le débogueur :
 
 Lorsqu'il est appelé, la fenêtre du débogueur fournit le nom de la méthode ou de la fonction de classe que vous êtes en train de tracer, ainsi que l'action qui a provoqué l'apparition initiale de la fenêtre du débogueur. Par exemple, dans la fenêtre du débogueur ci-dessus :
 
-- _Clients_BuildLogo_ est la méthode en cours de traçage
+- *Clients_BuildLogo* est la méthode en cours de traçage
 - La fenêtre du débogueur s'est affichée parce qu'elle a détecté un appel à la commande `C_PICTURE`, qui faisait partie des commandes à identifier
 
 L'affichage d'une nouvelle fenêtre de débogage utilise la même configuration que la dernière fenêtre affichée dans la même session. Si vous exécutez plusieurs process utilisateur, vous pouvez les tracer indépendamment et avoir une fenêtre de débogage ouverte pour chaque process.
@@ -293,7 +293,7 @@ Le fenêtre d'évaluation sert à évaluer les expressions. Elle est similaire a
 - pointer
 - calcul
 - commande 4D
-- méthode
+- method
 - et tout ce qui renvoie une valeur
 
 ![custom-Watch-pane](/assets/en/Debugging/custom-watch-pane.png)
@@ -405,11 +405,11 @@ Le menu contextuel de la Fenêtre d'évaluation du code donne accès à plusieur
 ![source-code-pane-context-window](/assets/en/Debugging/sourceCodePaneContext.png)
 
 - **Aller à définition** : permet d’accéder à la définition de l’objet sélectionné. Cette commande est disponible avec les objets suivants :
-  - _Méthode projet :_ affiche le contenu de la méthode dans une nouvelle fenêtre de l'éditeur de code
-  - _Champ_ : affiche les propriétés du champ dans l’inspecteur de la fenêtre de structure
-  - _table_ : affiche les propriétés de la table dans l’inspecteur de la fenêtre de structure
-  - _formulaire_ : affiche le formulaire dans l’éditeur de formulaires
-  - _variable_ (locale, process, interprocess ou paramètre $n) : affiche la ligne de déclaration de la variable dans la méthode courante ou parmi les méthodes compilateur
+  - *Méthode projet :* affiche le contenu de la méthode dans une nouvelle fenêtre de l'éditeur de code
+  - *Champ* : affiche les propriétés du champ dans l’inspecteur de la fenêtre de structure
+  - *table* : affiche les propriétés de la table dans l’inspecteur de la fenêtre de structure
+  - *formulaire* : affiche le formulaire dans l’éditeur de formulaires
+  - *variable* (locale, process, interprocess ou paramètre $n) : affiche la ligne de déclaration de la variable dans la méthode courante ou parmi les méthodes compilateur
 - **Chercher les références** (cette fonction est également accessible depuis l’Editeur de code) : rechercher tous le projet (méthodes et formulaires) dans lesquels l’élément courant de la méthode est référencé. L’élément courant est l’élément sélectionné ou l’élément dans lequel se trouve le curseur. Il peut s’agir d’un nom de champ, de variable, de commande, d’une chaîne, etc. Le résultat de la recherche est affiché dans une nouvelle fenêtre de résultat standard.
 - **Copier** : copie standard de l'expression sélectionnée dans le conteneur de données.
 - **Copier dans la fenêtre d'expression** : copie l'expression sélectionnée dans la Fenêtre d'évaluation.
@@ -451,7 +451,7 @@ Cette section répertorie tous les raccourcis disponibles dans la fenêtre du d�
 #### Toutes les fenêtres
 
 - **Ctrl** + **+/-** (Windows) ou **Commande** + **+/-** (macOS) augmente ou réduit la taille de la police pour une meilleure lisibilité. La taille de la police modifiée s'applique également à l'Editeur de code et est stockée dans les Préférences.
-- **Ctrl+**_(Windows) ou **Commande+**_ (macOS) force la réactualisation de la Fenêtre d'expression.
+- **Ctrl+***(Windows) ou **Commande+*** (macOS) force la réactualisation de la Fenêtre d'expression.
 - Lorsqu'aucun objet n’est sélectionné dans les fenêtres, en appuyant sur **Entrée**, vous avancez d’une ligne.
 - Lorsque la valeur d’un élément est sélectionnée, utilisez les touches directionnelles pour naviguer dans la liste.
 - Lorsque vous êtes en train d’éditer un élément, utilisez les touches directionnelles pour déplacer le curseur. Utilisez Ctrl+A/X/C/V (Windows) ou Commande+A/X/C/V (macOS) en raccourci des commandes du menu Edition : Tout Sélectionner/Couper/Copier/Coller.

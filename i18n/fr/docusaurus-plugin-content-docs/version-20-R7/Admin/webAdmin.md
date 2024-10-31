@@ -25,7 +25,7 @@ Cochez l'option **Lancer le serveur WebAdmin au démarrage** dans la boîte de d
 
 ![alt-text](/assets/en/Admin/waSettings.png)
 
-- Que vous utilisiez une application 4D avec ou sans interface, vous pouvez activer le lancement automatique au démarrage en utilisant l'argument suivant dans _L'interface de ligne de commande_ :
+- Que vous utilisiez une application 4D avec ou sans interface, vous pouvez activer le lancement automatique au démarrage en utilisant l'argument suivant dans *L'interface de ligne de commande* :
 
 ```
 open ~/Desktop/4D.app --webadmin-auto-start true
@@ -49,7 +49,7 @@ La configuration du composant `WebAdmin` est obligatoire, en particulier pour d�
 
 Vous pouvez configurer le composant `WebAdmin` dans la [fenêtre de configuration](#settings-dialog-box)(voir ci-dessous).
 
-> Si vous utilisez une application 4D sans interface, vous pouvez utiliser les [arguments de l'_Interface de ligne de commande_](#webadmin-headless-configuration) pour définir les paramètres de base. La définition de paramètres avancés se fait via le fichier de paramètres.
+> Si vous utilisez une application 4D sans interface, vous pouvez utiliser les [arguments de l'*Interface de ligne de commande*](#webadmin-headless-configuration) pour définir les paramètres de base. La définition de paramètres avancés se fait via le fichier de paramètres.
 
 ### Boîte de dialogue des Propriétés
 
@@ -92,7 +92,7 @@ Chemin du dossier qui contient les fichiers de certificat TLS. Par défaut, le c
 
 #### Mode du debug log
 
-Statut ou format du fichier de logs des requêtes HTTP (HTTPDebugLog__nn_.txt, stocké dans le dossier "Logs" de l'application. --_nn_ représente le numéro du fichier). Les options suivantes sont disponibles :
+Statut ou format du fichier de logs des requêtes HTTP (HTTPDebugLog_*nn*.txt, stocké dans le dossier "Logs" de l'application. --*nn* représente le numéro du fichier). Les options suivantes sont disponibles :
 
 - **Désactivé** (valeur par défaut)
 - **Avec tous les body** - activé avec toutes les parts des body des requêtes et réponses
