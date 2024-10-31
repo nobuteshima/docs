@@ -24,10 +24,33 @@ O comando deve ser chamado no contexto de On Mouse Move [Form event code](form-e
 
 Para restaurar o cursor padrão do mouse, chame o comando sem parâmetros.
 
-Aqui estão os cursores que podem ser passados no parameter 1 *cursor* ![](/assets/en/commands/pict14679.en.png)  
-2![](/assets/en/commands/pict14680.en.png)  
-3![](/assets/en/commands/pict14681.en.png)  
-4![](/assets/en/commands/pict14682.en.png)
+Aqui estão os cursores que podem ser passados no parameter *cursor* 
+
+| **Number** | **Cursor**                                    |
+| ---------- | --------------------------------------------- |
+| 1          | ![](/assets/en/commands/pict14679.en.png)   |
+| 2          | ![](/assets/en/commands/pict14680.en.png)   |
+| 4          | ![](/assets/en/commands/pict2478657.en.png) |
+| 9000       | ![](/assets/en/commands/pict2478660.en.png) |
+| 9001       | ![](/assets/en/commands/pict2478662.en.png) |
+| 9003       | ![](/assets/en/commands/pict2478664.en.png) |
+| 9004       | ![](/assets/en/commands/pict2478666.en.png) |
+| 9005       | ![](/assets/en/commands/pict2478669.en.png) |
+| 9006       | ![](/assets/en/commands/pict2478671.en.png) |
+| 9021       | ![](/assets/en/commands/pict2478674.en.png) |
+| 351        | ![](/assets/en/commands/pict2478676.en.png) |
+| 9010       | ![](/assets/en/commands/pict2478688.en.png) |
+| 9011       | ![](/assets/en/commands/pict2478678.en.png) |
+| 9013       | ![](/assets/en/commands/pict2478680.en.png) |
+| 9014       | ![](/assets/en/commands/pict2478682.en.png) |
+| 9015       | ![](/assets/en/commands/pict2478686.en.png) |
+| 9016       | ![](/assets/en/commands/pict2478684.en.png) |
+| 9017       | ![](/assets/en/commands/pict2478690.en.png) |
+| 9019       | ![](/assets/en/commands/pict2478692.en.png) |
+| 9020       | ![](/assets/en/commands/pict2478694.en.png) |
+| 559        | ![](/assets/en/commands/pict2478698.en.png) |
+| 560        | ![](/assets/en/commands/pict2478696.en.png) |
+
 
 #### Exemplo 
 

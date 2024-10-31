@@ -66,7 +66,7 @@ Insere um objeto no contexto de documento 4D Write Pro e exibe sua informação 
 
 Aqui está o resultado:
 
-![](/assets/en/WritePro/commands/pict5867255.pt.png)
+![](/assets/en/WritePro/commands/pict5867255.en.png)
 
 #### Exemplo 2 
 
