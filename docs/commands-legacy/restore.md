@@ -30,7 +30,7 @@ You can also pass the *destFolderPath* parameter with the pathname of the destin
 
 The RESTORE command modifies the value of the *OK* and *Document* variables: if the restore was carried out correctly, *OK* is set to 1 and *Document* contains the path of the restoration folder. If the user cancels the restoration dialog box, interrupts the restoration or if an error occurs, *OK* is set to 0 and *Document* contains an empty string. You can intercept the error using a method installed via the [ON ERR CALL](on-err-call.md) command.
 
-**Note:** In a 4D application that is compiled and merged with 4D Volume Desktop, the RESTORE command causes the display of a standard open file dialog box that lists by default any files having the “4BK” extension. 
+**Note:** In a 4D application that is compiled and merged with 4D OEM Desktop, the RESTORE command causes the display of a standard open file dialog box that lists by default any files having the “4BK” extension. 
 
 #### See also 
 

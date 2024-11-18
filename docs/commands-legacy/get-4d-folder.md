@@ -58,7 +58,7 @@ The active 4D folder is created by default at the following location:
 
 Folder containing the Licenses files of the machine.
 
-**Note:** In the case of an application merged with 4D Volume Desktop, the licenses folder is included in the package of the application.
+**Note:** In the case of an application merged with 4D OEM Desktop, the licenses folder is included in the package of the application.
 
 ##### Data Folder 
 

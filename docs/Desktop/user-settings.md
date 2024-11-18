@@ -112,7 +112,7 @@ The user settings file linked to the data file is automatically created and plac
 
 :::note
 
-Settings files are XML files; they can be read and modified using integrated 4D XML commands or using an XML editor. This means that you can manage settings by programming, particularly in the context of applications compiled and merged with 4D Volume Desktop. When you modify this file by programming, the changes are only taken into account the next time the database is opened. 
+Settings files are XML files; they can be read and modified using integrated 4D XML commands or using an XML editor. This means that you can manage settings by programming, particularly in the context of applications compiled and merged with 4D OEM Desktop. When you modify this file by programming, the changes are only taken into account the next time the database is opened. 
 
 :::
 

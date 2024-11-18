@@ -56,7 +56,7 @@ If you do not want to use an option, pass 0 in the *options* parameter.
 
 The optional *selected* parameter allows you to get the full access path (access path + name) of every file selected by the user. The command creates, sizes and fills the array according to the user selection. This parameter is useful when the Multiple files option is used or when you want to find out the access path of the selected file (simply take the name of the file returned by the command from the value of the array). If no file is selected, the array is returned empty.
 
-**Note:** Under Mac OS, a selected package is considered as a folder. The pathname returned in the *selected* array includes a final ":" character. For example: Disk:Applications:4D:4D v11.4:US:4D Volume Desktop.app:
+**Note:** Under Mac OS, a selected package is considered as a folder. The pathname returned in the *selected* array includes a final ":" character. For example: Disk:Applications:4D:4D v11.4:US:4D OEM Desktop.app:
 
 The command returns the name (name + extension under Windows) of the selected file. If several files are selected, the command returns the name of the first file in the list of selected files. The list of files can be obtained in the *selected* parameter. If no file is selected, the command returns an empty string.
 

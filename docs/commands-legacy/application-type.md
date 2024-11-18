@@ -23,7 +23,7 @@ displayed_sidebar: docs
 | 4D Local mode     | 0     |                                                                                                             |
 | 4D Remote mode    | 4     |                                                                                                             |
 | 4D Server         | 5     |                                                                                                             |
-| 4D Volume desktop | 1     |                                                                                                             |
+| 4D OEM Desktop | 1     |                                                                                                             |
 | tool4d            | 6     | For more information, see [tool4D](http://developer.4d.com/docs/next/Admin/cli#tool4d) on developer.4d.com. |
 
 **Note:** *4D Desktop* incorporates certain deployment offers, such as, for example,"4D SQL Desktop".

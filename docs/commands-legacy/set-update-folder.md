@@ -23,7 +23,7 @@ displayed_sidebar: docs
 
 This command is intended to be used in an automatic update process for a merged application (server or single-user). For more information, refer to the *Finalizing and deploying final applications* section in the *Design Reference* manual.
 
-**Note:** This command only works with 4D Server or a single-user application merged with 4D Volume Desktop. 
+**Note:** This command only works with 4D Server or a single-user application merged with 4D OEM Desktop. 
 
 In the *folderPath* parameter, pass the complete pathname for the folder of the new version of the merged application (folder containing the *my4DApp.exe* application under Windows or the *my4DApp* *.app* package under OS X), created by the 4D application builder. 
 

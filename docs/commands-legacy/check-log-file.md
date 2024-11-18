@@ -25,7 +25,7 @@ This dialog box includes the **Rollback** button that can be used to cancel oper
 
 **Note:** Since the rollback function is relatively powerful, it is recommended that access to the CHECK LOG FILE command be restricted to the database administrators.
 
-This command can only be used in the context of single-user applications. More particularly, it allows access to the rollback function from 4D Volume Desktop applications (applications with no Design mode). If it is called within a client/server application, the command has no effect and the error 1421 is returned.
+This command can only be used in the context of single-user applications. More particularly, it allows access to the rollback function from 4D OEM Desktop applications (applications with no Design mode). If it is called within a client/server application, the command has no effect and the error 1421 is returned.
 
 #### Error Handling 
 

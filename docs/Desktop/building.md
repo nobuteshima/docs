@@ -8,7 +8,7 @@ title: Build Application
 The application builder allows you to:
 
 * Build a compiled structure or component, without interpreted code,
-* Build a stand-alone, double-clickable application, *i.e.*, merged with 4D Volume Desktop, the 4D database engine,
+* Build a stand-alone, double-clickable application, *i.e.*, merged with 4D OEM Desktop, the 4D database engine,
 * Build different applications from the same compiled structure via an XML project,
 * Build homogeneous client-server applications,
 * Build client-server applications with automatic updating of client and server parts.
@@ -20,7 +20,7 @@ The application builder allows you to:
 
 Building a project package can be carried out using:
 
-* either the [`BUILD APPLICATION`](https://doc.4d.com/4dv20/help/command/en/page871.html) command,
+* either the [`BUILD APPLICATION`](../commands-legacy/build-application.md) command,
 * or the [Build Application dialog](#application-builder).
 
 :::tip
@@ -123,29 +123,29 @@ Checking the **Build stand-alone Application** option and clicking **Build** wil
 
 The following elements are required for the build:
 
-* 4D Volume Desktop (the 4D database engine),
+* 4D OEM Desktop (the 4D database engine),
 * an [appropriate license](#licenses)
 
 On Windows, this feature creates an executable file (.exe). On macOS, it handles the creation of software packages.
 
-The principle consists of merging a compiled structure file with 4D Volume Desktop. The functionality provided by the 4D Volume Desktop file is linked with the product offer to which you have subscribed. For more information about this point, refer to the sales documentation and to the [4D Store](http://www.4d.com/).
+The principle consists of merging a compiled structure file with 4D OEM Desktop. The functionality provided by the 4D OEM Desktop file is linked with the product offer to which you have subscribed. For more information about this point, refer to the sales documentation and to the [4D Store](http://www.4d.com/).
 
 You can define a default data file or allow users to [create and use their own data file](#management-of-data-files).
 
 It is possible to [automate the update of merged single-user applications](#automatic-updating-of-server-or-single-user-applications) by means of a sequence of language commands.
 
-#### 4D Volume Desktop Location
+#### 4D OEM Desktop Location
 
-In order to build a stand-alone application, you must first designate the folder containing the 4D Volume Desktop file:
+In order to build a stand-alone application, you must first designate the folder containing the 4D OEM Desktop file:
 
-* *Windows* - the folder contains the 4D Volume Desktop.4DE, 4D Volume Desktop.RSR, as well as various files and folders required for its operation. These items must be placed at the same level as the selected folder.
-* *macOS* - 4D Volume Desktop is provided in the form of a structured software package containing various generic files and folders.
+* *Windows* - the folder contains the 4D OEM Desktop.4DE, 4D OEM Desktop.RSR, as well as various files and folders required for its operation. These items must be placed at the same level as the selected folder.
+* *macOS* - 4D OEM Desktop is provided in the form of a structured software package containing various generic files and folders.
 
-To select the 4D Volume Desktop folder, click on the **[...]** button. A dialog box appears allowing you to designate the 4D Volume Desktop folder (Windows) or package (macOS).
+To select the 4D OEM Desktop folder, click on the **[...]** button. A dialog box appears allowing you to designate the 4D OEM Desktop folder (Windows) or package (macOS).
 
-Once the folder is selected, its complete pathname is displayed and, if it actually contains 4D Volume Desktop, the option for building an executable application is activated.
+Once the folder is selected, its complete pathname is displayed and, if it actually contains 4D OEM Desktop, the option for building an executable application is activated.
 
-> The 4D Volume Desktop version number must match the 4D Developer Edition version number. For example, if you use 4D Developer v18, you must select a 4D Volume Desktop v18.
+> The 4D OEM Desktop version number must match the 4D Developer Edition version number. For example, if you use 4D Developer v18, you must select a 4D OEM Desktop v18.
 
 #### Data linking mode
 
@@ -170,22 +170,22 @@ If you have specified "MyProject" as the name of the application, you will find 
 **Note**: This folder also contains the *Default Data* folder, if it has been defined (see [Data file management in final applications](#data-file-management-in-final-applicatons).
   * (Optional) Components folder and/or Plugins folder - Contains any components and/or plug-in files included in the project. For more information about this, refer to the [Plugins and components](#plugins-and-components) section.
   * Licenses folder - An XML file of license numbers integrated into the application. For more information about this, refer to the [Licenses & Certificate](#licenses-and-certificate) section.
-  * Additional items added to the 4D Volume Desktop folder, if any (see [Customizing the 4D Volume Desktop folder](#customizing-4d-volume-desktop-folder)).
+  * Additional items added to the 4D OEM Desktop folder, if any (see [Customizing the 4D OEM Desktop folder](#customizing-4d-volume-desktop-folder)).
 
  All these items must be kept in the same folder in order for the executable to operate.
 
 * *macOS*
   * A software package named MyProject.app containing your application and all the items necessary for its operation, including the plug-ins, components and licenses. For more information about integrating plug-ins and components, refer to the [Plugins and components](#plugins-and-components) section. For more information about integrating licenses, refer to the [Licenses & Certificate](#licenses-and-certificate) section. **Note**: In macOS, the [Application file](https://doc.4d.com/4Dv18R4/4D/18-R4/Application-file.301-4982855.en.html) command of the 4D language returns the pathname of the ApplicationName file (located in the Contents:macOS folder of the software package) and not that of the .comp file (Contents:Resources folder of the software package).
 
-#### Customizing 4D Volume Desktop folder
+#### Customizing 4D OEM Desktop folder
 
-When building a stand-alone application, 4D copies the contents of the 4D Volume Desktop folder into Destination folder > *Final Application* folder. You're then able to customize the contents of the original 4D Volume Desktop folder according to your needs. You can, for example:
+When building a stand-alone application, 4D copies the contents of the 4D OEM Desktop folder into Destination folder > *Final Application* folder. You're then able to customize the contents of the original 4D OEM Desktop folder according to your needs. You can, for example:
 
-* Install a 4D Volume Desktop version corresponding to a specific language;
+* Install a 4D OEM Desktop version corresponding to a specific language;
 * Add a custom *PlugIns* folder;
 * Customize the contents of the *Resources* folder.
 
->In macOS, 4D Volume Desktop is provided in the form of a software package. In order to modify it, you must first display its contents (**Control+click** on the icon).
+>In macOS, 4D OEM Desktop is provided in the form of a software package. In order to modify it, you must first display its contents (**Control+click** on the icon).
 
 #### Location of Web files  
 
@@ -211,7 +211,7 @@ A client/server application comes from the combination of three items:
 
 * A compiled 4D project,
 * The 4D Server application,
-* The 4D Volume Desktop application (macOS and/or Windows).
+* The 4D OEM Desktop application (macOS and/or Windows).
 
 Once built, a client/server application is composed of two customized parts: the Server portion (unique) and the Client portion (to install on each client machine).
 
@@ -291,13 +291,13 @@ You can check this option:
 * along with the [**Build server application**](#build-server-application) option to build matching server and client parts for the current platform and (optionally) include the automatic update archive files,
 * without selecting the [**Build server application**](#build-server-application) option, usually to build the update archive file to be selected from the "concurrent" platform when building the server part.
 
-#### 4D Volume Desktop Location
+#### 4D OEM Desktop Location
 
-Designates the location on your disk of the 4D Volume Desktop application to be used to build the client part of your application.
+Designates the location on your disk of the 4D OEM Desktop application to be used to build the client part of your application.
 
-> The 4D Volume Desktop version number must match the 4D Developer Edition version number. For example, if you use 4D v19, you must select a 4D Volume Desktop v19.
+> The 4D OEM Desktop version number must match the 4D Developer Edition version number. For example, if you use 4D v19, you must select a 4D OEM Desktop v19.
 
-The 4D Volume Desktop must correspond to the current platform (which will also be the platform of the client application). If you want to build a client application for the "concurrent" platform, you must carry out an additional build operation using a 4D application running on that platform.
+The 4D OEM Desktop must correspond to the current platform (which will also be the platform of the client application). If you want to build a client application for the "concurrent" platform, you must carry out an additional build operation using a 4D application running on that platform.
 
 If you want the client application to connect to the server using a specific address (other than the server name published on the sub-network), you must use the `IPAddress` XML key in the buildapp.4DSettings file. For more information about this file, refer to the description of the [`BUILD APPLICATION`](https://doc.4d.com/4dv19/help/command/en/page871.html) command. You can also implement specific mechanisms in the event of a connection failure. The different scenarios proposed are described in the [Management of connections by client applications](#management-of-client-connections) paragraph.
 
@@ -325,7 +325,7 @@ This feature requires that you click on the **[...]** button and designate the l
 
 |Current server platform|Required file|Details|
 |---|---|---|
-|macOS|Windows 4D Volume Desktop *or* Windows client update archive|By default, you select the `4D Volume Desktop` application for Windows. To select a `.4darchive` file previously built on Windows, press **Shift** while clicking on [...]|
+|macOS|Windows 4D OEM Desktop *or* Windows client update archive|By default, you select the `4D OEM Desktop` application for Windows. To select a `.4darchive` file previously built on Windows, press **Shift** while clicking on [...]|
 |Windows|macOS client update archive|Select a signed `.4darchive` file previously built on macOS|
 
 You can build specific a `.4darchive` file on the concurrent platform by selecting only the [**Build client application**](#build-client-application) and the appropriate [**Allow automatic update...**](#copy-of-client-applications-inside-the-server-application) option.
@@ -357,7 +357,7 @@ If 4D cannot carry out the update of the client application, the client machine 
 
 There are many possible causes for this error. When you get this message, it is advisable to check the following parameters first off:
 
-* **Pathnames** - Check the validity of the pathnames set in the application project via the Application builder dialog box or via XML keys (for example *ClientMacFolderToWin*). More particularly, check the pathnames to the versions of 4D Volume Desktop.
+* **Pathnames** - Check the validity of the pathnames set in the application project via the Application builder dialog box or via XML keys (for example *ClientMacFolderToWin*). More particularly, check the pathnames to the versions of 4D OEM Desktop.
 * **Read/write privileges** - On the client machine, check that the current user has write access rights for the client application update.
 
 ### Generated files  
@@ -370,7 +370,7 @@ The `<ApplicationName>Client` folder contains the client portion of the applicat
 
 The contents of these folders vary depending on the current platform:
 
-* *Windows* - Each folder contains the application executable file, named `<ApplicationName>Client.exe` for the client part and `<ApplicationName>Server.exe` for the server part as well as the corresponding .rsr files. The folders also contain various files and folders necessary for the applications to work and customized items that may be in the original 4D Volume Desktop and 4D Server folders.
+* *Windows* - Each folder contains the application executable file, named `<ApplicationName>Client.exe` for the client part and `<ApplicationName>Server.exe` for the server part as well as the corresponding .rsr files. The folders also contain various files and folders necessary for the applications to work and customized items that may be in the original 4D OEM Desktop and 4D Server folders.
 * *macOS* - Each folder contains only the application package, named `<ApplicationName> Client` for the client part and `<ApplicationName> Server` for the server part. Each package contains all the necessary items for the application to work. Under macOS, launch a package by double-clicking it.
 
  > The macOS packages built contain the same items as the Windows subfolders. You can display their contents (**Control+click** on the icon) in order to be able to modify them.
@@ -469,9 +469,9 @@ The page lists the elements loaded by the current 4D application:
 
 ### Adding plug-ins or components
 
-If you want to integrate other plug-ins or components into the executable application, you just need to place them in a **PlugIns** or **Components** folder next to the 4D Volume Desktop application or next to the 4D Server application. The mechanism for copying the contents of the source application folder (see [Customizing the 4D Volume Desktop folder](#customizing-4d-volume-desktop-folder)) can be used to integrate any type of file into the executable application.
+If you want to integrate other plug-ins or components into the executable application, you just need to place them in a **PlugIns** or **Components** folder next to the 4D OEM Desktop application or next to the 4D Server application. The mechanism for copying the contents of the source application folder (see [Customizing the 4D OEM Desktop folder](#customizing-4d-volume-desktop-folder)) can be used to integrate any type of file into the executable application.
 
-If there is a conflict between two different versions of the same plug-in (one loaded by 4D and the other located in the source application folder), priority goes to the plug-in installed in the 4D Volume Desktop/4D Server folder. However, if there are two instances of the same component, the application will not open.
+If there is a conflict between two different versions of the same plug-in (one loaded by 4D and the other located in the source application folder), priority goes to the plug-in installed in the 4D OEM Desktop/4D Server folder. However, if there are two instances of the same component, the application will not open.
 
 >The use of plug-ins and/or components in a deployment version may require license numbers.
 

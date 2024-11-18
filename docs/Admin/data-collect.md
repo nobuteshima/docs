@@ -48,7 +48,7 @@ Some data is also collected at regular intervals.
 |encryptedConnections|Boolean|True if client/server connections are encrypted|
 |encrypted|Boolean|True if the data file is encrypted|
 |compiled|Boolean|True if the application is compiled|
-|isEngined|Boolean|True if the application is merged with 4D Volume Desktop|
+|isEngined|Boolean|True if the application is merged with 4D OEM Desktop|
 |projectMode|Boolean|True if the application is a project|
 |mobile|Collection|Information on mobile sessions|
 

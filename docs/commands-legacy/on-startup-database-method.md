@@ -23,7 +23,7 @@ This occurs in the following 4D environments:
 
 * 4D in local mode
 * 4D in remote mode (on the client side, after the connection has been accepted by 4D Server)
-* 4D application compiled and merged with 4D Volume Desktop
+* 4D application compiled and merged with 4D OEM Desktop
 
 **Note**: The On Startup database method is NOT invoked by 4D Server.
 
